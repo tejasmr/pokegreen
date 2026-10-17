@@ -152,7 +152,7 @@ endif
 
 RGBLINKFLAGS += -d -p 0
 
-RGBFIXFLAGS += -sv -k 01 -l 0x33 -m MBC1+RAM+BATTERY -r 03 -p 0
+RGBFIXFLAGS += -sv -k 01 -l 0x33 -m MBC3+RAM+BATTERY -r 03 -p 0
 pokered.gb:        RGBFIXFLAGS += -n 0 -t "POKEMON RED"
 pokegreen.gb:      RGBFIXFLAGS += -n 0 -t "POKEMON GREEN"
 pokered11.gb:      RGBFIXFLAGS += -n 1 -t "POKEMON RED"
