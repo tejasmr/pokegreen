@@ -349,8 +349,8 @@ ContinueText:
 	; fallthrough
 
 NewGameText:
-	db   "NEW GAME"
-	next "OPTIONS@"
+	db   "START"
+	next "SETUP@"
 
 CableClubOptionsText:
 	db   "TRADE CENTER"
@@ -588,19 +588,19 @@ DisplayOptionMenu:
 	jp .eraseOldMenuCursor
 
 TextSpeedOptionText:
-	db   "TEXT SPEED"
-	next "　FAST　　　MID　　　SLOW@"
+	db   "DIALOG SPEED"
+	next "　QUICK　COMMON　SLOW@"
 
 BattleAnimationOptionText:
-	db   "BATTLE ANIMATION"
-	next "　ON　　　　　　　　　OFF　　　@"
+	db   "FIGHTING CARTOON"
+	next "　VIEW　　　　　　　PASS　　@"
 
 BattleStyleOptionText:
-	db   "BATTLE STYLE"
-	next "　SHIFT　　　　SET　　　　@"
+	db   "MATCH RULE"
+	next "　REPLACE　　SET　　　　@"
 
 OptionMenuCancelText:
-	db "CANCEL@"
+	db "END@"
 
 ; sets the options variable according to the current placement of the menu cursors in the options menu
 SetOptionsFromCursorPositions:
