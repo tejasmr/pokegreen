@@ -12,20 +12,7 @@ SECTION "Garbage 0", ROM0
 
 
 SECTION "Garbage 1", ROMX
-IF DEF(_REV0)
-	IF DEF(_RED)
-		db $D6
-	ENDC
-	db $CB, $B6, $CD, $86, $1B
-ENDC
-IF DEF(_REV1)
-	IF DEF(_RED)
-		INCBIN "garbage/rev_1/garbage_1.bin"
-	ENDC
-	IF DEF(_GREEN)
-		INCBIN "garbage/rev_1/garbage_1.bin", 1
-	ENDC
-ENDC
+; empty to allow Bank 1 expansions
 
 
 SECTION "Garbage 2", ROMX
