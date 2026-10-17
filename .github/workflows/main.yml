@@ -28,7 +28,7 @@ jobs:
       symbols_name: ${{ steps.meta.outputs.symbols_name }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Extract commit metadata
         id: meta
@@ -129,7 +129,7 @@ jobs:
           sha1sum *.gb *.patch > checksums.sha1 2>/dev/null || true
 
       - name: Publish Test ROMs Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ steps.meta.outputs.artifact_name }}
           path: |
@@ -141,7 +141,7 @@ jobs:
           if-no-files-found: error
 
       - name: Publish Debug Symbols Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ steps.meta.outputs.symbols_name }}
           path: |
@@ -159,24 +159,26 @@ jobs:
       contents: write
     steps:
       - name: Download ROMs and Patches
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v7
         with:
           name: ${{ needs.build.outputs.artifact_name }}
           path: release-assets
 
       - name: Download Symbols & Maps
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v7
         with:
           name: ${{ needs.build.outputs.symbols_name }}
           path: release-assets/symbols
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
-        with:
-          files: |
-            release-assets/*.gb
-            release-assets/*.patch
-            release-assets/checksums.sha1
-            release-assets/build-info.txt
-            release-assets/symbols/*
-          generate_release_notes: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ github.ref_name }}" \
+            release-assets/*.gb \
+            release-assets/*.patch \
+            release-assets/checksums.sha1 \
+            release-assets/build-info.txt \
+            $(find release-assets/symbols -type f 2>/dev/null) \
+            --title "${{ github.ref_name }}" \
+            --generate-notes
