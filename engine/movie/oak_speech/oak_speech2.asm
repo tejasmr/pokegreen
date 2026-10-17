@@ -75,7 +75,7 @@ OakSpeechSlidePicLeft:
 	call DelayFrames
 	pop de
 	ld hl, wNameBuffer
-	ld bc, NAME_LENGTH
+	ld bc, PLAYER_NAME_LENGTH
 	call CopyData
 	call Delay3
 	hlcoord 12, 4

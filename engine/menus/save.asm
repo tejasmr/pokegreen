@@ -60,7 +60,7 @@ LoadMainData:
 .checkSumMatched
 	ld hl, sPlayerName
 	ld de, wPlayerName
-	ld bc, NAME_LENGTH
+	ld bc, PLAYER_NAME_LENGTH
 	call CopyData
 	ld hl, sMainData
 	ld de, wMainDataStart
@@ -211,7 +211,7 @@ SaveMainData:
 
 	ld hl, wPlayerName
 	ld de, sPlayerName
-	ld bc, NAME_LENGTH
+	ld bc, PLAYER_NAME_LENGTH
 	call CopyData
 	ld hl, wMainDataStart
 	ld de, sMainData

@@ -204,15 +204,15 @@ Trade_LoadMonPartySpriteGfx:
 Trade_SwapNames:
 	ld hl, wPlayerName
 	ld de, wBuffer
-	ld bc, NAME_LENGTH
+	ld bc, PLAYER_NAME_LENGTH
 	call CopyData
 	ld hl, wLinkEnemyTrainerName
 	ld de, wPlayerName
-	ld bc, NAME_LENGTH
+	ld bc, PLAYER_NAME_LENGTH
 	call CopyData
 	ld hl, wBuffer
 	ld de, wLinkEnemyTrainerName
-	ld bc, NAME_LENGTH
+	ld bc, PLAYER_NAME_LENGTH
 	jp CopyData
 
 Trade_Cleanup:
