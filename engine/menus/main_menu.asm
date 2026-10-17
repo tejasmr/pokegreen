@@ -300,18 +300,18 @@ LinkMenu:
 	ret
 
 WhereWouldYouLikeText:
-	text "Which room will"
-	line "you go to?"
+	text "WHICH ROOM WILL"
+	line "YOU GO TO?"
 	done
 
 PleaseWaitText:
-	text "We will guide"
-	line "you inside."
+	text "WE WILL GUIDE"
+	line "YOU INSIDE."
 	done
 
 LinkCanceledText:
-	text "Communication was"
-	line "cancelled."
+	text "COMMUNICATION WAS"
+	line "CANCELLED."
 	done
 
 StartNewGame:
