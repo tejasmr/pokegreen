@@ -47,11 +47,15 @@ jobs:
             echo "Downloading prebuilt RGBDS from $URL..."
             mkdir -p /tmp/rgbds
             wget -qO- "$URL" | tar -xJ -C /tmp/rgbds
-            if [ -f /tmp/rgbds/install.sh ]; then
-              sudo /tmp/rgbds/install.sh
+            INSTALL_SH=$(find /tmp/rgbds -name install.sh 2>/dev/null | head -n 1)
+            if [ -n "$INSTALL_SH" ]; then
+              INSTALL_DIR=$(dirname "$INSTALL_SH")
+              echo "Running install.sh from $INSTALL_DIR..."
+              (cd "$INSTALL_DIR" && sudo ./install.sh)
             else
               find /tmp/rgbds -type f \( -name rgbasm -o -name rgblink -o -name rgbfix -o -name rgbgfx \) -exec sudo cp {} /usr/local/bin/ \;
             fi
+            sudo chmod +x /usr/local/bin/rgb* 2>/dev/null || true
           else
             echo "Prebuilt binary not found. Compiling RGBDS v${RGBDS_VER} from source..."
             sudo apt-get install -yq bison pkg-config

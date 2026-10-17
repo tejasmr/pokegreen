@@ -20,7 +20,8 @@ ARG RGBDS_VERSION=1.0.3
 RUN wget -q "https://github.com/gbdev/rgbds/releases/download/v${RGBDS_VERSION}/rgbds-linux-x86_64.tar.xz" \
     && mkdir -p /tmp/rgbds \
     && tar -xJf rgbds-linux-x86_64.tar.xz -C /tmp/rgbds \
-    && if [ -f /tmp/rgbds/install.sh ]; then /tmp/rgbds/install.sh; else find /tmp/rgbds -type f \( -name rgbasm -o -name rgblink -o -name rgbfix -o -name rgbgfx \) -exec cp {} /usr/local/bin/ \;; fi \
+    && INSTALL_SH=$(find /tmp/rgbds -name install.sh | head -n 1) \
+    && if [ -n "$INSTALL_SH" ]; then cd "$(dirname "$INSTALL_SH")" && ./install.sh; else find /tmp/rgbds -type f \( -name rgbasm -o -name rgblink -o -name rgbfix -o -name rgbgfx \) -exec cp {} /usr/local/bin/ \;; fi \
     && rm -rf rgbds-linux-x86_64.tar.xz /tmp/rgbds
 
 WORKDIR /app
