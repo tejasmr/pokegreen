@@ -333,13 +333,13 @@ CopyrightTextString:
 
 INCLUDE "data/pokemon/title_mons.asm"
 
-; prints version text (red, green)
+; prints version text (aka, midori)
 PrintGameVersionOnTitleScreen:
 IF DEF(_RED)
-	hlcoord 7, 8
+	hlcoord 4, 8
 ENDC
 IF DEF(_GREEN)
-	hlcoord 6, 8
+	hlcoord 3, 8
 ENDC
 	ld de, VersionOnTitleScreenText
 	jp PlaceString
@@ -347,10 +347,10 @@ ENDC
 ; these point to special tiles specifically loaded for that purpose and are not usual text
 VersionOnTitleScreenText:
 IF DEF(_RED)
-	db $60, $61, $7F, $65, $66, $67, $68, $69, "@" ; "Red Version"
+	db $60, $61, $62, $7F, $69, $6A, $6B, $6C, $6D, $6E, $6F, "@" ; "AKA VERSION"
 ENDC
 IF DEF(_GREEN)
-	db $62, $63, $64, $7F, $65, $66, $67, $68, $69, "@" ; "Green Version"
+	db $63, $64, $65, $66, $67, $68, $7F, $69, $6A, $6B, $6C, $6D, $6E, $6F, "@" ; "MIDORI VERSION"
 ENDC
 
 DebugNewGamePlayerName:

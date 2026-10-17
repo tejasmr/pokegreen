@@ -156,7 +156,6 @@ ROMX $19
 	"Tilesets 1"
 	"Garbage 25"
 ROMX $1A
-	"Version GFX"
 	"Tilesets 2"
 	"Battle Engine 12"
 	; Rev.1: "Garbage 26"
@@ -185,6 +184,7 @@ ROMX $1F
 	"Garbage 31"
 ROMX $20
 	"Extra Font Graphics"
+	"Version GFX"
 WRAM0
 	"Audio RAM"
 	org $c100
