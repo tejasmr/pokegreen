@@ -82,6 +82,20 @@
 
 ; Actual characters (from gfx/font/font_extra.png)
 
+	charmap "A", $60
+	charmap "B", $61
+	charmap "C", $62
+	charmap "D", $63
+	charmap "E", $64
+	charmap "F", $65
+	charmap "G", $66
+	charmap "H", $67
+	charmap "I", $68
+	charmap "V", $69
+	charmap "S", $6a
+	charmap "L", $6b
+	charmap "M", $6c
+
 	charmap "Ａ", $60
 	charmap "Ｂ", $61
 	charmap "Ｃ", $62
@@ -97,6 +111,7 @@
 	charmap "Ｍ", $6c
 
 	charmap ":",  $6d ; colon
+	charmap "：", $6d
 
 	charmap "ぃ",  $6e ; Hiragana small "い"
 	charmap "ぅ",  $6f ; Hiragana small "う"
@@ -119,7 +134,40 @@
 	charmap "└",  $7d
 	charmap "┘",  $7e
 
+	charmap " ",  $7f ; Space
 	charmap "　", $7f ; Ideographic Space
+
+
+; Actual characters (from gfx/font/font_extra2.png)
+
+	charmap "J", $1d
+	charmap "K", $1e
+	charmap "N", $1f
+	charmap "O", $20
+	charmap "P", $21
+	charmap "Q", $22
+	charmap "R", $23
+	charmap "T", $24
+	charmap "U", $25
+
+	charmap "W", $35
+	charmap "X", $36
+	charmap "Y", $37
+	charmap "Z", $38
+
+	charmap "Ｊ", $1d
+	charmap "Ｋ", $1e
+	charmap "Ｎ", $1f
+	charmap "Ｏ", $20
+	charmap "Ｑ", $22
+	charmap "Ｒ", $23
+	charmap "Ｔ", $24
+	charmap "Ｕ", $25
+
+	charmap "Ｗ", $35
+	charmap "Ｘ", $36
+	charmap "Ｙ", $37
+	charmap "Ｚ", $38
 
 
 ; Actual characters (from gfx/font/font_battle_extra.png)
@@ -266,6 +314,8 @@
 	charmap "？", $e6
 	charmap "！", $e7
 	charmap "。", $e8
+	charmap "?",  $e6
+	charmap "!",  $e7
 
 	charmap "ァ", $e9 ; Katakana small "ア"
 	charmap "ゥ", $ea ; Katakana small "ウ"
@@ -279,6 +329,9 @@
 	charmap "×",  $f1
 	charmap "．", $f2
 	charmap "／", $f3
+	charmap ".",  $f2
+	charmap "/",  $f3
+	charmap "-",  $e3
 	charmap "ォ",  $f4 ; Katakana small "オ"
 	charmap "♀",  $f5
 
@@ -292,3 +345,14 @@
 	charmap "７", $fd
 	charmap "８", $fe
 	charmap "９", $ff
+
+	charmap "0",  $f6
+	charmap "1",  $f7
+	charmap "2",  $f8
+	charmap "3",  $f9
+	charmap "4",  $fa
+	charmap "5",  $fb
+	charmap "6",  $fc
+	charmap "7",  $fd
+	charmap "8",  $fe
+	charmap "9",  $ff

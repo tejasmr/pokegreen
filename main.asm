@@ -368,3 +368,35 @@ INCLUDE "data/battle_anims/frame_blocks.asm"
 INCLUDE "engine/movie/evolution.asm"
 INCLUDE "engine/overworld/elevator.asm"
 INCLUDE "engine/items/tm_prices.asm"
+
+
+SECTION "Extra Font Graphics", ROMX
+
+LoadFontExtra2Tiles::
+	ldh a, [rLCDC]
+	bit B_LCDC_ENABLE, a
+	jr nz, .on
+; off
+	ld hl, FontExtra2Graphics
+	ld de, vChars2 tile $1d
+	ld bc, 9 tiles
+	call CopyData
+
+	ld hl, FontExtra2Graphics + 9 tiles
+	ld de, vChars2 tile $35
+	ld bc, 4 tiles
+	jp CopyData
+
+.on
+	ld de, FontExtra2Graphics
+	ld hl, vChars2 tile $1d
+	lb bc, BANK(FontExtra2Graphics), 9
+	call CopyVideoData
+
+	ld de, FontExtra2Graphics + 9 tiles
+	ld hl, vChars2 tile $35
+	lb bc, BANK(FontExtra2Graphics), 4
+	jp CopyVideoData
+
+FontExtra2Graphics:: INCBIN "gfx/font/font_extra2.2bpp"
+FontExtra2GraphicsEnd::

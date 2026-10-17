@@ -113,6 +113,16 @@ PlaceNextChar::
 	jr NextChar
 
 .KanaCharacter
+	cp $1d
+	jr c, .notExtra1
+	cp $25 + 1
+	jr c, .RegularKana
+.notExtra1
+	cp $35
+	jr c, .notExtra2
+	cp $38 + 1
+	jr c, .RegularKana
+.notExtra2
 	cp FIRST_REGULAR_TEXT_CHAR
 	jr nc, .RegularKana
 ; dakuten or handakuten
@@ -132,13 +142,7 @@ PlaceNextChar::
 .PlaceDakuten
 	push af
 	ld a, '゛' ; dakuten
-	push hl
-	ld bc, -SCREEN_WIDTH ; one line above
-	add hl, bc
-	ld [hl], a
-	pop hl
-	pop af
-	jr .RegularKana
+	jr .placeDiacriticCommon
 
 .Handakuten
 	cp 'ぱ'
@@ -154,6 +158,7 @@ PlaceNextChar::
 .PlaceHandakuten
 	push af
 	ld a, '゜' ; handakuten
+.placeDiacriticCommon
 	push hl
 	ld bc, -SCREEN_WIDTH ; one line above
 	add hl, bc
