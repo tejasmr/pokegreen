@@ -300,17 +300,18 @@ LinkMenu:
 	ret
 
 WhereWouldYouLikeText:
-	text "どちらの　へやに"
-	line "いきますか？"
+	text "Which room will"
+	line "you go to?"
 	done
 
 PleaseWaitText:
-	text "それでは　これより"
-	line "ごあんない　いたします"
+	text "We will guide"
+	line "you inside."
 	done
 
 LinkCanceledText:
-	text "つうしんは　キャンセル　されました"
+	text "Communication was"
+	line "cancelled."
 	done
 
 StartNewGame:
@@ -343,18 +344,18 @@ SpecialEnterMap::
 	jp EnterMap
 
 ContinueText:
-	db   "つづきからはじめる"
+	db   "CONTINUE"
 	next ""
 	; fallthrough
 
 NewGameText:
-	db   "さいしょからはじめる"
-	next "せっていを　かえる@"
+	db   "NEW GAME"
+	next "OPTIONS@"
 
 CableClubOptionsText:
-	db   "トレードセンター"
-	next "コロシアム"
-	next "やめる@"
+	db   "TRADE CENTER"
+	next "COLOSSEUM"
+	next "CANCEL@"
 
 DisplayContinueGameInfo:
 	xor a
@@ -437,10 +438,10 @@ PrintPlayTime:
 	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "しゅじんこう"
-	next "もっているバッジ　　　　こ"
-	next "#ずかん　　　　ひき"
-	next "プレイじかん@"
+	db   "PLAYER"
+	next "BADGES　　　　　　こ"
+	next "#CAUGHT　ひき"
+	next "PLAYED@"
 
 DisplayOptionMenu:
 	hlcoord 0, 0
@@ -587,19 +588,19 @@ DisplayOptionMenu:
 	jp .eraseOldMenuCursor
 
 TextSpeedOptionText:
-	db   "はなしの　はやさ"
-	next "　はやい　　　　ふつう　　　　おそい@"
+	db   "TEXT SPEED"
+	next "　FAST　　　MID　　　SLOW@"
 
 BattleAnimationOptionText:
-	db   "せんとう　アニメーション"
-	next "　じっくり　みる　　とばして　みる@"
+	db   "BATTLE ANIMATION"
+	next "　ON　　　　　　　　　OFF　　　@"
 
 BattleStyleOptionText:
-	db   "しあいの　ルール"
-	next "　いれかえタイプ　　かちぬきタイプ@"
+	db   "BATTLE STYLE"
+	next "　SHIFT　　　　SET　　　　@"
 
 OptionMenuCancelText:
-	db "おわり@"
+	db "CANCEL@"
 
 ; sets the options variable according to the current placement of the menu cursors in the options menu
 SetOptionsFromCursorPositions:
