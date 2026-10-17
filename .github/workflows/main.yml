@@ -82,8 +82,7 @@ jobs:
 
       - name: Check for uncommitted changes
         run: |
-          chmod +x .github/checkdiff.sh
-          .github/checkdiff.sh
+          sh .github/checkdiff.sh
 
       - name: Verify ROM checksums (optional)
         if: ${{ github.event.inputs.compare == true }}

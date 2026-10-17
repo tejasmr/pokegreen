@@ -1,8 +1,8 @@
 #!/bin/sh
 set -e
 
-if ! git diff-index --quiet HEAD --; then
+if ! git diff --quiet HEAD --; then
     echo 'Uncommitted changes detected:'
-    git diff-index HEAD --
+    git diff --stat HEAD --
     exit 1
 fi
