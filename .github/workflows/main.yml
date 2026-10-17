@@ -158,6 +158,9 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
       - name: Download ROMs and Patches
         uses: actions/download-artifact@v7
         with:
