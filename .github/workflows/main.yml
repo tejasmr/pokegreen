@@ -5,6 +5,7 @@ on:
     tags:
       - 'v*'
       - '[0-9]+.*'
+  pull_request:
   workflow_dispatch:
     inputs:
       target:
