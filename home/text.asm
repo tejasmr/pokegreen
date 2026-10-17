@@ -116,12 +116,16 @@ PlaceNextChar::
 	cp $1d
 	jr c, .notExtra1
 	cp $25 + 1
-	jr c, .RegularKana
+	jr nc, .notExtra1
+	add $4b - $1d
+	jr .RegularKana
 .notExtra1
 	cp $35
 	jr c, .notExtra2
 	cp $38 + 1
-	jr c, .RegularKana
+	jr nc, .notExtra2
+	add $54 - $35
+	jr .RegularKana
 .notExtra2
 	cp FIRST_REGULAR_TEXT_CHAR
 	jr nc, .RegularKana
