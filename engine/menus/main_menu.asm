@@ -127,7 +127,7 @@ MainMenu:
 InitOptions:
 	ld a, 1 << BIT_FAST_TEXT_DELAY
 	ld [wLetterPrintingDelayFlags], a
-	ld a, TEXT_DELAY_MEDIUM
+	ld a, (1 << BIT_BATTLE_ANIMATION) | (1 << BIT_BATTLE_SHIFT) | TEXT_DELAY_FAST
 	ld [wOptions], a
 	ret
 
@@ -687,7 +687,7 @@ TextSpeedOptionData:
 	db 15, TEXT_DELAY_SLOW
 	db  8, TEXT_DELAY_MEDIUM
 	db  1, TEXT_DELAY_FAST
-	db  8, -1 ; end (default X coordinate)
+	db  1, -1 ; end (default X coordinate)
 
 CheckForPlayerNameInSRAM:
 ; Check if the player name data in SRAM has a string terminator character
