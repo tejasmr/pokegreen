@@ -699,7 +699,7 @@ CheckForPlayerNameInSRAM:
 	ld [rBMODE], a
 	ASSERT BANK(sPlayerName) == BMODE_ADVANCED
 	ld [rRAMB], a
-	ld b, NAME_LENGTH
+	ld b, PLAYER_NAME_LENGTH
 	ld hl, sPlayerName
 .loop
 	ld a, [hli]

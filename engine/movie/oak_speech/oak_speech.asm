@@ -32,11 +32,11 @@ PrepareOakSpeech:
 ; A variant of this process is performed in PrepareTitleScreen.
 	ld hl, DebugNewGamePlayerName
 	ld de, wPlayerName
-	ld bc, NAME_LENGTH
+	ld bc, PLAYER_NAME_LENGTH
 	call CopyData
 	ld hl, DebugNewGameRivalName
 	ld de, wRivalName
-	ld bc, NAME_LENGTH
+	ld bc, PLAYER_NAME_LENGTH
 	jp CopyData
 
 OakSpeech:

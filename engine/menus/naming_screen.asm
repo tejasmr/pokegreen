@@ -161,6 +161,11 @@ DisplayNamingScreen:
 	pop de
 	ld hl, wStringBuffer
 	ld bc, NAME_LENGTH
+	ld a, [wNamingScreenType]
+	cp NAME_MON_SCREEN
+	jr nc, .gotCopyLength
+	ld bc, PLAYER_NAME_LENGTH
+.gotCopyLength
 	call CopyData
 	call GBPalWhiteOutWithDelay3
 	call ClearScreen
@@ -239,8 +244,16 @@ DisplayNamingScreen:
 	cp '゜'
 	ld de, Handakutens
 	jr z, .dakutensAndHandakutens
+	ld a, [wNamingScreenType]
+	cp NAME_MON_SCREEN
+	jr nc, .checkMonNameLength
+	ld a, [wNamingScreenNameLength]
+	cp PLAYER_NAME_LENGTH - 1
+	jr .checkNameLength
+.checkMonNameLength
 	ld a, [wNamingScreenNameLength]
 	cp NAME_LENGTH - 1
+.checkNameLength
 	jr c, .addLetter
 	ret
 
@@ -368,6 +381,39 @@ PrintNicknameAndUnderscores:
 	call CalcStringLength
 	ld a, c
 	ld [wNamingScreenNameLength], a
+	ld a, [wNamingScreenType]
+	cp NAME_MON_SCREEN
+	jr nc, .mon
+	hlcoord 12, 1
+	lb bc, 2, 7
+	call ClearScreenArea
+	hlcoord 12, 2
+	ld de, wStringBuffer
+	call PlaceString
+	hlcoord 12, 3
+	ld a, $76 ; underscore tile id
+	ld b, PLAYER_NAME_LENGTH - 1
+.placeUnderscoreLoopPlayer
+	ld [hli], a
+	dec b
+	jr nz, .placeUnderscoreLoopPlayer
+	ld a, [wNamingScreenNameLength]
+	cp PLAYER_NAME_LENGTH - 1
+	jr nz, .placeRaisedUnderscorePlayer
+	call EraseMenuCursor
+	ld a, $11 ; "ED" x coord
+	ld [wTopMenuItemX], a
+	ld a, $6 ; "ED" y coord
+	ld [wCurrentMenuItem], a
+	ld a, PLAYER_NAME_LENGTH - 2
+.placeRaisedUnderscorePlayer
+	hlcoord 12, 3
+	add l
+	ld l, a
+	ld [hl], $77 ; raised underscore tile id
+	ret
+
+.mon
 	hlcoord 13, 1
 	lb bc, 2, 5
 	call ClearScreenArea

@@ -1,5 +1,5 @@
 CopyDebugName:
-	ld bc, NAME_LENGTH
+	ld bc, PLAYER_NAME_LENGTH
 	jp CopyData
 
 PrepareTitleScreen::

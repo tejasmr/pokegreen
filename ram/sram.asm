@@ -14,7 +14,7 @@ SECTION "Save Data", SRAM
 	ds $598
 
 sGameData::
-sPlayerName::  ds NAME_LENGTH
+sPlayerName::  ds PLAYER_NAME_LENGTH
 sMainData::    ds wMainDataEnd - wMainDataStart
 sSpriteData::  ds wSpriteDataEnd - wSpriteDataStart
 sPartyData::   ds wPartyDataEnd - wPartyDataStart

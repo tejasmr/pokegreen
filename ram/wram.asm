@@ -1722,7 +1722,7 @@ wEvoStoneItemID:: db
 
 wSavedNPCMovementDirections2Index:: db
 
-wPlayerName:: ds NAME_LENGTH
+wPlayerName:: ds PLAYER_NAME_LENGTH
 
 
 SECTION "Party Data", WRAM0
@@ -1770,7 +1770,7 @@ wBagItems:: ds BAG_ITEM_CAPACITY * 2 + 1
 
 wPlayerMoney:: ds 3 ; BCD
 
-wRivalName:: ds NAME_LENGTH
+wRivalName:: ds PLAYER_NAME_LENGTH
 
 wOptions:: db
 
@@ -2162,9 +2162,9 @@ wWaterMons:: ds WILDDATA_LENGTH - 1
 
 NEXTU
 ; linked game's trainer name
-wLinkEnemyTrainerName:: ds NAME_LENGTH
+wLinkEnemyTrainerName:: ds PLAYER_NAME_LENGTH
 
-	ds 6
+	ds 4
 
 wSerialEnemyDataBlock:: ; ds $1a8
 
@@ -2260,7 +2260,7 @@ wBoxDataEnd::
 SECTION "Stack", WRAM0
 
 ; the stack grows downward
-	ds $e7
+	ds $df
 wStack:: db
 
 ENDSECTION
