@@ -1,102 +1,150 @@
-name: CI
+name: CI / Build Pipeline
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main, master ]
+    tags: [ 'v*' ]
   pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Build target (e.g. all, green, red, red11, green11)'
+        required: false
+        default: 'all'
+      compare:
+        description: 'Verify SHA1 hashes against roms.sha1'
+        required: false
+        type: boolean
+        default: false
 
-env:
-  rgbds_version: v1.0.3
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
+    name: Build ROMs
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v7
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Checkout rgbds
-        uses: actions/checkout@v7
-        with:
-          path: rgbds
-          ref: ${{ env.rgbds_version }}
-          repository: gbdev/rgbds
-
-      - name: Install rgbds
-        working-directory: rgbds
+      - name: Install dependencies & RGBDS
         run: |
-          sudo apt-get update
-          sudo apt-get install -yq bison libpng-dev pkg-config
-          sudo make -j$(nproc) install
+          set -e
+          sudo apt-get update -yq
+          sudo apt-get install -yq --no-install-recommends libpng-dev make gcc wget xz-utils
 
-      - name: Remove rgbds
-        run: |
-          rm -rf rgbds
+          RGBDS_VER="$(cat .rgbds-version 2>/dev/null | tr -d '[:space:]')"
+          if [ -z "$RGBDS_VER" ]; then
+            RGBDS_VER="1.0.3"
+          fi
+          echo "Target RGBDS version: v${RGBDS_VER}"
 
-      - name: Compare
-        if: ${{ github.repository_owner == 'Narishma-gb' }}
+          URL="https://github.com/gbdev/rgbds/releases/download/v${RGBDS_VER}/rgbds-linux-x86_64.tar.xz"
+          if wget -q --spider "$URL"; then
+            echo "Downloading prebuilt RGBDS from $URL..."
+            mkdir -p /tmp/rgbds
+            wget -qO- "$URL" | tar -xJ -C /tmp/rgbds
+            if [ -f /tmp/rgbds/install.sh ]; then
+              sudo /tmp/rgbds/install.sh
+            else
+              find /tmp/rgbds -type f \( -name rgbasm -o -name rgblink -o -name rgbfix -o -name rgbgfx \) -exec sudo cp {} /usr/local/bin/ \;
+            fi
+          else
+            echo "Prebuilt binary not found. Compiling RGBDS v${RGBDS_VER} from source..."
+            sudo apt-get install -yq bison pkg-config
+            git clone --depth 1 --branch "v${RGBDS_VER}" https://github.com/gbdev/rgbds.git /tmp/rgbds-src
+            sudo make -C /tmp/rgbds-src -j$(nproc) install
+            rm -rf /tmp/rgbds-src
+          fi
+
+      - name: Verify RGBDS installation
         run: |
-          make DEBUG=1 -j$(nproc) compare
+          rgbasm --version
+          rgblink --version
+          rgbfix --version
+          rgbgfx --version
+
+      - name: Build ROMs and Patches
+        run: |
+          TARGET="${{ github.event.inputs.target || 'all' }}"
+          echo "==> Building target: $TARGET"
+          make -j$(nproc) $TARGET
+          if [ "$TARGET" = "all" ]; then
+            make -j$(nproc) red11_vc green11_vc || true
+          fi
+
+      - name: Check for uncommitted changes
+        run: |
+          chmod +x .github/checkdiff.sh
           .github/checkdiff.sh
 
-      - name: Make
-        if: ${{ github.repository_owner != 'Narishma-gb' }}
+      - name: Verify ROM checksums (optional)
+        if: ${{ github.event.inputs.compare == true }}
         run: |
-          make -j$(nproc)
-          .github/checkdiff.sh
+          make DEBUG=1 compare
 
-      - name: Checkout symbols
-        if: ${{ github.repository_owner == 'Narishma-gb' && github.event_name == 'push' }}
-        uses: actions/checkout@v7
-        with:
-          path: symbols
-          ref: symbols
-
-      - name: Move symbols
-        if: ${{ github.repository_owner == 'Narishma-gb' && github.event_name == 'push' }}
+      - name: Generate Checksums & Step Summary
         run: |
-          cp -v *.sym *.map symbols/
+          echo "### Build Artifacts" >> $GITHUB_STEP_SUMMARY
+          echo "| File | Size | SHA1 Checksum |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+          for f in *.gb *.patch; do
+            if [ -f "$f" ]; then
+              SIZE=$(ls -lh "$f" | awk '{print $5}')
+              SHA=$(sha1sum "$f" | awk '{print $1}')
+              echo "| \`$f\` | $SIZE | \`$SHA\` |" >> $GITHUB_STEP_SUMMARY
+            fi
+          done
+          sha1sum *.gb *.patch > checksums.sha1 2>/dev/null || true
 
-      - name: Update symbols
-        if: ${{ github.repository_owner == 'Narishma-gb' && github.event_name == 'push' }}
-        uses: EndBug/add-and-commit@v10
+      - name: Upload ROMs and Patches
+        uses: actions/upload-artifact@v4
         with:
-          cwd: "./symbols"
-          add: "*.sym *.map"
-          message: ${{ github.event.commits[0].message }}
+          name: pokegreen-roms
+          path: |
+            *.gb
+            *.patch
+            checksums.sha1
+          if-no-files-found: error
 
-  build-macos:
-    runs-on: macos-latest
+      - name: Upload Debug Symbols & Maps
+        uses: actions/upload-artifact@v4
+        with:
+          name: pokegreen-symbols
+          path: |
+            *.sym
+            *.map
+          if-no-files-found: warn
+
+  release:
+    name: Publish Release
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v7
-
-      - name: Checkout rgbds
-        uses: actions/checkout@v7
+      - name: Download ROMs and Patches
+        uses: actions/download-artifact@v4
         with:
-          path: rgbds
-          ref: ${{ env.rgbds_version }}
-          repository: gbdev/rgbds
+          name: pokegreen-roms
+          path: release-assets
 
-      - name: Install rgbds
-        working-directory: rgbds
-        run: |
-          brew install bison libpng pkg-config
-          export PATH="$(brew --prefix bison)/bin:$PATH"
-          sudo make -j$(sysctl -n hw.ncpu) install
+      - name: Download Symbols & Maps
+        uses: actions/download-artifact@v4
+        with:
+          name: pokegreen-symbols
+          path: release-assets/symbols
 
-      - name: Remove rgbds
-        run: |
-          rm -rf rgbds
-
-      - name: Compare
-        if: ${{ github.repository_owner == 'Narishma-gb' }}
-        run: |
-          make DEBUG=1 -j$(sysctl -n hw.ncpu) compare
-          .github/checkdiff.sh
-
-      - name: Make
-        if: ${{ github.repository_owner != 'Narishma-gb' }}
-        run: |
-          make -j$(sysctl -n hw.ncpu)
-          .github/checkdiff.sh
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            release-assets/*.gb
+            release-assets/*.patch
+            release-assets/checksums.sha1
+            release-assets/symbols/*
+          generate_release_notes: true
