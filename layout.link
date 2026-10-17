@@ -185,6 +185,7 @@ ROMX $1F
 ROMX $20
 	"Extra Font Graphics"
 	"Version GFX"
+	"Item Names and Prices"
 WRAM0
 	"Audio RAM"
 	org $c100

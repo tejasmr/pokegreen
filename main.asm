@@ -2,8 +2,6 @@ SECTION "bank1", ROMX
 
 INCLUDE "data/sprites/facings.asm"
 INCLUDE "data/pokemon/mew.asm"
-INCLUDE "data/items/prices.asm"
-INCLUDE "data/items/names.asm"
 INCLUDE "data/text/unused_names.asm"
 INCLUDE "engine/gfx/sprite_oam.asm"
 INCLUDE "engine/gfx/oam_dma.asm"
@@ -400,3 +398,9 @@ LoadFontExtra2Tiles::
 
 FontExtra2Graphics:: INCBIN "gfx/font/font_extra2.2bpp"
 FontExtra2GraphicsEnd::
+
+
+SECTION "Item Names and Prices", ROMX
+
+INCLUDE "data/items/prices.asm"
+INCLUDE "data/items/names.asm"
