@@ -166,58 +166,66 @@ OakSpeech:
 	jp ClearScreen
 
 OakSpeechText1:
-	text "はじめまして！"
-	line "ポケット　モンスターの　せかいへ"
-	cont "ようこそ！"
+	text "HAJIMEMASHITE！"
+	line "WELCOME TO WORLD"
+	cont "OF 「PACHIMONS」！"
 
-	para "わたしの　なまえは　オーキド"
-	line "みんなからは　#　はかせと"
-	cont "したわれて　おるよ"
+	para "MY NAME IS OOKIDO·"
+	line "EVERYONE CALLS ME"
+	cont "PET 「HAKASE」！"
 	prompt
 
 OakSpeechText2:
-	text "この　せかいには"
-	line "ポケット　モンスターと　よばれる"
+	text "IN THIS SEKAI···"
+	line "IN THIS WORLD···"
 
-	para "いきもの　たちが"
-	line "いたるところに　すんでいる！@"
+	para "CREATURES CALLED"
+	line "「PACHIMONS」 ARE"
+	cont "EVERYWHERE！@"
 ; BUG: The cry played does not match the sprite displayed.
 	sound_cry_nidorina
 	text_start
 
-	para "その　#　という　いきものを"
-	line "ひとは　ペットに　したり"
-	cont "しょうぶに　つかったり···"
+	para "PEOPLE KEEP PETS"
+	line "OR USE 「PACHIMON」"
+	cont "FOR MATCHES···"
 
-	para "そして···"
+	para "SOSHITE··· AND···"
 
-	para "わたしは　この　#の"
-	line "けんきゅうを　してる　というわけだ"
+	para "I RESEARCH 「PETS」"
+	line "FOR THIS REASON·"
+	cont "AS A HAKASE！"
 	prompt
 
 IntroducePlayerText:
-	text "では　はじめに　きみの　なまえを"
-	line "おしえて　もらおう！"
+	text "DEWA· FIRST PLEASE"
+	line "TELL ME YOUR NAME·"
+	cont "KIMI NO ONAMAE？"
 	prompt
 
 IntroduceRivalText:
-	text "こいつは　わたしの　まご"
-	line "きみの　おさななじみであり"
-	cont "ライバル　である"
+	text "THIS IS MY MAGO·"
+	line "MY GRANDSON AND"
+	cont "YOUR CHILD PAL！"
 
-	para "···えーと？"
-	line "なまえは　なんて　いったかな？"
+	para "ALSO YOUR RIVAL！"
+	line "···ETO··· UMM？"
+	cont "WHAT WAS HIS NAME？"
 	prompt
 
 OakSpeechText3:
 	text "<PLAYER>！"
 
-	para "いよいよ　これから　"
-	line "きみの　ものがたりの　はじまりだ！"
+	para "IYO IYO！ NOW IS"
+	line "THE BEGINNING OF"
+	cont "YOUR OWN STORY！"
 
-	para "ゆめと　ぼうけんと！"
-	line "ポケット　モンスターの　せかいへ！"
-	cont "レッツ　ゴー！"
+	para "WITH DREAMS AND"
+	line "BOUKEN· ADVENTURE·"
+
+	para "TO 「PACHIMONS」"
+	line "WORLD！ IKUZO！"
+	cont "LETS GO！"
 	done
 
 FadeInIntroPic:
