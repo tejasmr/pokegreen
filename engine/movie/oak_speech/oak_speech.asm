@@ -170,7 +170,7 @@ OakSpeechText1:
 	line "WELCOME TO WORLD"
 	cont "OF 「PACHIMONS」！"
 
-	para "MY NAME IS OOKIDO·"
+	para "I AM DR. OOKIDO！"
 	line "EVERYONE CALLS ME"
 	cont "PET 「HAKASE」！"
 	prompt
@@ -198,8 +198,8 @@ OakSpeechText2:
 	prompt
 
 IntroducePlayerText:
-	text "DEWA· FIRST PLEASE"
-	line "TELL ME YOUR NAME·"
+	text "DEWA· FIRST TELL"
+	line "ME YOUR NAME！"
 	cont "KIMI NO ONAMAE？"
 	prompt
 
@@ -210,7 +210,7 @@ IntroduceRivalText:
 
 	para "ALSO YOUR RIVAL！"
 	line "···ETO··· UMM？"
-	cont "WHAT WAS HIS NAME？"
+	cont "HIS NAME WAS···？"
 	prompt
 
 OakSpeechText3:
@@ -221,7 +221,7 @@ OakSpeechText3:
 	cont "YOUR OWN STORY！"
 
 	para "WITH DREAMS AND"
-	line "BOUKEN· ADVENTURE·"
+	line "BOUKEN· ADVENTURE"
 
 	para "TO 「PACHIMONS」"
 	line "WORLD！ IKUZO！"
