@@ -28,9 +28,9 @@ ChoosePlayerName:
 	jp PrintText
 
 YourNameIsText:
-	text "HMM···"
-	line "SO YOU ARE NAMED"
-	cont "<PLAYER>！"
+	text "FUMU··· HMM···"
+	line "SO YOU ARE CALLED"
+	cont "<PLAYER>！ SOU KA！"
 	prompt
 
 ChooseRivalName:
@@ -63,9 +63,9 @@ ChooseRivalName:
 	jp PrintText
 
 HisNameIsText:
-	text "YES! I REMEMBER"
-	line "NOW! HE IS CALLED"
-	cont "<RIVAL>!"
+	text "SOU DA！ YES NOW"
+	line "I REMEMBER WELL！"
+	cont "HE IS <RIVAL>！"
 	prompt
 
 OakSpeechSlidePicLeft:
