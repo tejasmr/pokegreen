@@ -166,58 +166,64 @@ OakSpeech:
 	jp ClearScreen
 
 OakSpeechText1:
-	text "はじめまして！"
-	line "ポケット　モンスターの　せかいへ"
-	cont "ようこそ！"
+	text "FIRST TIME"
+	line "MEETING YOU!"
 
-	para "わたしの　なまえは　オーキド"
-	line "みんなからは　#　はかせと"
-	cont "したわれて　おるよ"
+	para "WELCOME TO WORLD"
+	line "OF 「PACHIMON」!"
+
+	para "MY NAME IS OOKIDO!"
+	line "EVERYONE CALLS"
+	cont "ME DR. PET!"
 	prompt
 
 OakSpeechText2:
-	text "この　せかいには"
-	line "ポケット　モンスターと　よばれる"
+	text "IN THIS WORLD"
+	line "CREATURES CALLED"
 
-	para "いきもの　たちが"
-	line "いたるところに　すんでいる！@"
+	para "「PACHIMONS」 ARE"
+	line "EVERYWHERE！@"
 ; BUG: The cry played does not match the sprite displayed.
 	sound_cry_nidorina
 	text_start
 
-	para "その　#　という　いきものを"
-	line "ひとは　ペットに　したり"
-	cont "しょうぶに　つかったり···"
+	para "PEOPLE USE 「PETS」"
+	line "OR 「PACHIMONS」"
+	cont "FOR MATCHES···"
 
-	para "そして···"
+	para "AND···"
 
-	para "わたしは　この　#の"
-	line "けんきゅうを　してる　というわけだ"
+	para "I AM RESEARCHING"
+	line "「PETS」 FOR THIS"
+	cont "REASON!"
 	prompt
 
 IntroducePlayerText:
-	text "では　はじめに　きみの　なまえを"
-	line "おしえて　もらおう！"
+	text "WELL THEN· COULD"
+	line "YOU TELL ME YOUR"
+	cont "NAME?"
 	prompt
 
 IntroduceRivalText:
-	text "こいつは　わたしの　まご"
-	line "きみの　おさななじみであり"
-	cont "ライバル　である"
+	text "HE IS MY GRANDSON!"
+	line "YOUR CHILDHOOD"
+	cont "PAL AND RIVAL!"
 
-	para "···えーと？"
-	line "なまえは　なんて　いったかな？"
+	para "···UMM？ WHAT"
+	line "WAS HIS NAME？"
 	prompt
 
 OakSpeechText3:
 	text "<PLAYER>！"
 
-	para "いよいよ　これから　"
-	line "きみの　ものがたりの　はじまりだ！"
+	para "FINALLY! NOW IS"
+	line "THE START OF YOUR"
+	cont "STORY!"
 
-	para "ゆめと　ぼうけんと！"
-	line "ポケット　モンスターの　せかいへ！"
-	cont "レッツ　ゴー！"
+	para "WITH DREAMS AND"
+	line "ADVENTURES· LETS"
+	cont "GO TO THE WORLD"
+	cont "OF 「PACHIMONS」!"
 	done
 
 FadeInIntroPic:
