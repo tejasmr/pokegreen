@@ -75,6 +75,7 @@ DisplayTextIDInit::
 	xor a
 	ldh [hWY], a ; put the window on the screen
 	call LoadFontTilePatterns
+	call LoadTextBoxTilePatterns
 	ld a, $01
 	ldh [hAutoBGTransferEnabled], a ; enable continuous WRAM to VRAM transfer each V-blank
 	ret
