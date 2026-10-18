@@ -98,6 +98,8 @@ def sanitize_line(text: str) -> str:
             res.append(part.upper())
     return "".join(res)
 
+MAX_LINE_LENGTH = 17
+
 def lint_file(file_path: str, autofix: bool = False) -> tuple[int, list[str]]:
     with open(file_path, "r", encoding="utf-8") as f:
         lines = f.readlines()
@@ -119,9 +121,9 @@ def lint_file(file_path: str, autofix: bool = False) -> tuple[int, list[str]]:
             rendered_len = calculate_rendered_length(modified_content)
             issues = check_unmapped_chars(modified_content)
             
-            if rendered_len > 18:
+            if rendered_len > MAX_LINE_LENGTH:
                 errors += 1
-                report.append(f"{file_path}:{line_num}: LINE TOO LONG ({rendered_len}/18 chars): \"{modified_content}\"")
+                report.append(f"{file_path}:{line_num}: LINE TOO LONG ({rendered_len}/{MAX_LINE_LENGTH} chars): \"{modified_content}\"")
             
             for _, ch, reason in issues:
                 errors += 1
@@ -150,7 +152,7 @@ def main():
             print(msg)
 
     if total_errors == 0:
-        print("✓ All dialogue lines fit within 18 chars and use valid charmap characters!")
+        print("✓ All dialogue lines fit within 17 chars and use valid charmap characters!")
         sys.exit(0)
     else:
         print(f"\nFound {total_errors} issue(s).")

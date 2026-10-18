@@ -3,7 +3,7 @@ name: bootleg-dialogue-translator
 description: >-
   Translate Japanese dialogues, signs, NPC text, menus, and object interactions in Pokemon Green
   into the project's signature bootleg style with Japanese language-teaching elements, enforcing
-  the 18-character limit and ROM charmap constraints.
+  the 17-character limit and ROM charmap constraints.
 ---
 
 # Bootleg Dialogue Translator for Pokemon Green
@@ -43,13 +43,15 @@ Inspired by 90s unlicensed/bootleg translations (e.g. Vietnamese Crystal, Diamon
 
 ## 2. Hard Character & ROM Constraints
 
-### A. Line Length Limit: Exactly 18 Characters
-- Game Boy screen is 20 tiles wide. With 1 tile border on left and right, text boxes have **18 visible character spaces per line**.
-- Every string inside `text`, `line`, `cont`, `para` must NOT exceed 18 characters.
+### A. Line Length Limit: Exactly 17 Characters
+- Game Boy screen is 20 tiles wide with 1 tile border on left and right, giving an 18-tile interior.
+- **Always keep lines to 17 characters maximum** (never 18).
+- **Why?**: The text engine uses the 18th column on the second line for the blinking `▼` button prompt arrow and scroll indicator. Filling all 18 characters causes the last character to be overwritten or glitched by the prompt indicator.
+- Every string inside `text`, `line`, `cont`, `para` must NOT exceed 17 characters.
 - **Dynamic variables expand**:
-  - `<PLAYER>`: assume up to 7 characters. Line with `<PLAYER>` must be $\le 18 - 7 = 11$ characters long!
-  - `<RIVAL>`: assume up to 7 characters.
-  - `<TARGET>` / `<USER>`: assume up to 10 characters.
+  - `<PLAYER>`: assume up to 7 characters. Line with `<PLAYER>` must be $\le 17 - 7 = 10$ characters long!
+  - `<RIVAL>`: assume up to 7 characters. Line with `<RIVAL>` must be $\le 17 - 7 = 10$ characters long!
+  - `<TARGET>` / `<USER>`: assume up to 10 characters ($\le 7$ characters of surrounding text).
   - `#`: takes 1 tile ($54).
 
 ### B. Character Map Restrictions
