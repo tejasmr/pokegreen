@@ -7,8 +7,8 @@ AerodactylFossil:
 	ret
 
 AerodactylFossilText::
-	text "めずらしい　こだい　#"
-	line "プテラの　カセキ"
+	text "RARE ANCIENT #"
+	line "『PUTERA』FOSSIL！"
 	done
 
 KabutopsFossil:
@@ -20,8 +20,8 @@ KabutopsFossil:
 	ret
 
 KabutopsFossilText::
-	text "めずらしい　こだい　#"
-	line "カブトプスの　カセキ"
+	text "RARE ANCIENT #"
+	line "『KABUTOPS』FOSSIL"
 	done
 
 DisplayMonFrontSpriteInBox:

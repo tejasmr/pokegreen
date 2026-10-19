@@ -9,19 +9,22 @@ SafariZoneWestRestHouse_TextPointers:
 	dw_const SafariZoneWestRestHouseSilphWorkerFText, TEXT_SAFARIZONEWESTRESTHOUSE_SILPH_WORKER_F
 
 SafariZoneWestRestHouseScientistText:
-	text "いしころ　あてると"
-	line "にげる　かも　しれないが"
-	cont "つかまえ　やすくは　なるよ！"
+	text "THROWING A ROCK"
+	line "MAY SCARE IT OFF·"
+	cont "BUT MAKES IT"
+	cont "EASIER TO CATCH!"
 	done
 
 SafariZoneWestRestHouseCooltrainerMText:
-	text "エサだまを　なげると"
-	line "エサに　むちゅうで　いる　あいだ"
-	cont "ポケモンは　あまり　にげない！"
+	text "TOSSING BAIT ESA"
+	line "MAKES # BUSY"
+	cont "EATING SO IT"
+	cont "WONT FLEE EASILY!"
 	done
 
 SafariZoneWestRestHouseSilphWorkerFText:
-	text "たくさん　あるいた　けど"
-	line "とりたい　ポケモンが"
-	cont "なかなか　とびだして　こないの"
+	text "WALKED A LOT·BUT"
+	line "THE # I WANT"
+	cont "WONT POP OUT!"
 	done
+

@@ -196,17 +196,17 @@ NamePointers2:
 	dw wDayCareMonName
 
 TypesIDNoOTText:
-	db   "タイプ１／"
-	next "タイプ２／"
-	next "<ID>№／"
-	next "おや／"
+	db   "TYP1/"
+	next "TYP2/"
+	next "<ID>№/"
+	next "OT/"
 	next "@"
 
 StatusText:
-	db "じょうたい／@"
+	db "STAT/@"
 
 OKText:
-	db "ふつう@"
+	db "OK@"
 
 ; Draws a line starting from hl high b and wide c
 DrawLineBox:
@@ -274,10 +274,10 @@ PrintStatsBox:
 	ret
 
 .StatsText:
-	db   "こうげき"
-	next "ぼうぎょ"
-	next "すばやさ"
-	next "とくしゅ@"
+	db   "ATK "
+	next "DEF "
+	next "SPD "
+	next "SPEC@"
 
 StatusScreen2:
 	ldh a, [hTileAnimations]
@@ -313,7 +313,7 @@ StatusScreen2:
 	ld b, a ; number of blank moves
 	hlcoord 11, 10
 	ld de, SCREEN_WIDTH * 2
-	ld a, 'Ｐ'
+	ld a, '<BOLD_P>'
 	call StatusScreen_PrintPP ; Print "PP"
 	ld a, b
 	and a
@@ -383,12 +383,7 @@ StatusScreen2:
 	inc a
 	ld [wLoadedMonLevel], a ; Increase temporarily if not 100
 .Level100
-	hlcoord 14, 5
-	ld [hl], '゛'
-	hlcoord 14, 6
-	ld [hl], 'て'
-	inc hl
-	inc hl
+	hlcoord 16, 6
 	call PrintLevel
 	pop af
 	ld [wLoadedMonLevel], a
@@ -450,8 +445,8 @@ CalcExpToLevelUp:
 	ret
 
 StatusScreenExpText:
-	db   "けいけんち／"
-	next "あと@"
+	db   "EXP POINTS/"
+	next "NEXT LV/@"
 
 StatusScreen_ClearName:
 	ld bc, NAME_LENGTH - 1

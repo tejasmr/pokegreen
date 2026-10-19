@@ -93,26 +93,26 @@ ENDM
 
 DiplomaTextPointersAndCoords:
 	; x, y, text
-	diploma_text  6,  2, DiplomaText
-	diploma_text  3,  4, DiplomaPlayer
+	diploma_text  5,  2, DiplomaText
+	diploma_text  2,  4, DiplomaPlayer
 	diploma_text 15,  4, DiplomaSama
 	diploma_text  2,  7, DiplomaCongrats
-	diploma_text 11, 15, DiplomaGameFreak
+	diploma_text  8, 15, DiplomaGameFreak
 
 DiplomaText:
-	db CIRCLE_TILE_ID, "しょうじょう", CIRCLE_TILE_ID, "@"
+	db CIRCLE_TILE_ID, "DIPLOMA", CIRCLE_TILE_ID, "@"
 
 DiplomaPlayer:
-	db "プレーヤー@"
+	db "PLAYER@"
 
 DiplomaSama:
-	db "さま@"
+	db "SAMA@"
 
 DiplomaCongrats:
-	db   "あなたは　#ずかんを"
-	next "みごと　かんせい　させました！"
-	next "その　いだいな　こうせきを"
-	next "しょうめい　します@"
+	db   "YOU SPLENDIDLY"
+	next "COMPLETED THE"
+	next "# POKEDEX！"
+	next "SUGOI KOUSEKI！@"
 
 DiplomaGameFreak:
-	db "ゲームフリーク@"
+	db "GAME FREAK@"

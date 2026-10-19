@@ -13,21 +13,26 @@ CeladonMansion3F_TextPointers:
 	dw_const CeladonMansion3FDevRoomSignText,    TEXT_CELADONMANSION3F_DEV_ROOM_SIGN
 
 CeladonMansion3FProgrammerText:
-	text "おれ？　プログラマー　だよ！"
+	text "ME? I AM THE"
+	line "PROGRAMMER!"
 	done
 
 CeladonMansion3FGraphicArtistText:
-	text "おれ　グラフィッカー！"
-	line "おまえを　かいたの　おれさ！"
+	text "I AM GRAPHIC"
+	line "ARTIST! I DREW"
+	cont "YOU MYSELF!"
 	done
 
 CeladonMansion3FWriterText:
-	text "ぼく　シナリオ　かいた！"
-	line "あの<⋯>　エリカ　かわいい　でしょ"
+	text "I WROTE STORY!"
+	line "ERIKA IS CUTE"
+	cont "IS SHE NOT⋯?"
 
-	para "カスミも　いいよね！"
+	para "KASUMI IS VERY"
+	line "NICE TOO!"
 
-	para "ナツメも　いいよね！"
+	para "NATSUME ALSO IS"
+	line "VERY NICE TOO!"
 	done
 
 CeladonMansion3FGameDesignerText:
@@ -47,23 +52,26 @@ CeladonMansion3FGameDesignerText:
 	jp TextScriptEnd
 
 .Text:
-	text "そーですかー！"
+	text "IS THAT SO-!"
 
-	para "ぼくは　ゲーム　デザイナー"
+	para "I AM THE GAME"
+	line "DESIGNER!"
 
-	para "#ずかん　ぜんぶ　あつめるの"
-	line "たいへん　だけど　がんばって！"
-	cont "もし　ぜんぶ　あつめたら"
+	para "FILLING UP THE"
+	line "# BOOK IS SO"
+	cont "HARD· BUT FIGHT!"
 
-	para "おしえてね！"
+	para "TELL ME IF YOU"
+	line "GET THEM ALL!"
 	done
 
 .CompletedDexText:
-	text "わあ　すごい！"
-	line "#ずかん　ぜんぶの　ページ"
-	cont "とうとう　あつめたんだね！"
-	cont "おめでとう！"
-	cont "<⋯><⋯>@"
+	text "WAH! AMAZING!"
+	line "EVERY SINGLE PAGE"
+	cont "OF # BOOK IS"
+	cont "FINALLY FULL!"
+	cont "CONGRATULATIONS!"
+	cont "⋯⋯@"
 	text_promptbutton
 	text_asm
 	callfar DisplayDiploma
@@ -72,21 +80,27 @@ CeladonMansion3FGameDesignerText:
 	jp TextScriptEnd
 
 CeladonMansion3FGameProgramPCText:
-	text "ゲームの　プログラムだ！"
-	line "これ　かえたら　バグる　かも"
+	text "GAME SOURCE CODE!"
+	line "TOUCHING IT MIGHT"
+	cont "SPAWN BUGS!"
 	done
 
 CeladonMansion3FPlayingGamePCText:
-	text "<PC>で　しごと　ちゅう<⋯>"
-	line "と　おもったら　ゲーム　だった！"
+	text "WORKING ON <PC>⋯"
+	line "WAIT· HE IS JUST"
+	cont "PLAYING GAMES!"
 	done
 
 CeladonMansion3FGameScriptPCText:
-	text "<⋯>　ポケモンの　シナリオだ！"
-	line "これは　エンディングだ！"
-	cont "いまは　みないで　おこう<⋯>！"
+	text "⋯# SCENARIO!"
+	line "THIS IS THE"
+	cont "ENDING PLOT!"
+
+	para "BETTER NOT PEEK"
+	line "FOR NOW⋯!"
 	done
 
 CeladonMansion3FDevRoomSignText:
-	text "ゲームフリーク　かいはつ　しつ"
+	text "GAME FREAK"
+	line "DEVELOPMENT ROOM"
 	done

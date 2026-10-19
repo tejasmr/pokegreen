@@ -18,6 +18,6 @@ FocusEnergyEffect_:
 
 GettingPumpedText:
 	text_pause
-	text "<USER>は"
-	line "はりきっている！"
+	text "<USER> IS"
+	line "GETTING PUMPED！"
 	prompt

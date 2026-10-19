@@ -41,15 +41,16 @@ SSAnneCaptainsRoomCaptainText:
 	jp TextScriptEnd
 
 SSAnneCaptainsRoomRubCaptainsBackText:
-	text "せんちょう『おえー<⋯>！"
-	line "ふなよいで<⋯>　すっかり　ダウンだ"
-	cont "くるしい<⋯>　<⋯>　うえ！"
+	text "CAPTAIN: 『URP<⋯>!"
+	line "TOTALLY DOWN WITH"
+	cont "SEASICKNESS<⋯>"
+	cont "PAINFUL<⋯> URK!"
 
-	para "<PLAYER>は　せんちょうの"
-	line "せなかを　さすって　あげた！"
+	para "<PLAYER> RUBBED"
+	line "CAPTAIN BACK!"
 
-	para "すりすり<⋯>　すりすり<⋯>"
-	line "すりすり<⋯>　すりすり<⋯>@"
+	para "RUB RUB<⋯> RUB<⋯>"
+	line "『SURISURI』<⋯>@"
 	text_asm
 	ld a, [wAudioROMBank]
 	cp BANK("Audio Engine 3")
@@ -75,57 +76,63 @@ SSAnneCaptainsRoomRubCaptainsBackText:
 	jp TextScriptEnd
 
 SSAnneCaptainsRoomCaptainIFeelMuchBetterText:
-	text "せんちょう『ふう<⋯>　ありがとう"
-	line "だいぶ　ラクに　なった　みたいだ"
+	text "CAPTAIN: 『PHEW<⋯>"
+	line "THANK YOU! I FEEL"
+	cont "MUCH BETTER NOW!"
 
-	para "<⋯>なになに　なんだ"
-	line "ひでんの　わざを　みに　きたのか"
+	para "<⋯>WHAT? YOU CAME"
+	line "TO SEE MY SECRET"
+	cont "『HIDEN』 MOVE?"
 
-	para "げんきな　ときなら　じまんの"
-	line "いあいぎりを　みせるんだがなあ<⋯>"
+	para "IF HEALTHY· I"
+	line "WOULD SHOW OFF MY"
+	cont "『IAIGIRI』 CUT<⋯>"
 
-	para "そうだ！"
-	line "かわりに　これを　あげよう！"
+	para "I KNOW! TAKE THIS"
+	line "INSTEAD!"
 
-	para "これを　きみの　"
-	line "#に　おしえれば"
-	cont "いつでも　いあいぎりが　みれる！"
+	para "TEACH THIS TO"
+	line "YOUR #· YOU CAN"
+	cont "SEE CUT ANYTIME!"
 	prompt
 
 SSAnneCaptainsRoomCaptainReceivedHM01Text:
-	text "<PLAYER>は　せんちょう　から"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!@"
 	sound_get_key_item
 	text_end
 
 SSAnneCaptainsRoomCaptainNotSickAnymoreText:
-	text "せんちょう『<⋯>ふう！"
+	text "CAPTAIN: 『<⋯>WHEW!"
 
-	para "らくに　なったし<⋯>"
-	line "そろそろ　じかんだ！"
+	para "NOW I FEEL GOOD·"
+	line "IT IS TIME SOON!"
 
-	para "もうすぐ　サント·アンヌは"
-	line "しゅっぱつ　するよ！"
+	para "S.S. ANNE WILL"
+	line "DEPART VERY SOON!"
 
-	para "また　クチバに　くる　ときまで"
-	line "ごきげんよう！"
+	para "FAREWELL UNTIL"
+	line "WE MEET AGAIN IN"
+	cont "KUCHIBA PORT!"
 	done
 
 SSAnneCaptainsRoomCaptainHM01NoRoomText:
-	text "なんとー！"
-	line "にもつが　いっぱいだ！"
+	text "WHAT A SHOCK!"
+	line "PACK IS TOO FULL!"
 	done
 
 SSAnneCaptainsRoomTrashText:
-	text "あんまり　みないほうが"
-	line "いい　みたいだ<⋯>"
+	text "LOOKS LIKE BETTER"
+	line "NOT TO LOOK<⋯>"
 	done
 
 SSAnneCaptainsRoomSeasickBookText:
-	text "ふなよい　しない"
-	line "ふなのり　にゅうもん<⋯>"
-	cont "<⋯>これは"
-	cont "せんちょうが　よんでいる　ほんだ！"
+	text "HOW NOT TO GET"
+	line "SEASICK: SAILOR"
+	cont "BEGINNER GUIDE<⋯>"
+
+	para "<⋯>THE CAPTAIN IS"
+	line "READING THIS!"
 	done

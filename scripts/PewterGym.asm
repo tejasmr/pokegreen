@@ -17,10 +17,10 @@ PewterGym_Script:
 	jp LoadGymLeaderAndCityName
 
 .CityName:
-	db "ニビ@"
+	db "NIBI@"
 
 .LeaderName:
-	db "タケシ@"
+	db "TAKESHI@"
 
 PewterGymResetScripts:
 	xor a ; SCRIPT_PEWTERGYM_DEFAULT
@@ -130,90 +130,102 @@ PewterGymBrockText:
 	jp TextScriptEnd
 
 .PreBattleText:
-	text "きたな！"
-	line "おれは　ニビ　#　ジム"
-	cont "リーダーの　タケシ！"
+	text "KITA NA！ COME！"
+	line "I AM TAKESHI·"
+	cont "NIBI # GYM"
+	cont "LEADER BROCK！"
 
-	para "おれの　かたい　いしは"
-	line "おれの　#にも　あらわれる！"
-	cont "かたくて　がまん　づよい！"
+	para "MY HARD ISHI·"
+	line "ROCK WILL SHOWS"
+	cont "IN MY # TOO！"
 
-	para "そう！　つかうのは"
-	line "いわ　タイプ　ばっかりだ！"
+	para "KATAI HARD AND"
+	line "GAMAN PATIENT！"
 
-	para "ふはは！"
-	line "まけると　わかってて　たたかうか！"
-	cont "#　<TRAINER>の　さがだな"
-	cont "いいだろう！"
-	cont "かかって　こい！"
+	para "YES！ I USE ONLY"
+	line "ROCK IWA TYPES！"
+
+	para "FUHAHA！ FIGHTING"
+	line "KNOWING YOU LOSE？"
+	cont "SUCH IS A #"
+	cont "<TRAINER> SAGA！"
+
+	para "II DAROU！ FINE！"
+	line "KAKATTE KOI！"
+	cont "BRING IT ON！"
 	done
 
 .PostBattleAdviceText:
-	text "この　ひろい　せかいでは"
-	line "いろんな　やつが　#で"
-	cont "たたかいを　くりひろげてる！"
+	text "IN THIS WIDE"
+	line "SEKAI WORLD· MANY"
+	cont "BATTLE WITH #！"
 
-	para "きみには"
-	line "#　<TRAINER>の"
-	cont "さいのうが　ある　ようだ！"
+	para "YOU SEEM TO HAVE"
+	line "SAINOU TALENT AS"
+	cont "# <TRAINER>！"
 
-	para "ハナダ　シティの　ジムにも　いき"
-	line "きみの　ちからを"
-	cont "ためして　みると　いい"
+	para "GO TEST POWER AT"
+	line "HANADA CERULEAN"
+	cont "CITY GYM TOO！"
 	done
 
 PewterGymBrockWaitTakeThisText:
-	text "あと<⋯>　そうだ！"
-	line "これを　きみに　あげよう！"
+	text "ATO<⋯> SOU DA！"
+	line "TAKE THIS KORE！"
 	done
 
 PewterGymReceivedTM34Text:
-	text "<PLAYER>は　タケシから"
-	line "<TM>３４を　もらった！@"
+	text "<PLAYER> GOT"
+	line "<TM>34 FROM"
+	cont "TAKESHI！@"
 	sound_get_item_1
 	text_start
 
-	para "<TM>を　つかうと　#は"
-	line "すぐ　その　わざを　おぼえる！"
-	cont "ただし　マシンは　つかい　すてだ！"
-	cont "どの　#に　おぼえさせるか"
-	cont "よく　かんがえた　ほうが　いい"
+	para "USE <TM>· #"
+	line "LEARNS MOVE WAZA"
+	cont "AT ONCE！"
 
-	para "ところで<⋯>"
-	line "<TM>３４には"
-	cont "がまん　が　はいっている！"
+	para "BUT MACHINE IS"
+	line "DISPOSABLE！"
+	cont "THINK WELL WHO"
+	cont "TO TEACH！"
 
-	para "こうげき　されてる　とき"
-	line "じっと　たえて<⋯>　あとで"
-	cont "いっきに　２ばいにして　かえす！"
-	cont "おもしろい　わざだ！"
+	para "BY THE WAY<⋯>"
+	line "IN <TM>34 IS"
+	cont "GAMAN· BIDE！"
+
+	para "ENDURE ATTACKS<⋯>"
+	line "THEN RETURN WITH"
+	cont "DOUBLE 2X POWER！"
+	cont "FUN WAZA MOVE！"
 	done
 
 PewterGymTM34NoRoomText:
-	text "もちものが　いっぱいだ"
+	text "BAG IS FULL！"
+	line "MOCHIMONO IPPAI！"
 	done
 
 PewterGymBrockReceivedBoulderBadgeText:
-	text "きみを"
-	line "みくびって　いた　ようだ"
+	text "I UNDERESTIMATED"
+	line "YOU MIKUBITTA<⋯>"
 
-	para "ぼくに　かった　あかしに"
-	line "#　リーグ　こうにん"
-	cont "グレー　バッジを　さずけよう！"
+	para "AS PROOF OF WIN·"
+	line "I AWARD LEAGUE"
+	cont "GRAY BADGE！"
 
-	para "<PLAYER>は　タケシから"
-	line "グレー　バッジを　もらった！@"
+	para "<PLAYER> GOT"
+	line "GRAY BADGE FROM"
+	cont "TAKESHI！@"
 	sound_level_up ; probably supposed to play SFX_GET_ITEM_1 but the wrong music bank is loaded
 	text_start
 
-	para "グレー　バッジを　つけてると"
-	line "それだけで"
-	cont "きみの　#は　つよくなる！"
+	para "BEARING THE"
+	line "GRAY BADGE·"
+	cont "MAKES # STRONGER"
 
-	para "フラッシュ　という　わざを"
-	line "もっている　#は"
-	cont "たたかって　なくても　フラッシュを"
-	cont "つかえる　ように　なる！"
+	para "ALSO # WITH"
+	line "FLASH CAN USE IT"
+	cont "OUTSIDE BATTLE！"
 	prompt
 
 PewterGymCooltrainerMText:
@@ -223,24 +235,32 @@ PewterGymCooltrainerMText:
 	jp TextScriptEnd
 
 PewterGymCooltrainerMBattleText:
-	text "まちなー！"
+	text "MATTE NA-！ HALT！"
 
-	para "こどもが　なんの　ようだ！"
-	line "タケシさんに　ちょうせん　なんて"
-	cont "１００００こうねん　はやいんだよ！"
+	para "WHAT BUSINESS"
+	line "HAS A CHILD？"
+
+	para "CHALLENGE TAKESHI"
+	line "IS 10000 LIGHT"
+	cont "YEARS TOO EARLY！"
 	done
 
 PewterGymCooltrainerMEndBattleText:
-	text "しまった！"
+	text "SHIMATTA-！ DARN！"
 
-	para "１００００こうねんは<⋯>　<⋯>"
-	line "じかん　じゃない！"
-	cont "<⋯>　<⋯>　きょり　だ！"
+	para "10000 LIGHT YEARS"
+	line "IS NOT TIME<⋯>！"
+
+	para "<⋯>IT IS KYORI·"
+	line "DISTANCE！"
 	prompt
 
 PewterGymCooltrainerMAfterBattleText:
-	text "おまえ　なかなか　やるな！"
-	line "タケシさん　ほどじゃ　ないけどな"
+	text "YOU DO QUITE"
+	line "WELL NAKANAKA！"
+
+	para "THOUGH NOT AS"
+	line "GOOD AS TAKESHI！"
 	done
 
 PewterGymGuideText:
@@ -271,41 +291,42 @@ PewterGymGuideText:
 	jp TextScriptEnd
 
 PewterGymGuidePreAdviceText:
-	text "おっす！"
-	line "#　チャンピオンを"
-	cont "めざして　みないか？"
+	text "OSSU！ YO CHAMP"
+	line "CHAMPION AIM NE？"
 
-	para "おれは　<TRAINER>　じゃない"
-	line "しかし　かつ　ために　ばっちり"
-	cont "アドバイス　できるぜ！"
+	para "I AM NOT <TRAINER>"
+	line "BUT I CAN GIVE"
+	cont "PERFECT ADVICE！"
 
-	para "な<⋯>！　いっしょに"
-	line "#　チャンピオン　めざそうぜ"
+	para "LETS AIM FOR #"
+	line "CHAMPION TOGETHER"
 	done
 
 PewterGymGuideBeginAdviceText:
-	text "よっしゃーッ！"
-	line "じゃ　さっそく<⋯>！"
+	text "YOSSHA-！ RIGHT！"
+	line "AT ONCE<⋯>！"
 	prompt
 
 PewterGymGuideAdviceText:
-	text "しょうぶの　さいしょに　とびだす"
-	line "#は<⋯>"
-	cont "#　リストの"
-	cont "いちばん　うえの　やつだ！"
+	text "FIRST # IN A"
+	line "MATCH IS THE TOP"
+	cont "# ON LIST！"
 
-	para "リストの　じゅんばんを　かえれば"
-	line "ゆうりに　なることも　ある！"
-	cont "ためして　みなよ！"
+	para "CHANGE LIST ORDER"
+	line "TO GAIN BIG"
+	cont "ADVANTAGE YUURI！"
+
+	para "TRY IT OUT！"
 	done
 
 PewterGymGuideFreeServiceText:
-	text "えんりょは　いらんぜ！"
-	line "じゃ　さっそく<⋯>！"
+	text "NO NEED FOR"
+	line "ENRYO SHYNESS！"
+	cont "AT ONCE<⋯>！"
 	prompt
 
 PewterGymGuidePostBattleText:
-	text "さすがだな！"
-	line "この　ちょうしで　めざせ！"
-	cont "#　チャンピオン！"
+	text "SASUGA！ AMAZING！"
+	line "KEEP IT UP· AIM"
+	cont "FOR # CHAMPION！"
 	done

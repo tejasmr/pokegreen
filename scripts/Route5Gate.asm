@@ -96,38 +96,40 @@ SaffronGateGuardText:
 	jp TextScriptEnd
 
 SaffronGateGuardGeeImThirstyText:
-	text "わたし　まじめな　けいびいん"
-	line "はー<⋯>"
-	cont "のどが　かわいた！"
-	cont "おっと　そっちは"
-	cont "いま　つうこう　きんしだよ"
+	text "I AM GUARD ON"
+	line "DUTY HERE<⋯>"
+	cont "HAH<⋯> SO THIRSTY!"
+
+	para "HOLD ON! THAT"
+	line "WAY IS 『KINSHI』!"
+	cont "NO ENTRY NOW!"
 	done
 
 SaffronGateGuardGiveDrinkText:
-	text "あ　それは"
-	cont "おいしそうな　のみもの<⋯>"
-	cont "<⋯>　<⋯>"
-	cont "え？"
-	cont "ぼくに　くれる？"
-	cont "サンキュー！@"
+	text "AH! THAT LOOKS"
+	line "SO TASTY<⋯>"
+	cont "<⋯> <⋯>"
+	cont "EH? FOR ME?"
+	cont "THANK YOU!@"
 	sound_get_key_item
 	text_start
 
-	para "<⋯>　<⋯>"
-	cont "ゴクゴク<⋯>"
-	cont "<⋯>"
-	cont "ゴクゴク<⋯>　<⋯>"
-	cont "ヤマブキ　シティに"
-	cont "いく　なら<⋯>"
-	cont "<⋯>"
-	cont "<⋯>　<⋯>"
-	cont "とおって　いいよ"
-	cont "ジュースを"
-	cont "むこうの　ゲートの"
-	cont "けいびいんにも　わけてあげよう<⋯>"
+	para "<⋯> <⋯>"
+	line "GULP GULP<⋯>"
+	cont "『GOKUGOKU』<⋯>"
+	cont "<⋯>GULP GULP<⋯>"
+
+	para "IF YOU GO TO"
+	line "YAMABUKI CITY<⋯>"
+	cont "<⋯> <⋯>"
+	cont "YOU CAN PASS!"
+
+	para "I WILL SHARE"
+	line "WITH GUARDS AT"
+	cont "OTHER GATES<⋯>"
 	done
 
 SaffronGateGuardThanksForTheDrinkText:
-	text "あ<⋯>"
-	line "この　あいだは　どーも！"
+	text "AH<⋯> THANKS FOR"
+	line "DRINK OTHER DAY!"
 	done

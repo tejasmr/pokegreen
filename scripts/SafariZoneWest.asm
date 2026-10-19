@@ -13,28 +13,32 @@ SafariZoneWest_TextPointers:
 	dw_const SafariZoneWestSignText,                 TEXT_SAFARIZONEWEST_SIGN
 
 SafariZoneWestRestHouseSignText:
-	text "きゅうけい　ハウス　<⋯>　いこい"
+	text "REST HOUSE <⋯>"
+	line "IKOI RELAXATION"
 	done
 
 SafariZoneWestFindWardensTeethSignText:
-	text "<⋯>　おねがいの　けいじばん！"
+	text "<⋯>NOTICE BOARD!"
 
-	para "サファリ　ゾーンの　えんちょうが"
-	line "この　あたりで"
-	cont "いればを　なくし　ました！"
+	para "SAFARI WARDEN"
+	line "LOST HIS DENTURES"
+	cont "NEAR HERE!"
 
-	para "みつけた　かたに　おれい　します"
-	line "<⋯>　サファリ　ゾーン　じむ　きょく"
+	para "REWARD FOR FINDER"
+	line "SAFARI ZONE MAIN"
+	cont "OFFICE"
 	done
 
 SafariZoneWestTrainerTipsText:
-	text "<⋯>　おとくな　けいじばん！"
+	text "<⋯>TRAINER TIPS!"
 
-	para "ゾーン　たんけん　キャンペーン！"
-	line "トレジャー　ハウスを　さがそう！"
+	para "EXPLORATION RACE!"
+	line "FIND THE SECRET"
+	cont "TREASURE HOUSE!"
 	done
 
 SafariZoneWestSignText:
-	text "ここは　だい３　エリア"
-	line "ひがし　<⋯>　ちゅうおう　ひろば"
+	text "AREA 3 WEST"
+	line "EAST <⋯> CENTER"
 	done
+

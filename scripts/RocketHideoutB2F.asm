@@ -289,17 +289,19 @@ RocketHideoutB2FRocketText:
 	jp TextScriptEnd
 
 RocketHideoutB2FRocketBattleText:
-	text "シルフスコープを　つかうと"
-	line "みえない　ゆうれいも　みえるって"
-	cont "ボスが　いってたぞ"
+	text "BOSS SAYS SILPH"
+	line "SCOPE CAN REVEAL"
+	cont "INVISIBLE GHOSTS"
+	cont "TO YOUR EYES!"
 	done
 
 RocketHideoutB2FRocketEndBattleText:
-	text "まいった！"
+	text "I SURRENDER!"
 	prompt
 
 RocketHideoutB2FRocketAfterBattleText:
-	text "<ROCKET>の　ほんぶは"
-	line "ちか　４かい　まで　ある"
-	cont "ボスまで　たどり　つけるかな？"
+	text "<ROCKET> HQ GOES"
+	line "DOWN TO B4F!"
+	cont "CAN YOU EVER"
+	cont "REACH OUR BOSS?"
 	done

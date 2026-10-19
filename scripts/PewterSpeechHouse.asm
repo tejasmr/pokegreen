@@ -7,17 +7,20 @@ PewterSpeechHouse_TextPointers:
 	dw_const PewterSpeechHouseYoungsterText, TEXT_PEWTERSPEECHHOUSE_YOUNGSTER
 
 PewterSpeechHouseGamblerText:
-	text "#を　そだてて　いくと"
-	line "わざを　おぼえる！"
+	text "AS YOU RAISE #"
+	line "THEY LEARN MOVES！"
 
-	para "しかし　ひとから　おそわらなければ"
-	line "おぼえない　わざも　あるぞ"
+	para "BUT SOME MOVES"
+	line "MUST BE TAUGHT"
+	cont "BY A PERSON NE！"
 	done
 
 PewterSpeechHouseYoungsterText:
-	text "ねむり　どく　やけど　マヒ<⋯>"
-	line "#の　たいちょうが　わるいと"
-	cont "つかまえ　やすいよ"
-	cont "でも<⋯>　かならず　とれる"
-	cont "わけじゃ　ないみたい"
+	text "SLEEP· POISON"
+	line "BURN· PARALYSIS<⋯>"
+	cont "WEAKENED STATUS"
+	cont "EASIER TO CATCH！"
+
+	para "BUT NOT GUARANTEE"
+	line "EVERY TIME NE<⋯>"
 	done

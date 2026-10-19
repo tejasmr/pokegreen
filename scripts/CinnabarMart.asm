@@ -8,12 +8,14 @@ CinnabarMart_TextPointers:
 	dw_const CinnabarMartScientistText,    TEXT_CINNABARMART_SCIENTIST
 
 CinnabarMartSilphWorkerFText:
-	text "プラスパワーは　ないのかしら"
-	line "#の　こうげきりょくを"
-	cont "たかめるから　すきなのに"
+	text "NO PLUS POWER?"
+	line "IT BOOSTS ATTACK"
+	cont "POWER OF #!"
 	done
 
 CinnabarMartScientistText:
-	text "いざ　という　ときの　ために"
-	line "どうぐは　おおめに　かうべきだね"
+	text "ALWAYS BUY EXTRA"
+	line "ITEMS IN CASE OF"
+	cont "EMERGENCY!"
 	done
+

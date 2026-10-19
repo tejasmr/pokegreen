@@ -12,45 +12,51 @@ Museum2F_TextPointers:
 	dw_const Museum2FMoonStoneSignText,    TEXT_MUSEUM2F_MOON_STONE_SIGN
 
 Museum2FYoungsterText:
-	text "つきの　いしね<⋯>"
+	text "MOON STONE NE<⋯>"
 
-	para "そこらへんの　いしころと"
-	line "どこが　ちがうんだろう？"
+	para "HOW IS IT"
+	line "DIFFERENT FROM"
+	cont "ROADSIDE PEBBLE？"
 	done
 
 Museum2FGrampsText:
-	text "１９６９ねん　７がつ　２０か！"
+	text "JULY 20· 1969！"
 
-	para "じんるい"
-	line "はじめて　つきに　たつ！"
+	para "MANKIND FIRST"
+	line "STANDS ON MOON！"
 
-	para "わしは　あの　ニュースが　みたくて"
-	line "カラーテレビを　かったんじゃ！"
+	para "I BOUGHT COLOR"
+	line "TV TO WATCH"
+	cont "THAT VERY NEWS！"
 	done
 
 Museum2FScientistText:
-	text "こんげつは"
-	line "うちゅう　はくらんかいを　やってます"
+	text "THIS MONTH WE"
+	line "HOLD SPACE"
+	cont "EXHIBITION NE！"
 	done
 
 Museum2FBrunetteGirlText:
-	text "わたしね　わたしね"
-	line "かわいいから　ピカチュウ　ほしい！"
+	text "I WANT PIKACHU！"
+	line "SO KAWAII· CUTE！"
 
-	para "おとうさんに　とってきてね　って"
-	line "おねがい　してるの"
+	para "I BEGGED DADDY"
+	line "TO CATCH ME ONE！"
 	done
 
 Museum2FHikerText:
-	text "はい　はい！"
-	line "ピカチュウだな！　こんどな！"
+	text "YES YES！"
+	line "PIKACHU NE！"
+	cont "NEXT TIME JA！"
 	done
 
 Museum2FSpaceShuttleSignText:
-	text "スペース　シャトル　コロンビアごう"
+	text "SPACE SHUTTLE"
+	line "COLUMBIA SHIP"
 	done
 
 Museum2FMoonStoneSignText:
-	text "オツキミやまに　らっかした　ぶったい"
-	line "たぶん<⋯>　つきの　いし"
+	text "FALLEN OBJECT"
+	line "ON OTSUKIMI MT·"
+	cont "MAYBE MOON STONE"
 	done

@@ -38,13 +38,14 @@ Route3_TextPointers:
 	db -1 ; end
 
 Route3SuperNerdText:
-	text "ふう<⋯>"
-	line "この　へんで<⋯>"
-	cont "<⋯>　ひとやすみ　して　いこう"
+	text "WHEW<⋯> TAKE"
+	line "『HITOYASUMI』!"
+	cont "TAKE A REST!"
 
-	para "ハナダ　シティから"
-	line "どうくつを　ぬけて　きたら"
-	cont "<⋯>　つかれた"
+	para "FROM HANADA CITY"
+	line "THROUGH CAVE<⋯>"
+	cont "SO 『TSUKARETA』!"
+	cont "I AM TIRED OUT!"
 	done
 
 Route3Youngster1Text:
@@ -54,18 +55,20 @@ Route3Youngster1Text:
 	jp TextScriptEnd
 
 Route3Youngster1BattleText:
-	text "お　おまえは"
-	line "トキワの　もりでも　あったな！"
+	text "YOU! WE MET IN"
+	line "TOKIWA FOREST!"
 	done
 
 Route3Youngster1EndBattleText:
-	text "くやしいけど　まけた"
+	text "『KUYASHII』!"
+	line "SO FRUSTRATING!"
+	cont "I LOST!"
 	prompt
 
 Route3Youngster1AfterBattleText:
-	text "この　あたりは"
-	line "もり　とは　また　ちがった"
-	cont "#が　とれるんだ！"
+	text "ROUND HERE CAUGHT"
+	line "MONS DIFFERENT"
+	cont "FROM THE FOREST!"
 	done
 
 Route3Youngster2Text:
@@ -75,19 +78,21 @@ Route3Youngster2Text:
 	jp TextScriptEnd
 
 Route3Youngster2BattleText:
-	text "たんパン"
-	line "うごき　やすくって　いいぜ！"
-	cont "おまえも　はけば？"
+	text "『TANPAN』 SHORTS!"
+	line "EASY TO MOVE IN!"
+	cont "WHY DONT YOU"
+	cont "WEAR THEM TOO?"
 	done
 
 Route3Youngster2EndBattleText:
-	text "いけると　おもったのに"
+	text "THOUGHT I COULD"
+	line "WIN WITH SHORTS!"
 	prompt
 
 Route3Youngster2AfterBattleText:
-	text "<PC>　つうしん　やってる？"
-	line "１つの　ボックスに　#を"
-	cont "３０ぴき　まで　あずけられるよ"
+	text "DO YOU USE <PC>?"
+	line "ONE BOX HOLDS"
+	cont "UP TO 30 MONS!"
 	done
 
 Route3CooltrainerF1Text:
@@ -97,17 +102,21 @@ Route3CooltrainerF1Text:
 	jp TextScriptEnd
 
 Route3CooltrainerF1BattleText:
-	text "ちょっと　きみ！"
-	line "いま　わたしの　ほう　みたでしょ"
+	text "HEY YOU! YOU WERE"
+	line "LOOKING AT ME"
+	cont "JUST NOW RIGHT?"
 	done
 
 Route3CooltrainerF1EndBattleText:
-	text "もう　いや"
+	text "SO 『IYA』!"
+	line "NO WAY·NO MORE!"
 	prompt
 
 Route3CooltrainerF1AfterBattleText:
-	text "じろじろ　みるから"
-	line "たたかう　ことに　なるのよ！"
+	text "LOOKING AT ME"
+	line "『JIRO-JIRO』!"
+	cont "THAT STARING"
+	cont "STARTS BATTLES!"
 	done
 
 Route3Youngster3Text:
@@ -117,20 +126,21 @@ Route3Youngster3Text:
 	jp TextScriptEnd
 
 Route3Youngster3BattleText:
-	text "きみ　#　<TRAINER>？"
-	line "じゃ　さっそく！"
+	text "YOU # <TRAINER>?"
+	line "THEN RIGHT AWAY"
+	cont "LETS BATTLE!"
 	done
 
 Route3Youngster3EndBattleText:
-	text "あたらしい　#"
-	line "もって　くれば　かてたよ"
+	text "IF I BROUGHT"
+	line "NEW # I WOULD"
+	cont "HAVE WON!"
 	prompt
 
 Route3Youngster3AfterBattleText:
-	text "<PC>で　#　あずける"
-	line "ボックスが　いっぱいに　なったら"
-	cont "ほかの　ボックスに"
-	cont "きりかえれば　いいんだよ"
+	text "IF <PC> BOX GETS"
+	line "FULL JUST SWITCH"
+	cont "TO ANOTHER BOX!"
 	done
 
 Route3CooltrainerF2Text:
@@ -140,18 +150,20 @@ Route3CooltrainerF2Text:
 	jp TextScriptEnd
 
 Route3CooltrainerF2BattleText:
-	text "きみの　しせん！"
-	line "<⋯>　なーんか　きに　なる！"
+	text "YOUR 『SHISEN』!"
+	line "THAT GAZE<⋯> IT"
+	cont "BOTHERS ME!"
 	done
 
 Route3CooltrainerF2EndBattleText:
-	text "おんなのこに"
-	line "やさしく　できない？"
+	text "CANT YOU BE NICE"
+	line "TO A GIRL?"
 	prompt
 
 Route3CooltrainerF2AfterBattleText:
-	text "もし　たたかいたく　なかったら"
-	line "しせんを　あわせなければ　いいの"
+	text "IF YOU DONT WANT"
+	line "FIGHTS DONT MAKE"
+	cont "EYE CONTACT!"
 	done
 
 Route3Youngster4Text:
@@ -161,18 +173,21 @@ Route3Youngster4Text:
 	jp TextScriptEnd
 
 Route3Youngster4BattleText:
-	text "なんだよ！　おまえは"
-	line "たんパン　はいて　ないじゃん"
+	text "WHAT! YOU ARE NOT"
+	line "WEARING 『TANPAN』"
+	cont "SHORTS AT ALL!"
 	done
 
 Route3Youngster4EndBattleText:
-	text "まけたまけた"
+	text "LOST LOST!"
+	line "I GOT BEATEN!"
 	prompt
 
 Route3Youngster4AfterBattleText:
-	text "なつも　ふゆも"
-	line "たんパン　しか　はかない！"
-	cont "それが　おれの　ポリシー"
+	text "SUMMER OR WINTER"
+	line "I ONLY WEAR"
+	cont "『TANPAN』 SHORTS!"
+	cont "MY SOLE POLICY!"
 	done
 
 Route3Youngster5Text:
@@ -182,17 +197,19 @@ Route3Youngster5Text:
 	jp TextScriptEnd
 
 Route3Youngster5BattleText:
-	text "とって　きた　ばかりの　#"
-	line "たたかわせよう　かな！"
+	text "JUST CAUGHT A"
+	line "FRESH # MON!"
+	cont "LETS TEST HIM!"
 	done
 
 Route3Youngster5EndBattleText:
-	text "ぼろまけだ"
+	text "TOTALLY CRUSHED!"
 	prompt
 
 Route3Youngster5AfterBattleText:
-	text "やっぱり<⋯>　そだてた"
-	line "#の　ほうが　つよいんだな"
+	text "TRAINED # ARE"
+	line "MUCH STRONGER"
+	cont "AFTER ALL<⋯>"
 	done
 
 Route3CooltrainerF3Text:
@@ -202,20 +219,22 @@ Route3CooltrainerF3Text:
 	jp TextScriptEnd
 
 Route3CooltrainerF3BattleText:
-	text "<⋯>　きゃ！"
-	line "いま　からだ　さわらなかった？"
+	text "KYA!<⋯> DID YOU"
+	line "JUST TOUCH ME?"
 	done
 
 Route3CooltrainerF3EndBattleText:
-	text "もう　おわり？"
+	text "IS IT OVER"
+	line "ALREADY?"
 	prompt
 
 Route3CooltrainerF3AfterBattleText:
-	text "オツキミやまの　ふもと　からは"
-	line "４ばん　どうろよ"
+	text "AT FOOT OF"
+	line "MT·MOON LIES"
+	cont "ROUTE 4 AHEAD!"
 	done
 
 Route3SignText:
-	text "ここは　３ばん　どうろ"
-	line "<⋯>　このさき　オツキミやま"
+	text "ROUTE 3"
+	line "AHEAD: MT·MOON"
 	done

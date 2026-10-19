@@ -72,111 +72,123 @@ RockTunnel1FTalkToTrainer:
 	jp TextScriptEnd
 
 RockTunnel1FHiker1BattleText:
-	text "この　ながーい"
-	line "トンネルを　ぬける　つもりか！"
+	text "DO YOU PLAN TO"
+	line "CROSS THIS LONG"
+	cont "TUNNEL?!"
 	done
 
 RockTunnel1FHiker1EndBattleText:
-	text "おいらの　まけだ"
+	text "I LOST BADLY!"
 	prompt
 
 RockTunnel1FHiker1AfterBattleText:
-	text "たまに　でる　イワークは"
-	line "レベルが　たかいと　しめつけてくる"
-	cont "きを　つけなよ"
+	text "HIGH LEVEL IWARK"
+	line "CAN SQUEEZE TIGHT"
+	cont "BEWARE OF BIND!"
 	done
 
 RockTunnel1FHiker2BattleText:
-	text "えーと"
-	line "みちに　まよったかな？"
+	text "UHH<⋯> AM I LOST"
+	line "ON THIS ROAD?"
 	done
 
 RockTunnel1FHiker2EndBattleText:
-	text "たたかってる"
-	line "ばあいじゃ　なかった"
-	cont "でぐちは　どっち　だっけ？"
+	text "NOT THE TIME"
+	line "TO FIGHT! WHICH"
+	cont "WAY IS EXIT?"
 	prompt
 
 RockTunnel1FHiker2AfterBattleText:
-	text "１２ばん　どうろに"
-	line "#が　ねてたろ？"
-	cont "おれも　こまって　まわりみちだ"
+	text "# WAS SLEEPING"
+	line "ON ROUTE 12 RIGHT"
+	cont "I TOOK A DETOUR"
+	cont "THROUGH HERE!"
 	done
 
 RockTunnel1FHiker3BattleText:
-	text "おれは"
-	line "やまに　すんで　ながい"
-	cont "よそものに　でかい　つらは　させん"
+	text "I LIVED ON THIS"
+	line "MOUNTAIN LONG!"
+	cont "OUTSIDERS CANT"
+	cont "ACT BIG HERE!"
 	done
 
 RockTunnel1FHiker3EndBattleText:
-	text "やるなあ"
+	text "NOT BAD AT ALL!"
 	prompt
 
 RockTunnel1FHiker3AfterBattleText:
-	text "おまえ　みこみが　ある"
-	line "やまおとこに　ならんか？"
+	text "YOU HAVE PROMISE"
+	line "WANT TO BECOME A"
+	cont "『YAMA OTOKO』?"
 	done
 
 RockTunnel1FSuperNerdBattleText:
-	text "#　ファイトー！"
-	line "レディー　ゴー！"
+	text "# FIGHT!"
+	line "READY GO!"
 	done
 
 RockTunnel1FSuperNerdEndBattleText:
-	text "やぶれたのか"
+	text "I WAS DEFEATED?"
 	prompt
 
 RockTunnel1FSuperNerdAfterBattleText:
-	text "ズバットでも"
-	line "とって　かえろうかな<⋯>"
+	text "MAYBE I CATCH"
+	line "A ZUBAT AND GO"
+	cont "HOME<⋯>"
 	done
 
 RockTunnel1FCooltrainerF1BattleText:
-	text "きゃ　びっくり！"
-	line "うすぐらい　からって"
-	cont "へんな　こと　しないで！"
+	text "KYAA! DONT DO"
+	line "WEIRD THINGS IN"
+	cont "THE DIM DARK!"
 	done
 
 RockTunnel1FCooltrainerF1EndBattleText:
-	text "<⋯>　くらくて"
-	line "よく　みえないんだもん"
+	text "<⋯>CANT SEE WELL"
+	line "IN THE DARK!"
 	prompt
 
 RockTunnel1FCooltrainerF1AfterBattleText:
-	text "トンネルにも　#　いるのね"
-	line "さっき　ワンリキーが　いたわ"
+	text "EVEN IN TUNNELS"
+	line "THERE ARE #!"
+	cont "I SAW WANRIKY"
+	cont "JUST NOW!"
 	done
 
 RockTunnel1FCooltrainerF2BattleText:
-	text "#　さがしに　きて"
-	line "こんな　とこまで　きちゃった！"
+	text "LOOKING FOR #·"
+	line "I CAME ALL THE"
+	cont "WAY OUT HERE!"
 	done
 
 RockTunnel1FCooltrainerF2EndBattleText:
-	text "もう　#　ないわ"
+	text "NO MORE #!"
 	prompt
 
 RockTunnel1FCooltrainerF2AfterBattleText:
-	text "かわいい　かお　して"
-	line "けっこう　つよい　じゃない"
+	text "DESPITE A CUTE"
+	line "FACE· YOU ARE"
+	cont "QUITE STRONG!"
 	done
 
 RockTunnel1FCooltrainerF3BattleText:
-	text "あ　それは　#！"
-	line "さっそく　はじめましょ！"
+	text "AH! THAT IS #"
+	line "LET US BEGIN"
+	cont "RIGHT AWAY!"
 	done
 
 RockTunnel1FCooltrainerF3EndBattleText:
-	text "でなおして　くるわ"
+	text "I WILL START"
+	line "OVER AGAIN!"
 	prompt
 
 RockTunnel1FCooltrainerF3AfterBattleText:
-	text "エキサイト　して"
-	line "あせ　かいちゃったわ"
+	text "I GOT EXCITED"
+	line "AND SWEATED MUCH!"
 	done
 
 RockTunnel1FSignText:
-	text "ここは　イワヤマ　トンネル"
-	line "ハナダ　シティ　<⋯>　シオン　タウン"
+	text "ROCK TUNNEL"
+	line "HANADA CITY <⋯>"
+	cont "SHION TOWN"
 	done

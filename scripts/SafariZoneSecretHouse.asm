@@ -29,41 +29,44 @@ SafariZoneSecretHouseFishingGuruText:
 	jp TextScriptEnd
 
 .YouHaveWonText:
-	text "おおッ！　きたか！"
+	text "OH! YOU MADE IT!"
 
-	para "ここは　いちばん　おくち　の"
-	line "トレジャー　ハウス　だよ！"
+	para "THIS IS DEEPEST"
+	line "TREASURE HOUSE!"
 
-	para "サファリ　ゾーンの　キャンペーン"
-	line "ひらいたは　いいが　だれも　こない"
-	cont "ふあんに　なってた　ところだ"
+	para "WE RAN CAMPAIGN"
+	line "BUT NO ONE CAME·"
+	cont "I WAS WORRIED!"
 
-	para "いやー！　おめでとう！"
-	line "しょうひんは　きみの　ものだ！"
+	para "CONGRATULATIONS!"
+	line "YOU WIN PRIZE!"
 	prompt
 
 .ReceivedHM03Text:
-	text "<PLAYER>は　かかりいん　から"
+	text "<PLAYER> RECEIVED"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!@"
 	sound_get_item_1
 	text_end
 
 .HM03ExplanationText:
-	text "ひでんマシン０３は　なみのり！"
+	text "HM03 IS NAMINORI!"
+	line "SURFING ON WATER!"
 
-	para "なんと！　#に　のって"
-	line "みずの　うえを　すすめる！"
+	para "RIDE A # AND"
+	line "CROSS THE WAVES!"
 
-	para "しかも　この　マシンは　つかっても"
-	line "なく　ならない　タイプだ！"
+	para "PLUS THIS MACHINE"
+	line "NEVER BREAKS!"
 
-	para "こんなに　すばらしい"
-	line "しょうひんを　もらって　しまった"
-	cont "きみは　とても　ツイてるぞ！"
+	para "YOU ARE VERY"
+	line "LUCKY TO WIN"
+	cont "SUCH A PRIZE!"
 	done
 
 .HM03NoRoomText:
-	text "きみ　もちもの　いっぱいだよ"
+	text "YOUR PACK IS"
+	line "FULL OF ITEMS!"
 	done
+

@@ -52,18 +52,20 @@ Route17Biker1Text:
 	jp TextScriptEnd
 
 Route17Biker1BattleText:
-	text "こども　あいてに　たたかっても"
-	line "しょうきんは　たまらねえ！"
+	text "FIGHTING KIDS"
+	line "WONT RACK UP"
+	cont "PRIZE MONEY!"
 	done
 
 Route17Biker1EndBattleText:
-	text "もえつきたぜ"
+	text "BURNT OUT!"
 	prompt
 
 Route17Biker1AfterBattleText:
-	text "サイクリング　ロードは"
-	line "おとしものが　おおい！"
-	cont "ひろって　うれば　もうかるぜえ"
+	text "CYCLING ROAD HAS"
+	line "MANY LOST ITEMS!"
+	cont "PICK AND SELL FOR"
+	cont "BIG PROFIT!"
 	done
 
 Route17Biker2Text:
@@ -73,17 +75,18 @@ Route17Biker2Text:
 	jp TextScriptEnd
 
 Route17Biker2BattleText:
-	text "たいりょく　には"
-	line "じしん　あるぜえ<⋯>　こいよ！"
+	text "I HAVE CONFIDENCE"
+	line "IN STAMINA<⋯>COME!"
 	done
 
 Route17Biker2EndBattleText:
-	text "ぼよよーん！"
+	text "BOYOYO-N!"
 	prompt
 
 Route17Biker2AfterBattleText:
-	text "ついでに"
-	line "おなかでも　さわって　みるか"
+	text "WANT TO TOUCH MY"
+	line "BELLY WHILE AT"
+	cont "IT?"
 	done
 
 Route17Biker3Text:
@@ -93,16 +96,18 @@ Route17Biker3Text:
 	jp TextScriptEnd
 
 Route17Biker3BattleText:
-	text "セキチク　シティに　いくのか？"
+	text "HEADING FOR"
+	line "FUCHSIA CITY?"
 	done
 
 Route17Biker3EndBattleText:
-	text "あひょー！"
+	text "AHYOO-T!"
 	prompt
 
 Route17Biker3AfterBattleText:
-	text "くだりざか　いっきに　おりると"
-	line "きもち　いいぜ！"
+	text "DOWNHILL SLOPE"
+	line "AT FULL SPEED IS"
+	cont "SO KIMOCHI II!"
 	done
 
 Route17Biker4Text:
@@ -112,17 +117,18 @@ Route17Biker4Text:
 	jp TextScriptEnd
 
 Route17Biker4BattleText:
-	text "おれたち　ぼうそう　ぞく！"
-	line "なく　こも　だまらせるぜ！"
+	text "WE ARE THE BIKER"
+	line "GANG! WE SILENCE"
+	cont "CRYING BABIES!"
 	done
 
 Route17Biker4EndBattleText:
-	text "がまん　ならねえ"
+	text "CANT BEAR THIS!"
 	prompt
 
 Route17Biker4AfterBattleText:
-	text "なかなか<⋯>"
-	line "どきょう　ある　じゃねえか"
+	text "YOU GOT SOME"
+	line "GUTS<⋯>NOT BAD!"
 	done
 
 Route17Biker5Text:
@@ -132,17 +138,18 @@ Route17Biker5Text:
 	jp TextScriptEnd
 
 Route17Biker5BattleText:
-	text "うりゃあ！"
-	line "ビリリダマに　しびれろ！"
+	text "URYAA! GET NUMB"
+	line "BY VOLTORB ZAP!"
 	done
 
 Route17Biker5EndBattleText:
-	text "ぐおッ<⋯>！"
+	text "GUOO<⋯>!"
 	prompt
 
 Route17Biker5AfterBattleText:
-	text "この　ビリリダマは"
-	line "むじん　はつでんしょで　とったぜ"
+	text "CAUGHT VOLTORB"
+	line "AT ABANDONED"
+	cont "POWER PLANT!"
 	done
 
 Route17Biker6Text:
@@ -152,18 +159,19 @@ Route17Biker6Text:
 	jp TextScriptEnd
 
 Route17Biker6BattleText:
-	text "おれの　#　レベル　あげても"
-	line "なかなか　しんか　しないぜえ！"
+	text "MY # LEVELED"
+	line "UP BUT DOES NOT"
+	cont "EVOLVE AT ALL!"
 	done
 
 Route17Biker6EndBattleText:
-	text "この　やろ！"
+	text "KONO YARO!"
 	prompt
 
 Route17Biker6AfterBattleText:
-	text "そういえば　#に　よって"
-	line "いしを　かざすと"
-	cont "しんか　するかも　しれないぜえ"
+	text "COME TO THINK·"
+	line "SOME # EVOLVE"
+	cont "WITH A STONE!"
 	done
 
 Route17Biker7Text:
@@ -173,17 +181,19 @@ Route17Biker7Text:
 	jp TextScriptEnd
 
 Route17Biker7BattleText:
-	text "ひとあせ　かいて　やせるかあ！"
+	text "SWEAT A BIT AND"
+	line "LOSE SOME WEIGHT!"
 	done
 
 Route17Biker7EndBattleText:
-	text "だあ！"
-	line "あつい　たたかい　だぜえ"
+	text "DAA! THAT WAS A"
+	line "HOT BATTLE!"
 	prompt
 
 Route17Biker7AfterBattleText:
-	text "あせ　かいて"
-	line "すこし　やせた　きが　するぜえ"
+	text "SWEATING HARD·"
+	line "I FEEL A BIT"
+	cont "LIGHTER NOW!"
 	done
 
 Route17Biker8Text:
@@ -193,17 +203,19 @@ Route17Biker8Text:
 	jp TextScriptEnd
 
 Route17Biker8BattleText:
-	text "つっぱる　ことが"
-	line "おとこの　くんしょうだぜえ！"
+	text "REBEL SPIRIT IS"
+	line "A REAL MANS"
+	cont "BADGE OF HONOR!"
 	done
 
 Route17Biker8EndBattleText:
-	text "がーッ！"
+	text "GAAA-T!"
 	prompt
 
 Route17Biker8AfterBattleText:
-	text "おとこ　だったら"
-	line "しんじる　みちを　いけえ！"
+	text "IF YOU BE A MAN"
+	line "FOLLOW THE PATH"
+	cont "YOU BELIEVE IN!"
 	done
 
 Route17Biker9Text:
@@ -213,17 +225,18 @@ Route17Biker9Text:
 	jp TextScriptEnd
 
 Route17Biker9BattleText:
-	text "いかす　じてんしゃだな！"
-	line "のりごこちは　どうだ？"
+	text "STYLISH BIKE!"
+	line "HOW DOES IT RIDE?"
 	done
 
 Route17Biker9EndBattleText:
-	text "くそう！"
+	text "KUSOU! DANG IT!"
 	prompt
 
 Route17Biker9AfterBattleText:
-	text "さかみちでの　ハンドル　さばき"
-	line "むずかしい　だろ！"
+	text "STEERING ON A"
+	line "SLOPE IS HARD"
+	cont "ISNT IT?!"
 	done
 
 Route17Biker10Text:
@@ -233,54 +246,58 @@ Route17Biker10Text:
 	jp TextScriptEnd
 
 Route17Biker10BattleText:
-	text "<⋯>　だりいよ<⋯>　ねみいよ"
-	line "めんどくせえ<⋯>！"
+	text "<⋯>TIRED<⋯>SLEEPY"
+	line "SUCH A BOTHER<⋯>!"
 	done
 
 Route17Biker10EndBattleText:
-	text "おわったか"
+	text "ALL OVER YET?"
 	prompt
 
 Route17Biker10AfterBattleText:
-	text "もう　バックレて　ねてえよ"
+	text "WANT TO DITCH OUT"
+	line "AND SLEEP NOW!"
 	done
 
 Route17NoticeSign1Text:
-	text "チラシが　はってある！"
+	text "A NOTICE POSTED!"
 
-	para "<⋯>　どうぐ　なげすて　ちゅうい！"
+	para "<⋯>DONT THROW"
+	line "AWAY ITEMS HERE!"
 	done
 
 Route17TrainerTips1Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "TRAINER TIPS!"
 
-	para "おなじ　#　おなじ　レベルでも"
-	line "とるたびに　パラメータが　すこし"
-	cont "ちがってて<⋯>　そだつと"
-	cont "ちがいが　おおきく　なる！"
+	para "SAME # AND SAME"
+	line "LEVEL DIFFER IN"
+	cont "STATS<⋯>GROWTH"
+	cont "MAKES IT WIDER!"
 	done
 
 Route17TrainerTips2Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "TRAINER TIPS!"
 
-	para "ボタンを　おしてれば"
-	line "さかみちでも　じてんしゃの"
-	cont "タイヤが　すべらない！"
+	para "HOLD A BUTTON TO"
+	line "BRAKE TIRES ON"
+	cont "SLOPE FROM"
+	cont "SLIDING DOWN!"
 	done
 
 Route17SignText:
-	text "ここは　１７ばん　どうろ"
-	line "タマムシ　<⋯>　セキチク"
+	text "ROUTE 17"
+	line "CELADON<⋯>FUCHSIA"
 	done
 
 Route17NoticeSign2Text:
-	text "チラシが　はってある！"
+	text "A NOTICE POSTED!"
 
-	para "ゲームを　なげるな！"
-	line "モンスターボールを　なげろ！"
+	para "DONT THROW THE"
+	line "GAME! THROW"
+	cont "# BALLS!"
 	done
 
 Route17CyclingRoadEndsSignText:
-	text "サイクリング　ロード"
-	line "<⋯>　さかみちは　ここまで！"
+	text "CYCLING ROAD"
+	line "SLOPE ENDS HERE!"
 	done

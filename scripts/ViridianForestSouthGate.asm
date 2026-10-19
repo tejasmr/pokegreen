@@ -7,13 +7,18 @@ ViridianForestSouthGate_TextPointers:
 	dw_const ViridianForestSouthGateLittleGirlText, TEXT_VIRIDIANFORESTSOUTHGATE_LITTLE_GIRL
 
 ViridianForestSouthGateGirlText:
-	text "トキワの　もりへ　いくの？"
-	line "もりは　てんねんの　めいろよ"
-	cont "まよわないよう　きを　つけて"
+	text "GOING TO FOREST"
+	line "OF TOKIWA?"
+	para "FOREST IS A"
+	line "NATURAL MAZE!"
+	cont "BEWARE LEST YOU"
+	cont "GET LOST IN IT!"
 	done
 
 ViridianForestSouthGateLittleGirlText:
-	text "コラッタは　ちっちゃい　けど"
-	line "まえばの　いちげきは　あなどれない"
-	cont "もう　つかまえた　かしら？"
+	text "KORATTA IS TINY"
+	line "YET FRONT TOOTH"
+	cont "BITE IS FIERCE!"
+	para "DID YOU CATCH"
+	line "ONE ALREADY?"
 	done

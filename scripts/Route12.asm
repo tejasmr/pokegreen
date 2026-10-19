@@ -89,21 +89,22 @@ Route12_TextPointers:
 	db -1 ; end
 
 Route12SnorlaxText:
-	text "#が　とても"
-	line "きもち　よさそうに　ねてます"
+	text "A # SLEEPS"
+	line "SO KIMOCHI II!"
 	done
 
 Route12SnorlaxWokeUpText:
-	text "カビゴンが　めを　さました！"
+	text "KABIGON WOKE UP!"
 
-	para "カビゴンは"
-	line "ねぼけて　おそってきた！"
+	para "KABIGON ATTACKS"
+	line "HALF-ASLEEP!"
 	done
 
 Route12SnorlaxCalmedDownText:
-	text "カビゴンは　おとなしく　なった"
-	line "おおきな　あくびを　すると<⋯>"
-	cont "やまおくへ　さって　いった！"
+	text "KABIGON BECAME"
+	line "CALM AND QUIET!"
+	cont "A HUGE YAWN<⋯>"
+	cont "LEFT FOR MOUNTAIN"
 	done
 
 Route12Fisher1Text:
@@ -113,18 +114,19 @@ Route12Fisher1Text:
 	jp TextScriptEnd
 
 Route12Fisher1BattleText:
-	text "おっ　おーッ！"
-	line "ひいてる　ひいてる！"
+	text "OH! OHHH!"
+	line "PULLING! BITE!"
 	done
 
 Route12Fisher1EndBattleText:
-	text "ちッ！"
-	line "げどう　だったか"
+	text "TCH! JUST A"
+	line "TRASH CATCH!"
 	prompt
 
 Route12Fisher1AfterBattleText:
-	text "まって　くれ！"
-	line "つりいとが　こんがらがった！"
+	text "MATTE KURE!"
+	line "FISHING LINE GOT"
+	cont "ALL TANGLED UP!"
 	done
 
 Route12Fisher2Text:
@@ -134,19 +136,20 @@ Route12Fisher2Text:
 	jp TextScriptEnd
 
 Route12Fisher2BattleText:
-	text "<⋯>　あわてるな！"
-	line "まつ　ことも　また！"
-	cont "つりの　たのしみ　である"
+	text "<⋯>DO NOT HURRY!"
+	line "WAITING IS ALSO"
+	cont "FISHING JOY!"
 	done
 
 Route12Fisher2EndBattleText:
-	text "おっと<⋯>！"
-	line "ちょっと　まって　くれ"
+	text "WHOOPS<⋯>!"
+	line "WAIT CHOTTO!"
 	prompt
 
 Route12Fisher2AfterBattleText:
-	text "いい　つりざおを　つかえば"
-	line "いい　#が　つれるんだが<⋯>"
+	text "WITH GOOD ROD"
+	line "FINE # BITE"
+	cont "<⋯>PERHAPS?"
 	done
 
 Route12CooltrainerMText:
@@ -156,18 +159,19 @@ Route12CooltrainerMText:
 	jp TextScriptEnd
 
 Route12CooltrainerMBattleText:
-	text "つきのいし　さがしてるんだ　けど"
-	line "きみ　もって　ない？"
+	text "LOOKING FOR"
+	line "MOON STONE·"
+	cont "DO YOU HAVE ONE?"
 	done
 
 Route12CooltrainerMEndBattleText:
-	text "ありゃりゃ<⋯>！"
+	text "ARYARYA<⋯>!"
 	prompt
 
 Route12CooltrainerMAfterBattleText:
-	text "つきのいしが　あれば"
-	line "#が　しんか　して"
-	cont "ぼく　かってた　かも　しれないよ"
+	text "WITH MOON STONE"
+	line "MY # EVOLVES"
+	cont "I MIGHT HAVE WON!"
 	done
 
 Route12SuperNerdText:
@@ -177,18 +181,20 @@ Route12SuperNerdText:
 	jp TextScriptEnd
 
 Route12SuperNerdBattleText:
-	text "ぼくの　せんもん　でんき　だから"
-	line "うみ　#は　くわしく　ないよ"
+	text "MY SPECIALTY IS"
+	line "ELECTRICITY!"
+	cont "NOT SEA #S!"
 	done
 
 Route12SuperNerdEndBattleText:
-	text "ふにゃ　ふにゃ<⋯>"
+	text "FUNYAFUNYA<⋯>!"
 	prompt
 
 Route12SuperNerdAfterBattleText:
-	text "うーん<⋯>　たしか　みずは"
-	line "でんきを　よく　とおす　から"
-	cont "わざが　きく　はず　だよね<⋯>"
+	text "WATER CONDUCTS"
+	line "ELECTRICITY WELL·"
+	cont "MOVES SHOULD"
+	cont "WORK GOOD<⋯>"
 	done
 
 Route12Fisher3Text:
@@ -198,18 +204,19 @@ Route12Fisher3Text:
 	jp TextScriptEnd
 
 Route12Fisher3BattleText:
-	text "おうッ！　つり　バカ"
-	line "#　バカに　であう！"
+	text "OOH! FISHING FOOL"
+	line "MEETS # FOOL!"
 	done
 
 Route12Fisher3EndBattleText:
-	text "さすが　つよい！"
+	text "SASUGA! STRONG!"
 	prompt
 
 Route12Fisher3AfterBattleText:
-	text "すき　こそ"
-	line "ものの　じょうず　なれ<⋯>　だな！"
-	cont "ぼくも　つり　なら　まけないぞ！"
+	text "LOVE OF THING"
+	line "MAKES EXPERT<⋯>!"
+	cont "I WONT LOSE IN"
+	cont "FISHING EITHER!"
 	done
 
 Route12Fisher4Text:
@@ -219,19 +226,21 @@ Route12Fisher4Text:
 	jp TextScriptEnd
 
 Route12Fisher4BattleText:
-	text "つり　ばっかり　して　ないで"
-	line "もっと　しごとも　できれば"
-	cont "さいこう　なんだが<⋯>"
+	text "NOT JUST FISHING·"
+	line "IF I COULD WORK"
+	cont "MORE·WOULD BE"
+	cont "SAIKOU<⋯>"
 	done
 
 Route12Fisher4EndBattleText:
-	text "なかなか<⋯>"
-	line "うまく　いかん　もの　じゃ"
+	text "HARD<⋯>!"
+	line "NOT GOING WELL!"
 	prompt
 
 Route12Fisher4AfterBattleText:
-	text "ははは<⋯>　だいじょうぶ！"
-	line "まけた　くらいで　はらは　たてんよ"
+	text "HAHAHA<⋯>DAIJOUBU!"
+	line "I DONT GET MAD"
+	cont "JUST LOSING!"
 	done
 
 Route12Fisher5Text:
@@ -241,26 +250,27 @@ Route12Fisher5Text:
 	jp TextScriptEnd
 
 Route12Fisher5BattleText:
-	text "<⋯>　なにが　つれるかって？"
-	line "そりゃ　つって　みなけりゃ"
-	cont "わからんよ！"
+	text "<⋯>WHAT WE CATCH?"
+	line "CANT KNOW TILL"
+	cont "YOU TRY CATCHING!"
 	done
 
 Route12Fisher5EndBattleText:
-	text "しくじったな"
+	text "BLUNDERED IT!"
 	prompt
 
 Route12Fisher5AfterBattleText:
-	text "ああ　コイキング<⋯>　ね"
-	line "よく　つれる　けど"
-	cont "よわすぎるんだよなあ<⋯>"
+	text "AH·KOIKING<⋯>"
+	line "BITES OFTEN BUT"
+	cont "TOO WEAK INDEED<⋯>"
 	done
 
 Route12SignText:
-	text "ここは　１２ばん　どうろ"
-	line "きた　<⋯>　シオン　タウン"
+	text "ROUTE 12"
+	line "NORTH: SHION TOWN"
 	done
 
 Route12SportFishingSignText:
-	text "ここは　つりの　めいしょ"
+	text "SPORT FISHING"
+	line "FAMOUS SPOT!"
 	done

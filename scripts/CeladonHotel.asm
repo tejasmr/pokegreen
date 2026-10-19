@@ -8,22 +8,26 @@ CeladonHotel_TextPointers:
 	dw_const CeladonHotelSuperNerdText, TEXT_CELADONHOTEL_SUPER_NERD
 
 CeladonHotelGrannyText:
-	text "はあ　#<⋯>？"
-	line "ああ<⋯>！　ここは"
-	cont "ひとが　とまる　りょかん　ですじゃ"
+	text "HUH? #⋯?"
+	line "AH⋯! THIS IS AN"
+	cont "INN FOR HUMANS!"
 
-	para "あいにく　へや　いっぱい　でな"
+	para "SADLY WE ARE ALL"
+	line "BOOKED FULL!"
 	done
 
 CeladonHotelBeautyText:
-	text "あたし！　おとうと　と　かれし"
-	line "３にんで　りょこうに　きたの！"
+	text "ON VACATION WITH"
+	line "MY LITTLE BRO"
+	cont "AND SWEETHEART!"
 
-	para "タマムシ　シティって"
-	line "とても　きれいな　まち　なのね"
+	para "TAMAMUSHI CITY"
+	line "IS SUCH A PRETTY"
+	cont "TOWN TO VISIT!"
 	done
 
 CeladonHotelSuperNerdText:
-	text "なんで<⋯>？　かのじょと"
-	line "ふたり　きりの　りょこうの　はずが！"
+	text "WHY⋯? THIS TRIP"
+	line "WAS SUPPOSED TO"
+	cont "BE JUST US TWO!"
 	done

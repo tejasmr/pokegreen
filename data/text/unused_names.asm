@@ -1,12 +1,12 @@
 UnusedBadgeNames::
-	db "かみなりバッヂ@" ; THUNDER BADGE
-	db "かいがらバッヂ@" ; SHELL BADGE
-	db "おじぞうバッヂ@" ; JIZOU BADGE
-	db "はやぶさバッヂ@" ; FALCON BADGE
-	db "ひんやりバッヂ@" ; CHILL BADGE
-	db "なかよしバッヂ@" ; FRIENDSHIP BADGE
-	db "バラバッヂ@" ; ROSE BADGE
-	db "ひのたまバッヂ@" ; FIREBALL BADGE
-	db "ゴールドバッヂ@" ; GOLD BADGE
+	db "THUNDER BDG@"
+	db "SHELL BDG@"
+	db "JIZOU BDG@"
+	db "FALCON BDG@"
+	db "CHILL BDG@"
+	db "FRIEND BDG@"
+	db "ROSE BDG@"
+	db "FIREBALL BDG@"
+	db "GOLD BDG@"
 
 ; UnusedRankingNames (unreferenced 55 bytes removed to allow Bank 1 expansion)

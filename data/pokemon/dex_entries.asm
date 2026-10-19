@@ -198,1212 +198,1212 @@ PokedexEntryPointers:
 ; text entry
 
 RhydonDexEntry:
-	db "ドリル@"
+	db "DRILL@"
 	db 19
 	dw 1200
-	db   "しんかして　うしろあし　だけで"
-	next "たつようになった。ツノで　つかれると"
-	next "がんせきにも　あながあいてしまう。@"
+	db   "STANDS ON BACK"
+	next "LEGS BY EVOLVE."
+	next "HORN DRILLS ROCK!@"
 
 KangaskhanDexEntry:
-	db "おやこ@"
+	db "PARENT@"
 	db 22
 	dw 800
-	db   "メスは　おなかの　ふくろに"
-	next "こどもを　いれて　そだてる。"
-	next "れんぞくパンチ　こうげきが　とくい。@"
+	db   "RAISES CHILD IN"
+	next "BELLY POUCH."
+	next "COMET PUNCH PRO!@"
 
 NidoranMDexEntry:
-	db "どくばり@"
+	db "PIN@"
 	db 5
 	dw 90
-	db   "みみが　おおきく　とおくの　おとを"
-	next "きくとき　はばたくように　うごく。"
-	next "おこると　どくばりを　だす。@"
+	db   "FLAPS BIG EARS"
+	next "TO HEAR DISTANT."
+	next "POISON HORN!@"
 
 ClefairyDexEntry:
-	db "ようせい@"
+	db "FAIRY@"
 	db 6
 	dw 75
-	db   "あいくるしい　すがたから"
-	next "ペットように　にんきが　ある。"
-	next "ただし　なかなか　みつけられない。@"
+	db   "POPULAR AS PET"
+	next "FOR CUTE LOOK."
+	next "VERY RARE TO SEE!@"
 
 SpearowDexEntry:
-	db "ことり@"
+	db "TINY BIRD@"
 	db 3
 	dw 20
-	db   "いそがしく　あちこちを　とびまわる。"
-	next "たいりょくは　すくないが"
-	next "オウムがえしを　つかうと　てごわい。@"
+	db   "FLIES BUSILY ALL"
+	next "OVER.TOUGH WHEN"
+	next "USING M-MOVE!@"
 
 VoltorbDexEntry:
-	db "ボール@"
+	db "BALL@"
 	db 5
 	dw 104
-	db   "しょうたい　ふめいの　いきもの。"
-	next "いやなおとを　だしたり　とつぜん"
-	next "じばくする　ことも　あるという。@"
+	db   "MYSTERY BALL."
+	next "MAKES NOISE AND"
+	next "SOMETIMES BLOWS!@"
 
 NidokingDexEntry:
-	db "ドリル@"
+	db "DRILL@"
 	db 14
 	dw 620
-	db   "いしのように　かたい　ひふと"
-	next "ながく　のびた　ツノが　とくちょう。"
-	next "ツノには　どくもあるので　ちゅうい。@"
+	db   "HARD ROCK HIDE."
+	next "LONG SHARP HORN."
+	next "WATCH OUT POISON!@"
 
 SlowbroDexEntry:
-	db "やどかり@"
+	db "CRAB@"
 	db 16
 	dw 785
-	db   "ヤドンが　うみへ　エサを"
-	next "とりにいったとき　シェルダーに"
-	next "しっぽをかまれ　ヤドランになった。@"
+	db   "SHELLDER BIT TAIL"
+	next "WHEN FISHING."
+	next "BECAME SLOWBRO!@"
 
 IvysaurDexEntry:
-	db "たね@"
+	db "SEED@"
 	db 10
 	dw 130
-	db   "つぼみが　せなかに　ついていて"
-	next "ようぶんを　きゅうしゅうしていくと"
-	next "おおきな　はなが　さくという。@"
+	db   "BUD ON BACK."
+	next "ABSORBS NUTRIENT"
+	next "TO BLOOM BIG!@"
 
 ExeggutorDexEntry:
-	db "やしのみ@"
+	db "COCONUT@"
 	db 20
 	dw 1200
-	db   "あるく　ねったいうりん　とよばれる。"
-	next "みの　ひとつひとつに　かおがあって"
-	next "それぞれ　いしを　もっている。@"
+	db   "CALLED WALKING"
+	next "JUNGLE.EACH FACE"
+	next "HAS OWN WILL!@"
 
 LickitungDexEntry:
-	db "なめまわし@"
+	db "LICKING@"
 	db 12
 	dw 655
-	db   "したが　しんちょうの　２ばいもある。"
-	next "エサをとったり　こうげきをしたりと"
-	next "まるで　てのように　うごかせる。@"
+	db   "TONGUE IS 2M!"
+	next "STICKY LICKING"
+	next "MAKES ALL NUMB!@"
 
 ExeggcuteDexEntry:
-	db "たまご@"
+	db "EGG@"
 	db 4
 	dw 25
-	db   "なにかの　たまごの　ようだが"
-	next "じつは　しょくぶつの　タネにちかい"
-	next "いきもの　であることが　わかった。@"
+	db   "LOOKS LIKE EGGS."
+	next "TELEPATHIZES TO"
+	next "CLUSTER SIX!@"
 
 GrimerDexEntry:
-	db "ヘドロ@"
+	db "SLUDGE@"
 	db 9
 	dw 300
-	db   "つきからの　エックスせんをあびた"
-	next "ヘドロが　ベトベターにへんかした。"
-	next "きたないモノが　だいこうぶつ。@"
+	db   "BORN FROM SEWAGE"
+	next "POLLUTED BY XRAY."
+	next "SMELLS AWFUL!@"
 
 GengarDexEntry:
-	db "シャドー@"
+	db "SHADOW@"
 	db 15
 	dw 405
-	db   "やまで　そうなんしたとき"
-	next "いのちをうばいに　くらやみから"
-	next "あらわれることが　あるという。@"
+	db   "ON FULL MOON· IT"
+	next "MIMICS SHADOW."
+	next "LAUGHS CRUELLY!@"
 
 NidoranFDexEntry:
-	db "どくばり@"
+	db "PIN@"
 	db 4
 	dw 70
-	db   "ちいさくても　どくばりの　いりょくは"
-	next "きょうれつで　ちゅういが　ひつよう。"
-	next "メスのほうが　つのが　ちいさい。@"
+	db   "SMALL BODY HAS"
+	next "POISON THORNS."
+	next "FEMALE HORN TINY@"
 
 NidoqueenDexEntry:
-	db "ドリル@"
+	db "DRILL@"
 	db 13
-	dw 60 ; BUG, should be 600
-	db   "かたくて　はりのような　ウロコが"
-	next "からだを　おおっている。"
-	next "こうふんすると　はりが　さかだつ。@"
+	dw 60
+	db   "HARD SCALES ON"
+	next "TOUGH BODY."
+	next "POWERFUL ATTACK!@"
 
 CuboneDexEntry:
-	db "こどく@"
+	db "LONELY@"
 	db 4
 	dw 65
-	db   "しにわかれた　ははおやの　ほねを"
-	next "あたまに　かぶっている。さびしいとき"
-	next "おおごえで　なくという。@"
+	db   "WEARS DEAD MOM"
+	next "SKULL.CRIES OUT"
+	next "UNDER FULL MOON!@"
 
 RhyhornDexEntry:
-	db "とげとげ@"
+	db "SPIKES@"
 	db 10
 	dw 1150
-	db   "あたまは　わるいが　ちからが　つよく"
-	next "こうそうビルも　たいあたりで"
-	next "コナゴナに　ふんさいする。@"
+	db   "BONES 1000 TIMES"
+	next "HARDER THAN MAN!"
+	next "TACKLES TRAILER!@"
 
 LaprasDexEntry:
-	db "のりもの@"
+	db "TRANSPORT@"
 	db 25
 	dw 2200
-	db   "ひとのことばを　りかいする　たかい"
-	next "ちのうをもつ。うみの　うえを"
-	next "ひとをのせて　すすむのが　すき。@"
+	db   "HIGH INTELLECT."
+	next "UNDERSTANDS WORD."
+	next "SINGS SADLY!@"
 
 ArcanineDexEntry:
-	db "でんせつ@"
+	db "LEGENDARY@"
 	db 19
 	dw 1550
-	db   "ちゅうごくの　いいつたえにある"
-	next "でんせつの　ポケモン。ものすごい"
-	next "スピードで　はしるという。@"
+	db   "CHINA LEGEND MON"
+	next "FOR SPEED.RUNS"
+	next "AS IF ON WINGS!@"
 
 MewDexEntry:
-	db "しんしゅ@"
+	db "NEW SPECIE@"
 	db 4
 	dw 40
-	db   "みなみアメリカに　せいそくする"
-	next "ぜつめつしたはずの　#。"
-	next "ちのうがたかく　なんでも　おぼえる。@"
+	db   "APPEARS ONLY TO"
+	next "PURE HEARTS."
+	next "FOUND IN GUYANA!@"
 
 GyaradosDexEntry:
-	db "きょうあく@"
+	db "ATROCIOUS@"
 	db 65
 	dw 2350
-	db   "ひじょうに　きょうぼうな　せいかく。"
-	next "くちからだす　はかいこうせんは"
-	next "すべてのものを　やきつくす。@"
+	db   "EXTREMELY FIERCE."
+	next "HYPER BEAM CAN"
+	next "DESTROY CITIES!@"
 
 ShellderDexEntry:
-	db "２まいがい@"
+	db "BIVALVE@"
 	db 3
 	dw 40
-	db   "ダイヤモンドよりも　かたいカラに"
-	next "おおわれている。しかし　なかは"
-	next "いがいと　やわらかい。@"
+	db   "SHELL HARD AS"
+	next "DIAMOND.HIDES"
+	next "INSIDE FROM FOE!@"
 
 TentacoolDexEntry:
-	db "くらげ@"
+	db "JELLYFISH@"
 	db 9
 	dw 455
-	db   "すいしょうの　ように　すきとおった"
-	next "めだまから　ふしぎな　ひかりの"
-	next "ビームを　はっしゃする。@"
+	db   "FLOATS IN SEA."
+	next "SHOOTS POISON"
+	next "BEAMS FROM EYES!@"
 
 GastlyDexEntry:
-	db "ガスじょう@"
+	db "GAS@"
 	db 13
 	dw 1
-	db   "うすい　ガスじょうの　せいめいたい。"
-	next "ガスに　つつまれると"
-	next "インドぞうも　２びょうで　たおれる。@"
+	db   "BODY IS ALL GAS!"
+	next "FAINTS A HORSE"
+	next "IN TWO SECONDS!@"
 
 ScytherDexEntry:
-	db "かまきり@"
+	db "MANTIS@"
 	db 15
 	dw 560
-	db   "するどいカマで　えものを　きりさき"
-	next "いきのねを　とめる。ごくまれに"
-	next "ハネをつかって　とぶ。@"
+	db   "SHARP SCYTHES CUT"
+	next "FOE IN A BLINK."
+	next "RARELY USES WING@"
 
 StaryuDexEntry:
-	db "ほしがた@"
+	db "STAR@"
 	db 8
 	dw 345
-	db   "うみべに　おおく　あらわれ"
-	next "よるになると　ちゅうしんが"
-	next "あかく　てんめつする。@"
+	db   "GATHERS AT BEACH."
+	next "CORE GLOWS RED"
+	next "IN THE NIGHT!@"
 
 BlastoiseDexEntry:
-	db "こうら@"
+	db "SHELL@"
 	db 16
 	dw 855
-	db   "からだが　おもたく　のしかかって"
-	next "あいてを　きぜつさせる。"
-	next "ピンチの　ときは　カラに　かくれる。@"
+	db   "CRUSHES FOES."
+	next "HIDES IN SHELL"
+	next "IN A BIG PINCH!@"
 
 PinsirDexEntry:
-	db "くわがた@"
+	db "BEETLE@"
 	db 15
 	dw 550
-	db   "２ほんの　ながい　ツノは　パワフル。"
-	next "いちど　はさまれて　しまったら"
-	next "ちぎれるまで　はなさない。@"
+	db   "TWO POWER HORNS."
+	next "ONCE PINCHED· IT"
+	next "NEVER LETS GO!@"
 
 TangelaDexEntry:
-	db "ツルじょう@"
+	db "VINE@"
 	db 10
 	dw 350
-	db   "ブルーの　つるしょくぶつが"
-	next "からみあい　しょうたいは　みえない。"
-	next "ちかずくものに　からみついてくる。@"
+	db   "COVERED IN BLUE"
+	next "VINES.ITS TRUE"
+	next "FACE IS MYSTERY!@"
 
 GrowlitheDexEntry:
-	db "こいぬ@"
+	db "PUPPY@"
 	db 7
 	dw 190
-	db   "ひとなつこく　せいじつな　せいかく。"
-	next "てきには　ほえて　かみつき"
-	next "おいはらおう　とする。@"
+	db   "LOYAL TO MASTER."
+	next "BARKS AND BITES"
+	next "AT ENEMY!@"
 
 OnixDexEntry:
-	db "いわへび@"
+	db "ROCK SNAKE@"
 	db 88
 	dw 2100
-	db   "ふだんは　つちのなかに　すんでいる。"
-	next "ちちゅうを　じそく　８０キロで"
-	next "ほりながら　エサを　さがす。@"
+	db   "LIVES UNDERGROUND"
+	next "TUNNELING AT"
+	next "80 KM SPEED!@"
 
 FearowDexEntry:
-	db "くちばし@"
+	db "BEAK@"
 	db 12
 	dw 380
-	db   "おおきな　つばさで　おおぞらを"
-	next "とびつづけることが　できる。"
-	next "１にち　おりなくても　だいじょうぶ。@"
+	db   "HUGE WINGS FLY"
+	next "ALL DAY LONG."
+	next "POWERFUL PECK!@"
 
 PidgeyDexEntry:
-	db "ことり@"
+	db "TINY BIRD@"
 	db 3
 	dw 18
-	db   "たたかいは　すきではない。"
-	next "くさむらの　なかに　かくれて"
-	next "ちいさい　むしなどを　とらえる。@"
+	db   "DOCILE.KICKS UP"
+	next "SAND TO ESCAPE"
+	next "FROM BATTLE!@"
 
 SlowpokeDexEntry:
-	db "まぬけ@"
+	db "DOPEY@"
 	db 12
 	dw 360
-	db   "いつも　ボーッとしていて　なにを"
-	next "かんがえているか　わからない。"
-	next "しっぽで　エサを　つるのが　とくい。@"
+	db   "VERY SLOW-WITTED."
+	next "TAKES 5 SEC TO"
+	next "FEEL TAIL BITE!@"
 
 KadabraDexEntry:
-	db "ねんりき@"
+	db "PSI@"
 	db 13
 	dw 565
-	db   "あるあさのこと。　ちょうのうりょく"
-	next "しょうねんが　ベットから　めざめると"
-	next "ユンゲラーに　へんしん　していた。@"
+	db   "EMITS ALPHAWAVES."
+	next "A BOY BECAME MON"
+	next "ONE MORNING!@"
 
 GravelerDexEntry:
-	db "がんせき@"
+	db "ROCK@"
 	db 10
 	dw 1050
-	db   "やまのなかの　さかみちを"
-	next "あるいていると　ゴローンが"
-	next "ころがって　くることが　ある。@"
+	db   "ROLLS DOWN HILL."
+	next "EATS ROCKS AND"
+	next "GROWS HARDER!@"
 
 ChanseyDexEntry:
-	db "たまご@"
+	db "EGG@"
 	db 11
 	dw 346
-	db   "１にちに　いくつか　たまごを　うむ。"
-	next "その　たまごは　えいよう　まんてんで"
-	next "ものすごく　おいしい　らしい。@"
+	db   "LAYS NUTRITIOUS"
+	next "EGGS.BRINGS LUCK"
+	next "AND HAPPINESS!@"
 
 MachokeDexEntry:
-	db "かいりき@"
+	db "POWER@"
 	db 15
 	dw 705
-	db   "つかれることのない　きょうじんな"
-	next "にくたいを　もつ。おもい　にもつの"
-	next "うんぱんなどの　しごとを　てつだう。@"
+	db   "MUSCULAR BODY."
+	next "WEARS BELT TO"
+	next "SAVE POWER!@"
 
 MrMimeDexEntry:
-	db "バリアー@"
+	db "BARRIER@"
 	db 13
 	dw 545
-	db   "ひとを　しんじこませるのが　うまい。"
-	next "パントマイムで　つくったカベが"
-	next "ほんとうに　あらわれるという。@"
+	db   "CREATES INVISO"
+	next "WALLS WITH ITS"
+	next "MIME TALENT!@"
 
 HitmonleeDexEntry:
-	db "キック@"
+	db "KICKING@"
 	db 15
 	dw 498
-	db   "あしが　じゆうに　のびちぢみして"
-	next "とおく　はなれている　ばあいでも"
-	next "あいてを　けりあげることが　できる。@"
+	db   "LEGS FREELY GROW."
+	next "SUPER DANGEROUS"
+	next "FLYING KICKS!@"
 
 HitmonchanDexEntry:
-	db "パンチ@"
+	db "PUNCHING@"
 	db 14
 	dw 502
-	db   "プロボクサーの　たましいが"
-	next "のりうつっている。パンチのスピードは"
-	next "しんかんせんよりも　はやい。@"
+	db   "PUNCHES AT SPEED"
+	next "OF SOUND.NEEDS"
+	next "REST IN 3 MIN!@"
 
 ArbokDexEntry:
-	db "コブラ@"
+	db "COBRA@"
 	db 35
 	dw 650
-	db   "おなかの　もようが　こわいかおに"
-	next "みえる。よわいてきは　そのもようを"
-	next "みただけで　にげだしてしまう。@"
+	db   "SCARY BELLY MARK"
+	next "FREEZES ENEMIES"
+	next "IN TERROR!@"
 
 ParasectDexEntry:
-	db "きのこ@"
+	db "MUSHROOM@"
 	db 10
 	dw 295
-	db   "キノコの　カサから　どくほうしを"
-	next "まきちらす。しかし　ちゅうごくでは"
-	next "このほうしを　かんぽうやくに　する。@"
+	db   "MUSHROOM TOOK"
+	next "OVER BUG BODY."
+	next "SCATTERS SPORES!@"
 
 PsyduckDexEntry:
-	db "あひる@"
+	db "DUCK@"
 	db 8
 	dw 196
-	db   "いつも　ずつうに　なやまされている。"
-	next "この　ずつうが　はげしくなると"
-	next "ふしぎな　ちからを　つかいはじめる。@"
+	db   "ALWAYS HAS HEAD-"
+	next "ACHE.USES PSYCHIC"
+	next "BY ACCIDENT!@"
 
 DrowzeeDexEntry:
-	db "さいみん@"
+	db "HYPNOSIS@"
 	db 10
 	dw 324
-	db   "ユメを　たべるという　でんせつの　"
-	next "いきもの　バクの　しそん。"
-	next "さいみんじゅつが　とくいだ。@"
+	db   "DESCENDANT OF"
+	next "LEGEND TAPIR."
+	next "EATS DREAMS!@"
 
 GolemDexEntry:
-	db "メガトン@"
+	db "MEGATON@"
 	db 14
 	dw 3000
-	db   "がんばんのような　かたい　カラで"
-	next "おおわれている。１ねんに　１かい"
-	next "だっぴして　おおきくなる。@"
+	db   "BOULDER BODY.CAN"
+	next "SURVIVE DYNAMITE"
+	next "BLASTS EASILY!@"
 
 MagmarDexEntry:
-	db "ひふき@"
+	db "SPITFIRE@"
 	db 13
 	dw 445
-	db   "かざんの　かこうちかくで"
-	next "みつかった。くちから　ほのおをはく。"
-	next "たいおんは　１２００ど　もある。@"
+	db   "LIVES IN CRATER."
+	next "BODY HOT AS LAVA."
+	next "BREATHES FIRE!@"
 
 ElectabuzzDexEntry:
-	db "でんげき@"
+	db "ELECTRIC@"
 	db 11
 	dw 300
-	db   "つよい　でんきが　だいこうぶつで"
-	next "おおきな　はつでんしょ　などに　"
-	next "しばしば　あらわれる。@"
+	db   "EATS HIGH VOLTS."
+	next "CAUSES BLACKOUT"
+	next "AT BIG DAM!@"
 
 MagnetonDexEntry:
-	db "じしゃく@"
+	db "MAGNET@"
 	db 10
 	dw 600
-	db   "ふくすうの　コイルが　れんけつして"
-	next "きょうりょくな　じりょくせんと"
-	next "こうでんあつを　ほうしゃする。@"
+	db   "THREE MAGNEMITE"
+	next "JOINED TOGETHER."
+	next "STRONG FIELD!@"
 
 KoffingDexEntry:
-	db "どくガス@"
+	db "POISON GAS@"
 	db 6
 	dw 10
-	db   "うすい　バルーンじょうの　からだに"
-	next "もうどくの　ガスが　つまっている。"
-	next "ちかくにくると　くさい。@"
+	db   "THIN BALLOON."
+	next "SWELLS WITH TOXIC"
+	next "GAS AND BLOWS!@"
 
 MankeyDexEntry:
-	db "ぶたざる@"
+	db "MONKEY@"
 	db 5
 	dw 280
-	db   "みのこなしが　かるく　きょうぼうな"
-	next "せいかく。おこって　あばれると"
-	next "てが　つけられなくなる。@"
+	db   "QUICK-TEMPERED."
+	next "GOES RAMPAGING"
+	next "WHEN ANGRY!@"
 
 SeelDexEntry:
-	db "あしか@"
+	db "SEA LION@"
 	db 11
 	dw 900
-	db   "みずいろの　たいもうに　おおわれた"
-	next "ひふは　ぶあつくて　じょうぶ。"
-	next "れいか４０ど　でも　かつどうできる。@"
+	db   "THICK BLUE FUR."
+	next "SWIMS IN FREEZING"
+	next "OCEANS EASILY!@"
 
 DiglettDexEntry:
-	db "もぐら@"
+	db "MOLE@"
 	db 2
 	dw 8
-	db   "ちちゅうの　あさいところを　いどう。"
-	next "ほりすすんだあとは　じめんが"
-	next "もりあがっているので　すぐわかる。@"
+	db   "DIGS UNDERGROUND."
+	next "LIVES BY ROOTS."
+	next "FEARS SUNLIGHT!@"
 
 TaurosDexEntry:
-	db "あばれうし@"
+	db "WILD BULL@"
 	db 14
 	dw 884
-	db   "たいあたりしてくるとき"
-	next "２ほんの　しっぽで　じぶんの"
-	next "からだを　ピシピシと　たたく。@"
+	db   "VIOLENT BULL."
+	next "WHIPS 3 TAILS TO"
+	next "CHARGE ENEMY!@"
 
 FarfetchdDexEntry:
-	db "かるがも@"
+	db "WILD DUCK@"
 	db 8
 	dw 150
-	db   "じぶんの　すを　つくるための"
-	next "しょくぶつの　クキを　いっぽん"
-	next "いつも　もって　あるいている。@"
+	db   "ALWAYS HOLDS LEEK"
+	next "STICK.MAKES NEST"
+	next "WITH IT!@"
 
 VenonatDexEntry:
-	db "こんちゅう@"
+	db "INSECT@"
 	db 10
 	dw 300
-	db   "くらやみでも　めが　レーダーの"
-	next "やくわりをして　かつどうできる。"
-	next "めから　ビームを　はっしゃする。@"
+	db   "RADAR-LIKE EYES."
+	next "LIVES UNDER TREES"
+	next "AT NIGHT!@"
 
 DragoniteDexEntry:
-	db "ドラゴン@"
+	db "DRAGON@"
 	db 22
 	dw 2100
-	db   "おおきな　たいかくで　そらを　とぶ。"
-	next "ちきゅうを　やく１６じかんで"
-	next "１しゅう　してしまう。@"
+	db   "FLIES GLOBE IN"
+	next "16 HOURS.VERY"
+	next "KIND-HEARTED!@"
 
 DoduoDexEntry:
-	db "ふたごどり@"
+	db "BIRD@"
 	db 14
 	dw 392
-	db   "とつぜんへんいで　みつかった"
-	next "ふたつの　あたまを　もつ　ポケモン。"
-	next "じそく　１００キロで　はしる。@"
+	db   "HEADS SLEEP IN"
+	next "TURNS.RUNS OVER"
+	next "100 KM AN HOUR!@"
 
 PoliwagDexEntry:
-	db "おたま@"
+	db "TADPOLE@"
 	db 6
 	dw 124
-	db   "スベスベした　くろいひふは　うすく"
-	next "しめっている。ないぞうの　いちぶが"
-	next "すけて　うずまきじょうに　みえる。@"
+	db   "SPIRAL BELLY IS"
+	next "VISIBLE ORGANS."
+	next "SWIMS FAST!@"
 
 JynxDexEntry:
-	db "ひとがた@"
+	db "HUMANOID@"
 	db 14
 	dw 406
-	db   "にんげんのような　ことばを　はなすが"
-	next "まだ　なにをいっているか　ふめいで"
-	next "げんざい　けんきゅうされている。@"
+	db   "WIGGLES HIPS AS"
+	next "IF DANCING.MAKES"
+	next "ALL DANCE ALONG!@"
 
 MoltresDexEntry:
-	db "かえん@"
+	db "LEGENDARY@"
 	db 20
 	dw 600
-	db   "でんせつの　とりポケモンの　ひとつ。"
-	next "オレンジいろの　もえるようなハネが"
-	next "みるものを　あっとうする。@"
+	db   "LEGENDARY BIRD."
+	next "EVERY TIME FLAPS·"
+	next "DROPS FIRE!@"
 
 ArticunoDexEntry:
-	db "れいとう@"
+	db "LEGENDARY@"
 	db 17
 	dw 554
-	db   "でんせつの　とりポケモンの　ひとつ。"
-	next "ながい　しっぽが　たなびいて"
-	next "とんでいく　すがたは　すばらしい。@"
+	db   "LEGEND ICE BIRD."
+	next "TURNS AIR INTO"
+	next "BLIZZARD IN SKY!@"
 
 ZapdosDexEntry:
-	db "でんげき@"
+	db "LEGENDARY@"
 	db 16
 	dw 526
-	db   "でんせつの　とりポケモンの　ひとつ。"
-	next "とぶときに　バチバチと　なにかの"
-	next "はじけるような　おとがする。@"
+	db   "LEGEND LIGHTNING"
+	next "BIRD.FLAPS WINGS"
+	next "TO MAKE STORMS!@"
 
 DittoDexEntry:
-	db "へんしん@"
+	db "TRANSFORM@"
 	db 3
 	dw 40
-	db   "からだの　さいぼうの　つくりを"
-	next "じぶんで　くみかえて　ほかの"
-	next "せいめいたいに　へんしんする。@"
+	db   "TRANSFORMS INTO"
+	next "ANY POKEMON BY"
+	next "COPYING CELLS!@"
 
 MeowthDexEntry:
-	db "ばけねこ@"
+	db "CAT@"
 	db 4
 	dw 42
-	db   "ひるまは　ねてばかりいる。"
-	next "よるになると　めが　かがやき"
-	next "なわばりを　あるきまわる。@"
+	db   "LOVES COINS.ROAMS"
+	next "AT NIGHT TO FIND"
+	next "SHINY GOLD!@"
 
 KrabbyDexEntry:
-	db "さわがに@"
+	db "CRAB@"
 	db 4
 	dw 65
-	db   "うみの　ちかくで　みつかる。"
-	next "おおきな　ハサミは　もぎとっても"
-	next "あとから　また　はえてくる。@"
+	db   "LARGE PINCERS."
+	next "BLOWS FOAM TO"
+	next "HIDE ITS BODY!@"
 
 VulpixDexEntry:
-	db "きつね@"
+	db "FOX@"
 	db 6
 	dw 99
-	db   "こどもだが　６ほんの　しっぽが"
-	next "うつくしい。せいちょうすると"
-	next "さらに　しっぽが　ふえる。@"
+	db   "SIX CUTE TAILS."
+	next "WARMS UP BODY"
+	next "TO SHOOT FLAME!@"
 
 NinetalesDexEntry:
-	db "きつね@"
+	db "FOX@"
 	db 11
 	dw 199
-	db   "おうごんに　かがやく　たいもうと"
-	next "９ほんの　ながい　しっぽを　もつ。"
-	next "１０００ねんは　いきると　いわれる。@"
+	db   "NINE MYSTIC TAILS"
+	next "SAID TO LIVE FOR"
+	next "1000 YEARS!@"
 
 PikachuDexEntry:
-	db "ねずみ@"
+	db "MOUSE@"
 	db 4
 	dw 60
-	db   "ほっぺたの　りょうがわに"
-	next "ちいさい　でんきぶくろを　もつ。"
-	next "ピンチのときに　ほうでんする。@"
+	db   "HAS ELECTRIC"
+	next "CHEEK POUCHES."
+	next "DISCHARGES SHOCK!@"
 
 RaichuDexEntry:
-	db "ねずみ@"
+	db "MOUSE@"
 	db 8
 	dw 300
-	db   "でんげきは　１０まんボルトに"
-	next "たっすることもあり　ヘタにさわると"
-	next "インドぞうでも　きぜつする。@"
+	db   "TAIL DISCHARGES"
+	next "100000 VOLTS!"
+	next "FAINTS ELEPHANTS!@"
 
 DratiniDexEntry:
-	db "ドラゴン@"
+	db "DRAGON@"
 	db 18
 	dw 33
-	db   "こどもでも　しんちょうは"
-	next "２メートル　いじょう。だっぴを"
-	next "くりかえして　おおきくなる。@"
+	db   "MYTHIC DRAGON."
+	next "SHEDS SKIN AS IT"
+	next "GROWS IN WATER!@"
 
 DragonairDexEntry:
-	db "ドラゴン@"
+	db "DRAGON@"
 	db 40
 	dw 165
-	db   "うみや　みずうみなどに　すむという。"
-	next "はねをもたないが　たまに　そらを"
-	next "とぶ　すがたが　もくげきされる。@"
+	db   "SACRED WATER MON."
+	next "ORBS DISCHARGE"
+	next "WEATHER POWER!@"
 
 KabutoDexEntry:
-	db "こうら@"
+	db "SHELL@"
 	db 5
 	dw 115
-	db   "こだい　せいぶつの　かせきから"
-	next "さいせいしたポケモン。"
-	next "かたい　カラで　みを　まもっている。@"
+	db   "REVIVED FROM"
+	next "FOSSIL.HIDES IN"
+	next "BEACH SAND!@"
 
 KabutopsDexEntry:
-	db "こうら@"
+	db "SHELL@"
 	db 13
 	dw 405
-	db   "すいちゅうを　じゆうに　およぎ"
-	next "するどい　カマで　えものを　とらえ"
-	next "たいえきを　すいとってしまう。@"
+	db   "SLICES WATER WITH"
+	next "SCYTHE ARMS."
+	next "EATS SHELLFISH!@"
 
 HorseaDexEntry:
-	db "ドラゴン@"
+	db "DRAGON@"
 	db 4
 	dw 80
-	db   "ぜんまいのように　クルクルまかれた"
-	next "しっぽで　からだの　バランスをとる。"
-	next "くちから　スミを　はくことが　ある。@"
+	db   "SPITS BLACK INK"
+	next "TO ESCAPE FOES."
+	next "TAIL ANCHOR!@"
 
 SeadraDexEntry:
-	db "ドラゴン@"
+	db "DRAGON@"
 	db 12
 	dw 250
-	db   "うかつに　さわろうとすると"
-	next "からだじゅうに　はえる　トゲに"
-	next "さされて　きぜつすることも　ある。@"
+	db   "SPINY FINS HAVE"
+	next "POISON.SLEEPS IN"
+	next "CORAL REEF!@"
 
 SandshrewDexEntry:
-	db "ねずみ@"
+	db "MOUSE@"
 	db 6
 	dw 120
-	db   "じめんに　あなを　ほって　すむ。"
-	next "じぶんに　きけんが　せまると"
-	next "まるくなって　みを　まもる。@"
+	db   "BURROWS IN ARID"
+	next "LAND.CURLS IN"
+	next "BALL TO DEFEND!@"
 
 SandslashDexEntry:
-	db "ねずみ@"
+	db "MOUSE@"
 	db 10
 	dw 295
-	db   "すばしっこく　はしり　まわり"
-	next "せなかの　ハリと　するどい　ツメの"
-	next "こうげきが　とくい。@"
+	db   "SPIKY BACK CAN"
+	next "ROLL AND STAB!"
+	next "SHARP CLAWS!@"
 
 OmanyteDexEntry:
-	db "うずまき@"
+	db "SPIRAL@"
 	db 4
 	dw 75
-	db   "おおむかし　うみに　すんでいた"
-	next "こだい　ポケモン。１０ぽんの　あしを"
-	next "くねらせて　およぐ。@"
+	db   "ANCIENT POKEMON."
+	next "SWIMS USING ITS"
+	next "TEN ARMS!@"
 
 OmastarDexEntry:
-	db "うずまき@"
+	db "SPIRAL@"
 	db 10
 	dw 350
-	db   "しょくしゅが　てあしの　ように"
-	next "はったつ　してる。しがみつくと"
-	next "どうじに　かみついて　くる。@"
+	db   "SHARP FANGS CRACK"
+	next "HARD SHELL.WENT"
+	next "EXTINCT BY WEIGHT@"
 
 JigglypuffDexEntry:
-	db "ふうせん@"
+	db "BALLOON@"
 	db 5
 	dw 55
-	db   "まるくて　おおきい　ひとみで"
-	next "さそいこみ　ここちよい　うたを"
-	next "うたい　あいてを　ねむらせる。@"
+	db   "HUGE CUTE EYES."
+	next "SINGS SOOTHING"
+	next "LULLABY TO SLEEP@"
 
 WigglytuffDexEntry:
-	db "ふうせん@"
+	db "BALLOON@"
 	db 10
 	dw 120
-	db   "キメ　こまかく　しなやかな"
-	next "たいもうは　うっとりするほど。"
-	next "けがわは　こうきゅうひんだ。@"
+	db   "BODY IS VERY"
+	next "SOFT AND FURRY."
+	next "INFLATES BIG!@"
 
 EeveeDexEntry:
-	db "しんか@"
+	db "EVOLUTION@"
 	db 3
 	dw 65
-	db   "３しゅるいの　ポケモンに"
-	next "しんかする　かのうせいを　もつ"
-	next "めずらしい　ポケモンだ。@"
+	db   "IRREGULAR GENES."
+	next "CAN EVOLVE TO"
+	next "MANY TYPES!@"
 
 FlareonDexEntry:
-	db "ほのお@"
+	db "FLAME@"
 	db 9
 	dw 250
-	db   "たいないに　ほのおぶくろが　あり"
-	next "ふかく　いきを　すいこんだあと"
-	next "１７００ど　の　ひを　はく。@"
+	db   "FLAME SAC HEATS"
+	next "OVER 1700 HOT"
+	next "DEGREES!@"
 
 JolteonDexEntry:
-	db "かみなり@"
+	db "LIGHTNING@"
 	db 8
 	dw 245
-	db   "おこったり　おどろいたりすると"
-	next "ぜんしんの　けが　はりの　ように"
-	next "さかだって　あいてを　つらぬく。@"
+	db   "FUR LIKE NEEDLE."
+	next "SHOOTS OUT"
+	next "10000 VOLTS!@"
 
 VaporeonDexEntry:
-	db "あわはき@"
+	db "BUBBLE@"
 	db 10
 	dw 290
-	db   "からだの　さいぼうの　つくりが"
-	next "みずの　ぶんしと　にている。"
-	next "みずに　とけると　みえなくなる。@"
+	db   "CELLS LIKE WATER."
+	next "CAN MELT INTO"
+	next "WATER TO HIDE!@"
 
 MachopDexEntry:
-	db "かいりき@"
+	db "POWER@"
 	db 8
 	dw 195
-	db   "ぜんしんが　きんにくに　なっており"
-	next "こどもほどの　おおきさしかないのに"
-	next "おとな　１００にんを　なげとばせる。@"
+	db   "LIFTS GRAVELER"
+	next "FOR TRAINING."
+	next "LOVES MUSCLES!@"
 
 ZubatDexEntry:
-	db "こうもり@"
+	db "BAT@"
 	db 8
 	dw 75
-	db   "りょうほうの　めが　そんざいしない。"
-	next "くちから　ちょうおんぱを　だして"
-	next "くらやみを　とびまわる。@"
+	db   "NO EYES.EMITS"
+	next "ULTRASONIC WAVES"
+	next "TO FLY AROUND!@"
 
 EkansDexEntry:
-	db "へび@"
+	db "SNAKE@"
 	db 20
 	dw 69
-	db   "くさちなどに　おおく　せいそくする。"
-	next "したを　チロチロ　させて　まわりの"
-	next "きけんを　かんじとる。@"
+	db   "MOVES SILENTLY."
+	next "SWALLOWS EGGS"
+	next "OF PIDGEY!@"
 
 ParasDexEntry:
-	db "きのこ@"
+	db "MUSHROOM@"
 	db 3
 	dw 54
-	db   "むしの　せなかに　はえているのは"
-	next "とうちゅうかそう　という　キノコ。"
-	next "そだつと　キノコも　おおきくなる。@"
+	db   "TOCHUKASO FUNGUS"
+	next "ON BACK.PRIZED"
+	next "AS RARE HERB!@"
 
 PoliwhirlDexEntry:
-	db "おたま@"
+	db "TADPOLE@"
 	db 10
 	dw 200
-	db   "２ほんの　あしは　はったつしており　"
-	next "ちじょうで　くらせるのに　なぜか"
-	next "すいちゅう　せいかつが　すき。@"
+	db   "LIVES ON LAND."
+	next "BELLY SPIRAL"
+	next "SWEATS MOISTURE!@"
 
 PoliwrathDexEntry:
-	db "おたま@"
+	db "TADPOLE@"
 	db 13
 	dw 540
-	db   "およぎが　とくいで　クロールや"
-	next "バタフライが　できる。オリンピックの"
-	next "せんしゅも　かなわないほど　はやい。@"
+	db   "EXPERT SWIMMER."
+	next "CROSSES SEAS"
+	next "WITH STRONG LEGS!@"
 
 WeedleDexEntry:
-	db "けむし@"
+	db "WORM@"
 	db 3
 	dw 32
-	db   "もりや　くさちに　おおく　せいそく。"
-	next "あたまの　さきに　５センチぐらいの"
-	next "ちいさく　するどい　どくばりをもつ。@"
+	db   "HEAD POISON HORN"
+	next "GUARDS BODY.EATS"
+	next "GREEN LEAF!@"
 
 KakunaDexEntry:
-	db "さなぎ@"
+	db "COCOON@"
 	db 6
 	dw 100
-	db   "おとなの　からだを　つくるための"
-	next "いちじてきな　じょうたい。"
-	next "じぶんでは　ほとんど　うごけない。@"
+	db   "BARELY MOVES."
+	next "HARDENS SHELL"
+	next "TO AVOID ATTACK!@"
 
 BeedrillDexEntry:
-	db "どくばち@"
+	db "POISON BEE@"
 	db 10
 	dw 295
-	db   "しゅうだんで　あらわれることもある。"
-	next "もうスピードで　とびまわり"
-	next "おしりの　どくばりで　さしまくる。@"
+	db   "HAS 3 POISON"
+	next "STINGS.ATTACKS IN"
+	next "SWARM WHEN MAD!@"
 
 DodrioDexEntry:
-	db "みつごどり@"
+	db "BIRD@"
 	db 18
 	dw 852
-	db   "めったに　みつからない　ちんしゅ。"
-	next "３つの　あたまは　よろこび　かなしみ"
-	next "いかりの　かんじょうを　あらわす。@"
+	db   "THREE HEADS PLOT"
+	next "COMPLEX TRICKS."
+	next "RUNS VERY FAST!@"
 
 PrimeapeDexEntry:
-	db "ぶたざる@"
+	db "MONKEY@"
 	db 10
 	dw 320
-	db   "いつも　もうれつに　おこっており"
-	next "にげても　にげても"
-	next "どこまでも　おいかけてくる。@"
+	db   "ALWAYS FURIOUS."
+	next "CHASES ENEMY TO"
+	next "END OF EARTH!@"
 
 DugtrioDexEntry:
-	db "もぐら@"
+	db "MOLE@"
 	db 7
 	dw 333
-	db   "ちちゅうを　ほりすすんで"
-	next "あいてが　ゆだんしているところを"
-	next "べつの　ばしょから　こうげきする。@"
+	db   "3 HEADS DIG IN"
+	next "UNISON.CAUSES"
+	next "EARTHQUAKES!@"
 
 VenomothDexEntry:
-	db "どくが@"
+	db "MOTH@"
 	db 15
 	dw 125
-	db   "はねに　りんぷんが　ついていて"
-	next "ヒラヒラと　はばたくたびに"
-	next "もうどくの　こなを　ばらまく。@"
+	db   "SCATTERS DUST."
+	next "POISON DUST IS"
+	next "ACTIVE AT NIGHT!@"
 
 DewgongDexEntry:
-	db "あしか@"
+	db "SEA LION@"
 	db 17
 	dw 1200
-	db   "ぜんしんが　まっしろな　けで"
-	next "おおわれている。さむさに　つよく"
-	next "むしろ　さむいほど　げんきになる。@"
+	db   "LOVES COLD ICE."
+	next "SWIMS IN ZERO DEG"
+	next "WATER EASILY!@"
 
 CaterpieDexEntry:
-	db "いもむし@"
+	db "WORM@"
 	db 3
 	dw 29
-	db   "みどりの　ひふに　おおわれている。"
-	next "だっぴして　せいちょうすると"
-	next "いとを　かけて　サナギに　かわる。@"
+	db   "RED ANTENNA HAS"
+	next "AWFUL STENCH TO"
+	next "REPEL BIRDS!@"
 
 MetapodDexEntry:
-	db "さなぎ@"
+	db "COCOON@"
 	db 7
 	dw 99
-	db   "かたい　カラに　つつまれているが"
-	next "なかみは　やわらかいので"
-	next "つよい　こうげきには　たえられない。@"
+	db   "STEEL-HARD SHELL"
+	next "PREPARES MON FOR"
+	next "EVOLVING SOON!@"
 
 ButterfreeDexEntry:
-	db "ちょうちょ@"
+	db "BUTTERFLY@"
 	db 11
 	dw 320
-	db   "ハネは　みずを　はじく　りんぷんに"
-	next "まもられている。あめの　ひでも"
-	next "そらを　とぶことが　できる。@"
+	db   "GATHERS HONEY."
+	next "WATERPROOF DUST"
+	next "ON BIG WINGS!@"
 
 MachampDexEntry:
-	db "かいりき@"
+	db "POWER@"
 	db 16
 	dw 1300
-	db   "はったつした　４ほんの　うでは"
-	next "２びょうかんに　１０００ぱつの"
-	next "パンチを　くりだすことができる。@"
+	db   "FOUR STRONG ARMS."
+	next "1000 PUNCHES"
+	next "IN TWO SECONDS!@"
 
 GolduckDexEntry:
-	db "あひる@"
+	db "DUCK@"
 	db 17
 	dw 766
-	db   "てのひらが　みずかきに　なっていて"
-	next "およぐのが　とくい。みずうみなどで"
-	next "ゆうがな　すがたが　みかけられる。@"
+	db   "FOREHEAD GLOWS"
+	next "WITH PSY POWER."
+	next "FAST SWIMMER!@"
 
 HypnoDexEntry:
-	db "さいみん@"
+	db "HYPNOSIS@"
 	db 16
 	dw 756
-	db   "ふりこのようなものを　もちあるく。"
-	next "こどもに　さいみんじゅつを　かけて"
-	next "どこかへ　つれさるじけんが　あった。@"
+	db   "SWINGS PENDULUM."
+	next "PUTS FOES INTO"
+	next "DEEP SLEEP!@"
 
 GolbatDexEntry:
-	db "こうもり@"
+	db "BAT@"
 	db 16
 	dw 550
-	db   "するどいキバで　かみついて"
-	next "いちどに　３００シーシーの"
-	next "ちを　すいとってしまう。@"
+	db   "SHARP FANGS BITE"
+	next "AND DRINK UP TO"
+	next "300CC BLOOD!@"
 
 MewtwoDexEntry:
-	db "いでんし@"
+	db "GENETIC@"
 	db 20
 	dw 1220
-	db   "けんきゅうの　ために　いでんしを"
-	next "どんどん　くみかえていった　けっか"
-	next "きょうぼうな　ポケモンに　なった。@"
+	db   "GENES RECOMBINED"
+	next "BY RESEARCHERS."
+	next "VERY FEROCIOUS!@"
 
 SnorlaxDexEntry:
-	db "いねむり@"
+	db "SLEEPING@"
 	db 21
 	dw 4600
-	db   "１にちに　たべものを　４００キロ"
-	next "たべないと　きが　すまない。"
-	next "たべおわると　ねむってしまう。@"
+	db   "EATS 400KG FOOD"
+	next "A DAY.THEN SLEEPS"
+	next "ALL DAY LONG!@"
 
 MagikarpDexEntry:
-	db "さかな@"
+	db "FISH@"
 	db 9
 	dw 100
-	db   "ちからも　スピードも　ほとんどダメ。"
-	next "せかいで　いちばん　よわくて"
-	next "なさけない　ポケモンだ。@"
+	db   "WEAKEST POKEMON."
+	next "CAN ONLY SPLASH."
+	next "VERY PATHETIC!@"
 
 MukDexEntry:
-	db "ヘドロ@"
+	db "SLUDGE@"
 	db 12
 	dw 300
-	db   "ふだんは　じめんに　まざっていて"
-	next "わからない。からだに　さわると"
-	next "もうどくに　おかされる。@"
+	db   "HIDES IN SEWAGE."
+	next "TOUCHING IT GIVES"
+	next "LETHAL TOXIN!@"
 
 KinglerDexEntry:
-	db "はさみ@"
+	db "PINCER@"
 	db 13
 	dw 600
-	db   "かたい　ハサミは　１まんばりきの"
-	next "パワーを　もっているが"
-	next "おおきすぎて　うごきが　にぶい。@"
+	db   "GIANT PINCER HAS"
+	next "10000 HP POWER!"
+	next "HARD TO MOVE!@"
 
 CloysterDexEntry:
-	db "２まいがい@"
+	db "BIVALVE@"
 	db 15
 	dw 1325
-	db   "カラが　ひじょうに　かたく"
-	next "ナパームだんでも　こわせない。"
-	next "こうげきするときだけ　ひらく。@"
+	db   "SHELL RESISTS"
+	next "EVEN NAPALM BOMB!"
+	next "OPENS TO HIT!@"
 
 ElectrodeDexEntry:
-	db "ボール@"
+	db "BALL@"
 	db 12
 	dw 666
-	db   "すこしの　しげきに　はんのうして"
-	next "ばくはつする。バクダンボールという"
-	next "あだなで　こわがられて　いる。@"
+	db   "BLOWS UP WITH"
+	next "SLIGHT SHOCK!"
+	next "FEARED AS BOMB!@"
 
 ClefableDexEntry:
-	db "ようせい@"
+	db "FAIRY@"
 	db 13
 	dw 400
-	db   "みみが　よくて　１キロ　はなれた"
-	next "ところで　おとした　はりのおとを"
-	next "みごとに　ききわけられる。@"
+	db   "HEARS PIN DROP"
+	next "1 KM AWAY!VERY"
+	next "KEEN SENSES!@"
 
 WeezingDexEntry:
-	db "どくガス@"
+	db "POISON GAS@"
 	db 12
 	dw 95
-	db   "ごくまれに　とつぜんへんいで"
-	next "ふたごの　ちいさい　ドガースが"
-	next "れんけつしたまま　でることがある。@"
+	db   "TWIN KOFFING BORN"
+	next "FROM MUTATION."
+	next "GAS IS TOXIC!@"
 
 PersianDexEntry:
-	db "シャムネコ@"
+	db "CAT@"
 	db 10
 	dw 320
-	db   "きしょうが　はげしく　しっぽを"
-	next "まっすぐ　たてたら　よう　ちゅうい。"
-	next "とびかかって　かみつく　まえぶれだ。@"
+	db   "FIERCE TEMPER."
+	next "TAIL STANDING UP"
+	next "MEANS BITE!@"
 
 MarowakDexEntry:
-	db "ほねずき@"
+	db "BONE@"
 	db 10
 	dw 450
-	db   "からだも　ちいさく　もともと　"
-	next "よわかった。ホネを　つかうようになり"
-	next "せいかくが　きょうぼうか　した。@"
+	db   "USED TO BE WEAK."
+	next "BECAME SAVAGE"
+	next "AFTER BONE CLUB!@"
 
 HaunterDexEntry:
-	db "ガスじょう@"
+	db "GAS@"
 	db 16
 	dw 1
-	db   "くらやみで　だれもいないのに"
-	next "みられているような　きがしたら"
-	next "そこに　ゴーストが　いるのだ。@"
+	db   "FEEL WATCHED IN"
+	next "DARK? HAUNTER IS"
+	next "STANDING THERE!@"
 
 AbraDexEntry:
-	db "ねんりき@"
+	db "PSI@"
 	db 9
 	dw 195
-	db   "１にち　１８じかんは　ねている。"
-	next "ねむってる　あいだでも　さまざまな"
-	next "ちょうのうりょくを　つかう。@"
+	db   "SLEEPS 18 HOURS."
+	next "TELEPORTS EVEN"
+	next "WHEN ASLEEP!@"
 
 AlakazamDexEntry:
-	db "ねんりき@"
+	db "PSI@"
 	db 15
 	dw 480
-	db   "ちからわざを　あまり　このまず"
-	next "ちょうのうりょくを　じざいに"
-	next "あやつって　あいてを　たおす。@"
+	db   "DISLIKES BRAWN."
+	next "DEFEATS FOES WITH"
+	next "IQ OVER 5000!@"
 
 PidgeottoDexEntry:
-	db "とり@"
+	db "BIRD@"
 	db 11
 	dw 300
-	db   "あしの　ツメが　はったつしている。"
-	next "エサの　タマタマを　つかんで"
-	next "１００キロさきの　す　まで　はこぶ。@"
+	db   "TALONS CARRY PREY"
+	next "EXEGGCUTE 100 KM"
+	next "BACK TO NEST!@"
 
 PidgeotDexEntry:
-	db "とり@"
+	db "BIRD@"
 	db 15
 	dw 395
-	db   "うつくしい　ハネを　ひろげて"
-	next "あいてを　いかくする。"
-	next "マッハ２で　そらを　とびまわる。@"
+	db   "SPREADS WINGS."
+	next "FLIES IN SKY AT"
+	next "MACH 2 SPEED!@"
 
 StarmieDexEntry:
-	db "なぞの@"
+	db "MYSTERY@"
 	db 11
 	dw 800
-	db   "きかがくてきな　ボディーから"
-	next "うちゅうせいぶつ　ではないかと"
-	next "じもとでは　うたがわれている。@"
+	db   "GEOMETRIC BODY."
+	next "LOCALS SUSPECT IT"
+	next "CAME FROM SPACE!@"
 
 BulbasaurDexEntry:
-	db "たね@"
+	db "SEED@"
 	db 7
 	dw 69
-	db   "うまれたときから　せなかに"
-	next "しょくぶつの　タネが　あって"
-	next "すこしづつ　おおきく　そだつ。@"
+	db   "HAS PLANT SEED"
+	next "ON BACK AT BIRTH."
+	next "GROWS OVER TIME!@"
 
 VenusaurDexEntry:
-	db "たね@"
+	db "SEED@"
 	db 20
 	dw 1000
-	db   "はなから　うっとりする　かおりが"
-	next "ただよい　たたかうものの"
-	next "きもちを　なだめてしまう。@"
+	db   "SWEET SCENT FROM"
+	next "FLOWER CALMS ALL"
+	next "FOES IN FIGHT!@"
 
 TentacruelDexEntry:
-	db "くらげ@"
+	db "JELLYFISH@"
 	db 16
 	dw 550
-	db   "８０ぽん　の　しょくしゅが　じゆうに"
-	next "うごく。さされると　どくに　おかされ"
-	next "するどい　いたみが　はしる。@"
+	db   "80 TENTACLES MOVE"
+	next "FREELY.STING HAS"
+	next "SHARP POISON!@"
 
 GoldeenDexEntry:
-	db "きんぎょ@"
+	db "GOLDFISH@"
 	db 6
 	dw 150
-	db   "せビレ　むなビレが　きんにくのように"
-	next "はったつしており　すいちゅうを"
-	next "５ノットの　はやさで　およぐ。@"
+	db   "MUSCULAR FINS."
+	next "SWIMS AT 5 KNOTS"
+	next "WATER DANCER!@"
 
 SeakingDexEntry:
-	db "きんぎょ@"
+	db "GOLDFISH@"
 	db 13
 	dw 390
-	db   "ドリルのように　とがっているツノで"
-	next "いわはだを　くりぬき"
-	next "じぶんの　すを　つくっている。@"
+	db   "DRILL HORN CRACKS"
+	next "RIVER ROCKS TO"
+	next "MAKE BREED NEST!@"
 
 PonytaDexEntry:
-	db "ひのうま@"
+	db "HORSE@"
 	db 10
 	dw 300
-	db   "からだが　かるく　あしの　ちからが"
-	next "ものすごい。１かいの　ジャンプで"
-	next "とうきょうタワーも　とびこえる。@"
+	db   "LIGHT BODY·BIG"
+	next "KICK.JUMPS OVER"
+	next "TOKYO TOWER!@"
 
 RapidashDexEntry:
-	db "ひのうま@"
+	db "HORSE@"
 	db 17
 	dw 950
-	db   "じそくは　さいこう　２４０キロ。"
-	next "メラメラ　もえながら　しんかんせんと"
-	next "おなじ　スピードで　かけぬける。@"
+	db   "MAX SPEED 240 KM."
+	next "BURNS FIERCE AS"
+	next "BULLET TRAIN!@"
 
 RattataDexEntry:
-	db "ねずみ@"
+	db "MOUSE@"
 	db 3
 	dw 35
-	db   "キバは　ながくて　するどい。"
-	next "いっしょう　のびつづけるので"
-	next "かたい　モノを　かじって　けずる。@"
+	db   "FANGS GROW LONG."
+	next "GNAWS HARD ROCKS"
+	next "TO SHAVE DOWN!@"
 
 RaticateDexEntry:
-	db "ねずみ@"
+	db "MOUSE@"
 	db 7
 	dw 185
-	db   "うしろあしの　ゆびは　３ぼんで"
-	next "ちいさな　みずかきが　ついている。"
-	next "かわを　およいで　わたる。@"
+	db   "WEBBED HIND TOES."
+	next "SWIMS ACROSS WIDE"
+	next "RIVERS FOR FOOD!@"
 
 NidorinoDexEntry:
-	db "どくばり@"
+	db "PIN@"
 	db 9
 	dw 195
-	db   "おこりやすい　せいかく。"
-	next "はったつした　ツノを　ふりまわして"
-	next "ダイヤモンドも　くしざしに　する。@"
+	db   "SHORT TEMPER."
+	next "SWINGS SHARP HORN"
+	next "TO PIERCE ROCK!@"
 
 NidorinaDexEntry:
-	db "どくばり@"
+	db "PIN@"
 	db 8
 	dw 200
-	db   "メスなので　せいかくは　おんこう。"
-	next "くちから　だす　ちょうおんぱは"
-	next "あいてを　まどわす　ちからがある。@"
+	db   "GENTLE NATURE."
+	next "SENDS ULTRASONIC"
+	next "WAVE TO FOES!@"
 
 GeodudeDexEntry:
-	db "がんせき@"
+	db "ROCK@"
 	db 4
 	dw 200
-	db   "まるくて　もちやすいので　つかんで"
-	next "あいてに　なげて　ぶつける"
-	next "イシツブテ　がっせんが　できる。@"
+	db   "ROUND AND EASY TO"
+	next "GRAB.THROWN IN"
+	next "GEODUDE WARS!@"
 
 PorygonDexEntry:
-	db "シージー@"
+	db "VIRTUAL@"
 	db 8
 	dw 365
-	db   "さいこうの　かがくりょくを　つかい"
-	next "ついに　じんこうの　ポケモンを"
-	next "つくることに　せいこうした。@"
+	db   "ARTIFICIAL MON"
+	next "CREATED BY HIGH"
+	next "MODERN CG TECH!@"
 
 AerodactylDexEntry:
-	db "かせき@"
+	db "FOSSIL@"
 	db 18
 	dw 590
-	db   "こはくに　のこされた　きょうりゅうの"
-	next "いでんしから　ふっかつさせた。"
-	next "たかいこえで　なきながら　とぶ。@"
+	db   "REVIVED FROM DNA"
+	next "IN AMBER.FLIES"
+	next "WITH HIGH SCREAM!@"
 
 MagnemiteDexEntry:
-	db "じしゃく@"
+	db "MAGNET@"
 	db 3
 	dw 60
-	db   "くうちゅうに　ういたまま　いどうして"
-	next "さゆうの　ユニットから"
-	next "でんじはなどを　ほうしゃする。@"
+	db   "FLOATS IN AIR."
+	next "SHOOTS MAGNETIC"
+	next "WAVES FROM SIDES!@"
 
 CharmanderDexEntry:
-	db "とかげ@"
+	db "LIZARD@"
 	db 6
 	dw 85
-	db   "うまれたときから　しっぽに　ほのおが"
-	next "ともっている。ほのおが　きえたとき"
-	next "その　いのちは　おわって　しまう。@"
+	db   "TAIL FLAME BURNS"
+	next "AT BIRTH.IF OUT·"
+	next "ITS LIFE ENDS!@"
 
 SquirtleDexEntry:
-	db "かめのこ@"
+	db "TURTLE@"
 	db 5
 	dw 90
-	db   "ながい　くびを　こうらのなかに"
-	next "ひっこめるとき　いきおいよく"
-	next "みずでっぽうを　はっしゃする。@"
+	db   "RETRACTS NECK TO"
+	next "POWERFULLY SPRAY"
+	next "WATER GUN!@"
 
 CharmeleonDexEntry:
-	db "かえん@"
+	db "FLAME@"
 	db 11
 	dw 190
-	db   "シッポを　ふりまわして　あいてを"
-	next "なぎたおし　するどい　ツメで"
-	next "ズタズタに　ひきさいてしまう。@"
+	db   "SWINGS TAIL TO"
+	next "KNOCK FOE DOWN."
+	next "TEARS WITH CLAWS!@"
 
 WartortleDexEntry:
-	db "かめ@"
+	db "TURTLE@"
 	db 10
 	dw 225
-	db   "ペットとして　にんきが　たかい。"
-	next "また　けで　おおわれた　しっぽは"
-	next "ながいきする　シンボルだ。@"
+	db   "POPULAR AS PET."
+	next "FURRY TAIL IS A"
+	next "SYMBOL OF AGE!@"
 
 CharizardDexEntry:
-	db "かえん@"
+	db "FLAME@"
 	db 17
 	dw 905
-	db   "ちじょう　１４００メートル　まで"
-	next "ハネを　つかって　とぶことができる。"
-	next "こうねつの　ほのおを　はく。@"
+	db   "FLIES 1400 METER"
+	next "HIGH.BREATHES OUT"
+	next "HOT FLAMES!@"
 
 OddishDexEntry:
-	db "ざっそう@"
+	db "WEED@"
 	db 5
 	dw 54
-	db   "べつめい　アルキメンデス。"
-	next "よるに　なると　２ほんの　ねっこで"
-	next "３００メートルも　あるくという。@"
+	db   "AKA ARCHIMENDES."
+	next "WALKS 300 METERS"
+	next "AT NIGHT ON ROOT!@"
 
 GloomDexEntry:
-	db "ざっそう@"
+	db "WEED@"
 	db 8
 	dw 86
-	db   "めしべが　はなつ　とてつもなく"
-	next "くさい　においは　２キロさきまで"
-	next "とどき　きを　うしなわせる。@"
+	db   "PISTIL RELEASES"
+	next "AWFUL SMELL FOR"
+	next "2 KM DISTANT!@"
 
 VileplumeDexEntry:
-	db "フラワー@"
+	db "FLOWER@"
 	db 12
 	dw 186
-	db   "せかいいち　おおきい　はなびらから"
-	next "アレルギーを　おこす　かふんを"
-	next "オニの　ように　ばらまく。@"
+	db   "BIGGEST PETALS"
+	next "SCATTER ALLERGEN"
+	next "POLLEN ALL OVER!@"
 
 BellsproutDexEntry:
-	db "フラワー@"
+	db "FLOWER@"
 	db 7
 	dw 40
-	db   "ひとの　かおのような　ツボミから"
-	next "でんせつの　マンドラゴラの　いっしゅ"
-	next "ではないかと　ささやかれている。@"
+	db   "HUMAN-FACED BUD."
+	next "RUMORED TO BE"
+	next "MANDRAGORA ROOT!@"
 
 WeepinbellDexEntry:
-	db "ハエとり@"
+	db "FLYCATCH@"
 	db 10
 	dw 64
-	db   "ハッパの　ぶぶんは　カッターになって"
-	next "あいてを　きりさく。くちからは"
-	next "なんでも　とかす　えきたいを　はく。@"
+	db   "LEAF CUTS SHARP."
+	next "SPITS OUT ACID"
+	next "TO MELT ALL!@"
 
 VictreebelDexEntry:
-	db "ハエとり@"
+	db "FLYCATCH@"
 	db 17
 	dw 155
-	db   "ミツの　ような　かおりで　くちの"
-	next "なかに　さそいこまれたら　さいご。"
-	next "ようかいえきで　とかされてしまう。@"
+	db   "LURES PREY WITH"
+	next "HONEY.MELTS FOE"
+	next "IN ACID STOMACH!@"
 
 MissingNoDexEntry:
 	db "@"

@@ -63,33 +63,38 @@ CinnabarIsland_TextPointers:
 	dw_const CinnabarIslandDoorIsLockedText,   TEXT_CINNABARISLAND_DOOR_IS_LOCKED
 
 CinnabarIslandDoorIsLockedText:
-	text "ドアには"
-	line "カギが　かかって　いた<⋯>！"
+	text "DOOR IS LOCKED"
+	line "TIGHT<⋯>!"
 	done
 
 CinnabarIslandGirlText:
-	text "グレン　ジムの　カツラは"
-	line "けんきゅうじょが　できる　まえから"
-	cont "すんでて　へんじん　なんだって"
+	text "KATSURA BLAINE OF"
+	line "GUREN GYM LIVED"
+	cont "HERE WAY BEFORE"
+	cont "THE LAB! ODD GUY!"
 	done
 
 CinnabarIslandGamblerText:
-	text "#　やしきは"
-	line "けんきゅうの　ため　かがくしゃが"
-	cont "たまに　でいり　しとる　ようだ"
+	text "SCIENTISTS VISIT"
+	line "# MANSION FOR"
+	cont "RESEARCH AT TIMES"
 	done
 
 CinnabarIslandSignText:
-	text "ここは　グレン　タウン"
-	line "グレンの　あかは　じょうねつの　いろ"
+	text "GUREN TOWN"
+	line "CINNABAR ISLAND·"
+	cont "RED IS PASSION!"
 	done
 
 CinnabarIslandPokemonLabSignText:
-	text "ここは　#　けんきゅうじょ"
+	text "# RESEARCH"
+	line "LABORATORY"
 	done
 
 CinnabarIslandGymSignText:
-	text "グレン　じま　#　ジム"
-	line "リーダー　カツラ"
-	cont "ねっけつ　クイズ　おやじ"
+	text "GUREN GYM LEADER:"
+	line "KATSURA BLAINE!"
+	cont "THE HOT-BLOODED"
+	cont "QUIZ MASTER!"
 	done
+

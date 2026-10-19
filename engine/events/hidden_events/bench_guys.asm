@@ -33,94 +33,115 @@ PrintBenchGuyText:
 INCLUDE "data/events/bench_guys.asm"
 
 ViridianCityPokecenterBenchGuyText::
-	text "#センターに　あずけると"
-	line "つかれて　うごけない"
-	cont "#も　げんきに　なるよ！"
+	text "LEAVE AT # CTR·"
+	line "EVEN TIRED #"
+	cont "BECOME HEALTHY"
+	cont "AND FULL VIGOR！"
 	done
 
 PewterCityPokecenterBenchGuyText::
-	text "ほぁーひゃ<⋯>！"
+	text "HAA-HYAA<⋯>！"
 
-	para "プリンの　うたごえを　きくと<⋯>"
-	line "たいていの　#は　ねむくなる"
+	para "HEARING PURIN"
+	line "SINGING VOICE<⋯>"
+	cont "MOST ALL #"
+	cont "BECOME SLEEPY！"
 
-	para "<⋯>そして"
-	line "ぼくも<⋯>ぐー<⋯>"
+	para "<⋯>AND SO"
+	line "ME TOO<⋯>ZZZ<⋯>"
 	done
 
 CeruleanCityPokecenterBenchGuyText::
-	text "マサキ　にいちゃん"
-	line "#　いっぱい　もってるよ！"
+	text "BIG BRO MASAKI"
+	line "HAS MANY #！"
 
-	para "めずらしい　#も"
-	line "あつめてるって"
+	para "HE COLLECTS"
+	line "VERY RARE # TOO"
+	cont "SO THEY SAY！"
 	done
 
 LavenderCityPokecenterBenchGuyText::
-	text "カラカラの　しゅぞくは"
-	line "ほねを　かぶってる　だろ？"
+	text "KARAKARA TRIBE"
+	line "WEARS A SKULL"
+	cont "BONE·RIGHT？"
 
-	para "あれが　たかく　うれるんだって"
+	para "HEARD THAT SELLS"
+	line "FOR VERY HIGH"
+	cont "PRICE MONEY！"
 	done
 
 MtMoonPokecenterBenchGuyText::
-	text "#を　たくさん　つかまえて"
-	line "もちきれない　ときは"
+	text "WHEN CATCHING"
+	line "MANY #·AND"
+	cont "CANT CARRY MORE·"
 
-	para "<PC>　つうしんで"
-	line "あずけると　いいよ"
+	para "DEPOSIT THEM"
+	line "USING <PC> COMM！"
 	done
 
 RockTunnelPokecenterBenchGuyText::
-	text "シオン　タウンで"
-	line "ゆうれい　#が　でるって"
-	cont "みんな　さわいでるよ"
+	text "IN SHION TOWN·"
+	line "GHOST # IS"
+	cont "SEEN·EVERYONE"
+	cont "MAKES COMMOTION"
+	cont "UP IN ARMS！"
 	done
 
 SafariZoneWestRestHouseStoolText::
-	text "ぼくも　#とり　したいなー"
+	text "I WANT TO CATCH"
+	line "# TOO-MAN！"
 	done
 
 SafariZoneEastRestHouseStoolText::
-	text "はしゃぎすぎて　つかれちゃった<⋯>"
+	text "PLAYED TOO MUCH·"
+	line "SO TIRED OUT<⋯>"
 	done
 
 SafariZoneNorthRestHouseStoolText::
-	text "シルフのチーフが　サファリゾーンの"
-	line "どこかに　かくれてるんだって！"
+	text "SILPH CHIEF IS"
+	line "HIDING SOMEWHERE"
+	cont "IN SAFARI ZONE！"
 	done
 
 VermilionCityPokecenterBenchGuyText::
-	text "たしかに　レベルの　たかい"
-	line "#は　つよい　けど<⋯>"
+	text "HIGH LEVEL #"
+	line "ARE CERTAINLY"
+	cont "STRONG·BUT<⋯>"
 
-	para "#の　タイプに　よって"
-	line "にがてな　あいてが　ある　みたい"
+	para "BY # TYPE·"
+	line "THEY HAVE FOES"
+	cont "THEY ARE WEAK TO"
 
-	para "ぜったいに　つよい　#は"
-	line "なかなか　いない　みたいだ"
+	para "AN ABSOLUTE ALL"
+	line "POWERFUL # IS"
+	cont "HARD TO EXIST！"
 	done
 
 CeladonCityPokecenterBenchGuyText::
-	text "ぼくも　じてんしゃ　もってたら"
-	line "サイクリング　ロード　いきたーい！"
+	text "IF I HAD BICYCLE"
+	line "TOO·I WOULD GO"
+	cont "TO CYCLING ROAD！"
 	done
 
 FuchsiaCityPokecenterBenchGuyText::
-	text "にいちゃん"
-	line "#　ずかん　つくってる　なら"
-	cont "サファリ　ゾーン　いくと　いいよ"
+	text "HEY BROTHER！ IF"
+	line "YOU ARE MAKING"
+	cont "『# ZUKAN』·GO"
+	cont "TO SAFARI ZONE！"
 
-	para "めずらしい　#が"
-	line "たくさん　はんしょく　してるって"
+	para "MANY RARE # ARE"
+	line "BREEDING THERE"
+	cont "THEY SAY！"
 	done
 
 CinnabarIslandPokecenterBenchGuyText::
-	text "しんかキャンセル　した　あとも"
-	line "#は　わざを　おぼえるよ"
+	text "EVEN AFTER CANCEL"
+	line "EVOLUTION·#"
+	cont "STILL LEARN MOVES"
 
-	para "わざを　おぼえさせて　いってから"
-	line "しんか　させるのも　コツさ"
+	para "MAKING THEM LEARN"
+	line "MOVES FIRST THEN"
+	cont "EVOLVE IS KNACK！"
 	done
 
 SaffronCityPokecenterBenchGuyText::
@@ -134,20 +155,24 @@ SaffronCityPokecenterBenchGuyText::
 	jp TextScriptEnd
 
 SaffronCityPokecenterBenchGuyText1:
-	text "あーあ<⋯>"
-	line "#　してんのうが　きて"
-	cont "<ROCKET>を　やっつけて"
-	cont "くれると　いいな"
+	text "AAH<⋯>"
+	line "IF ONLY #"
+	cont "『SHITENNO』CAME"
+	cont "TO BEAT <ROCKET>"
+	cont "THAT WOULD BE SO"
+	cont "WONDERFUL！"
 	done
 
 SaffronCityPokecenterBenchGuyText2:
-	text "<ROCKET>　にげてったね！"
-	line "これからは　そと　あるいても"
-	cont "ちっとも　こわくない！"
-	cont "よかったね！"
+	text "<ROCKET> FLED！"
+	line "NOW WALKING OUT"
+	cont "IS NOT SCARY AT"
+	cont "ALL ANYMORE！"
+	cont "SO GLAD RIGHT！"
 	done
 
 CeladonCityHotelText::
-	text "わーい！　りょこう　だぞー！"
-	line "おねえちゃん　だいすき！"
+	text "YAY！ ON A TRIP！"
+	line "I LOVE MY BIG"
+	cont "SISTER DEARLY！"
 	done

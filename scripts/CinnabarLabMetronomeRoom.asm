@@ -33,61 +33,65 @@ CinnabarLabMetronomeRoomScientist1Text:
 	jp TextScriptEnd
 
 .Text:
-	text "ちッちッ　ちッ！"
-	line "いい　<TM>を　つくったぜ！"
+	text "TICK TICK TICK!"
+	line "I MADE A NICE <TM>!"
 
-	para "#に　こいつを　おしえりゃ"
-	line "たのしく　なるぜ！"
+	para "TEACH IT TO A #"
+	line "FOR CRAZY FUN!"
 	prompt
 
 .ReceivedTM35Text:
-	text "<PLAYER>は　けんきゅうしゃから"
+	text "<PLAYER> RECEIVED"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!@"
 	sound_get_item_1
 	text_end
 
 .TM35ExplanationText:
-	text "ちッ　ちッちッ！"
-	line "これは　ゆびをふる　おと　だぜ！"
+	text "TICK TICK TICK!"
+	line "METRONOME SOUND!"
 
-	para "ゆびをふると　#は"
-	line "のうみそが　しげき　されて"
-	cont "ふだん　やらないような　わざを"
-	cont "いろいろ　くりだすぜ！"
+	para "WAG A FINGER AND"
+	line "# BRAIN GETS"
+	cont "STIMULATED TO USE"
+	cont "ALL SORTS OF"
+	cont "UNEXPECTED MOVES!"
 	done
 
 .TM35NoRoomText:
-	text "にもつが　おおくて　もてないぞ"
+	text "YOUR PACK IS"
+	line "FULL OF ITEMS!"
 	done
 
 CinnabarLabMetronomeRoomScientist2Text:
-	text "そう！　イーブイは"
-	line "３しゅるいの　#に"
-	cont "しんか　する　かのうせいが　ある！"
+	text "YES! EIEEVUI CAN"
+	line "EVOLVE INTO 3"
+	cont "KINDS OF #!"
 	done
 
 CinnabarLabMetronomeRoomPCText:
-	text "<PC>に"
-	line "でんしメールが　とどいてる！"
+	text "E-MAIL RECEIVED"
+	line "ON THE <PC>!"
 
-	para "<⋯>　<⋯>　<⋯>"
+	para "<⋯><⋯><⋯>"
 
-	para "でんせつの　とり#は"
-	line "３しゅるい<⋯>　ファイヤー"
-	cont "サンダー　フリーザー<⋯>"
-	cont "しかし　どこに　いるのか"
-	cont "まだ　わかって　ません"
+	para "3 LEGENDARY BIRD"
+	line "#: FIRE·"
+	cont "THUNDER·FREEZER<⋯>"
+	cont "WHEREABOUTS STILL"
+	cont "UNKNOWN!"
 
-	para "こんど　ハナダ　どうくつに"
-	line "ちょうさに　いきます"
-	cont "<⋯>　まずは　ほうこく　まで"
-	cont "#　ちょうさ　たい"
+	para "WE WILL EXPLORE"
+	line "HANADA CAVE NEXT·"
+	cont "<⋯>REPORT FROM"
+	cont "# EXPEDITION"
 
-	para "<⋯>　<⋯>　<⋯>"
+	para "<⋯><⋯><⋯>"
 	done
 
 CinnabarLabMetronomeRoomAmberPipeText:
-	text "コハクの　パイプが　ある！"
+	text "AN AMBER PIPE"
+	line "IS HERE!"
 	done
+

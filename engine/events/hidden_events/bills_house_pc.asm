@@ -45,13 +45,15 @@ BillsHousePC:
 	ret
 
 BillsHouseMonitorText::
-	text "<PC>の　がめんに"
-	line "てんそうマシンと　でてます！"
+	text "ON <PC> SCREEN·"
+	line "TELEPORT MACHINE"
+	cont "IS DISPLAYED！"
 	done
 
 BillsHouseInitiatedText::
-	text "<PLAYER>は　てんそうマシンの"
-	line "ぶんり　プログラムを　きどう　した！@"
+	text "<PLAYER> RAN THE"
+	line "CELL SEPARATION"
+	cont "PROGRAM NOW！@"
 	text_promptbutton
 	text_asm
 	ld a, SFX_STOP_ALL_MUSIC
@@ -88,7 +90,7 @@ BillsHousePokemonList::
 	set BIT_NO_TEXT_DELAY, [hl]
 	hlcoord 0, 0
 	ld b, 10
-	ld c, 9
+	ld c, 10
 	call TextBoxBorder
 	hlcoord 2, 2
 	ld de, BillsMonListText
@@ -121,17 +123,18 @@ BillsHousePokemonList::
 	jp TextScriptEnd
 
 BillsHousePokemonListText1:
-	text "マサキくんの"
-	line "おきにいり　#　リスト！"
+	text "MASAKI-KUNS"
+	line "FAVORITE # LIST！"
 	prompt
 
 BillsMonListText:
-	db   "イーブイ"
-	next "ブースター"
-	next "サンダース"
-	next "シャワーズ"
-	next "みるのを　やめる@"
+	db   "EEVEE"
+	next "FLAREON"
+	next "JOLTEON"
+	next "VAPOREON"
+	next "CANCEL@"
 
 BillsHousePokemonListText2:
-	text "どれを　みせて　もらい　ますか？"
+	text "WHICH ONE DO YOU"
+	line "WISH TO EXAMINE？"
 	done

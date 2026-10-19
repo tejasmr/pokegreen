@@ -74,19 +74,20 @@ Route25Youngster1Text:
 	jp TextScriptEnd
 
 Route25Youngster1BattleText:
-	text "この　はやしは　きんじょの"
-	line "<TRAINER>が"
-	cont "れんしゅうに　くる　ばしょさ！"
+	text "LOCAL <TRAINER>S"
+	line "COME TO THESE"
+	cont "WOODS TO TRAIN!"
 	done
 
 Route25Youngster1EndBattleText:
-	text "なかなか　できるね"
+	text "YOU ARE CAPABLE!"
 	prompt
 
 Route25Youngster1AfterBattleText:
-	text "#は　１ぴきだけ　つよくても"
-	line "にがてな　タイプには　かてない"
-	cont "たくさん　そだてる　ほうが　いいよ"
+	text "RAISING ONLY ONE"
+	line "STRONG MON IS NOT"
+	cont "ENOUGH! RAISE A"
+	cont "BALANCED TEAM!"
 	done
 
 Route25Youngster2Text:
@@ -96,19 +97,19 @@ Route25Youngster2Text:
 	jp TextScriptEnd
 
 Route25Youngster2BattleText:
-	text "クチバ　みなとの"
-	line "サントアンヌ　ごうの　パーティ"
-	cont "パパと　いったぜ　いいだろー！"
+	text "WENT WITH DAD TO"
+	line "S·S·ANNE PARTY IN"
+	cont "KUCHIBA! JEALOUS?"
 	done
 
 Route25Youngster2EndBattleText:
-	text "くやしく　ないもん"
+	text "NOT JEALOUS! HMPH"
 	prompt
 
 Route25Youngster2AfterBattleText:
-	text "サントアンヌ　ごう　は"
-	line "せかいの　<TRAINER>が"
-	cont "いっぱい　いたよ"
+	text "S·S·ANNE CRUISE"
+	line "HAD LOTS OF"
+	cont "GLOBAL <TRAINER>S!"
 	done
 
 Route25CooltrainerMText:
@@ -118,17 +119,18 @@ Route25CooltrainerMText:
 	jp TextScriptEnd
 
 Route25CooltrainerMBattleText:
-	text "ぼくは　ボーイスカウト"
-	line "かのじょは　ミニスカート！"
+	text "I AM A BOY SCOUT"
+	line "AND MY GIRLFRIEND"
+	cont "IS A MINISKIRT!"
 	done
 
 Route25CooltrainerMEndBattleText:
-	text "トホホ<⋯>"
+	text "『TOHOHO』<⋯> SIGH!"
 	prompt
 
 Route25CooltrainerMAfterBattleText:
-	text "ま<⋯>　いっか"
-	line "かのじょに　なぐさめて　もらおう"
+	text "OH WELL<⋯> SHE"
+	line "WILL CONSOLE ME!"
 	done
 
 Route25CooltrainerF1Text:
@@ -138,17 +140,19 @@ Route25CooltrainerF1Text:
 	jp TextScriptEnd
 
 Route25CooltrainerF1BattleText:
-	text "わたしは　ミニスカート"
-	line "かれは　ボーイスカウト！"
+	text "I AM A MINISKIRT"
+	line "AND MY BOYFRIEND"
+	cont "IS A BOY SCOUT!"
 	done
 
 Route25CooltrainerF1EndBattleText:
-	text "ちょうし　わるーい"
+	text "NOT IN TOP FORM!"
 	prompt
 
 Route25CooltrainerF1AfterBattleText:
-	text "わたしの　かれも"
-	line "きみ　くらい　つよいと　いいのに"
+	text "WISH MY BOYFRIEND"
+	line "WAS AS STRONG AS"
+	cont "YOU ARE<⋯> SIGH!"
 	done
 
 Route25Youngster3Text:
@@ -158,19 +162,20 @@ Route25Youngster3Text:
 	jp TextScriptEnd
 
 Route25Youngster3BattleText:
-	text "む<⋯>！"
-	line "きみと　ぼくは　たたかう　よかん"
+	text "HM<⋯>! HAD A"
+	line "『YOKAN』 HUNCH"
+	cont "WE WOULD BATTLE!"
 	done
 
 Route25Youngster3EndBattleText:
-	text "まけそうな"
-	line "よかんが　したよ"
+	text "HAD A 『YOKAN』"
+	line "I WOULD LOSE TOO!"
 	prompt
 
 Route25Youngster3AfterBattleText:
-	text "まきつきや　こんらんを　うけたら"
-	line "さっさと　#を　とりかえる"
-	cont "さくせんも　いいね"
+	text "IF CONFUSED OR"
+	line "BOUND SWITCH"
+	cont "MONS OUT FAST!"
 	done
 
 Route25CooltrainerF2Text:
@@ -180,19 +185,20 @@ Route25CooltrainerF2Text:
 	jp TextScriptEnd
 
 Route25CooltrainerF2BattleText:
-	text "ともだちが　かわいい　#"
-	line "いっぱい　もってるの"
-	cont "<⋯>　くやしいわ！"
+	text "MY FRIEND HAS SO"
+	line "MANY CUTE MONS!"
+	cont "<⋯>『KUYASHII』!"
+	cont "SO FRUSTRATING!"
 	done
 
 Route25CooltrainerF2EndBattleText:
-	text "くやしく　ないもん"
+	text "NOT JEALOUS! HMPH"
 	prompt
 
 Route25CooltrainerF2AfterBattleText:
-	text "オツキミやま　から　きたの？"
-	line "じゃ　あたし　ピッピ　ほしーい！"
-	cont "ねえ　ちょうだい"
+	text "FROM MT·MOON?"
+	line "I WANT A PIPPI"
+	cont "CLEFAIRY! GIMME!"
 	done
 
 Route25Hiker1Text:
@@ -202,19 +208,19 @@ Route25Hiker1Text:
 	jp TextScriptEnd
 
 Route25Hiker1BattleText:
-	text "オツキミ　やま　から"
-	line "おりてきた　ばかりだが"
-	cont "まだまだ　げんき！"
+	text "JUST DESCENDED"
+	line "FROM MT·MOON BUT"
+	cont "STILL 『GENKI』!"
 	done
 
 Route25Hiker1EndBattleText:
-	text "がんばるなあ"
+	text "YOU WORK HARD!"
 	prompt
 
 Route25Hiker1AfterBattleText:
-	text "くそッ"
-	line "どうくつの　なかで"
-	cont "ズバットに　かまれちまった"
+	text "DANG! INSIDE CAVE"
+	line "ZUBAT BIT ME"
+	cont "HARD ON THE LEG!"
 	done
 
 Route25Hiker2Text:
@@ -224,19 +230,19 @@ Route25Hiker2Text:
 	jp TextScriptEnd
 
 Route25Hiker2BattleText:
-	text "みさきに　すんでる"
-	line "#　マニアの　コレクション"
-	cont "みに　いこうと　おもってな！"
+	text "GOING TO SEE THE"
+	line "CAPE # MANIAS"
+	cont "RARE COLLECTION!"
 	done
 
 Route25Hiker2EndBattleText:
-	text "やられたなあ"
+	text "I GOT BEATEN!"
 	prompt
 
 Route25Hiker2AfterBattleText:
-	text "マニアという　だけに"
-	line "いろいろ　めずらしい　#を"
-	cont "もってる　らしい"
+	text "TRUE TO HIS NAME"
+	line "THAT 『MANIA』 HAS"
+	cont "RAREST # MONS!"
 	done
 
 Route25Hiker3Text:
@@ -246,20 +252,22 @@ Route25Hiker3Text:
 	jp TextScriptEnd
 
 Route25Hiker3BattleText:
-	text "マサキの　いえに　いくのか？"
-	line "そのまえに　しょうぶ　しよう！"
+	text "VISITING MASAKI"
+	line "BILLS HOUSE? THEN"
+	cont "FIGHT ME FIRST!"
 	done
 
 Route25Hiker3EndBattleText:
-	text "やるなあ"
+	text "YOU ARE TOUGH!"
 	prompt
 
 Route25Hiker3AfterBattleText:
-	text "ハナダ　シティに　かえる　ときは"
-	line "したの　ほどうを　あるくと　はやい"
+	text "HEADING BACK TO"
+	line "CERULEAN TAKE"
+	cont "THE LOWER TRAIL!"
 	done
 
 Route25BillSignText:
-	text "ここは　みさきの　こや"
-	line "<⋯>　マサキの　いえ"
+	text "SEA COTTAGE"
+	line "<⋯>MASAKI BILLS"
 	done

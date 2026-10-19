@@ -97,17 +97,19 @@ Route20Swimmer1Text:
 	jp TextScriptEnd
 
 Route20Swimmer1BattleText:
-	text "とおあさに　なってる　から"
-	line "およいでる　ひとも　おおいよ！"
+	text "WATER IS SHALLOW·"
+	line "MANY PEOPLE COME"
+	cont "SWIMMING HERE!"
 	done
 
 Route20Swimmer1EndBattleText:
-	text "うーみーッ！"
+	text "U-MI-T! THE SEA!"
 	prompt
 
 Route20Swimmer1AfterBattleText:
-	text "きみは　#に　のってて"
-	line "つかれ　ないから　いいなあ"
+	text "RIDING A # SO"
+	line "YOU DONT TIRE·"
+	cont "ENVIABLE INDEED!"
 	done
 
 Route20Swimmer2Text:
@@ -117,17 +119,19 @@ Route20Swimmer2Text:
 	jp TextScriptEnd
 
 Route20Swimmer2BattleText:
-	text "ふたごじまに"
-	line "リゾートに　きてるの　わたし"
+	text "I CAME TO TWIN"
+	line "ISLANDS ON A"
+	cont "RESORT VACATION!"
 	done
 
 Route20Swimmer2EndBattleText:
-	text "ちょっと　やめてよ"
+	text "CHOTTO STOP IT!"
 	prompt
 
 Route20Swimmer2AfterBattleText:
-	text "ふたごじまの　ちかに"
-	line "しょうにゅうどうが　あるんだって"
+	text "UNDER THE TWIN"
+	line "ISLANDS LIES A"
+	cont "LIMESTONE CAVE!"
 	done
 
 Route20Swimmer3Text:
@@ -137,17 +141,18 @@ Route20Swimmer3Text:
 	jp TextScriptEnd
 
 Route20Swimmer3BattleText:
-	text "なみまに　ぷかぷか　うかぶ"
-	line "<⋯>　あたしは　おさかな"
+	text "FLOATING AMONGST"
+	line "WAVES<⋯>I AM FISH"
 	done
 
 Route20Swimmer3EndBattleText:
-	text "うー　まんぼう！"
+	text "U-MAMBOU!"
 	prompt
 
 Route20Swimmer3AfterBattleText:
-	text "あなた　いっしょに"
-	line "<⋯>　ぷかぷか　しない？"
+	text "WONT YOU FLOAT"
+	line "TOGETHER<⋯>WITH"
+	cont "ME ON WAVES?"
 	done
 
 Route20Swimmer4Text:
@@ -157,16 +162,18 @@ Route20Swimmer4Text:
 	jp TextScriptEnd
 
 Route20Swimmer4BattleText:
-	text "きみも　リゾートに　きてるの？"
+	text "DID YOU COME ON"
+	line "RESORT VACATION?"
 	done
 
 Route20Swimmer4EndBattleText:
-	text "てかげん　なしね"
+	text "NO HOLDING BACK!"
 	prompt
 
 Route20Swimmer4AfterBattleText:
-	text "ふたごじまは　むかしは"
-	line "ふたつの　しま　だった　らしいね"
+	text "TWIN ISLANDS"
+	line "WERE ONCE TWO"
+	cont "ISLANDS SO I HEAR"
 	done
 
 Route20Swimmer5Text:
@@ -176,17 +183,18 @@ Route20Swimmer5Text:
 	jp TextScriptEnd
 
 Route20Swimmer5BattleText:
-	text "みよーッ！"
-	line "きたえ　あげた　この　からだ！"
+	text "BEHOLD! THIS"
+	line "TRAINED-UP BODY!"
 	done
 
 Route20Swimmer5EndBattleText:
-	text "ふにゃふにゃだ"
+	text "FLABBY MUSCLES!"
 	prompt
 
 Route20Swimmer5AfterBattleText:
-	text "じぶんの　からだ　より"
-	line "#を　きたえる　べきだった"
+	text "SHOULD HAVE"
+	line "TRAINED MY #·"
+	cont "NOT JUST MY BODY!"
 	done
 
 Route20Swimmer6Text:
@@ -196,17 +204,19 @@ Route20Swimmer6Text:
 	jp TextScriptEnd
 
 Route20Swimmer6BattleText:
-	text "#に　のってる　なんて"
-	line "もしかして　およげない　とか？"
+	text "RIDING A #<⋯>"
+	line "PERHAPS YOU CANT"
+	cont "SWIM AT ALL?!"
 	done
 
 Route20Swimmer6EndBattleText:
-	text "うー　ぶくぶく"
+	text "GLUB GLUB BUKU!"
 	prompt
 
 Route20Swimmer6AfterBattleText:
-	text "#に　のって　いくのも"
-	line "たのしそうだなあ"
+	text "RIDING A # IN"
+	line "WATER LOOKS SO"
+	cont "MUCH FUN INDEED!"
 	done
 
 Route20CooltrainerMText:
@@ -216,17 +226,19 @@ Route20CooltrainerMText:
 	jp TextScriptEnd
 
 Route20CooltrainerMBattleText:
-	text "とり　#に　つかまって"
-	line "ここまで　きたよ"
+	text "CLINGING ONTO A"
+	line "BIRD #·I CAME"
+	cont "ALL WAY OUT HERE!"
 	done
 
 Route20CooltrainerMEndBattleText:
-	text "あ！　こまったな"
+	text "AH! TROUBLE NOW!"
 	prompt
 
 Route20CooltrainerMAfterBattleText:
-	text "とりが　へばちゃって　もどれないぞ"
-	line "<⋯>　どうしよう"
+	text "BIRD TIRED OUT"
+	line "CANT FLY BACK!"
+	cont "<⋯>WHAT TO DO?"
 	done
 
 Route20Swimmer7Text:
@@ -236,18 +248,20 @@ Route20Swimmer7Text:
 	jp TextScriptEnd
 
 Route20Swimmer7BattleText:
-	text "かれに"
-	line "おっきな　しんじゅ　もらったわ！"
+	text "FROM MY BOYFRIEND"
+	line "I RECEIVED A"
+	cont "HUGE BIG PEARL!"
 	done
 
 Route20Swimmer7EndBattleText:
-	text "やーん！"
-	line "しんじゅ　いり　なのに<⋯>"
+	text "YA-N! EVEN WITH"
+	line "MY BIG PEARL<⋯>!"
 	prompt
 
 Route20Swimmer7AfterBattleText:
-	text "パルシェン　もっと　そだてたら"
-	line "しんじゅも　おっきく　なるかしら"
+	text "IF CLOYSTER GROWS"
+	line "BIGGER·WILL PEARL"
+	cont "GROW BIGGER TOO?"
 	done
 
 Route20Swimmer8Text:
@@ -257,19 +271,21 @@ Route20Swimmer8Text:
 	jp TextScriptEnd
 
 Route20Swimmer8BattleText:
-	text "グレン　じま　から"
-	line "およいで　きたけど<⋯>　きついわ！"
+	text "SWAM FROM"
+	line "CINNABAR ISLAND"
+	cont "<⋯>REALLY TOUGH!"
 	done
 
 Route20Swimmer8EndBattleText:
-	text "がっかり"
+	text "DISAPPOINTED<⋯>"
 	prompt
 
 Route20Swimmer8AfterBattleText:
-	text "グレン　じまの"
-	line "だれも　すんでない　おやしき"
-	cont "いつからか　#が　すみついて"
-	cont "#　やしきと　よばれてる"
+	text "ON CINNABAR ISLE·"
+	line "ABANDONED MANSION"
+	cont "BECAME A HOME TO"
+	cont "#·NOW CALLED"
+	cont "# MANSION!"
 	done
 
 Route20Swimmer9Text:
@@ -279,20 +295,23 @@ Route20Swimmer9Text:
 	jp TextScriptEnd
 
 Route20Swimmer9BattleText:
-	text "にしに　ある　グレン　じまは"
-	line "#　けんきゅうの　しま！"
-	cont "あそこで　パパも　はたらいてるわ"
+	text "WEST CINNABAR"
+	line "ISLAND IS # LAB"
+	cont "ISLE! MY PAPA"
+	cont "WORKS THERE TOO!"
 	done
 
 Route20Swimmer9EndBattleText:
-	text "まってよ　もう！"
+	text "WAIT A SEC MOU!"
 	prompt
 
 Route20Swimmer9AfterBattleText:
-	text "グレンは　かざんの　ふんかで"
-	line "もりあがって　できたって　きいたわ"
+	text "CINNABAR WAS MADE"
+	line "BY VOLCANIC"
+	cont "ERUPTION RISING"
+	cont "FROM THE OCEAN!"
 	done
 
 Route20SeafoamIslandsSignText:
-	text "ふたごじま"
+	text "SEAFOAM ISLANDS"
 	done

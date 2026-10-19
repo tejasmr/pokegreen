@@ -141,55 +141,77 @@ LancesRoomLanceText:
 	jp TextScriptEnd
 
 LancesRoomLanceBattleText:
-	text "そうか！　きみが　<PLAYER>！"
+	text "I SEE！ YOU ARE"
+	line "<PLAYER>！"
 
-	para "おれは　してんのうの　たいしょう！"
-	line "ドラゴン　つかいの　ワタルだ！"
+	para "I AM LEADER OF"
+	line "THE『SHITENNO』！"
 
-	para "しってるだろ　ドラゴンは"
-	line "せいなる　でんせつの　いきものだ！"
+	para "I AM『WATARU』"
+	line "DRAGON TAMER！"
 
-	para "つかまえるのが　むずかしいけど"
-	line "うまく　そだてりゃ"
-	cont "つよさは　てんか　いっぴんだ"
+	para "YOU KNOW DRAGONS"
+	line "ARE SACRED AND"
+	cont "LEGEND BEASTS！"
 
-	para "からだも　じょうぶ　だし"
-	line "こてさきの　こうげきも　むださ！"
-	cont "<⋯>　さてと！"
-	cont "そろそろ　はじめよう！"
+	para "HARD TO CATCH·"
+	line "BUT IF RAISED"
+	cont "WELL·STRENGTH IS"
+	cont "PEERLESS WORLD！"
 
-	para "それとも　いまから"
-	line "シッポ　まいて　かえるかい！"
-	cont "<PLAYER>！"
+	para "BODIES ARE SOLID·"
+	line "PETTY ATTACKS ARE"
+	cont "USELESS TO THEM！"
+
+	para "<⋯>WELL NOW！"
+	line "TIME TO BEGIN！"
+
+	para "OR WILL YOU FLEE"
+	line "WITH TAIL TUCKED"
+	cont "BETWEEN LEGS！"
+
+	para "<PLAYER>！"
 	done
 
 LancesRoomLanceEndBattleText:
-	text "うう<⋯>！"
+	text "UU<⋯>！"
 
-	para "くやしいが　きみの"
-	line "#の　うでは　ほんものだ！"
+	para "BITTER AS IT IS·"
+	line "YOUR # SKILL"
+	cont "IS GENUINE REAL！"
 	prompt
 
 LancesRoomLanceAfterBattleText:
-	text "ドラゴン　ぐんだんが"
-	line "まける　なんて　しんじられない"
-	cont "<PLAYER>！"
+	text "DRAGON CORPS"
+	line "DEFEATED·I CANT"
+	cont "BELIEVE IT<⋯>"
 
-	para "これからは　きみが"
-	line "#　リーグ　チャンピオンだ！"
-	cont "<⋯>　<⋯>　<⋯>"
-	cont "<⋯>　と　いいたい　とこだが"
+	para "<PLAYER>！"
 
-	para "じつは　きみは　もう　ひとり"
-	line "たたかわなくては　ならない！"
-	cont "その　<TRAINER>の　なまえは<⋯>"
+	para "FROM NOW ON YOU"
+	line "ARE THE #"
+	cont "LEAGUE CHAMPION！"
 
-	para "<RIVAL>だ！"
-	line "かれは<⋯>　きみ　よりも　はやく！"
-	cont "おれたち　してんのうに　かった！"
+	para "<⋯><⋯><⋯>"
+	line "<⋯>IS WHAT I"
+	cont "WANT TO SAY·BUT"
 
-	para "いまや　かれこそ　#　リーグ"
-	line "しんの　チャンピオン　なのだ！@"
+	para "TRUTH IS·YOU"
+	line "MUST BATTLE ONE"
+	cont "MORE PERSON！"
+
+	para "THAT TRAINERS"
+	line "NAME IS<⋯>"
+
+	para "<RIVAL>！"
+
+	para "FASTER THAN YOU·"
+	line "HE DEFEATED US"
+	cont "THE『SHITENNO』！"
+
+	para "NOW HE IS TRUE"
+	line "# LEAGUE"
+	cont "CHAMPION OF ALL！@"
 	text_asm
 	SetEvent EVENT_BEAT_LANCE
 	jp TextScriptEnd

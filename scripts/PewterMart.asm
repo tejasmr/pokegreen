@@ -17,12 +17,13 @@ PewterMartYoungsterText:
 	jp TextScriptEnd
 
 .Text:
-	text "インチキ　くさい　おじさんから"
-	line "なんだか　ヘンな　#を"
-	cont "かっちゃったよ！"
+	text "I BOUGHT WEIRD"
+	line "# FROM SHADY"
+	cont "OLD MAN DEALER！"
 
-	para "すっげー　よわいの！"
-	line "５００円も　したのに<⋯>"
+	para "SUPER WEAK GUY！"
+	line "EVEN THOUGH COST"
+	cont "500 YEN TOO<⋯>"
 	done
 
 PewterMartSuperNerdText:
@@ -32,7 +33,8 @@ PewterMartSuperNerdText:
 	jp TextScriptEnd
 
 .Text:
-	text "よわい　#でも"
-	line "いっしょうけんめい　そだてれば"
-	cont "いいこと　あるさ！"
+	text "EVEN WEAK #"
+	line "IF RAISED WITH"
+	cont "ALL YOUR MIGHT"
+	cont "GOOD THINGS COME！"
 	done

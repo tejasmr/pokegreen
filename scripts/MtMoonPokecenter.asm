@@ -15,19 +15,22 @@ MtMoonPokecenterNurseText:
 	script_pokecenter_nurse
 
 MtMoonPokecenterYoungsterText:
-	text "ボールを　ベルトに　セット"
-	line "１　２　３　４　５　６<⋯>　と！"
+	text "SET BALLS ON"
+	line "BELT: 1 2 3 4"
+	cont "5 6⋯ AND DONE!"
 
-	para "うん<⋯>　つれて　いける"
-	line "#は　６ひき　までだ"
+	para "YES⋯ ONE CAN"
+	line "CARRY UP TO 6"
+	cont "# IN PARTY!"
 	done
 
 MtMoonPokecenterGentlemanText:
-	text "ハナダ　シティの　みんか"
-	line "おそわれる<⋯>　か！"
+	text "A HANADA HOUSE"
+	line "WAS ATTACKED⋯?!"
 
-	para "しんぶんに　<ROCKET>の"
-	line "じけんが　のらない　ひは　ないな"
+	para "NOT A SINGLE DAY"
+	line "PASSES WITHOUT"
+	cont "NEWS OF <ROCKET>!"
 	done
 
 MtMoonPokecenterMagikarpSalesmanText:
@@ -80,26 +83,30 @@ MtMoonPokecenterMagikarpSalesmanText:
 	jp TextScriptEnd
 
 .IGotADealText
-	text "おじさん『ぼっちゃん"
-	line "あ·な·た·だけに<⋯>！"
-	cont "いい　おはなしが　ありまして"
+	text "MAN:「HEY BOY!"
+	line "ONLY FOR YOU⋯!"
+	cont "I HAVE A SWEET"
+	cont "SPECIAL DEAL!"
 
-	para "ひみつの　#　コイキングが"
-	line "なんと　たったの　５００円！"
-	cont "どうだい　かうかね？"
+	para "SECRET # KOIKING"
+	line "FOR ONLY 500 YEN!"
+	cont "WANT TO BUY IT?"
 	done
 
 .NoText
-	text "そお？　ざんねんだねえ<⋯>"
+	text "SO? WHAT A"
+	line "SHAME THAT IS⋯"
 	done
 
 .NoMoneyText
-	text "おかね　たりない　みたいだねえ"
+	text "SEEMS YOU DONT"
+	line "HAVE ENOUGH CASH!"
 	done
 
 .NoRefundsText
-	text "おじさん『そうそう　#の"
-	line "へんぴんは　おことわり　だからな"
+	text "MAN:「NO REFUNDS"
+	line "ACCEPTED FOR #"
+	cont "REMEMBER THAT!」"
 	done
 
 MtMoonPokecenterClipboardText:

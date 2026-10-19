@@ -17,10 +17,10 @@ SaffronGym_Script:
 	jp LoadGymLeaderAndCityName
 
 .CityName:
-	db "ヤマブキ@"
+	db "YAMABUKI@"
 
 .LeaderName:
-	db "ナツメ@"
+	db "NATSUME@"
 
 SaffronGymResetScripts:
 	xor a ; SCRIPT_SAFFRONGYM_DEFAULT
@@ -130,71 +130,72 @@ SaffronGymSabrinaText:
 	jp TextScriptEnd
 
 .Text:
-	text "<⋯>　やっぱり　きたわ！"
-	line "よかんが　したのよ！"
+	text "⋯JUST AS I KNEW!"
+	line "I HAD PREMONITION"
+	cont "YOU WOULD COME!"
 
-	para "なにげに　スプーンを　なげたら"
-	line "まがって　いらい<⋯>　わたし"
-	cont "エスパー　しょうじょ　なの"
+	para "SINCE CASUAL BENT"
+	line "SPOON IN YOUTH⋯"
+	cont "I AM ESP GIRL!"
 
-	para "たたかうの　すき　じゃない　けど"
-	line "あなたが　のぞむ　なら"
-	cont "わたしの　ちから"
-	cont "みせて　あげる！"
+	para "I DO NOT ENJOY"
+	line "BATTLE BUT IF YOU"
+	cont "WISH⋯ I SHOW YOU"
+	cont "MY PSYCHIC MIGHT!"
 	done
 
 .ReceivedMarshBadgeText:
-	text "まける　なんて<⋯>！"
-	line "とても　ショック！"
-	cont "でも　まけは　まけ<⋯>！"
+	text "TO LOSE⋯! WHAT"
+	line "A SHOCK! BUT A"
+	cont "LOSS IS A LOSS⋯!"
 
-	para "わたしの　しょうぶの　あまさを"
-	line "いさぎよく　みとめるわ！"
+	para "I FAIRLY ADMIT"
+	line "MY SHORTCOMING!"
 
-	para "かった　あかしに"
-	line "ゴールド　バッジを"
-	cont "あなたに　さしあげ　ましょう@"
+	para "AS PROOF OF WIN"
+	line "TAKE GOLD BADGE!@"
 	sound_get_key_item ; actually plays the second channel of SFX_BALL_POOF due to the wrong music bank being loaded
 	text_promptbutton
 	text_end
 
 .PostBattleAdviceText:
-	text "ちょうのうりょくは　かぎられた"
-	line "ひとの　ちから　では　ないわ！"
-	cont "だれでも　もってるのよ！"
-	cont "ただ　それに　きが　つかない　だけ"
+	text "PSYCHIC POWER"
+	line "IS NOT LIMITED"
+	cont "TO A CHOSEN FEW!"
+
+	para "ALL MEN HAVE IT!"
+	line "THEY MERELY DO"
+	cont "NOT NOTICE IT!"
 	done
 
 SaffronGymSabrinaMarshBadgeInfoText:
-	text "ゴールド　バッジで"
-	line "レベル７０　までの　#が"
-	cont "いうことを　ききます！"
+	text "WITH GOLD BADGE"
+	line "PETS UP TO LV 70"
+	cont "WILL OBEY YOU!"
 
-	para "それ　いじょう"
-	line "つよい　#は"
-	cont "ソッポ　むいたり　ふてね　したり"
-	cont "あつかいが　たいへん　です！"
+	para "STRONGER PETS"
+	line "SULK AND SLEEP"
+	cont "AND DO NOT HEED!"
 
-	para "だけど　そだて　すぎなきゃ"
-	line "そういう　しんぱいは　むようよ！"
-
-	para "それから<⋯>！"
-	line "<TM>を　もって　いって"
+	para "ALSO TAKE THIS"
+	line "<TM> WITH YOU!"
 	done
 
 SaffronGymSabrinaReceivedTM46Text:
-	text "<PLAYER>は　ナツメから"
-	line "<TM>４６を　もらった！@"
+	text "<PLAYER> RECEIVED"
+	line "<TM>46!@"
 	sound_get_item_1
 	text_start
 
-	para "<TM>４６は　サイコウェーブ！"
-	line "きょうりょくな　ねんぱが"
-	cont "おおきな　ダメージを　あたえるわ！"
+	para "<TM>46 IS PSYWAVE!"
+	line "POWERFUL BRAIN"
+	cont "WAVES INFLICT"
+	cont "MIGHTY DAMAGE!"
 	done
 
 SaffronGymSabrinaTM46NoRoomText:
-	text "あ　にもつが　いっぱいよ"
+	text "AH· YOUR PACK"
+	line "IS FULL TO BRIM!"
 	done
 
 SaffronGymChanneler1Text:
@@ -204,22 +205,24 @@ SaffronGymChanneler1Text:
 	jp TextScriptEnd
 
 SaffronGymChanneler1BattleText:
-	text "ナツメは<⋯>　わたし　より"
-	line "だいぶ　としした　だが！"
-	cont "かのじょを　そんけい　している！"
+	text "NATSUME IS FAR"
+	line "YOUNGER THAN ME!"
+	cont "YET I RESPECT"
+	cont "HER DEEPLY!"
 	done
 
 SaffronGymChanneler1EndBattleText:
-	text "およばなかったか！"
+	text "I FELL SHORT!"
 	prompt
 
 SaffronGymChanneler1AfterBattleText:
-	text "しょうぶが　ごかくの　ときは"
-	line "きもちが　つよい　ほうが　かつ！"
+	text "IN CLOSE MATCH"
+	line "STRONGER WILL"
+	cont "CLAIMS VICTORY!"
 
-	para "ナツメに　かちたい　なら"
-	line "きみも　かちたいッ！　と"
-	cont "つよく　ねんじた　ほうが　いい"
+	para "TO BEAT NATSUME"
+	line "PRAY HARD WITH"
+	cont "DESIRE TO WIN!"
 	done
 
 SaffronGymYoungster1Text:
@@ -229,19 +232,20 @@ SaffronGymYoungster1Text:
 	jp TextScriptEnd
 
 SaffronGymYoungster1BattleText:
-	text "みえない　ちからを　つかう"
-	line "エスパーを　こわいと　おもうか！"
+	text "DO YOU FEAR"
+	line "PSYCHIC USERS OF"
+	cont "UNSEEN POWER?!"
 	done
 
 SaffronGymYoungster1EndBattleText:
-	text "こういう　ことも"
-	line "あるのか<⋯>"
+	text "THIS TOO CAN"
+	line "HAPPEN⋯"
 	prompt
 
 SaffronGymYoungster1AfterBattleText:
-	text "エスパーに　ゆうりな　もの？"
-	line "<⋯>　はははーッ！"
-	cont "ゆうれい　や　むし　くらい　だぜ！"
+	text "WHAT BEATS ESP?"
+	line "⋯HAHAHA! ONLY"
+	cont "GHOSTS AND BUGS!"
 	done
 
 SaffronGymChanneler2Text:
@@ -251,21 +255,23 @@ SaffronGymChanneler2Text:
 	jp TextScriptEnd
 
 SaffronGymChanneler2BattleText:
-	text "#は"
-	line "かいぬしに　にるって　しってるか？"
+	text "PETS RESEMBLE"
+	line "THEIR MASTER!"
 
-	para "という　ことは<⋯>"
-	line "おまえの　#は　つよいかな？"
+	para "WHICH MEANS⋯"
+	line "IS YOUR PET"
+	cont "REALLY STRONG?"
 	done
 
 SaffronGymChanneler2EndBattleText:
-	text "わかった！"
+	text "I UNDERSTAND!"
 	prompt
 
 SaffronGymChanneler2AfterBattleText:
-	text "わたしも　まだ　まだ　だ<⋯>"
-	line "サイコキネシス　マスター　して"
-	cont "#に　おしえて　なくては！"
+	text "I AM NOT READY⋯"
+	line "MUST MASTER"
+	cont "PSYCHOKINESIS"
+	cont "TO TEACH PETS!"
 	done
 
 SaffronGymYoungster2Text:
@@ -275,20 +281,21 @@ SaffronGymYoungster2Text:
 	jp TextScriptEnd
 
 SaffronGymYoungster2BattleText:
-	text "きみは　わかってる　だろ？"
-	line "#は　パワー　だけ"
-	cont "あったって　かて　ない　ことを！"
+	text "YOU KNOW THIS!"
+	line "BRUTE POWER ALONE"
+	cont "CANNOT WIN!"
 	done
 
 SaffronGymYoungster2EndBattleText:
-	text "<⋯>　おれが"
-	line "まける　なんて　ばかな！"
+	text "⋯ME LOSE?!"
+	line "HOW RIDICULOUS!"
 	prompt
 
 SaffronGymYoungster2AfterBattleText:
-	text "となりの　カラテ　だいおう　だって"
-	line "うちの　ナツメさんに"
-	cont "コテンパンに　やられたんだぜ"
+	text "NEXT DOOR KARATE"
+	line "KING WAS CRUSHED"
+	cont "TO BITS BY OUR"
+	cont "LADY NATSUME!"
 	done
 
 SaffronGymChanneler3Text:
@@ -298,19 +305,20 @@ SaffronGymChanneler3Text:
 	jp TextScriptEnd
 
 SaffronGymChanneler3BattleText:
-	text "きみは　わたしと"
-	line "#を　たたかわせる<⋯>！"
+	text "YOU WILL FIGHT"
+	line "PETS WITH ME⋯!"
 	done
 
 SaffronGymChanneler3EndBattleText:
-	text "くっ<⋯>！"
-	line "やはり　わたしが　やぶれたか"
+	text "KUH⋯! JUST AS"
+	line "FORESEEN I LOST!"
 	prompt
 
 SaffronGymChanneler3AfterBattleText:
-	text "こういう　けっかは　わかってた<⋯>"
-	line "<⋯>　そう！"
-	cont "これが　よち　のうりょく　だ"
+	text "I KNEW RESULT⋯"
+	line "⋯YES! THIS IS"
+	cont "PRECOGNITION"
+	cont "『YOCHI』 POWER!"
 	done
 
 SaffronGymYoungster3Text:
@@ -320,24 +328,26 @@ SaffronGymYoungster3Text:
 	jp TextScriptEnd
 
 SaffronGymYoungster3BattleText:
-	text "ナツメさんは　わかく　して"
-	line "この　#　ジムを　しきる"
-	cont "じつりょくしゃ！"
+	text "NATSUME LEADS"
+	line "THIS PET GYM"
+	cont "AT YOUNG AGE!"
 
-	para "かんたん　には　あわせ　ないぜ！"
+	para "YOU SHALL NOT"
+	line "MEET HER EASILY!"
 	done
 
 SaffronGymYoungster3EndBattleText:
-	text "まけて　しまった！"
+	text "I HAVE LOST!"
 	prompt
 
 SaffronGymYoungster3AfterBattleText:
-	text "おしえて　やろう<⋯>"
-	line "かつて　ヤマブキ　には"
-	cont "ふたつの　#　ジムが　あった"
+	text "I TELL YOU⋯"
+	line "ONCE YAMABUKI"
+	cont "HAD TWO GYMS!"
 
-	para "とういつ　しあいに　まけた　のが"
-	line "となりの　かくとう　どうじょうだ！"
+	para "NEXT DOOR DOJO"
+	line "LOST UNIFIED"
+	cont "MATCH AND TITLE!"
 	done
 
 SaffronGymYoungster4Text:
@@ -347,24 +357,23 @@ SaffronGymYoungster4Text:
 	jp TextScriptEnd
 
 SaffronGymYoungster4BattleText:
-	text "ヤマブキ　ジム！"
-	cont "またの　なを"
-	cont "エスパー　ようせい　じょ"
-	cont "おまえ<⋯>"
+	text "YAMABUKI GYM!"
+	line "ALSO KNOWN AS"
+	cont "ESP SCHOOL!"
 
-	para "<⋯>　ナツメに　あおうと　してるな？"
-	line "そうだろ！"
-	cont "わかってるんだ！"
+	para "YOU SEEK TO MEET"
+	line "NATSUME! I READ"
+	cont "YOUR MIND!"
 	done
 
 SaffronGymYoungster4EndBattleText:
-	text "ぐわああ<⋯>！"
+	text "GWAHHH⋯!"
 	prompt
 
 SaffronGymYoungster4AfterBattleText:
-	text "<⋯>　そうだ！"
-	line "ひとの　こころを　よむ"
-	cont "のうりょくを　テレパス　という！"
+	text "⋯YES! READING"
+	line "MIND OF MEN IS"
+	cont "CALLED TELEPATHY!"
 	done
 
 SaffronGymGymGuideText:
@@ -381,23 +390,26 @@ SaffronGymGymGuideText:
 	jp TextScriptEnd
 
 .ChampInMakingText:
-	text "おーす！"
-	line "みらいの　チャンピオン！"
+	text "YO! FUTURE CHAMP!"
 
-	para "ナツメの　#は"
-	line "ちょうのうりょくを　つかって"
-	cont "おまえの　#を　まどわすぜ！"
+	para "NATSUME PETS USE"
+	line "PSYCHIC POWER TO"
+	cont "CONFUSE YOURS!"
 
-	para "とくに<⋯>！　かくとう　#は"
-	line "あいしょうが　わるい！"
+	para "FIGHTING PETS"
+	line "HAVE BAD MATCHUP"
+	cont "AGAINST PSYCHIC!"
 
-	para "パワーを　はっきする　まえに"
-	line "エジキに　なっちまう　からな！"
+	para "THEY BECOME PREY"
+	line "BEFORE DISPLAYING"
+	cont "THEIR POWER!"
 	done
 
 .BeatSabrinaText:
-	text "ちょうのうりょく<⋯>　か！"
+	text "PSYCHIC POWER⋯!"
 
-	para "おれに　そんな　ものが　あったら"
-	line "スロットで　あてほうだい　だぜ！"
+	para "IF I HAD SUCH"
+	line "POWER· I WOULD"
+	cont "HIT SLOTS JACKPOT"
+	cont "ALL DAY LONG!"
 	done

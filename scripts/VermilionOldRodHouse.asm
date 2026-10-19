@@ -36,50 +36,54 @@ VermilionOldRodHouseFishingGuruText:
 	jp TextScriptEnd
 
 .DoYouLikeToFishText:
-	text "わしは　つりおやじ　じゃ！"
+	text "I AM"
+	line "『TSURI OYAJI』!"
+	cont "FISHING OLD MAN!"
 
-	para "もう　しぬほど"
-	line "つりが　すき　なんだが"
+	para "I LOVE FISHING"
+	line "TO DEATH· YES!"
 
-	para "きみは　つり　すき　かな？"
+	para "DO YOU LIKE"
+	line "FISHING TOO?"
 	done
 
 .TakeThisText:
-	text "そうか！"
-	line "きみとは　きが　あいそうだ！"
+	text "GOOD! YOU AND I"
+	line "GET ALONG WELL!"
 
-	para "これ　あげるから"
-	line "きみも　つり　まくりなさいよ！"
+	para "TAKE THIS AND"
+	line "FISH TO LIMITS!"
 
-	para "<PLAYER>は　つりおやじから"
+	para "<PLAYER> GOT"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!"
 	sound_get_item_1
 	text_start
 
-	para "つり　こそ"
-	line "おとこの　ロマン　だ！"
+	para "FISHING IS A"
+	line "MAN 『ROMAN』!"
+	cont "MAN ROMANCE!"
 
-	para "うみでも　かわでも！"
+	para "AT SEA OR RIVER!"
 
-	para "えんりょ　なく"
-	line "つりざおを　つかって　くれい！"
+	para "USE FISHING ROD"
+	line "WITHOUT HESITATE!"
 	done
 
 .ThatsSoDisappointingText:
-	text "なんじゃ<⋯>　がっかりだ"
+	text "WHAT<⋯> SUCH A"
+	line "DISAPPOINTMENT!"
 	done
 
 .HowAreTheFishBitingText:
-	text "やー　<PLAYER>くん！"
+	text "HELLO <PLAYER>!"
 
-	para "つり　まくっとる　かね！"
+	para "ARE YOU FISHING"
+	line "UP A STORM?"
 	done
 
 .NoRoomText:
-	text "ありゃー！"
-
-	para "いいもの　あげようと　したのに"
-	line "にもつが　いっぱいじゃ！"
+	text "OH NO! YOUR"
+	line "PACK IS FULL!"
 	done

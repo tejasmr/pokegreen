@@ -2,9 +2,9 @@
 
 VitaminStats:
 	list_start STAT_NAME_LENGTH - 1
-	li "たいりょく"
-	li "こうげきりょく"
-	li "ぼうぎょりょく"
-	li "すばやさ"
-	li "とくしゅのうりょく"
+	li "HEALTH"
+	li "ATTACK"
+	li "DEFENSE"
+	li "SPEED"
+	li "SPECIAL"
 	assert_list_length NUM_STATS

@@ -67,6 +67,6 @@ RecoilEffect_:
 	jp PrintText
 
 HitWithRecoilText:
-	text "<USER>は　こうげきの"
-	line "はんどうを　うけた！"
+	text "<USER>"
+	line "HIT WITH RECOIL！"
 	prompt

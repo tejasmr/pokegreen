@@ -13,12 +13,14 @@ PewterPokecenterNurseText:
 	script_pokecenter_nurse
 
 PewterPokecenterGentlemanText:
-	text "なに！？"
+	text "NANI！？ WHAT！？"
 
-	para "<ROCKET>が　オツキミやまで<⋯>"
-	line "<⋯>ん？　でんわ　してるんだ！"
+	para "<ROCKET>"
+	line "AT OTSUKIMI MT<⋯>"
+	cont "<⋯>HM？ I AM ON"
+	cont "PHONE CALL NOW！"
 
-	para "じゃま　しないで　くれ！"
+	para "DONT INTERRUPT！"
 	done
 
 PewterPokecenterJigglypuffText:
@@ -78,7 +80,7 @@ PewterPokecenterJigglypuffText:
 	jp TextScriptEnd
 
 .Text:
-	text "プリン『ぷうー　ぷぷうー"
+	text "PURIN『PUU· PUPUU"
 	done
 
 .FacingDirections:

@@ -131,11 +131,13 @@ VermilionCity_TextPointers:
 	dw_const VermilionCityHarborSignText,         TEXT_VERMILIONCITY_HARBOR_SIGN
 
 VermilionCityBeautyText:
-	text "わたし　スポーツの　あとは"
-	line "あせで　ベトベター！"
+	text "AFTER SPORTS I AM"
+	line "SO 『BETOBETO』!"
+	cont "STICKY SWEATY!"
 
-	para "<⋯>しってる？　ベトベターって"
-	line "うみの　ヘドロから　うまれたの"
+	para "<⋯>DID YOU KNOW?"
+	line "BETBETER WAS BORN"
+	cont "FROM SEA SLUDGE!"
 	done
 
 VermilionCityGambler1Text:
@@ -152,17 +154,19 @@ VermilionCityGambler1Text:
 	jp TextScriptEnd
 
 .DidYouSeeText:
-	text "みたかね！　いま　みなとに"
-	line "サント·アンヌごう　という"
-	cont "ふねが　きとるぞ！"
+	text "DID YOU SEE IT?"
+	line "THE SHIP NAMED"
+	cont "S·S·ANNE IS IN"
+	cont "THE HARBOR PORT!"
 	done
 
 .SSAnneDepartedText:
-	text "おお！　サント·アンヌごう"
-	line "しゅっぱつ　して　いったか！"
+	text "OH! S·S·ANNE"
+	line "HAS SET SAIL!"
 
-	para "つぎに　クチバに　くる　のは"
-	line "らいねんの　いまごろ　じゃな<⋯>"
+	para "NEXT TIME IT"
+	line "VISITS KUCHIBA"
+	cont "IS NEXT YEAR<⋯>"
 	done
 
 VermilionCitySailor1Text:
@@ -208,50 +212,59 @@ VermilionCitySailor1Text:
 	db -1 ; end
 
 .WelcomeToSSAnneText:
-	text "ようこそ　サント·アンヌ　ごうへ！"
+	text "WELCOME ABOARD"
+	line "THE S·S·ANNE!"
 	done
 
 .DoYouHaveATicketText:
-	text "ようこそ　サント·アンヌ　ごうへ！"
+	text "WELCOME ABOARD"
+	line "THE S·S·ANNE!"
 
-	para "ちょっと　まって！"
-	line "おきゃくさん　チケットは？"
+	para "HOLD ON SIR!"
+	line "MAY I SEE YOUR"
+	cont "PASS TICKET?"
 	prompt
 
 .FlashedTicketText:
-	text "<PLAYER>は　せんいんに"
-	line "ふねのチケットを　みせた！"
+	text "<PLAYER> FLASHED"
+	line "THE S·S·TICKET!"
 
-	para "はい！　けっこう　です！"
-	line "ようこそ　サント·アンヌ　ごうへ！"
+	para "RIGHT! PERFECT!"
+	line "WELCOME ABOARD"
+	cont "THE S·S·ANNE!"
 	done
 
 .YouNeedATicketText:
-	text "<PLAYER>は　せんいんに"
-	line "チケットを　みせようとした<⋯>"
-	cont "チケットが<⋯>　ない<⋯>！"
+	text "<PLAYER> TRIED TO"
+	line "SHOW TICKET<⋯>"
+	cont "NO TICKET<⋯>!"
 
-	para "<⋯>もうしわけ　ありません！"
+	para "<⋯>TERRIBLY SORRY!"
 
-	para "はいれる　のは"
-	line "チケットの　ある　かた　だけです"
+	para "ONLY PASSENGERS"
+	line "WITH TICKETS MAY"
+	cont "BOARD THE SHIP!"
 	done
 
 .ShipSetSailText:
-	text "ふねは　しゅっこうしました"
+	text "THE SHIP SET SAIL"
+	line "ALREADY!"
 	done
 
 VermilionCityGambler2Text:
-	text "わし　じぬし！"
-	line "この　しかくの　ばしょ"
-	cont "ぜーんぶ　わしの　とち！"
+	text "I AM 『JINUSHI』"
+	line "THE LANDLORD!"
+	cont "THIS SQUARE LOT"
+	cont "IS ALL MY LAND!"
 
-	para "ここに　ビル　たてようと　おもって"
-	line "#に　じならし　させとる！"
+	para "PLAN TO BUILD A"
+	line "BUILDING HERE SO"
+	cont "MY # FLATTENS"
+	cont "THE GROUND FLAT!"
 	done
 
 VermilionCityMachopText:
-	text "ワンリキー『ごおーっ　ごごごー@"
+	text "WANRIKY『GUOOO!@"
 	text_asm
 	ld a, MACHOP
 	call PlayCry
@@ -262,48 +275,55 @@ VermilionCityMachopText:
 .StompingTheLandFlatText:
 	text_start
 
-	para "ワンリキーは　うなりながら"
-	line "じめんを　ならしている！"
+	para "WANRIKY STOMPS"
+	line "THE GROUND FLAT"
+	cont "WITH DEEP GRUNTS!"
 	done
 
 VermilionCitySailor2Text:
-	text "サント·アンヌごうは"
-	line "ゆうめいな　ごうか　きゃくせん！"
+	text "S·S·ANNE IS A"
+	line "FAMOUS LUXURY"
+	cont "PASSENGER LINER!"
 
-	para "１ねんに　１ど　だけ"
-	line "クチバこう　に　とまるんだ！"
+	para "IT DOCKS AT PORT"
+	line "KUCHIBA ONLY"
+	cont "ONCE A YEAR!"
 	done
 
 VermilionCitySignText:
-	text "ここは　クチバ　シティ"
-	line "クチバは　オレンジ　ゆうやけのいろ"
+	text "VERMILION CITY"
+	line "KUCHIBA ORANGE"
+	cont "COLOR OF SUNSET"
 	done
 
 VermilionCityNoticeSignText:
-	text "<⋯>　おしらせの　チラシだ！"
+	text "NOTICE FLYER!"
 
-	para "さいきん<⋯>　１２ばん　どうろに"
-	line "いねむり　#が　しゅつぼつ"
-	cont "とおれない　ことが　あります！"
+	para "A SLEEPING MON"
+	line "BLOCKS ROUTE 12!"
 
-	para "そういう　とき　シオン　タウンへ"
-	line "いく　かたは　いわやま　トンネルを"
-	cont "とおって　ください！"
+	para "TRAVELERS BOUND"
+	line "FOR SHION TOWN"
+	cont "USE ROCK TUNNEL"
+	cont "DETOUR INSTEAD!"
 
-	para "<⋯>　クチバ　けいさつ　より"
+	para "<⋯>KUCHIBA POLICE"
 	done
 
 VermilionCityPokemonFanClubSignText:
-	text "こちら　#　だいすき　クラブ"
-	line "#ずき　だれでも　かんげい！"
+	text "# FAN CLUB"
+	line "ALL # LOVERS"
+	cont "ARE WELCOME!"
 	done
 
 VermilionCityGymSignText:
-	text "クチバ　シティ　#　ジム"
-	line "リーダー　マチス"
-	cont "イナズマ　アメリカン！"
+	text "VERMILION GYM"
+	line "LEADER: MATIS"
+	cont "THE LIGHTNING"
+	cont "AMERICAN!"
 	done
 
 VermilionCityHarborSignText:
-	text "クチバ　みなと　いりぐち"
+	text "VERMILION HARBOR"
+	line "PORT ENTRANCE"
 	done

@@ -9,19 +9,24 @@ SafariZoneEastRestHouse_TextPointers:
 	dw_const SafariZoneEastRestHouseSilphWorkerMText, TEXT_SAFARIZONEEASTRESTHOUSE_SILPH_WORKER_M
 
 SafariZoneEastRestHouseScientistText:
-	text "おたく　なんびき　つかまえた？"
-	line "ぼくは　つかまえに　つかまえて"
-	cont "つかれて　しまったよ"
+	text "HOW MANY DID"
+	line "YOU CATCH?"
+
+	para "I CAUGHT AND"
+	line "CAUGHT·NOW I AM"
+	cont "SO TIRED OUT!"
 	done
 
 SafariZoneEastRestHouseRockerText:
-	text "ラッキーを　つかまえたぜ！"
+	text "CAUGHT A LUCKY!"
+	line "CHANSEY!"
 
-	para "これで"
-	line "じゅーぶん　もとは　とった！"
+	para "THAT WAS WELL"
+	line "WORTH THE MONEY!"
 	done
 
 SafariZoneEastRestHouseSilphWorkerMText:
-	text "はあ<⋯>！"
-	line "はしゃぎ　すぎて　つかれちゃった"
+	text "PHEW<⋯>! EXCITED"
+	line "TOO MUCH·TIRED!"
 	done
+

@@ -100,12 +100,13 @@ SilphCo8FSilphWorkerMText:
 	jp TextScriptEnd
 
 .SilphIsFinishedText:
-	text "シルフは　のっとられて"
-	line "<⋯>　おわりかな"
+	text "SILPH IS SEIZED⋯"
+	line "IS IT ALL OVER?"
 	done
 
 .ThanksForSavingUsText:
-	text "ありがとう　たすかった！"
+	text "ARIGATOU! YOU"
+	line "SAVED OUR LIVES!"
 	done
 
 SilphCo8FRocket1Text:
@@ -115,16 +116,19 @@ SilphCo8FRocket1Text:
 	jp TextScriptEnd
 
 SilphCo8FRocket1BattleText:
-	text "ここから　さきは　いかせ　ないぜ！"
+	text "NOT PASSING PAST"
+	line "THIS POINT!"
 	done
 
 SilphCo8FRocket1EndBattleText:
-	text "きあいが　たりんか"
+	text "NOT ENOUGH GUTS"
+	line "『KIAI』 IN ME!"
 	prompt
 
 SilphCo8FRocket1AfterBattleText:
-	text "はやく　ひきかえさないと"
-	line "<⋯>　なかまを　よぶぜ！"
+	text "TURN BACK NOW OR"
+	line "I CALL COMRADES"
+	cont "『NAKAMA』 TO HELP!"
 	done
 
 SilphCo8FScientistText:
@@ -134,18 +138,20 @@ SilphCo8FScientistText:
 	jp TextScriptEnd
 
 SilphCo8FScientistBattleText:
-	text "すき　かって　やられちゃ"
-	line "こまるんだぜ！"
+	text "DOING AS YOU"
+	line "PLEASE TROUBLES"
+	cont "US GREATLY!"
 	done
 
 SilphCo8FScientistEndBattleText:
-	text "<⋯>？　まけたのか"
+	text "⋯HUH? DID I"
+	line "LOSE THE FIGHT?"
 	prompt
 
 SilphCo8FScientistAfterBattleText:
-	text "どうだね？"
-	line "めいろの　ような"
-	cont "シルフ　ビルの　かんそうは？"
+	text "HOW DO YOU FEEL"
+	line "ABOUT LABYRINTH"
+	cont "SILPH BUILDING?"
 	done
 
 SilphCo8FRocket2Text:
@@ -155,15 +161,16 @@ SilphCo8FRocket2Text:
 	jp TextScriptEnd
 
 SilphCo8FRocket2BattleText:
-	text "おれこそは"
-	line "ロケット　４きょうだいの　ひとり！"
+	text "I AM ONE OF THE"
+	line "<ROCKET> 4 BROTHERS!"
 	done
 
 SilphCo8FRocket2EndBattleText:
-	text "にいさん　まけたよ"
+	text "BROTHER! I LOST!"
 	prompt
 
 SilphCo8FRocket2AfterBattleText:
-	text "まあ　いい"
-	line "あにきが　かたきを　とって　くれる"
+	text "NO MATTER! ELDER"
+	line "BROTHER WILL"
+	cont "AVENGE MY LOSS!"
 	done

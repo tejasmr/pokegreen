@@ -9,6 +9,7 @@ PrintBookcaseText:
 	tx_pre_jump BookcaseText
 
 BookcaseText::
-	text "ほんだなに　ならんでいるのは"
-	line "#の　ほん　ばかりだ"
+	text "LINED UP ON THE"
+	line "BOOKSHELF ARE"
+	cont "ONLY # BOOKS！"
 	done

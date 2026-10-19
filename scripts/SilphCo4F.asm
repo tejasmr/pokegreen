@@ -116,13 +116,14 @@ SilphCo4FSilphWorkerMText:
 	jp TextScriptEnd
 
 .ImHidingText:
-	text "びくびく<⋯>　こわくて"
-	line "ここに　かくれてるんだ<⋯>"
+	text "SHIVER⋯ BIKU-BIKU"
+	line "SO SCARED I AM"
+	cont "HIDING HERE⋯"
 	done
 
 .TeamRocketIsGoneText:
-	text "え<⋯>"
-	line "<ROCKET>　もう　いないの？"
+	text "EH⋯? <ROCKET> GANG"
+	line "ALREADY GONE?!"
 	done
 
 SilphCo4FRocket1Text:
@@ -132,18 +133,20 @@ SilphCo4FRocket1Text:
 	jp TextScriptEnd
 
 SilphCo4FRocket1BattleText:
-	text "シルフ　カンパニーは"
-	line "<ROCKET>が　せんきょした！"
+	text "SILPH COMPANY IS"
+	line "OCCUPIED NOW BY"
+	cont "<ROCKET> GANG!"
 	done
 
 SilphCo4FRocket1EndBattleText:
-	text "ぐぐぐ<⋯>"
+	text "GUGUGU⋯!"
 	prompt
 
 SilphCo4FRocket1AfterBattleText:
-	text "がはは！"
-	line "ボスは　まえから"
-	cont "ここを　ねらってたのだ"
+	text "GAHAHA!"
+	line "BOSS TARGETED"
+	cont "HERE FROM LONG"
+	cont "TIME AGO!"
 	done
 
 SilphCo4FScientistText:
@@ -153,19 +156,22 @@ SilphCo4FScientistText:
 	jp TextScriptEnd
 
 SilphCo4FScientistBattleText:
-	text "#は"
-	line "おれの　ちゅうじつな　こぶんだぜ！"
+	text "PETS ARE MY"
+	line "LOYAL MINIONS!"
 	done
 
 SilphCo4FScientistEndBattleText:
-	text "くそ！"
-	line "なさけない　#め"
+	text "DAMN! PATHETIC"
+	line "USELESS PET!"
 	prompt
 
 SilphCo4FScientistAfterBattleText:
-	text "この　ビルの　ドアは　ぜんぶ"
-	line "でんし　ロック　されてるぜ！"
-	cont "カードキーが　ないと　あかないぜ！"
+	text "ALL DOORS IN THIS"
+	line "BUILDING HAVE"
+	cont "ELECTRONIC LOCKS!"
+
+	para "WONT OPEN WITHOUT"
+	line "A CARD KEY!"
 	done
 
 SilphCo4FRocket2Text:
@@ -175,14 +181,15 @@ SilphCo4FRocket2Text:
 	jp TextScriptEnd
 
 SilphCo4FRocket2BattleText:
-	text "ふしんな　やつを　はっけん！"
+	text "SPOTTED SNEAKY"
+	line "SUSPICIOUS FOOL!"
 	done
 
 SilphCo4FRocket2EndBattleText:
-	text "おまえ　なにものだ"
+	text "WHO ARE YOU?!"
 	prompt
 
 SilphCo4FRocket2AfterBattleText:
-	text "１１かいに　いる"
-	line "ボスに　れんらく　しなくては！"
+	text "MUST REPORT TO"
+	line "BOSS ON 11F!"
 	done

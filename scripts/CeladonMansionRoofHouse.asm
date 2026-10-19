@@ -7,14 +7,18 @@ CeladonMansionRoofHouse_TextPointers:
 	dw_const CeladonMansionRoofHouseEeveePokeballText, TEXT_CELADONMANSION_ROOF_HOUSE_EEVEE_POKEBALL
 
 CeladonMansionRoofHouseHikerText:
-	text "こくばんにも　かいたが<⋯>"
-	line "わしに　わからぬ　ことは　ない"
-	cont "ゲームボーイの　なかに"
-	cont "せかいが　あることも！"
+	text "AS WRITTEN ON"
+	line "BLACKBOARD⋯"
+	cont "I KNOW ALL"
+	cont "IN THE WORLD!"
 
-	para "ぜひ！　ともだちを　さそって"
-	line "#の　こうかんを"
-	cont "たのしんで　くれたまえ！"
+	para "EVEN THAT A WORLD"
+	line "IS IN GAME BOY!"
+
+	para "BY ALL MEANS!"
+	line "GATHER PALS AND"
+	cont "ENJOY TRADING #"
+	cont "TOGETHER LOTS!"
 	done
 
 CeladonMansionRoofHouseEeveePokeballText:

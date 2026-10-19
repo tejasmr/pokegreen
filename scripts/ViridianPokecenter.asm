@@ -13,19 +13,21 @@ ViridianPokecenterNurseText:
 	script_pokecenter_nurse
 
 ViridianPokecenterGentlemanText:
-	text "すみに　ある　<PC>は　どうぞ"
-	line "ごじゆうに　おつかいください！"
+	text "PLEASE USE <PC>"
+	line "FREELY IN CORNER!"
 
-	para "<⋯>と　うけつけの　ねーちゃんが"
-	line "いっとった　しんせつやのう"
+	para "⋯SO SAID MISS"
+	line "AT FRONT DESK!"
+	cont "KINDNESS INDEED!"
 	done
 
 ViridianPokecenterCooltrainerMText:
-	text "#センターは　このさき"
-	line "どこの　まちに　いっても　ある！"
+	text "# CENTER IS IN"
+	line "EVERY TOWN AHEAD!"
 
-	para "なんびき　あずけても　ただ　だし"
-	line "こまめに　つかうと　いいよ！"
+	para "TOTAL FREE REST"
+	line "FOR ANY NUMBER!"
+	cont "USE FREQUENTLY!"
 	done
 
 ViridianPokecenterLinkReceptionistText:

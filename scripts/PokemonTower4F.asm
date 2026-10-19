@@ -35,18 +35,19 @@ PokemonTower4FChanneler1Text:
 	jp TextScriptEnd
 
 PokemonTower4FChanneler1BattleText:
-	text "うぐぐ<⋯>　ゆうれいめ<⋯>"
-	line "<⋯>ケーッ！"
+	text "UGUGU<⋯> GHOST<⋯>"
+	line "<⋯>KEE-TSU！"
 	done
 
 PokemonTower4FChanneler1EndBattleText:
-	text "はっ！"
-	line "ゆ　ゆうれいは　どこじゃ"
+	text "HAH！"
+	line "WH- WHERE GHOST？"
 	prompt
 
 PokemonTower4FChanneler1AfterBattleText:
-	text "むう<⋯>"
-	line "ゆめを　みてた　ようじゃ"
+	text "MUU<⋯>"
+	line "LIKE I WAS"
+	cont "HAVING DREAM<⋯>"
 	done
 
 PokemonTower4FChanneler2Text:
@@ -56,17 +57,18 @@ PokemonTower4FChanneler2Text:
 	jp TextScriptEnd
 
 PokemonTower4FChanneler2BattleText:
-	text "イッ<⋯>　ショ<⋯>　ニ<⋯>"
-	line "<⋯>　ノロ<⋯>ワレ！"
+	text "TO<⋯> GETHER<⋯>"
+	line "BE<⋯> CURSED<⋯>！"
 	done
 
 PokemonTower4FChanneler2EndBattleText:
-	text "<⋯>はっ！"
+	text "<⋯>HAH！"
 	prompt
 
 PokemonTower4FChanneler2AfterBattleText:
-	text "<⋯>どうしても　ゆうれいの"
-	line "しょうたいが　わからない<⋯>"
+	text "<⋯>NO MATTER WHAT"
+	line "CANNOT IDENTIFY"
+	cont "GHOST IDENTITY<⋯>"
 	done
 
 PokemonTower4FChanneler3Text:
@@ -76,15 +78,16 @@ PokemonTower4FChanneler3Text:
 	jp TextScriptEnd
 
 PokemonTower4FChanneler3BattleText:
-	text "フフフッ<⋯>！"
-	line "<⋯>　カテ<⋯>　ルカーッ！"
+	text "FUFUFU<⋯>！"
+	line "<⋯>CAN YOU<⋯> WIN？"
 	done
 
 PokemonTower4FChanneler3EndBattleText:
-	text "<⋯>ん　わしは？"
+	text "<⋯>HM？ WHAT I？"
 	prompt
 
 PokemonTower4FChanneler3AfterBattleText:
-	text "ふう！　#の"
-	line "さまよえる　れいよ　やすらかに<⋯>"
+	text "PHEW！ REST PEACE"
+	line "WANDERING SOUL"
+	cont "OF #<⋯>"
 	done

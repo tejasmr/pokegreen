@@ -6,14 +6,17 @@ Route11Gate1F_TextPointers:
 	dw_const Route11Gate1FGuardText, TEXT_ROUTE11GATE1F_GUARD
 
 Route11Gate1FGuardText:
-	text "#を　たくさん　とると"
-	line "なまえを　つけて　あげるのに"
-	cont "くろう　しちゃう　でしょ！"
+	text "CATCHING MANY"
+	line "# MAKES IT"
+	cont "HARD TO NAME"
+	cont "THEM ALL!"
 
-	para "この　さきの　シオン　タウンに"
-	line "#の　なまえを"
-	cont "うらなって　くれる　ひとが　いるよ"
+	para "AHEAD IN SHION"
+	line "TOWN· SOMEONE"
+	cont "CAN FORTUNE TELL"
+	cont "YOUR # NAME!"
 
-	para "#に　もっと　いい　なまえを"
-	line "つけ　なおす　ことも　できるよ"
+	para "HE CAN RENAME"
+	line "YOUR # WITH"
+	cont "A BETTER NAME!"
 	done

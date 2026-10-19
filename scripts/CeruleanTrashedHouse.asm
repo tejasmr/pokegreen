@@ -24,40 +24,46 @@ CeruleanTrashedHouseFishingGuruText:
 	jp TextScriptEnd
 
 .TheyStoleATMText:
-	text "くう<⋯>！　<ROCKET>め！"
+	text "GRR⋯! THAT"
+	line "CURSED <ROCKET>!"
 
-	para "おれの　いえを"
-	line "こんなに　しちまいやがって！"
+	para "THEY TRASHED MY"
+	line "HOUSE LIKE THIS!"
 
-	para "ぬすまれた　<TM>は"
-	line "マンキーや　サンドに"
+	para "THE STOLEN <TM>"
+	line "TEACHES DIGGING"
+	cont "GROUND TO MANKIE"
+	cont "AND SAND!"
 
-	para "じめんに　あなを　ほる　わざを"
-	line "おしえる　ものだ！"
-
-	para "あれは　たかかったのに"
+	para "THAT WAS SO"
+	line "EXPENSIVE TOO!"
 	done
 
 .WhatsLostIsLostText:
-	text "ぬすまれた　ものは"
-	line "もどって　こないと　あきらめて"
+	text "I GAVE UP ON"
+	line "STOLEN THINGS"
+	cont "RETURNING!"
 
-	para "うちの　ディグダには"
-	line "きながに　そだてながら"
-
-	para "あなほりを"
-	line "おしえる　ことに　したよ"
+	para "I WILL JUST"
+	line "TRAIN MY DIGDA"
+	cont "PATIENTLY TO"
+	cont "LEARN TO DIG!"
 	done
 
 CeruleanTrashedHouseGirlText:
-	text "<ROCKET><⋯>！"
-	line "#に　あなを　ほらせて"
+	text "<ROCKET>⋯!"
+	line "MAKING # DIG"
+	cont "HOLES LIKE THAT·"
 
-	para "きっと　また"
-	line "わるだくみを　かんがえてるのよ！"
+	para "THEY MUST BE"
+	line "PLOTTING EVIL"
+	cont "SCHEMES AGAIN!"
 	done
 
 CeruleanTrashedHouseWallHoleText:
-	text "かべに　あなが　あいてる！"
-	line "ここから　そとに　でられるぞ！"
+	text "A BIG HOLE IS"
+	line "IN THE WALL!"
+
+	para "YOU CAN EXIT"
+	line "OUTSIDE FROM IT!"
 	done

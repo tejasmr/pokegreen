@@ -47,135 +47,135 @@ CreditsTextPointers:
 	assert_table_length NUM_CRED_STRINGS
 
 .CredStaff:
-	db "スタッフ@"
+	db "STAFF@"
 .CredTajiri:
-	db "たじり　さとし@"
+	db "SATOSHI TAJIRI@"
 .CredOota:
-	db "おおた　たけのり@"
+	db "TAKENORI OOTA@"
 .CredMorimoto:
-	db "もりもと　しげき@"
+	db "SHIGEKI MORIMOTO@"
 .CredWatanabe:
-	db "わたなべ　てつや@"
+	db "TETSUYA WATANABE@"
 .CredMasuda:
-	db "ますだ　じゅんいち@"
+	db "JUNICHI MASUDA@"
 .CredNisino:
-	db "にしの　こうじ@"
+	db "KOHJI NISHINO@"
 .CredSugimori:
-	db "すぎもり　けん@"
+	db "KEN SUGIMORI@"
 .CredNishida:
-	db "にしだ　あつこ@"
+	db "ATSUKO NISHIDA@"
 .CredMiyamoto:
-	db "みやもと　しげる@"
+	db "SHIGERU MIYAMOTO@"
 .CredKawaguchi:
-	db "かわぐち　たかし@"
+	db "TAKASHI KAWAGUCHI@"
 .CredIshihara:
-	db "いしはら　つねかず@"
+	db "TSUNEKAZU ISHIHARA@"
 .CredYamauchi:
-	db "やまうち　ひろし@"
+	db "HIROSHI YAMAUCHI@"
 .CredZinnai:
-	db "じんない　ひろゆき@"
+	db "HIROYUKI ZINNAI@"
 .CredHishida:
-	db "ひしだ　たつや@"
+	db "TATSUYA HISHIDA@"
 .CredSakai:
-	db "さかい　やすひろ@"
+	db "YASUHIRO SAKAI@"
 .CredYamaguchi:
-	db "やまぐち　わたる@"
+	db "WATARU YAMAGUCHI@"
 .CredYamamoto:
-	db "やまもと　かずゆき@"
+	db "KAZUYUKI YAMAMOTO@"
 .CredTaniguchi:
-	db "たにぐち　りょうすけ@"
+	db "RYOSUKE TANIGUCHI@"
 .CredNonomura:
-	db "ののむら　ふみひろ@"
+	db "FUMIHIRO NONOMURA@"
 .CredFuziwara:
-	db "ふじわら　もとふみ@"
+	db "MOTOFUMI FUZIWARA@"
 .CredMatsusima:
-	db "まつしま　けんじ@"
+	db "KENJI MATSUSHIMA@"
 .CredTomisawa:
-	db "とみさわ　あきひと@"
+	db "AKIHITO TOMISAWA@"
 .CredKawamoto:
-	db "かわもと　ひろし@"
+	db "HIROSHI KAWAMOTO@"
 .CredKakei:
-	db "かけい　あきよし@"
+	db "AKIYOSHI KAKEI@"
 .CredTsuchiya:
-	db "つちや　かづき@"
+	db "KAZUKI TSUCHIYA@"
 .CredNakamura:
-	db "なかむら　たけお@"
+	db "TAKEO NAKAMURA@"
 .CredYuda:
-	db "ゆだ　まさみつ@"
+	db "MASAMITSU YUDA@"
 .CredMon:
-	db "ポケットモンスター@"
+	db "POKEMON@"
 .CredDirector:
-	db "ディレクター@"
+	db "DIRECTOR@"
 .CredProgrammers:
-	db "プログラム@"
+	db "PROGRAMMERS@"
 .CredCharDesign:
-	db "キャラクターデザイン@"
+	db "CHARACTER DESIGN@"
 .CredMusic:
-	db "おんがく@"
+	db "MUSIC@"
 .CredSoundEffects:
-	db "サウンド　エフェクト@"
+	db "SOUND EFFECTS@"
 .CredGameDesign:
-	db "ゲームデザイン@"
+	db "GAME DESIGN@"
 .CredMonsterDesign:
-	db "モンスター　デザイン@"
+	db "MONSTER DESIGN@"
 .CredGameScene:
-	db "シナリオ@"
+	db "SCENARIO@"
 .CredParam:
-	db "パラメータ　せってい@"
+	db "PARAM SETTING@"
 .CredMap:
-	db "マップ　デザイン@"
+	db "MAP DESIGN@"
 .CredTest:
-	db "デバッグ　プレイ@"
+	db "TEST PLAYERS@"
 .CredSpecial:
-	db "スペシャル·サンクス@"
+	db "SPECIAL THANKS@"
 .CredProducers:
-	db "プロデューサー@"
+	db "PRODUCERS@"
 .CredExecutive:
-	db "エグゼクティブ　プロデューサー@"
+	db "EXECUTIVE PRODUCER@"
 
 CreditsTextOffsets:
 	table_width 1
-	db -1
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -4
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -3
-	db -2
-	db -4
-	db -1
-	db -4
-	db -3
-	db -4
-	db -2
-	db -4
-	db -3
-	db -3
-	db -4
-	db -3
-	db -6
+	db -2 ; CRED_STAFF
+	db -6 ; CRED_TAJIRI
+	db -6 ; CRED_OOTA
+	db -7 ; CRED_MORIMOTO
+	db -7 ; CRED_WATANABE
+	db -6 ; CRED_MASUDE
+	db -6 ; CRED_NISINO
+	db -5 ; CRED_SUGIMORI
+	db -6 ; CRED_NISHIDA
+	db -7 ; CRED_MIYAMOTO
+	db -8 ; CRED_KAWAGUCHI
+	db -8 ; CRED_ISHIHARA
+	db -7 ; CRED_YAMAUCHI
+	db -7 ; CRED_ZINNAI
+	db -7 ; CRED_HISHIDA
+	db -6 ; CRED_SAKAI
+	db -7 ; CRED_YAMAGUCHI
+	db -8 ; CRED_YAMAMOTO
+	db -8 ; CRED_TANIGUCHI
+	db -8 ; CRED_NONOMURA
+	db -8 ; CRED_FUZIWARA
+	db -7 ; CRED_MATSUSIMA
+	db -7 ; CRED_TOMISAWA
+	db -7 ; CRED_KAWAMOTO
+	db -6 ; CRED_KAKEI
+	db -7 ; CRED_TSUCHIYA
+	db -6 ; CRED_NAKAMURA
+	db -6 ; CRED_YUDA
+	db -3 ; CRED_MON
+	db -3 ; CRED_DIRECTOR
+	db -5 ; CRED_PROGRAMMERS
+	db -7 ; CRED_CHAR_DESIGN
+	db -2 ; CRED_MUSIC
+	db -6 ; CRED_SOUND_EFFECTS
+	db -5 ; CRED_GAME_DESIGN
+	db -6 ; CRED_MONSTER_DESIGN
+	db -3 ; CRED_GAME_SCENE
+	db -6 ; CRED_PARAM
+	db -4 ; CRED_MAP
+	db -5 ; CRED_TEST
+	db -6 ; CRED_SPECIAL
+	db -4 ; CRED_PRODUCERS
+	db -8 ; CRED_EXECUTIVE
 	assert_table_length NUM_CRED_STRINGS

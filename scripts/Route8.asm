@@ -45,18 +45,21 @@ Route8SuperNerd1Text:
 	jp TextScriptEnd
 
 Route8SuperNerd1BattleText:
-	text "きみ　#　つよそう　だけど"
-	line "りかは　とくい　なのかい？"
+	text "YOUR # LOOKS"
+	line "STRONG·BUT ARE"
+	cont "YOU GOOD AT"
+	cont "SCIENCE TOO?"
 	done
 
 Route8SuperNerd1EndBattleText:
-	text "がーん！　ばったり"
+	text "GAAN! COLLAPSED!"
 	prompt
 
 Route8SuperNerd1AfterBattleText:
-	text "ぼくは　やっぱり"
-	line "べんきょうの　ほうが　あってる"
+	text "STUDY SUITS ME"
+	line "BETTER AFTER ALL!"
 	done
+
 
 Route8Gambler1Text:
 	text_asm
@@ -65,19 +68,21 @@ Route8Gambler1Text:
 	jp TextScriptEnd
 
 Route8Gambler1BattleText:
-	text "よっしゃ！"
-	line "たたかって　うんだめし　するか"
+	text "YOSSHA! LETS TEST"
+	line "LUCK IN BATTLE!"
 	done
 
 Route8Gambler1EndBattleText:
-	text "<⋯>　きょうは"
-	line "しょうぶ　うん　わるし！"
+	text "<⋯> BAD GAMBLE"
+	line "LUCK TODAY!"
 	prompt
 
 Route8Gambler1AfterBattleText:
-	text "どうも　きょうは　ついてねえ"
-	line "じっと　してよう"
+	text "NOT MY DAY TODAY·"
+	line "BETTER STAY STILL"
+	cont "AND LIE LOW!"
 	done
+
 
 Route8SuperNerd2Text:
 	text_asm
@@ -86,19 +91,20 @@ Route8SuperNerd2Text:
 	jp TextScriptEnd
 
 Route8SuperNerd2BattleText:
-	text "あのね"
-	line "たたかい　には　せんりゃくが"
-	cont "ひつよう　なんだ"
+	text "YOU SEE·STRATEGY"
+	line "IS ESSENTIAL"
+	cont "FOR BATTLE!"
 	done
 
 Route8SuperNerd2EndBattleText:
-	text "りかい　できない！"
+	text "I DONT"
+	line "UNDERSTAND IT!"
 	prompt
 
 Route8SuperNerd2AfterBattleText:
-	text "はじめに　ベトベター　だして<⋯>"
-	line "いいや　ほかので　いっきに<⋯>"
-	cont "<⋯>　うーん　ブツ　ブツ<⋯>"
+	text "SEND BETBETER<⋯>"
+	line "NO·USE OTHERS<⋯>"
+	cont "<⋯>HMM·MUTTER<⋯>"
 	done
 
 Route8CooltrainerF1Text:
@@ -108,19 +114,22 @@ Route8CooltrainerF1Text:
 	jp TextScriptEnd
 
 Route8CooltrainerF1BattleText:
-	text "あたし　ニドラン　すき　だから"
-	line "たくさん　あつめてるの"
+	text "I LOVE NIDORAN·"
+	line "SO I COLLECT"
+	cont "MANY OF THEM!"
 	done
 
 Route8CooltrainerF1EndBattleText:
-	text "なんで　なんでー"
+	text "WHY! WHY OH WHY!"
 	prompt
 
 Route8CooltrainerF1AfterBattleText:
-	text "#って　そだって　くると"
-	line "かわいく　なくなって　きちゃう"
-	cont "しんか　しないほうが　かわいいわ！"
+	text "WHEN # GROW UP"
+	line "THEY LOSE CUTE!"
+	cont "NO EVOLUTION IS"
+	cont "MUCH CUTER!"
 	done
+
 
 Route8SuperNerd3Text:
 	text_asm
@@ -129,20 +138,22 @@ Route8SuperNerd3Text:
 	jp TextScriptEnd
 
 Route8SuperNerd3BattleText:
-	text "べんきょうも　いいけど<⋯>"
-	line "#も　いいね"
+	text "STUDY IS NICE<⋯>"
+	line "BUT # ARE ALSO"
+	cont "VERY GOOD!"
 	done
 
 Route8SuperNerd3EndBattleText:
-	text "<⋯>　わかった"
-	line "ぼくには　べんきょう　しか　ない"
+	text "<⋯>I SEE·I ONLY"
+	line "HAVE STUDY LEFT!"
 	prompt
 
 Route8SuperNerd3AfterBattleText:
-	text "たまには　そとの　くうき　すいに"
-	line "いこうと　おもったのに"
-	cont "ヤマブキの　ゲートの　せいで"
-	cont "みんな　ここで　あしどめだ"
+	text "I WANTED FRESH"
+	line "AIR OUTSIDE·"
+
+	para "BUT YAMABUKI GATE"
+	line "STRANDED US ALL!"
 	done
 
 Route8CooltrainerF2Text:
@@ -152,19 +163,19 @@ Route8CooltrainerF2Text:
 	jp TextScriptEnd
 
 Route8CooltrainerF2BattleText:
-	text "ニャース　って"
-	line "ちょー　かわいーの！"
-	cont "にゃー　にゃー　にゃー！"
+	text "NYARTH IS SUPER"
+	line "CUTE! CHOU KAWAII"
+	cont "NYA·NYA·NYA!"
 	done
 
 Route8CooltrainerF2EndBattleText:
-	text "そんにゃー！"
+	text "SONNYA-!"
 	prompt
 
 Route8CooltrainerF2AfterBattleText:
-	text "やーん！"
-	line "ポッポも　コラッタも　かわいー"
-	cont "あたし　まよっちゃう！"
+	text "YAAN! POPPO AND"
+	line "KORATTA ARE CUTE"
+	cont "TOO! CANT DECIDE!"
 	done
 
 Route8CooltrainerF3Text:
@@ -174,20 +185,25 @@ Route8CooltrainerF3Text:
 	jp TextScriptEnd
 
 Route8CooltrainerF3BattleText:
-	text "こうして　ならんでると"
-	line "はないち　もんめ　してる　みたい"
+	text "LINED UP LIKE"
+	line "THIS·FEELS LIKE"
+	cont "HANA-ICHI-MONME!"
 	done
 
 Route8CooltrainerF3EndBattleText:
-	text "ひどーい！"
-	line "みんな　かわいい　#　なのに"
+	text "SO MEAN! THEY ARE"
+	line "ALL CUTE #!"
 	prompt
 
 Route8CooltrainerF3AfterBattleText:
-	text "ヤマブキ　シティの　けいびいん"
-	line "ゲート　とおらせて　くれないの"
-	cont "まじめ　だけど<⋯>　いじわるね"
+	text "YAMABUKI GUARD"
+	line "WONT LET US PASS"
+	cont "THE GATE!"
+
+	para "SERIOUS·BUT"
+	line "MEAN TO US<⋯>"
 	done
+
 
 Route8Gambler2Text:
 	text_asm
@@ -196,19 +212,21 @@ Route8Gambler2Text:
 	jp TextScriptEnd
 
 Route8Gambler2BattleText:
-	text "おれは　いまどき"
-	line "さすらいの　ギャンブラー！"
+	text "I AM A MODERN"
+	line "WANDERING"
+	cont "GAMBLER! SASURAI!"
 	done
 
 Route8Gambler2EndBattleText:
-	text "<⋯>！"
-	line "ここ　いちばんを　のがす　とは！"
+	text "<⋯>! MISSED THE"
+	line "BIG MOMENT!"
 	prompt
 
 Route8Gambler2AfterBattleText:
-	text "ギャンブルも　#も"
-	line "しょうぶには　かわりない！"
-	cont "はじめたら　やめられ　ないのさ"
+	text "GAMBLING OR #·"
+	line "BOTH ARE MATCHES!"
+	cont "CANT QUIT ONCE"
+	cont "YOU START!"
 	done
 
 Route8CooltrainerF4Text:
@@ -218,26 +236,30 @@ Route8CooltrainerF4Text:
 	jp TextScriptEnd
 
 Route8CooltrainerF4BattleText:
-	text "まるくって　ふわふわで"
-	line "ぬいぐるみ　みたいな　#！"
-	cont "<⋯>　なーんだ？"
+	text "ROUND AND FLUFFY·"
+	line "LIKE A PLUSH MON!"
+	cont "<⋯>WHAT IS IT?"
 	done
 
 Route8CooltrainerF4EndBattleText:
-	text "やめてー！"
-
-	para "わたしの　ピッピに"
-	line "らんぼう　しないでよう！"
+	text "STOP IT! DONT BE"
+	line "ROUGH WITH MY"
+	cont "PIPPI!"
 	prompt
 
 Route8CooltrainerF4AfterBattleText:
-	text "つきのいしで　ピッピが　なんかに"
-	line "しんか　するって"
-	cont "#　ジャーナルで　よんだの"
-	cont "<⋯>　ほんと　かしら？"
+	text "MOON STONE MAKES"
+	line "PIPPI EVOLVE INTO"
+	cont "SOMETHING!"
+
+	para "I READ IT IN"
+	line "# JOURNAL<⋯>"
+	cont "COULD IT BE TRUE?"
 	done
 
 Route8UndergroundSignText:
-	text "ここから　ちかつうろ"
-	line "タマムシ　<⋯>　シオン"
+	text "UNDERGROUND PATH"
+	line "TAMAMUSHI <⋯>"
+	cont "SHION"
 	done
+

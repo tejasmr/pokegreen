@@ -15,6 +15,6 @@ MistEffect_:
 	jpfar PrintButItFailedText_
 
 ShroudedInMistText:
-	text "<USER>は"
-	line "しろい　きりに　つつまれた！"
+	text "<USER> WAS"
+	line "SHROUDED IN MIST！"
 	prompt

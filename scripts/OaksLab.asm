@@ -783,21 +783,25 @@ OaksLabRivalText:
 	jp TextScriptEnd
 
 .GrampsIsntAroundText:
-	text "<RIVAL>『なんだー　<PLAYER>か！"
-	line "オーキドの　じいさんなら　いねーよ"
+	text "<RIVAL>『NANDA-！"
+	line "<PLAYER> KA？ YOU？"
+	para "OOKIDO JII-SAN·"
+	line "GRAMPS IS NOT"
+	cont "HERE NE！』"
 	done
 
 .GoAheadAndChooseText:
-	text "<RIVAL>『へへーんだ！　おれは"
-	line "おとな　だから　がっつかないのさ"
-
-	para "<PLAYER>から　さきに"
-	line "えらばせて　やるぜ！"
+	text "<RIVAL>『HEHEN！"
+	line "I AM OTONA· AN"
+	cont "ADULT！ NOT GREEDY"
+	para "CHOOSE FIRST·"
+	line "<PLAYER>！ IKUZO！』"
 	done
 
 .MyPokemonLooksStrongerText:
-	text "<RIVAL>『おれの　えらんだ"
-	line "#の　ほうが　つよそうだぜ"
+	text "<RIVAL>『ORE NO #·"
+	line "MY # LOOKS"
+	cont "STRONGER NE！』"
 	done
 
 OaksLabCharmanderPokeBallText:
@@ -843,8 +847,9 @@ OaksLabSelectedPokeBallScript:
 	jp TextScriptEnd
 
 OaksLabThoseArePokeBallsText:
-	text "モンスターボールだ"
-	line "なかに　#が　はいってるぞ！"
+	text "MONSTER BALL！"
+	line "# IS INSIDE！"
+	cont "NAKA NI IRU ZO！"
 	done
 
 OaksLabShowPokeBallPokemonScript:
@@ -877,26 +882,29 @@ OaksLabShowPokeBallPokemonScript:
 
 OaksLabYouWantCharmanderText:
 	ld hl, .Text
-	jr OaksLabMonChoiceMenu
+	jp OaksLabMonChoiceMenu
 .Text:
-	text "ほう！　ほのおの#"
-	line "ヒトカゲに　するんじゃな？"
+	text "HOU！ HONOO FIRE"
+	line "# HITOKAGE·"
+	cont "YOU DEFINE THIS？"
 	done
 
 OaksLabYouWantSquirtleText:
 	ld hl, .Text
-	jr OaksLabMonChoiceMenu
+	jp OaksLabMonChoiceMenu
 .Text:
-	text "ふむ　みずの#"
-	line "ゼニガメに　きめるのじゃな？"
+	text "HUMU· MIZU WATER"
+	line "# ZENIGAME·"
+	cont "YOU DEFINE THIS？"
 	done
 
 OaksLabYouWantBulbasaurText:
 	ld hl, .Text
-	jr OaksLabMonChoiceMenu
+	jp OaksLabMonChoiceMenu
 .Text:
-	text "そうか！　しょくぶつ#"
-	line "フシギダネが　いいんじゃな？"
+	text "SOU KA！ PLANT #"
+	line "FUSHIGIDANE·"
+	cont "YOU DEFINE THIS？"
 	done
 
 OaksLabMonChoiceMenu:
@@ -949,15 +957,16 @@ OaksLabMonChoiceEnd:
 	jp TextScriptEnd
 
 OaksLabMonEnergeticText:
-	text "この　#は"
-	line "ほんとに　げんきが　いいぞ！"
+	text "THIS # HAS"
+	line "HONTO NI GENKI！"
+	cont "REALLY LIVELY！"
 	prompt
 
 OaksLabReceivedMonText:
-	text "<PLAYER>は　オーキドから"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wNameBuffer
-	text "を　もらった！@"
+	text "！@"
 	sound_get_key_item
 	text_end
 
@@ -973,8 +982,9 @@ OaksLabLastMonScript:
 	jp TextScriptEnd
 
 OaksLabLastMonText:
-	text "オーキドはかせの　#"
-	line "さいごの　いっぴきだ<⋯>！"
+	text "DR. OOKIDO #·"
+	line "SAIGO NO ONE<⋯>！"
+	cont "THE VERY LAST！"
 	done
 
 OaksLabOak1Text:
@@ -1059,100 +1069,87 @@ OaksLabOak1Text:
 	jp TextScriptEnd
 
 .WhichPokemonDoYouWantText:
-	text "オーキド『さあ　<PLAYER>"
-	line "どの　#に　する？"
+	text "OOKIDO『COME NOW"
+	line "<PLAYER>！ WHICH"
+	cont "# DO YOU WANT？』"
 	done
 
 .YourPokemonCanFightText:
-	text "オーキド『そうじゃ！"
-	line "やせいの　#が　でて　きても"
-
-	para "そいつを　たたかわせて　いけば"
-	line "となりまちへ　いける！"
+	text "OOKIDO『SOU JA！"
+	line "WILD # LEAP OUT·"
+	para "FIGHT WITH IT"
+	line "AND YOU CAN GO"
+	cont "TO NEXT TOWN！』"
 	done
 
 .RaiseYourYoungPokemonText:
-	text "オーキド『<PLAYER>も"
-	line "まけずに　#を"
-	cont "たたかわせて　そだてると　いいぞ！"
+	text "OOKIDO『<PLAYER>！"
+	line "DONT LOSE· FIGHT"
+	cont "AND RAISE #！』"
 	done
 
 .DeliverParcelText:
-	text "オーキド『おお！　<PLAYER>"
-
-	para "どーだい？"
-	line "わしの　やった#は<⋯>ほう"
-
-	para "だいぶ"
-	line "なついた　みたいだな？"
-
-	para "おまえ　#<TRAINER>の"
-	line "さいのうが　あるな！"
-
-	para "<⋯>え　わしに　わたす　ものが？"
-
-	para "<PLAYER>は　オーキド　はかせに"
-	line "とどけものを　わたした！@"
+	text "OOKIDO『OH <PLAYER>"
+	para "DOU DAI？ HOW IS"
+	line "MY GIVEN #<⋯>？"
+	para "IT SEEMS VERY"
+	line "NATSUITA· TAMED！"
+	para "YOU HAVE TALENT"
+	line "FOR # <TRAINER>！"
+	para "<⋯>EH？ SOMETHING"
+	line "TO DELIVER ME？"
+	para "<PLAYER> DELIVERS"
+	line "THE PARCEL！@"
 	sound_get_key_item
 	text_start
-
-	para "おお！　これは"
-	line "わしが　ちゅうもん　してた"
-
-	para "とくせいの　モンスターボールじゃ"
-	line "どうも　ありがとよ！"
+	para "OO！ THIS IS MY"
+	line "SPECIAL ORDERED"
+	para "TOKUSEI CUSTOM"
+	line "MONSTER BALL！"
+	cont "DOMO ARIGATOU！』"
 	done
 
 .PokemonAroundTheWorldText:
-	text "せかい　じゅうに　すんでいる"
-	line "#たちが"
-	cont "<PLAYER>を　まって　おるぞー！"
+	text "ALL OVER SEKAI·"
+	line "# OF THE WORLD"
+	cont "WAIT FOR <PLAYER>！"
 	done
 
 .GivePokeballsText:
-	text "オーキド『#を"
-	line "ただ　みつけただけ　では"
-	cont "くわしい　データを"
-	cont "てに　いれる　ことは　できん！"
-
-	para "かならず"
-	line "つかまえなければ　ならんのだ！"
-	cont "ほれ　そのために<⋯>"
-	cont "ひつような　どうぐを　わたそう！"
-
-	para "<PLAYER>は　５こ"
-	line "モンスターボールを　もらった！@"
+	text "OOKIDO『JUST BY"
+	line "SEEING #· CANNOT"
+	cont "GET DEEP DATA！"
+	para "MUST CATCH THEM！"
+	line "TSUKAMAERU ZO！"
+	cont "TAKE THIS TOOL<⋯>"
+	para "<PLAYER> GOT 5"
+	line "MONSTER BALLS！@"
 	sound_get_key_item
 	text_start
-
-	para "やせいの　#が"
-	line "とびだして　きたら　チャンス！"
-
-	para "モンスターボールを"
-	line "ポイ！と　なげれば"
-	cont "#を　つかまえ　られる！"
-
-	para "ただし<⋯>　うまく　とれるか"
-	line "どうかは　わからんぞ！"
-
-	para "げんきな　#は　にげやすいし"
-	line "うんも　あるからな！"
+	para "WHEN WILD # LEAP"
+	line "OUT· BIG CHANCE！"
+	para "THROW BALL POI！"
+	line "AND CATCH THEM！"
+	para "BUT<⋯> CANNOT BE"
+	line "SURE IT WORKS！"
+	para "HEALTHY # FLEE·"
+	line "LUCK MATTERS TOO！"
 	done
 
 .ComeSeeMeSometimesText:
-	text "オーキド『ときどきは"
-	line "わしの　とこに　かおを　だせ！"
-
-	para "#ずかんの　ページが"
-	line "きに　なるんでな！"
+	text "OOKIDO『VISIT ME"
+	line "SOMETIMES· SHOW"
+	cont "YOUR FACE！"
+	para "I CARE ABOUT"
+	line "#DEX PAGES！』"
 	done
 
 .HowIsYourPokedexComingText:
-	text "オーキド『よく　きた！"
-	line "#ずかんの"
-	cont "ちょうしは　どうかな？"
-	cont "どれ<⋯>　ちょっと"
-	cont "みて　あげようか！"
+	text "OOKIDO『WELCOME！"
+	line "HOW IS #DEX"
+	cont "PROGRESS？"
+	para "DORE<⋯> LET ME"
+	line "HAVE A LOOK！』"
 	prompt
 
 OaksLabPokedexText:
@@ -1162,8 +1159,10 @@ OaksLabPokedexText:
 	jp TextScriptEnd
 
 .Text:
-	text "ずかん　みたいな　ものが　ある！"
-	line "なかは　しろいページ　ばっかりだ！"
+	text "ENCYCLOPEDIA-LIKE"
+	line "BOOK IS HERE！"
+	cont "INSIDE IS ALL"
+	cont "SHIRO· BLANK！"
 	done
 
 OaksLabOak2Text:
@@ -1177,11 +1176,11 @@ OaksLabGirlText:
 	jp TextScriptEnd
 
 .Text:
-	text "ああ　みえても　オーキドはかせは"
-	line "#の　オーソリティなの！"
-
-	para "はかせを　そんけいする"
-	line "#　<TRAINER>も　おおいわよ！"
+	text "DR. OOKIDO IS"
+	line "TOP AUTHORITY ON"
+	cont "#！ SUGOI NE！"
+	para "MANY <TRAINER>"
+	line "RESPECT HAKASE！"
 	done
 
 OaksLabRivalFedUpWithWaitingText:
@@ -1191,8 +1190,9 @@ OaksLabRivalFedUpWithWaitingText:
 	jp TextScriptEnd
 
 .Text:
-	text "<RIVAL>『じいさん！"
-	line "まちくたびれたぞー！"
+	text "<RIVAL>『JII-SAN！"
+	line "I AM TIRED OF"
+	cont "WAITING ZO-！』"
 	done
 
 OaksLabOakChooseMonText:
@@ -1202,31 +1202,24 @@ OaksLabOakChooseMonText:
 	jp TextScriptEnd
 
 .Text:
-	text "オーキド『<RIVAL>か？"
-	line "<⋯>　<⋯>　<⋯>"
-
-	para "おお　そうか"
-	line "わしが　よんだのじゃった！"
-	cont "ちょっと　まって　おれ！"
-
-	para "ほれ　<PLAYER>！"
-
-	para "そこに　３びき"
-	line "#が　いる　じゃろう！"
-
-	para "ほっほ！"
-
-	para "モンスターボールの　なかに"
-	line "#が　いれて　あるんじゃ"
-
-	para "むかしは　わしも　バリバリの"
-	line "#　<TRAINER>として"
-	cont "ならした　もの！"
-
-	para "おいぼれた　いまは　#も"
-	line "３びき　しか　のこっとらんが"
-	cont "おまえに　１ぴき　やろう！"
-	cont "<⋯>　さあ　えらべ！"
+	text "OOKIDO『<RIVAL>？"
+	line "<⋯> <⋯> <⋯>"
+	para "OO· SOU KA！"
+	line "I CALLED YOU！"
+	cont "WAIT A MOMENT！"
+	para "LOOK <PLAYER>！"
+	para "THERE ARE 3 #"
+	line "OVER THERE！"
+	para "HOH-HO！"
+	para "INSIDE MONSTER"
+	line "BALLS ARE #！"
+	para "LONG AGO I WAS A"
+	line "BARIBARI TOUGH"
+	cont "# <TRAINER>！"
+	para "NOW IN OLD AGE·"
+	line "ONLY 3 ARE LEFT·"
+	cont "I GIVE YOU ONE！"
+	cont "<⋯>GO· CHOOSE！』"
 	done
 
 OaksLabRivalWhatAboutMeText:
@@ -1236,8 +1229,9 @@ OaksLabRivalWhatAboutMeText:
 	jp TextScriptEnd
 
 .Text:
-	text "<RIVAL>『あッ！　ずるい！"
-	line "じいさん！　おれにも　くれよお！"
+	text "<RIVAL>『A！ ZURUI！"
+	line "GRAMPS· GIMME ONE"
+	cont "ORE NI MO！』"
 	done
 
 OaksLabOakBePatientText:
@@ -1247,9 +1241,10 @@ OaksLabOakBePatientText:
 	jp TextScriptEnd
 
 .Text:
-	text "オーキド『まー！"
-	line "あわてるな　<RIVAL>！"
-	cont "おまえも　すきなものを　とれ！"
+	text "OOKIDO『MA-！ WAIT！"
+	line "BE PATIENT·"
+	cont "<RIVAL>！ CHOOSE"
+	cont "ONE YOU LIKE！』"
 	done
 
 OaksLabOakDontGoAwayYetText:
@@ -1259,8 +1254,9 @@ OaksLabOakDontGoAwayYetText:
 	jp TextScriptEnd
 
 .Text:
-	text "オーキド『こら　どこへいく！"
-	line "もどってこんか！"
+	text "OOKIDO『KORA！ HEY！"
+	line "WHERE ARE YOU"
+	cont "GOING？ MODORE！』"
 	done
 
 OaksLabRivalIllTakeThisOneText:
@@ -1270,7 +1266,8 @@ OaksLabRivalIllTakeThisOneText:
 	jp TextScriptEnd
 
 .Text:
-	text "<RIVAL>『じゃ　おれは　これ！"
+	text "<RIVAL>『JA！ THEN"
+	line "I CHOOSE THIS！』"
 	done
 
 OaksLabRivalReceivedMonText:
@@ -1280,10 +1277,10 @@ OaksLabRivalReceivedMonText:
 	jp TextScriptEnd
 
 .Text:
-	text "<RIVAL>は　オーキドから"
+	text "<RIVAL> GOT"
 	line "@"
 	text_ram wNameBuffer
-	text "を　もらった！@"
+	text "！@"
 	sound_get_key_item
 	text_end
 
@@ -1294,23 +1291,25 @@ OaksLabRivalIllTakeYouOnText:
 	jp TextScriptEnd
 
 .Text:
-	text "<RIVAL>『まてよ！　<PLAYER>！"
-	line "せっかく　じーさんに"
-	cont "#　もらったんだぜ！"
-
-	para "<⋯>　ちょっと"
-	line "おれの　あいて　してみろ！"
+	text "<RIVAL>『MATTE YO！"
+	line "WAIT UP <PLAYER>！"
+	para "WE GOT # FROM"
+	line "GRAMPS· SO<⋯>"
+	para "FIGHT WITH ME！"
+	line "AITE SHIRO！』"
 	done
 
 OaksLabRivalIPickedTheWrongPokemonText:
-	text "えー　そんな　バカな！"
-	line "おまえの　#に"
-	cont "すりゃあ　よかった！"
+	text "E-！ UNBELIEVABLE"
+	line "BAKA NA！ NO WAY！"
+	para "I SHOULD HAVE"
+	line "PICKED YOUR #！"
 	prompt
 
 OaksLabRivalAmIGreatOrWhatText:
-	text "<RIVAL>『やりー！"
-	line "おれって　てんさい？"
+	text "<RIVAL>『YARI-！"
+	line "I WON！ AM I A"
+	cont "TENSAI GENIUS？』"
 	prompt
 
 OaksLabRivalSmellYouLaterText:
@@ -1320,84 +1319,83 @@ OaksLabRivalSmellYouLaterText:
 	jp TextScriptEnd
 
 .Text:
-	text "<RIVAL>『よーし！"
-	line "ほかの　#と　たたかわせて"
-	cont "もっと　もっと　つよくするぜ！"
-
-	para "<PLAYER>！　じいさん！"
-	line "そんじゃ　あばよ！"
+	text "<RIVAL>『YOSHI！"
+	line "I WILL BATTLE"
+	cont "OTHER # TO GET"
+	cont "MUCH STRONGER！"
+	para "<PLAYER>！ GRAMPS！"
+	line "ABAYO· BYE BYE！』"
 	done
 
 OaksLabRivalGrampsText:
-	text "<RIVAL>『じいさん！"
+	text "<RIVAL>『JII-SAN！"
+	line "GRAMPS！』"
 	done
 
 OaksLabRivalWhatDidYouCallMeForText:
-	text "<RIVAL>『すっかり　わすれてた！"
-	line "おれに　なんか　よーじ　だって？"
+	text "<RIVAL>『I TOTALLY"
+	line "FORGOT！ WHAT DID"
+	cont "YOU CALL FOR？』"
 	done
 
 OaksLabOakIHaveARequestText:
-	text "オーキド『おお　そうじゃ！"
-	line "おまえたちに　たのみが　あるんじゃ"
+	text "OOKIDO『OO SOU JA！"
+	line "I HAVE A TANOMI·"
+	cont "A BIG REQUEST！』"
 	done
 
 OaksLabOakMyInventionPokedexText:
-	text "つくえの　うえに　あるのは"
-	line "わしが　つくった　#ずかん！"
-
-	para "みつけた　#の　データが"
-	line "じどうてきに　かきこまれて"
-	cont "ページが　ふえて　いく　という"
-
-	para "たいへん　ハイテクな"
-	line "ずかん　なのじゃ！"
+	text "ON THE DESK IS MY"
+	line "INVENTED #DEX！"
+	para "DATA OF # SEEN"
+	line "IS WRITTEN AUTO·"
+	cont "PAGES INCREASE！"
+	para "A SUPER HI-TECH"
+	line "ENCYCLOPEDIA！"
 	done
 
 OaksLabOakGotPokedexText:
-	text "オーキド『<PLAYER>　<RIVAL>"
-	line "これを　おまえたちに　あずける！"
-
-	para "<PLAYER>は　オーキドから"
-	line "#ずかんを　もらった！@"
+	text "OOKIDO『<PLAYER>·"
+	line "<RIVAL>！ TAKE"
+	cont "THIS WITH YOU！』"
+	para "<PLAYER> GOT"
+	line "「#DEX」"
+	cont "FROM DR. OOKIDO！@"
 	sound_get_key_item
 	text_end
 
 OaksLabOakThatWasMyDreamText:
-	text "この　せかいの　すべての"
-	line "#を　きろくした"
-	cont "かんぺきな　ずかんを　つくること！"
-
-	para "それが　わしの　ゆめ　だった！"
-
-	para "しかし　わしも　もう　ジジイ！"
-	line "そこまで　ムリは　できん！"
-
-	para "そこで　おまえ　たちには"
-	line "わしの　かわりに"
-	cont "ゆめを　はたして　ほしいのじゃ！"
-
-	para "さあ　ふたりとも"
-	line "さっそく　しゅっぱつ　してくれい！"
-
-	para "これは　#の　れきしに　のこる"
-	line "いだいな　しごとじゃー！"
+	text "TO RECORD ALL #"
+	line "IN THIS SEKAI·"
+	cont "COMPLETE #DEX！"
+	para "THAT WAS MY OWN"
+	line "YUME· DREAM！"
+	para "BUT I AM NOW AN"
+	line "OLD JIJI-SAN！"
+	cont "CANT DO TOO MUCH！"
+	para "SO IN MY PLACE·"
+	line "FULFILL MY YUME！"
+	para "DEPART AT ONCE·"
+	line "IKUZO BOTH OF YOU"
+	para "THIS IS A GREAT"
+	line "WORK IN # HISTORY"
+	cont "REKISHI NI NOKORU"
 	done
 
 OaksLabRivalLeaveItAllToMeText:
-	text "<RIVAL>『よーし！　じいさん！"
-	line "ぜんぶ　おれに　まかせなー！"
-
+	text "<RIVAL>『YOSHI！"
+	line "LEAVE IT ALL TO"
+	cont "ME· JII-SAN！"
 	para "<PLAYER>！"
-	line "ざんねんだが　おまえの　でばんは"
-	cont "まったく　ねーぜ！"
-
-	para "そうだ！　うちの　ねえちゃん　から"
-	line "タウンマップを　かりて　いこう！"
-
-	para "<PLAYER>　には　かさない　ように"
-	line "ねえちゃんに　いって　おくから"
-	cont "おれんちへ　きても　むだ　だからな！"
+	line "ZANNEN· TOO BAD！"
+	cont "NO CHANCE FOR YOU"
+	para "SOU DA！ I BORROW"
+	line "TOWN MAP FROM MY"
+	cont "BIG SISTER！"
+	para "I WILL TELL HER"
+	line "NOT TO LEND YOU·"
+	cont "MUDA DA ZO！"
+	cont "DONT EVEN COME！』"
 	done
 
 OaksLabScientistText:
@@ -1407,6 +1405,7 @@ OaksLabScientistText:
 	jp TextScriptEnd
 
 .Text:
-	text "わたしも　はかせの　じょしゅ　として"
-	line "#を　けんきゅう　してます"
+	text "I AM ASSISTANT"
+	line "TO DR. OOKIDO·"
+	cont "RESEARCHING #！"
 	done

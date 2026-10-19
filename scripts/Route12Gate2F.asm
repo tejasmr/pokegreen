@@ -31,33 +31,33 @@ Route12Gate2FBrunetteGirlText:
 	jp TextScriptEnd
 
 .YouCanHaveThisText:
-	text "わたしが　かわいがってた　#"
-	line "いまは　#　タワーで"
-	cont "ねむってるの<⋯>"
+	text "MY BELOVED #"
+	line "IS ASLEEP AT"
+	cont "# TOWER NOW<⋯>"
 
-	para "<⋯>　そうだ　わたしの　<TM>"
-	line "おにいちゃんに　あげるわ"
-	cont "わたし<⋯>　もう　いらない　から"
+	para "HERE·HAVE MY <TM>"
+	line "KIND LAD<⋯> I DONT"
+	cont "NEED IT ANYMORE"
 	prompt
 
 .ReceivedTM39Text:
-	text "<PLAYER>は　おんなのこから"
-	line "<TM>３９を　もらった！@"
+	text "<PLAYER> RECEIVED"
+	line "<TM>39 FROM GIRL!@"
 	sound_get_item_1
 	text_end
 
 .TM39ExplanationText:
-	text "<TM>３９は"
-	line "スピードスター　という　わざよ"
+	text "<TM>39 TEACHES"
+	line "SPEEDSTAR SWIFT!"
 
-	para "この　わざは　めいちゅうりつが"
-	line "すごく　たかいの"
-	cont "まけられない　しょうぶの　とき"
-	cont "やくに　たつ　はずよ"
+	para "IT HAS SUPER"
+	line "HIGH ACCURACY·"
+	cont "NEVER MISSES!"
 	done
 
 .TM39NoRoomText:
-	text "にもつ　いっぱいで　もてないよ"
+	text "YOUR PACK IS"
+	line "FULL OF ITEMS!"
 	done
 
 Route12Gate2FLeftBinocularsText:
@@ -66,9 +66,10 @@ Route12Gate2FLeftBinocularsText:
 	jp GateUpstairsScript_PrintIfFacingUp
 
 .Text:
-	text "ぼうえんきょうを　のぞいた！"
+	text "LOOKED INTO"
+	line "BINOCULARS!"
 
-	para "つりを　してる　おじさんだ！"
+	para "A GUY IS FISHING!"
 	done
 
 Route12Gate2FRightBinocularsText:
@@ -77,10 +78,13 @@ Route12Gate2FRightBinocularsText:
 	jp GateUpstairsScript_PrintIfFacingUp
 
 .Text:
-	text "ぼうえんきょうを　のぞいた！"
+	text "LOOKED INTO"
+	line "BINOCULARS!"
 
-	para "#　タワーが　みえる！"
+	para "# TOWER IS"
+	line "VISIBLE FAR OFF!"
 	done
+
 
 GateUpstairsScript_PrintIfFacingUp:
 	ld a, [wSpritePlayerStateData1FacingDirection]

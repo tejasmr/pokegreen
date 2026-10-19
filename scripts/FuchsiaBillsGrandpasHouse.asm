@@ -9,28 +9,31 @@ FuchsiaBillsGrandpasHouse_TextPointers:
 	dw_const FuchsiaBillsGrandpasHouseYoungsterText,       TEXT_FUCHSIABILLSGRANDPASHOUSE_YOUNGSTER
 
 FuchsiaBillsGrandpasHouseMiddleAgedWomanText:
-	text "サファリ　ゾーンの　えんちょう"
-	line "おとし　なのに　すごく　げんきよ"
+	text "SAFARI WARDEN IS"
+	line "OLD BUT ENERGETIC"
 
-	para "でも<⋯>「は」は"
-	line "ぜんぶ　いれば　らしい　けど"
+	para "THOUGH HIS TEETH"
+	line "ARE ALL DENTURES!"
 	done
 
 FuchsiaBillsGrandpasHouseBillsGrandpaText:
-	text "おや？　あんた"
-	line "マサキの　ことを　しっとるのかね？"
+	text "OH? DO YOU KNOW"
+	line "ABOUT MASAKI?"
 
-	para "マサキは　わしの　まごじゃ！"
+	para "MASAKI IS MY"
+	line "GRANDSON! MAGO!"
 
-	para "ちいさい　ころから"
-	line "ものを　あつめるのが　すきな"
-	cont "こども　じゃった！"
+	para "SINCE CHILDHOOD"
+	line "HE LOVED TO"
+	cont "COLLECT THINGS!"
 	done
 
 FuchsiaBillsGrandpasHouseYoungsterText:
-	text "マサキ　にいちゃん"
-	line "じぶんで　あつめた　#も"
-	cont "<PC>の　データに　してるよ！"
+	text "BIG BRO MASAKI"
+	line "STORES MONS HE"
+	cont "CAUGHT AS DATA"
+	cont "IN THE <PC>!"
 
-	para "みせて　もらった？"
+	para "DID HE SHOW YOU?"
 	done
+

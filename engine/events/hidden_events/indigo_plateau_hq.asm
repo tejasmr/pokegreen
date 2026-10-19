@@ -6,6 +6,6 @@ PrintIndigoPlateauHQText:
 	tx_pre_jump IndigoPlateauHQText
 
 IndigoPlateauHQText::
-	text "セキエイこうげん"
-	line "#リーグ　ほんぶ"
+	text "SEKIEI PLATEAU"
+	line "# LEAGUE HQ"
 	done

@@ -50,9 +50,10 @@ AskName:
 	jp CopyData
 
 DoYouWantToNicknameText:
+	text "GIVE A NICKNAME"
+	line "TO @"
 	text_ram wNameBuffer
-	text "に"
-	line "ニックネームを　つけますか？"
+	text "？"
 	done
 
 DisplayNameRaterScreen::
@@ -327,20 +328,6 @@ LoadUnderscoreTiles:
 	jp CopyVideoData
 
 CharToTile:
-	cp $1d
-	jr c, .notExtra1
-	cp $25 + 1
-	jr nc, .notExtra1
-	add $4b - $1d
-	ret
-.notExtra1
-	cp $35
-	jr c, .notExtra2
-	cp $38 + 1
-	jr nc, .notExtra2
-	add $54 - $35
-	ret
-.notExtra2
 	ret
 
 PrintAlphabet:

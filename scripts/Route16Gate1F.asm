@@ -107,22 +107,25 @@ Route16Gate1FGuardText:
 	jp TextScriptEnd
 
 .NoPedestriansAllowedText:
-	text "サイクリング　ロードは"
-	line "あるいて　すすむと　キケンです！"
-	cont "じてんしゃに　のって　きてね"
+	text "CYCLING ROAD IS"
+	line "KIKEN ON FOOT!"
+	cont "COME RIDING ON A"
+	cont "BICYCLE·OK?"
 	done
 
 .CyclingRoadExplanationText:
-	text "サイクリング　ロードは"
-	line "うみを　いく　さかみち！"
-	cont "かけおりると　きもち　いいよ！"
+	text "CYCLING ROAD IS"
+	line "A SEASIDE SLOPE!"
+	cont "DASHING DOWN IS"
+	cont "SO KIMOCHI II!"
 	done
 
 Route16Gate1FGuardWaitUpText:
-	text "ちょっと　きみ　きみ！"
+	text "HEY YOU! MATTA!"
 	done
 
 Route16Gate1FGamblerText:
-	text "こんな　とこ　よく　きた！"
-	line "ごくろうな　こっちゃ！"
+	text "YOU CAME ALL THE"
+	line "WAY OUT HERE!"
+	cont "GOKUROUSAN DANA!"
 	done

@@ -36,20 +36,23 @@ CinnabarGymQuiz::
 	jp TextScriptEnd
 
 CinnabarGymQuizIntroText:
-	text "#　クイズ！"
+	text "# QUIZ TIME！"
 
-	para "せいかい　すると　ドアが　あいて"
-	line "つぎへ　すすめます！"
+	para "CORRECT ANSWER"
+	line "OPENS THE DOOR"
+	cont "TO ADVANCE NEXT！"
 
-	para "まちがえたら　でしの　<TRAINER>と"
-	line "たたかって　いただきます！"
+	para "IF WRONG·YOU MUST"
+	line "BATTLE APPRENTICE"
+	cont "TRAINERS HERE！"
 
-	para "ここの　リーダーに　あう　まで"
-	line "#の　たいりょくを"
-	cont "とって　おきたいなら！"
+	para "IF YOU WISH TO"
+	line "SAVE YOUR # HP"
+	cont "BEFORE LEADER！"
 
-	para "がんばって　こたえて　ください！"
-	line "では　おこたえ　ください！"
+	para "TRY YOUR BEST TO"
+	line "ANSWER THIS QUIZ！"
+	cont "NOW PLEASE REPLY！"
 	prompt
 
 CinnabarQuizQuestions:
@@ -61,37 +64,39 @@ CinnabarQuizQuestions:
 	dw CinnabarQuizQuestionsText6
 
 CinnabarQuizQuestionsText1:
-	text "#　キャタピーが　しんかすると"
-	line "バタフリーに　なる？"
+	text "CATERPIE EVOLVES"
+	line "INTO BUTTERFREE？"
 	done
 
 CinnabarQuizQuestionsText2:
-	text "#　リーグ　にんてい"
-	line "バッジは　ぜんぶで　９しゅるい？"
+	text "ARE THERE 9 KINDS"
+	line "OF # LEAGUE"
+	cont "CERTIFIED BADGES？"
 	done
 
 CinnabarQuizQuestionsText3:
-	text "ニョロモは　３かい　しんかする"
-	line "#　である？"
+	text "POLIWAG EVOLVES"
+	line "3 TIMES IN TOTAL？"
 	done
 
 CinnabarQuizQuestionsText4:
-	text "かみなり　タイプの　わざを"
-	line "くりだした　とき"
-
-	para "じめん　タイプの　#には"
-	line "よく　きく？"
+	text "ARE ELECTRIC TYPE"
+	line "MOVES EFFECTIVE"
+	cont "AGAINST GROUND #"
+	cont "TYPES IN BATTLE？"
 	done
 
 CinnabarQuizQuestionsText5:
-	text "おなじ　レベルの　おなじ　#"
-	line "でも　つかまえる　たびに"
-	cont "つよさは　ちがう？"
+	text "SAME # AT SAME"
+	line "LEVEL HAS VARYING"
+	cont "STATS EACH TIME"
+	cont "IT IS CAUGHT？"
 	done
 
 CinnabarQuizQuestionsText6:
-	text "「<TM>２８」とは"
-	line "「しねしねこうせん」である？"
+	text "IS「<TM>28」THE"
+	line "「SHINE-SHINE」"
+	cont "DEATH BEAM MOVE？"
 	done
 
 CinnabarGymGateFlagAction:
@@ -141,9 +146,10 @@ CinnabarGymQuiz_AskQuestion:
 
 CinnabarGymQuizCorrectText:
 	sound_get_item_1
-	text "あたり　です！"
+	text "THAT IS CORRECT！"
 
-	para "さきへ　すすんで　いいです@"
+	para "YOU MAY ADVANCE"
+	line "FORWARD NOW！@"
 	text_promptbutton
 	text_asm
 	ldh a, [hBackupGymGateIndex]
@@ -161,7 +167,8 @@ CinnabarGymQuizCorrectText:
 	jp TextScriptEnd
 
 CinnabarGymQuizIncorrectText:
-	text "ばか　はずれです<⋯>"
+	text "TOTALLY WRONG<⋯>"
+	line "OUT OF LUCK！"
 	prompt
 
 UpdateCinnabarGymGateTileBlocks_::

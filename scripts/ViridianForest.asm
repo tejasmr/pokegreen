@@ -37,11 +37,13 @@ ViridianForest_TextPointers:
 	db -1 ; end
 
 ViridianForestYoungster1Text:
-	text "ともだちと　むし　#"
-	line "とりに　きてるんだ！"
+	text "WITH TOMODACHI·"
+	line "I CAME TO CATCH"
+	cont "BUG #！"
 
-	para "#　しょうぶ　したくて"
-	line "みんな　ウズウズ　してるよ！"
+	para "EVERYONE WANTS A"
+	line "# MATCH！"
+	cont "UZU-UZU ITCHING！"
 	done
 
 ViridianForestYoungster2Text:
@@ -51,19 +53,21 @@ ViridianForestYoungster2Text:
 	jp TextScriptEnd
 
 ViridianForestYoungster2BattleText:
-	text "よーしッ！"
-	line "きみは　#　もってるな？"
-	cont "しょうぶ　しようぜ！"
+	text "YOSHI-！ YOU HAVE"
+	line "# NE？ LETS HAVE"
+	cont "A SHOUBU MATCH！"
 	done
 
 ViridianForestYoungster2EndBattleText:
-	text "まけたあ！"
-	line "キャタピー　なんか　じゃ　ダメか"
+	text "MAKETA-！ LOST！"
+	line "CATERPIE IS NO"
+	cont "GOOD DAME KA<⋯>"
 	prompt
 
 ViridianForestYoungster2AfterBattleText:
-	text "しッ<⋯>！"
-	line "むしが　にげる　から　またな！"
+	text "SHH<⋯>！ BUGS WILL"
+	line "FLEE AWAY！"
+	cont "MATA NA· SEE YA！"
 	done
 
 ViridianForestYoungster3Text:
@@ -73,19 +77,23 @@ ViridianForestYoungster3Text:
 	jp TextScriptEnd
 
 ViridianForestYoungster3BattleText:
-	text "おーいッ！"
-	line "#　<TRAINER>なら"
-	cont "しょうぶは　ことわれ　ないぜ！"
+	text "OI-！ IF YOU ARE"
+	line "# <TRAINER>·"
+	cont "CANT REFUSE A"
+	cont "SHOUBU MATCH！"
 	done
 
 ViridianForestYoungster3EndBattleText:
-	text "あれ？"
-	line "もう　#が　ないや"
+	text "ARE？ ALREADY"
+	line "OUT OF #！"
 	prompt
 
 ViridianForestYoungster3AfterBattleText:
-	text "くやしいな！"
-	line "つよいのを　つかまえて　こよう！"
+	text "KUYASHII NA-！ SO"
+	line "FRUSTRATING！"
+
+	para "I GO CATCH MORE"
+	line "TSUYOI STRONG #！"
 	done
 
 ViridianForestYoungster4Text:
@@ -95,73 +103,84 @@ ViridianForestYoungster4Text:
 	jp TextScriptEnd
 
 ViridianForestYoungster4BattleText:
-	text "ちょっと　まったあ！"
-	line "そんな　いそいで　どこに　いく？"
+	text "CHOTTO MATTA-！"
+	line "WAIT A BIT！"
+
+	para "WHERE ARE YOU"
+	line "RUSHING OISOGI？"
 	done
 
 ViridianForestYoungster4EndBattleText:
-	text "まいった！"
-	line "きみは　つよいな！"
+	text "MAITTA！ I YIELD！"
+	line "YOU ARE TSUYOI！"
 	prompt
 
 ViridianForestYoungster4AfterBattleText:
-	text "みえない　ところ　でも　ホントは"
-	line "なにか　おちてたり　する！"
+	text "HIDDEN THINGS ARE"
+	line "DROPPED EVEN IF"
+	cont "MIENAI· UNSEEN！"
 
-	para "さっき　おとしもの　したんだ"
-	line "きみも　さがして　みて　くれる？"
+	para "I DROPPED ITEM·"
+	line "PLEASE LOOK TOO！"
 	done
 
 ViridianForestYoungster5Text:
-	text "#　とろうとして"
-	line "モンスター　ボール　なげてたら"
-	cont "すぐ　なくなっちゃった"
+	text "THREW BALLS TO"
+	line "CATCH #· SOON"
+	cont "RAN OUT FAST！"
 
-	para "きみも　おおめに"
-	line "かって　おくと　いいよ"
+	para "BETTER BUY PLENTY"
+	line "MONSTER BALLS！"
 	done
 
 ViridianForestTrainerTips1Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "<⋯>USEFUL TIPS！"
 
-	para "もってる　#が　よわって　きて"
-	line "たたかわせたく　ない　ときは"
-	cont "くさむらを　よけて　かえろう！"
+	para "WHEN # WEAKEN"
+	line "AND CANT FIGHT·"
+
+	para "AVOID TALL GRASS"
+	line "ON WAY HOME！"
 	done
 
 ViridianForestUseAntidoteSignText:
-	text "どくを　くらったら　どくけし！"
-	line "フレンドリィ　ショップで！"
+	text "HIT BY POISON？"
+	line "USE DOKUKESHI·"
+	cont "ANTIDOTE SHOP！"
 	done
 
 ViridianForestTrainerTips2Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "<⋯>USEFUL TIPS！"
 
-	para "#ずかんは"
-	line "<PC>つうしんで"
-	cont "オーキドはかせに　みてもらえる！"
+	para "DR. OOKIDO CAN"
+	line "RATING YOUR #DEX"
+	cont "VIA <PC> MAIL！"
 	done
 
 ViridianForestTrainerTips3Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "<⋯>USEFUL TIPS！"
 
-	para "ひとの　#は　ひとの　もの！"
-	line "やせいの　#に　だけ"
-	cont "モンスターボールを　なげて"
-	cont "つかまえよう！"
+	para "OTHER PERSONS #"
+	line "IS THEIR OWN！"
+
+	para "ONLY THROW BALLS"
+	line "AT WILD #！"
 	done
 
 ViridianForestTrainerTips4Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "<⋯>USEFUL TIPS！"
 
-	para "#を　つかまえる　ときは"
-	line "なるべく　よわらせてから！"
+	para "WEAKEN WILD #"
+	line "BEFORE CATCHING！"
 
-	para "#が　げんきだと"
-	line "にげるかも　しれないよ！"
+	para "IF IT IS GENKI·"
+	line "IT MIGHT FLEE！"
 	done
 
 ViridianForestLeavingSignText:
-	text "トキワの　もり　<⋯>　でぐち"
-	line "このさき　ニビ　シティ"
+	text "TOKIWA FOREST<⋯>"
+	line "EXIT DEGUCHI！"
+
+	para "AHEAD IS NIBI"
+	line "PEWTER CITY！"
 	done

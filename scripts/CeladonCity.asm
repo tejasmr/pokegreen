@@ -26,31 +26,38 @@ CeladonCity_TextPointers:
 	dw_const CeladonCityGameCornerSignText,    TEXT_CELADONCITY_GAMECORNER_SIGN
 
 CeladonCityLittleGirlText:
-	text "わたしの　ドガース！"
-	line "グレンじま　で　つかまえたの！"
-	cont "おこると　どくガス　はくけど<⋯>"
+	text "THIS IS MY"
+	line "DOGARS! CAUGHT"
+	cont "ON GUREN ISLAND!"
 
-	para "ふだんは　いいこ　なのよ"
+	para "SPEWS POISON GAS"
+	line "WHEN ANGRY⋯ BUT"
+	cont "USUALLY SO GOOD!"
 	done
 
 CeladonCityGramps1Text:
-	text "にひひ！　この　ジムは　ええ！"
-	line "おんなのこ　ばっかし　じゃ！"
+	text "HEHEHE! THIS GYM"
+	line "IS SPLENDID!"
+	cont "ONLY GIRLS ALL"
+	cont "AROUND!"
 	done
 
 CeladonCityGirlText:
-	text "きれいな　まちづくりが　じまんの"
-	line "タマムシに　ゲーム　コーナーが"
-	cont "できちゃって！　こまった　ものよ！"
+	text "TAMAMUSHI PRIDES"
+	line "ITSELF ON CLEAN"
+	cont "BEAUTY! BUT THIS"
+	cont "GAME CORNER IS"
+	cont "SUCH A NUISANCE!"
 	done
 
 CeladonCityGramps2Text:
-	text "トホホ<⋯>！"
-	line "スロットで　また　まけた！"
+	text "OH WOE⋯! LOST"
+	line "AGAIN ON SLOTS!"
 
-	para "コインが　たまったら"
-	line "けいひんに　した　ほうが　ええと"
-	cont "わかって　おったのに<⋯>！"
+	para "I KNEW I SHOULD"
+	line "HAVE TRADED MY"
+	cont "COINS FOR PRIZES"
+	cont "EARLIER⋯!"
 	done
 
 CeladonCityGramps3Text:
@@ -77,116 +84,135 @@ CeladonCityGramps3Text:
 	jp TextScriptEnd
 
 .Text:
-	text "やあ　やあ！"
+	text "HELLO HELLO!"
 
-	para "わたしは　いつも　きみが"
-	line "そこを　とおるのを　みてたが"
-	cont "やっと　あう　ことが　できた！"
+	para "I ALWAYS WATCHED"
+	line "YOU PASS OVER"
+	cont "THERE· BUT WE"
+	cont "FINALLY MEET!"
 
-	para "それでは　とっておきの"
-	line "これを！　きみに　あげよう！"
+	para "TAKE THIS VERY"
+	line "SPECIAL GIFT!"
 	prompt
 
 .ReceivedTM41Text:
-	text "<PLAYER>は　おじさんから"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text " FROM OLD MAN!@"
 	sound_get_item_1
 	text_end
 
 .TM41ExplanationText:
-	text "<TM>４１の　なかは"
-	line "タマゴうみ　である！"
+	text "<TM>41 CONTAINS"
+	line "SOFTBOILED MOVE!"
 
-	para "これを　つかえる　#は"
-	line "１しゅるい　だけ　である！"
+	para "ONLY 1 KIND OF"
+	line "# CAN LEARN IT!"
 
-	para "そういう　#は"
-	line "ラッキー　である！"
+	para "SUCH A # IS"
+	line "LUCKY INDEED!"
 	done
 
 .TM41NoRoomText:
-	text "にもつが　いっぱいだ"
+	text "YOUR PACK IS"
+	line "OUT OF ROOM!"
 	done
 
 CeladonCityFisherText:
-	text "こいつ　おれの　あいかた！"
-	line "ニョロボン！"
+	text "THIS IS MY PAL"
+	line "NYOROBON!"
 
-	para "みずのいしを　あてたら"
-	line "ニョロゾ　が　しんか　したよ"
+	para "USING WATER STONE"
+	line "EVOLVED NYOROZO"
+	cont "INTO HIM!"
 	done
 
 CeladonCityPoliwrathText:
-	text "ニョロボン『ゲロゲーロ！@"
+	text "NYOROBON:「CROAK"
+	line "CROAK!」@"
 	text_asm
 	ld a, POLIWRATH
 	call PlayCry
 	jp TextScriptEnd
 
 CeladonCityRocket1Text:
-	text "なんだ　ジロジロ　みやがって！"
-	line "あっち　いかねえと　ぶんなぐるぞ！"
+	text "WHAT ARE YOU"
+	line "STARING AT?!"
+
+	para "CLEAR OUT OR I"
+	line "WILL PUNCH YOU!"
 	done
 
 CeladonCityRocket2Text:
-	text "めの　まえを　チョロチョロうるせえ！"
-	line "ロケットだんを　なめるなよ！"
+	text "STOP SNOOPING"
+	line "BEFORE MY EYES!"
+
+	para "NEVER MOCK THE"
+	line "ROCKET GANG!"
 	done
 
 CeladonCityTrainerTips1Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "⋯TRAINER TIPS!"
 
-	para "ヨクアタールは　わざの"
-	line "めいちゅう　りつ　を　あげる！"
+	para "X ACCURACY RAISES"
+	line "MOVE ACCURACY!"
 
-	para "クリティカッターは　わざが"
-	line "きゅうしょに　あたり　やすくなる"
+	para "DIRE HIT RAISES"
+	line "CRITICAL RATE!"
 
-	para "アイテムの　おかいもとめは"
-	line "タマムシ　デパートで　どうぞ！"
+	para "BUY ITEMS AT"
+	line "TAMAMUSHI DEPT"
+	cont "STORE!"
 	done
 
 CeladonCitySignText:
-	text "ここは　タマムシ　シティ"
-	line "タマムシ　にじいろ　ゆめの　いろ"
+	text "TAMAMUSHI CITY"
+	line "RAINBOW COLORED"
+	cont "CITY OF DREAMS!"
 	done
 
 CeladonCityGymSignText:
-	text "タマムシ　シティ　#　ジム"
-	line "リーダー　エリカ"
-	cont "しぜんを　あいする　おじょうさま！"
+	text "TAMAMUSHI # GYM"
+	line "LEADER: ERIKA"
+	cont "THE NATURE-LOVING"
+	cont "YOUNG LADY!"
 	done
 
 CeladonCityMansionSignText:
-	text "タマムシ　マンション"
+	text "TAMAMUSHI MANSION"
 	done
 
 CeladonCityDeptStoreSignText:
-	text "ほしいもの　きっと　みつかる！"
-	line "タマムシ　デパート"
+	text "FIND EVERYTHING"
+	line "YOU DESIRE!"
+	cont "TAMAMUSHI DEPT"
+	cont "STORE"
 	done
 
 CeladonCityTrainerTips2Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "⋯TRAINER TIPS!"
 
-	para "エフェクトガードは"
-	line "ほのお　や　みず　でんき　など"
+	para "GUARD SPEC."
+	line "PROTECTS # FROM"
+	cont "SPECIAL ATTACKS"
+	cont "LIKE FIRE· WATER"
+	cont "AND ELECTRIC!"
 
-	para "とくしゅな　こうげき　から"
-	line "#を　まもって　くれる！"
-
-	para "アイテムの　おかいもとめは"
-	line "タマムシ　デパートで　どうぞ！"
+	para "BUY ITEMS AT"
+	line "TAMAMUSHI DEPT"
+	cont "STORE!"
 	done
 
 CeladonCityPrizeExchangeSignText:
-	text "コインを　ビッグな　けいひんに！"
-	line "<⋯>　けいひん　こうかんじょ"
+	text "TRADE COINS FOR"
+	line "BIG PRIZES!"
+	cont "⋯PRIZE EXCHANGE"
 	done
 
 CeladonCityGameCornerSignText:
-	text "おとなの　あそびば！"
-	line "<⋯>　ロケット·　ゲーム　コーナー"
+	text "PLAYGROUND FOR"
+	line "ADULTS!"
+	cont "⋯ROCKET GAME"
+	cont "CORNER"
 	done

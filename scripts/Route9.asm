@@ -87,146 +87,162 @@ Route9TalkToTrainer:
 	jp TextScriptEnd
 
 Route9CooltrainerF1BattleText:
-	text "あら　#　もってるわね"
-	line "<⋯>　カモ　だわ！"
+	text "OH· YOU HAVE #"
+	line "<⋯>EASY TARGET"
+	cont "『KAMO』 SITTING"
+	cont "DUCK!"
 	done
 
 Route9CooltrainerF1EndBattleText:
-	text "あら？　つよいわね"
+	text "OH? YOU ARE"
+	line "QUITE STRONG!"
 	prompt
 
 Route9CooltrainerF1AfterBattleText:
-	text "この　さきの　トンネル"
-	line "なかは　まっくら　だから"
-	cont "あかりが　ないと　すすめ　ないわ"
+	text "TUNNEL AHEAD IS"
+	line "PITCH DARK· CANT"
+	cont "ADVANCE WITHOUT"
+	cont "A LIGHT!"
 	done
 
 Route9CooltrainerM1BattleText:
-	text "だれだ？"
-	line "よさげな　#　もって"
-	cont "ふらふら　あるいとる　おまえは？"
+	text "WHO IS YOU?"
+	line "WANDERING WITH"
+	cont "GOOD-LOOKING #?"
 	done
 
 Route9CooltrainerM1EndBattleText:
-	text "まけよった"
+	text "I LOST BADLY!"
 	prompt
 
 Route9CooltrainerM1AfterBattleText:
-	text "くやしくて　なみだも　でん"
+	text "SO BITTER EVEN"
+	line "NO TEARS COME!"
 	done
 
 Route9CooltrainerM2BattleText:
-	text "イワヤマ　トンネル　ぬけて"
-	line "シオン　タウンに"
-	cont "いく　ところ　なんだ　けど<⋯>"
+	text "I WAS HEADING"
+	line "TO SHION TOWN"
+	cont "THROUGH ROCK"
+	cont "TUNNEL BUT<⋯>"
 	done
 
 Route9CooltrainerM2EndBattleText:
-	text "どうも　だめだな"
+	text "NO GOOD FOR ME!"
 	prompt
 
 Route9CooltrainerM2AfterBattleText:
-	text "なんだい　きみも"
-	line "イワヤマ　トンネル　いくのか"
+	text "WHAT? ARE YOU"
+	line "GOING TO ROCK"
+	cont "TUNNEL TOO?"
 	done
 
 Route9CooltrainerF2BattleText:
-	text "おんなのこ　だからって"
-	line "てかげんは　なしね！"
+	text "DONT GO EASY ON"
+	line "ME JUST CAUSE"
+	cont "I AM A GIRL!"
 	done
 
 Route9CooltrainerF2EndBattleText:
-	text "だめ！　かなわないわ"
+	text "NO! CANT MATCH"
+	line "YOUR POWER!"
 	prompt
 
 Route9CooltrainerF2AfterBattleText:
-	text "あなた　きっと"
-	line "#の　さいのう　あるのよ"
-	cont "がんばってね！"
+	text "YOU SURELY HAVE"
+	line "# 『SAINOU』"
+	cont "TALENT! DO YOUR"
+	cont "BEST!"
 	done
 
 Route9Hiker1BattleText:
-	text "がはは！"
-	line "ちょうど　いい！"
-	cont "たいくつ　してた　とこだ"
+	text "GAHAHA! PERFECT!"
+	line "I WAS SO BORED!"
 	done
 
 Route9Hiker1EndBattleText:
-	text "まだまだ！"
-	line "<⋯>　と　おもったら"
-	cont "もう　#が　ない"
+	text "NOT YET<⋯> WAIT!"
+	line "OUT OF #!"
 	prompt
 
 Route9Hiker1AfterBattleText:
-	text "やまおとこに"
-	line "びびらずに　たたかうとは"
-	cont "たいした　もんだ！"
+	text "NOT SCARED OF A"
+	line "MOUNTAIN MAN"
+	cont "『YAMA OTOKO』!"
+	cont "IMPRESSIVE!"
 	done
 
 Route9Hiker2BattleText:
-	text "はーっはっはッ！"
-	line "げんきな　ぼうず　だ！"
-	cont "いっちょう　やったるか！"
+	text "HA-HATTA! WHAT A"
+	line "LIVELY BOY! TIME"
+	cont "FOR A CLASH!"
 	done
 
 Route9Hiker2EndBattleText:
-	text "おっとっと！"
+	text "WHOA-TTO-TTO!"
 	prompt
 
 Route9Hiker2AfterBattleText:
-	text "はーっはっはッ！"
-	line "げんきで　けっこう！"
+	text "HA-HATTA! LIVELY"
+	line "IS VERY GOOD!"
 	done
 
 Route9Youngster1BattleText:
-	text "まいあさ　はやおき　して"
-	line "そだてた　さなぎが！"
-	cont "やっと　かえったんだ！"
+	text "WOKE UP EARLY"
+	line "EVERY MORN TO"
+	cont "RAISE CHRYSALIS!"
+
+	para "IT FINALLY"
+	line "EMERGED!"
 	done
 
 Route9Youngster1EndBattleText:
-	text "えーッ！"
-
-	para "ぼくの　はやおきは"
-	line "いったい　なんだったんだあ"
+	text "WHAT! WHAT WAS"
+	line "ALL MY EARLY"
+	cont "RISING FOR?!"
 	prompt
 
 Route9Youngster1AfterBattleText:
-	text "つよく　なるには　むし　#の"
-	line "ほかも　さがさないと　ダメ　だな"
+	text "TO GET STRONGER·"
+	line "MUST FIND OTHER"
+	cont "THAN BUG #!"
 	done
 
 Route9Hiker3BattleText:
-	text "はっはっはーッ！"
-	line "かかって　こーい！"
+	text "HA-HAHA! BRING"
+	line "IT ON!"
 	done
 
 Route9Hiker3EndBattleText:
-	text "はーっはっはッ！"
-	line "ありゃ　まけた　ようだな"
+	text "HA-HAHA! LOOKS"
+	line "LIKE I LOST!"
 	prompt
 
 Route9Hiker3AfterBattleText:
-	text "はっはっはーッ！"
-	line "やまおとこは　こころが　ひろいから"
-	cont "まけても　わらってるのだ！"
+	text "HA-HAHA! HIKERS"
+	line "HAVE BIG HEARTS!"
+	cont "WE LAUGH EVEN"
+	cont "IN DEFEAT!"
 	done
 
 Route9Youngster2BattleText:
-	text "おいらの　かわいい　むし　ポケ！"
-	line "それいけー！"
+	text "MY CUTE BUG POKE!"
+	line "GO GET EM!"
 	done
 
 Route9Youngster2EndBattleText:
-	text "おいらの　むし<⋯>"
+	text "MY BUGS<⋯>"
 	prompt
 
 Route9Youngster2AfterBattleText:
-	text "むし　#の　よさが"
-	line "わからない　やつは　むし！"
+	text "THOSE WHO DONT"
+	line "GET BUG # CHARM·"
+	cont "I WILL 『MUSHI』"
+	cont "IGNORE THEM!"
 	done
 
 Route9SignText:
-	text "ここは　９ばん　どうろ"
-	line "ハナダ　<⋯>　イワヤマ　トンネル"
+	text "ROUTE 9"
+	line "HANADA <⋯> ROCK"
+	cont "MOUNTAIN TUNNEL"
 	done

@@ -10,20 +10,24 @@ CeladonMart2F_TextPointers:
 	dw_const CeladonMart2FCurrentFloorSignText, TEXT_CELADONMART2F_CURRENT_FLOOR_SIGN
 
 CeladonMart2FMiddleAgedManText:
-	text "シルバースプレーは　よわい"
-	line "#が　とびでて　こなくなる"
+	text "SUPER REPEL"
+	line "KEEPS WEAK #"
+	cont "FROM APPEARING!"
 
-	para "ほう！　むしよけスプレーの"
-	line "きょうりょくな　やつだな"
+	para "HO! A STRONGER"
+	line "VERSION OF REPEL"
+	cont "SPRAY INDEED!"
 	done
 
 CeladonMart2FGirlText:
-	text "とおで　するなら"
-	line "げんきのかけらは"
-	cont "かっといた　ほうが　いいわ"
+	text "FOR A LONG TRIP·"
+	line "YOU HAD BETTER"
+	cont "BUY REVIVES!"
 	done
 
 CeladonMart2FCurrentFloorSignText:
-	text "<TRAINER>グッズが　いっぱい！"
-	line "２かい<⋯><TRAINER>ズ·マーケット"
+	text "LOTS OF <TRAINER>"
+	line "ITEMS AND GEAR!"
+
+	para "2F: <TRAINER> SHOP"
 	done

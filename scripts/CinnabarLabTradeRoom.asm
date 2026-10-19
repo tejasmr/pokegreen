@@ -8,12 +8,13 @@ CinnabarLabTradeRoom_TextPointers:
 	dw_const CinnabarLabTradeRoomBeautyText,    TEXT_CINNABARLABTRADEROOM_BEAUTY
 
 CinnabarLabTradeRoomSuperNerdText:
-	text "ぼく　おつきみやまで"
-	line "カセキを　みつけましてねー！"
+	text "I FOUND A FOSSIL"
+	line "AT OTSUKIMI MT!"
 
-	para "どうやら　めずらしい"
-	line "#の　カセキ　らしいんですよ"
+	para "IT SEEMS TO BE A"
+	line "RARE # FOSSIL!"
 	done
+
 
 CinnabarLabTradeRoomGrampsText:
 	text_asm

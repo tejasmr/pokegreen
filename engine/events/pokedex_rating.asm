@@ -52,17 +52,17 @@ DisplayDexRating:
 	ret
 
 DexCompletionText:
-	text "<⋯>　<⋯>　#ずかんの"
-	line "げんざいの　かんせいど　は<⋯>"
+	text "<⋯>CURRENT #DEX"
+	line "COMPLETION IS<⋯>"
 
-	para "みつけた　#　@"
+	para "SEEN #:@"
 	text_decimal hDexRatingNumMonsSeen, 1, 3
 	text "！"
-	line "つかまえた　#　@"
+	line "OWNED #:@"
 	text_decimal hDexRatingNumMonsOwned, 1, 3
 	text "！"
 
-	para "オーキドはかせの　ひょうか<⋯>"
+	para "PROF.OAK RATING<⋯>"
 	prompt
 
 DexRatingsTable:
@@ -84,86 +84,105 @@ DexRatingsTable:
 	dbw NUM_POKEMON + 1, DexRatingText_Own150To151
 
 DexRatingText_Own0To9:
-	text "まだまだ<⋯>　これからだ"
-	line "あちこちの　くさむらに　はいって"
-	cont "#を　つかまえるのじゃ！"
+	text "STILL MADA-MADA<⋯>"
+	line "ENTER TALL GRASS"
+	cont "AND CATCH MORE #！"
 	done
 
 DexRatingText_Own10To19:
-	text "どうにか　ちょうしが　でてきたな！"
-	line "じょしゅに　フラッシュを"
-	cont "もたせたぞ！　もらって　くれい！"
+	text "GETTING IN RHYTHM"
+	line "CHOU-SHI II NE！"
+	cont "MY JOSHU AIDE HAS"
+	cont "FLASH！ GO GET IT！"
 	done
 
 DexRatingText_Own20To29:
-	text "#ずかんに　しては　まだ"
-	line "ボリュームが　たりん！　いろいろな"
-	cont "しゅるいの　#を　とるのじゃ！"
+	text "STILL LACKS SOME"
+	line "VOLUME TARIN！"
+	cont "CATCH DIFFERENT"
+	cont "KINDS OF # MONS！"
 	done
 
 DexRatingText_Own30To39:
-	text "ふむ<⋯>　がんばってるな！"
-	line "じょしゅに　ダウジングマシンを"
-	cont "もたせたぞ！　もらって　くれい！"
+	text "FUMU<⋯>GANBATTERU！"
+	line "TRYING HARD NE！"
+	cont "MY JOSHU AIDE HAS"
+	cont "AN ITEMFINDER！"
 	done
 
 DexRatingText_Own40To49:
-	text "いい　できばえ　じゃないか！"
-	line "じょしゅに　がくしゅうそうちを"
-	cont "もたせたぞ！　もらって　くれい！"
+	text "II DEKIBAE NE！"
+	line "LOOKING SO GOOD！"
+	cont "MY JOSHU AIDE HAS"
+	cont "AN EXP.ALL FOR U！"
 	done
 
 DexRatingText_Own50To59:
-	text "ついに　５０しゅるいを　こえたか！"
-	line "<⋯>　この　ちょうし　じゃ！"
+	text "FINALLY EXCEEDED"
+	line "50 SPECIES！"
+	cont "KONO CHOUSHI JA！"
+	cont "KEEP IT UP！"
 	done
 
 DexRatingText_Own60To69:
-	text "ほっほう！　<⋯>　こりゃ　いい"
-	line "#ずかんに　なって　きとる！"
+	text "HO HO-！ THIS IS"
+	line "TURNING INTO A"
+	cont "FINE #DEX！"
 	done
 
 DexRatingText_Own70To79:
-	text "ぜっこうちょう！　うみで　#"
-	line "つれば　もっと　あつまり　そうじゃ！"
+	text "ZEKKOUCHOU PEAK！"
+	line "FISH MONS IN THE"
+	cont "SEA TO GET MORE！"
 	done
 
 DexRatingText_Own80To89:
-	text "ワンダフル！　もしかして　きみは"
-	line "ものを　あつめるの　すきなのか<⋯>？"
+	text "WONDERFUL SUGOI！"
+	line "DO YOU LIKE TO"
+	cont "COLLECT THINGS<⋯>？"
 	done
 
 DexRatingText_Own90To99:
-	text "いやはや<⋯>　こりゃ　すごい！"
-	line "あつめるのは　たいへん　だったろ！"
+	text "IYAHAYA<⋯>SUGOI！"
+	line "IT WAS TAIHEN"
+	cont "HARD WORK RIGHT！"
 	done
 
 DexRatingText_Own100To109:
-	text "とうとう　１００しゅるい　こえたか！"
-	line "<⋯>　しんじられない　うでまえじゃ！"
+	text "AT LAST OVER 100"
+	line "MON SPECIES！"
+	cont "<⋯>UNBELIEVABLE"
+	cont "UDEMAE SKILL JA！"
 	done
 
 DexRatingText_Own110To119:
-	text "#の　しんか　けいたいも"
-	line "はいって　きとる<⋯>　すばらしい！"
+	text "EVOLVED SHINKA"
+	line "# ARE INCLUDED<⋯>"
+	cont "SUBARASHII GREAT！"
 	done
 
 DexRatingText_Own120To129:
-	text "エクセレント！　ともだちと　こうかん"
-	line "すると　もっと　あつまる　かもしれん"
+	text "EXCELLENT！ TRADE"
+	line "KOUKAN WITH PALS"
+	cont "TO GET EVEN MORE！"
 	done
 
 DexRatingText_Own130To139:
-	text "ここまで　ずかんが　できたら"
-	line "もはや　プロフェッショナル　じゃ！"
+	text "DEX IS THIS FAR·"
+	line "YOU ARE ALREADY A"
+	cont "PROFESSIONAL JA！"
 	done
 
 DexRatingText_Own140To149:
-	text "わしゃ　もう　いうことは　ない！"
-	line "きみが　#はかせ　じゃ！"
+	text "I HAVE NOTHING"
+	line "LEFT TO SAY！"
+	cont "YOU ARE THE #"
+	cont "HAKASE PROFESSOR！"
 	done
 
 DexRatingText_Own150To151:
-	text "ついに　パーフェクトな　ずかんの"
-	line "かんせいじゃ！　<⋯>　おめでとう！"
+	text "PERFECT #DEX IS"
+	line "KANSEI COMPLETE！"
+	cont "<⋯>OMEDETOU！"
+	cont "CONGRATULATIONS！"
 	done

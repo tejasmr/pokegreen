@@ -6,9 +6,12 @@ SSAnne3F_TextPointers:
 	dw_const SSAnne3FSailorText, TEXT_SSANNE3F_SAILOR
 
 SSAnne3FSailorText:
-	text "せんちょうは　けんの　たつじん"
-	line "いあいぎりが　とくい！"
+	text "THE CAPTAIN IS A"
+	line "SWORD MASTER!"
+	cont "GOOD AT 『IAIGIRI』"
+	cont "THAT IS CUT!"
 
-	para "#にも　その　わざを"
-	line "おしえるって　いうぜ！"
+	para "THEY SAY HE CAN"
+	line "TEACH THAT MOVE"
+	cont "TO # TOO!"
 	done

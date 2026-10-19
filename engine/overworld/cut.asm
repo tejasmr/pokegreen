@@ -22,8 +22,7 @@ UsedCut:
 	jp PrintText
 
 .NothingToCutText
-	text "いあいぎりで"
-	line "きれそうな　ものが　ありません！"
+	text "NOTHING TO CUT！"
 	prompt
 
 .canCut
@@ -70,8 +69,8 @@ UsedCut:
 
 UsedCutText:
 	text_ram wNameBuffer
-	text "は"
-	line "いあいぎりで　きりまくった！"
+	text_start
+	line "HACKED WITH CUT！"
 	prompt
 
 InitCutAnimOAM:

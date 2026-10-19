@@ -13,24 +13,25 @@ CinnabarPokecenterNurseText:
 	script_pokecenter_nurse
 
 CinnabarPokecenterCooltrainerFText:
-	text "しんか　キャンセル　つかってる？"
+	text "DO YOU USE EVOLVE"
+	line "CANCEL B-BUTTON?"
 
-	para "しんか　しようと　するのを"
-	line "とちゅうで　やめさせて"
-	cont "そのままの　かたちで"
-	cont "そだてる　テクニックよ"
+	para "STOP EVOLUTION"
+	line "MIDWAY TO RAISE"
+	cont "IN ORIGINAL FORM!"
 	done
 
 CinnabarPokecenterGentlemanText:
-	text "きみには　ともだちは　いるかな？"
+	text "DO YOU HAVE MANY"
+	line "GOOD FRIENDS?"
 
-	para "ともだちと　こうかんして"
-	line "もらった　#は"
-	cont "とても　はやく　そだつと　いう"
+	para "TRADED # GROW"
+	line "MUCH FASTER!"
 
-	para "ためして　みる　かちは"
-	line "あると　おもうがね"
+	para "IT IS VERY MUCH"
+	line "WORTH TRYING!"
 	done
+
 
 CinnabarPokecenterLinkReceptionistText:
 	script_cable_club_receptionist

@@ -29,6 +29,7 @@ VARIABLE_LENGTHS = {
     "№": 1,
     "<⋯>": 2,
     "⋯": 1,
+    "@": 0,
 }
 
 # Unmapped characters and their recommended automatic substitutions
@@ -54,7 +55,7 @@ def calculate_rendered_length(text: str) -> int:
     temp = text
     length = 0
     # Find all tokens like <PLAYER>, <RIVAL>, etc.
-    tokens = re.findall(r'<[^>]+>|#|№|⋯', temp)
+    tokens = re.findall(r'<[^>]+>|#|№|⋯|@', temp)
     for t in tokens:
         exp_len = VARIABLE_LENGTHS.get(t, 1)
         length += exp_len

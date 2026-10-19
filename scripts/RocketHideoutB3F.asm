@@ -144,20 +144,24 @@ RocketHideoutB3FRocket1Text:
 	jp TextScriptEnd
 
 RocketHideoutB3FRocket1BattleText:
-	text "あまり　<ROCKET>の"
-	line "じゃまを　しない　ほうが"
-	cont "みの　ため　だぜ！"
+	text "MEDDLING WITH"
+	line "<ROCKET> WILL"
+	cont "BE BAD FOR YOUR"
+	cont "HEALTH KID!"
 	done
 
 RocketHideoutB3FRocket1EndBattleText:
-	text "くッ　やられた！"
+	text "UGH! BEATEN!"
 	prompt
 
 RocketHideoutB3FRocket1AfterBattleText:
-	text "<⋯>　シルフスコープ？　ああ！"
-	line "ボスが　シルフ　カンパニーで"
-	cont "ぬすんで　きた　マシンの　ことか！"
-	cont "<⋯>　どこかに　ある　はず　だぜ"
+	text "⋯SILPH SCOPE? AH!"
+	line "THAT MACHINE BOSS"
+	cont "STOLE FROM SILPH"
+	cont "COMPANY!"
+
+	para "⋯MUST BE LYING"
+	line "AROUND SOMEWHERE!"
 	done
 
 RocketHideoutB3FRocket2Text:
@@ -167,17 +171,18 @@ RocketHideoutB3FRocket2Text:
 	jp TextScriptEnd
 
 RocketHideoutB3FRocket2BattleText:
-	text "<⋯>　きたな？"
-	line "うえの　フロア　から"
-	cont "れんらくが　きてるぜ！"
+	text "⋯SO YOU CAME!"
+	line "WE GOT WORD FROM"
+	cont "THE UPPER FLOOR!"
 	done
 
 RocketHideoutB3FRocket2EndBattleText:
-	text "まけた<⋯>　ばかな！"
+	text "I LOST⋯ NO WAY!"
 	prompt
 
 RocketHideoutB3FRocket2AfterBattleText:
-	text "いく　なら　いって　みろ！"
-	line "しかし　エレベータは"
-	cont "カギが　ないと　つかえないぜ！"
+	text "GO AHEAD IF DARE!"
+	line "BUT YOU CANNOT"
+	cont "RIDE ELEVATOR"
+	cont "WITHOUT LIFT KEY!"
 	done

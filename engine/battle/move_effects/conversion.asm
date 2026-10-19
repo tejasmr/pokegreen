@@ -24,8 +24,8 @@ ConversionEffect_:
 	jp PrintText
 
 ConvertedTypeText:
-	text "<TARGET>の　ぞくせいを"
-	line "じぶんに　はりつけた！"
+	text "COPIED TYPE OF"
+	line "<TARGET>！"
 	prompt
 
 PrintButItFailedText:

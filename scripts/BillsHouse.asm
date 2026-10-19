@@ -148,38 +148,38 @@ BillsHouseBillPokemonText:
 	jp TextScriptEnd
 
 .ImNotAPokemonText:
-	text "こんちわ！"
-	line "ぼく　#<⋯>！"
-	cont "<⋯>　ちゃうわい！"
+	text "HIYA! I AM A"
+	line "# MON<⋯>!"
+	cont "<⋯>『CHAU WAI』!"
+	cont "NOT AT ALL!"
 
-	para "わいは　マサキ！"
-	line "ひと　よんで　#マニアや！"
-	cont "あッ　なんや　そのめは？"
-	cont "あんさん　しんよう　してへんな"
+	para "I AM MASAKI BILL!"
+	line "CALL ME # MANIA!"
+	cont "WHAT IS WITH"
+	cont "THAT LOOK?"
+	cont "DONT TRUST ME?"
 
-	para "ホントやで！"
-	line "じっけんに　しっぱい　して"
-	cont "#と　くっついて　もうたんや"
+	para "ITS TRUE! FAILED"
+	line "EXPERIMENT AND"
+	cont "FUSED WITH A MON!"
 
-	para "なッ！"
-	line "たすけて　くれへん？"
+	para "HEY! WONT YOU"
+	line "PLEASE HELP ME?"
 	done
 
 .UseSeparationSystemText:
-	text "わいが"
-	line "てんそう　マシンに　はいるさかい"
-	cont "ぶんり　プログラムを　たのむで！"
-	cont "そうや　そこの　<PC>や！"
+	text "I ENTER TELEPORT"
+	line "MACHINE SO RUN"
+	cont "CELL SEPARATOR"
+	cont "PROGRAM ON <PC>!"
 	done
 
 .NoYouGottaHelpText:
-	text "そんなあ<⋯>"
-	line "つめたい　こと　いわんといて"
-	cont "よッ<⋯>　いろおとこ！"
-	cont "にくいねーッ"
-	cont "だいとうりょう！"
-	cont "ほな！　オッケー　やな！"
-	cont "きまりや！"
+	text "NO WAY<⋯> DONT"
+	line "BE SO COLD!"
+	cont "HEY YOU HANDSOME!"
+	cont "BIG PRESIDENT!"
+	cont "ALRIGHT! SETTLED!"
 	prompt
 
 BillsHouseBillSSTicketText:
@@ -211,41 +211,43 @@ BillsHouseBillSSTicketText:
 	jp TextScriptEnd
 
 .ThankYouText:
-	text "マサキ『やあー！"
-	line "おおきに　おおきに　たすかったわ！"
+	text "MASAKI『YAAAY!"
+	line "『OOKINI』! THANKS!"
+	cont "YOU SAVED ME SO!"
 
-	para "で<⋯>　あんさん！"
-	line "わての　#　コレクション"
-	cont "みに　きたの　ちゃうんか？"
-	cont "なんや　おもろないなー"
-	cont "ああ　そや！"
+	para "DID YOU COME TO"
+	line "SEE MY # MONS"
+	cont "COLLECTION?"
+	cont "NOT INTERESTED?"
+	cont "AH THATS RIGHT!"
 
-	para "おれい　っちゅーのも"
-	line "なんやけど<⋯>　これ　やるわ！"
+	para "AS THANKS TAKE"
+	line "THIS TICKET!』"
 	prompt
 
 .SSTicketReceivedText:
-	text "<PLAYER>は　マサキから"
-	line "@"
+	text "<PLAYER> RECEIVED"
+	line "A @"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!@"
 	sound_get_key_item
 	text_promptbutton
 	text_end
 
 .SSTicketNoRoomText:
-	text "にもつ　いっぱいで　もてへんよ"
+	text "BAG IS TOO FULL!"
 	done
 
 .WhyDontYouGoInsteadOfMeText:
-	text "いま　クチバの　みなとに"
-	line "サントアンヌ　ごうが　きとんのや"
-	cont "#　<TRAINER>も"
-	cont "ぎょうさん　くる　らしいで"
+	text "S·S·ANNE IS IN"
+	line "KUCHIBA PORT NOW!"
+	cont "『GYOUSAN』 MANY"
+	cont "<TRAINER>S ARRIVE!"
 
-	para "チケット　もろたのは　ええんやけど"
-	line "パーティとか　すきや　ないからな"
-	cont "かわりに　いって　あそんでえな"
+	para "GOT TICKET BUT I"
+	line "HATE PARTIES!"
+	cont "GO HAVE FUN IN"
+	cont "MY PLACE!"
 	done
 
 BillsHouseBillCheckOutMyRarePokemonText:
@@ -255,9 +257,10 @@ BillsHouseBillCheckOutMyRarePokemonText:
 	jp TextScriptEnd
 
 .Text:
-	text "マサキ『そや！"
+	text "MASAKI『RIGHT!"
 
-	para "わての　#　コレクション"
-	line "ちびっと　だけ　みせたろか？"
-	cont "わての　<PC>　みてみぃ"
+	para "WANT TO SEE A"
+	line "『CHIBITTO』 BIT"
+	cont "OF MY RARE MONS?"
+	cont "CHECK MY <PC>!』"
 	done

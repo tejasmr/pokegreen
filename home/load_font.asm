@@ -23,18 +23,12 @@ LoadTextBoxTilePatterns::
 	ld de, vChars2 tile $60
 	ld bc, TextBoxGraphicsEnd - TextBoxGraphics
 	ld a, BANK(TextBoxGraphics)
-	call FarCopyData2 ; if LCD is off, transfer all at once
-	jr .loadExtra2
+	jp FarCopyData2 ; if LCD is off, transfer all at once
 .on
 	ld de, TextBoxGraphics
 	ld hl, vChars2 tile $60
 	lb bc, BANK(TextBoxGraphics), (TextBoxGraphicsEnd - TextBoxGraphics) / TILE_SIZE
-	call CopyVideoData ; if LCD is on, transfer during V-blank
-.loadExtra2
-	ld a, BANK(LoadFontExtra2Tiles)
-	call BankswitchHome
-	call LoadFontExtra2Tiles
-	jp BankswitchBack
+	jp CopyVideoData ; if LCD is on, transfer during V-blank
 
 LoadHpBarAndStatusTilePatterns::
 	ldh a, [rLCDC]

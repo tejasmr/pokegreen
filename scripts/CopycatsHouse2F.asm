@@ -45,83 +45,86 @@ CopycatsHouse2FCopycatText:
 	jp TextScriptEnd
 
 .DoYouLikePokemonText:
-	text "<PLAYER>『やあ！　こんにちは！"
-	line "きみ　#　すきかい？"
+	text "<PLAYER>『HIYA!"
+	line "DO YOU LIKE PETS?"
 
-	para "<PLAYER>『ぼく　じゃなくって"
-	line "きみに　きいてるんだ　けど"
+	para "<PLAYER>『NOT ME!"
+	line "ASKING YOU!"
 
-	para "<PLAYER>『<⋯>　えー　なんだよ！"
-	line "ヘンな　やつ　だなあ！"
+	para "<PLAYER>『WHAT?!"
+	line "YOU ARE WEIRD!"
 
-	para "モノマネむすめ『<⋯>　なに？"
-	line "ひとの　マネ　すんなって？"
+	para "COPYCAT: ⋯WHAT?"
+	line "DONT MIMIC YOU?"
 
-	para "だって　あたし　"
-	line "ものまね　しゅみ　なんだ　もん！"
+	para "BUT MIMIC IS MY"
+	line "FAVORITE HOBBY!"
 	prompt
 
 .TM31PreReceiveText:
-	text "わあー！"
-	line "ピッピにんぎょう　くれるのー！"
+	text "WAAAH! GIVING ME"
+	line "PIPPI DOLL?!"
 
-	para "うれしーい！"
+	para "SO GLAD! URESHII!"
 
-	para "<⋯>　じゃあねー！"
-	line "わたし　からは　これ　あげるー！"
+	para "⋯THEN SEE! I GIVE"
+	line "THIS TO YOU!"
 	prompt
 
 .ReceivedTM31Text:
-	text "<PLAYER>は　むすめさんから"
+	text "<PLAYER> RECEIVED"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!@"
 	sound_get_item_1
 	text_start
 
-	para "<TM>３１の　なかは"
-	line "わたしの　だいすきな　ものまね！"
+	para "<TM>31 CONTAINS MY"
+	line "FAVORITE MIMIC!"
 
-	para "あなたの　すきな　#に"
-	line "つかって　あげて！@"
+	para "TEACH IT TO YOUR"
+	line "FAVORITE PET!@"
 	text_waitbutton
 	text_end
 
 .TM31ExplanationText:
-	text "<PLAYER>『やあ！　さっきは"
-	line "<TM>　ありがとう！"
+	text "<PLAYER>『THANKS"
+	line "FOR <TM> EARLIER!"
 
-	para "<PLAYER>『<⋯>　なーに？"
+	para "<PLAYER>『⋯WHAT?"
 
-	para "<PLAYER>『ぼくの　まね　して"
-	line "そんなに　たのしい　かい？"
+	para "<PLAYER>『IS IT"
+	line "THAT FUN TO COPY"
+	cont "WHAT I SAY?"
 
-	para "モノマネむすめ『うん<⋯>！"
-	line "とっても　たのしいー！"
+	para "COPYCAT: YEAH⋯!"
+	line "VERY MUCH FUN!"
 	done
 
 .TM31NoRoomText:
-	text "にもつが　いっぱいね！@"
+	text "PACK IS FULL!@"
 	text_waitbutton
 	text_end
 
 CopycatsHouse2FDoduoText:
-	text "ドードー『ギー　ギーッ！"
+	text "DODUO: 『GII GII!"
 
-	para "<⋯>　カガミ　ヨ　カガミ！"
-	line "セカイデ　イチバン　カワイイ"
-	cont "オンナノコハ　ダーレ？"
+	para "⋯MIRROR MIRROR!"
+	line "WHO IS CUTEST"
+	cont "GIRL IN WORLD?"
 	done
 
 CopycatsHouse2FRareDollText:
-	text "これは　めずらしい　#！？"
-	line "<⋯>　あれ？　ぬいぐるみ　だった"
+	text "IS THIS RARE PET?"
+	line "⋯HUH? JUST A"
+	cont "STUFFED DOLL!"
 	done
 
 CopycatsHouse2FSNESText:
-	text "これは<⋯>！"
-	line "マリオが　バケツを　かぶって"
-	cont "あるいて　いく　ゲームだ！"
+	text "THIS IS⋯ A GAME!"
+	line "MARIO WEARS"
+	cont "A BUCKET AND"
+	cont "WALKS FORWARD!"
 	done
 
 CopycatsHouse2FPCText:
@@ -136,16 +139,16 @@ CopycatsHouse2FPCText:
 	jp TextScriptEnd
 
 .MySecretsText:
-	text "<⋯>　<⋯>　<⋯>"
+	text "⋯⋯⋯"
 
-	para "わたしの　ひみつ<⋯>！"
+	para "MY SECRET⋯!"
 
-	para "とくいなもの　<⋯>　ものまね！"
-	line "しゅみ　<⋯>　ぬいぐるみ！"
-	cont "すきなもの　<⋯>　ピッピ！"
-	cont "<⋯>　<⋯>　<⋯>"
+	para "SKILL⋯ MIMIC!"
+	line "HOBBY⋯ DOLLS!"
+	cont "FAVORITE⋯ PIPPI!"
+	cont "⋯⋯⋯"
 	done
 
 .CantSeeText:
-	text "？　みえないぞ<⋯>"
+	text "? CANT SEE IT⋯"
 	done

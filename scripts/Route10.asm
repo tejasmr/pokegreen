@@ -42,19 +42,21 @@ Route10SuperNerd1Text:
 	jp TextScriptEnd
 
 Route10SuperNerd1BattleText:
-	text "こんな　とこ　まで　くる　とは"
-	line "きみも　マニア？　<⋯>　じゃ"
-	cont "ぼくの　コレクション　みる？"
+	text "COMING WAY OUT"
+	line "HERE· YOU A"
+	cont "『MANIA』 TOO?"
+	cont "WANT TO SEE MY"
+	cont "COLLECTION?"
 	done
 
 Route10SuperNerd1EndBattleText:
-	text "へーん<⋯>！"
-	line "くやしく　ないよ！"
+	text "HMPH<⋯>! I AM NOT"
+	line "SAD AT ALL!"
 	prompt
 
 Route10SuperNerd1AfterBattleText:
-	text "うちに　かえれば　もっと"
-	line "めずらしい　#　あるもん"
+	text "AT HOME I HAVE"
+	line "EVEN RARER #!"
 	done
 
 Route10Hiker1Text:
@@ -64,19 +66,20 @@ Route10Hiker1Text:
 	jp TextScriptEnd
 
 Route10Hiker1BattleText:
-	text "はーッ　はっはッ！"
+	text "HA-HA-HA-HA!"
 	done
 
 Route10Hiker1EndBattleText:
-	text "はッ！"
-	line "はーッ　ははッ<⋯>！　じつは<⋯>"
-	cont "わらい　キノコ　たべて　しまってな"
+	text "HAH! HA-HA-HA<⋯>!"
+	line "TRUTH IS<⋯> I ATE"
+	cont "『WARAI KINOKO』!"
+	cont "LAUGH MUSHROOM!"
 	prompt
 
 Route10Hiker1AfterBattleText:
-	text "はっはッ！"
-	line "はーッ　はっ　はッ！"
-	cont "<⋯>　はァ　はァ<⋯>"
+	text "HAHA! HA-HA-HA!"
+	line "<⋯>PANT PANT<⋯>"
+	cont "CANT STOP!"
 	done
 
 Route10SuperNerd2Text:
@@ -86,18 +89,19 @@ Route10SuperNerd2Text:
 	jp TextScriptEnd
 
 Route10SuperNerd2BattleText:
-	text "ねー　ねー！"
-	line "おたく　ぼくの　#　みる？"
+	text "HEY HEY! MISTER·"
+	line "WANT TO SEE MY"
+	cont "CUTE #?"
 	done
 
 Route10SuperNerd2EndBattleText:
-	text "ああー！"
-	line "だいじな　#　ちゃんが！"
+	text "AHH! MY PRECIOUS"
+	line "# BABIES!"
 	prompt
 
 Route10SuperNerd2AfterBattleText:
-	text "<⋯>　ぼく　より"
-	line "つよい　ヤツは　キライ　だもん"
+	text "<⋯>I HATE ANYONE"
+	line "STRONGER THAN ME"
 	done
 
 Route10CooltrainerF1Text:
@@ -107,20 +111,23 @@ Route10CooltrainerF1Text:
 	jp TextScriptEnd
 
 Route10CooltrainerF1BattleText:
-	text "わたしも　たまに"
-	line "#　ジムに　いくの！"
-	cont "<⋯>　<⋯>　まけちゃう　けどね"
+	text "I GO TO # GYM"
+	line "SOMETIMES TOO!"
+	cont "<⋯>LOSE EVERY"
+	cont "TIME THOUGH!"
 	done
 
 Route10CooltrainerF1EndBattleText:
-	text "もお<⋯>！"
-	line "とっくん　したのに"
+	text "MOO<⋯>! AND I"
+	line "DID SPECIAL"
+	cont "TRAINING TOO!"
 	prompt
 
 Route10CooltrainerF1AfterBattleText:
-	text "ねえ<⋯>！"
-	line "こんな　やま　みちに"
-	cont "マニアが　いる　のよ<⋯>　みた？"
+	text "HEY<⋯>! ON THIS"
+	line "MOUNTAIN ROAD·"
+	cont "MANIACS LURK!"
+	cont "DID YOU SEE?"
 	done
 
 Route10Hiker2Text:
@@ -130,18 +137,21 @@ Route10Hiker2Text:
 	jp TextScriptEnd
 
 Route10Hiker2BattleText:
-	text "すーはー　すーはー！"
-	line "やまの　くうきは　うまいッ！"
+	text "SUU-HAA SUU-HAA!"
+	line "DEEP BREATHS!"
+	cont "MOUNTAIN AIR IS"
+	cont "SO DELICIOUS!"
 	done
 
 Route10Hiker2EndBattleText:
-	text "すーはーッ！"
-	line "あー　まけたわい！"
+	text "SUU-HAA! AHH"
+	line "I LOST BADLY!"
 	prompt
 
 Route10Hiker2AfterBattleText:
-	text "やまの　くうき"
-	line "すい　すぎて　はらが　ふくれた！"
+	text "BREATHED TOO MUCH"
+	line "MOUNTAIN AIR· MY"
+	cont "BELLY IS FULL!"
 	done
 
 Route10CooltrainerF2Text:
@@ -151,27 +161,32 @@ Route10CooltrainerF2Text:
 	jp TextScriptEnd
 
 Route10CooltrainerF2BattleText:
-	text "はァ<⋯>！"
-	line "やまみち　ひさしぶりに　あるいて"
-	cont "ひんけつ　ぎみ　なの"
+	text "HAH<⋯>! WALKING"
+	line "MOUNTAIN PATH·"
+	cont "I FEEL ANEMIC!"
 	done
 
 Route10CooltrainerF2EndBattleText:
-	text "<⋯>　<⋯>　たいちょうが"
-	line "わるいから　しかた　ないわ"
+	text "<⋯>POOR HEALTH·"
+	line "CANT BE HELPED!"
 	prompt
 
 Route10CooltrainerF2AfterBattleText:
-	text "やまの　#って"
-	line "ごついの　ばっかり<⋯>"
-	cont "ピンクの　はながらの"
-	cont "#が　いれば　いいのに"
+	text "MOUNTAIN # ARE"
+	line "ALL SO RUGGED<⋯>"
+
+	para "I WISH THERE WAS"
+	line "A PINK # WITH"
+	cont "A FLORAL PATTERN"
 	done
 
 Route10RockTunnelSignText:
-	text "ここは　イワヤマ　トンネル"
+	text "ROCK MOUNTAIN"
+	line "TUNNEL"
 	done
 
 Route10PowerPlantSignText:
-	text "ここは　むじん　はつでんしょ"
+	text "ABANDONED POWER"
+	line "PLANT: 『MUJIN"
+	cont "HATSUDENSHO』"
 	done

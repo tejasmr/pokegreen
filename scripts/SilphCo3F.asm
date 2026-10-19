@@ -79,14 +79,15 @@ SilphCo3FSilphWorkerMText:
 	jp TextScriptEnd
 
 .WhatShouldIDoText:
-	text "ぼく　シルフ　カンパニーの"
-	line "しゃいんです<⋯>　おろおろ"
+	text "I AM EMPLOYEE OF"
+	line "SILPH⋯ SO AFRAID"
+	cont "ORO-ORO SHAKING!"
 	done
 
 .YouSavedUsText:
-	text "<PLAYER>くんと"
-	line "#の　おかげで"
-	cont "ほんと　たすかったよ"
+	text "THANKS TO PAL"
+	line "<PLAYER>-KUN AND"
+	cont "PETS· SAVED US!"
 	done
 
 SilphCo3FRocketText:
@@ -96,18 +97,20 @@ SilphCo3FRocketText:
 	jp TextScriptEnd
 
 SilphCo3FRocketBattleText:
-	text "おれたちの　じゃまを　する"
-	line "やつは　じゃま　なのだ！"
+	text "THOSE WHO IMPEDE"
+	line "OUR WAY BECOME"
+	cont "OBSTACLE! JAMA!"
 	done
 
 SilphCo3FRocketEndBattleText:
-	text "まいった！"
+	text "SURRENDER!"
 	prompt
 
 SilphCo3FRocketAfterBattleText:
-	text "<⋯>　では　ヒントだ！"
-	line "しまってる　ドアの　カギは"
-	cont "カード　キーで　あけられる"
+	text "⋯HERE IS HINT!"
+	line "LOCKED DOORS CAN"
+	cont "BE OPENED BY"
+	cont "THE CARD KEY!"
 	done
 
 SilphCo3FScientistText:
@@ -117,20 +120,20 @@ SilphCo3FScientistText:
 	jp TextScriptEnd
 
 SilphCo3FScientistBattleText:
-	text "わたしは"
-	line "シルフ　カンパニーより"
-	cont "<ROCKET>に　みかた　する！"
+	text "I SUPPORT THE"
+	line "<ROCKET> GANG"
+	cont "OVER SILPH CO.!"
 	done
 
 SilphCo3FScientistEndBattleText:
-	text "やるねえ！"
+	text "YOU ARE CAPABLE!"
 	prompt
 
 SilphCo3FScientistAfterBattleText:
-	text "<⋯>　なに"
+	text "⋯WELL WHAT?"
 
-	para "<ROCKET>の　れんちゅうが"
-	line "おもう　ぞんぶん"
-	cont "#の　けんきゅうを"
-	cont "させて　くれるって　いったんでね"
+	para "<ROCKET> SAID"
+	line "I COULD STUDY"
+	cont "PETS TO HEART"
+	cont "CONTENT!"
 	done

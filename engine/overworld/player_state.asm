@@ -246,7 +246,7 @@ SafariSteps:
 	db "／５００@"
 
 SafariBallText:
-	db "ボール　　　こ@"
+	db "BALL:  @"
 
 GetTileAndCoordsInFrontOfPlayer:
 	call GetPredefRegisters

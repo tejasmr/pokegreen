@@ -77,12 +77,12 @@ Route22GateGuardText:
 	jp TextScriptEnd
 
 Route22GateGuardNoBoulderbadgeText:
-	text "ここから　さきは"
-	line "ほんとうに　つよい"
-	cont "#<TRAINER>だけ　とおれます"
+	text "PAST HERE ONLY"
+	line "TRULY STRONG"
+	cont "# <TRAINER>S PASS!"
 
-	para "あなたは　まだ"
-	line "グレーバッジを　もって　ませんね！@"
+	para "YOU DO NOT HAVE"
+	line "BOULDER BADGE!@"
 	text_asm
 	ld a, SFX_DENIED
 	call PlaySoundWaitForCurrent
@@ -93,13 +93,17 @@ Route22GateGuardNoBoulderbadgeText:
 Route22GateGuardICantLetYouPassText:
 	text_start
 
-	para "きまり　ですから"
-	line "とおす　わけには　いきません！"
+	para "RULES ARE RULES!"
+	line "I CANT LET YOU"
+	cont "PASS THROUGH!"
 	done
 
 Route22GateGuardGoRightAheadText:
-	text "おおーッ！"
-	line "それは　たしかに　グレーバッジ！"
-	cont "どうぞ　とおって　ください！@"
+	text "OHHH-T! THAT IS"
+	line "INDEED THE TRUE"
+	cont "BOULDER BADGE!"
+
+	para "PLEASE GO RIGHT"
+	line "AHEAD AND PASS!@"
 	sound_get_item_1
 	text_end

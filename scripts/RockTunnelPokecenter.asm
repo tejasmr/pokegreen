@@ -13,14 +13,21 @@ RockTunnelPokecenterNurseText:
 	script_pokecenter_nurse
 
 RockTunnelPokecenterGentlemanText:
-	text "#は　タイプに　よって"
-	line "ゆうりに　たたかえる　あいてと"
-	cont "にがてな　あいてが　いるのだ"
+	text "DEPENDING ON"
+	line "TYPES· # HAVE"
+	cont "ADVANTAGE OVER"
+	cont "SOME AND WEAK"
+	cont "AGAINST OTHERS!"
 	done
 
 RockTunnelPokecenterFisherText:
-	text "つかいみち　ないから　きんのたまを"
-	line "うったら　５０００円で　うれた！"
+	text "NO USE FOR IT·"
+	line "SO I SOLD"
+	cont "『KIN NO TAMA』!"
+	cont "A GOLD NUGGET!"
+
+	para "IT SOLD FOR"
+	line "5000 YEN!"
 	done
 
 RockTunnelPokecenterLinkReceptionistText:

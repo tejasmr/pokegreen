@@ -22,10 +22,10 @@ VermilionGym_Script:
 	jp LoadGymLeaderAndCityName
 
 .CityName:
-	db "クチバ@"
+	db "KUCHIBA@"
 
 .LeaderName:
-	db "マチス@"
+	db "MATIS@"
 
 VermilionGymSetDoorTile:
 	CheckEvent EVENT_2ND_LOCK_OPENED
@@ -144,75 +144,92 @@ VermilionGymLTSurgeText:
 	jp TextScriptEnd
 
 .PreBattleText:
-	text "ヘーイ！"
-	line "プア　リトル　ボーイ！"
+	text "HEY! YOU POOR"
+	line "LITTLE BOY!"
 
-	para "ユーの　ハンパな　パワーでは"
-	line "せんじょうじゃ　いき　のこれないネ"
+	para "WITH HALF-BAKED"
+	line "POWER· YOU CANT"
+	cont "SURVIVE ON"
+	cont "『SENJOU』!"
 
-	para "ミーは　せんそうで"
-	line "エレクトリック　#　つかって"
-	cont "いき　のびたネ！"
+	para "THAT IS"
+	line "BATTLEFIELD!"
 
-	para "みんな　ビリビリ　シビレて"
-	line "うごけナーイ！"
+	para "ME USED ELECTRIC"
+	line "# IN WAR TO"
+	cont "SURVIVE· YES!"
 
-	para "ユーも　おなじ　みち　たどる"
-	line "ちがい　ナーイ！"
+	para "EVERYONE GOT"
+	line "『BIRIBIRI』!"
+	cont "NUMBED BY SHOCK·"
+	cont "CANT MOVE AT ALL!"
+
+	para "YOU WILL GO DOWN"
+	line "SAME ROAD FOR"
+	cont "SURE NO DOUBT!"
 	done
 
 .PostBattleAdviceText:
-	text "ヘイ！"
-	line "それから　ユーに　アドバイス！"
+	text "HEY! ADVICE"
+	line "FOR YOU!"
 
-	para "エレクトリック　パワー"
-	line "ビリビリ　つよいネー！"
+	para "ELECTRIC POWER"
+	line "IS 『BIRIBIRI』·"
+	cont "SHOCKING STRONG!"
 
-	para "でも　じめん　タイプには"
-	line "パワー　すいとられて　しまって"
-	cont "ぜんぜん　きかないヨー！"
+	para "BUT GROUND TYPE"
+	line "SUCKS POWER UP!"
+	cont "DOES NOT WORK"
+	cont "AT ALL!"
 	done
 
 VermilionGymLTSurgeThunderBadgeInfoText:
-	text "オレンジ　バッジ　もってる　だけで"
-	line "ユーの　#　スピード　アップ"
+	text "JUST HOLDING"
+	line "ORANGE BADGE"
+	cont "BOOSTS YOUR"
+	cont "# SPEED!"
 
-	para "アーンド！　そらをとぶ　わざは"
-	line "ファイト　ない　ときも"
-	cont "つかえる　ように　なるヨ！"
+	para "AND! FLY MOVE"
+	line "CAN BE USED OUT"
+	cont "OF FIGHT TOO!"
 
-	para "ユーは　スペシャル！"
-	line "これは　ミーの　きもちネ！"
+	para "YOU ARE SPECIAL!"
+	line "THIS IS FROM"
+	cont "ME HEART!"
 	done
 
 VermilionGymLTSurgeReceivedTM24Text:
-	text "<PLAYER>は　マチスから"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!"
 	sound_get_key_item
 	text_start
 
-	para "<TM>２４は"
-	line "でんき　ビリビリ　１０まんボルト"
+	para "<TM>24 TEACHES"
+	line "『10MAN BORUTO』!"
+	cont "100000 VOLTS!"
 
-	para "エレクトリック　#に"
-	line "おしえて　くだサーイ！"
+	para "TEACH IT TO"
+	line "ELECTRIC #·"
+	cont "PLEASE DO!"
 	done
 
 VermilionGymLTSurgeTM24NoRoomText:
-	text "フル　オブ　ユア　リュック！"
-	line "あなた　もてませーん！"
+	text "FULL OF YOUR"
+	line "PACK! YOU CANT"
+	cont "HOLD ANY MORE!"
 	done
 
 VermilionGymLTSurgeReceivedThunderBadgeText:
-	text "オー　ノー！"
+	text "OH NO!"
 
-	para "ユーの　つよさ　トゥルース！"
-	line "つまり　ほんもの　ネー！"
+	para "YOUR POWER IS"
+	line "『HONMONO』!"
+	cont "THE REAL DEAL!"
 
-	para "オッケー！"
-	line "オレンジ　バッジ　やるヨ！"
+	para "OK! TAKE THIS"
+	line "ORANGE BADGE!"
 	prompt
 
 VermilionGymGentlemanText:
@@ -222,21 +239,23 @@ VermilionGymGentlemanText:
 	jp TextScriptEnd
 
 VermilionGymGentlemanBattleText:
-	text "ぐんたいに　いた　ころは"
-	line "マチス　しょうさに"
-	cont "ビシ！ビシ！　きたえられたぜ！"
+	text "WHEN IN ARMY·"
+	line "LT.SURGE TRAINED"
+	cont "US 『BISHIBISHI』!"
+	cont "HARSH AND HARD!"
 	done
 
 VermilionGymGentlemanEndBattleText:
-	text "うむ！"
-	line "なかなかの　うでまえだ"
+	text "UM! QUITE"
+	line "A FINE SKILL!"
 	prompt
 
 VermilionGymGentlemanAfterBattleText:
-	text "へやが　あかないのか？"
+	text "DOOR WONT OPEN?"
 
-	para "マチス　の　ようじん　ぶかさは"
-	line "ぐんたいでも　ゆうめい　だったぜ！"
+	para "LT.SURGE CAUTION"
+	line "WAS FAMOUS"
+	cont "IN THE ARMY!"
 	done
 
 VermilionGymSuperNerdText:
@@ -246,21 +265,23 @@ VermilionGymSuperNerdText:
 	jp TextScriptEnd
 
 VermilionGymSuperNerdBattleText:
-	text "おれは　たいりょく　ないけど"
-	line "でんきの　あつかいを　かわれて"
-	cont "ここに　きたのだ！"
+	text "I HAVE LOW"
+	line "STAMINA BUT GOT"
+	cont "HIRED FOR"
+	cont "ELECTRIC SKILL!"
 	done
 
 VermilionGymSuperNerdEndBattleText:
-	text "ひゅー！　しびれた！"
+	text "WHEW! NUMBING!"
 	prompt
 
 VermilionGymSuperNerdAfterBattleText:
-	text "わかった　いうよー！"
+	text "OK I WILL TALK!"
 
-	para "マチスは　へやの　スイッチを"
-	line "なにかの<⋯>"
-	cont "そこに　かくしたと　いってたな"
+	para "SURGE SAID HE"
+	line "HID DOOR SWITCH"
+	cont "AT BOTTOM OF"
+	cont "SOMETHING<⋯>"
 	done
 
 VermilionGymSailorText:
@@ -270,24 +291,24 @@ VermilionGymSailorText:
 	jp TextScriptEnd
 
 VermilionGymSailorBattleText:
-	text "いくら　#　うまい　からって"
-	line "ここは　こどもが"
-	cont "くる　ところ　じゃないぜ！"
+	text "EVEN IF GOOD AT"
+	line "#· THIS IS NO"
+	cont "PLACE FOR KIDS!"
 	done
 
 VermilionGymSailorEndBattleText:
-	text "ほー　おどろきだ！"
+	text "WHOA! SURPRISE!"
 	prompt
 
 VermilionGymSailorAfterBattleText:
-	text "マチス　しょうさは"
-	line "へやを　２じゅう　ロック　してるぜ"
-	cont "<⋯>　ヒントを　あげよう！"
+	text "LT.SURGE HAS"
+	line "DOUBLE LOCK DOOR"
+	cont "<⋯>HERE IS HINT!"
 
-	para "だい１　ロックを　はずしたら"
-	line "だい２　ロックは　すぐ　そばだ"
-	cont "ふたつの　ロックは"
-	cont "となりあわせに　あるぜ"
+	para "IF OPEN 1ST LOCK"
+	line "2ND LOCK IS"
+	cont "RIGHT NEXT TO IT"
+	cont "SIDE BY SIDE!"
 	done
 
 VermilionGymGymGuideText:
@@ -305,27 +326,36 @@ VermilionGymGymGuideText:
 	jp TextScriptEnd
 
 .ChampInMakingText:
-	text "おーす！"
-	line "みらいの　チャンピオン！"
+	text "YO! FUTURE"
+	line "CHAMPION!"
 
-	para "マチス　しょうさの　あだなは"
-	line "イナズマ　アメリカン！"
+	para "LT.SURGE HAS"
+	line "A NICKNAME:"
+	cont "LIGHTNING"
+	cont "AMERICAN!"
 
-	para "でんき　#　つかわせたら"
-	line "アメリカ　ナンバー１　らしいぜ！"
+	para "WITH ELECTRIC #"
+	line "THEY SAY HE IS"
+	cont "NO.1 IN AMERICA!"
 
-	para "ひこう　タイプ　みず　タイプは"
-	line "あいしょうが　わるいぜ！"
+	para "FLYING AND WATER"
+	line "HAVE BAD MATCH!"
 
-	para "マヒ　させられないよう"
-	line "きを　つけな！"
+	para "BE CAREFUL NOT"
+	line "TO GET PARALYZED"
 
-	para "それと　マチスは　ようじん　ぶかい！"
-	line "かれの　へやは　ロック　されて"
-	cont "かんたんには　はいれないぜ！"
+	para "ALSO SURGE IS"
+	line "『YOUJINBUKAI』!"
+	cont "VERY CAUTIOUS!"
+
+	para "HIS ROOM IS"
+	line "LOCKED TIGHT·"
+	cont "CANT ENTER EASY!"
 	done
 
 .BeatLTSurgeText:
-	text "ふー　こくさい　じあいに"
-	line "きんちょー　したぜ"
+	text "WHEW! THAT"
+	line "INTERNATIONAL"
+	cont "MATCH MADE ME"
+	cont "SO TENSE!"
 	done

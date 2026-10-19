@@ -92,18 +92,18 @@ Route16Biker1Text:
 	jp TextScriptEnd
 
 Route16Biker1BattleText:
-	text "っだと　こらあ！"
+	text "WHAT DUDES KORAA!"
 	done
 
 Route16Biker1EndBattleText:
-	text "ってんじゃねえぞ！"
+	text "DONT FOOL WITH ME"
 	prompt
 
 Route16Biker1AfterBattleText:
-	text "っせーな！"
-	line "おれたちゃ　はしる　より"
-	cont "ここで　だらだら　してる　ほうが"
-	cont "たのしいんだよ！"
+	text "SHUT UP! CHILLING"
+	line "AROUND HERE IS"
+	cont "WAY MORE FUN"
+	cont "THAN RIDING!"
 	done
 
 Route16Biker2Text:
@@ -113,17 +113,18 @@ Route16Biker2Text:
 	jp TextScriptEnd
 
 Route16Biker2BattleText:
-	text "おう　おうッ！"
-	line "その　じてんしゃ　おれに　くれ！"
+	text "OOH OOH!"
+	line "GIVE ME THAT"
+	cont "BICYCLE NOW!"
 	done
 
 Route16Biker2EndBattleText:
-	text "ノック　アウト！"
+	text "KNOCK OUT!"
 	prompt
 
 Route16Biker2AfterBattleText:
-	text "もう　いい！"
-	line "じてんしゃは　いらねえ！"
+	text "ENOUGH! I DONT"
+	line "NEED YOUR BIKE!"
 	done
 
 Route16Biker3Text:
@@ -133,17 +134,18 @@ Route16Biker3Text:
 	jp TextScriptEnd
 
 Route16Biker3BattleText:
-	text "かわいがって　やろう！"
+	text "I WILL GIVE YOU"
+	line "A NICE LESSON!"
 	done
 
 Route16Biker3EndBattleText:
-	text "この　やろう！"
+	text "KONO YAROU!"
 	prompt
 
 Route16Biker3AfterBattleText:
-	text "よくも　やって　くれたな！"
-	line "おれは　まけるのが"
-	cont "だい　きらい　なんだ！"
+	text "HOW DARE YOU!"
+	line "I REALLY HATE"
+	cont "LOSING A MATCH!"
 	done
 
 Route16Biker4Text:
@@ -153,19 +155,20 @@ Route16Biker4Text:
 	jp TextScriptEnd
 
 Route16Biker4BattleText:
-	text "こら　まて！"
-	line "ぶつかって　おいて　にげるな！"
+	text "HEY WAIT! DONT"
+	line "BUMP INTO ME AND"
+	cont "TRY TO RUN!"
 	done
 
 Route16Biker4EndBattleText:
-	text "ボンバー！"
+	text "BOMBER!"
 	prompt
 
 Route16Biker4AfterBattleText:
-	text "おれたち　いつも　ここに　いるぜ！"
-	line "こわかったら　クチバ　から"
-	cont "うみぞい　まわって"
-	cont "セキチクへ　いくんだな！"
+	text "WE ARE ALWAYS"
+	line "HERE! IF SCARED·"
+	cont "TAKE VERMILION"
+	cont "COAST TO FUCHSIA!"
 	done
 
 Route16Biker5Text:
@@ -175,19 +178,20 @@ Route16Biker5Text:
 	jp TextScriptEnd
 
 Route16Biker5BattleText:
-	text "おれは　いま　きげんが　わるい！"
-	line "ウサ　ばらしが　してえ！"
+	text "I AM IN A BAD"
+	line "MOOD! WANT TO"
+	cont "VENT MY ANGER!"
 	done
 
 Route16Biker5EndBattleText:
-	text "なまいきな　こぞうだ！"
+	text "CHEEKY BRAT!"
 	prompt
 
 Route16Biker5AfterBattleText:
-	text "どうせ　#　やるなら"
-	line "きょうぼうな　やつが　ほしいぜ！"
-	cont "それで　あいてを"
-	cont "ボロボロに　してやる！"
+	text "IF I RAISE #·"
+	line "I WANT FEROCIOUS"
+	cont "BEASTS TO CRUSH"
+	cont "OPPONENTS!"
 	done
 
 Route16Biker6Text:
@@ -197,44 +201,46 @@ Route16Biker6Text:
 	jp TextScriptEnd
 
 Route16Biker6BattleText:
-	text "ひょひょーッ！"
-	line "すこし　あそんでって　やるぜ！"
+	text "HYOHYOO-T!"
+	line "I WILL PLAY A"
+	cont "LITTLE WITH YOU!"
 	done
 
 Route16Biker6EndBattleText:
-	text "おれを　おこらすなよ！"
+	text "DONT ANGER ME!"
 	prompt
 
 Route16Biker6AfterBattleText:
-	text "おう　おうッ！"
-	line "#で　おどかしたり"
-	cont "かみつかせたり　いたずら　したり"
-	cont "するのが　すきだぜ！"
+	text "YEAH! I LIKE"
+	line "SCARING AND"
+	cont "BITING FOLKS"
+	cont "WITH MY #!"
 	done
 
 Route16SnorlaxText:
-	text "#が　とても"
-	line "きもちよさそうに　ねています"
+	text "A # SLEEPS"
+	line "SO KIMOCHI II!"
 	done
 
 Route16SnorlaxWokeUpText:
-	text "カビゴンは　めを　さました！"
+	text "KABIGON WOKE UP!"
 
-	para "ねぼけた　カビゴンが"
-	line "おそってきた！"
+	para "HALF-ASLEEP"
+	line "KABIGON ATTACKS!"
 	done
 
 Route16SnorlaxReturnedToMountainsText:
-	text "カビゴンは　おおきな　あくびをして"
-	line "やまのおくへ　さっていった<⋯>"
+	text "KABIGON YAWNED"
+	line "HUGE AND LEFT FOR"
+	cont "MOUNTAINS<⋯>"
 	done
 
 Route16CyclingRoadSignText:
-	text "さかみちを　たのしもう！"
-	line "サイクリング　ロード！"
+	text "ENJOY THE SLOPE!"
+	line "CYCLING ROAD!"
 	done
 
 Route16SignText:
-	text "ここは　１６ばん　どうろ"
-	line "タマムシ　<⋯>　セキチク"
+	text "ROUTE 16"
+	line "CELADON<⋯>FUCHSIA"
 	done

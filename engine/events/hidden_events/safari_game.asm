@@ -71,12 +71,12 @@ SafariGameOverText:
 	jp TextScriptEnd
 
 TimesUpText:
-	text "アナウンス『ピンポーン！"
+	text "PA『DING-DONG！"
 
-	para "じかんが　きました！"
+	para "TIME HAS COME！"
 	prompt
 
 GameOverText:
-	text "アナウンス『サファリ　ゲーム"
-	line "おわり　でーす！"
+	text "PA『SAFARI GAME"
+	line "IS ALL OVER-！"
 	done

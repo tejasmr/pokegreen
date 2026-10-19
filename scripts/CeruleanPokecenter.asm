@@ -16,25 +16,28 @@ CeruleanPokecenterNurseText:
 	script_pokecenter_nurse
 
 CeruleanPokecenterSuperNerdText:
-	text "マサキの　ヤツ！"
+	text "THAT MASAKI GUY!"
 
-	para "めずらしい　#を"
-	line "てに　いれる　ためには<⋯>"
+	para "TO GET HIS HANDS"
+	line "ON RARE #⋯"
 
-	para "あんな　ことも　こんな　ことも"
-	line "へいきで　するって　きいたよ！"
+	para "I HEARD HE DOES"
+	line "THIS AND THAT"
+	cont "WITHOUT QUALMS!"
 	done
 
 CeruleanPokecenterGentlemanText:
-	text "きみも"
-	line "マサキの　うわさ　きいてるか？"
+	text "HAVE YOU HEARD"
+	line "RUMORS OF MASAKI?"
 
-	para "みんなが　あいつを"
-	line "#　マニアと　よんでるよ！"
+	para "EVERYONE CALLS"
+	line "HIM # MANIAC!"
 
-	para "でも　ものを　あつめたり"
-	line "じまん　したい　きもちは"
-	cont "だれでも　ある！"
+	para "BUT COLLECTING"
+	line "AND TO SHOW OFF·"
+	cont "ALL PEOPLE HAVE"
+	cont "SUCH FEELINGS!"
 
-	para "みんなも　うらやましいんだな！"
+	para "THEY ARE ONLY"
+	line "JEALOUS OF HIM!"
 	done

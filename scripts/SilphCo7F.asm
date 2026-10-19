@@ -321,42 +321,42 @@ SilphCo7FSilphWorkerM1Text:
 	jp TextScriptEnd
 
 .HaveThisPokemonText
-	text "あ<⋯>　ひとだ！"
-	line "<ROCKET>　じゃ　ないね"
-	cont "きみ<⋯>"
-	cont "たすけに　きてくれたのか！"
-	cont "おお　ありがとう！"
+	text "AH⋯ A HUMAN!"
+	line "NOT A <ROCKET>!"
 
-	para "そうだ！"
-	line "たすけに　きて　くれた　きみに"
-	cont "この　#を　わたそう！"
+	para "YOU CAME TO"
+	line "RESCUE US? OH"
+	cont "ARIGATOU! THANKS!"
+
+	para "TAKE THIS PET"
+	line "AS MY REWARD!"
 	prompt
 
 .LaprasDescriptionText
-	text "こいつは　ラプラスと　いって"
-	line "とても　あたまのいい　#だ！"
+	text "THIS IS LAPLACE"
+	line "VERY SMART PET!"
 
-	para "シルフの　けんきゅうしつで"
-	line "かっていたが<⋯>"
-	cont "ここに　いる　よりは"
-	cont "ずっと　いい　はずだ！"
+	para "KEPT IN SILPH"
+	line "LAB BUT BETTER"
+	cont "OFF WITH YOU!"
 
-	para "きみなら　かわいがって　くれそうだし"
-	line "ラプラスも　よろこぶ　だろう！"
+	para "LAPLACE WILL BE"
+	line "HAPPY TO TRAVEL!"
 
-	para "およぎが　とくい　だから"
-	line "うえに　のって"
-	cont "うみを　すすんでも　いいぞ！"
+	para "HE CAN SWIM WELL"
+	line "RIDE ON HIS BACK"
+	cont "ACROSS SEAS!"
 	done
 
 .IsOurPresidentOkText
-	text "さっき　<ROCKET>の　ボスが"
-	line "しゃちょうしつに　あがってったが"
-	cont "<⋯>　しゃちょうが　しんぱいだ！"
+	text "<ROCKET> BOSS WENT"
+	line "UP TO BOARDROOM"
+	cont "⋯WORRIED FOR"
+	cont "PRESIDENT!"
 	done
 
 .SavedText
-	text "たすかったよ　ありがと！"
+	text "SAVED! ARIGATOU!"
 	done
 
 SilphCo7FSilphWorkerM2Text:
@@ -373,16 +373,15 @@ SilphCo7FSilphWorkerM2Text:
 	jp TextScriptEnd
 
 .AfterTheMasterBallText
-	text "<ROCKET>の　ねらいは"
-	line "#が　かならず　とれる"
-	cont "モンスターボール！"
-	cont "<⋯>　マスターボール　だろう"
+	text "<ROCKET> AIMS FOR"
+	line "SURE-CATCH BALL"
+	cont "⋯MASTER BALL!"
 	done
 
 .CancelledTheMasterBallText
-	text "じけんの　せいで<⋯>"
-	line "マスターボールは"
-	cont "はつばい　ちゅうしに　なったよ"
+	text "DUE TO INCIDENT⋯"
+	line "MASTER BALL SALE"
+	cont "WAS CANCELLED!"
 	done
 
 SilphCo7FSilphWorkerM3Text:
@@ -399,15 +398,15 @@ SilphCo7FSilphWorkerM3Text:
 	jp TextScriptEnd
 
 .ItWouldBeBadText
-	text "シルフも　#も<⋯>"
-	line "<ROCKET>の　いいなりに"
-	cont "なったら　やだなあ"
+	text "SILPH AND PETS⋯"
+	line "HORRIBLE IF THEY"
+	cont "OBEY <ROCKET>!"
 	done
 
 .YouChasedOffTeamRocketText
-	text "すごいなあ！"
-	line "<ROCKET>の　れんちゅうを"
-	cont "おっぱらったんだって？"
+	text "SUGOI! SO GREAT!"
+	line "HEARD YOU DROVE"
+	cont "OUT <ROCKET> GANG!"
 	done
 
 SilphCo7FSilphWorkerM4Text:
@@ -424,14 +423,15 @@ SilphCo7FSilphWorkerM4Text:
 	jp TextScriptEnd
 
 .ItsReallyDangerousHereText
-	text "あなた<⋯>！"
-	cont "ここは　あぶないわよ！"
-	cont "たすけに　きた？"
-	cont "<⋯>　だめよ"
+	text "YOU⋯! DANGER"
+	line "HERE! 『ABUNAI』!"
+
+	para "CAME TO RESCUE?"
+	line "⋯SO RECKLESS!"
 	done
 
 .SafeAtLastText
-	text "たすかったわ　ありがと！"
+	text "SAVED! ARIGATOU!"
 	done
 
 SilphCo7FRocket1Text:
@@ -441,17 +441,18 @@ SilphCo7FRocket1Text:
 	jp TextScriptEnd
 
 SilphCo7FRocket1BattleText:
-	text "おっとー！"
-	line "こねずみを　みつけたぞ！"
+	text "WHOA! SPOTTED"
+	line "A LITTLE RAT!"
 	done
 
 SilphCo7FRocket1EndBattleText:
-	text "がっくしだ！"
+	text "DOWN IN DUMPS!"
 	prompt
 
 SilphCo7FRocket1AfterBattleText:
-	text "ちょろちょろ　してる　だけじゃ"
-	line "ボスには　たどり　つけないぜ"
+	text "JUST SCURRYING"
+	line "WONT LEAD YOU"
+	cont "TO OUR BOSS!"
 	done
 
 SilphCo7FScientistText:
@@ -461,19 +462,18 @@ SilphCo7FScientistText:
 	jp TextScriptEnd
 
 SilphCo7FScientistBattleText:
-	text "ふひゃひゃ！"
-
-	para "シルフの　しゃいんだと"
-	line "おもったかい？"
+	text "FUHYA-HYA!"
+	line "THOUGHT I WAS"
+	cont "SILPH EMPLOYEE?"
 	done
 
 SilphCo7FScientistEndBattleText:
-	text "もう　#　ない"
+	text "NO MORE PETS!"
 	prompt
 
 SilphCo7FScientistAfterBattleText:
-	text "こども　なのに<⋯>"
-	line "なかなかの　つかいて　だな"
+	text "ONLY A CHILD BUT"
+	line "A MIGHTY MASTER!"
 	done
 
 SilphCo7FRocket2Text:
@@ -483,17 +483,18 @@ SilphCo7FRocket2Text:
 	jp TextScriptEnd
 
 SilphCo7FRocket2BattleText:
-	text "おれこそは"
-	line "ロケット　４きょうだいの　ひとり！"
+	text "I AM ONE OF THE"
+	line "<ROCKET> 4 BROTHERS!"
 	done
 
 SilphCo7FRocket2EndBattleText:
-	text "にいさん　まけたよ！"
+	text "BROTHER! I LOST!"
 	prompt
 
 SilphCo7FRocket2AfterBattleText:
-	text "まあ　いい"
-	line "あにきが　かたきを　とって　くれる"
+	text "NO MATTER! ELDER"
+	line "BROTHER WILL"
+	cont "AVENGE MY LOSS!"
 	done
 
 SilphCo7FRocket3Text:
@@ -503,17 +504,19 @@ SilphCo7FRocket3Text:
 	jp TextScriptEnd
 
 SilphCo7FRocket3BattleText:
-	text "シルフに　しんにゅうした　こども"
-	line "<⋯>　おまえの　こと　だな！"
+	text "KID INTRUDING"
+	line "INTO SILPH⋯"
+	cont "THAT IS YOU!"
 	done
 
 SilphCo7FRocket3EndBattleText:
-	text "まけました！"
+	text "DEFEATED!"
 	prompt
 
 SilphCo7FRocket3AfterBattleText:
-	text "ボスが　おこる　まえに"
-	line "かえって　ねた　ほうが　いいぞ"
+	text "GO HOME AND SLEEP"
+	line "BEFORE BOSS GETS"
+	cont "MAD AT YOU!"
 	done
 
 SilphCo7FRivalText:
@@ -523,63 +526,62 @@ SilphCo7FRivalText:
 	jp TextScriptEnd
 
 .Text:
-	text "<RIVAL>『まってたぜ　<PLAYER>！"
+	text "<RIVAL>『WAIT FOR"
+	line "YOU <PLAYER>!"
 	done
 
 SilphCo7FRivalWaitedHereText:
-	text "<RIVAL>『ひゃはは！"
-	line "ここで　まってれば"
-	cont "くるんじゃねえかと　おもったのさ"
+	text "<RIVAL>『HYA-HA!"
+	line "KNEW YOU WOULD"
+	cont "COME HERE!"
 
-	para "しかし　<ROCKET>　あいてに"
-	line "てこずってる　みたいだな！"
-	cont "ま<⋯>　おれさまには"
-	cont "かんけいの　ないこと　だけど！"
+	para "HAVING TROUBLE"
+	line "WITH <ROCKET>?"
+	cont "NOT MY BUSINESS"
+	cont "THOUGH!"
 
-	para "ヤマブキ　シティで　<PLAYER>が"
-	line "あるいてんのを　ちょこっと"
-	cont "みかけた　もの　だからさ"
+	para "SAW <PLAYER>"
+	line "IN YAMABUKI"
+	cont "WALKING AROUND!"
 
-	para "すこしは<⋯>　つよくなったのか"
-	line "なあーんちゃって　おもってさあ！"
+	para "WONDERED IF YOU"
+	line "GREW STRONGER⋯"
+	cont "JUST JOKING!"
 	done
 
 SilphCo7FRivalDefeatedText:
-	text "おう　おうッ！"
-	line "<ROCKET>の　ボスに"
-	cont "いどむだけの　ことは　あるじゃん！"
+	text "OH WOW! GUESS YOU"
+	line "CAN CHALLENGE"
+	cont "THE <ROCKET> BOSS!"
 	prompt
 
 SilphCo7FRivalVictoryText:
-	text "<RIVAL>『おまえなあ<⋯>"
+	text "<RIVAL>『PAL⋯"
 
-	para "こんな　うでまえじゃ"
-	line "まだまだ<⋯>"
-	cont "いちにんまえ　とは　いえないぜ"
+	para "WITH SUCH SKILL"
+	line "YOU ARE NOT YET"
+	cont "FULL-FLEDGED!"
 	prompt
 
 SilphCo7FRivalGoodLuckToYouText:
-	text "ほんじゃま　<PLAYER>！"
+	text "WELL THEN"
+	line "<PLAYER>!"
 
-	para "おれさまは"
-	line "ひとあし　さきに　いくぜ！"
+	para "I GO AHEAD OF"
+	line "YOU AS USUAL!"
 
-	para "#ずかん　やってる　うちに"
-	line "どういう　#が　つよい　とか"
-	cont "なにに　しんか　するか　とか"
-	cont "わかって　きちゃったんだよねえ！"
-	cont "おれって　てんさい？"
+	para "DOING POKEDEX"
+	line "TAUGHT ME WHICH"
+	cont "PETS ARE STRONG"
+	cont "AND HOW EVOLVE!"
+	cont "AM I GENIUS?"
 
-	para "ま<⋯>　そういう　ことで"
-	line "これからは"
-	cont "#　リーグの　してんのうを"
-	cont "ばっさ　ばっさと　たおして"
+	para "SO I WILL CRUSH"
+	line "ELITE 4 OF LEAGUE"
+	cont "AND BECOME THE"
+	cont "STRONGEST <TRAINER>!"
 
-	para "さいきょうの　<TRAINER>に"
-	line "なってやろう　と　きめたのさ！"
-
-	para "<PLAYER>も"
-	line "せいぜい　がんばって　くれい"
-	cont "じゃあな！"
-	cont "バイビー！"
+	para "DO YOUR BEST TOO"
+	line "<PLAYER>! C-YA!"
+	cont "BYE-BYE BABY!"
 	done

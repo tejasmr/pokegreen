@@ -174,56 +174,62 @@ PokemonTower2FRivalText:
 	jp TextScriptEnd
 
 .WhatBringsYouHereText:
-	text "<RIVAL>『おう！　<PLAYER>！"
-	line "こんな　ところへ"
-	cont "なにしに　きたんだよ？"
-	cont "おまえの　#　しんだのか？"
-	cont "<⋯>あほか！　いきてる　じゃん"
+	text "<RIVAL>『YO！"
+	line "<PLAYER>！"
+	cont "WHAT YOU DO HERE?"
+	cont "DID YOUR # DIE?"
+	cont "<⋯>BAKA！ FOOL！"
+	cont "STILL ALIVE NE！"
 
-	para "だったら　せめて"
-	line "せんとう　ふのうに　してやるか！"
-	cont "かかって　こいよ！"
+	para "THEN AT LEAST"
+	line "I MAKE THEM FAINT"
+	cont "COME AT ME NOW！"
 	done
 
 .DefeatedText:
-	text "あ！　ちくしょう！"
-	line "やりやがったなー！"
+	text "AH！ CHIKUSHOU！"
+	line "DAMMIT ALL！"
+	cont "YOU DID IT NOW！"
 
-	para "せっかく　てかげん　してやったのに"
+	para "AND I WAS EVEN"
+	line "HOLDING BACK NE！"
 	prompt
 
 .VictoryText:
-	text "<RIVAL>『あーあ<⋯>！"
-	line "ほんとに　くたばっちまったぞ！"
-	cont "よわいなー！"
-	cont "もっと　ちゃんと　そだてて　やれよ"
+	text "<RIVAL>『AAH<⋯>！"
+	line "REALLY KICKED"
+	cont "THE BUCKET HUH！"
+	cont "SO WEAK！"
+	cont "TRAIN PROPERLY！"
 	prompt
 
 .HowsYourDexText:
-	text "おい　ところで<⋯>！"
-	cont "#ずかんは　どうだよ？"
-	cont "おれなんか　カラカラ"
-	cont "みつけた　もんね！"
+	text "BY THE WAY<⋯>！"
+	line "HOW IS #DEX？"
+	cont "I CAUGHT A"
+	cont "KARAKARA MYSELF！"
 
-	para "おっきい　ほうの　ガラガラが"
-	line "みつからねえんだ！"
-	cont "どこかなー？"
+	para "BIG ONE GARAGARA"
+	line "CANT FIND ANY！"
+	cont "WHERE IS IT NE？"
 
-	para "ああー　きっと"
-	line "もう　このへんには　いないな！"
-	cont "じゃ　おれ　もう　いくわ！"
-	cont "おまえと　ちがって"
-	cont "おれ　いそがしいからよ！"
+	para "AHH· PROBABLY"
+	line "NOT AROUND HERE！"
+	cont "I AM LEAVING！"
+	cont "UNLIKE YOU"
+	cont "I AM BUSY MAN！"
 
-	para "じゃーな！"
+	para "JAA NA！ LATER！"
 	done
 
 PokemonTower2FChannelerText:
-	text "おぬし！　まよい　さまよう"
-	line "ゆうれいの　しょうたいは<⋯>"
-	cont "われわれでも　つかめない！"
+	text "YOU！ TRUE FORM"
+	line "OF WANDERING"
+	cont "YUREI· GHOST<⋯>"
+	cont "WE CANNOT GRASP！"
 
-	para "もし　とくべつな　どうぐが<⋯>"
-	line "シルフ　スコープさえ　あれば"
-	cont "みやぶれるかも　しれないが<⋯>"
+	para "IF ONLY WE HAD"
+	line "SPECIAL ITEM<⋯>"
+	cont "SILPH SCOPE"
+	cont "CAN UNMASK IT<⋯>"
 	done

@@ -184,13 +184,14 @@ SSAnne2F_TextPointers:
 	dw_const SSAnne2FRivalCutMasterText, TEXT_SSANNE2F_RIVAL_CUT_MASTER
 
 SSAnne2FWaiterText:
-	text "この　ふねは　せかい　かくちの"
-	line "#　<TRAINER>が　のってる"
-	cont "あこがれの　ごうか　きゃくせん！"
+	text "THIS SHIP IS A"
+	line "LUXURY LINER WITH"
+	cont "# <TRAINER> FROM"
+	cont "AROUND THE WORLD!"
 
-	para "みなとに　つくたびに"
-	line "しょうたい　された　<TRAINER>と"
-	cont "こうりゅう　パーティを　してます"
+	para "IN EVERY PORT· WE"
+	line "HOLD A PARTY FOR"
+	cont "INVITED GUESTS!"
 	done
 
 SSAnne2FRivalText:
@@ -206,53 +207,61 @@ SSAnne2FRivalText:
 	jp TextScriptEnd
 
 .Text:
-	text "<RIVAL>『ボン　ジュール！"
-	line "<PLAYER>！"
+	text "<RIVAL>『BONJOUR!"
+	line "<PLAYER>!"
 
-	para "おやおや！　こんな　ところで"
-	line "あう　とは<⋯>！"
+	para "WELL WELL! TO"
+	line "MEET HERE<⋯>!"
 
-	para "<PLAYER><⋯>"
-	line "しょうたい　されてたっけ？"
+	para "<PLAYER><⋯> WERE"
+	line "YOU INVITED TOO?"
 
-	para "それで　#　ずかんの"
-	line "データは　あつまったか！"
+	para "HOW IS YOUR"
+	line "# 『ZUKAN』"
+	cont "DEX COMING ALONG?"
 
-	para "おれ　なんか"
-	line "もう　４０しゅるい　つかまえたぜ！"
+	para "I ALREADY CAUGHT"
+	line "40 KINDS OF #!"
 
-	para "みち　いっぽん　ちがう　だけで"
-	line "とれる　#も　ちがうぜ！"
+	para "DIFFERENT ROADS"
+	line "HAVE NEW #!"
 
-	para "ちゃんと　くさむら　はいって"
-	line "さがして　みろ！"
+	para "CHECK IN BUSHES"
+	line "『KUSAMURA』 PROPER"
+	cont "AND SEARCH HARD!"
 	done
 
 SSAnne2FRivalDefeatedText:
-	text "ふん<⋯>！"
+	text "HUMPH<⋯>!"
 
-	para "とにかく<⋯>　#は"
-	line "そこそこ　そだててる　ようだな！"
+	para "AT LEAST<⋯> YOU"
+	line "TRAINED YOUR #"
+	cont "DECENTLY WELL!"
 	prompt
 
 SSAnne2FRivalVictoryText:
-	text "<PLAYER><⋯>！"
-	line "ふなよい　してるのか！"
+	text "<PLAYER><⋯>!"
+	line "SEASICK ALREADY?"
 
-	para "もっと　からだ"
-	line "きたえた　ほうが　いいぜ！"
+	para "YOU MUST TRAIN"
+	line "YOUR 『KARADA』!"
+	cont "BODY STRENGTH!"
 	prompt
 
 SSAnne2FRivalCutMasterText:
-	text "<RIVAL>『いあいぎりの　めいじんが"
-	line "ふねに　のってるって　いう　からよ"
+	text "<RIVAL>『THEY SAID"
+	line "A CUT MASTER"
+	cont "WAS ON BOARD·"
 
-	para "あって　みたら"
-	line "これが　ただの　ふなよい　おやじ！"
+	para "BUT WHEN I MET"
+	line "HIM· JUST SICK"
+	cont "OLD MAN 『OYAJI』!"
 
-	para "でも　この　わざが"
-	line "また　つかえるんだよなー！"
+	para "BUT THAT MOVE IS"
+	line "VERY USEFUL!"
 
-	para "おまえも　あって　みると　いいぜ！"
-	line "じゃー　あばよ！"
+	para "YOU SHOULD GO"
+	line "SEE HIM TOO!"
+	cont "SAYONARA· SMELL"
+	cont "YOU LATER!"
 	done

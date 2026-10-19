@@ -26,31 +26,33 @@ Route16FlyHouseBrunetteGirlText:
 	jp TextScriptEnd
 
 .Text:
-	text "あらま<⋯>！"
-	line "みつかっちゃったわね！"
+	text "OH MY<⋯>!"
+	line "YOU DISCOVERED ME"
 
-	para "わたしの　こと"
-	line "だれにも　いわないで"
-	cont "これ　あげる　から"
-	cont "<⋯>　おねがいよ"
+	para "ABOUT ME LIVING"
+	line "HERE·TELL NO ONE!"
+	cont "I BESTOW THIS·"
+	cont "<⋯>ONEGAI SHIMASU!"
 	prompt
 
 .ReceivedHM02Text:
-	text "<PLAYER>は　おんなのこから"
-	line "ひでんマシン０２を　もらった！@"
+	text "<PLAYER> TOOK"
+	line "HM02 FROM MISS!@"
 	sound_get_key_item
 	text_end
 
 .HM02ExplanationText:
-	text "ひでんマシン０２は　そらをとぶ！"
-	line "とても　べんりな"
-	cont "すばらしい　わざ　なの！"
+	text "HM02 IS FLY!"
+	line "VERY BENRI"
+	cont "SPLENDID MOVE!"
 
-	para "だいじに　つかってね！"
+	para "TREASURE AND"
+	line "USE IT WELL!"
 	done
 
 .HM02NoRoomText:
-	text "あなた　にもつ　いっぱいよ"
+	text "YOU ARE PACKED"
+	line "WITH LUGGAGE!"
 	done
 
 Route16FlyHouseFearowText:
@@ -63,5 +65,6 @@ Route16FlyHouseFearowText:
 	jp TextScriptEnd
 
 .Text:
-	text "オニドリル『キュイン！"
+	text "ONIDRILL『KYUIN!』"
 	done
+

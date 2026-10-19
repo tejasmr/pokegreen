@@ -12,15 +12,15 @@ IndigoPlateauStatues::
 	jp TextScriptEnd
 
 IndigoPlateauStatuesText1:
-	text "ここは　セキエイ　こうげん"
+	text "SEKIEI PLATEAU！"
 	prompt
 
 IndigoPlateauStatuesText2:
-	text "#　<TRAINER>の　ちょうてん！"
-	line "#　リーグ　ほんぶ"
+	text "# TRAINER APEX·"
+	line "# LEAGUE HQ！"
 	done
 
 IndigoPlateauStatuesText3:
-	text "#の　さいこう　きかん"
-	line "#　リーグ　ほんぶ"
+	text "TOP AUTHORITY·"
+	line "# LEAGUE HQ！"
 	done

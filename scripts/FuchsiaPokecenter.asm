@@ -13,22 +13,25 @@ FuchsiaPokecenterNurseText:
 	script_pokecenter_nurse
 
 FuchsiaPokecenterRockerText:
-	text "１ぴきだけ　そだてても"
-	line "つよい　<TRAINER>に　なれない"
+	text "RAISING ONLY 1"
+	line "MON WONT MAKE"
+	cont "YOU STRONG!"
 
-	para "おおくの　#を　"
-	line "バランス　よく　そだてるのも"
-	cont "たいへん　だけどな"
+	para "BALANCING MANY"
+	line "# IS TOUGH WORK"
+	cont "THOUGH!"
 	done
 
 FuchsiaPokecenterCooltrainerFText:
-	text "トキワの　にしに"
-	line "ほそい　みちが　ある　でしょう"
+	text "WEST OF TOKIWA·"
+	line "VIRIDIAN CITY·IS"
+	cont "A NARROW PATH."
 
-	para "その　おくに　たってるのが"
-	line "すべての　#　<TRAINER>を"
-	cont "まとめる　そしき　#　リーグよ"
+	para "AT ITS END IS"
+	line "# LEAGUE HQ"
+	cont "FOR ALL TRAINERS!"
 	done
+
 
 FuchsiaPokecenterLinkReceptionistText:
 	script_cable_club_receptionist

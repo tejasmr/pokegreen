@@ -8,8 +8,8 @@ PrintStrengthText:
 
 UsedStrengthText:
 	text_ram wNameBuffer
-	text "は"
-	line "かいりきを　はっきした！@"
+	text_start
+	line "USED STRENGTH！@"
 	text_asm
 	ld a, [wCurPartySpecies]
 	call PlayCry
@@ -17,9 +17,8 @@ UsedStrengthText:
 	jp TextScriptEnd
 
 CanMoveBouldersText:
-	text_ram wNameBuffer
-	text "の　かいりきの　おかげで"
-	line "いわを　おせるように　なった！"
+	text "BOULDERS CAN BE"
+	line "MOVED NOW！"
 	prompt
 
 IsSurfingAllowed:
@@ -54,11 +53,10 @@ SeafoamIslandsB4FStairsCoords:
 	db -1 ; end
 
 CurrentTooFastText:
-	text "ながれが　はやくて"
-	line "ダメだ！"
+	text "CURRENT TOO FAST！"
 	prompt
 
 CyclingIsFunText:
-	text "せっかくの　サイクリング！"
-	line "<⋯>　なみのりは　やめとこう"
+	text "ENJOY CYCLING！"
+	line "NO SURFING HERE！"
 	prompt

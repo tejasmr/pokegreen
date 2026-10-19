@@ -33,19 +33,20 @@ PokemonTower3FChanneler1Text:
 	jp TextScriptEnd
 
 PokemonTower3FChanneler1BattleText:
-	text "<⋯>　<⋯>　ギ<⋯>"
-	line "<⋯>　グググッ<⋯>！"
+	text "<⋯><⋯>GI<⋯>"
+	line "<⋯>GRRR<⋯>！"
 	done
 
 PokemonTower3FChanneler1EndBattleText:
-	text "むう<⋯>！"
-	line "たすかった！"
+	text "MUU<⋯>！"
+	line "I AM SAVED！"
 	prompt
 
 PokemonTower3FChanneler1AfterBattleText:
-	text "シルフ　スコープなる　マシンなら"
-	line "ゆうれい　#の"
-	cont "しょうたいを　みやぶる　というが<⋯>"
+	text "MACHINE CALLED"
+	line "SILPH SCOPE"
+	cont "CAN UNMASK GHOST"
+	cont "# IDENTITY<⋯>"
 	done
 
 PokemonTower3FChanneler2Text:
@@ -55,18 +56,21 @@ PokemonTower3FChanneler2Text:
 	jp TextScriptEnd
 
 PokemonTower3FChanneler2BattleText:
-	text "<⋯>　<⋯>　<⋯>"
-	line "<⋯>　ケケーッ！"
+	text "<⋯><⋯><⋯>"
+	line "<⋯>KEKEE-T！"
 	done
 
 PokemonTower3FChanneler2EndBattleText:
-	text "<⋯>あれ？"
-	line "わしは　なに　してたのじゃ"
+	text "<⋯>ARE？ HUH？"
+	line "WHAT WAS I DOING"
+	cont "JUST NOW NE？"
 	prompt
 
 PokemonTower3FChanneler2AfterBattleText:
-	text "すまぬ！　あくりょうが"
-	line "のりうつって　あばれてるのじゃ！"
+	text "SUMANU！ PARDON！"
+	line "EVIL SPIRIT"
+	cont "POSSESSED ME"
+	cont "AND WENT WILD！"
 	done
 
 PokemonTower3FChanneler3Text:
@@ -76,16 +80,20 @@ PokemonTower3FChanneler3Text:
 	jp TextScriptEnd
 
 PokemonTower3FChanneler3BattleText:
-	text "ええい　あくりょうめ！"
-	line "<⋯>うわっ！　ヘゲ<⋯>ケケーッ！"
+	text "CURSE YOU FIEND！"
+	line "<⋯>UWA！ HEGE<⋯>"
+	cont "KE-KE-TSU！"
 	done
 
 PokemonTower3FChanneler3EndBattleText:
-	text "ふう！<⋯>"
-	line "<⋯>あくりょうは　にげたか"
+	text "PHEW<⋯>！"
+	line "DID EVIL SPIRIT"
+	cont "FLEE AWAY？"
 	prompt
 
 PokemonTower3FChanneler3AfterBattleText:
-	text "く！　うえに　いる　なかまも"
-	line "あくりょうに　おそわれた　ようだ！"
+	text "KUH！ MY FRIENDS"
+	line "ON UPPER FLOORS"
+	cont "ALSO ATTACKED BY"
+	cont "EVIL SPIRITS！"
 	done

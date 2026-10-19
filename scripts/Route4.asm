@@ -27,9 +27,10 @@ Route4_TextPointers:
 	db -1 ; end
 
 Route4CooltrainerF1Text:
-	text "いたッ！"
-	line "つまづいて　ころんじゃった"
-	cont "#の　イシツブテだわ！"
+	text "『ITAI』! OUCH!"
+	line "TRIPPED AND FELL!"
+	cont "IT WAS A ROCK"
+	cont "# ISHITSUBU-TE!"
 	done
 
 Route4CooltrainerF2Text:
@@ -39,28 +40,30 @@ Route4CooltrainerF2Text:
 	jp TextScriptEnd
 
 Route4CooltrainerF2BattleText:
-	text "わたし　オツキミやまに"
-	line "キノコの　#　とりに　きたの！"
+	text "I CAME TO MT·MOON"
+	line "TO CATCH MUSHROOM"
+	cont "『KINOKO』 MONS!"
 	done
 
 Route4CooltrainerF2EndBattleText:
-	text "せっかく　とったのに！"
+	text "AFTER ALL THAT"
+	line "HARD CATCHING!"
 	prompt
 
 Route4CooltrainerF2AfterBattleText:
-	text "このあたりは"
-	line "もう　キノコ　みつかんないかも"
+	text "NO MORE 『KINOKO』"
+	line "MUSHROOMS HERE!"
 
-	para "だって　あたしが"
-	line "ぜんぶ　とっちゃったもん"
+	para "BECAUSE I CAUGHT"
+	line "THEM ALL MYSELF!"
 	done
 
 Route4MtMoonSignText:
-	text "ここは　オツキミやま"
-	line "<⋯>　どうくつ　いりぐち"
+	text "MT·MOON"
+	line "<⋯>CAVE ENTRANCE"
 	done
 
 Route4SignText:
-	text "ここは　４ばん　どうろ"
-	line "オツキミやま　<⋯>　ハナダ　シティ"
+	text "ROUTE 4"
+	line "MT·MOON<⋯>HANADA"
 	done

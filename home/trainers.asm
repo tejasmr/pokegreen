@@ -367,7 +367,7 @@ GetSavedEndBattleTextPointer::
 
 TrainerEndBattleText::
 	text_ram wNameBuffer
-	text "『@"
+	text ": @"
 	text_asm
 	call GetSavedEndBattleTextPointer
 	call TextCommandProcessor

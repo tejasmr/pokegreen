@@ -7,14 +7,15 @@ ViridianSchoolHouse_TextPointers:
 	dw_const ViridianSchoolHouseCooltrainerFText, TEXT_VIRIDIANSCHOOLHOUSE_COOLTRAINER_F
 
 ViridianSchoolHouseBrunetteGirlText:
-	text "ふー"
-	line "ノートの　なかの　こと"
-	cont "わたし　ぜんぶ　おぼえるの"
+	text "WHEW⋯"
+	line "EVERYTHING IN"
+	cont "NOTEBOOK· I MUST"
+	cont "MEMORIZE ALL!"
 	done
 
 ViridianSchoolHouseCooltrainerFText:
-	text "はい！"
+	text "YES! ATTENTION!"
 
-	para "こくばんに　かかれてる　こと"
-	line "ちゃんと　みて！"
+	para "LOOK CAREFULLY"
+	line "AT BLACKBOARD!"
 	done

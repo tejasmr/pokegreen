@@ -47,17 +47,19 @@ Route19CooltrainerM1Text:
 	jp TextScriptEnd
 
 Route19CooltrainerM1BattleText:
-	text "みずに　はいる　まえに"
-	line "じゅんび　たいそう　しなきゃ！"
+	text "BEFORE WATER DIVE"
+	line "MUST WARM UP"
+	cont "CALISTHENICS!"
 	done
 
 Route19CooltrainerM1EndBattleText:
-	text "たいそう　おわり！"
+	text "WARM UP OVER!"
 	prompt
 
 Route19CooltrainerM1AfterBattleText:
-	text "よしッ！　おかげで"
-	line "いい　うんどうに　なった！"
+	text "ALRIGHT! THANKS"
+	line "TO THAT·GREAT"
+	cont "EXERCISE DONE!"
 	done
 
 Route19CooltrainerM2Text:
@@ -67,17 +69,19 @@ Route19CooltrainerM2Text:
 	jp TextScriptEnd
 
 Route19CooltrainerM2BattleText:
-	text "まて　あわてるな！"
-	line "しんぞう　マヒに　なったら　どうする"
+	text "WAIT! DONT RUSH!"
+	line "WHAT IF HEART"
+	cont "PARALYSIS STRIKES"
 	done
 
 Route19CooltrainerM2EndBattleText:
-	text "うー　さむい"
+	text "OOH COLD COLD!"
 	prompt
 
 Route19CooltrainerM2AfterBattleText:
-	text "メノクラゲに　さされないよう"
-	line "きを　つけて　およげよ！"
+	text "DONT GET STUNG"
+	line "BY TENTACOOL·"
+	cont "SWIM CAREFULLY!"
 	done
 
 Route19Swimmer1Text:
@@ -87,17 +91,18 @@ Route19Swimmer1Text:
 	jp TextScriptEnd
 
 Route19Swimmer1BattleText:
-	text "およぐの　だいすき！"
-	line "<⋯>　きみは　どうなの？"
+	text "I LOVE SWIMMING!"
+	line "<⋯>HOW ABOUT YOU?"
 	done
 
 Route19Swimmer1EndBattleText:
-	text "ドッポーン！"
+	text "SPLASH! DOPPO-N!"
 	prompt
 
 Route19Swimmer1AfterBattleText:
-	text "およぎ　なら"
-	line "うみの　#にも　まけない！"
+	text "IN SWIMMING I"
+	line "WONT LOSE TO SEA"
+	cont "# PETS!"
 	done
 
 Route19Swimmer2Text:
@@ -107,17 +112,18 @@ Route19Swimmer2Text:
 	jp TextScriptEnd
 
 Route19Swimmer2BattleText:
-	text "すいへいせんの　むこう"
-	line "<⋯>　なにが　あるんだろ？"
+	text "BEYOND HORIZON<⋯>"
+	line "WHAT IS OUT THERE"
 	done
 
 Route19Swimmer2EndBattleText:
-	text "ありゃりゃ<⋯>"
+	text "ARYARYA<⋯>!"
 	prompt
 
 Route19Swimmer2AfterBattleText:
-	text "<⋯>　むこうに"
-	line "いくつか　しまが　みえるぞ！"
+	text "<⋯>OVER THERE"
+	line "SEVERAL ISLANDS"
+	cont "CAN BE SEEN!"
 	done
 
 Route19Swimmer3Text:
@@ -127,17 +133,19 @@ Route19Swimmer3Text:
 	jp TextScriptEnd
 
 Route19Swimmer3BattleText:
-	text "もぐって<⋯>　うみ　#"
-	line "とろうとしたけど　だめ　みたいだ！"
+	text "DIVING DOWN<⋯>TO"
+	line "CATCH SEA #·"
+	cont "NO GOOD AT ALL!"
 	done
 
 Route19Swimmer3EndBattleText:
-	text "ごぼ　ごぼッ"
+	text "GLUB GLUB-T!"
 	prompt
 
 Route19Swimmer3AfterBattleText:
-	text "うみの　#は　やっぱり"
-	line "つりで　とる　しか　ないや"
+	text "FOR SEA #·MUST"
+	line "CATCH THEM WITH"
+	cont "A FISHING ROD!"
 	done
 
 Route19Swimmer4Text:
@@ -147,17 +155,19 @@ Route19Swimmer4Text:
 	jp TextScriptEnd
 
 Route19Swimmer4BattleText:
-	text "あおい　うみを　みてれば"
-	line "いやな　ことも　わすれるぞ！"
+	text "GAZING AT BLUE"
+	line "SEA MAKES YOU"
+	cont "FORGET BAD THING!"
 	done
 
 Route19Swimmer4EndBattleText:
-	text "いやな　まけかただ"
+	text "UNPLEASANT LOSS!"
 	prompt
 
 Route19Swimmer4AfterBattleText:
-	text "あおい　うみを　みて<⋯>"
-	line "いやな　ことを　わすれよう"
+	text "GAZING AT BLUE"
+	line "SEA<⋯>I SHALL"
+	cont "FORGET THIS LOSS!"
 	done
 
 Route19Swimmer5Text:
@@ -167,18 +177,20 @@ Route19Swimmer5Text:
 	jp TextScriptEnd
 
 Route19Swimmer5BattleText:
-	text "ま！　いい　ものに　のってるわね"
-	line "かったら　わたしに　ちょうだい！"
+	text "MY! RIDING A NICE"
+	line "RIDE! IF I WIN"
+	cont "GIVE IT TO ME!"
 	done
 
 Route19Swimmer5EndBattleText:
-	text "わたしの　まけか"
+	text "MY LOSS EH?"
 	prompt
 
 Route19Swimmer5AfterBattleText:
-	text "ふたごじま　まで"
-	line "まだ　ありそうだし<⋯>"
-	cont "セキチクに　かえりたいわ"
+	text "TWIN ISLANDS ARE"
+	line "STILL FAR AWAY<⋯>"
+	cont "I WANT TO GO BACK"
+	cont "TO FUCHSIA NOW!"
 	done
 
 Route19Swimmer6Text:
@@ -188,17 +200,19 @@ Route19Swimmer6Text:
 	jp TextScriptEnd
 
 Route19Swimmer6BattleText:
-	text "およぐの　すき　だけど"
-	line "ひやけ　するのは　いやだわ！"
+	text "I LOVE SWIMMING"
+	line "BUT HATE GETTING"
+	cont "SUNBURNED!"
 	done
 
 Route19Swimmer6EndBattleText:
-	text "くらくら<⋯>"
+	text "KURAKURA<⋯>DIZZY!"
 	prompt
 
 Route19Swimmer6AfterBattleText:
-	text "かれが　ふたごじま　まで"
-	line "およごうって　いったのよ"
+	text "MY BOYFRIEND SAID"
+	line "LETS SWIM TO"
+	cont "TWIN ISLANDS!"
 	done
 
 Route19Swimmer7Text:
@@ -208,17 +222,18 @@ Route19Swimmer7Text:
 	jp TextScriptEnd
 
 Route19Swimmer7BattleText:
-	text "そこの　しょうねん！"
-	line "この　うみは　きけんだ！"
+	text "HEY THERE LAD!"
+	line "THIS SEA IS"
+	cont "KIKEN! DANGER!"
 	done
 
 Route19Swimmer7EndBattleText:
-	text "あぶない　めに　あった"
+	text "MET DANGER INDEED"
 	prompt
 
 Route19Swimmer7AfterBattleText:
-	text "あ　あしが　つった！"
-	line "ぶく<⋯>　ぶくぶく<⋯>"
+	text "MY LEG CRAMPED!"
+	line "BUKU<⋯>BUKUBUKU<⋯>"
 	done
 
 Route19Swimmer8Text:
@@ -228,21 +243,23 @@ Route19Swimmer8Text:
 	jp TextScriptEnd
 
 Route19Swimmer8BattleText:
-	text "みんなで　ここまで　およいで"
-	line "きたけど<⋯>　くたびれたわ"
+	text "SWAM TOGETHER SO"
+	line "FAR BUT<⋯>TIRED!"
 	done
 
 Route19Swimmer8EndBattleText:
-	text "つかれた<⋯>"
+	text "EXHAUSTED<⋯>"
 	prompt
 
 Route19Swimmer8AfterBattleText:
-	text "うみで　#に　のるなら"
-	line "ラプラスが　いいわ"
-	cont "おおきいから　ぬれない　もの"
+	text "TO RIDE A # IN"
+	line "SEA·LAPRAS BEST!"
+	cont "HUGE SO WONT GET"
+	cont "WET AT ALL!"
 	done
 
 Route19SignText:
-	text "ここは　１９ばん　すいどう"
-	line "セキチク　<⋯>　ふたごじま"
+	text "SEA ROUTE 19"
+	line "FUCHSIA<⋯>TWIN"
+	cont "ISLANDS"
 	done

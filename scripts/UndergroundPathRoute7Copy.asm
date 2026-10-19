@@ -9,34 +9,38 @@ UndergroundPathRoute7Copy_TextPointers:
 	dw_const UndergroundPathRoute7CopyUnusedMiddleAgedManText, TEXT_UNDERGROUNDPATHROUTE7COPY_UNUSED_MIDDLE_AGED_MAN
 
 UndergroundPathRoute7CopyUnusedGirlText:
-	text "「たまむし」シティの　デパートへ"
-	next "かいものに　いきたいんだけど<⋯>"
+	text "I WANT TO SHOP"
+	line "AT TAMAMUSHI DEPT"
+	cont "STORE·BUT<⋯>"
 
-	para "あのまちには　ガラのわるい　ひとが"
-	line "おおくて　なんだか　こわいのよね"
+	para "ROUGH CHARACTERS"
+	line "HANG AROUND THERE"
+	cont "IT IS SO SCARY!"
 	done
 
 UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText:
-	text "「たまむし」シティに"
-	next "「<ROCKET>」のアジトが"
-	cont "あったんですって？"
+	text "I HEAR <ROCKET> HAD"
+	line "A SECRET HIDEOUT"
+	cont "IN TAMAMUSHI?!"
 	done
 
 UndergroundPathRoute7CopyUnusedMiddleAgedManText:
-	text "おまえも　「たまむし」シティに"
-	next "かいものに　きたんだな"
+	text "YOU CAME TO SHOP"
+	line "IN TAMAMUSHI TOO?"
 
-	para "ドアから　でて"
-	line "すぐ　にしがわのまちが　そうだよ"
+	para "JUST GO OUT THE"
+	line "DOOR TO THE WEST!"
 	done
 
 UndergroundPathRoute7CopyUnusedGoesUnderSaffronText:
-	text "かいだんの　したにある　つうろは"
-	next "「やまぶき」の　したを　とおって"
-	cont "「しおん」へ　つながっているんだ"
+	text "THE PATH BELOW"
+	line "GOES UNDER"
+	cont "YAMABUKI TO"
+	cont "SHION TOWN!"
 
-	para "「はなだ」へ　いきたいんなら"
-
-	para "みちを　はさんで　むかいがわに"
-	line "たってる　たてものに　いきなよ"
+	para "IF YOU WANT"
+	line "HANADA CITY·GO TO"
+	cont "BUILDING ACROSS!"
 	done
+
+

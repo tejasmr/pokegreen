@@ -7,14 +7,15 @@ CeruleanTradeHouse_TextPointers:
 	dw_const CeruleanTradeHouseGamblerText, TEXT_CERULEANTRADEHOUSE_GAMBLER
 
 CeruleanTradeHouseGrannyText:
-	text "うちの　じいさま"
-	line "#の　こうかんに　こってるの"
+	text "MY OLD MAN IS"
+	line "CRAZY FOR #"
+	cont "TRADING!"
 
-	para "ぼうや"
-	line "#　ずかん　あつめてるなら"
+	para "YOUNG BOY· IF YOU"
+	line "COLLECT # BOOK·"
 
-	para "こうかんの　あいて"
-	line "して　あげて　くれるかしら"
+	para "PLEASE TRADE WITH"
+	line "HIM AS PARTNER?"
 	done
 
 CeruleanTradeHouseGamblerText:

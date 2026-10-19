@@ -23,8 +23,8 @@ CheckIfMoveIsKnown:
 
 AlreadyKnowsText:
 	text_ram wNameBuffer
-	text "は　すでに"
+	text " KNOWS"
 	line "@"
 	text_ram wStringBuffer
-	text "を　おぼえています"
+	text "！"
 	prompt

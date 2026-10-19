@@ -33,13 +33,13 @@ ReflectLightScreenEffect_:
 	jp EffectCallBattleCore
 
 LightScreenProtectedText:
-	text "<USER>は"
-	line "とくしゅこうげきに　つよくなった！"
+	text "<USER>"
+	line "GAINED SPCL DEF！"
 	prompt
 
 ReflectGainedArmorText:
-	text "<USER>は"
-	line "だげきこうげきに　つよくなった！"
+	text "<USER>"
+	line "GAINED ARMOR！"
 	prompt
 
 EffectCallBattleCore:

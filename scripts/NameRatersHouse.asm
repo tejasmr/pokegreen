@@ -80,62 +80,71 @@ NameRatersHouseNameRaterText:
 	jr .done
 
 .WantMeToRateText:
-	text "はい　はい！"
-	line "わたしは　せいめい　はんだんし"
-	cont "いうなれば　なまえの　うらないです"
+	text "YES YES! I AM"
+	line "NAME DIVINER!"
+	cont "『SEIMEI HANDAN』"
+	cont "ONOMIC FORTUNE!"
 
-	para "はい　あなたの　#の"
-	line "ニックネーム　うらなって　あげるよ"
+	para "YES! I APPRAISE"
+	line "YOUR # NICKNAME!"
 	done
 
 .WhichPokemonText:
-	text "どの　#の"
-	line "ニックネームを　うらなうかね？"
+	text "WHICH # WILL"
+	line "HAVE NICKNAME"
+	cont "APPRAISED TODAY?"
 	prompt
 
 .GiveItANiceNameText:
-	text "うーむ　@"
+	text "HMM @"
 	text_ram wNameBuffer
-	text "か<⋯>"
-	line "なかなか"
-	cont "いい　ニックネームを　つけたね"
+	text "!"
+	line "QUITE A DECENT"
+	cont "NAME YOU GAVE IT!"
 
-	para "でもねー"
-	line "もう　すこしだけ　いい　なまえ"
+	para "BUT YOU SEE<⋯>"
+	line "HOW ABOUT A BIT"
+	cont "BETTER ONE?"
 
-	para "わたしが　つけて　あげようか？"
-	line "どうかな？"
+	para "SHALL I BESTOW?"
+	line "HOW ABOUT IT?"
 	done
 
 .WhatShouldWeNameItText:
-	text "そうか　では"
-	line "どんな　ニックネームに　しようかな"
+	text "VERY WELL THEN!"
+	line "WHAT NICKNAME"
+	cont "SHALL WE BESTOW?"
 	prompt
 
 .PokemonHasBeenRenamedText:
-	text "よし　これから"
-	line "この　#は　@"
+	text "OKAY! FROM NOW"
+	line "THIS # IS"
+	cont "@"
 	text_ram wBuffer
-	text "だ！"
+	text "!"
 
-	para "まえより　いい　なまえ　じゃないか"
-	line "よかったな！"
+	para "ISNT THAT A MUCH"
+	line "BETTER NAME NOW?"
+	cont "CONGRATULATIONS!"
 	done
 
 .ComeAnyTimeYouLikeText:
-	text "そうか"
-	line "わかった　また　きなさいよ"
+	text "I SEE! UNDERSTOOD"
+	line "PLEASE COME VISIT"
+	cont "AGAIN ANYTIME!"
 	done
 
 .ATrulyImpeccableNameText:
-	text "うむ　@"
+	text "HMM @"
 	text_ram wNameBuffer
-	text "か！"
-	line "これは　すばらしい　ニックネームだ"
-	cont "けちの　つけようもない！"
+	text "!"
+	line "TRULY SPLENDID"
+	cont "NAME! FLAWLESS!"
 
-	para "これからも　@"
+	para "TREAT @"
 	text_ram wNameBuffer
-	text "を"
-	line "かわいがって　あげなさいよ！"
+	text ""
+	line "WITH GREAT LOVE"
+	cont "ALWAYS FOREVER!"
 	done
+

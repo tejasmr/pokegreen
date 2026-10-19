@@ -3,8 +3,9 @@ PrintTrashText:
 	tx_pre_jump VermilionGymTrashText
 
 VermilionGymTrashText::
-	text "ガサゴソ<⋯>！"
-	line "なかは　ゴミ　ばっかり！"
+	text "RUMMAGE<⋯>！"
+	line "INSIDE IS ONLY"
+	cont "TRASH JUNK！"
 	done
 
 GymTrashScript:
@@ -131,13 +132,16 @@ GymTrashCans:
 	db 2, 11, 13,  0,  0 ; 14
 
 VermilionGymTrashSuccessText1::
-	text "ガサゴソ<⋯>！"
-	line "おっと！　ゴミばこの　そこに"
-	cont "スイッチが　あった！"
-	cont "おして　みよう！　<⋯>　ポチッとな"
+	text "RUMMAGE<⋯>！"
+	line "WHOA！ AT BOTTOM"
+	cont "OF TRASH CAN A"
+	cont "SWITCH IS FOUND！"
+	cont "LETS PUSH IT！"
+	cont "<⋯>CLICK NOW！"
 
-	para "でんどうドアの"
-	line "だい１　ロックが　はずれた！@"
+	para "1ST LOCK OF"
+	line "ELECTRIC DOOR"
+	cont "HAS UNLOCKED！@"
 	text_asm
 	call WaitForSoundToFinish
 	ld a, SFX_SWITCH
@@ -147,10 +151,12 @@ VermilionGymTrashSuccessText1::
 
 ; unused
 VermilionGymTrashSuccessText2::
-	text "ガサゴソ<⋯>！"
-	line "おっと！　ゴミばこの　そこに"
-	cont "また　スイッチが　あった！"
-	cont "おして　みよう！　<⋯>　ポチッとな"
+	text "RUMMAGE<⋯>！"
+	line "WHOA！ AT BOTTOM"
+	cont "OF TRASH CAN A"
+	cont "SWITCH AGAIN！"
+	cont "LETS PUSH IT！"
+	cont "<⋯>CLICK NOW！"
 	prompt
 
 ; unused
@@ -163,11 +169,13 @@ VermilionGymTrashSuccessPlaySfx:
 	jp TextScriptEnd
 
 VermilionGymTrashSuccessText3::
-	text "でんどうドアの"
-	line "だい２　ロックが　はずれた！"
+	text "2ND LOCK OF"
+	line "ELECTRIC DOOR"
+	cont "HAS UNLOCKED！"
 
-	para "おおきな　でんどうドアが"
-	line "かんぜんに　ひらいた！@"
+	para "THE BIG ELECTRIC"
+	line "DOOR HAS OPENED"
+	cont "COMPLETELY！@"
 	text_asm
 	call WaitForSoundToFinish
 	ld a, SFX_GO_INSIDE
@@ -176,10 +184,13 @@ VermilionGymTrashSuccessText3::
 	jp TextScriptEnd
 
 VermilionGymTrashFailText::
-	text "ガサゴソ<⋯>！"
-	line "なかは　ゴミ　ばっかり！"
-	cont "あッ！　でんどうドアの"
-	cont "ロックが　もどって　しまった！@"
+	text "RUMMAGE<⋯>！"
+	line "INSIDE IS ONLY"
+	cont "TRASH JUNK！"
+
+	para "AHッ！ ELECTRIC"
+	line "DOOR LOCK HAS"
+	cont "RESET BACK！@"
 	text_asm
 	call WaitForSoundToFinish
 	ld a, SFX_DENIED

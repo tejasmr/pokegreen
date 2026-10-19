@@ -3,7 +3,8 @@ PrintFightingDojoText2:
 	tx_pre_jump EnemiesOnEverySideText
 
 EnemiesOnEverySideText::
-	text "しめん　そか"
+	text "『SHIMEN SOKA』！"
+	line "FOES ON ALL SIDES"
 	done
 
 PrintFightingDojoText3:
@@ -11,7 +12,8 @@ PrintFightingDojoText3:
 	tx_pre_jump WhatGoesAroundComesAroundText
 
 WhatGoesAroundComesAroundText::
-	text "いんが　おうほう"
+	text "『INGA OUHOU』！"
+	line "KARMIC JUSTICE！"
 	done
 
 PrintFightingDojoText:
@@ -19,5 +21,6 @@ PrintFightingDojoText:
 	tx_pre_jump FightingDojoText
 
 FightingDojoText::
-	text "かくとう　どうじょう！"
+	text "FIGHTING DOJO！"
+	line "『KAKUTOU DOUJOU』"
 	done

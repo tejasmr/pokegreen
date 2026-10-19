@@ -13,18 +13,21 @@ VermilionPokecenterNurseText:
 	script_pokecenter_nurse
 
 VermilionPokecenterFishingGuruText:
-	text "おなじ　レベルの　#でも"
-	line "つよさは　まちまち　らしい"
+	text "EVEN AT SAME"
+	line "LEVEL· # HAVE"
+	cont "DIFFERENT POWER!"
 
-	para "それに　ひとが　そだてた"
-	line "#の　ほうが"
-	cont "やせい　より　つよい　らしい"
+	para "AND # RAISED"
+	line "BY HUMANS GROW"
+	cont "STRONGER THAN"
+	cont "WILD ONES!"
 	done
 
 VermilionPokecenterSailorText:
-	text "おれの　#"
-	line "どく　くらったまま　あるいてたら"
-	cont "ちから　つき　おったで！"
+	text "MY # TOOK"
+	line "POISON AND LOST"
+	cont "ALL HP WHILE"
+	cont "WALKING AROUND!"
 	done
 
 VermilionPokecenterLinkReceptionistText:

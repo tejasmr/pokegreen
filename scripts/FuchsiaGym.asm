@@ -19,10 +19,11 @@ FuchsiaGym_Script:
 	ret
 
 .CityName:
-	db "セキチク@"
+	db "SEKICHIKU@"
 
 .LeaderName:
-	db "キョウ@"
+	db "KYOU@"
+
 
 FuchsiaGymResetScripts:
 	xor a ; SCRIPT_FUCHSIAGYM_DEFAULT
@@ -132,66 +133,73 @@ FuchsiaGymKogaText:
 	jp TextScriptEnd
 
 .BeforeBattleText:
-	text "キョウ『<⋯>　ファ　ファ　ファ！"
+	text "KYOU『<⋯>FWA HA"
+	line "HA HA!"
 
-	para "こわっぱ　ごときが"
-	line "せっしゃに　たたかいを　いどむとは"
-	cont "かたはら　いたいわ！"
+	para "A BRAT LIKE YOU"
+	line "DARES CHALLENGE"
+	cont "ME? LAUGHABLE!"
 
-	para "<⋯>　どくを　くらったら　じめつ！"
-	line "ねむって　しまったら　むていこう"
+	para "TAKE POISON AND"
+	line "FALL TO RUIN!"
+	cont "FALL ASLEEP AND"
+	cont "BE HELPLESS!"
 
-	para "<⋯>　しのびの　わざの　ごくいを"
-	line "うけて　みるが　よい！"
+	para "TASTE SECRET"
+	line "NINJA TECHNIQUES!"
 	done
 
 .ReceivedSoulBadgeText:
-	text "ふん<⋯>！"
-	line "おぬし　やりおるな！"
+	text "HUMPH<⋯>! YOU"
+	line "ARE VERY SKILLED!"
 
-	para "そら！"
-	line "ピンク　バッジを　うけとれ！"
+	para "HERE! TAKE THE"
+	line "PINK BADGE!"
 	prompt
 
 .PostBattleAdviceText:
-	text "どくどくは　どくを　あびたら"
-	line "１ターン　ごとに　どんどん"
-	cont "ダメージが　おおきく　なる！"
+	text "TOXIC DOKUDOKU"
+	line "DOES MORE DAMAGE"
+	cont "EACH TURN!"
 
-	para "これは　あいてに"
-	line "きょうふを　あたえる　わざ　なのだ！"
+	para "IT STRIKES TERROR"
+	line "INTO FOES!"
 	done
 
 FuchsiaGymKogaSoulBadgeInfoText:
-	text "ピンク　バッジを　もって　おれば"
-	line "おぬしの　#の"
-	cont "ぼうぎょ　りょくを　あげる！"
+	text "PINK BADGE BOOSTS"
+	line "YOUR #S DEFENSE"
+	cont "IN BATTLE!"
 
-	para "たたかって　ない　ときでも"
-	line "なみのりの　わざを"
-	cont "つかえる　ように　なる！"
+	para "OUT OF BATTLE·"
+	line "IT LETS YOU USE"
+	cont "SURF NAMINORI!"
 
-	para "そうだ<⋯>！　これを　おぬしに！"
+	para "TAKE THIS TOO!"
 	done
 
 FuchsiaGymKogaReceivedTM06Text:
-	text "<PLAYER>は　キョウ　から"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text " FROM"
+	cont "KYOU!@"
 	sound_get_key_item
 	text_start
 
-	para "４００ねん　むかし　より"
-	line "わがやに　つたわる　#　わざ"
+	para "FOR 400 YEARS"
+	line "PASSED DOWN IN"
+	cont "OUR NINJA CLAN·"
 
-	para "<TM>０６には　ごくい！"
-	line "どくどくが　ふういん　してある！"
+	para "<TM>06 CONTAINS"
+	line "SECRET TOXIC!"
 	done
 
 FuchsiaGymKogaTM06NoRoomText:
-	text "にもつが　いっぱいだ"
+	text "YOUR PACK IS"
+	line "FULL OF ITEMS!"
 	done
+
 
 FuchsiaGymRocker1Text:
 	text_asm
@@ -200,25 +208,28 @@ FuchsiaGymRocker1Text:
 	jp TextScriptEnd
 
 FuchsiaGymRocker1BattleText:
-	text "ただ　つよい　だけでは　だめだ！"
-	line "<⋯>　わかるか？"
+	text "MERE STRENGTH"
+	line "IS NOT ENOUGH!"
+	cont "DO YOU GET IT?"
 
-	para "#は　テクニックだ！"
+	para "# IS ABOUT"
+	line "PURE TECHNIQUE!"
 
-	para "この　ジムに　きた　から　には"
-	line "そういう　#の　おく　ふかさ"
-	cont "タップリ　おしえて　やる！"
+	para "I WILL TEACH YOU"
+	line "THE DEEP ART OF"
+	cont "# IN THIS GYM!"
 	done
 
 FuchsiaGymRocker1EndBattleText:
-	text "<⋯>！"
-	line "ただもの　では　ない！"
+	text "<⋯>! YOU ARE NO"
+	line "ORDINARY KID!"
 	prompt
 
 FuchsiaGymRocker1AfterBattleText:
-	text "こどもの　<TRAINER>　とはいえ"
-	line "パワー　だけでなく"
-	cont "テクニックも　みがいてるな！"
+	text "EVEN AS A KID"
+	line "TRAINER·YOU HAVE"
+	cont "BOTH POWER AND"
+	cont "FINE TECHNIQUE!"
 	done
 
 FuchsiaGymRocker2Text:
@@ -228,19 +239,21 @@ FuchsiaGymRocker2Text:
 	jp TextScriptEnd
 
 FuchsiaGymRocker2BattleText:
-	text "マジシャン　だった　おれは"
-	line "ニンジャに　あこがれて"
-	cont "この　セキチク　ジムに　はいった！"
+	text "I WAS A MAGICIAN·"
+	line "BUT LONGING FOR"
+	cont "NINJA SKILLS I"
+	cont "JOINED THIS GYM!"
 	done
 
 FuchsiaGymRocker2EndBattleText:
-	text "<⋯>　やられた！"
+	text "<⋯>DEFEATED!"
 	prompt
 
 FuchsiaGymRocker2AfterBattleText:
-	text "たとえ　まけても　おれは"
-	line "ニンジャ　マスター"
-	cont "キョウの　おしえに　いきる　つもりだ"
+	text "EVEN IF I LOSE·"
+	line "I LIVE BY NINJA"
+	cont "MASTER KYOUS"
+	cont "TEACHINGS!"
 	done
 
 FuchsiaGymRocker3Text:
@@ -250,20 +263,23 @@ FuchsiaGymRocker3Text:
 	jp TextScriptEnd
 
 FuchsiaGymRocker3BattleText:
-	text "おれの　#　あやしの　わざ"
-	line "たっぷりと　あじわいな！"
+	text "TASTE MY #S"
+	line "STRANGE TRICK"
+	cont "TECHNIQUES!"
 	done
 
 FuchsiaGymRocker3EndBattleText:
-	text "<⋯>　そうか！"
-	line "おまえも　わざ　つかいか？"
+	text "<⋯>I SEE! YOU"
+	line "USE TRICKS TOO!"
 	prompt
 
 FuchsiaGymRocker3AfterBattleText:
-	text "たたかい　おわった　あとでも"
-	line "どく　ねむり　といった　こうかは"
-	cont "のこる　ところが　すき　だぜ！"
+	text "AFTER BATTLE·"
+	line "POISON AND SLEEP"
+	cont "REMAIN! THAT IS"
+	cont "WHY I LOVE IT!"
 	done
+
 
 FuchsiaGymRocker4Text:
 	text_asm
@@ -272,23 +288,25 @@ FuchsiaGymRocker4Text:
 	jp TextScriptEnd
 
 FuchsiaGymRocker4BattleText:
-	text "おっと！　まちな！"
+	text "HOLD IT! WAIT!"
 
-	para "セキチク　ジムの　めいぶつ"
-	line "みえない　かべ　システムは　どうだ"
+	para "HOW DO YOU LIKE"
+	line "OUR GYMS FAMOUS"
+	cont "INVISIBLE WALLS?"
 	done
 
 FuchsiaGymRocker4EndBattleText:
-	text "<⋯>　ほお！"
-	line "やる　じゃないか！"
+	text "<⋯>OH! YOU CAN"
+	line "REALLY FIGHT!"
 	prompt
 
 FuchsiaGymRocker4AfterBattleText:
-	text "おまえは　ほねが　ありそう　だ！"
-	line "とくべつに　ヒントを　おしえよう！"
+	text "YOU HAVE GUTS!"
+	line "HERE IS A HINT!"
 
-	para "みえない　かべは　よく　みると"
-	line "しきりが　みえて　くる<⋯>！"
+	para "LOOK CLOSELY AT"
+	line "INVISIBLE WALLS·"
+	cont "GAPS CAN BE SEEN!"
 	done
 
 FuchsiaGymRocker5Text:
@@ -298,20 +316,22 @@ FuchsiaGymRocker5Text:
 	jp TextScriptEnd
 
 FuchsiaGymRocker5BattleText:
-	text "この　おれも"
-	line "ニンジャ　キョウの　もんかせい！"
+	text "I AM ALSO A PUPIL"
+	line "OF NINJA KYOU!"
 
-	para "ニンジャは　むかし　から"
-	line "よく　どうぶつを　つかった　という"
+	para "NINJA HAVE USED"
+	line "ANIMALS SINCE"
+	cont "ANCIENT TIMES!"
 	done
 
 FuchsiaGymRocker5EndBattleText:
-	text "がおーん<⋯>！"
+	text "GAOOON<⋯>!"
 	prompt
 
 FuchsiaGymRocker5AfterBattleText:
-	text "まだ　まだ！"
-	line "おれには　しゅぎょうが　たりない"
+	text "NOT ENOUGH! MY"
+	line "TRAINING SHUGYOU"
+	cont "IS STILL WEAK!"
 	done
 
 FuchsiaGymRocker6Text:
@@ -321,23 +341,28 @@ FuchsiaGymRocker6Text:
 	jp TextScriptEnd
 
 FuchsiaGymRocker6BattleText:
-	text "ここの　リーダー　キョウは"
-	line "イガ　ニンジャの　しそんだ！"
+	text "OUR LEADER KYOU"
+	line "IS DESCENDED FROM"
+	cont "IGA NINJA!"
 
-	para "おいッ！"
-	line "おまえは　なにの　しそん　なんだ？"
+	para "HEY! WHO ARE"
+	line "YOU DESCENDED"
+	cont "FROM?"
 	done
 
 FuchsiaGymRocker6EndBattleText:
-	text "なかなか　できるな！"
+	text "YOU ARE VERY"
+	line "CAPABLE!"
 	prompt
 
 FuchsiaGymRocker6AfterBattleText:
-	text "<⋯>　ひかり　ある　ところに"
-	line "かげが　ある！"
+	text "<⋯>WHERE LIGHT"
+	line "SHINES·SHADOW"
+	cont "FALLS!"
 
-	para "ひかりと　かげ！"
-	line "おまえは　どちらを　えらぶ？"
+	para "LIGHT AND SHADOW!"
+	line "WHICH DO YOU"
+	cont "CHOOSE?"
 	done
 
 FuchsiaGymGymGuideText:
@@ -351,20 +376,26 @@ FuchsiaGymGymGuideText:
 	jp TextScriptEnd
 
 .ChampInMakingText:
-	text "おーす！"
-	line "みらいの　チャンピオン！"
+	text "YO! FUTURE"
+	line "CHAMPION!"
 
-	para "セキチク　ジムは　からくり　やしき"
-	line "みえない　かべで　しきられてる！"
+	para "SEKICHIKU GYM IS"
+	line "A TRICK HOUSE"
+	cont "OF INVISIBLE"
+	cont "GLASS WALLS!"
 
-	para "キョウの　やつは　すぐ　そこに"
-	line "いる　ように　みえるが<⋯>"
+	para "KYOU LOOKS CLOSE"
+	line "ENOUGH TO TOUCH·"
 
-	para "みえない　かべの　とぎれてる　とこを"
-	line "さがし　ださないと　あえないぜ！"
+	para "BUT YOU MUST FIND"
+	line "THE GAPS IN THE"
+	cont "WALLS TO REACH"
+	cont "HIM!"
 	done
 
 .BeatKogaText:
-	text "げんだいに　なお　いき　のこる"
-	line "ニンジャの　こわさを　みたな！"
+	text "YOU SAW THE DREAD"
+	line "OF NINJA LIVING"
+	cont "IN MODERN TIMES!"
 	done
+

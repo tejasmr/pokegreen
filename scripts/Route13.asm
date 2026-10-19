@@ -49,18 +49,19 @@ Route13CooltrainerM1Text:
 	jp TextScriptEnd
 
 Route13CooltrainerM1BattleText:
-	text "ぼくの　とりポケが　きみたちと"
-	line "たたかい　たがってる！"
+	text "MY BIRD # WANTS"
+	line "TO FIGHT YOU ALL!"
 	done
 
 Route13CooltrainerM1EndBattleText:
-	text "ポッポと　ピジョン"
-	line "コンビが　まける　なんて"
+	text "PIDGEY·PIDGEOTTO"
+	line "COMBO DEFEATED!"
 	prompt
 
 Route13CooltrainerM1AfterBattleText:
-	text "まけても　ぼくの　とりポケは"
-	line "まんぞく　した　みたい"
+	text "EVEN IN LOSS MY"
+	line "BIRD # SEEMS"
+	cont "QUITE CONTENT!"
 	done
 
 Route13CooltrainerF1Text:
@@ -70,18 +71,20 @@ Route13CooltrainerF1Text:
 	jp TextScriptEnd
 
 Route13CooltrainerF1BattleText:
-	text "おんなのこに　しては"
-	line "すじが　いいって　ほめられるの！"
+	text "I GET PRAISED:"
+	line "『GOOD TALENT FOR"
+	cont "A GIRL TRAINER!』"
 	done
 
 Route13CooltrainerF1EndBattleText:
-	text "まけちゃった"
+	text "I LOST IT ALL!"
 	prompt
 
 Route13CooltrainerF1AfterBattleText:
-	text "いつかは"
-	line "つよい　<TRAINER>に　なりたい"
-	cont "きょうから　また　とっくんよ！"
+	text "SOME DAY A MIGHTY"
+	line "<TRAINER> I WILL BE!"
+	cont "SPECIAL TRAINING"
+	cont "RESUMES TODAY!"
 	done
 
 Route13CooltrainerF2Text:
@@ -91,18 +94,19 @@ Route13CooltrainerF2Text:
 	jp TextScriptEnd
 
 Route13CooltrainerF2BattleText:
-	text "あら！"
-	line "かっこいい　バッジ　もってるね"
+	text "ARA! YOU CARRY"
+	line "COOL-LOOKING"
+	cont "GYM BADGES!"
 	done
 
 Route13CooltrainerF2EndBattleText:
-	text "まだまだ　だわ"
+	text "MADAMADA DAWA!"
 	prompt
 
 Route13CooltrainerF2AfterBattleText:
-	text "そのバッジ<⋯>"
-	line "リーダー　から　もらったんでしょ"
-	cont "<⋯>　しってるわよ"
+	text "THOSE BADGES<⋯>"
+	line "GIVEN BY LEADERS·"
+	cont "<⋯>I KNOW THAT!"
 	done
 
 Route13CooltrainerF3Text:
@@ -112,19 +116,19 @@ Route13CooltrainerF3Text:
 	jp TextScriptEnd
 
 Route13CooltrainerF3BattleText:
-	text "かわいい　#　たちに"
-	line "ごあいさつを　させるわ！"
+	text "MY CUTE #S"
+	line "SHALL GREET YOU!"
 	done
 
 Route13CooltrainerF3EndBattleText:
-	text "おみごと！"
-	line "わたしの　かんぱいね"
+	text "SPLENDID!"
+	line "MY TOTAL DEFEAT!"
 	prompt
 
 Route13CooltrainerF3AfterBattleText:
-	text "#は　こうやって"
-	line "どんどん　たたかわせて"
-	cont "つよく　してかないと！"
+	text "LIKE THIS·#"
+	line "MUST BATTLE MORE"
+	cont "TO GROW STRONG!"
 	done
 
 Route13CooltrainerF4Text:
@@ -134,18 +138,20 @@ Route13CooltrainerF4Text:
 	jp TextScriptEnd
 
 Route13CooltrainerF4BattleText:
-	text "どうくつ　たんけんに　いって"
-	line "インドメタシンを　ひろったのよ"
+	text "IN CAVE EXPLORE"
+	line "I PICKED UP"
+	cont "INDOMETHACIN!"
 	done
 
 Route13CooltrainerF4EndBattleText:
-	text "<⋯>　ざんねん！"
-	line "ちょうしが　でなかったわ"
+	text "<⋯>ZANNEN!"
+	line "NOT IN GOOD FORM!"
 	prompt
 
 Route13CooltrainerF4AfterBattleText:
-	text "そう　インドメタシン　あたえたら"
-	line "#の　すばやさが　あがったの"
+	text "GAVE INDOMETHACIN"
+	line "AND MY # SPEED"
+	cont "SHOT RIGHT UP!"
 	done
 
 Route13CooltrainerM2Text:
@@ -155,18 +161,20 @@ Route13CooltrainerM2Text:
 	jp TextScriptEnd
 
 Route13CooltrainerM2BattleText:
-	text "まけないよ！　かぜは"
-	line "ぼくの　ほうに　ふいて　いる！"
+	text "I WONT LOSE!"
+	line "THE WIND BLOWS"
+	cont "IN MY DIRECTION!"
 	done
 
 Route13CooltrainerM2EndBattleText:
-	text "<⋯>　かざむきが"
-	line "かわった　みたい　だな"
+	text "<⋯>WIND DIRECTION"
+	line "HAS SHIFTED!"
 	prompt
 
 Route13CooltrainerM2AfterBattleText:
-	text "たたかう　げんきも　ないや"
-	line "とりに　のって　うちに　かえろう"
+	text "NO ENERGY LEFT·"
+	line "RIDING BIRD GOING"
+	cont "BACK HOME NOW!"
 	done
 
 Route13Beauty1Text:
@@ -176,19 +184,20 @@ Route13Beauty1Text:
 	jp TextScriptEnd
 
 Route13Beauty1BattleText:
-	text "あら<⋯>　ぼうや"
-	line "あいて　して　あげても　いいわよ"
+	text "ARA<⋯>LITTLE BOY"
+	line "I SHALL BE YOUR"
+	cont "OPPONENT!"
 	done
 
 Route13Beauty1EndBattleText:
-	text "つよい！"
-	line "おとこ　らしいわね！"
+	text "STRONG!"
+	line "SO MANLY INDEED!"
 	prompt
 
 Route13Beauty1AfterBattleText:
-	text "#の　せかい　では"
-	line "オス　と　メス"
-	cont "どちらが　つよいの　かしら"
+	text "IN # WORLD"
+	line "♂ OR ♀·WHO IS"
+	cont "STRONGER I WONDER"
 	done
 
 Route13Beauty2Text:
@@ -198,19 +207,19 @@ Route13Beauty2Text:
 	jp TextScriptEnd
 
 Route13Beauty2BattleText:
-	text "わたしと　#　したいの？"
+	text "DO YOU WANT TO"
+	line "PLAY # WITH ME?"
 	done
 
 Route13Beauty2EndBattleText:
-	text "<⋯>　もう"
-	line "おわっちゃったのね"
+	text "<⋯>ALREADY OVER?"
 	prompt
 
 Route13Beauty2AfterBattleText:
-	text "わたし　ほんとは　#"
-	line "よく　わからないの"
-	cont "つかう　#も"
-	cont "かっこう　だけで　きめちゃうのよ"
+	text "TRUTH IS·I DONT"
+	line "KNOW MUCH #!"
+	cont "MY # SELECTION"
+	cont "IS JUST BY LOOKS!"
 	done
 
 Route13BikerText:
@@ -220,17 +229,17 @@ Route13BikerText:
 	jp TextScriptEnd
 
 Route13BikerBattleText:
-	text "っだよ！　っせーな！"
+	text "WHAT! SO NOISY!"
 	done
 
 Route13BikerEndBattleText:
-	text "ったくよ！"
-	line "っざけんなよ！"
+	text "TCH! DONT MESS"
+	line "WITH ME AROUND!"
 	prompt
 
 Route13BikerAfterBattleText:
-	text "っせーな！"
-	line "あっち　いけよ！"
+	text "SHUT UP! GO AWAY"
+	line "ACROSS THERE!"
 	done
 
 Route13CooltrainerM3Text:
@@ -240,37 +249,40 @@ Route13CooltrainerM3Text:
 	jp TextScriptEnd
 
 Route13CooltrainerM3BattleText:
-	text "ずーッと　とり　#に"
-	line "こだわって　きた　ぼくです！"
+	text "I HAVE ALWAYS"
+	line "STICKED TO BIRD"
+	cont "#S ONLY!"
 	done
 
 Route13CooltrainerM3EndBattleText:
-	text "ちから　つきた<⋯>"
+	text "POWER DEPLETED<⋯>"
 	prompt
 
 Route13CooltrainerM3AfterBattleText:
-	text "あーあ<⋯>　ぼくも"
-	line "ポッポや　ビジョンの　ように"
-	cont "そらを　とんで　いきたい"
+	text "AH<⋯>I ALSO WISH"
+	line "LIKE PIDGEY AND"
+	cont "PIDGEOTTO TO FLY"
+	cont "INTO THE SKY!"
 	done
 
 Route13TrainerTips1Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "TRAINER TIPS!"
 
-	para "そこ　そこ！"
-	line "くいを　はさんで　ひだり　がわ"
+	para "LOOK THERE! LEFT"
+	line "SIDE OF THE POST!"
 	done
 
 Route13TrainerTips2Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "TRAINER TIPS!"
 
-	para "どうぐ　ウィンドウで"
-	line "セレクト　ボタンを　おすと"
-	cont "どうぐの　ばしょを"
-	cont "いれかえる　ことが　できる！"
+	para "IN ITEM WINDOW"
+	line "PRESS SELECT"
+	cont "BUTTON TO SWAP"
+	cont "ITEM POSITIONS!"
 	done
 
 Route13SignText:
-	text "ここは　１３ばん　どうろ"
-	line "きた　<⋯>　サイレンズ　ブリッジ"
+	text "ROUTE 13"
+	line "NORTH: SILENCE"
+	cont "BRIDGE"
 	done

@@ -32,13 +32,15 @@ Route2GateOaksAideText:
 	jp TextScriptEnd
 
 .FlashExplanationText:
-	text "ひでんの　フラッシュで"
-	line "どんなに　くらいばしょでも"
-	cont "バッチリ　あかるく　なります"
+	text "SECRET FLASH"
+	line "MAKES EVEN THE"
+	cont "DARKEST PLACE"
+	cont "PERFECTLY BRIGHT!"
 	done
 
 Route2GateYoungsterText:
-	text "#が"
-	line "フラッシュを　おぼえたら"
-	cont "イワヤマトンネルが　とおれるね"
+	text "IF YOUR # CAN"
+	line "LEARN FLASH· YOU"
+	cont "CAN PASS THROUGH"
+	cont "ROCK TUNNEL!"
 	done

@@ -119,17 +119,17 @@ PokemonTower6FChanneler1Text:
 	jp TextScriptEnd
 
 PokemonTower6FChanneler1BattleText:
-	text "<⋯>　チ<⋯>　ニ<⋯>　ウエッ！"
-	line "<⋯>　テ<⋯>　ルッ<⋯>！"
+	text "<⋯>BLOOD<⋯> THIRST"
+	line "<⋯>FOR<⋯> BLOOD<⋯>！"
 	done
 
 PokemonTower6FChanneler1EndBattleText:
-	text "<⋯>ううーむ"
+	text "<⋯>UUMU<⋯>"
 	prompt
 
 PokemonTower6FChanneler1AfterBattleText:
-	text "ああ<⋯>！　クラクラ　する！"
-	line "ひんけつ　かも　しれん<⋯>"
+	text "AAH<⋯>！ DIZZY！"
+	line "MAYBE ANEMIA NE<⋯>"
 	done
 
 PokemonTower6FChanneler2Text:
@@ -139,19 +139,20 @@ PokemonTower6FChanneler2Text:
 	jp TextScriptEnd
 
 PokemonTower6FChanneler2BattleText:
-	text "<⋯>　カッ<⋯>　ナ<⋯>　シッ！"
-	line "<⋯>　バ<⋯>　リッ！"
+	text "<⋯>KA<⋯> NA<⋯> SHI！"
+	line "<⋯>BA<⋯> RI-TSU！"
 	done
 
 PokemonTower6FChanneler2EndBattleText:
-	text "<⋯>なにかが"
-	line "わしの　からだから　ぬけてく"
+	text "<⋯>SOMETHING HAS"
+	line "LEFT MY BODY！"
 	prompt
 
 PokemonTower6FChanneler2AfterBattleText:
-	text "わしの　からだ　から　ぬけたもの<⋯>"
-	line "それは　かみのけ　では　ない！"
-	cont "あくりょう　じゃ"
+	text "THING THAT LEFT"
+	line "MY BODY<⋯> NOT"
+	cont "HAIR LOSS！"
+	cont "EVIL SPIRIT JA！"
 	done
 
 PokemonTower6FChanneler3Text:
@@ -161,22 +162,24 @@ PokemonTower6FChanneler3Text:
 	jp TextScriptEnd
 
 PokemonTower6FChanneler3BattleText:
-	text "<⋯>ヒヒ<⋯>　ヒ<⋯>　ヒッ！"
-	line "<⋯>　ヒ<⋯>　ヒヒ<⋯>ヒヒッ！"
+	text "<⋯>HIHI<⋯> HI-TSU！"
+	line "<⋯>HIHIHI-TSU！"
 	done
 
 PokemonTower6FChanneler3EndBattleText:
-	text "ひいーっ！"
+	text "HII-TSU！"
 	prompt
 
 PokemonTower6FChanneler3AfterBattleText:
-	text "<⋯>ヒ　ヒヒ　ぃっーくしょん！"
-	line "あれ　わしは　どうしてたんじゃ？"
+	text "<⋯>HI HI HICHOO！"
+	line "ARE？ WHAT WAS I"
+	cont "DOING JUST NOW？"
 	done
 
 PokemonTower6FBeGoneText:
-	text "<⋯>　タチサレ！"
-	line "<⋯>　ココカラ　タチサレ<⋯>"
+	text "<⋯>BEGONE！"
+	line "<⋯>DEPART FROM"
+	cont "THIS PLACE<⋯>"
 	done
 
 PokemonTower6FMarowakDepartedText:
@@ -193,16 +196,21 @@ PokemonTower6FMarowakDepartedText:
 	jp TextScriptEnd
 
 PokemonTower6FGhostWasCubonesMotherText:
-	text "ゆうれいの　しょうたいは<⋯>"
+	text "TRUE IDENTITY"
+	line "OF GHOST WAS<⋯>"
 
-	para "カラカラの　おかあさんの"
-	line "まよえる　たましい　だった！"
+	para "WANDERING SOUL"
+	line "OF MOTHER"
+	cont "KARAKARA！"
 	done
 
 PokemonTower6FSoulWasCalmedText:
-	text "やさしい　カラカラの　おかあさんに"
-	line "もどった　たましいは"
-	cont "ぶじ　てんに　のぼって<⋯>"
+	text "SOUL RETURNED TO"
+	line "KIND MOTHER"
+	cont "OF KARAKARA<⋯>"
+	cont "ASCENDED TO"
+	cont "HEAVEN SAFELY<⋯>"
 
-	para "<⋯>　<⋯>きえて　いきました"
+	para "<⋯><⋯>VANISHED"
+	line "PEACEFULLY AWAY"
 	done

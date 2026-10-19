@@ -13,43 +13,52 @@ SSAnneKitchen_TextPointers:
 	dw_const SSAnneKitchenCook7Text, TEXT_SSANNEKITCHEN_COOK7
 
 SSAnneKitchenCook1Text:
-	text "ほら！"
-	line "そこの　きみ　じゃまだよ！"
-	cont "どいた　どいた！"
+	text "HEY! YOU ARE"
+	line "IN THE WAY!"
+	cont "OUT OF THE WAY!"
+	cont "YOU ARE 『JAMA』!"
 	done
 
 SSAnneKitchenCook2Text:
-	text "ゴミばこに　へんなボールが"
-	line "すてて　あったけど　なんだろう？"
+	text "A STRANGE BALL"
+	line "WAS THROWN IN"
+	cont "THE TRASH CAN·"
+	cont "I WONDER WHAT?"
 	done
 
 SSAnneKitchenCook3Text:
-	text "いそがしくって　めが　まわる！"
-	line "たのむ　から　あっち　いってくれ！"
+	text "I AM SO BUSY"
+	line "MY HEAD SPINS!"
+	cont "PLEASE GO AWAY"
+	cont "OVER THERE!"
 	done
 
 SSAnneKitchenCook4Text:
-	text "せっせ　せっせ<⋯>"
+	text "PEELING AWAY<⋯>"
+	line "『SESSE SESSE』!"
 
-	para "おれは　まいにち"
-	line "イモの　かわむきだ！"
-	cont "せっせ　せっせ<⋯>"
+	para "EVERY DAY I PEEL"
+	line "POTATO SKINS!"
+	cont "『SESSE SESSE』<⋯>"
 	done
 
 SSAnneKitchenCook5Text:
-	text "そういえば　くいしんぼうの"
-	line "カビゴン　しってる？"
+	text "BY THE WAY· DO"
+	line "YOU KNOW GLUTTON"
+	cont "KABIGON?"
 
-	para "あんなに　よく　たべて　よく　ねる"
-	line "#は　ほかに　いないよ！"
+	para "NO OTHER # EATS"
+	line "SO MUCH AND"
+	cont "SLEEPS SO MUCH!"
 	done
 
 SSAnneKitchenCook6Text:
-	text "しくしく　しくしく<⋯>"
+	text "SOBBING AWAY<⋯>"
+	line "『SHIKUSHIKU』<⋯>"
 
-	para "おれは　まいにち"
-	line "タマネギの　かわむきだー"
-	cont "しくしく　しくしく<⋯>"
+	para "EVERY DAY I PEEL"
+	line "ONIONS AND CRY!"
+	cont "『SHIKUSHIKU』<⋯>"
 	done
 
 SSAnneKitchenCook7Text:
@@ -73,29 +82,33 @@ SSAnneKitchenCook7Text:
 	jp TextScriptEnd
 
 .MainCourseIsText:
-	text "おっほん！"
-	line "わたしが　ここの　シェフです！"
+	text "AHEM! I AM THE"
+	line "CHEF OF KITCHEN!"
 
-	para "きょうの　メイン　ディッシュは"
+	para "TODAY MAIN DISH"
+	line "SHALL BE"
 	prompt
 
 .SalmonDuSaladText:
-	text "したびらめの　ムニエル！"
+	text "SOLE MEUNIERE!"
 
-	para "しかし　おきゃくさんに"
-	line "また　さかな？　と　いわれそうだ"
+	para "BUT GUESTS MIGHT"
+	line "SAY: FISH AGAIN?"
 	done
 
 .EelsAuBarbecueText:
-	text "さんまの　しおやき！"
+	text "SALT-GRILLED"
+	line "PACIFIC SAURY!"
 
-	para "<⋯>じゃ　おきゃく　さんに"
-	line "おこられるか？"
+	para "<⋯>WILL GUESTS GET"
+	line "ANGRY AT THAT?"
 	done
 
 .PrimeBeefSteakText:
-	text "ぎゅう　フィレの　ステーキ！"
+	text "BEEF FILLET"
+	line "STEAK!"
 
-	para "でも　ざいりょう"
-	line "にんずう　ぶん　あったかな？"
+	para "BUT DO WE HAVE"
+	line "ENOUGH FOR ALL"
+	cont "OUR GUESTS?"
 	done

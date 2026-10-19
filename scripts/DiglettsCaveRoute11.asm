@@ -9,10 +9,12 @@ DiglettsCaveRoute11_TextPointers:
 	dw_const DiglettsCaveRoute11GamblerText, TEXT_DIGLETTSCAVEROUTE11_GAMBLER
 
 DiglettsCaveRoute11GamblerText:
-	text "たまげた　もんだ！"
-	line "この　ながーい　どうくつ！"
-	cont "ディグダが　ほったんだと！"
+	text "WHAT A SHOCK!"
+	line "THIS LONG CAVE"
+	cont "WAS DUG OUT"
+	cont "BY DIGDA!"
 
-	para "トキワ　シティまで"
-	line "つながっとる　そうだ！"
+	para "THEY SAY IT"
+	line "CONNECTS ALL THE"
+	cont "WAY TO TOKIWA!"
 	done

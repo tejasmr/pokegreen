@@ -76,33 +76,39 @@ PokemonMansion2FSuperNerdText:
 	jp TextScriptEnd
 
 PokemonMansion2FSuperNerdBattleText:
-	text "この　やしき　しかけが　してあって"
-	line "なかなか　すすめませんぜ！"
+	text "THIS MANSION IS"
+	line "FULL OF TRICKS!"
+	cont "HARD TO PROCEED!"
 	done
 
 PokemonMansion2FSuperNerdEndBattleText:
-	text "わーッ！"
-	line "ふろしきの　なかみが"
+	text "WAH! MY LOOT"
+	line "IN THE BUNDLE!"
 	prompt
 
 PokemonMansion2FSuperNerdAfterBattleText:
-	text "ひみつの　スイッチを　おすと"
-	line "ふたつの　とびらが"
-	cont "たがい　ちがいに　ひらくんでさ"
+	text "FLIPPING SECRET"
+	line "SWITCH OPENS"
+	cont "DIFFERENT DOORS"
+	cont "ALTERNATELY!"
 	done
 
 PokemonMansion2FDiary1Text:
-	text "にっき　７がつ５か"
-	line "ここは　みなみアメリカの　ギアナ"
+	text "DIARY: JULY 5"
+	line "GUYANA·SOUTH"
+	cont "AMERICA JUNGLE!"
 
-	para "ジャングルの　おくちで"
-	line "しんしゅの　#を　はっけん"
+	para "DISCOVERED A"
+	line "BRAND NEW SPECIES"
+	cont "OF # IN DEEP"
+	cont "RAINFOREST!"
 	done
 
 PokemonMansion2FDiary2Text:
-	text "にっき　７がつ１０か"
-	line "しんはっけんの　#を"
-	cont "わたしは　ミュウと　なづけた"
+	text "DIARY: JULY 10"
+	line "I HAVE NAMED THE"
+	cont "NEWLY DISCOVERED"
+	cont "#: MEW!"
 	done
 
 PokemonMansion2FSwitchText:
@@ -132,15 +138,18 @@ PokemonMansion2FSwitchText:
 	jp TextScriptEnd
 
 .Text:
-	text "ひみつの　スイッチが　ある！"
+	text "A SECRET SWITCH!"
 
-	para "おして　みますか？"
+	para "PRESS IT?"
 	done
 
 .PressedText:
-	text "おしてみよう！　<⋯>ポチッとな"
+	text "WHO WOULD NOT"
+	line "PRESS IT? POCHI!"
 	prompt
 
 .NotPressed:
-	text "おすのは　あきらめた"
+	text "DECIDED NOT TO"
+	line "PRESS IT!"
 	done
+

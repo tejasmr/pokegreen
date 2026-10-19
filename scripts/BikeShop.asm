@@ -77,58 +77,65 @@ BikeShopClerkText:
 	jp TextScriptEnd
 
 BikeShopMenuText:
-	db   "じてんしゃ　１００００００円"
-	next "かわない@"
+	db   "BIKE 1000000円"
+	next "DONT BUY@"
 
 BikeShopClerkWelcomeText:
-	text "はい　はい！　いらっしゃい！"
-	line "ここは　ミラクル　じてんしゃや！"
+	text "HAI HAI! WELCOME!"
+	line "HERE IS MIRACLE"
+	cont "CYCLE SHOP!"
 
-	para "ほりだしもの　あるよー！"
-	line "かってくー？"
+	para "HAVE BARGAINS!"
+	line "WILL YOU BUY?"
 	prompt
 
 BikeShopClerkDoYouLikeItText:
-	text "かっこいい　じてんしゃ　あるけど"
-	line "かって　いかない？"
+	text "HAVE COOL BIKE!"
+	line "WILL YOU BUY IT?"
 	done
 
 BikeShopCantAffordText:
-	text "おきゃくさん！"
-	line "おかねが　たりませんなー！"
+	text "HONORED GUEST!"
+	line "MONEY IS NOT"
+	cont "ENOUGH! NO COIN!"
 	prompt
 
 BikeShopClerkOhThatsAVoucherText:
-	text "あー　それは<⋯>！"
+	text "AAH··· THAT IS⋯!"
 
-	para "じてんしゃ　ひきかえけん！"
+	para "BIKE VOUCHER"
+	line "『HIKIKAEKEN』!"
 
-	para "<⋯>わかりました！"
-	line "ささっ　これを　どうぞ！"
+	para "⋯UNDERSTOOD!"
+	line "QUICKLY· TAKE"
+	cont "THIS PRESENT!"
 	prompt
 
 BikeShopExchangedVoucherText:
-	text "<PLAYER>は　ひきかえけんで"
-	line "じてんしゃを　もらった！@"
+	text "<PLAYER> EXCHANGED"
+	line "FOR A BICYCLE!@"
 	sound_get_key_item
 	text_end
 
 BikeShopComeAgainText:
-	text "また　よろしく！"
-	line "ありがとう　ございました！"
+	text "COME AGAIN!"
+	line "ARIGATOU VERY"
+	cont "MUCH! THANK YOU!"
 	done
 
 BikeShopClerkHowDoYouLikeYourBicycleText:
-	text "やあ　こんちは！　じてんしゃの"
-	line "のりごこちは　いかが　です？"
+	text "YA! HELLO PAL!"
+	line "HOW IS RIDING"
+	cont "FEEL OF BICYCLE?"
 
-	para "あの　じてんしゃ　なら"
-	line "サイクリング　ロードは　もちろん"
-	cont "どうくつ　だって　はしれちゃうよ！"
+	para "THAT BIKE CAN"
+	line "RUN CYCLING ROAD"
+	cont "AND EVEN CAVE!"
 	done
 
 BikeShopBagFullText:
-	text "じてんしゃを　もっていけないよ"
+	text "BAG IS FULL!"
+	line "CANT CARRY BIKE!"
 	done
 
 BikeShopMiddleAgedWomanText:
@@ -138,11 +145,13 @@ BikeShopMiddleAgedWomanText:
 	jp TextScriptEnd
 
 .Text:
-	text "うーん<⋯>！"
-	line "やっぱり　ママチャリ　かしら？"
+	text "UMM⋯ PERHAPS A"
+	line "『MAMA-CHARI』"
+	cont "MOM BIKE IS BEST?"
 
-	para "マウンテン　バイクに"
-	line "かいものカゴ　にあわない　もん"
+	para "MOUNTAIN BIKE"
+	line "DOES NOT MATCH"
+	cont "SHOPPING BASKET!"
 	done
 
 BikeShopYoungsterText:
@@ -156,12 +165,15 @@ BikeShopYoungsterText:
 	jp TextScriptEnd
 
 .TheseBikesAreExpensiveText:
-	text "この　みせの　じてんしゃ"
-	line "ものは　いいけど　たかいよ！"
-	cont "ぼくには　かえないね"
+	text "BIKES IN THIS"
+	line "SHOP ARE GOOD BUT"
+	cont "『TAKAI』! PRICEY!"
+
+	para "I CANNOT BUY IT!"
 	done
 
 .CoolBikeText:
-	text "きみの　じてんしゃ　かっこいい"
-	line "うらやましいなあ"
+	text "YOUR BICYCLE IS"
+	line "KAKKOII! SO COOL!"
+	cont "I AM ENVIOUS!"
 	done

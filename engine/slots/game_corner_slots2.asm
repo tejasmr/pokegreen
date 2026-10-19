@@ -23,9 +23,9 @@ AbleToPlaySlotsCheck:
 	ret
 
 GameCornerCoinCaseText::
-	text "コインケースを　もってない！"
+	text "NO COIN CASE！"
 	done
 
 GameCornerNoCoinsText::
-	text "コインを　もってない！"
+	text "NO COINS！"
 	done

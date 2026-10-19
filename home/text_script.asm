@@ -151,8 +151,8 @@ DisplayPokemartDialogue::
 	jp AfterDisplayingTextID
 
 PokemartGreetingText::
-	text "ようこそ！"
-	next "おさがしものですか？"
+	text "WELCOME！"
+	next "NEED ANY HELP？"
 	done
 
 LoadItemList::
@@ -193,7 +193,8 @@ DisplayPokemonFaintedText::
 
 PokemonFaintedText::
 	text_ram wNameBuffer
-	text "は　ちからつきた"
+	text_start
+	line "FAINTED！"
 	done
 
 DisplayPlayerBlackedOutText::
@@ -202,11 +203,11 @@ DisplayPlayerBlackedOutText::
 	jp HoldTextDisplayOpen
 
 PlayerBlackedOutText::
-	text "<PLAYER>の　てもとには"
-	line "たたかえる#が　もういない！"
+	text "<PLAYER> HAS NO"
+	line "MORE #！"
 
-	para "<PLAYER>は"
-	line "めのまえが　まっくらに　なった！"
+	para "<PLAYER> BLACKED"
+	line "OUT！"
 	prompt
 
 DisplayRepelWoreOffText::
@@ -215,5 +216,5 @@ DisplayRepelWoreOffText::
 	jp AfterDisplayingTextID
 
 RepelWoreOffText::
-	text "スプレーの　こうかがきれた"
+	text "REPEL WORE OFF！"
 	done

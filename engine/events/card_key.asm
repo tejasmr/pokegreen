@@ -58,15 +58,17 @@ PrintCardKeyText:
 INCLUDE "data/events/card_key_maps.asm"
 
 CardKeySuccessText::
-	text "<⋯>ピンポーン！@"
+	text "<⋯>PING-PONG！@"
 	sound_get_item_1
 	text_start
-	line "カードキーで　ロック　をはずした！"
+	line "CARD KEY UNLOCKED"
+	cont "THE DOOR LOCK！"
 	done
 
 CardKeyFailText::
-	text "<⋯>だめだ！"
-	line "カードキーが　ないと　あかない！"
+	text "<⋯>NO GOOD！"
+	line "IT NEEDS A CARD"
+	cont "KEY TO UNLOCK！"
 	done
 
 ; d = Y

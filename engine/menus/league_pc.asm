@@ -113,11 +113,12 @@ LeaguePCShowMon:
 	farjp HoFDisplayMonInfo
 
 HallOfFameNoText:
-	db "だい　　　かい　でんどういり@"
+	db "NO   HOF TEAM@"
 
 AccessedHoFPCText:
-	text "#リーグ　ホストと　つないだ！"
+	text "LINKED TO #"
+	line "LEAGUE HOST <PC>！"
 
-	para "でんどう　いり　リスト"
-	line "かんり　システムを　よびだした！"
+	para "HOF RECORD"
+	line "SYSTEM ACCESSED！"
 	prompt

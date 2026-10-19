@@ -71,39 +71,39 @@ PrintBeginningBattleText:
 	ret
 
 WildMonAppearedText:
-	text "あ！　やせいの"
-	line "@"
+	text "WILD @"
 	text_ram wEnemyMonNick
-	text "が　とびだしてきた！"
+	text_start
+	line "APPEARED！"
 	prompt
 
 HookedMonAttackedText:
-	text "つりあげた　@"
+	text "HOOKED @"
 	text_ram wEnemyMonNick
-	text "が"
-	line "とびかかってきた！"
+	text_start
+	line "ATTACKED！"
 	prompt
 
 EnemyAppearedText:
 	text_ram wEnemyMonNick
-	text "が　"
-	line "あらわれた！"
+	text_start
+	line "APPEARED！"
 	prompt
 
 TrainerWantsToFightText:
 	text_ram wTrainerName
-	text "が"
-	line "しょうぶを　しかけてきた！"
+	text " WANTS"
+	line "TO BATTLE！"
 	prompt
 
 UnveiledGhostText:
-	text "シルフスコープが　ゆうれいの"
-	line "しょうたいを　みやぶった！"
+	text "SILPH SCOPE SAW"
+	line "GHOST IDENTITY！"
 	prompt
 
 GhostCantBeIDdText:
-	text "だめだ！　ゆうれい　#の"
-	line "しょうたいが　わからない！"
+	text "DAME！ CANT SEE"
+	line "THE GHOST #！"
 	prompt
 
 PrintSendOutMonMessage:
@@ -150,23 +150,23 @@ PrintSendOutMonMessage:
 	jp PrintText
 
 GoText:
-	text "ゆけっ！　@"
+	text "GO！ @"
 	text_asm
 	jr PrintPlayerMon1Text
 
 DoItText:
-	text "いってこい！　@"
+	text "DO IT @"
 	text_asm
 	jr PrintPlayerMon1Text
 
 GetmText:
-	text "がんばれ！　@"
+	text "FIGHT @"
 	text_asm
 	jr PrintPlayerMon1Text
 
 EnemysWeakText:
-	text "あいてが　よわっている！"
-	line "チャンスだ！　@"
+	text "ENEMY IS WEAK！"
+	line "NOW @"
 	text_asm
 
 PrintPlayerMon1Text:
@@ -184,7 +184,7 @@ RetreatMon:
 
 PlayerMon2Text:
 	text_ram wBattleMonNick
-	text "　@"
+	text "@"
 	text_asm
 	push de
 	push bc
@@ -235,17 +235,17 @@ PlayerMon2Text:
 	ret
 
 EnoughText:
-	text "もういい！@"
+	text " ENOUGH@"
 	text_asm
 	jr PrintComeBackText
 
 OKExclamationText:
-	text "いいぞ！@"
+	text " OK！@"
 	text_asm
 	jr PrintComeBackText
 
 GoodText:
-	text "よくやった！@"
+	text " GOOD！@"
 	text_asm
 	jr PrintComeBackText
 
@@ -255,5 +255,5 @@ PrintComeBackText:
 
 ComeBackText:
 	text_start
-	line "もどれ！"
+	line "COME BACK！"
 	done

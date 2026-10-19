@@ -8,19 +8,21 @@ CeruleanMart_TextPointers:
 	dw_const CeruleanMartCooltrainerFText, TEXT_CERULEANMART_COOLTRAINER_F
 
 CeruleanMartCooltrainerMText:
-	text "むしよけスプレーは"
-	line "むし　どころか"
-	cont "#も　よって　こないよ"
+	text "REPEL SPRAY KEEPS"
+	line "AWAY BUGS AND"
+	cont "EVEN # AWAY!"
 
-	para "つよい　#を　いちばん"
-	line "うえに　おいて　おけば"
-	cont "こうかは　ばいぞう　だ！"
+	para "PUT STRONG #"
+	line "AT VERY FRONT·"
+	cont "EFFECT DOUBLES!"
 	done
 
 CeruleanMartCooltrainerFText:
-	text "おみせでは　みた　こと　ないけど"
-	line "ふしぎなアメ　しってる？"
+	text "NEVER SEEN IN"
+	line "SHOPS BUT KNOW"
+	cont "OF RARE CANDY?"
 
-	para "#が　いっきに　そだって"
-	line "レベルが　あがる　らしいの"
+	para "HEARD IT RAISES"
+	line "# <LV> IN ONE"
+	cont "SINGLE INSTANT!"
 	done

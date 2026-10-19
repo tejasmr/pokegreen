@@ -87,6 +87,6 @@ ResetStats:
 	ret
 
 StatusChangesEliminatedText:
-	text "すべての　ステータスが"
-	line "もとに　もどった！"
+	text "ALL STAT CHANGES"
+	line "WERE ELIMINATED！"
 	prompt

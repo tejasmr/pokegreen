@@ -3,8 +3,9 @@ DisplayOakLabLeftPoster:
 	tx_pre_jump PushStartText
 
 PushStartText::
-	text "スタート　ボタンを　プシュ！"
-	line "おすと　メニューが　ひらくなり"
+	text "PUSH START BUTTON"
+	line "PUSH！ MENU WILL"
+	cont "OPEN NOW-NARI！"
 	done
 
 DisplayOakLabRightPoster:
@@ -22,12 +23,14 @@ DisplayOakLabRightPoster:
 	jp PrintPredefTextID
 
 SaveOptionText::
-	text "セーブするには　#　レポート"
-	line "こまめに　かくと　いいなり"
+	text "TO SAVE·WRITE"
+	line "# REPORT DILIGENT"
+	cont "OFTEN-NARI！"
 	done
 
 StrengthsAndWeaknessesText::
-	text "#は　タイプに　よって"
-	line "とくいな　タイプ"
-	cont "にがてな　タイプが　いるなり"
+	text "# HAVE STRONG"
+	line "TYPES AND WEAK"
+	cont "TYPES BY MATCHUP"
+	cont "INDEED-NARI！"
 	done

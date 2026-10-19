@@ -3,10 +3,10 @@ PrintRedSNESText:
 	tx_pre_jump RedBedroomSNESText
 
 RedBedroomSNESText::
-	text "<PLAYER>は"
-	line "ファミコンを　してる！"
-	cont "<⋯>　<⋯>　よし！"
-	cont "そろそろ　でかけよう！"
+	text "<PLAYER> IS"
+	line "PLAYING FAMICOM！"
+	cont "<⋯><⋯>ALRIGHT！"
+	cont "TIME TO HEAD OUT！"
 	done
 
 OpenRedsPC:

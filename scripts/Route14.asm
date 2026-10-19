@@ -47,19 +47,19 @@ Route14CooltrainerM1Text:
 	jp TextScriptEnd
 
 Route14CooltrainerM1BattleText:
-	text "つよい　#に　するなら"
-	line "やっぱり　<TM>で"
-	cont "いい　わざを　おしえないとね！"
+	text "TO MAKE STRONG #"
+	line "MUST TEACH NICE"
+	cont "MOVES WITH <TM>!"
 	done
 
 Route14CooltrainerM1EndBattleText:
-	text "まだまだって　かんじだ"
+	text "STILL NOT ENOUGH!"
 	prompt
 
 Route14CooltrainerM1AfterBattleText:
-	text "きみ　ひでんマシンも　もってるね"
-	line "あれで　おぼえた　わざは"
-	cont "#は　２どと　わすれないよ"
+	text "YOU HAVE HM TOO!"
+	line "A # NEVER"
+	cont "FORGETS HM MOVES!"
 	done
 
 Route14CooltrainerM2Text:
@@ -69,18 +69,19 @@ Route14CooltrainerM2Text:
 	jp TextScriptEnd
 
 Route14CooltrainerM2BattleText:
-	text "ぼくの　とり　#"
-	line "そろそろ<⋯>"
-	cont "たたかわせて　みようか！"
+	text "MY BIRD #·"
+	line "ABOUT TIME<⋯>"
+	cont "LET US BATTLE!"
 	done
 
 Route14CooltrainerM2EndBattleText:
-	text "まだ　はやかった"
+	text "STILL TOO EARLY!"
 	prompt
 
 Route14CooltrainerM2AfterBattleText:
-	text "もっと　つよい　わざ"
-	line "おしえて　から　たたかわせよう"
+	text "TEACH STRONGER"
+	line "MOVES FIRST·THEN"
+	cont "BATTLE AGAIN!"
 	done
 
 Route14CooltrainerM3Text:
@@ -90,21 +91,21 @@ Route14CooltrainerM3Text:
 	jp TextScriptEnd
 
 Route14CooltrainerM3BattleText:
-	text "<TM>は"
-	line "タマムシ　デパート　でも　かえる！"
-	cont "でも　ひでんマシン　もってる"
-	cont "ひとは　すくないね"
+	text "<TM> CAN BE BOUGHT"
+	line "AT CELADON DEPT!"
+	cont "FEW PEOPLE CARRY"
+	cont "HM MACHINES!"
 	done
 
 Route14CooltrainerM3EndBattleText:
-	text "もう　ダサダサ"
+	text "SO TOTALLY UNCOOL"
 	prompt
 
 Route14CooltrainerM3AfterBattleText:
-	text "#の　タイプと　おなじ"
-	line "タイプの　わざを　おしえると"
-	cont "わざの　いりょくが"
-	cont "おおきくなる　らしいよ"
+	text "TEACH SAME TYPE"
+	line "MOVE AS #·"
+	cont "MOVE POWER GROWS"
+	cont "BIGGER SO I HEAR!"
 	done
 
 Route14CooltrainerM4Text:
@@ -114,19 +115,20 @@ Route14CooltrainerM4Text:
 	jp TextScriptEnd
 
 Route14CooltrainerM4BattleText:
-	text "きみの　とり　#は"
-	line "きみを　のせて　そらを　とぶ"
-	cont "わざは　おぼえたかい？"
+	text "DID YOUR BIRD #"
+	line "LEARN TO CARRY"
+	cont "YOU FLYING HIGH?"
 	done
 
 Route14CooltrainerM4EndBattleText:
-	text "ぼろまけ！"
+	text "BOROMAKE! LOSS!"
 	prompt
 
 Route14CooltrainerM4AfterBattleText:
-	text "ぼくらは　とり#が"
-	line "だいすき　だから<⋯>"
-	cont "それしか　そだてたく　ないよ"
+	text "WE LOVE BIRD #S"
+	line "SO MUCH<⋯>DONT"
+	cont "CARE TO RAISE"
+	cont "ANYTHING ELSE!"
 	done
 
 Route14CooltrainerM5Text:
@@ -136,18 +138,19 @@ Route14CooltrainerM5Text:
 	jp TextScriptEnd
 
 Route14CooltrainerM5BattleText:
-	text "でんせつの　#　という"
-	line "はなし　きいた　こと　ある？"
+	text "DID YOU EVER HEAR"
+	line "TALES OF LEGEND"
+	cont "#?"
 	done
 
 Route14CooltrainerM5EndBattleText:
-	text "どうして　まけたかな"
+	text "WHY DID I LOSE?"
 	prompt
 
 Route14CooltrainerM5AfterBattleText:
-	text "でんせつの　#は"
-	line "３しゅるい　いて"
-	cont "すべて　とり　#だ！"
+	text "LEGENDARY # ARE"
+	line "THREE SORTS·AND"
+	cont "ALL ARE BIRD #!"
 	done
 
 Route14CooltrainerM6Text:
@@ -157,18 +160,19 @@ Route14CooltrainerM6Text:
 	jp TextScriptEnd
 
 Route14CooltrainerM6BattleText:
-	text "きが　のらない　けど<⋯>"
-	line "しょうが　ない！　やるか！"
+	text "NOT IN MOOD<⋯>BUT"
+	line "SHOU GA NAI!"
+	cont "LETS DO THIS!"
 	done
 
 Route14CooltrainerM6EndBattleText:
-	text "ああ<⋯>　やっぱりな"
+	text "AH<⋯>AS EXPECTED!"
 	prompt
 
 Route14CooltrainerM6AfterBattleText:
-	text "そらの　ひろさに　くらべたら"
-	line "かち　まけ　なんて"
-	cont "どうって　こと　ないのさ！"
+	text "COMPARED TO WIDE"
+	line "SKY·WIN OR LOSE"
+	cont "MATTERS LITTLE!"
 	done
 
 Route14Biker1Text:
@@ -178,18 +182,20 @@ Route14Biker1Text:
 	jp TextScriptEnd
 
 Route14Biker1BattleText:
-	text "おれ　おれは　せっかちだ！"
-	line "はやく　はやく　はやく　しろ！"
+	text "I AM IMPATIENT!"
+	line "FASTER FASTER"
+	cont "HURRY UP!"
 	done
 
 Route14Biker1EndBattleText:
-	text "まけた　まけた"
-	line "おわりだ　じゃあな"
+	text "LOST LOST! OVER!"
+	line "JAA NA! BYE!"
 	prompt
 
 Route14Biker1AfterBattleText:
-	text "なんだ　なんだ　なんだ！"
-	line "まだ　ようじが　ある　ある　のか！"
+	text "WHAT WHAT WHAT?!"
+	line "YOU STILL HAVE"
+	cont "BUSINESS HERE?!"
 	done
 
 Route14Biker2Text:
@@ -199,17 +205,18 @@ Route14Biker2Text:
 	jp TextScriptEnd
 
 Route14Biker2BattleText:
-	text "ちょうど　いいぜ！"
-	line "つべこべ　いわずに　あいて　しな"
+	text "JUST RIGHT! STOP"
+	line "CHABBING AND BE"
+	cont "MY OPPONENT!"
 	done
 
 Route14Biker2EndBattleText:
-	text "なんだ　こらあ！"
+	text "NANDA KORAA!"
 	prompt
 
 Route14Biker2AfterBattleText:
-	text "どうも　ちまちまと"
-	line "そだてる　のは　にがてだぜ！"
+	text "I AM NOT GOOD AT"
+	line "TEDIOUS RAISING!"
 	done
 
 Route14Biker3Text:
@@ -219,21 +226,21 @@ Route14Biker3Text:
 	jp TextScriptEnd
 
 Route14Biker3BattleText:
-	text "この　あたりは"
-	line "たてものが　すくねえ　から"
-	cont "よく　はしりに　くるぜ！"
+	text "FEW BUILDINGS"
+	line "AROUND HERE·SO I"
+	cont "COME RIDE OFTEN!"
 	done
 
 Route14Biker3EndBattleText:
-	text "おっと　こけちまった！"
+	text "WHOOPS CRASHED!"
 	prompt
 
 Route14Biker3AfterBattleText:
-	text "よく　そこまで　そだてたな！"
-	line "なんにしても<⋯>"
+	text "RAISED THEM SO"
+	line "FAR! ANYWAY<⋯>"
 
-	para "つよいって　ことは"
-	line "たいした　もんだぜ！"
+	para "BEING STRONG IS"
+	line "REALLY SOMETHING!"
 	done
 
 Route14Biker4Text:
@@ -243,21 +250,23 @@ Route14Biker4Text:
 	jp TextScriptEnd
 
 Route14Biker4BattleText:
-	text "#　たいけつか！"
-	line "おもしろい！　つきあうぜ！"
+	text "# SHOWDOWN?!"
+	line "FUN! I WILL PLAY"
+	cont "ALONG WITH YOU!"
 	done
 
 Route14Biker4EndBattleText:
-	text "なっとく　いかねえ"
+	text "CANT ACCEPT THIS!"
 	prompt
 
 Route14Biker4AfterBattleText:
-	text "おれと　おまえの"
-	line "ちょくせつ　たいけつ　だったら"
-	cont "おれが　かつぜ！"
+	text "IF IT WERE DIRECT"
+	line "FIST SHOWDOWN·"
+	cont "I WOULD WIN!"
 	done
 
 Route14SignText:
-	text "ここは　１４ばん　どうろ"
-	line "にし　<⋯>　セキチク　シティ"
+	text "ROUTE 14"
+	line "WEST: FUCHSIA"
+	cont "CITY"
 	done

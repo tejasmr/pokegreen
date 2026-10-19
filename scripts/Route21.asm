@@ -44,17 +44,18 @@ Route21Fisher1Text:
 	jp TextScriptEnd
 
 Route21Fisher1BattleText:
-	text "「つれますか？」とか　おまえは"
-	line "ききたいんじゃないの？"
+	text "『ANY BITES?』OR"
+	line "SO·DONT YOU WANT"
+	cont "TO ASK ME THAT?"
 	done
 
 Route21Fisher1EndBattleText:
-	text "あー　やられた"
+	text "AAH GOT DEFEATED!"
 	prompt
 
 Route21Fisher1AfterBattleText:
-	text "いい　#　つれねーよ！"
-	line "ぜんぜん！"
+	text "NO GOOD # BITE"
+	line "HERE! NOT AT ALL!"
 	done
 
 Route21Fisher2Text:
@@ -64,18 +65,20 @@ Route21Fisher2Text:
 	jp TextScriptEnd
 
 Route21Fisher2BattleText:
-	text "たいりょう！　たいりょう！"
-	line "おれの　#と　たたかう？"
+	text "BIG HAUL BIG HAUL"
+	line "WANT TO FIGHT MY"
+	cont "# CATCH?"
 	done
 
 Route21Fisher2EndBattleText:
-	text "さすがに"
-	line "コイキング　じゃ　ダメか"
+	text "KOIKING IS NO"
+	line "GOOD AFTER ALL!"
 	prompt
 
 Route21Fisher2AfterBattleText:
-	text "なぜか　コイキング"
-	line "ばっかり　つれるんだよ！"
+	text "FOR SOME REASON"
+	line "ONLY KOIKING BITE"
+	cont "MY HOOK!"
 	done
 
 Route21Swimmer1Text:
@@ -85,17 +88,18 @@ Route21Swimmer1Text:
 	jp TextScriptEnd
 
 Route21Swimmer1BattleText:
-	text "うみはーッ"
-	line "おとこの　ロマンだーッ！"
+	text "THE SEA IS THE"
+	line "ROMANCE OF MEN!"
 	done
 
 Route21Swimmer1EndBattleText:
-	text "だあー！"
+	text "DAAA-T!"
 	prompt
 
 Route21Swimmer1AfterBattleText:
-	text "うみも　いいけど"
-	line "じつは　やまも　すきだな！"
+	text "SEA IS NICE BUT"
+	line "TRUTH IS I ALSO"
+	cont "LOVE MOUNTAINS!"
 	done
 
 Route21Swimmer2Text:
@@ -105,17 +109,19 @@ Route21Swimmer2Text:
 	jp TextScriptEnd
 
 Route21Swimmer2BattleText:
-	text "おれだって　たまには"
-	line "およぎに　くるぜ！"
+	text "EVEN I COME TO"
+	line "SWIM ON OCCASION!"
 	done
 
 Route21Swimmer2EndBattleText:
-	text "ぐわわ！"
+	text "GWAWA!"
 	prompt
 
 Route21Swimmer2AfterBattleText:
-	text "うきやすそう　だと？"
-	line "うるせー　おおきな　おせわだッ！"
+	text "LOOKS EASY TO"
+	line "FLOAT? SHUT UP!"
+	cont "MIND YOUR OWN"
+	cont "BUSINESS-T!"
 	done
 
 Route21Swimmer3Text:
@@ -125,17 +131,18 @@ Route21Swimmer3Text:
 	jp TextScriptEnd
 
 Route21Swimmer3BattleText:
-	text "ウチの　#は"
-	line "うみで　とって　きました"
+	text "MY FAMILY #S"
+	line "WERE CAUGHT IN"
+	cont "THIS OCEAN!"
 	done
 
 Route21Swimmer3EndBattleText:
-	text "うー　みーッ！"
+	text "U-MI-T! OCEAN!"
 	prompt
 
 Route21Swimmer3AfterBattleText:
-	text "きみの　#は"
-	line "どこで　とって　きたのかな？"
+	text "WHERE DID YOU"
+	line "CATCH YOUR #?"
 	done
 
 Route21Swimmer4Text:
@@ -145,18 +152,19 @@ Route21Swimmer4Text:
 	jp TextScriptEnd
 
 Route21Swimmer4BattleText:
-	text "じつは　いま　トライアスロンの"
-	line "まっさいちゅう　なのだ！"
+	text "RIGHT NOW I AM IN"
+	line "THE MIDDLE OF A"
+	cont "TRIATHLON MATCH!"
 	done
 
 Route21Swimmer4EndBattleText:
-	text "は<⋯>　はーッ！"
+	text "HA<⋯>HAA-T!"
 	prompt
 
 Route21Swimmer4AfterBattleText:
-	text "ば　ばてた<⋯>！"
-	line "あと<⋯>　じてんしゃと"
-	cont "マラソンが　あるのに<⋯>！"
+	text "EXHAUSTED<⋯>!"
+	line "STILL HAVE BIKE"
+	cont "AND MARATHON<⋯>!"
 	done
 
 Route21Swimmer5Text:
@@ -166,16 +174,17 @@ Route21Swimmer5Text:
 	jp TextScriptEnd
 
 Route21Swimmer5BattleText:
-	text "あーッ！"
-	line "ひざしが　きもちいーぜ！"
+	text "AAH! SUNSHINE"
+	line "FEELS SO KIMOCHI!"
 	done
 
 Route21Swimmer5EndBattleText:
-	text "おれの　まけ！"
+	text "MY DEFEAT!"
 	prompt
 
 Route21Swimmer5AfterBattleText:
-	text "やけた　やけた！　まっくろだ！"
+	text "BURNED BURNED!"
+	line "PITCH BLACK TAN!"
 	done
 
 Route21Fisher3Text:
@@ -185,19 +194,20 @@ Route21Fisher3Text:
 	jp TextScriptEnd
 
 Route21Fisher3BattleText:
-	text "こまるなー　きみ！"
-	line "うみを　あらさないで　くれたまえ"
+	text "TROUBLESOME LAD!"
+	line "DONT ROUGH UP"
+	cont "MY FISHING SEA!"
 	done
 
 Route21Fisher3EndBattleText:
-	text "わるい！"
-	line "つれないので　きが　たってた"
+	text "SORRY! NO BITES"
+	line "MADE ME EDGY!"
 	prompt
 
 Route21Fisher3AfterBattleText:
-	text "つれんなあ！"
-	line "まさか　ここは　おっきな"
-	cont "プール　だったり　して"
+	text "NO BITES! COULD"
+	line "THIS BE JUST A"
+	cont "GIANT POOL?!"
 	done
 
 Route21Fisher4Text:
@@ -207,15 +217,17 @@ Route21Fisher4Text:
 	jp TextScriptEnd
 
 Route21Fisher4BattleText:
-	text "アタリが　くるまで"
-	line "おまえの　あいてでも　してよう"
+	text "TILL A BITE HITS"
+	line "I SHALL ENTERTAIN"
+	cont "YOU IN BATTLE!"
 	done
 
 Route21Fisher4EndBattleText:
-	text "ひまつぶしに　なった"
+	text "KILLED SOME TIME"
 	prompt
 
 Route21Fisher4AfterBattleText:
-	text "<⋯>　まて！　いま　あたりがッ！"
-	line "あ<⋯>！　ひいてる　ひいてる！"
+	text "<⋯>WAIT! A BITE!"
+	line "AH<⋯>! PULLING!"
+	cont "REELING IN NOW!"
 	done

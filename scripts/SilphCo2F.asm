@@ -127,37 +127,42 @@ SilphCo2FSilphWorkerFText:
 	jp TextScriptEnd
 
 .PleaseTakeThisText:
-	text "きゃあ！"
-	line "だめよ　たすけてー！"
+	text "KYAAAH!"
+	line "HELP! TASUKETE!"
 
-	para "<⋯>　あら？"
-	line "<ROCKET>　じゃない"
-	cont "ごめんなさい"
-	cont "あたし　てっきり<⋯>"
-	cont "これ　うちの　せいひん　なの"
-	cont "あげる　から　ゆるしてね"
+	para "⋯OH? YOU ARE"
+	line "NOT <ROCKET>!"
+	cont "I AM SO SORRY!"
+	cont "I THOUGHT YOU⋯"
+
+	para "THIS IS PRODUCT"
+	line "OF OUR COMPANY!"
+	cont "PLEASE TAKE IT"
+	cont "AND FORGIVE ME!"
 	prompt
 
 .ReceivedTM36Text:
-	text "<PLAYER>は　おねえさんから"
+	text "<PLAYER> RECEIVED"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!@"
 	sound_get_item_1
 	text_end
 
 .TM36ExplanationText:
-	text "<TM>３６は　じばく！"
+	text "<TM>36 CONTAINS"
+	line "SELFDESTRUCT"
+	cont "『JIBAKU』!"
 
-	para "この　わざは　きょうりょく　だけど"
-	line "#は　わざの　あと"
-
-	para "ひんしじょうたいに　なるわ"
-	line "きを　つけて　つかって"
+	para "MOVE IS POWERFUL"
+	line "BUT USER PET"
+	cont "WILL FAINT OUT!"
+	cont "USE WITH CAUTION!"
 	done
 
 .TM36NoRoomText:
-	text "いっぱいで　もてないわ"
+	text "BAG IS FULL!"
+	line "CANT CARRY MORE!"
 	done
 
 SilphCo2FScientist1Text:
@@ -167,18 +172,18 @@ SilphCo2FScientist1Text:
 	jp TextScriptEnd
 
 SilphCo2FScientist1BattleText:
-	text "た　たすけて！"
-	line "わたしは　シルフ　しゃいん　です"
+	text "H-HELP! I AM A"
+	line "SILPH EMPLOYEE!"
 	done
 
 SilphCo2FScientist1EndBattleText:
-	text "く！　ばれたか"
+	text "KUH! EXPOSED!"
 	prompt
 
 SilphCo2FScientist1AfterBattleText:
-	text "わたしは　シルフの　しゃいん"
-	line "であると　どうじに"
-	cont "<ROCKET>いん　でも　あるのさ"
+	text "I AM EMPLOYEE OF"
+	line "SILPH AND ALSO A"
+	cont "<ROCKET> AGENT!"
 	done
 
 SilphCo2FScientist2Text:
@@ -188,17 +193,18 @@ SilphCo2FScientist2Text:
 	jp TextScriptEnd
 
 SilphCo2FScientist2BattleText:
-	text "ここは　たちいり　きんしだ"
-	line "かえりなさい！"
+	text "OFF LIMITS HERE!"
+	line "TURN BACK NOW!"
 	done
 
 SilphCo2FScientist2EndBattleText:
-	text "なかなか<⋯>"
+	text "QUITE SOMETHING⋯"
 	prompt
 
 SilphCo2FScientist2AfterBattleText:
-	text "ビルの　なかは　ふくざつだぞ"
-	line "きみに　こうりゃく　できるかな？"
+	text "BUILDING MAZE IS"
+	line "COMPLEX! CAN YOU"
+	cont "CONQUER IT ALL?"
 	done
 
 SilphCo2FRocket1Text:
@@ -208,20 +214,21 @@ SilphCo2FRocket1Text:
 	jp TextScriptEnd
 
 SilphCo2FRocket1BattleText:
-	text "ここは　こどもの"
-	line "くる　ところ　じゃない！"
+	text "THIS IS NO PLACE"
+	line "FOR CHILDREN!"
 	done
 
 SilphCo2FRocket1EndBattleText:
-	text "つよい！"
+	text "SO STRONG!"
 	prompt
 
 SilphCo2FRocket1AfterBattleText:
-	text "ひしがた　デザインの　ゆかは"
-	line "テレポート　ブロックだ！"
+	text "DIAMOND TILES"
+	line "ARE TELEPORT"
+	cont "WARP BLOCKS!"
 
-	para "ハイテクな　ビルの　なかでの"
-	line "いどう　しゅだんだぜ"
+	para "HIGH TECH TRANSIT"
+	line "INSIDE COMPLEX!"
 	done
 
 SilphCo2FRocket2Text:
@@ -231,16 +238,16 @@ SilphCo2FRocket2Text:
 	jp TextScriptEnd
 
 SilphCo2FRocket2BattleText:
-	text "そこの　こども！"
-	line "うろうろ　するんじゃない！"
+	text "HEY KID! DO NOT"
+	line "WANDER AROUND!"
 	done
 
 SilphCo2FRocket2EndBattleText:
-	text "ぐ！　しくじった"
+	text "GUH! BLUNDERED!"
 	prompt
 
 SilphCo2FRocket2AfterBattleText:
-	text "<ROCKET>は"
-	line "シルフ　カンパニーと"
-	cont "ていけい　するのだ！"
+	text "<ROCKET> SHALL"
+	line "MERGE AND TIE UP"
+	cont "WITH SILPH CO.!"
 	done

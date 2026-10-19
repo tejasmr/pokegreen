@@ -8,8 +8,8 @@ UndergroundPathRoute7_TextPointers:
 	dw_const UndergroundPathRoute7MiddleAgedManText, TEXT_UNDERGROUNDPATHROUTE7_MIDDLE_AGED_MAN
 
 UndergroundPathRoute7MiddleAgedManText:
-	text "この　ところ"
-	line "タマムシ　シティの　ほう　でも"
-	cont "いねむり　#が"
-	cont "あらわれる　そうだよ"
+	text "LATELY A SLEEPY"
+	line "# APPEARS NEAR"
+	cont "TAMAMUSHI CITY!"
 	done
+

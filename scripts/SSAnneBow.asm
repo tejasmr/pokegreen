@@ -27,20 +27,23 @@ SSAnneBow_TextPointers:
 	db -1 ; end
 
 SSAnneBowSuperNerdText:
-	text "パーティも　そろそろ　おわるし"
-	line "ふねの　しゅっぱつの　じかん　だな"
+	text "PARTY IS ALMOST"
+	line "OVER· TIME FOR"
+	cont "SHIP DEPARTURE!"
 	done
 
 SSAnneBowSailor1Text:
-	text "まったく！"
-	line "デッキ　そうじは　らくじゃねえぜ"
+	text "SHEESH! CLEANING"
+	line "DECK AINT EASY!"
 	done
 
 SSAnneBowCooltrainerMText:
-	text "うう<⋯>　きもち　わるい！"
+	text "UUGH<⋯> I FEEL"
+	line "SO SICK!"
 
-	para "<⋯>　ふなよい　したので"
-	line "かぜに　あたってるんです<⋯>"
+	para "<⋯>GOT SEASICK·"
+	line "GETTING FRESH AIR"
+	cont "ON DECK<⋯>"
 	done
 
 SSAnneBowSailor2Text:
@@ -50,20 +53,20 @@ SSAnneBowSailor2Text:
 	jp TextScriptEnd
 
 SSAnneBowSailor2BattleText:
-	text "おうおう！　"
-
-	para "ふなのりの　おれと　しょうぶだ！"
+	text "HEY HEY! BATTLE"
+	line "WITH A SAILOR!"
 	done
 
 SSAnneBowSailor2EndBattleText:
-	text "つよいな"
-	line "びっくり　したぜ"
+	text "STRONG! YOU"
+	line "SURPRISED ME!"
 	prompt
 
 SSAnneBowSailor2AfterBattleText:
-	text "なあ！　この　せかいに"
-	line "#は　ぜんぶで　どのくらい"
-	cont "しゅるいが　あると　おもうか？"
+	text "HEY! HOW MANY"
+	line "KINDS OF # DO"
+	cont "YOU THINK EXIST"
+	cont "IN THIS WORLD?"
 	done
 
 SSAnneBowSailor3Text:
@@ -73,16 +76,19 @@ SSAnneBowSailor3Text:
 	jp TextScriptEnd
 
 SSAnneBowSailor3BattleText:
-	text "おい　ぼうず！"
-	line "のってて　ふなよい　しないか？"
+	text "HEY KID! DONT YOU"
+	line "GET SEASICK"
+	cont "SAILING AROUND?"
 	done
 
 SSAnneBowSailor3EndBattleText:
-	text "ゆだん　したか"
+	text "I LET MY GUARD"
+	line "DOWN 『YUDAN』!"
 	prompt
 
 SSAnneBowSailor3AfterBattleText:
-	text "おれの　おやじは　#は"
-	line "１００しゅるい　いると　いってたが"
-	cont "おれは　それ　いじょう　だと　おもう"
+	text "MY DAD SAID 100"
+	line "KINDS OF # EXIST"
+	cont "BUT I THINK MORE"
+	cont "THAN THAT!"
 	done

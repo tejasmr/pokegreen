@@ -142,8 +142,9 @@ TransformEffect_:
 	jp EffectCallBattleCore
 
 TransformedText:
-	text "<USER>は"
-	line "@"
+	text "<USER>"
+	line "TRANSFORMED INTO"
+	para "@"
 	text_ram wNameBuffer
-	text "に　へんしんした！"
+	text "！"
 	prompt

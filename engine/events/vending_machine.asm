@@ -78,31 +78,35 @@ VendingMachineMenu::
 	jp PrintText
 
 VendingMachineText1:
-	text "じどう　はんばいき　だ！"
-	line "ほしい　のみものは<⋯>　<⋯>"
+	text "VENDING MACHINE！"
+	line "DESIRED DRINK<⋯>"
 	prompt
 
 DrinkText:
-	db   "おいしいみず　２００円"
-	next "サイコソーダ　３００円"
-	next "ミックスオレ　３５０円"
-	next "いらない@"
+	db   "WATER   200円"
+	next "SODA    300円"
+	next "LEMONADE350円"
+	next "CANCEL@"
 
 VendingMachineText4:
-	text "おかねが　たりないぞ！"
+	text "NOT ENOUGH MONEY！"
 	done
 
 VendingMachineText5:
+	text "OUT CAME A COLD"
+	line "@"
 	text_ram wStringBuffer
-	text "が　でてきた！"
+	text "！"
 	done
 
 VendingMachineText6:
-	text "これ　いじょう　もてない！"
+	text "CANT CARRY ANY"
+	line "MORE IN BAG！"
 	done
 
 VendingMachineText7:
-	text "やっぱり　やめた！"
+	text "NOT THIRSTY"
+	line "AFTER ALL！"
 	done
 
 LoadVendingMachineItem:

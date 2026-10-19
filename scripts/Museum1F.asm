@@ -142,55 +142,65 @@ Museum1FScientist1Text:
 	jp TextScriptEnd
 
 .ComeAgainText:
-	text "また　きてね"
+	text "COME AGAIN NE！"
 	done
 
 .WouldYouLikeToComeInText:
-	text "はいはい　こどもは　"
-	line "けんがくりょう　５０えん　です"
+	text "YES YES！ CHILD"
+	line "ADMISSION IS"
+	cont "JUST 50 YEN！"
 
-	para "けんがく　しますか？"
+	para "WOULD YOU LIKE"
+	line "TO ENTER NE？"
 	done
 
 .ThankYouText:
-	text "はい　たしかに"
-	line "５０えん　いただき　ました！"
+	text "YES INDEED！"
+	line "RECEIVED 50 YEN！"
 	done
 
 .DontHaveEnoughMoneyText:
-	text "<⋯>あら"
-	line "おかねが　ないよ"
+	text "<⋯>ARA！"
+	line "NOT ENOUGH MONEY！"
 	prompt
 
 .DoYouKnowWhatAmberIsText:
-	text "うらぐちから　タダで　はいろうなんて"
-	line "ちゃっかりもの　だね"
+	text "SNEAKING IN FROM"
+	line "BACK FOR FREE？"
+	cont "SLY GUY NE！"
 
-	para "それより　きみ"
-	line "コハクって　しってる？"
+	para "MORE IMPORTANT·"
+	line "DO YOU KNOW"
+	cont "WHAT AMBER IS？"
 	done
 
 .TheresALabSomewhereText:
-	text "コハクに　まじった"
-	line "むかしのいきものを　よみがえらせる"
+	text "BRINGING BACK"
+	line "ANCIENT LIFE IN"
+	cont "AMBER TO LIFE<⋯>"
 
-	para "そうだいな　じっけんを　どこかの"
-	line "けんきゅうじょが　してるんだって"
+	para "SOME LAB IS"
+	line "DOING THAT BIG"
+	cont "EXPERIMENT NOW！"
 	done
 
 .AmberIsFossilizedTreeSapText:
-	text "おおむかし　きから　でた　しるが"
-	line "カセキの　ように　かたまった　ものを"
+	text "TREE SAP FROM"
+	line "ANCIENT TIMES"
+	cont "HARDENED LIKE A"
+	cont "FOSSIL JA！"
 
-	para "コハクと　いうんだよ"
+	para "THAT IS CALLED"
+	line "KOHAKU· AMBER！"
 	done
 
 .GoToOtherSideText:
-	text "あちらへ　おまわりください"
+	text "PLEASE GO ROUND"
+	line "TO FRONT SIDE！"
 	done
 
 .TakePlentyOfTimeText:
-	text "ごゆっくり　どうぞ！"
+	text "TAKE YOUR TIME！"
 	done
 
 Museum1FGamblerText:
@@ -200,10 +210,12 @@ Museum1FGamblerText:
 	jp TextScriptEnd
 
 .Text:
-	text "ありがたや！　ありがたや！"
+	text "ARIGATAYA！"
+	line "BLESSED SO MUCH！"
 
-	para "りゅうじん　さまの"
-	line "ほねを　おがめる　とは！"
+	para "TO WORSHIP BONES"
+	line "OF DRAGON GOD"
+	cont "RYUUJIN-SAMA！"
 	done
 
 Museum1FScientist2Text:
@@ -226,45 +238,46 @@ Museum1FScientist2Text:
 	jr .done
 .got_item
 	ld hl, .GetTheOldAmberCheckText
+	done
 .done
 	call PrintText
 	jp TextScriptEnd
 
 .TakeThisToAPokemonLabText:
-	text "しー！"
-	line "ないしょ　だけど　このコハク"
+	text "SHH！ SECRET BUT"
+	line "THIS AMBER<⋯>"
 
-	para "ポケモンの　いでんしが　のこってると"
-	line "おれは　にらんでるんだ！"
+	para "HAS GENES OF #"
+	line "INSIDE I BET！"
 
-	para "もし　いきかえらせたら"
-	line "#の　いちだい　はっけんだ！"
+	para "IF BROUGHT BACK"
+	line "BIG DISCOVERY！"
 
-	para "でも　ここの　なかまは"
-	line "おれの　いうこと　しんじないんだ"
+	para "BUT COLLEAGUES"
+	line "DONT BELIEVE ME！"
 
-	para "⋯⋯それで"
-	line "きみに　たのみが　ある！"
+	para "<⋯>SO I HAVE"
+	line "A FAVOR TO ASK！"
 
-	para "これを　どこかの"
-	line "けんきゅうじょに　もって　いって"
-
-	para "しらべて　ほしいんだ！"
+	para "TAKE THIS TO"
+	line "A LAB SOMEWHERE"
+	cont "TO EXAMINE IT！"
 	prompt
 
 .ReceivedOldAmberText:
-	text "<PLAYER>は　おじさんから"
-	line "ひみつのコハクを　もらった！@"
+	text "<PLAYER> GOT"
+	line "OLD AMBER！@"
 	sound_get_item_1
 	text_end
 
 .GetTheOldAmberCheckText:
-	text "<⋯>しー！"
-	line "コハク　よろしく　たのむよ！"
+	text "<⋯>SHH！ PLEASE"
+	line "TAKE CARE OF"
+	cont "THAT OLD AMBER！"
 	done
 
 .YouDontHaveSpaceText:
-	text "もちものが　いっぱいだ"
+	text "BAG IS FULL NE！"
 	done
 
 Museum1FScientist3Text:
@@ -274,10 +287,10 @@ Museum1FScientist3Text:
 	jp TextScriptEnd
 
 .Text:
-	text "ここでは　せかいでも　めずらしい"
-	line "こだい　#の　カセキのうち"
-
-	para "２しゅるいを　てんじ　してます！"
+	text "HERE WE EXHIBIT"
+	line "2 RARE TYPES"
+	cont "OF ANCIENT #"
+	cont "WORLD FOSSILS！"
 	done
 
 Museum1FOldAmberText:
@@ -287,6 +300,7 @@ Museum1FOldAmberText:
 	jp TextScriptEnd
 
 .Text:
-	text "こがねいろに　すき　とおった"
-	line "きれいな　コハクが　ある！"
+	text "CLEAR GOLDEN"
+	line "BEAUTIFUL AMBER"
+	cont "RESTS HERE！"
 	done

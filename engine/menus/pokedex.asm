@@ -245,7 +245,7 @@ HandlePokedexListMenu:
 	ld de, .dashedLine ; print a dashed line in place of the name if the player hasn't seen the pokemon
 	jr .skipGettingName
 .dashedLine ; for unseen pokemon in the list
-	db "ーーーーー@"
+	db "-----@"
 .getPokemonName
 	call PokedexToIndex
 	call GetMonName
@@ -342,19 +342,19 @@ DrawPokedexVerticalLine:
 	ret
 
 PokedexSeenText:
-	db "みつけたかず@"
+	db "SEEN@"
 
 PokedexOwnText:
-	db "つかまえたかず@"
+	db "OWNED@"
 
 PokedexContentsText:
-	db "もくじ@"
+	db "CONTENTS@"
 
 PokedexMenuItemsText:
-	db   "データをみる"
-	next "なきごえ"
-	next "ぶんぷをみる"
-	next "やめる@"
+	db   "DATA"
+	next "CRY"
+	next "AREA"
+	next "QUIT@"
 
 ; tests if a pokemon's bit is set in the seen or owned pokemon bit fields
 ; INPUT:
@@ -564,8 +564,8 @@ ShowPokedexDataInternal:
 	ret
 
 HeightWeightText:
-	db   "たかさ　　？？？ｍ"
-	next "おもさ　　？？？ｋｇ@"
+	db   "HT   ???ｍ"
+	next "WT   ???ｋｇ@"
 
 PokeText:
 	db "#@"

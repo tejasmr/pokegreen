@@ -112,7 +112,7 @@ PalletTownOakNotSafeComeWithMeScript:
 	ld [wNPCMovementScriptFunctionNum], a
 	ld a, 1
 	ld [wNPCMovementScriptPointerTableNum], a
-	ldh a, [hLoadedROMBank]
+	ld a, BANK(PalletMovementScriptPointerTable)
 	ld [wNPCMovementScriptBank], a
 
 	; trigger the next script
@@ -175,8 +175,8 @@ PalletTownOakText:
 	jp TextScriptEnd
 
 .HeyWaitDontGoOutText:
-	text "オーキド『おーい！"
-	line "まてー！　まつんじゃあ！@"
+	text "OOKIDO『OI！ HEY！"
+	line "WAIT！ MATTE-！@"
 	text_asm
 	ld c, 10
 	call DelayFrames
@@ -189,49 +189,60 @@ PalletTownOakText:
 	jp TextScriptEnd
 
 .ItsUnsafeText:
-	text "オーキド『あぶない　とこだった！"
-	line "くさむらでは"
-	cont "やせいの　#が　とびだす！"
+	text "OOKIDO『ABUNAI！"
+	line "DANGER PLACE！"
+	cont "IN TALL GRASS"
+	cont "WILD # LEAP OUT！"
 
-	para "こちらも　#を"
-	line "もって　いれば"
-	cont "たたかえるのだが<⋯>"
-	cont "そうじゃ！"
+	para "IF YOU ALSO HAVE"
+	line "#· CAN FIGHT"
+	cont "BUT<⋯> SOU JA！"
+	cont "THATS IT！"
 
-	para "<⋯>　ちょっと"
-	line "わしに　ついて　きなさい！"
+	para "<⋯>CHOTTO· A BIT"
+	line "FOLLOW AFTER ME！"
 	done
 
 PalletTownGirlText:
-	text "わたしも"
-	line "#を　そだててるの！"
+	text "WATASHI MO· I AM"
+	line "RAISING # TOO！"
 
-	para "つよく　なれば"
-	line "ガードマンの　かわりに　なるしね"
+	para "IF BECOME STRONG"
+	line "LIKE A GUARDMAN！"
+	cont "BODYGUARD NE！"
 	done
 
 PalletTownFisherText:
-	text "かがくの　ちからって　すげー！"
+	text "KAGAKU NO CHIKARA"
+	line "SCIENCE POWER IS"
+	cont "SUGE-！ AMAZING！"
 
-	para "いまは　<PC>つうしんで"
-	line "どうぐや　#を"
-	cont "データにして　おくれるんだと"
+	para "NOW VIA <PC> MAIL"
+	line "CAN SEND ITEMS"
+	cont "AND # AS DATA！"
 	done
 
 PalletTownOaksLabSignText:
-	text "ここは　オーキド　はかせの"
-	line "#　けんきゅうじょ"
+	text "OOKIDO HAKASE"
+	line "DR. OOKIDO #"
+	cont "RESEARCH LAB！"
 	done
 
 PalletTownSignText:
-	text "ここは　マサラ　タウン"
-	line "マサラは　まっしろ　はじまりのいろ"
+	text "MASARA TOWN"
+	line "MASARA IS PURE"
+	cont "SHIRO· WHITE"
+
+	para "COLOR OF"
+	line "HAJIMARI· START！"
 	done
 
 PalletTownPlayersHouseSignText:
-	text "ここは　<PLAYER>　のいえ"
+	text "<PLAYER> NO IE"
+	line "<PLAYER>S HOUSE"
 	done
 
 PalletTownRivalsHouseSignText:
-	text "ここは　<RIVAL>　のいえ"
+	text "<RIVAL> NO IE"
+	line "<RIVAL>S HOUSE"
 	done

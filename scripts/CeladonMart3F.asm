@@ -42,95 +42,107 @@ CeladonMart3FClerkText:
 	call PrintText
 	jp TextScriptEnd
 
-.TM18PreReceiveText:
-	text "いらっしゃい！"
-	line "いやあー！"
-	cont "#　やっと　おわったよ！"
 
-	para "きみは　まだ　なの？"
-	line "それじゃあ"
-	cont "いい　もの　あげよう"
+.TM18PreReceiveText:
+	text "WELCOME!"
+	line "MAN OH MAN!"
+	cont "I FINALLY BEAT #"
+
+	para "NOT YOU YET?"
+	line "THEN I WILL GIVE"
+	cont "A GOOD THING!"
 	prompt
 
 .ReceivedTM18Text:
-	text "<PLAYER>は　てんいん　から"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!@"
 	sound_get_item_1
 	text_end
 
 .TM18ExplanationText:
-	text "てんいんの　プレゼント　だけに"
-	line "<TM>１８の　わざは"
-	cont "<⋯>　カウンター！　だよ！"
-	cont "それじゃ　がんばってね！"
+	text "A CLERK GIFT⋯"
+	line "<TM>18 MOVE IS"
+	cont "⋯COUNTER! GET IT?"
+
+	para "DO YOUR BEST NOW!"
 	done
 
 .TM18NoRoomText:
-	text "にもつが　いっぱいだ！"
+	text "YOUR PACK IS"
+	line "OUT OF ROOM!"
 	done
 
 CeladonMart3FGameBoyKid1Text:
-	text "とった　ひとの　なまえと"
-	line "アイディが　#　ごとに"
-	cont "きろく　されてるよ"
+	text "ORIGINAL TRAINER"
+	line "NAME AND <ID> ARE"
+	cont "RECORDED FOR EACH"
+	cont "# CAUGHT!"
 	done
 
 CeladonMart3FGameBoyKid2Text:
-	text "やったー！"
+	text "ALRIGHT-T!"
 
-	para "となりのこが　ゴーストと　ガルーラ"
-	line "こうかん　してくれるって！"
+	para "KID NEXT DOOR"
+	line "TRADES GHOST FOR"
+	cont "MY GARURA!"
 	done
 
 CeladonMart3FGameBoyKid3Text:
-	text "はやく　きて！"
-	line "ゴースト　ちゃーん！"
+	text "COME QUICKLY!"
+	line "DEAR GHOST-CHAN!"
 
-	para "ぼくは"
-	line "ゴースト　マニア　なのね！"
+	para "I AM A REAL"
+	line "GHOST MANIAC!"
 
-	para "<⋯>　あー？"
+	para "⋯HUH⋯?!"
 
-	para "てんそう　されて　きた　ゴーストが"
-	line "べつの　#に！？"
+	para "THE TRADED GHOST"
+	line "BECAME ANOTHER"
+	cont "# ENTIRELY?!"
 	done
 
 CeladonMart3FLittleBoyText:
-	text "ひとから　もらった　#は"
-	line "アイディが　ちがうから　わかるよ"
+	text "TRADED # HAVE"
+	line "DIFFERENT <ID> SO"
+	cont "YOU CAN TELL!"
 	done
 
 CeladonMart3FSNESText:
-	text "スーパー　ファミコン　だ！"
+	text "SUPER FAMICOM!"
 	done
 
 CeladonMart3FRPGText:
-	text "ロールプレイング　ゲームだ！"
-	line "<⋯>　あそんでく　ひまが　ない"
+	text "AN RPG GAME!"
+	line "⋯NO TIME TO PLAY"
+	cont "RIGHT NOW!"
 	done
 
 CeladonMart3FSportsGameText:
-	text "これは　スポーツ　ゲームだ！"
-	line "<⋯>　おとうさんが　すきそう！"
+	text "A SPORTS GAME!"
+	line "⋯PAPA WOULD LIKE"
+	cont "THIS ONE!"
 	done
 
 CeladonMart3FPuzzleGameText:
-	text "パズル　ゲームだ<⋯>！"
-	line "<⋯>　はじめたら　やめられない"
+	text "A PUZZLE GAME⋯!"
+	line "⋯CANT STOP ONCE"
+	cont "YOU START IT!"
 	done
 
 CeladonMart3FFightingGameText:
-	text "たいせん　アクションゲームだ！"
-	line "<⋯>　ちょっと　むずかしそう！"
+	text "FIGHTING ACTION!"
+	line "⋯LOOKS A BIT"
+	cont "TOO DIFFICULT!"
 	done
 
 CeladonMart3FCurrentFloorSignText:
-	text "３かい<⋯>テレビ　ゲーム　ショップ"
+	text "3F: TV GAME SHOP"
 	done
 
 CeladonMart3FPokemonPosterText:
-	text "あかと　みどり！"
-	line "どっちも　ポケット　モンスター！"
+	text "RED AND GREEN!"
+	line "BOTH ARE POCKET"
+	cont "MONSTERS!"
 	done

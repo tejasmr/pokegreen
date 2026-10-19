@@ -11,27 +11,31 @@ CinnabarLab_TextPointers:
 	dw_const CinnabarLabTestingRoomSignText, TEXT_CINNABARLAB_TESTING_ROOM_SIGN
 
 CinnabarLabFishingGuruText:
-	text "ここでは　まいにち"
-	line "#の　けんきゅうを　してます"
+	text "WE RESEARCH #"
+	line "EVERY SINGLE DAY!"
 
-	para "あと　めずらしい　#などを"
-	line "もちこんでくる　おきゃくさんも"
-	cont "いらっしゃい　ますね"
+	para "GUESTS ALSO BRING"
+	line "RARE # FOR US"
+	cont "TO EXAMINE!"
 	done
 
 CinnabarLabPhotoText:
-	text "グレン　ラボラトリーの　そうせつしゃ"
-	line "フジはかせの　しゃしんだ！"
+	text "PHOTO OF LAB"
+	line "FOUNDER·DR. FUJI!"
 	done
 
 CinnabarLabMeetingRoomSignText:
-	text "#　ラボ　おうせつしつ"
+	text "# LAB"
+	line "MEETING ROOM"
 	done
 
 CinnabarLabRAndDSignText:
-	text "#　ラボ　けんきゅうしつ"
+	text "# LAB"
+	line "R-AND-D ROOM"
 	done
 
 CinnabarLabTestingRoomSignText:
-	text "#　ラボ　じっけんしつ"
+	text "# LAB"
+	line "TESTING ROOM"
 	done
+

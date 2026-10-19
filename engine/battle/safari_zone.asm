@@ -28,15 +28,13 @@ PrintSafariZoneBattleText:
 	jp PrintText
 
 SafariZoneEatingText:
-	text "やせいの@"
+	text "WILD @"
 	text_ram wEnemyMonNick
-	text "は"
-	line "エサを　たべてる！"
+	line "IS EATING BAIT！"
 	prompt
 
 SafariZoneAngryText:
-	text "やせいの@"
+	text "WILD @"
 	text_ram wEnemyMonNick
-	text "は"
-	line "おこってる！"
+	line "IS ANGRY OKORU！"
 	prompt

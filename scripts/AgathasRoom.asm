@@ -133,40 +133,48 @@ AgathasRoomAgathaText:
 	jp TextScriptEnd
 
 AgathasRoomAgathaBattleText:
-	text "あたしは　してんのうの　キクコ！"
+	text "I AM『KIKUKO』OF"
+	line "THE『SHITENNO』！"
 
-	para "あんた　オーキドの　ジジイに"
-	line "かわいがられてんだって！"
+	para "YOU ARE FAVORED"
+	line "BY OLD GEEZER"
+	cont "OOKIDO THEY SAY！"
 
-	para "ジジイ　むかしは　つよくて"
-	line "いい　おとこ　だった！"
-	cont "いまじゃ　みる　かげも　ないがね！"
+	para "OLD GEEZER WAS"
+	line "STRONG AND FINE"
+	cont "MAN IN PAST TIME！"
 
-	para "#　ずかん"
-	line "つくってる　ようじゃ　だめだ！"
-	cont "#は　たたかわせる　ものさ"
+	para "NOW A SHADOW OF"
+	line "FORMER SELF！"
 
-	para "<PLAYER><⋯>！　あんたにも"
-	line "ホントの　たたかいって　ものを"
-	cont "おしえて　やる！"
+	para "MAKING『# ZUKAN』"
+	line "IS POINTLESS！"
+	cont "# EXIST TO"
+	cont "FIGHT IN BATTLE！"
+
+	para "<PLAYER><⋯>！"
+	line "I SHALL TEACH YOU"
+	cont "REAL BATTLE！"
 	done
 
 AgathasRoomAgathaEndBattleText:
-	text "ほっほう！"
-	line "たいした　もんだよ！"
+	text "HOH-HOH！"
+	line "QUITE SOMETHING！"
 	prompt
 
 AgathasRoomAgathaAfterBattleText:
-	text "あんたの　かち　だ！"
-	line "ジジイが　めを　つける　だけの"
-	cont "ことは　ある！"
+	text "IT IS YOUR WIN！"
+	line "OLD GEEZER HAD"
+	cont "EYES FOR REASON！"
 
-	para "もう　これ　いじょう"
-	line "あたしが　いう　ことは　ない！"
-	cont "つぎの　へやに　すすみな！"
+	para "NOTHING MORE FOR"
+	line "ME TO SAY！"
+	cont "ADVANCE TO NEXT"
+	cont "ROOM RIGHT NOW！"
 	done
 
 AgathasRoomAgathaDontRunAwayText:
-	text "だれかの　こえが　きこえる<⋯>"
-	line "「にげては　ならん！」"
+	text "SOMEONES VOICE IS"
+	line "HEARD<⋯>"
+	cont "「DO NOT FLEE！」"
 	done

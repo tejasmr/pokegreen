@@ -211,91 +211,98 @@ DaycareGentlemanText:
 	jp TextScriptEnd
 
 .IntroText:
-	text "わたしは　そだてやさん"
-	line "なにか　そだてて　みるかね？"
+	text "I AM SODATEYA!"
+	line "DAYCARE MAN!"
+
+	para "WANT ME TO RAISE"
+	line "A # FOR YOU?"
 	done
 
 .WhichMonText:
-	text "それでは"
-	line "なにを　そだてて　みるかね？"
+	text "WHICH # SHALL"
+	line "I RAISE THEN?"
 	prompt
 
 .WillLookAfterMonText:
-	text "わかった"
-	line "しばらく@"
+	text "ALL RIGHT! I"
+	line "KEEP @"
 	text_ram wNameBuffer
-	text "を　あずかろう"
+	text "!"
 	prompt
 
 .ComeSeeMeInAWhileText:
-	text "てきとうに　じかんが　たったら"
-	line "また　きなさい"
+	text "COME SEE ME IN"
+	line "A WHILE!"
 	done
 
 .MonHasGrownText:
-	text "おまえの　@"
+	text "YOUR @"
 	text_ram wNameBuffer
 	text_start
-	line "ずいぶんと　せいちょうしたぞ"
+	line "GREW VERY MUCH!"
 
-	para "そうだな　レベルで　いうと"
-	line "@"
+	para "IN FACT·LEVEL"
+	line "GREW ABOUT @"
 	text_decimal wDayCareNumLevelsGrown, 1, 3
-	text "くらい　そだってるな"
+	text "!"
 
-	para "やっぱり　わたしは　てんさいだ！"
+	para "AS EXPECTED·"
+	line "I AM A GENIUS!"
 	prompt
 
 .OweMoneyText:
-	text "<⋯>で　#を　ひきとるなら"
-	line "りょうきんは　@"
+	text "TO TAKE MON BACK"
+	line "COST IS @"
 	text_bcd wDayCareTotalCost, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text "円　だよ"
+	text "円!"
 	done
 
 .GotMonBackText:
-	text "<PLAYER>は　そだてやさんから"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wDayCareMonName
-	text "を　ひきとった！"
+	text " BACK!"
 	done
 
 .MonNeedsMoreTimeText:
-	text "なんだ　もう　きたのか"
-	line "おまえの　@"
+	text "WHAT? ALREADY?"
+	line "YOUR @"
 	text_ram wNameBuffer
-	text "は<⋯>"
+	text "⋯"
 
-	para "まだ　じかんが　かかるぞ"
+	para "NEEDS MORE TIME!"
 	prompt
 
 .AllRightThenText:
-	text "そうか　それじゃ"
+	text "I SEE·THEN"
 	line "@"
 .ComeAgainText:
-	text "また　きなさいよ"
+	text "COME AGAIN!"
 	done
 
 .NoRoomForMonText:
-	text "だけど　つれていくには"
-	line "#が　いっぱいのようだな"
+	text "BUT YOU HAVE NO"
+	line "ROOM FOR MON!"
 	done
 
 .OnlyHaveOneMonText:
-	text "おや？　#が"
-	line "１ぴきしか　いないようだな"
+	text "OH? YOU ONLY"
+	line "HAVE 1 #!"
 	done
 
 .CantAcceptMonWithHMText:
-	text "わるいけど　ひでんのわざを　もった"
-	line "#は　あずかれないなぁ"
+	text "SORRY! CANT TAKE"
+	line "# WITH HM MOVE!"
 	done
 
 .HeresYourMonText:
-	text "ほい　たしかに！"
-	line "じゃ　#　つれて　いきなよ"
+	text "HERE YOU GO!"
+	line "TAKE GOOD CARE"
+	cont "OF YOUR #!"
 	prompt
 
 .NotEnoughMoneyText:
-	text "かねが　たらんな"
+	text "NOT ENOUGH MONEY!"
+	line "KANE GA TARINAI!"
 	done
+

@@ -10,32 +10,36 @@ PokemonTower1F_TextPointers:
 	dw_const PokemonTower1FChannelerText,       TEXT_POKEMONTOWER1F_CHANNELER
 
 PokemonTower1FReceptionistText:
-	text "#　タワーは"
-	line "しんだ　#を　なぐさめるため"
-	cont "たてられた　とう　です"
+	text "# TOWER IS"
+	line "TOWER ERECTED TO"
+	cont "COMFORT DEAD #！"
 	done
 
 PokemonTower1FMiddleAgedWomanText:
-	text "あなたも"
-	line "おはか　まいりに　きたの？"
-	cont "#　おもいの　おとこのこ　ね"
+	text "DID YOU ALSO COME"
+	line "TO VISIT GRAVES?"
+	cont "BOY WHO CARES"
+	cont "FOR # NE！"
 	done
 
 PokemonTower1FBaldingGuyText:
-	text "しんだ　ピッピの　コトが"
-	line "わすれられん<⋯>！"
+	text "MY DEAD PIPPI<⋯>"
+	line "CANNOT FORGET IT！"
 
-	para "<⋯>イカン！"
-	line "なみだが　でて　きおった<⋯>"
+	para "<⋯>IKAN！ BAD NEWS！"
+	line "TEARS ARE SPILL"
+	cont "OUT NOW<⋯>！"
 	done
 
 PokemonTower1FGirlText:
-	text "ああ　わたしの　ガーディ<⋯>"
-	line "どうして　しんで　しまったの<⋯>"
+	text "AAH· MY GARDIE<⋯>"
+	line "WHY HAVE YOU"
+	cont "PERISHED AWAY<⋯>"
 	done
 
 PokemonTower1FChannelerText:
-	text "わたしは　きとうし！"
-	line "どうも　うえの　かいに"
-	cont "まよえる　たましいを　かんじる"
+	text "I AM KITOUSHI·"
+	line "SPIRIT MEDIUM！"
+	cont "UPPER FLOORS"
+	cont "HAVE LOST SOULS！"
 	done

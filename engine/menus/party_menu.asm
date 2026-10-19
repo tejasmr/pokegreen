@@ -102,9 +102,9 @@ RedrawPartyMenu_::
 	inc c
 	jp .loop
 .ableToLearnMoveText
-	db "おぼえられる@"
+	db "ABLE@"
 .notAbleToLearnMoveText
-	db "おぼえられない@"
+	db "NOT ABLE@"
 .evolutionStoneMenu
 	push hl
 	ld hl, EvosMovesPointerTable
@@ -128,7 +128,7 @@ RedrawPartyMenu_::
 	ld bc, wEvoDataBufferEnd - wEvoDataBuffer
 	call FarCopyData
 	ld hl, wEvoDataBuffer
-	ld de, .notAbleToEvolveText
+	ld de, .notAbleToLearnMoveText
 ; loop through the pokemon's evolution entries
 .checkEvolutionsLoop
 	ld a, [hli]
@@ -149,7 +149,7 @@ RedrawPartyMenu_::
 	cp b ; does the player's stone match this evolution entry's stone?
 	jr nz, .checkEvolutionsLoop
 ; if it does match
-	ld de, .ableToEvolveText
+	ld de, .ableToLearnMoveText
 .placeEvolutionStoneString
 	pop hl
 	push hl
@@ -158,10 +158,6 @@ RedrawPartyMenu_::
 	call PlaceString
 	pop hl
 	jr .printLevel
-.ableToEvolveText
-	db "つかえる@"
-.notAbleToEvolveText
-	db "つかえない@"
 .afterDrawingMonEntries
 	ld b, SET_PAL_PARTY_MENU
 	call RunPaletteCommand
@@ -229,80 +225,73 @@ PartyMenuMessagePointers:
 	dw PartyMenuItemUseText
 
 PartyMenuNormalText:
-	text "#を　えらんで　ください"
+	text "CHOOSE A #！"
 	done
 
 PartyMenuItemUseText:
-	text "どの#に　つかいますか？"
+	text "USE ON WHICH #？"
 	done
 
 PartyMenuBattleText:
-	text "どの#を　だしますか？"
+	text "SEND OUT WHICH #？"
 	done
 
 PartyMenuUseTMText:
-	text "どの#に　おしえますか？"
+	text "TEACH WHICH #？"
 	done
 
 PartyMenuSwapMonText:
-	text "どこに　いどうしますか？"
+	text "MOVE TO WHERE？"
 	done
 
 PotionText:
 	text_ram wNameBuffer
-	text "の　たいりょくが"
+	text " HEALED"
 	line "@"
 	text_decimal wHPBarHPDifference, 2, 3
-	text "　かいふくした"
+	text " HP！"
 	done
 
 AntidoteText:
 	text_ram wNameBuffer
-	text "の　どくは"
-	line "きれい　さっぱり　なくなった！"
+	line "CURED OF POISON！"
 	done
 
 ParlyzHealText:
 	text_ram wNameBuffer
-	text "の　からだの"
-	line "しびれが　とれた"
+	line "UNPARALYZED！"
 	done
 
 BurnHealText:
 	text_ram wNameBuffer
-	text "の"
-	line "やけどが　なおった"
+	line "HEALED OF BURN！"
 	done
 
 IceHealText:
 	text_ram wNameBuffer
-	text "の　からだの"
-	line "こおりが　とけた"
+	line "DEFROSTED！"
 	done
 
 AwakeningText:
 	text_ram wNameBuffer
-	text "は"
-	line "めを　さました"
+	line "WOKE UP！"
 	done
 
 FullHealText:
 	text_ram wNameBuffer
-	text "は"
-	line "けんこうになった！"
+	line "FULLY HEALTHY！"
 	done
 
 ReviveText:
 	text_ram wNameBuffer
-	text "は"
-	line "げんきを　とりもどした！"
+	line "REVIVED GENKI！"
 	done
 
 RareCandyText:
 	text_ram wNameBuffer
-	text "の　レベルが@"
+	line "GREW TO LV @"
 	text_decimal wCurEnemyLevel, 1, 3
-	text "になった@"
+	text "！@"
 	sound_get_item_1 ; probably supposed to play SFX_LEVEL_UP but the wrong music bank is loaded
 	text_promptbutton
 	text_end

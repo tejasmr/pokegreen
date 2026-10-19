@@ -66,26 +66,30 @@ CeruleanBadgeHouseMiddleAgedManText:
 	db -1 ; end
 
 .Text:
-	text "うでが　あがった"
-	line "#<TRAINER>だけが　もらえる"
-	cont "#　バッジ"
+	text "# BADGES ARE"
+	line "AWARDED ONLY TO"
+	cont "SKILLED <TRAINER>!"
 
-	para "あなたも　いくつか　もってるね"
+	para "YOU ALSO POSSESS"
+	line "A FEW OF THEM·"
 
-	para "その　バッジには"
-	line "すごい　ひみつが　あるのです"
+	para "THOSE BADGES"
+	line "HOLD AN AMAZING"
+	cont "SECRET INSIDE!"
 	prompt
 
 .WhichBadgeText:
-	text "では<⋯>"
+	text "NOW THEN⋯"
 
-	para "#　バッジ　８つの　ひみつ"
-	line "どれに　ついて　はなし　ましょう？"
+	para "WHICH OF 8 #"
+	line "BADGE SECRETS"
+	cont "SHALL I RELATE?"
 	done
 
 .VisitAnyTimeText:
-	text "はなしを　ききたく　なったら"
-	line "また　いらっしゃい"
+	text "COME AGAIN WHEN"
+	line "YOU WISH TO HEAR"
+	cont "MORE TALES!"
 	done
 
 CeruleanBadgeHouseBadgeTextPointers:
@@ -101,74 +105,82 @@ CeruleanBadgeHouseBadgeTextPointers:
 	assert_table_length NUM_BADGES
 
 CeruleanBadgeHouseBoulderBadgeText:
-	text "すべての"
-	line "#の　こうげき　りょくが"
-	cont "すこし　たかく　なります"
+	text "THE ATTACK POWER"
+	line "OF ALL # RISES"
+	cont "A LITTLE HIGHER!"
 
-	para "それから　フラッシュの　わざは"
-	line "たたかって　いない　ときでも"
-	cont "つかえるように　なります"
+	para "ALSO· THE MOVE"
+	line "FLASH CAN BE"
+	cont "USED OUTSIDE OF"
+	cont "BATTLE ANYTIME!"
 	prompt
 
 CeruleanBadgeHouseCascadeBadgeText:
-	text "レベル３０までの　#は"
-	line "おとなしく　いうことを　ききます"
+	text "# UP TO <LV>30"
+	line "WILL OBEY ORDERS"
+	cont "PEACEFULLY!"
 
-	para "それいじょう　レベルが　たかいと"
-	line "うまく　あつかえません"
+	para "ANY HIGHER <LV>·"
+	line "THEY WILL NOT"
+	cont "LISTEN TO YOU!"
 
-	para "それから　いあいぎりの　わざは"
-	line "たたかって　いない　ときでも"
-	cont "つかえるように　なります"
+	para "ALSO· THE MOVE"
+	line "CUT CAN BE USED"
+	cont "OUTSIDE BATTLE!"
 	prompt
 
 CeruleanBadgeHouseThunderBadgeText:
-	text "すべての"
-	line "#の　すばやさが"
-	cont "すこし　たかく　なります"
+	text "THE SPEED STAT"
+	line "OF ALL # RISES"
+	cont "A LITTLE HIGHER!"
 
-	para "それから　そらをとぶ　わざは"
-	line "たたかって　いない　ときでも"
-	cont "つかえるように　なります"
+	para "ALSO· THE MOVE"
+	line "FLY CAN BE USED"
+	cont "OUTSIDE BATTLE!"
 	prompt
 
 CeruleanBadgeHouseRainbowBadgeText:
-	text "レベル５０までの　#は"
-	line "おとなしく　いうことを　ききます"
+	text "# UP TO <LV>50"
+	line "WILL OBEY ORDERS"
+	cont "PEACEFULLY!"
 
-	para "それいじょう　レベルが　たかいと"
-	line "うまく　あつかえません"
+	para "ANY HIGHER <LV>·"
+	line "THEY WILL NOT"
+	cont "LISTEN TO YOU!"
 
-	para "それから　かいりきの　わざは"
-	line "たたかって　いない　ときでも"
-	cont "つかえるように　なります"
+	para "ALSO· THE MOVE"
+	line "STRENGTH CAN BE"
+	cont "USED OUT BATTLE!"
 	prompt
 
 CeruleanBadgeHouseSoulBadgeText:
-	text "すべての"
-	line "#の　ぼうぎょ　りょくが"
-	cont "すこし　たかく　なります"
+	text "THE DEFENSE STAT"
+	line "OF ALL # RISES"
+	cont "A LITTLE HIGHER!"
 
-	para "それから　なみのりの　わざは"
-	line "たたかって　いない　ときでも"
-	cont "つかえるように　なります"
+	para "ALSO· THE MOVE"
+	line "SURF CAN BE USED"
+	cont "OUTSIDE BATTLE!"
 	prompt
 
 CeruleanBadgeHouseMarshBadgeText:
-	text "レベル７０までの　#は"
-	line "おとなしく　いうことを　ききます"
+	text "# UP TO <LV>70"
+	line "WILL OBEY ORDERS"
+	cont "PEACEFULLY!"
 
-	para "それいじょう　レベルが　たかいと"
-	line "うまく　あつかえません"
+	para "ANY HIGHER <LV>·"
+	line "THEY WILL NOT"
+	cont "LISTEN TO YOU!"
 	prompt
 
 CeruleanBadgeHouseVolcanoBadgeText:
-	text "すべての"
-	line "#の　とくしゅ　のうりょくが"
-	cont "すこし　たかく　なります"
+	text "THE SPECIAL STAT"
+	line "OF ALL # RISES"
+	cont "A LITTLE HIGHER!"
 	prompt
 
 CeruleanBadgeHouseEarthBadgeText:
-	text "すべての　#は"
-	line "おとなしく　いうことを　ききます"
+	text "ALL # WILL"
+	line "OBEY YOUR ORDERS"
+	cont "PEACEFULLY!"
 	prompt

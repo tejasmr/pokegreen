@@ -99,29 +99,32 @@ LogOff:
 	ret
 
 TurnedOnPC1Text:
-	text "<PLAYER>は"
-	line "<PC>の　スイッチを　いれた！"
+	text "<PLAYER> TURNED"
+	line "ON <PC>！"
 	prompt
 
 AccessedBillsPCText:
-	text "マサキの　<PC>と　つないだ！"
+	text "LINKED TO"
+	line "MASAKI <PC>！"
 
-	para "#の　あずかり　システムを　"
-	line "よびだした！"
+	para "# STORAGE"
+	line "OPENED！"
 	prompt
 
 AccessedSomeonesPCText:
-	text "だれかの　<PC>と　つないだ！"
+	text "LINKED TO"
+	line "DAREKA <PC>！"
 
-	para "#の　あずかり　システムを　"
-	line "よびだした！"
+	para "# STORAGE"
+	line "OPENED！"
 	prompt
 
 AccessedMyPCText:
-	text "じぶんの　<PC>と　つないだ！"
+	text "LINKED TO"
+	line "MY <PC>！"
 
-	para "どうぐの　あずかり　システムを　"
-	line "よびだした！"
+	para "ITEM STORAGE"
+	line "OPENED！"
 	prompt
 
 ; removes one of the specified item ID [hItemToRemoveID] from bag (if existent)

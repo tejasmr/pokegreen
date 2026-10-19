@@ -60,21 +60,22 @@ LinkCableHelp::
 	jp TextScriptEnd
 
 LinkCableHelpText1:
-	text "<⋯>　#　こうざ！"
+	text "<⋯># LESSON！"
 
-	para "つうしん　ケーブルを　つかった"
-	line "あそびかた　に　ついて"
+	para "HOW TO PLAY WITH"
+	line "THE LINK CABLE！"
 	prompt
 
 LinkCableHelpText2:
-	text "どの　こうもくを　よみますか？"
+	text "WHICH HEADING DO"
+	line "YOU WANT TO READ？"
 	done
 
 HowToLinkText:
-	db   "ケーブルで　あそぶには"
-	next "コロシアム"
-	next "トレード　センター"
-	next "よむ　の　やめる@"
+	db   "LINK CABLE"
+	next "COLOSSEUM"
+	next "TRADE CTR"
+	next "QUIT@"
 
 LinkCableInfoTexts:
 	dw LinkCableInfoText1
@@ -82,23 +83,26 @@ LinkCableInfoTexts:
 	dw LinkCableInfoText3
 
 LinkCableInfoText1:
-	text "ともだちの　ゲームボーイと"
-	line "ケーブルで　つないだら"
-	cont "#　センター　みぎがわの"
-	cont "カウンターの　おねえさんが"
-	cont "あんない　してくれます"
+	text "CONNECT WITH A"
+	line "FRIENDS GAMEBOY"
+	cont "USING CABLE·THEN"
+	cont "TALK TO COUNTER"
+	cont "LADY ON RIGHT IN"
+	cont "# CENTER！"
 	prompt
 
 LinkCableInfoText2:
-	text "コロシアムは"
-	line "ともだちと　たいせん　するとき"
-	cont "はいる　へや　です"
+	text "COLOSSEUM IS ROOM"
+	line "TO ENTER WHEN"
+	cont "BATTLING WITH A"
+	cont "FRIEND PERSON！"
 	prompt
 
 LinkCableInfoText3:
-	text "トレードセンターは　ともだちと"
-	line "#を　こうかん　する　とき"
-	cont "はいる　へや　です"
+	text "TRADE CENTER IS"
+	line "ROOM TO ENTER"
+	cont "WHEN TRADING #"
+	cont "WITH A FRIEND！"
 	prompt
 
 ViridianSchoolBlackboard::
@@ -122,7 +126,7 @@ ViridianSchoolBlackboard::
 	ld hl, wStatusFlags5
 	set BIT_NO_TEXT_DELAY, [hl]
 	hlcoord 0, 0
-	lb bc, 6, 9
+	lb bc, 6, 10
 	call TextBoxBorder
 	hlcoord 1, 2
 	ld de, StatusAilmentText1
@@ -188,25 +192,26 @@ ViridianSchoolBlackboard::
 	jp TextScriptEnd
 
 ViridianSchoolBlackboardText1:
-	text "こくばんに"
-	line "#が　たたかってる　とき"
-	cont "おこる　たいちょうの"
-	cont "へんかに　ついて　かかれてる"
+	text "WRITTEN ON BOARD"
+	line "ARE STATUS STATE"
+	cont "CHANGES OF #"
+	cont "DURING BATTLES！"
 	prompt
 
 ViridianSchoolBlackboardText2:
-	text "どの　こうもくを　みますか？"
+	text "WHICH HEADING DO"
+	line "YOU WISH TO SEE？"
 	done
 
 StatusAilmentText1:
-	db   "　ねむり"
-	next "　どく"
-	next "　マヒ@"
+	db   " SLP"
+	next " PSN"
+	next " PAR@"
 
 StatusAilmentText2:
-	db   "　やけど"
-	next "　こおり"
-	next "　やめる@"
+	db   " BRN"
+	next " FRZ"
+	next " QUIT@"
 
 	db "@" ; unused
 
@@ -218,46 +223,54 @@ ViridianBlackboardStatusPointers:
 	dw ViridianBlackboardFrozenText
 
 ViridianBlackboardSleepText:
-	text "ねてしまうと　その　あいだは"
-	line "こうげき　できません！"
+	text "WHEN ASLEEP·#"
+	line "CANNOT ATTACK！"
 
-	para "たたかい　おわっても　ねたまま"
-	line "ねむけざましで　めが　さめます"
+	para "STAYS ASLEEP"
+	line "AFTER BATTLE·"
+	cont "USE AWAKENING TO"
+	cont "WAKE IT UP！"
 	prompt
 
 ViridianBlackboardPoisonText:
-	text "どくを　くらうと"
-	line "たいりょくが　へって　いきます"
+	text "WHEN POISONED·HP"
+	line "STEADILY DROPS！"
 
-	para "たたかい　おわっても"
-	line "どくは　のこりますが"
-	cont "どくけしで　きえます！"
+	para "POISON REMAINS"
+	line "AFTER BATTLE·"
+	cont "USE ANTIDOTE TO"
+	cont "CURE THE POISON！"
 	prompt
 
 ViridianBlackboardPrlzText:
-	text "マヒすると　わざが"
-	line "ときどき　でなく　なります！"
+	text "PARALYSIS MAY"
+	line "CAUSE MOVES TO"
+	cont "FAIL AND MISS！"
 
-	para "たたかい　おわっても"
-	line "マヒは　のこります"
-	cont "また　マヒなおしで　なおります"
+	para "STAYS PARALYZED"
+	line "AFTER BATTLE·"
+	cont "CURE WITH"
+	cont "PARALYZ HEAL！"
 	prompt
 
 ViridianBlackboardBurnText:
-	text "やけどは　たいりょくが　へって"
-	line "こうげきりょくと　すばやさも"
-	cont "さがって　しまいます！"
+	text "BURN REDUCES HP·"
+	line "AND ALSO LOWERS"
+	cont "ATTACK POWER！"
 
-	para "たたかい　おわっても"
-	line "やけどは　のこります"
-	cont "また　やけどなおしで　なおります"
+	para "BURN REMAINS"
+	line "AFTER BATTLE·"
+	cont "USE BURN HEAL TO"
+	cont "CURE IT WELL！"
 	prompt
 
 ViridianBlackboardFrozenText:
-	text "こおって　しまうと"
-	line "まったく　うごけなく　なります！"
+	text "WHEN FROZEN·#"
+	line "BECOMES TOTALLY"
+	cont "IMMOBILIZED！"
 
-	para "たたかい　おわっても　こおってます"
-	line "こおりなおしで　とかさないと"
-	cont "#が　かわいそう"
+	para "STAYS FROZEN"
+	line "AFTER BATTLE·"
+	cont "THAW WITH ICE"
+	cont "HEAL TO RESCUE！"
 	prompt

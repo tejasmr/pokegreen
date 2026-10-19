@@ -66,11 +66,11 @@ GetMachineName::
 	add NUM_HMS
 	ld [wNamedObjectIndex], a
 	ld hl, HiddenPrefix ; points to "HM"
-	ld bc, 6
+	ld bc, 2
 	jr .WriteMachinePrefix
 .WriteTM
 	ld hl, TechnicalPrefix ; points to "TM"
-	ld bc, 5
+	ld bc, 2
 .WriteMachinePrefix
 	ld de, wNameBuffer
 	call CopyData
@@ -105,9 +105,9 @@ GetMachineName::
 	ret
 
 TechnicalPrefix::
-	db "わざマシン"
+	db "TM"
 HiddenPrefix::
-	db "ひでんマシン"
+	db "HM"
 
 ; sets carry if item is HM, clears carry if item is not HM
 ; Input: a = item ID

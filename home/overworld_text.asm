@@ -10,21 +10,21 @@ ExclamationText::
 	done
 
 GroundRoseText::
-	text "どこかで　じめんがもりあがった！"
+	text "GROUND ROSE UP！"
 	done
 
 BoulderText::
-	text "「かいりき」　で　うごかせるかも<⋯>"
+	text "NEED STRENGTH<⋯>"
 	done
 
 MartSignText::
-	text "#　グッズが　いっぱい！"
-	line "フレンドリィショップ"
+	text "GOODS FOR #！"
+	line "# MART"
 	done
 
 PokeCenterSignText::
-	text "#の　たいりょく　かいふく！"
-	line "#センター"
+	text "HEAL YOUR #！"
+	line "# CENTER"
 	done
 
 PickUpItemText::

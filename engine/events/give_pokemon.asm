@@ -60,29 +60,27 @@ SetPokedexOwnedFlag:
 	jp PrintText
 
 GotMonText:
-	text "<PLAYER>は"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wNameBuffer
-	text "を　てにいれた！@"
+	text "！@"
 	sound_get_item_1
 	text_end
 
 SentToBoxText:
-	text "#を　もちきれないので"
-	line "<PC>の　ボックス@"
-	text_ram wStringBuffer
-	text "　に"
-	cont "@"
+	text "NO ROOM IN PARTY·"
+	line "@"
 	text_ram wBoxMonNicks
-	text "を　てんそうした！"
+	text " SENT TO"
+	cont "<PC> BOX @"
+	text_ram wStringBuffer
+	text "！"
 	done
 
 BoxIsFullText:
-	text "#を　もちきれません！"
+	text "CANT CARRY MORE！"
+	line "BOX IS FULL TOO·"
 
-	para "ボックスも　いっぱいで"
-	line "てんそうできません！"
-
-	para "#センターなどで"
-	line "ボックスを　かえてきて　ください"
+	para "SWITCH BOX AT"
+	line "A # CENTER！"
 	done

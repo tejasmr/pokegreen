@@ -85,12 +85,12 @@ DisplayPCMainMenu::
 	ldh [hAutoBGTransferEnabled], a
 	ret
 
-SomeonesPCText:   db "だれかの　<PC>@"
-BillsPCText:      db "マサキの　<PC>@"
-PlayersPCText:    db "の　<PC>@"
-OaksPCText:       db "オーキドの　<PC>@"
-PKMNLeaguePCText: db "ポケモン　リーグ@"
-LogOffPCText:     db "スイッチを　きる@"
+SomeonesPCText:   db "SOMEONES <PC>@"
+BillsPCText:      db "BILLS <PC>@"
+PlayersPCText:    db "S <PC>@"
+OaksPCText:       db "OAK <PC>@"
+PKMNLeaguePCText: db "# LEAGUE@"
+LogOffPCText:     db "LOG OFF@"
 
 BillsPC_::
 	ld hl, wStatusFlags5
@@ -320,14 +320,14 @@ DisplayMonListMenu:
 	ret
 
 BillsPCMenuText:
-	db   "#を　つれていく"
-	next "#を　あずける"
-	next "#を　にがす"
-	next "ボックスを　かえる"
-	next "さようなら@"
+	db   "WITHDRAW"
+	next "DEPOSIT"
+	next "RELEASE"
+	next "CHANGE BOX"
+	next "EXIT@"
 
 BoxNoPCText:
-	db "いまのボックス@"
+	db "BOX № @"
 
 KnowsHMMove::
 ; returns whether mon with party index [wWhichPokemon] knows an HM move
@@ -425,82 +425,77 @@ DisplayDepositWithdrawMenu:
 	call LoadGBPal
 	jr .loop
 
-DepositPCText:  db "あずける@"
-WithdrawPCText: db "ひきとる@"
+DepositPCText:  db "STORE@"
+WithdrawPCText: db "TAKE@"
 StatsCancelPCText:
-	db   "つよさをみる"
-	next "キャンセル@"
+	db   "STATS"
+	next "QUIT@"
 
 SwitchOnText:
-	text "スイッチ　オン！"
+	text "SWITCH ON！"
 	prompt
 
 WhatText:
-	text "なんに　するん？"
+	text "WHAT TO DO？"
 	done
 
 DepositWhichMonText: ; unreferenced
-	text "どの　#を"
-	line "あずけたいんや？"
+	text "DEPOSIT WHICH"
+	line "#？"
 	done
 
 MonWasStoredText:
 	text_ram wStringBuffer
-	text "を　ボックス@"
+	text_start
+	line "STORED IN BOX @"
 	text_ram wBoxNumString
-	text "に"
-	line "あずけた！"
+	text "！"
 	prompt
 
 CantDepositLastMonText:
-	text "それ　あずけたら"
-	line "こまるん　ちゃう？"
+	text "THAT IS YOUR"
+	line "LAST #！"
 	prompt
 
 BoxFullText:
-	text "あちゃ！　ウチは"
-	line "#で　いっぱいや"
+	text "BOX IS FULL！"
 	prompt
 
 MonIsTakenOutText:
 	text_ram wStringBuffer
-	text "を"
-	line "また　つれていく　ことにした！"
-	cont "@"
-	text_ram wStringBuffer
-	text "を　うけとった！"
+	text_start
+	line "WAS TAKEN OUT！"
 	prompt
 
 NoMonText:
-	text "なに？"
-	line "ウチは　なんも　あずかっとらんで？"
+	text "THERE IS NO"
+	line "# IN HERE！"
 	prompt
 
 CantTakeMonText:
-	text "そんなん　いうても"
-	line "#　もちきれへんやんけ！"
+	text "YOU CANNOT CARRY"
+	line "MORE #！"
 
-	para "とりあえず　あずけるか　にがすか"
-	line "したら　ええんちゃう？"
+	para "STORE OR RELEASE"
+	line "# FIRST！"
 	prompt
 
 ReleaseWhichMonText: ; unreferenced
-	text "どの　#を"
-	line "にがすんや？"
+	text "RELEASE WHICH"
+	line "#？"
 	done
 
 OnceReleasedText:
-	text "にがすと　@"
 	text_ram wStringBuffer
-	text "は"
-	line "もう　もどってこんで　ええんか？"
+	text " WILL"
+	line "LEAVE FOREVER·OK？"
 	done
 
 MonWasReleasedText:
 	text_ram wStringBuffer
-	text "を"
-	line "そとに　にがして　あげた！"
-	cont "ばいばい　@"
+	text_start
+	line "WAS RELEASED！"
+	cont "BYE @"
 	text_ram wStringBuffer
 	text "！"
 	prompt
@@ -540,7 +535,7 @@ CableClubRightGameboy::
 	tx_pre_jump JustAMomentText
 
 JustAMomentText::
-	text "ちょっと　まってね"
+	text "PLEASE WAIT！"
 	done
 
 UnusedOpenBillsPC: ; unreferenced

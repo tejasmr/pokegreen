@@ -20,14 +20,16 @@ RedsHouse1FMomText:
 	jp TextScriptEnd
 
 .WakeUpText:
-	text "おかあさん『<⋯>　そうね"
-	line "おとこのこは　いつか"
-	cont "たびに　でるもの　なのよ"
-	cont "うん<⋯>　テレビの　はなしよ！"
+	text "MAMA『<⋯>SOU NE·"
+	line "ALL BOYS LEAVE ON"
+	cont "TABI· A JOURNEY！"
 
-	para "そういえば"
-	line "となりの　オーキドはかせが"
-	cont "あなたを　よんでたわよ"
+	para "UN<⋯> YES· IT WAS"
+	line "ON TELEVISION！"
+
+	para "SOU IEBA· BY THE"
+	line "WAY· DR. OOKIDO"
+	cont "CALLS FOR YOU！』"
 	done
 
 RedsHouse1FMomHealScript:
@@ -51,18 +53,20 @@ RedsHouse1FMomHealScript:
 	jp PrintText
 
 RedsHouse1FMomYouShouldRestText:
-	text "おかあさん『<PLAYER><⋯>！"
-	line "すこし　やすんで　いったら"
-	cont "どうかしら<⋯>？"
-	cont "<⋯>　<⋯>　<⋯>"
+	text "MAMA『<PLAYER>！"
+	line "REST A BIT· TAKE"
+	cont "YASUMI<⋯>？"
+	cont "<⋯> <⋯> <⋯>"
 	prompt
 
 RedsHouse1FMomLookingGreatText:
-	text "おかあさん『あらあら！"
-	line "あなたも　#も"
-	cont "げんき　いっぱいね！"
-	cont "それじゃ　きを　つけて！"
-	cont "いってらっしゃい！"
+	text "MAMA『ARA ARA！"
+	line "YOU AND # ARE"
+	cont "GENKI FULL ENERGY"
+
+	para "SO BE CAREFUL！"
+	line "ITTERASSHAI！"
+	cont "HAVE SAFE TRIP！』"
 	done
 
 RedsHouse1FTVText:
@@ -77,13 +81,14 @@ RedsHouse1FTVText:
 	jp TextScriptEnd
 
 .StandByMeMovieText:
-	text "テレビで　えいがを　やってる！"
-	line "おとこのこが　４にん"
-	cont "せんろのうえを　あるいてる<⋯>"
+	text "A MOVIE ON TV！"
+	line "4 BOYS WALK"
+	cont "ON RAILROAD<⋯>"
 
-	para "<⋯>　ぼくも　もう　いかなきゃ！"
+	para "<⋯>BOKU MO！ I MUST"
+	line "GO NOW TOO！"
 	done
 
 .WrongSideText:
-	text "みえない<⋯>"
+	text "CANNOT SEE<⋯>"
 	done

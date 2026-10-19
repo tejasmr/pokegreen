@@ -175,54 +175,54 @@ TryingToLearn:
 
 LearnedMove1Text:
 	text_ram wLearnMoveMonName
-	text "は　あたらしく"
+	text " LEARNED"
 	line "@"
 	text_ram wStringBuffer
-	text "を　おぼえた！@"
+	text "！@"
 	sound_get_item_1 ; plays SFX_GET_ITEM_1 in the party menu (rare candy) and plays SFX_LEVEL_UP in battle
 	text_promptbutton
 	text_end
 
 WhichMoveToForgetText:
-	text "どの　わざを"
-	next "わすれさせたい？"
+	text "WHICH MOVE SHOULD"
+	next "BE FORGOTTEN？"
 	done
 
 AbandonLearningText:
-	text "それでは<⋯>　@"
+	text "GIVE UP LEARNING"
+	line "@"
 	text_ram wStringBuffer
-	text "を"
-	line "おぼえるのを　あきらめますか？"
+	text "？"
 	done
 
 DidNotLearnText:
 	text_ram wLearnMoveMonName
-	text "は　@"
+	text " DID NOT"
+	line "LEARN @"
 	text_ram wStringBuffer
-	text "を"
-	line "おぼえずに　おわった！"
+	text "！"
 	prompt
 
 TryingToLearnText:
 	text_ram wLearnMoveMonName
-	text "は　あたらしく"
+	text " WANTS TO"
+	line "LEARN @"
+	text_ram wStringBuffer
+	text "！"
+
+	para "BUT @"
+	text_ram wLearnMoveMonName
+	text " KNOWS"
+	line "4 MOVES ALREADY！"
+
+	para "FORGET A MOVE FOR"
 	line "@"
 	text_ram wStringBuffer
-	text "を　おぼえたい<⋯>！"
-
-	para "しかし　@"
-	text_ram wLearnMoveMonName
-	text "は　わざを　４つ"
-	line "おぼえるので　せいいっぱいだ！"
-
-	para "@"
-	text_ram wStringBuffer
-	text "の　かわりに"
-	line "ほかの　わざを　わすれさせますか？"
+	text "？"
 	done
 
 OneTwoAndText:
-	text "１　２の　<⋯>@"
+	text "1· 2 AND<⋯>@"
 	text_pause
 	text_asm
 	ld a, SFX_SWAP
@@ -231,21 +231,21 @@ OneTwoAndText:
 	ret
 
 PoofForgotAndText:
-	text "　ポカン！@"
+	text " POOF！@"
 	text_pause
 	text_start
 
 	para "@"
 	text_ram wLearnMoveMonName
-	text "は　@"
+	text " FORGOT"
+	line "@"
 	text_ram wNameBuffer
-	text "の"
-	line "つかいかたを　きれいに　わすれた！"
+	text "！"
 
-	para "そして<⋯>！"
+	para "AND<⋯>！"
 	prompt
 
 HMCantDeleteText:
-	text "それは　たいせつなわざです"
-	line "わすれさせることは　できません！"
+	text "THAT MOVE CANNOT"
+	line "BE FORGOTTEN！"
 	prompt

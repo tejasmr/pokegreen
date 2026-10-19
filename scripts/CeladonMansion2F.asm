@@ -7,5 +7,6 @@ CeladonMansion2F_TextPointers:
 	dw_const CeladonMansion2FMeetingRoomSignText, TEXT_CELADONMANSION2F_MEETING_ROOM_SIGN
 
 CeladonMansion2FMeetingRoomSignText:
-	text "ゲームフリーク　おうせつ　しつ"
+	text "GAME FREAK"
+	line "RECEPTION ROOM"
 	done

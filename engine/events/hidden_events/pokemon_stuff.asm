@@ -1,4 +1,4 @@
 PokemonStuffText::
-	text "わあ！　#グッズが"
-	line "たくさん　そろってるぞ！"
+	text "CROWDED WITH"
+	line "# GOODS！"
 	done

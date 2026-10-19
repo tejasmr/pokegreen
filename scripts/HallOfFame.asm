@@ -108,25 +108,34 @@ HallOfFame_TextPointers:
 	dw_const HallOfFameOakText, TEXT_HALLOFFAME_OAK
 
 HallOfFameOakText:
-	text "オーキド『<⋯>　おほんッ！"
-	line "おめでとう！　<PLAYER>！"
+	text "OOKIDO『<⋯>AHEMッ！"
+	line "CONGRATULATIONS！"
+	cont "<PLAYER>！"
 
-	para "ここは<⋯>"
-	line "れきだいの　#　リーグ"
-	cont "<TRAINER>の　もとで<⋯>"
+	para "THIS PLACE IS<⋯>"
+	line "WHERE # OF"
+	cont "ALL GENERATIONS"
+	cont "OF LEAGUE"
+	cont "TRAINERS<⋯>"
 
-	para "かつやく　した　#　たちを"
-	line "えいえんに　きろく　して"
-	cont "たたえる　フロア　である！"
+	para "WHO DISPLAYED"
+	line "VALIANT GLORY ARE"
+	cont "RECORDED ETERNAL"
+	cont "AND HONORED！"
 
-	para "#　<TRAINER>は　ここに"
-	line "きろく　される　よろこびを"
-	cont "でんどういり　と　よんで　いる！"
+	para "# TRAINERS"
+	line "CALL GLORY OF"
+	cont "BEING RECORDED"
+	cont "『DENDOU-IRI』！"
 
-	para "<PLAYER>！　おまえは"
-	line "はげしい　たたかいの　すえ"
-	cont "リーグ　チャンピオンと　なった！"
+	para "<PLAYER>！"
+	line "AFTER SEVERE"
+	cont "FIERCE BATTLES·"
+	cont "YOU BECAME LEAGUE"
+	cont "CHAMPION OF ALL！"
 
-	para "ここに　<PLAYER>の　なまえと"
-	line "#　たちを　きろく　しよう！"
+	para "HERE LET US"
+	line "RECORD NAME OF"
+	cont "<PLAYER> AND #！"
+	cont "FOR ALL ETERNITY！"
 	done

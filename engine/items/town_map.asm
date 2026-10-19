@@ -135,7 +135,7 @@ LoadTownMap_Nest:
 	ret
 
 MonsNestText:
-	db "の　すみか@"
+	db " NEST@"
 
 LoadTownMap_Fly::
 	call ClearSprites
@@ -252,7 +252,7 @@ LoadTownMap_Fly::
 	jr .pressedDown
 
 ToText:
-	db "へ　とぶ@"
+	db " FLY@"
 
 FourSpacesText:
 	db "　　　　@"
@@ -425,7 +425,7 @@ DisplayWildLocations:
 	jp CopyData
 
 AreaUnknownText:
-	db "　せいそくち　ふめい@"
+	db " AREA UNKNOWN@"
 
 TownMapCoordsToOAMCoords:
 ; in: lower nybble of a = x, upper nybble of a = y

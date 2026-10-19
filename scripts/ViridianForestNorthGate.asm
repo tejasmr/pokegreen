@@ -7,17 +7,20 @@ ViridianForestNorthGate_TextPointers:
 	dw_const ViridianForestNorthGateGrampsText,    TEXT_VIRIDIANFORESTNORTHGATE_GRAMPS
 
 ViridianForestNorthGateSuperNerdText:
-	text "もりや　どうくつ　しか"
-	line "いない　#も　おおいよ"
+	text "MANY # LIVE"
+	line "ONLY IN FORESTS"
+	cont "AND CAVES NE！"
 
-	para "いろんな　#　とるなら"
-	line "しつこく　さがしまわる　ことだね"
+	para "TO CATCH MANY #"
+	line "SEARCH EVERY"
+	cont "CORNER TILL END！"
 	done
 
 ViridianForestNorthGateGrampsText:
-	text "どうろの　あちこちに"
-	line "ほそい　きが　あったろ？"
+	text "YOU NOTICED THIN"
+	line "TREES BY ROAD？"
 
-	para "あそこは　#の　わざで"
-	line "きって　とおれる　そうじゃ"
+	para "HEARD CAN CUT"
+	line "WITH # MOVE"
+	cont "AND PASS THROUGH！"
 	done

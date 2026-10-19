@@ -25,14 +25,16 @@ MrFujisHouseSuperNerdText:
 	jp TextScriptEnd
 
 .MrFujiIsntHereText:
-	text "おっかしいなー！"
-	line "フジ　ろうじんが　いないぞ！"
-	cont "どこに　いったのかな？"
+	text "STRANGE NE！"
+	line "ELDER FUJI"
+	cont "IS NOT HERE！"
+	cont "WHERE DID HE GO？"
 	done
 
 .MrFujiHadBeenPrayingText:
-	text "フジ　ろうじん　カラカラの　れいを"
-	line "なぐさめに　いってたんだね"
+	text "ELDER FUJI WENT"
+	line "TO COMFORT SOUL"
+	cont "OF KARAKARA NE！"
 	done
 
 MrFujisHouseLittleGirlText:
@@ -49,31 +51,32 @@ MrFujisHouseLittleGirlText:
 	jp TextScriptEnd
 
 .ThisIsMrFujisHouseText:
-	text "ここは　もともと"
-	line "フジ　じいちゃんの　おうち　なの"
+	text "THIS IS HOUSE"
+	line "OF GRANDPA FUJI！"
 
-	para "じいちゃん　やさしいのよ！"
+	para "GRANDPA IS"
+	line "VERY KIND NE！"
 
-	para "すてられたり　かえなくなった"
-	line "#を　あずかって"
-	cont "せわ　してるの"
+	para "HE TAKES CARE"
+	line "OF ABANDONED"
+	cont "POOR #！"
 	done
 
 .PokemonAreNiceToHugText:
-	text "はあ　あったかい<⋯>！"
-	line "#って　だっこ　すると"
-	cont "あったかいんだよねー！"
+	text "HAAH WARM<⋯>！"
+	line "# ARE VERY"
+	cont "WARM TO HUG NE！"
 	done
 
 MrFujisHousePsyduckText:
-	text "コダック『ぐわっぱ！@"
+	text "KODUCK『GWAPPA！@"
 	text_asm
 	ld a, PSYDUCK
 	call PlayCry
 	jp TextScriptEnd
 
 MrFujisHouseNidorinoText:
-	text "ニドリーノ『がぉーっ！@"
+	text "NIDORINO『GAOO！@"
 	text_asm
 	ld a, NIDORINO
 	call PlayCry
@@ -103,48 +106,54 @@ MrFujisHouseMrFujiText:
 	jp TextScriptEnd
 
 .IThinkThisMayHelpYourQuestText:
-	text "フジ『さて　<PLAYER>くん<⋯>"
+	text "FUJI『WELL NOW"
+	line "<PLAYER><⋯>"
 
-	para "#ずかん　づくりは"
-	line "#に　たいして"
-	cont "ふかい　あいじょうが　ないと"
-	cont "かんせいは　たいへん　むずかしい"
+	para "MAKING #DEX"
+	line "WITHOUT DEEP"
+	cont "LOVE FOR #"
+	cont "VERY HARD TASK！"
 
-	para "その　たすけに　なるか　わからんが"
-	line "これを　あなたに　さしあげよう！"
+	para "MAY THIS HELP"
+	line "YOUR JOURNEY"
+	cont "TAKE THIS NOW！"
 	prompt
 
 .ReceivedPokeFluteText:
-	text "<PLAYER>は　フジ　ろうじんから"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "！@"
 	sound_get_key_item
 	text_start
 
-	para "#のふえを　ふくと"
-	line "グーグー　ねむってる　#でも"
-	cont "げんきが　わいて　とびおきる！"
+	para "UPON BLOWING"
+	line "# FLUTE·"
+	cont "FAST ASLEEP #"
+	cont "WAKES UP GINKI！"
 
-	para "#が　いねむり　して"
-	line "こまったら　つかって　みなさい"
+	para "IF ASLEEP #"
+	line "BLOCKS THE WAY"
+	cont "USE THIS FLUTE！"
 	done
 
 .PokeFluteNoRoomText:
-	text "にもつが　いっぱいだな"
+	text "BAG IS FULL NE！"
 	done
 
 .HasMyFluteHelpedYouText:
-	text "フジ『このあいだ　さしあげた"
-	line "ふえは　やくに　たってるかな？"
+	text "FUJI『HAS FLUTE"
+	line "I GAVE YOU"
+	cont "BEEN OF HELP？"
 	done
 
 MrFujisHouseMrFujiPokedexText:
-	text "ごうか　しょうひんが　あたる！"
-	line "げっかん　#の　とも"
-	cont "ビッグ·プレゼント！"
+	text "WIN BIG PRIZES！"
+	line "MONTHLY # PAL"
+	cont "BIG PRESENT！"
 
-	para "<⋯>おうぼ　ほうほうは"
+	para "<⋯>HOW TO ENTER？"
 
-	para "<⋯>あら　きりとって　ある！"
+	para "<⋯>ARA！ IT WAS"
+	line "CUT OFF ALREADY！"
 	done

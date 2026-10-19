@@ -15,8 +15,9 @@ Route16Gate2FLittleBoyText:
 	jp TextScriptEnd
 
 .Text:
-	text "しんぴん　じてんしゃで"
-	line "かのじょと　サイクリングさ！"
+	text "ON BRAND NEW BIKE"
+	line "CYCLING WITH MY"
+	cont "GIRLFRIEND!"
 	done
 
 Route16Gate2FLittleGirlText:
@@ -26,8 +27,9 @@ Route16Gate2FLittleGirlText:
 	jp TextScriptEnd
 
 .Text:
-	text "うふふ！"
-	line "これから　サイクリングに　いくの"
+	text "UFUFU! FROM NOW"
+	line "ON WE GO FOR A"
+	cont "CYCLING TRIP!"
 	done
 
 Route16Gate2FLeftBinocularsText:
@@ -36,9 +38,11 @@ Route16Gate2FLeftBinocularsText:
 	jp GateUpstairsScript_PrintIfFacingUp
 
 .Text:
-	text "ぼうえんきょうを　のぞいた！"
+	text "PEEPED INTO"
+	line "TELESCOPE!"
 
-	para "タマムシ　デパートが　みえる！"
+	para "CELADON DEPT"
+	line "STORE IS VISIBLE!"
 	done
 
 Route16Gate2FRightBinocularsText:
@@ -47,8 +51,9 @@ Route16Gate2FRightBinocularsText:
 	jp GateUpstairsScript_PrintIfFacingUp
 
 .Text:
-	text "ぼうえんきょうを　のぞいた！"
+	text "PEEPED INTO"
+	line "TELESCOPE!"
 
-	para "むこうに　うみの　うえを　とおる"
-	line "ながーい　みちが　みえる！"
+	para "A LONG PATH OVER"
+	line "THE SEA IS SEEN!"
 	done

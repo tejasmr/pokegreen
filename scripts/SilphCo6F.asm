@@ -77,13 +77,15 @@ SilphCo6FSilphWorkerM1Text:
 	jp TextScriptEnd
 
 .TookOverTheBuildingText:
-	text "やつらが　いきなり　やってきて"
-	line "ビルを　のっとったんです"
+	text "THOSE RUFFIANS"
+	line "BARGED IN AND"
+	cont "SEIZED BUILDING!"
 	done
 
 .BackToWorkText:
-	text "<⋯>　さてと！"
-	line "しごと　しなきゃ　しごと！"
+	text "⋯WELL THEN!"
+	line "MUST WORK NOW!"
+	cont "BACK TO SHIGOTO!"
 	done
 
 SilphCo6FSilphWorkerM2Text:
@@ -94,13 +96,14 @@ SilphCo6FSilphWorkerM2Text:
 	jp TextScriptEnd
 
 .HelpMePleaseText:
-	text "ぶるぶる<⋯>"
-	line "かみさま　ほとけさま　たすけて"
+	text "BURU-BURU⋯!"
+	line "KAMI-SAMA BUDDHA"
+	cont "SAVE MY LIFE!"
 	done
 
 .WeGotEngagedText:
-	text "ぼくたち　こんやく　したよ"
-	line "<⋯>　てれるなあ"
+	text "WE GOT ENGAGED!"
+	line "⋯SO SHY! TERERU!"
 	done
 
 SilphCo6FSilphWorkerF1Text:
@@ -111,14 +114,15 @@ SilphCo6FSilphWorkerF1Text:
 	jp TextScriptEnd
 
 .SuchACowardText:
-	text "となりの　ひと<⋯>"
-	line "おとこ　なのに　なさけないわ"
+	text "MAN NEXT TO ME⋯"
+	line "HE IS PATHETIC"
+	cont "FOR A GROWN MAN!"
 	done
 
 .HaveToMarryHimText:
-	text "このひとは"
-	line "あたしが　ついてなきゃ"
-	cont "だめだって　おもったの"
+	text "I FELT I MUST"
+	line "STAY BESIDE HIM"
+	cont "OR HE IS DOOMED!"
 	done
 
 SilphCo6FSilphWorkerF2Text:
@@ -129,14 +133,14 @@ SilphCo6FSilphWorkerF2Text:
 	jp TextScriptEnd
 
 .TeamRocketConquerWorldText:
-	text "<ROCKET>は"
-	line "#　つかって"
-	cont "せかい　せいふく　したいのよ"
+	text "<ROCKET> WANTS TO"
+	line "RULE THE WORLD"
+	cont "USING PETS!"
 	done
 
 .TeamRocketRanText:
-	text "<ROCKET>が　にげたのは"
-	line "あなたの　おかげね"
+	text "<ROCKET> FLED"
+	line "THANKS TO YOU!"
 	done
 
 SilphCo6FSilphWorkerM3Text:
@@ -147,14 +151,15 @@ SilphCo6FSilphWorkerM3Text:
 	jp TextScriptEnd
 
 .TargetedSilphText:
-	text "シルフ　カンパニーは　グッズを"
-	line "いっぱい　つくってる　から"
-	cont "ねらわれたんだろうな"
+	text "SILPH MAKES MANY"
+	line "PET GOODS SO WE"
+	cont "WERE TARGETED!"
 	done
 
 .WorkForSilphText:
-	text "おおきく　なったら"
-	line "シルフで　はたらくと　いいよ"
+	text "WHEN YOU GROW UP"
+	line "COME WORK AT"
+	cont "SILPH COMPANY!"
 	done
 
 SilphCo6FRocket1Text:
@@ -164,17 +169,19 @@ SilphCo6FRocket1Text:
 	jp TextScriptEnd
 
 SilphCo6FRocket1BattleText:
-	text "おれこそは"
-	line "ロケット　４きょうだいの　ひとり！"
+	text "I AM ONE OF THE"
+	line "<ROCKET> 4 BROTHERS"
+	cont "『YON-KYOUDAI』!"
 	done
 
 SilphCo6FRocket1EndBattleText:
-	text "まけたよ"
+	text "I LOST!"
 	prompt
 
 SilphCo6FRocket1AfterBattleText:
-	text "まあ　いい"
-	line "おとうとが　かたきを　とって　くれる"
+	text "NO MATTER! MY"
+	line "LITTLE BROTHER"
+	cont "WILL AVENGE ME!"
 	done
 
 SilphCo6FScientistText:
@@ -184,22 +191,22 @@ SilphCo6FScientistText:
 	jp TextScriptEnd
 
 SilphCo6FScientistBattleText:
-	text "しゃちょうめー！"
+	text "CURSE PRESIDENT!"
 
-	para "おれさまを"
-	line "ポナヤツングスカ　してん"
-	cont "なんかに　とばし　やがるから"
-	cont "<ROCKET>に　ねらわれるのだ！"
+	para "HE TRANSFERRED ME"
+	line "TO TIKSI BRANCH"
+	cont "IN TUNGUSKA!"
+	cont "SO I JOIN <ROCKET>!"
 	done
 
 SilphCo6FScientistEndBattleText:
-	text "がっくしよ"
+	text "GAKKURI! DOWN!"
 	prompt
 
 SilphCo6FScientistAfterBattleText:
-	text "ポナヤツングスカ　してん？"
-	line "ああ<⋯>"
-	cont "ロシアの　おくの　ほうだよ"
+	text "TUNGUSKA BRANCH?"
+	line "AAH⋯ DEEP IN"
+	cont "SNOWY SIBERIA!"
 	done
 
 SilphCo6FRocket2Text:
@@ -209,16 +216,18 @@ SilphCo6FRocket2Text:
 	jp TextScriptEnd
 
 SilphCo6FRocket2BattleText:
-	text "<ROCKET>を　うらぎって"
-	line "ただで　すむと　おもうな！"
+	text "DONT THINK YOU"
+	line "CAN BETRAY <ROCKET>"
+	cont "FOR FREE!"
 	done
 
 SilphCo6FRocket2EndBattleText:
-	text "うらぎりもの　め"
+	text "YOU TRAITOR!"
 	prompt
 
 SilphCo6FRocket2AfterBattleText:
-	text "うらぎり　じゃない？"
-	line "せいぎの　みかた　なら"
-	cont "きみは　おれらの　うらぎりものだ"
+	text "NOT A TRAITOR?"
+	line "IF ALLY OF RIGHT"
+	cont "YOU ARE TRAITOR"
+	cont "TO OUR CAUSE!"
 	done

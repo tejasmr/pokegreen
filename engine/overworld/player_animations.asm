@@ -460,16 +460,17 @@ FishingAnim:
 	ret
 
 NoNibbleText:
-	text "つれないなー<⋯>"
+	text "NOT A NIBBLE<⋯>"
 	prompt
 
 NothingHereText:
-	text "なにも　いない　みたい<⋯>"
+	text "SEEMS NOTHING"
+	line "HERE<⋯>"
 	prompt
 
 ItsABiteText:
-	text "おっ！"
-	line "ひいてる　ひいてる！"
+	text "OH！"
+	line "A BITE！ A BITE！"
 	prompt
 
 FishingRodOAM:

@@ -126,53 +126,56 @@ ENDC
 	jpfar LinkMenu
 
 CableClubNPCAreaReservedFor2FriendsLinkedByCableText:
-	text "こちらは　ともだちと"
-	line "つうしんケーブルを　つないだ"
+	text "THIS AREA IS"
+	line "RESERVED FOR"
 
-	para "かたがたを　とくべつに！"
-	line "ごあんない　いたして　おります"
+	para "2 FRIENDS LINKED"
+	line "BY CABLE！"
 	done
 
 CableClubNPCWelcomeText:
-	text "つうしん　ケーブル　クラブに"
-	line "ようこそ！"
+	text "WELCOME TO THE"
+	line "CABLE CLUB！"
 	done
 
 CableClubNPCPleaseApplyHereHaveToSaveText:
-	text "うけつけは　こちらです"
+	text "APPLY HERE！"
 
-	para "つうしんを　はじめるまえに"
-	line "レポートを　かきます"
+	para "BEFORE LINKING"
+	line "WE MUST SAVE"
+	cont "THE GAME REPORT！"
 	done
 
 CableClubNPCPleaseWaitText:
-	text "しょうしょう　おまち　ください@"
+	text "PLEASE WAIT···！@"
 	text_pause
 	text_end
 
 CableClubNPCLinkClosedBecauseOfInactivityText:
 	vc_patch Change_link_closed_inactivity_message
 IF DEF(_RED_VC) || DEF(_GREEN_VC)
-	text "それでは　また　おこしください"
+	text "PLEASE COME"
+	line "AGAIN！"
 	done
-	text "けを　ちゅうし　いたします！"
+	text "CANCEL ENTRY！"
 ELSE
-	text "まち　じかんが　ながいので"
-	line "うけつけを　ちゅうし　いたします！"
+	text "TOO MUCH TIME！"
+	line "LINK CANCELED！"
 ENDC
 	vc_patch_end
 
-	para "ともだちと　れんらくを　とって"
-	line "もういちど　おこし　ください！"
+	para "CONTACT FRIEND"
+	line "AND COME AGAIN！"
 	done
 
 CableClubNPCPleaseComeAgainText:
-	text "それでは　また　おこしください"
+	text "PLEASE COME"
+	line "AGAIN！"
 	done
 
 CableClubNPCMakingPreparationsText:
-	text "こちらは　ただいま"
-	line "じゅんびちゅうです"
+	text "WE ARE NOW"
+	line "PREPARING！"
 	done
 
 CloseLinkConnection:

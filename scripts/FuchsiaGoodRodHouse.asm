@@ -36,51 +36,55 @@ FuchsiaGoodRodHouseFishingGuruText:
 	jp TextScriptEnd
 
 .Text:
-	text "わしは　つりおやじの　あに　じゃ！"
+	text "I AM FISHING"
+	line "GURU BROTHER!"
 
-	para "もう　しぬほど"
-	line "つりが　すき　なんだが"
+	para "I LOVE FISHING"
+	line "TO DEATH!"
 
-	para "きみは　つり　すき　かな？"
+	para "DO YOU LOVE"
+	line "FISHING TOO?"
 	done
 
 .ReceivedGoodRodText:
-	text "そうか！"
-	line "きみとは　きが　あいそうだ！"
+	text "I SEE! WE WILL"
+	line "GET ALONG WELL!"
 
-	para "これ　あげるから"
-	line "きみも　つり　まくりなさいよ！"
+	para "TAKE THIS ROD"
+	line "AND FISH A LOT!"
 
-	para "<PLAYER>は　つりおやじから"
+	para "<PLAYER> RECEIVED"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!@"
 	sound_get_item_1
 	text_end
 
 .UnusedText:
-	para "つり　こそ"
-	line "おとこの　ロマン　だ！"
+	para "FISHING IS"
+	line "A MANS ROMANCE!"
 
-	para "へぼいつりざおは"
-	line "コイキングしか　つれ　なんだが"
-	line "この　いいつりざおなら"
-	line "もっと　いいもんが　つれるんじゃ！"
+	para "OLD ROD ONLY"
+	line "CATCHES KOIKING·"
+	cont "BUT GOOD ROD"
+	cont "CATCHES BETTER!"
 	done
 
 .ThatsSoDisappointingText:
-	text "なんじゃ<⋯>　がっかりだ"
+	text "WHAT<⋯> HOW"
+	line "DISAPPOINTING!"
 	done
 
 .HowAreTheFishText:
-	text "やー　<PLAYER>くん！"
+	text "HELLO <PLAYER>!"
 
-	para "つり　まくっとる　かね！"
+	para "ARE YOU FISHING"
+	line "A WHOLE LOT?"
 	done
 
 .NoRoomText:
-	text "ありゃー！"
-
-	para "いいもの　あげようと　したのに"
-	line "にもつが　いっぱいじゃ！"
+	text "OH NO! WANTED TO"
+	line "GIVE GOOD ITEM·"
+	cont "BUT PACK FULL!"
 	done
+

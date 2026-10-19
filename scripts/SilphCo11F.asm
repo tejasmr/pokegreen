@@ -311,93 +311,101 @@ SilphCo11FSilphPresidentText:
 	jp TextScriptEnd
 
 .Text:
-	text "しゃちょう『おお　しょうねんよ！"
-	line "たすけて　くれて　ありがとう！"
+	text "BOSS: OH YOUTH!"
+	line "THANK YOU FOR"
+	cont "RESCUING ME!"
 
-	para "わたしは"
-	line "ピンチを　すくって　くれた"
+	para "YOU SAVED SILPH"
+	line "IN WORST PINCH!"
+	cont "I SHALL NEVER"
+	cont "FORGET YOUR DEED!"
 
-	para "きみのことを　このさき"
-	line "けして　わすれない　だろう！"
+	para "OH YES! I MUST"
+	line "GIVE YOU REWARD!"
 
-	para "おお！　そうだ"
-	line "おれいを　さしあげなくては！"
+	para "AS GENEROUS"
+	line "PRESIDENT I"
+	cont "PRESENT THIS!"
 
-	para "わたしは"
-	line "ふとっぱらで　ある　からして"
-
-	para "ほれ"
-	line "こーんな　ものでは　いかがかな？"
+	para "SEE! HOW DOES"
+	line "THIS SUIT YOU?"
 	prompt
 
 .ReceivedMasterBallText:
-	text "<PLAYER>は　しゃちょうから"
+	text "<PLAYER> RECEIVED"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!@"
 	sound_get_key_item
 	text_end
 
 .MasterBallDescriptionText:
-	text "しゃちょう『それは<⋯>"
-	line "どこで　かうことも　できない"
+	text "BOSS: THAT IS⋯"
+	line "UNAVAILABLE IN"
+	cont "ANY POKE MART!"
 
-	para "ひみつの"
-	line "しさくひん　マスターボール！"
+	para "SECRET PROTOTYPE"
+	line "MASTER BALL!"
 
-	para "なげれば　かならず"
-	line "#を　つかまえられる！"
+	para "THROWN AT ANY"
+	line "PET· CAPTURES IT"
+	cont "WITHOUT FAIL!"
 
-	para "こっそりと<⋯>"
-	line "<⋯>　<⋯>　"
-	cont "つかって　みて　くれたまえ"
+	para "QUIETLY TRY"
+	line "USING IT⋯ SHH!"
 	done
 
 .NoRoomText:
-	text "もちものが　いっぱいだぞ"
+	text "YOUR PACK IS"
+	line "ALREADY FULL!"
 	done
 
 SilphCo11FBeautyText:
-	text "ひしょ『このたびは　たすけて"
-	line "いただいて　ありがとう　ございます"
+	text "SECRETARY: DEEP"
+	line "THANKS FOR SAVING"
+	cont "US ALL TODAY!"
 
-	para "しゃちょう　ともども"
-	line "かんしゃの　きもちで　いっぱいです"
+	para "PRESIDENT AND I"
+	line "ARE FILLED WITH"
+	cont "DEEP GRATITUDE!"
 	done
 
 SilphCo11FGiovanniText:
-	text "おお　<PLAYER>か？"
-	line "また　あったな！"
+	text "OH! <PLAYER>?"
+	line "WE MEET AGAIN!"
 
-	para "おれは　いま　シルフの　しゃちょうと"
-	line "しごとの　はなしを　してるんだ"
+	para "I DISCUSS WORK"
+	line "WITH PRESIDENT"
+	cont "OF SILPH CO.!"
 
-	para "おとなの　せかいに"
-	line "くちを　はさまないで　もらいたい"
+	para "DO NOT BUTT IN"
+	line "ON ADULT WORLD!"
 
-	para "どうしても　というなら"
-	line "いたいめに　あって　もらうぞ！"
+	para "INSIST AND I"
+	line "WILL GIVE YOU"
+	cont "A WORLD OF PAIN!"
 	done
 
 SilphCo11FGiovanniILostAgainText:
-	text "はぐ！"
-	line "この　おれが　まける　なんて！"
+	text "HAGUH!"
+	line "I WAS DEFEATED?!"
 	prompt
 
 SilphCo11FGiovanniYouRuinedOurPlansText:
-	text "くそー　<⋯>しょうが　ない！"
-	line "シルフは　ひとまず　あきらめよう！"
+	text "DAMMIT⋯ CANNOT"
+	line "BE HELPED! GIVE"
+	cont "UP SILPH FOR NOW!"
 
-	para "しかし　"
-	line "わが　<ROCKET>は　ふめつだ！"
+	para "YET OUR <ROCKET>"
+	line "IS IMMORTAL!"
 
-	para "<PLAYER>！　すべての　#は"
-	line "<ROCKET>の　ために"
-	cont "そんざい　するのだ！"
-	cont "そのことを　わすれるなよ！"
+	para "<PLAYER>! ALL"
+	line "PETS EXIST ONLY"
+	cont "FOR <ROCKET> GANG!"
+	cont "DONT FORGET THAT!"
 
-	para "では<⋯>！"
-	line "おれは　たいさん　しよう！"
+	para "FAREWELL⋯!"
+	line "I RETREAT NOW!"
 	done
 
 SilphCo11FRocket1Text:
@@ -407,17 +415,17 @@ SilphCo11FRocket1Text:
 	jp TextScriptEnd
 
 SilphCo11FRocket1BattleText:
-	text "こらこら　まて！"
-	line "すすんでは　いかん　というのに"
+	text "HOLD IT! DONT GO"
+	line "ADVANCING IN!"
 	done
 
 SilphCo11FRocket1EndBattleText:
-	text "ううーん　だめだ"
+	text "UUHN! NO GOOD!"
 	prompt
 
 SilphCo11FRocket1AfterBattleText:
-	text "そうか"
-	line "ボスに　あおうって　いうのかい"
+	text "I SEE⋯ YOU DARE"
+	line "CONFRONT BOSS!"
 	done
 
 SilphCo11FRocket2Text:
@@ -427,17 +435,19 @@ SilphCo11FRocket2Text:
 	jp TextScriptEnd
 
 SilphCo11FRocket2BattleText:
-	text "なんだ　おまえは"
-	line "ボスに　なんの　ようだ！"
+	text "WHO ARE YOU?!"
+	line "WHAT BUSINESS"
+	cont "WITH OUR BOSS?!"
 	done
 
 SilphCo11FRocket2EndBattleText:
-	text "だあー！　やられた"
+	text "DAAH! SMASHED!"
 	prompt
 
 SilphCo11FRocket2AfterBattleText:
-	text "いって　おくが　ボスは　つよいぞ"
-	line "くれぐれも　きを　つけな"
+	text "WARNING YOU! BOSS"
+	line "IS STRONG! WATCH"
+	cont "OUT CAREFULLY!"
 	done
 
 SilphCo11FPorygonText: ; unreferenced
@@ -449,6 +459,6 @@ SilphCo11FPorygonText: ; unreferenced
 	jp TextScriptEnd
 
 .Text:
-	text "モニター　がめんに"
-	line "#が　うつってる！"
+	text "PET IS DISPLAYED"
+	line "ON SCREEN!"
 	done

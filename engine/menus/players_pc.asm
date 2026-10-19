@@ -241,73 +241,81 @@ PlayerPCToss:
 	jp .loop
 
 PlayersPCMenuEntries:
-	db   "どうぐを　ひきだす"
-	next "どうぐを　あずける"
-	next "どうぐを　すてる"
-	next "スイッチを　きる@"
+	db   "WITHDRAW"
+	next "DEPOSIT"
+	next "TOSS"
+	next "LOG OFF@"
 
 TurnedOnPC2Text:
-	text "<PLAYER>は"
-	line "<PC>の　スイッチを　いれた！"
+	text "<PLAYER> TURNED"
+	line "ON THE <PC>！"
 	prompt
 
 WhatDoYouWantText:
-	text "なにを　しますか？"
+	text "WHAT DO YOU"
+	line "WANT TO DO？"
 	done
 
 WhatToDepositText:
-	text "なにを　あずけますか？"
+	text "WHAT ITEM TO"
+	line "DEPOSIT AZUKERU？"
 	done
 
 DepositHowManyText:
-	text "いくつ　あずけますか？"
+	text "HOW MANY TO"
+	line "DEPOSIT AZUKERU？"
 	done
 
 ItemWasStoredText:
-	text "<PC>つうしんで"
+	text "STORED IN <PC>·"
 	line "@"
 	text_ram wNameBuffer
-	text "を　あずけた！"
+	text "！"
 	prompt
 
 NothingToDepositText:
-	text "あずけられる　どうぐを"
-	line "もっていません！"
+	text "YOU DONT HAVE"
+	line "ITEMS TO DEPOSIT！"
 	prompt
 
 NoRoomToStoreText:
-	text "どうぐが　いっぱいです"
-	line "もう　あずけられません！"
+	text "PC BOX IS FULL·"
+	line "CANT STORE MORE！"
 	prompt
 
 WhatToWithdrawText:
-	text "なにを　ひきだしますか？"
+	text "WHAT ITEM TO"
+	line "WITHDRAW DASHI？"
 	done
 
 WithdrawHowManyText:
-	text "いくつ　ひきだしますか？"
+	text "HOW MANY TO"
+	line "WITHDRAW DASHI？"
 	done
 
 WithdrewItemText:
-	text "<PC>つうしんで"
+	text "WITHDREW FROM <PC>·"
 	line "@"
 	text_ram wNameBuffer
-	text "を　ひきだした！"
+	text "！"
 	prompt
 
 NothingStoredText:
-	text "なにも　あずけていません！"
+	text "NO ITEMS STORED"
+	line "IN THIS <PC>！"
 	prompt
 
 CantCarryMoreText:
-	text "どうぐが　いっぱいです"
-	line "もう　もてません！"
+	text "YOUR BAG IS FULL·"
+	line "CANT CARRY MORE！"
 	prompt
 
 WhatToTossText:
-	text "なにを　すてますか？"
+	text "WHAT ITEM DO"
+	line "YOU WANT TO TOSS？"
 	done
 
 TossHowManyText:
-	text "いくつ　すてますか？"
+	text "HOW MANY TO"
+	line "TOSS SUTERU？"
 	done

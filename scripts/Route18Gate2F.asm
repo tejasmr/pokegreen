@@ -20,9 +20,11 @@ Route18Gate2FLeftBinocularsText:
 	jp GateUpstairsScript_PrintIfFacingUp
 
 .Text:
-	text "ぼうえんきょうを　のぞいた！"
+	text "PEEPED INTO"
+	line "TELESCOPE!"
 
-	para "にしに　マサラ　タウンが　みえる"
+	para "WEST SHOWS"
+	line "PALLET TOWN!"
 	done
 
 Route18Gate2FRightBinocularsText:
@@ -31,7 +33,9 @@ Route18Gate2FRightBinocularsText:
 	jp GateUpstairsScript_PrintIfFacingUp
 
 .Text:
-	text "ぼうえんきょうを　のぞいた！"
+	text "PEEPED INTO"
+	line "TELESCOPE!"
 
-	para "およいでる　ひとが　みえる！"
+	para "PEOPLE SWIMMING"
+	line "CAN BE SEEN!"
 	done

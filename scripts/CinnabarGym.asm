@@ -24,10 +24,11 @@ CinnabarGymSetMapAndTiles:
 	jp LoadGymLeaderAndCityName
 
 .CityName:
-	db "グレン@"
+	db "GUREN@"
 
 .LeaderName:
-	db "カツラ@"
+	db "KATSURA@"
+
 
 CinnabarGymResetScripts:
 	xor a ; SCRIPT_CINNABARGYM_DEFAULT
@@ -232,72 +233,74 @@ CinnabarGymBlaineText:
 	jp CinnabarGymStartBattleScript
 
 .PreBattleText:
-	text "うおおーす！"
+	text "UOO-SU! FIRE!"
 
-	para "わしは　もえる　おとこ！"
-	line "グレンじま　#ジムの　カツラ"
+	para "I AM BURNING MAN·"
+	line "KATSURA BLAINE OF"
+	cont "GUREN ISLAND GYM!"
 
-	para "わしの　#は　すべてを"
-	line "ほのおで　やいて　こがしまくる"
-	cont "つわもの　ばかり　なのだー！"
+	para "MY # ARE TOUGH"
+	line "WARRIORS THAT"
+	cont "SCORCH AND BURN"
+	cont "ALL TO CINDERS!"
 
-	para "うおおーす！"
-	line "やけどなおしの　よういは　いいか！"
+	para "UOO-SU! ARE YOUR"
+	line "BURN HEALS READY?"
 	done
 
 .ReceivedVolcanoBadgeText:
-	text "わしは　もえつきた！"
+	text "BURNT TO ASHES!"
 
-	para "おまえに　こそ！"
-	line "クリムゾン　バッジは　ふさわしい！@"
+	para "CRIMSON BADGE IS"
+	line "TRULY YOURS!@"
 	sound_get_key_item ; actually plays the second channel of SFX_BALL_POOF due to the wrong music bank being loaded
 	text_waitbutton
 	text_end
 
 .PostBattleAdviceText:
-	text "この　わざを　みんなは"
-	line "だいもんじやき　と　よんでるが"
-	cont "そりゃ　まちがいだ！"
+	text "PEOPLE CALL THIS"
+	line "DAIMONJI-YAKI·"
+	cont "BUT THAT IS WRONG"
 
-	para "ほんば　きょうと　では"
-	line "だいもんじ　とか　おくりび　と"
-	cont "よんで　いるのだ！"
+	para "IN KYOTO·IT IS"
+	line "DAIMONJI OR"
+	cont "OKURIBI BONFIRE!"
 	done
 
 CinnabarGymBlaineVolcanoBadgeInfoText:
-	text "うおーす！"
+	text "UOOSU!"
 
-	para "この　クリムゾン　バッジは"
-	line "もってる　だけで"
+	para "CRIMSON BADGE"
+	line "BOOSTS THE"
+	cont "SPECIAL STAT OF"
+	cont "YOUR #!"
 
-	para "#の　とくしゅ　のうりょくを"
-	line "たかめる　こうかが　ある！"
-
-	para "それから！"
-	line "この　<TM>を　うけとれい！"
+	para "TAKE THIS <TM>!"
 	done
 
 CinnabarGymBlaineReceivedTM38Text:
-	text "<PLAYER>は　カツラから"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text " FROM"
+	cont "KATSURA!@"
 	sound_get_item_1
 	text_start
 
-	para "<TM>３８は"
-	line "もえる　おおわざ！　だいもんじ！"
+	para "<TM>38 IS BURNING"
+	line "ULTIMATE MOVE:"
+	cont "DAIMONJI FIRE!"
 
-	para "だいもんじは"
-	line "ほのお　タイプの　#！"
-
-	para "ロコンや　リザードに"
-	line "おぼえさせると　よいぞ！"
+	para "TEACH IT TO A"
+	line "FIRE MON LIKE"
+	cont "ROKON OR LIZARD!"
 	done
 
 CinnabarGymBlaineTM38NoRoomText:
-	text "にもつが　いっぱいだ"
+	text "YOUR PACK IS"
+	line "FULL OF ITEMS!"
 	done
+
 
 CinnabarGymSuperNerd1:
 	text_asm
@@ -316,19 +319,21 @@ CinnabarGymSuperNerd1:
 	jp TextScriptEnd
 
 .BattleText:
-	text "#が　はく　ほのおの　おんど"
-	line "どの　くらいか　しってる？"
+	text "DO YOU KNOW HOW"
+	line "HOT A #S"
+	cont "FIRE BREATH IS?"
 	done
 
 .EndBattleText:
-	text "<⋯>　あち！　やられた"
+	text "<⋯>OUCH! BURNT!"
 	prompt
 
 .AfterBattleText:
-	text "もえる　っていう　のは"
-	line "くうき　ちゅうの　さんそが<⋯>"
+	text "BURNING MEANS"
+	line "OXYGEN IN AIR<⋯>"
 
-	para "むにゃむにゃ<⋯>　ブツブツ"
+	para "MUNYA-MUNYA<⋯>"
+	line "MUTTER MUTTER<⋯>"
 	done
 
 CinnabarGymSuperNerd2:
@@ -348,18 +353,20 @@ CinnabarGymSuperNerd2:
 	jp TextScriptEnd
 
 .BattleText:
-	text "どろぼうと　なのって　おりやすが"
-	line "あしを　あらって"
-	cont "#の　しゅぎょう　してまっせ"
+	text "I AM A BURGLAR"
+	line "DOROBOU·BUT I"
+	cont "WASHED MY HANDS"
+	cont "FOR # TRAINING!"
 	done
 
 .EndBattleText:
-	text "まいりやした！"
+	text "I SURRENDER!"
 	prompt
 
 .AfterBattleText:
-	text "ひとの　#　みると"
-	line "つい　ぬすみたく　なっちゃうんでさ！"
+	text "WHEN I SEE OTHERS"
+	line "#·I JUST WANT"
+	cont "TO STEAL THEM!"
 	done
 
 CinnabarGymSuperNerd3:
@@ -379,18 +386,20 @@ CinnabarGymSuperNerd3:
 	jp TextScriptEnd
 
 .BattleText:
-	text "#を　けんきゅう　しつくした"
-	line "ぼくに　かてるかい！"
+	text "CAN YOU BEAT ME?"
+	line "I RESEARCHED #"
+	cont "INSIDE AND OUT!"
 	done
 
 .EndBattleText:
-	text "<⋯>！"
-	line "もっと　けんきゅう　しなきゃ"
+	text "<⋯>! MUST STUDY"
+	line "EVEN HARDER!"
 	prompt
 
 .AfterBattleText:
-	text "むずかしい　はなしは"
-	line "きみに　いっても　わからないよ"
+	text "COMPLICATED TALK"
+	line "IS BEYOND YOUR"
+	cont "UNDERSTANDING!"
 	done
 
 CinnabarGymSuperNerd4:
@@ -410,20 +419,23 @@ CinnabarGymSuperNerd4:
 	jp TextScriptEnd
 
 .BattleText:
-	text "ただ　なんとなく　すき　なんで"
-	line "ほのお　#　つかってるぜ！"
+	text "I JUST USE FIRE"
+	line "# BECAUSE I"
+	cont "FEEL LIKE IT!"
 	done
 
 .EndBattleText:
-	text "<⋯>　もえた！"
+	text "<⋯>BURNT OUT!"
 	prompt
 
 .AfterBattleText:
-	text "おいらの　ゆめ<⋯>？"
+	text "MY DREAM<⋯>?"
 
-	para "どろぼう　#が　いりゃ"
-	line "ぜひ　つかって　みたいねー！"
+	para "IF A THIEF MON"
+	line "EXISTED·I WOULD"
+	cont "LOVE TO USE IT!"
 	done
+
 
 CinnabarGymSuperNerd5:
 	text_asm
@@ -442,22 +454,27 @@ CinnabarGymSuperNerd5:
 	jp TextScriptEnd
 
 .BattleText:
-	text "おれは　カツラが　#"
-	line "はじめた　きっかけを　しってるぜ"
+	text "I KNOW WHY BLAINE"
+	line "KATSURA STARTED"
+	cont "RAISING #!"
 	done
 
 .EndBattleText:
-	text "ありゃまあ"
+	text "OH DEAR ME!"
 	prompt
 
 .AfterBattleText:
-	text "リーダーの　カツラが"
-	line "やま　のぼりで　そうなん　したとき"
-	cont "くらい　やまみちを　てらして"
-	cont "ひのとり　#が　とんでった！"
+	text "LEADER KATSURA"
+	line "WAS STRANDED ON"
+	cont "A COLD MOUNTAIN!"
 
-	para "その　おかげで　カツラは　ぶじ"
-	line "やまを　おりることが　できたのさ"
+	para "A FIRE BIRD #"
+	line "LIT THE DARK PATH"
+	cont "AND GUIDED HIM!"
+
+	para "THANKS TO THAT·"
+	line "KATSURA ESCAPED"
+	cont "SAFELY DOWN!"
 	done
 
 CinnabarGymSuperNerd6:
@@ -477,17 +494,19 @@ CinnabarGymSuperNerd6:
 	jp TextScriptEnd
 
 .BattleText:
-	text "いろんな　ジムに　いったけど"
-	line "おいらには　ここが　あってるねえ"
+	text "I WENT TO MANY"
+	line "GYMS·BUT THIS"
+	cont "ONE SUITS ME!"
 	done
 
 .EndBattleText:
-	text "あー　あつかった"
+	text "AH·TOO HOT!"
 	prompt
 
 .AfterBattleText:
-	text "ギャロップ　キュウコン　あたりが"
-	line "ほのお　タイプで　にんきが　あるよ"
+	text "PONYTA·GALLOP"
+	line "AND KYUUKON ARE"
+	cont "POPULAR FIRE #!"
 	done
 
 CinnabarGymSuperNerd7:
@@ -507,18 +526,20 @@ CinnabarGymSuperNerd7:
 	jp TextScriptEnd
 
 .BattleText:
-	text "ほのおの　じゃくてんは"
-	line "エイチ　ツー　オー　と　いわれてる"
+	text "WEAKNESS OF FIRE"
+	line "IS SAID TO BE"
+	cont "H-2-O WATER!"
 	done
 
 .EndBattleText:
-	text "へろへろ<⋯>"
+	text "EXHAUSTED<⋯>"
 	prompt
 
 .AfterBattleText:
-	text "たしかに　ほのおは　みずに　よわい！"
-	line "でも　とかして　しまうから"
-	cont "こおり　#には　つよいよ"
+	text "FIRE IS WEAK TO"
+	line "WATER·BUT STRONG"
+	cont "AGAINST ICE AS IT"
+	cont "MELTS IT DOWN!"
 	done
 
 CinnabarGymGymGuideText:
@@ -534,20 +555,24 @@ CinnabarGymGymGuideText:
 	jp TextScriptEnd
 
 .ChampInMakingText:
-	text "おーす！"
-	line "みらいの　チャンピオン！"
+	text "YO! FUTURE"
+	line "CHAMPION!"
 
-	para "ねっけつ　カツラは"
-	line "ほのおの　プロフェッショナルだ！"
+	para "HOT KATSURA IS"
+	line "A PROFESSIONAL"
+	cont "FIRE MASTER!"
 
-	para "それなら　こっちは"
-	line "クールに　みずで　きめろ！"
+	para "SO STAY COOL AND"
+	line "CRUSH WITH WATER!"
 
-	para "あと　やけどなおしを"
-	line "もって　いった　ほうが　いいぜ！"
+	para "BETTER BRING"
+	line "BURN HEALS TOO!"
 	done
 
 .BeatBlaineText:
-	text "<PLAYER>！　かったか！"
-	line "あつ　くるしい　おやじ　だったな！"
+	text "<PLAYER>! YOU"
+	line "WON! THAT OLD MAN"
+	cont "WAS SWELTERING"
+	cont "HOT!"
 	done
+

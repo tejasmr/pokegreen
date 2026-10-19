@@ -6,17 +6,19 @@ PrintNotebookText:
 	jp PrintPredefTextID
 
 TMNotebook::
-	text "<TM>の　パンフレットだ！"
-	line "<⋯>　<⋯>"
+	text "IT IS A <TM>"
+	line "PAMPHLET BOOK！"
+	cont "<⋯><⋯>"
 
-	para "<TM>は"
-	line "ぜんぶで　５０しゅるい！"
+	para "<TM> HAS 50"
+	line "KINDS IN TOTAL！"
 
-	para "ひでんマシンは"
-	line "つかっても　なくならない　タイプ"
-	cont "ぜんぶで　５しゅるい　あります"
+	para "HIDEN MACHINES"
+	line "DO NOT VANISH"
+	cont "AFTER BEING USED·"
+	cont "5 TYPES IN ALL！"
 
-	para "<⋯>　シルフ　カンパニー@"
+	para "<⋯>SILPH COMPANY@"
 	text_waitbutton
 	text_end
 
@@ -50,62 +52,70 @@ TurnPageSchoolNotebook:
 	ret
 
 TurnPageText:
-	text "つぎのページ　あけちゃおうか？"
+	text "TURN TO NEXT"
+	line "PAGE TO READ？"
 	done
 
 ViridianSchoolNotebookText5:
-	text "おんなのこ『あー！"
-	line "ノート　みちゃ　だめ！@"
+	text "GIRL『AAH-ッ！"
+	line "DONT PEEK INTO"
+	cont "MY NOTEBOOK！@"
 	text_waitbutton
 	text_end
 
 ViridianSchoolNotebookText1:
-	text "ノートを　のぞいた！"
+	text "PEEKED NOTEBOOK！"
 
-	para "１ページめ　<⋯>"
+	para "PAGE 1<⋯>"
 
-	para "#は"
-	line "モンスターボールで　つかまえて"
-	cont "６つまで　もち　あるける"
+	para "CATCH # WITH"
+	line "MONSTER BALLS·"
+	cont "CAN CARRY UP TO"
+	cont "6 PETS IN TEAM！"
 
-	para "#を　そだてて　たたかわせる"
-	line "ひとを　#　<TRAINER>という"
+	para "ONE WHO RAISES"
+	line "# TO BATTLE"
+	cont "IS『# TRAINER』！"
 	prompt
 
 ViridianSchoolNotebookText2:
-	text "２ページめ　<⋯>"
+	text "PAGE 2<⋯>"
 
-	para "#を　つかまえる　ときは"
-	line "まず　よわらせてから！"
-	cont "どくや　やけどで"
+	para "WHEN CATCHING #"
+	line "WEAKEN IT FIRST！"
+	cont "POISON OR BURN"
+	cont "ARE GREAT TOO！"
 
-	para "よわらせても　いいよ！"
-	line "げんきだと　うまく　とれないかも"
+	para "IF IT IS FULL"
+	line "HEALTH·IT MAY BE"
+	cont "HARD TO CATCH！"
 	prompt
 
 ViridianSchoolNotebookText3:
-	text "３ページめ　<⋯>"
+	text "PAGE 3<⋯>"
 
-	para "#どうしを　たたかわせ"
-	line "かつことは　<TRAINER>に　とって"
-	cont "さいこうの　よろこび　である！"
+	para "BATTLING # AND"
+	line "WINNING IS THE"
+	cont "GREATEST JOY FOR"
+	cont "ANY TRAINER！"
 
-	para "かくちの　#　ジムでは"
-	line "いつも　はげしい"
-	cont "たたかいが　くりひろげられてる！"
+	para "IN # GYMS OF"
+	line "EACH REGION·"
+	cont "FIERCE BATTLES"
+	cont "RAGE EVERY DAY！"
 	prompt
 
 ViridianSchoolNotebookText4:
-	text "４ページめ　<⋯>"
+	text "PAGE 4<⋯>"
 
-	para "#<TRAINER>の　もくひょうは"
-	line "かくちの　ジムに　いる"
+	para "AIM OF TRAINER IS"
+	line "TO DEFEAT 8 GYM"
+	cont "LEADERS OF LAND！"
 
-	para "つよい　<TRAINER>"
-	line "８にんしゅうを　たおすこと！"
+	para "AND AT # LEAGUE"
+	line "HEADQUARTERS<⋯>"
+	cont "FIERCE STRONG"
 
-	para "さらに　#リーグ　ほんぶには"
-	line "<⋯>　もうれつに　つよい！"
-
-	para "してんのうが　くんりん　してる！"
+	para "『SHITENNO』REIGN"
+	line "SUPREME ON TOP！"
 	prompt

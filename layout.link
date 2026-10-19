@@ -61,15 +61,10 @@ ROMX $5
 	"Garbage 5"
 ROMX $6
 	"Maps 1"
-	"Play Time"
 	"Maps 2"
-	"Doors and Ledges"
 	"Garbage 6"
 ROMX $7
 	"Maps 3"
-	"Clear Save"
-	"Maps 4"
-	"Hidden Events 1"
 	"Garbage 7"
 ROMX $8
 	"Bill's PC"
@@ -115,8 +110,9 @@ ROMX $11
 	"Garbage 17"
 ROMX $12
 	"Maps 7"
-	"Screen Effects"
 	"Maps 8"
+	"Maps 8 Continued"
+	"Maps 8 Continued 2"
 	"Garbage 18"
 ROMX $13
 	"Trainer Pics"
@@ -126,13 +122,9 @@ ROMX $13
 ROMX $14
 	"Maps 10"
 	"Battle Engine 8"
-	"Hidden Events 2"
 	"Garbage 20"
 ROMX $15
 	"Maps 11"
-	"Battle Engine 9"
-	"Diploma"
-	"Trainer Sight"
 	"Garbage 21"
 ROMX $16
 	"Maps 12"
@@ -144,13 +136,12 @@ ROMX $17
 	"Maps 14"
 	"Starter Dex"
 	"Maps 15"
-	"Hidden Events 3"
+	"Maps 15 Continued"
 	"Garbage 23"
 ROMX $18
 	"Maps 16"
 	"Cinnabar Lab Fossils"
 	"Maps 17"
-	"Hidden Events 4"
 	"Garbage 24"
 ROMX $19
 	"Tilesets 1"
@@ -169,7 +160,6 @@ ROMX $1D
 	"Itemfinder 1"
 	"Maps 19"
 	"Vending Machine"
-	"Maps 20"
 	"Itemfinder 2"
 	"Garbage 29"
 ROMX $1E
@@ -183,10 +173,47 @@ ROMX $1F
 	"Sound Effects 3"
 	"Garbage 31"
 ROMX $20
-	"Extra Font Graphics"
 	"Version GFX"
 	"Item Names and Prices"
+	"Doors and Ledges"
+	"Screen Effects"
+	"Hidden Events 1"
+	"Play Time"
+	"Trainer Sight"
+	"Hidden Events 2"
+	"Hidden Events 3"
+	"Hidden Events 4"
+	"Diploma"
+	"Battle Engine 9"
+	"Clear Save"
+	"In-Game Trades"
+ROMX $21
+	"Silph Co 2F-6F"
+ROMX $22
+	"Mt Moon B2F"
+ROMX $23
+	"SS Anne"
+ROMX $24
+	"Rock Tunnel"
+ROMX $25
+	"Celadon Maps"
+ROMX $26
+	"Saffron Maps"
+ROMX $27
+	"Maps 4"
+ROMX $28
+	"Maps 20"
+ROMX $29
+	"Maps 4 Continued"
+ROMX $2a
+	"Maps 13 Continued"
+ROMX $2b
+	"Pokemon Mansion"
+ROMX $2c
+	"Maps 11 Continued"
 WRAM0
+
+
 	"Audio RAM"
 	org $c100
 	"Sprite State Data"

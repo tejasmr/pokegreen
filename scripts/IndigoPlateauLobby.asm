@@ -27,24 +27,28 @@ IndigoPlateauLobbyNurseText:
 	script_pokecenter_nurse
 
 IndigoPlateauLobbyGymGuideText:
-	text "おーす！"
-	line "みらいの　チャンピオン！"
+	text "YO！ FUTURE"
+	line "CHAMPION！"
 
-	para "#　リーグ　してんのうは"
-	line "４にん　つづけて"
-	cont "しょうぶ　する　ルールだ！"
+	para "# LEAGUE RULE·"
+	line "FIGHT 4『SHITENNO』"
+	cont "IN A ROW MATCH！"
 
-	para "まけたら　ひとりめ　から"
-	line "やりなおしに　なるぞ！"
-	cont "これが　さいごだ！　がんばれよ！"
+	para "IF LOSE·RESTART"
+	line "FROM FIRST ONE！"
+	cont "THIS IS FINAL！"
+	cont "DO YOUR BEST！"
 	done
 
 IndigoPlateauLobbyCooltrainerFText:
-	text "このさきは　してんのうと"
-	line "ひとりずつ　たたかうの！"
-	cont "もし　かてたら　ドアが　ひらいて"
-	cont "おくの　へやに　すすめるわ！"
-	cont "がんばって！"
+	text "BEYOND HERE YOU"
+	line "FIGHT『SHITENNO』"
+	cont "ONE BY ONE！"
+
+	para "IF YOU WIN·DOOR"
+	line "OPENS TO DEEPER"
+	cont "ROOM TO ADVANCE！"
+	cont "GOOD LUCK！"
 	done
 
 IndigoPlateauLobbyLinkReceptionistText:

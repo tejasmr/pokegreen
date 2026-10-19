@@ -13,9 +13,9 @@ BookOrSculptureText::
 	jp TextScriptEnd
 
 PokemonBooksText:
-	text "#の　ほんが　いっぱい！"
+	text "PACKED # BOOKS！"
 	done
 
 DiglettSculptureText:
-	text "ぶつだん　だ<⋯>"
+	text "ALTAR『BUTSUDAN』<⋯>"
 	done

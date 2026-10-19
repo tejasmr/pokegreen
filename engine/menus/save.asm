@@ -26,8 +26,8 @@ TryLoadSaveFile:
 	ret
 
 FileDataDestroyedText:
-	text "フアイルの　データが"
-	line "こわれています！"
+	text "DATA IN FILE IS"
+	line "CORRUPT KOWARETA！"
 	prompt
 
 LoadMainData:
@@ -186,19 +186,19 @@ SaveTheGame_YesOrNo:
 	ret
 
 WouldYouLikeToSaveText:
-	text "ここまでの　かつやくを"
-	line "#レポートに　かきこみますか？"
+	text "RECORD ADVENTURE"
+	line "IN # REPORT？"
 	done
 
 GameSavedText:
-	text "<PLAYER>は"
-	line "レポートに　しっかり　かきのこした！"
+	text "<PLAYER> WROTE"
+	line "IN THE REPORT！"
 	done
 
 OlderFileWillBeErasedText:
-	text "まえに　かかれた　レポートが"
-	line "きえて　しまいますが"
-	cont "うえから　かいても　いいですか？"
+	text "AN OLDER REPORT"
+	line "ALREADY EXISTS·"
+	cont "OVERWRITE IT OK？"
 	done
 
 SaveMainData:
@@ -373,10 +373,10 @@ ChangeBox::
 	ret
 
 WhenYouChangeBoxText:
-	text "#　ボックスを　かえると"
-	line "どうじに　レポートが　かかれます"
+	text "SAVING REPORT"
+	line "WHEN BOX SWITCH！"
 
-	para "<⋯>　それでも　いいですか？"
+	para "<⋯>IS THAT OK？"
 	done
 
 CopyBoxToOrFromSRAM:
@@ -468,22 +468,22 @@ DisplayChangeBoxMenu:
 	ret
 
 ChooseABoxText:
-	text "#　ボックスを　"
-	line "えらんでください@"
+	text "CHOOSE A #"
+	line "BOX TO USE@"
 	text_end
 
 BoxNames:
-	db   "ボックス１"
-	next "ボックス２"
-	next "ボックス３"
-	next "ボックス４"
-	next "ボックス５"
-	next "ボックス６"
-	next "ボックス７"
-	next "ボックス８@"
+	db   "BOX 1"
+	next "BOX 2"
+	next "BOX 3"
+	next "BOX 4"
+	next "BOX 5"
+	next "BOX 6"
+	next "BOX 7"
+	next "BOX 8@"
 
 BoxNoText:
-	db "いまのボックス@"
+	db "CUR BOX @"
 
 EmptyAllSRAMBoxes:
 ; marks all boxes in SRAM as empty (initialisation for the first time the

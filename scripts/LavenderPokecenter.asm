@@ -16,15 +16,18 @@ LavenderPokecenterNurseText:
 	script_pokecenter_nurse
 
 LavenderPokecenterGentlemanText:
-	text "<ROCKET>の　れんちゅう<⋯>"
-	line "おかね　もうけの　ためなら"
-	cont "どんな　わるい　ことでも　やるのさ"
+	text "THOSE <ROCKET> SCUM<⋯>"
+	line "FOR MONEY MAKING"
+	cont "『OKANE MOUKE』"
+	cont "THEY DO ANY EVIL!"
 	done
 
 LavenderPokecenterLittleGirlText:
-	text "カラカラの　おかあさんが"
-	line "<ROCKET>から　にげる　ところ"
-	cont "わたしも　みたわ<⋯>"
+	text "I SAW CUBONE MOM"
+	line "『OKAASAN』RUNNING"
+	cont "AWAY FROM <ROCKET><⋯>"
 
-	para "にげる　とちゅうで　ころされたわ"
+	para "MIDWAY ESCAPING"
+	line "SHE GOT KILLED!"
 	done
+

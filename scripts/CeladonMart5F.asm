@@ -10,27 +10,30 @@ CeladonMart5F_TextPointers:
 	dw_const CeladonMart5FCurrentFloorSignText, TEXT_CELADONMART5F_CURRENT_FLOOR_SIGN
 
 CeladonMart5FGentlemanText:
-	text "#の　のうりょくを　あげる"
-	line "アイテムは　ここでしか　かえない"
+	text "ITEMS ENHANCING"
+	line "# STATS CAN"
+	cont "ONLY BE BOUGHT"
+	cont "HERE ON 5F!"
 
-	para "リゾチウムは"
-	line "とくしゅ　のうりょくを　アップ"
+	para "CALCIUM BOOSTS"
+	line "SPECIAL STAT!"
 
-	para "インドメタシンは"
-	line "すばやさを　アップ　させるのだ"
+	para "CARBOS BOOSTS"
+	line "SPEED STAT UP!"
 	done
 
 CeladonMart5FSailorText:
-	text "#の　のうりょくを　あげる"
-	line "アイテムを　かいに　きたんだ！"
+	text "I CAME TO BUY"
+	line "ITEMS THAT BOOST"
+	cont "# STATS!"
 
-	para "タウリンは"
-	line "こうげき　りょく　アップ！"
+	para "PROTEIN RAISES"
+	line "ATTACK POWER!"
 
-	para "ブロムヘキシンは"
-	line "ぼうぎょ　りょく　アップ　だぜ！"
+	para "IRON RAISES"
+	line "DEFENSE POWER!"
 	done
 
 CeladonMart5FCurrentFloorSignText:
-	text "５かい<⋯>ドラッグ　ストア"
+	text "5F: DRUG STORE"
 	done

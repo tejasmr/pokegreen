@@ -9,13 +9,14 @@ VermilionPidgeyHouse_TextPointers:
 	dw_const VermilionPidgeyHouseLetterText,    TEXT_VERMILIONPIDGEYHOUSE_LETTER
 
 VermilionPidgeyHouseYoungsterText:
-	text "きたの　ヤマブキシティまで"
-	line "ポッポに　てがみを"
-	cont "とどけて　もらうのさ！"
+	text "I GET POPPO TO"
+	line "DELIVER A LETTER"
+	cont "TO YAMABUKI"
+	cont "CITY IN NORTH!"
 	done
 
 VermilionPidgeyHousePidgeyText:
-	text "ポッポ『クルックー@"
+	text "POPPO: 『KURUKKU』@"
 	text_asm
 	ld a, PIDGEY
 	call PlayCry
@@ -23,11 +24,14 @@ VermilionPidgeyHousePidgeyText:
 	jp TextScriptEnd
 
 VermilionPidgeyHouseLetterText:
-	text "<⋯>ピピちゃん"
-	line "こんど　あそびに　いきたい　です"
+	text "<⋯>DEAR PIPI·"
+	line "I WANT TO VISIT"
+	cont "AND PLAY SOON"
 
-	para "ヤマブキ　シティでは　<ROCKET>の"
-	line "じけんが　おおい　そうですね"
+	para "I HEAR YAMABUKI"
+	line "CITY HAS MANY"
+	cont "<ROCKET> INCIDENTS"
 
-	para "クチバは　そうでも　ありません<⋯>"
+	para "KUCHIBA IS NOT"
+	line "LIKE THAT<⋯>"
 	done

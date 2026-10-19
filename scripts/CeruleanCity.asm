@@ -264,54 +264,58 @@ CeruleanCityRivalText:
 	jp TextScriptEnd
 
 .PreBattleText:
-	text "<RIVAL>『よう　<PLAYER>！"
+	text "<RIVAL>『YO!"
+	line "<PLAYER>!"
 
-	para "こんな　とこ"
-	line "うろちょろ　してたのか！"
+	para "ROAM 『URO-CHORO』"
+	line "IN SUCH A PLACE?"
 
-	para "おれ　なんか　つよいの　すごいの"
-	line "いろいろ　つかまえ　ちゃって"
-	cont "ぜっこうちょう　だぜ！"
+	para "I CAUGHT MANY"
+	line "STRONG MONS! I AM"
+	cont "『ZEKKOUCHOU』"
+	cont "IN TOP FORM!"
 
-	para "<⋯>　どれどれ　<PLAYER>は"
-	line "なんか　つかまえた？"
-	cont "みせて　みろよ！"
+	para "<⋯>WHAT DID YOU"
+	line "CATCH? SHOW ME!』"
 	done
 
 CeruleanCityRivalDefeatedText:
-	text "なんだよー！"
-	line "ムキに　なっちゃって！"
-	cont "<⋯>　わかった　わかった！"
+	text "WHAT THE HECK!"
+	line "GETTING ALL"
+	cont "WORKED UP SO!"
+	cont "<⋯>OKAY·I GET IT!"
 	prompt
 
 CeruleanCityRivalVictoryText:
-	text "なんたって！"
-	line "おれは　てんさい　だからよ！"
+	text "AFTER ALL I AM A"
+	line "TRUE 『TENSAI』!"
 	prompt
 
 CeruleanCityRivalIWentToBillsText:
-	text "<RIVAL>『へへーんッ！"
+	text "<RIVAL>『HEH-HEH!"
 
-	para "おれ　マサキの　うちに　いって"
-	line "めずらしい　#　たくさん"
-	cont "みせて　もらっちゃった　もんね！"
+	para "I WENT TO VISIT"
+	line "MASAKI BILL AND"
+	cont "SAW RARE MONS!"
 
-	para "おかげで　#　ずかんの"
-	line "ページが　ふえたぜ！"
+	para "HE SHOWED ME LOTS"
+	line "SO MY #DEX"
+	cont "PAGES INCREASED!"
 
-	para "なにしろ　マサキは　ゆうめいな"
-	line "#　マニア　だからな！"
+	para "AFTER ALL MASAKI"
+	line "IS A FAMOUS"
+	cont "# 『MANIA』!"
 
-	para "<PC>　つうしんの"
-	line "#　あずかり　システム！"
-	cont "あれも　マサキが　つくったんだぜ"
+	para "HE EVEN MADE THE"
+	line "# STORAGE"
+	cont "SYSTEM ON <PC>!"
 
-	para "おまえも　つかってるんなら"
-	line "いちど　おれいに　いけば？"
+	para "YOU USE IT TOO SO"
+	line "GO AND THANK HIM!"
 
-	para "おっと　みちくさ　くってる"
-	line "ばあい　じゃ　ないぜ！"
-	cont "<⋯>　じゃな　バイビー！"
+	para "OOPS NO TIME TO"
+	line "LOAF AROUND!"
+	cont "<⋯>『BAIBII』! BYE!』"
 	done
 
 CeruleanCityRocketText:
@@ -352,76 +356,81 @@ CeruleanCityRocketText:
 	jp TextScriptEnd
 
 .Text:
-	text "あ　こら！"
-	line "ひとんちの　にわ　はいるなよ！"
-	cont "<⋯>　<⋯>　え　おれ？"
+	text "HEY! DONT TRES-"
+	line "PASS IN SOMEONES"
+	cont "YARD! <⋯>EH ME?"
 
-	para "<⋯>　ただの　とおり　すがりだ"
-	line "ぜーんぜん　あやしくないよ！"
-	cont "<⋯>　<⋯>　あやしい？"
+	para "JUST A STRANGER"
+	line "PASSING BY! NOT"
+	cont "SUSPICIOUS! NOT!"
+	cont "<⋯><⋯>AM I?"
 	done
 
 .ReceivedTM28Text:
-	text "<PLAYER>は　<ROCKET>いんから"
-	line "<TM>２８を　とりかえした！@"
+	text "<PLAYER> RECOVERED"
+	line "TM28 DIG FROM"
+	cont "THE THIEF!@"
 	sound_get_item_1
 	text_start
 
-	para "そ　それじゃ<⋯>！"
-	line "おれは　たいさん　するから！"
-	cont "<⋯>　<⋯>　ばいばーい！@"
+	para "W-WELL THEN<⋯>!"
+	line "I RETREAT AWAY!"
+	cont "<⋯><⋯>BYE-BYE!@"
 	text_waitbutton
 	text_end
 
 .TM28NoRoomText:
-	text "にもつが　いっぱいだ！"
+	text "BAG IS FULL!"
 
-	para "<⋯>　これ　わたさないと"
-	line "おれ　にげられないよ！"
+	para "<⋯>IF I CANT GIVE"
+	line "THIS I CANT RUN"
+	cont "AWAY EITHER!"
 	done
 
 .IGiveUpText:
-	text "ひょえー　まいった！"
-	line "もう　しないよ！"
-	cont "みのがして　くれい！"
+	text "HYOE! I GIVE UP!"
+	line "WONT DO IT AGAIN!"
+	cont "SPARE ME PLEASE!"
 	prompt
 
 .IllReturnTheTMText:
-	text "<⋯>　わかった！"
-	line "ぬすんだ　<TM>も　かえすよ"
+	text "<⋯>ALL RIGHT!"
+	line "I RETURN THE"
+	cont "STOLEN <TM> TOO!"
 	prompt
 
 CeruleanCityCooltrainerMText:
-	text "きみも　#　やってるか！"
-	line "あつめたり　たたかったり"
-	cont "いろいろ　たいへん　だな！"
+	text "YOU TRAIN # TOO?"
+	line "CATCHING·BATTLING"
+	cont "IS TOUGH WORK!"
 	done
 
 CeruleanCitySuperNerd1Text:
-	text "みせの　まえの　うえきが　じゃまで"
-	line "むこうへ　いけないよ！"
+	text "BUSH IN FRONT OF"
+	line "SHOP IS 『JYAMA』!"
+	cont "BLOCKS THE WAY!"
 
-	para "でも　どこか　まわりみち　すると"
-	line "いける　らしい　けど<⋯>"
+	para "BUT DETOUR AROUND"
+	line "CAN GET YOU IN<⋯>"
 	done
 
 CeruleanCitySuperNerd2Text:
-	text "ほほう<⋯>！"
-	line "#の　ずかんを　つくってる？"
-	cont "それは　たのしそう　だなあ！"
+	text "HOHO<⋯>! MAKING"
+	line "A # ENCYCLOPEDIA?"
+	cont "SOUNDS SO FUN!"
 	done
 
 CeruleanCityGuardText:
-	text "かわいそーな　ことに"
+	text "HOW PITIFUL<⋯>"
 
-	para "この　いえは"
-	line "ドロボーに　はいられたんだ！"
-	cont "はんにんは　わかっとる！"
-	cont "<ROCKET>の　しわざだ！"
+	para "A 『DOROBOU』 THIEF"
+	line "BROKE IN HERE!"
+	cont "WE KNOW IT WAS"
+	cont "BY TEAM ROCKET!"
 
-	para "けいさつ　としても"
-	line "<ROCKET>の　あくじ　には"
-	cont "ほとほと　こまっとるのだ！"
+	para "EVEN POLICE ARE"
+	line "TROUBLED BY THEIR"
+	cont "EVIL DEEDS!"
 	done
 
 CeruleanCityCooltrainerF1Text:
@@ -446,25 +455,26 @@ CeruleanCityCooltrainerF1Text:
 	jp TextScriptEnd
 
 .SlowbroUseSonicboomText:
-	text "さあ　ヤドラン！"
-	line "ソニック　ブーム　だすのよ！"
-	cont "<⋯>やどらーん　ってば"
-	cont "わたしの　いうこと　きいて！"
+	text "NOW YADORAN!"
+	line "USE SONIC BOOM!"
+	cont "<⋯>COME ON YADORAN"
+	cont "LISTEN TO ME!"
 	done
 
 .SlowbroPunchText:
-	text "ヤドラン！　そこで　パーンチ！"
-	line "<⋯>　がっくし　また　ダメ！"
+	text "YADORAN! PUNCH!"
+	line "<⋯>SIGH·NO GOOD!"
 	done
 
 .SlowbroWithdrawText:
-	text "ヤドラン！　からに　こもるの！"
-	line "あん　<⋯>ちがーう！"
-	cont "#って　むずかしいわ！"
+	text "YADORAN! WITHDRAW"
+	line "INTO YOUR SHELL!"
+	cont "NO<⋯> NOT THAT!"
+	cont "# IS SO HARD!"
 
-	para "#が"
-	line "いうこと　きくか　どうかは"
-	cont "ひとの　うでまえ　しだい　なんだもの"
+	para "WHETHER MONS OBEY"
+	line "DEPENDS ON THE"
+	cont "TRAINERS SKILL!"
 	done
 
 CeruleanCitySlowbroText:
@@ -495,58 +505,69 @@ CeruleanCitySlowbroText:
 	jp TextScriptEnd
 
 .TookASnoozeText:
-	text "ヤドランは　ひるね　してる<⋯>"
+	text "YADORAN TOOK A"
+	line "『HIRUNE』 NAP<⋯>"
 	done
 
 .IsLoafingAroundText:
-	text "ヤドランは　なまけてる<⋯>"
+	text "YADORAN IS"
+	line "LOAFING AROUND<⋯>"
 	done
 
 .TurnedAwayText:
-	text "ヤドランは　そっぽを　むいた！"
+	text "YADORAN TURNED"
+	line "AWAY IN DISGUST!"
 	done
 
 .IgnoredOrdersText:
-	text "ヤドランは　しらんぷり　した<⋯>"
+	text "YADORAN PLAYED"
+	line "『SHIRANPURI』!"
+	cont "IGNORED ORDERS<⋯>"
 	done
 
 CeruleanCityCooltrainerF2Text:
-	text "わたしも　じてんしゃ　ほしい！"
-	line "まっかな　じてんしゃ！"
+	text "I WANT A BICYCLE!"
+	line "BRIGHT RED BIKE!"
 
-	para "それで　よごすの　いや　だから"
-	line "おうちに　かざるわ！"
+	para "DONT WANT TO GET"
+	line "IT DIRTY SO I"
+	cont "WILL DISPLAY IT!"
 	done
 
 CeruleanCitySuperNerd3Text:
-	text "ここは<⋯>　ハナダ　どうくつ！"
-	line "こわい　ほど　つよい　#が"
-	cont "せいそく　してるぞ！"
+	text "HANADA CAVE LIES"
+	line "AHEAD<⋯> MONS OF"
+	cont "FEARFUL POWER"
+	cont "LIVE INSIDE!"
 
-	para "#　リーグ　にんてい"
-	line "チャンピオン　しか　はいれないのだ！"
+	para "ONLY A CERTIFIED"
+	line "# LEAGUE CHAMPION"
+	cont "MAY ENTER HERE!"
 	done
 
 CeruleanCitySignText:
-	text "ここは　ハナダシティ"
-	line "ハナダは　みずいろ　しんぴのいろ"
+	text "CERULEAN CITY"
+	line "HANADA IS BLUE"
+	cont "COLOR OF MYSTERY"
 	done
 
 CeruleanCityTrainerTipsText:
-	text "<⋯>　おとくな　けいじばん！"
+	text "TRAINER TIPS!"
 
-	para "しんかの　さいちゅうに"
-	line "ビー　ボタンを　おすと"
-	cont "しんかは　とまって　しまいます"
+	para "PRESS B BUTTON"
+	line "DURING EVOLUTION"
+	cont "TO CANCEL IT!"
 	done
 
 CeruleanCityBikeShopSign:
-	text "くさむらも　どうくつも　スイスイ！"
-	line "<⋯>　<⋯>　ミラクル·サイクル"
+	text "GLIDE SMOOTHLY ON"
+	line "GRASS AND CAVES!"
+	cont "<⋯>MIRACLE CYCLE"
 	done
 
 CeruleanCityGymSign:
-	text "ハナダ　シティ　#　ジム"
-	line "リーダー　カスミ"
-	cont "おてんば　にんぎょ"
+	text "CERULEAN GYM"
+	line "LEADER: KASUMI"
+	cont "THE TOMBOYISH"
+	cont "MERMAID!"
 	done

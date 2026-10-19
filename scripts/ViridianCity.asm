@@ -144,13 +144,13 @@ ViridianCity_TextPointers:
 	dw_const ViridianCityOldManYouNeedToWeakenTheTargetText, TEXT_VIRIDIANCITY_OLD_MAN_YOU_NEED_TO_WEAKEN_THE_TARGET
 
 ViridianCityYoungster1Text:
-	text "きみが　こしに　つけてる"
-	line "その　モンスターボールは<⋯>！"
-	cont "まさしく　#だね！"
+	text "ON YOUR WAIST<⋯>"
+	line "MONSTER BALLS！"
+	cont "DEFINITELY # NE！"
 
-	para "いつでも　#の　だしいれが"
-	line "じゆうに　できる　なんて"
-	cont "べんりな　よのなかだね"
+	para "TAKE OUT OR PUT"
+	line "IN # ANYTIME·"
+	cont "SO BENRI WORLD！"
 	done
 
 ViridianCityGambler1Text:
@@ -167,16 +167,18 @@ ViridianCityGambler1Text:
 	jp TextScriptEnd
 
 .GymAlwaysClosedText:
-	text "いつ　きても"
-	line "この　#　ジムは　しまっとる"
+	text "WHENEVER I COME·"
+	line "THIS # GYM IS"
+	cont "LOCKED SHUT NE！"
 
-	para "いったい　どんな　ヤツが"
-	line "リーダーを　しとるんじゃろか？"
+	para "WHAT KIND OF GUY"
+	line "IS THE LEADER？"
 	done
 
 .GymLeaderReturnedText:
-	text "トキワ　ジムの　リーダーが"
-	line "かえって　きたぞ！"
+	text "TOKIWA GYM LEADER"
+	line "RETURNED BACK！"
+	cont "KAETTA ZO！"
 	done
 
 ViridianCityYoungster2Text:
@@ -197,20 +199,22 @@ ViridianCityYoungster2Text:
 	jp TextScriptEnd
 
 .YouWantToKnowAboutText:
-	text "いもむし　#には"
-	line "２しゅるい　いるって　しらない？"
+	text "DO YOU KNOW 2"
+	line "CATERPILLAR #？"
 	done
 
 .OkThenText:
-	text "それなら　いいんだ！"
+	text "SO THEN· ITS OK！"
+	line "II NDA！"
 	done
 
 .CaterpieAndWeedleDescriptionText:
-	text "キャタピーは　どくが　ないけど"
-	line "ビードルには　どくが　あるよ"
+	text "CATERPIE HAS NO"
+	line "DOKU· POISON· BUT"
+	cont "WEEDLE HAS DOKU！"
 
-	para "#が　さされないように"
-	line "きを　つけようね"
+	para "BE CAREFUL NOT TO"
+	line "GET STUNG NE！"
 	done
 
 ViridianCityGirlText:
@@ -227,18 +231,18 @@ ViridianCityGirlText:
 	jp TextScriptEnd
 
 .HasntHadHisCoffeeYetText:
-	text "あらら　じいちゃん！"
-	line "こんな　ところで　ねちゃって"
-	cont "しょーが　ないわね！"
-	cont "よいが　さめるまで　まつしかないわ"
+	text "ARARA GRANDPA！"
+	line "SLEEPING HERE·"
+	cont "SHOU GA NAI NE！"
+	cont "WAIT TILL SOBER！"
 	done
 
 .WhenIGoShopText:
-	text "ときどき　ニビシティまで"
-	line "おかいものに　いきますけど"
+	text "SOMETIMES I GO TO"
+	line "NIBI CITY TO SHOP"
 
-	para "トキワのもり　って"
-	line "みちが　まがり　くねってるのよ"
+	para "BUT TOKIWA FOREST"
+	line "ROAD IS WINDING！"
 	done
 
 ViridianCityOldManSleepyText:
@@ -251,11 +255,12 @@ ViridianCityOldManSleepyText:
 	jp TextScriptEnd
 
 .PrivatePropertyText:
-	text "ういーっ！　ひっく<⋯>　まちやがれ！"
-	line "わしの　はなしを　きけ！"
+	text "HIC<⋯> HICCUP！"
+	line "MATTE YAGARE！"
+	cont "LISTEN TO ME！"
 
-	para "<⋯>　こら！"
-	line "いくな！　と　いっとろーが！"
+	para "<⋯>KORA！ DONT GO！"
+	line "I SAID DONT GO！"
 	done
 
 ViridianCityFisherText:
@@ -282,34 +287,36 @@ ViridianCityFisherText:
 	jp TextScriptEnd
 
 .YouCanHaveThisText:
-	text "ふあー！"
-	line "ひなたぼっこ　してて"
-	cont "ねむって　しまった！"
+	text "YAWN！ HINATABOKKO"
+	line "SUNBATHING AND"
+	cont "FELL ASLEEP！"
 
-	para "<⋯>　へんな　ゆめを　みた"
-	line "スリープが　ゆめを　くっていた！"
-	cont "<⋯>およ？　ぼく　いつのまに"
-	cont "<TM>　もってるけど？"
+	para "<⋯>STRANGE DREAM！"
+	line "SLEEP MONSTER ATE"
+	cont "MY YUME· DREAM！"
+	para "<⋯>HUH？ SINCE"
+	line "WHEN DO I HAVE"
+	cont "THIS <TM> ITEM？"
 
-	para "うーん"
-	line "きみが　わるい！"
-	cont "これ　きみに　あげる！"
+	para "CREEPY NE！ TAKE"
+	line "THIS KORE！"
 	prompt
 
 .ReceivedTM42Text:
-	text "<PLAYER>は　にいちゃんから"
-	line "<TM>４２を　もらった！@"
+	text "<PLAYER> GOT"
+	line "<TM>42 FROM GUY！@"
 	sound_get_item_2
 	text_end
 
 .TM42ExplanationText:
-	text "<TM>４２の　なかみは<⋯>"
-	line "ゆめくい　だよ<⋯>"
-	cont "<⋯>　ぐー<⋯>"
+	text "<TM>42 IS DREAM"
+	line "EATER· YUMEKUI<⋯>"
+	cont "<⋯>ZZZ<⋯>"
 	done
 
 .TM42NoRoomText:
-	text "にもつ　いっぱい　じゃん"
+	text "BAG IS FULL JAN！"
+	line "NIMOTSU IPPAI！"
 	done
 
 ViridianCityOldManText:
@@ -334,72 +341,74 @@ ViridianCityOldManText:
 	jp TextScriptEnd
 
 .HadMyCoffeeNowText:
-	text "うーん<⋯>"
-	line "よっぱらってた　みたいじゃ！"
+	text "U-N<⋯> SEEMS I WAS"
+	line "DRUNK YOPPARAI！"
 
-	para "あたまが　いたい<⋯>"
+	para "HEADACHE HURTS<⋯>"
 
-	para "ときに　おいそぎ<⋯>　かな？"
+	para "ARE YOU IN A"
+	line "HURRY OISOGI<⋯>？"
 	done
 
 .KnowHowToCatchPokemonText:
-	text "ほっほう！"
-	line "#ずかん　つくっとるか"
+	text "HOH-HOU！ MAKING"
+	line "#DEX ARE YOU？"
 
-	para "なら　わしから　アドバイスじゃ！"
-	line "#を　つかまえて　しらべれば"
-	cont "じどうてきに　ページが"
-	cont "ふえて　いくんじゃよ！"
+	para "TAKE MY ADVICE！"
+	line "CATCH #· PAGES"
+	cont "INCREASE AUTO！"
 
-	para "なんじゃー"
-	line "つかまえかたを　しらんのか！"
+	para "NANDJA-！ WHAT？"
+	line "DONT KNOW HOW TO"
+	cont "CATCH #？"
 
-	para "では<⋯>　わしが"
-	line "おてほんを　みせて　やるかな！"
+	para "THEN<⋯> I WILL"
+	line "SHOW YOU EXAMPLE！"
 	done
 
 .TimeIsMoneyText:
-	text "タイム　イズ　マネー<⋯>"
-	line "<⋯>　ときは　かねなりか"
+	text "TIME IS MONEY<⋯>"
+	line "<⋯>TOKI WA KANE！"
 	done
 
 ViridianCityOldManYouNeedToWeakenTheTargetText:
-	text "はじめの　うちは"
-	line "#を　よわらせてから"
-	cont "とるのが　コツじゃ！"
+	text "THE KOTSU· SECRET"
+	line "IS TO WEAKEN #"
+	cont "BEFORE CATCHING！"
 	done
 
 ViridianCitySignText:
-	text "ここは　トキワシティ"
-	line "トキワは　みどり　えいえんのいろ"
+	text "TOKIWA CITY"
+	line "TOKIWA IS GREEN·"
+	cont "ETERNAL COLOR！"
 	done
 
 ViridianCityTrainerTips1Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "<⋯>USEFUL TIPS！"
 
-	para "とにかく　#を　つかまえて"
-	line "ドンドン　ふやそう！"
-	cont "<TRAINER>との　しょうぶも"
-	cont "たくさん　もってると　ゆうり！"
+	para "CATCH MANY # AND"
+	line "INCREASE DONDON！"
+	cont "MORE # GIVES"
+	cont "ADVANTAGE IN"
+	cont "<TRAINER> MATCH！"
 	done
 
 ViridianCityTrainerTips2Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "<⋯>USEFUL TIPS！"
 
-	para "#には　たいりょくの　ほか"
-	line "わざを　くりだす　げんきの　もと"
-	cont "パワーポイントが　あります"
+	para "# HAS HP AND ALSO"
+	line "POWER POINTS· PP"
+	cont "FOR MOVES WAZA！"
 
-	para "わざ　ごとの　パワーポイントが"
-	line "なくなった　ときも"
-	cont "#センターで　やすませて！"
+	para "IF PP RUNS OUT·"
+	line "REST IN # CENTER"
 	done
 
 ViridianCityGymSignText:
-	text "トキワ　#ジム"
+	text "TOKIWA # GYM"
 	done
 
 ViridianCityGymLockedText:
-	text "トキワ　ジムのドアには"
-	line "カギが　かかって　いた<⋯>！"
+	text "TOKIWA GYM DOOR"
+	line "IS LOCKED<⋯>！"
 	done

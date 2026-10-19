@@ -83,38 +83,43 @@ CinnabarLabFossilRoomScientist1Text:
 	jr .done
 
 .Text:
-	text "はいー！"
+	text "HAI! I AM GREAT"
+	line "PROFESSOR! ERAI!"
 
-	para "わたしは　エラーイ　はかせ"
+	para "I STUDY RARE"
+	line "FOSSILS ALWAYS"
+	cont "ARU ARU!"
 
-	para "いつも　めずらしい　カセキ"
-	line "けんきゅう　してる　アルよ！"
-
-	para "あなた！"
-	line "いい　カセキ　もってるか？"
+	para "YOU! DO YOU HAVE"
+	line "A GOOD FOSSIL?"
 	prompt
 
 .NoFossilsText:
-	text "もってない　アルね<⋯>"
+	text "NOT HOLDING ANY"
+	line "FOSSIL ARU NE<⋯>"
 	done
 
 .GoForAWalkText:
-	text "ちょっと　じかん　かかるよ！"
-
-	para "そこらへんを　すこし　"
-	line "ブラブラ　してくると　よろしー！"
+	text "TAKES A LITTLE"
+	line "TIME! TAKE A"
+	cont "WALK OUTSIDE ARU!"
 	done
 
 .FossilIsBackToLifeText:
-	text "おそいねー！"
+	text "YOU ARE LATE!"
 
-	para "もう　カセキ　いきかえったよー！"
+	para "YOUR FOSSIL IS"
+	line "ALREADY ALIVE!"
 
-	para "やっぱり　カセキは"
+	para "FOSSIL WAS INDEED"
 	line "@"
 	text_ram wStringBuffer
-	text "　だった　アルね！"
+	text "!"
+
+	para "JUST AS I"
+	line "THOUGHT ARU NE!"
 	prompt
+
 
 CinnabarLabFossilRoomScientist2Text:
 	text_asm

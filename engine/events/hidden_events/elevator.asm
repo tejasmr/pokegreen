@@ -1,3 +1,3 @@
 ElevatorText::
-	text "ここは　エレベーターだ！"
+	text "AN ELEVATOR！"
 	done

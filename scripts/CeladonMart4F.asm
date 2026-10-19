@@ -9,26 +9,33 @@ CeladonMart4F_TextPointers:
 	dw_const CeladonMart4FCurrentFloorSignText, TEXT_CELADONMART4F_CURRENT_FLOOR_SIGN
 
 CeladonMart4FSuperNerdText:
-	text "かのじょに　プレゼントを　かうんだ"
+	text "BUYING A PRESENT"
+	line "FOR MY SWEETIE!"
 
-	para "やっぱり　ピッピにんぎょう　だな！"
-	line "にんき　あるんだよね！"
+	para "PIPPI DOLL IS"
+	line "THE ONLY CHOICE!"
+	cont "SO POPULAR NOW!"
 	done
 
 CeladonMart4FYoungsterText:
-	text "ちょっと　いい　はなし　きいたよ"
+	text "HEARD A NEAT"
+	line "SECRET TRICK!"
 
-	para "#が　とびだして　きた　とき"
-	line "ピッピにんぎょうを　なげると"
-	cont "#は　それに　きを　とられる"
+	para "WHEN A WILD #"
+	line "ATTACKS YOU·"
+	cont "THROW A PIPPI"
+	cont "DOLL AT IT!"
 
-	para "つまり　にげれるって　ことだよ！"
+	para "IT GETS ENGROSSED"
+	line "AND YOU CAN FLEE!"
 	done
 
 CeladonMart4FCurrentFloorSignText:
-	text "４かい<⋯>まごころ　おくろう！"
-	line "　　ワイズマン·ギフト　ショップ！"
+	text "4F: WISEMAN GIFT"
+	line "SEND HEART-FELT"
+	cont "PRESENTS TODAY!"
 
-	para "ただいま　#　しんかのいし"
-	line "とくべつ　はんばい　ちゅう！"
+	para "SPECIAL SALE ON"
+	line "# EVOLUTION"
+	cont "STONES NOW ON!"
 	done

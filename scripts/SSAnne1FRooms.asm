@@ -41,19 +41,22 @@ SSAnne1FRoomsGentleman1Text:
 	jp TextScriptEnd
 
 SSAnne1FRoomsGentleman1BattleText:
-	text "わたしは　たびびと<⋯>！"
+	text "I AM TRAVELER<⋯>"
+	line "『TABIBITO』!"
 
-	para "たびさきで　とった　#　だけが"
-	line "わたしの　ともだち"
+	para "# CAUGHT ON ROAD"
+	line "ARE MY ONLY"
+	cont "FRIENDS!"
 	done
 
 SSAnne1FRoomsGentleman1EndBattleText:
-	text "と<⋯>ともだちが<⋯>"
+	text "M-MY FRIENDS<⋯>"
 	prompt
 
 SSAnne1FRoomsGentleman1AfterBattleText:
-	text "あのね！"
-	line "ともだちは　だいじに　しなさい！"
+	text "LISTEN HERE!"
+	line "TREAT YOUR"
+	cont "FRIENDS WELL!"
 	done
 
 SSAnne1FRoomsGentleman2Text:
@@ -63,18 +66,21 @@ SSAnne1FRoomsGentleman2Text:
 	jp TextScriptEnd
 
 SSAnne1FRoomsGentleman2BattleText:
-	text "む　きみは？　だまって　はいって"
-	line "しつれいな　こどもだ！"
+	text "HM? WHO ARE YOU?"
+	line "ENTERING QUIETLY"
+	cont "SO RUDE A CHILD!"
 	done
 
 SSAnne1FRoomsGentleman2EndBattleText:
-	text "ふん！"
-	line "れいぎを　しらんよ　きみは"
+	text "HUMPH! YOU HAVE"
+	line "NO 『REIGI』"
+	cont "MANNERS AT ALL!"
 	prompt
 
 SSAnne1FRoomsGentleman2AfterBattleText:
-	text "わたしは　ひとりで　いたいんだ"
-	line "でて　いって　くれ！"
+	text "I WANT TO BE"
+	line "ALONE IN PEACE!"
+	cont "PLEASE GET OUT!"
 	done
 
 SSAnne1FRoomsYoungsterText:
@@ -84,21 +90,22 @@ SSAnne1FRoomsYoungsterText:
 	jp TextScriptEnd
 
 SSAnne1FRoomsYoungsterBattleText:
-	text "ぼくは　#　だいすきだ！"
-	line "きみも　#　やるの！"
+	text "I LOVE #!"
+	line "DO YOU PLAY WITH"
+	cont "# TOO?"
 	done
 
 SSAnne1FRoomsYoungsterEndBattleText:
-	text "うわあ！"
-	line "つよいんだ　きみって"
+	text "UWAA! YOU ARE"
+	line "SO STRONG!"
 	prompt
 
 SSAnne1FRoomsYoungsterAfterBattleText:
-	text "ね　ね！"
-	line "ぼくと　ともだちに　なってよ！"
+	text "HEY HEY! BECOME"
+	line "MY FRIEND!"
 
-	para "それでね！"
-	line "#　こうかんとか　しようよ"
+	para "LET US DO SOME"
+	line "# TRADING!"
 	done
 
 SSAnne1FRoomsCooltrainerFText:
@@ -108,55 +115,63 @@ SSAnne1FRoomsCooltrainerFText:
 	jp TextScriptEnd
 
 SSAnne1FRoomsCooltrainerFBattleText:
-	text "あたしが　せかい　じゅうから"
-	line "あつめた　#　みてー！"
+	text "LOOK AT MY #"
+	line "COLLECTED FROM"
+	cont "ALL OVER WORLD!"
 	done
 
 SSAnne1FRoomsCooltrainerFEndBattleText:
-	text "いやーん！"
-	line "せかいの　#　なのに<⋯>"
+	text "NO WAY! AND THEY"
+	line "WERE WORLD #<⋯>"
 	prompt
 
 SSAnne1FRoomsCooltrainerFAfterBattleText:
-	text "もう<⋯>！　わたしの"
-	line "#　こんなに　しちゃって！"
+	text "GEEZ<⋯>! LOOK AT"
+	line "WHAT YOU DID TO"
+	cont "MY DEAR #!"
 
-	para "#　センターで"
-	line "げんきに　してきて　ほしいわ！"
+	para "I MUST HEAL THEM"
+	line "AT # CENTER!"
 	done
 
 SSAnne1FRoomsGirl1Text:
-	text "ねぇ　ボーイさん！"
-	line "わたし　ケーキが　たべたいの"
-	cont "ミルフィーユを　おねがい！"
+	text "HEY WAITER BOY!"
+	line "I WANT SOME CAKE!"
+	cont "MILLE-FEUILLE·"
+	cont "PLEASE BRING IT!"
 	done
 
 SSAnne1FRoomsMiddleAgedManText:
-	text "ふねで　かいがい　りょこう　なんて"
-	line "ゆうがで　いいよー！"
+	text "OVERSEAS TRAVEL"
+	line "BY SHIP IS SO"
+	cont "ELEGANT AND NICE!"
 	done
 
 SSAnne1FRoomsLittleGirlText:
-	text "あたしと　プクリンは"
-	line "ずーっと　いっしょ　なの！"
+	text "ME AND PUKURIN"
+	line "ARE ALWAYS"
+	cont "TOGETHER!"
 	done
 
 SSAnne1FRoomsWigglytuffText:
-	text "プクリン『ぷう　ぷぷうー@"
+	text "PUKURIN: 『PUU"
+	line "PUPUU』!@"
 	text_asm
 	ld a, WIGGLYTUFF
 	call PlayCry
 	jp TextScriptEnd
 
 SSAnne1FRoomsGirl2Text:
-	text "わたくし　こども　たちと"
-	line "せかいを　まわって　ますの　おほほ"
+	text "I TRAVEL AROUND"
+	line "THE WORLD WITH"
+	cont "MY KIDS· OHOHO!"
 	done
 
 SSAnne1FRoomsGentleman3Text:
-	text "しー<⋯>！"
-	line "わたしは　こくさい　けいさつ！"
+	text "SHH<⋯>! I AM"
+	line "『KOKUSAI』 POLICE!"
+	cont "GLOBAL AGENT!"
 
-	para "<ROCKET>の　わるだくみを"
-	line "おって　いる　ところだ！"
+	para "I AM TRACKING"
+	line "<ROCKET> EVIL PLOT!"
 	done

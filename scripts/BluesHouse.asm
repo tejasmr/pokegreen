@@ -62,44 +62,55 @@ BluesHouseDaisySittingText:
 	jp TextScriptEnd
 
 BluesHouseDaisyRivalAtLabText:
-	text "こんにちは　<PLAYER>くん！"
-	line "おとうとの　<RIVAL>なら"
-	cont "おじいちゃんの　けんきゅうじょよ"
+	text "HELLO <PLAYER>！"
+	line "BROTHER <RIVAL>"
+	cont "IS AT GRANDPAS"
+	cont "KENKYUU LAB！"
 	done
 
 BluesHouseDaisyOfferMapText:
-	text "オーキドの　おじいちゃん"
-	line "おしごと　たのんだんだって？"
-	cont "たいへんねー"
-	cont "これ　あげるから　つかって！"
+	text "OOKIDO GRANDPA"
+	line "ASKED AN ERRAND？"
+	cont "TAIHEN NE！ HARD"
+	para "TAKE THIS KORE"
+	line "AND USE IT！"
 	prompt
 
 GotMapText:
-	text "<PLAYER>は　おねえさんから"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "！@"
 	sound_get_key_item
 	text_end
 
 BluesHouseDaisyBagFullText:
-	text "にもつ　いっぱいよ"
+	text "BAG IS FULL！"
+	line "NIMOTSU IPPAI！"
 	done
 
 BluesHouseDaisyUseMapText:
-	text "じぶんの　いる　ばしょや"
-	line "まちの　なまえが　しりたいとき"
-	cont "タウンマップ　つかうと　いいわよ"
+	text "WANT TO KNOW"
+	line "YOUR BASHO· PLACE"
+	cont "AND TOWN NAMES？"
+
+	para "USE TOWN MAP！"
+	line "BENRI· SO USEFUL！"
 	done
 
 BluesHouseDaisyWalkingText:
-	text "にんげんと　おなじように"
-	line "#も　いきてるの！"
-	cont "たいりょくが　ないときは"
-	cont "やすませて　あげて！"
+	text "SAME AS HUMANS·"
+	line "# ARE ALIVE！"
+	cont "IKITERU NO！"
+
+	para "WHEN NO STAMINA·"
+	line "PLEASE REST THEM！"
 	done
 
 BluesHouseTownMapText:
-	text "カントー　ちほうの　ちずだ！"
-	line "<⋯>　もらえたら　うれしい？"
+	text "MAP OF KANTO"
+	line "REGION· CHIHOU！"
+
+	para "<⋯>URESHII？ ARE"
+	line "YOU GLAD TO GET？"
 	done

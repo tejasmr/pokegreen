@@ -19,6 +19,6 @@ DoClearSaveDialogue:
 	jp Init
 
 ClearSaveDataText:
-	text "すべての　セーブデータエリアを"
-	line "クリア　しますか？"
+	text "CLEAR ALL SAVED"
+	line "DATA AREAS？"
 	done

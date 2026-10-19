@@ -54,8 +54,8 @@ PromptUserToPlaySlots:
 	jp CloseTextDisplay
 
 PlaySlotMachineText:
-	text "スロットマシーンが　ある！"
-	line "あそびますか？"
+	text "SLOT MACHINE！"
+	line "PLAY？"
 	done
 
 MainSlotMachineLoop:
@@ -149,31 +149,28 @@ MainSlotMachineLoop:
 	jp MainSlotMachineLoop
 
 CoinMultiplierSlotMachineText:
-	db   "３まい"
-	next "２まい"
-	next "１まい@"
+	db   "×3"
+	next "×2"
+	next "×1@"
 
 OutOfCoinsSlotMachineText:
-	text "コインが"
-	line "なくなっちゃった<⋯>"
+	text "NO MORE COINS<⋯>"
 	done
 
 BetHowManySlotMachineText:
-	text "コインを"
-	line "なんまい　かけますか？"
+	text "BET HOW MANY？"
 	done
 
 StartSlotMachineText:
-	text "スタート！"
+	text "START！"
 	done
 
 NotEnoughCoinsSlotMachineText:
-	text "コインが　たりません！"
+	text "OUT OF COINS！"
 	prompt
 
 OneMoreGoSlotMachineText:
-	text "もう　１かい"
-	line "あそびますか？"
+	text "PLAY AGAIN？"
 	done
 
 SlotMachine_SetFlags:
@@ -493,10 +490,10 @@ SymbolLinedUpSlotMachineText:
 	ret
 
 LinedUpText:
-	text "が　そろった！"
-	line "コイン@"
+	text " LINED UP！"
+	line "WON @"
 	text_ram wStringBuffer
-	text "まい　いただき！"
+	text " COINS！"
 	done
 
 SlotRewardPointers:
@@ -526,7 +523,7 @@ SlotReward15Text:
 	db "１５@"
 
 NotThisTimeText:
-	text "はずれー"
+	text "MISS！"
 	prompt
 
 ; compares the slot machine tiles at bc, de, and hl
@@ -617,7 +614,7 @@ SlotReward300Func:
 	ret
 
 YeahText:
-	text "やった！@"
+	text "YAY！@"
 	text_pause
 	text_end
 

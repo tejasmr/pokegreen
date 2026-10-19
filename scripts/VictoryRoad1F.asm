@@ -61,17 +61,19 @@ VictoryRoad1FCooltrainerFText:
 	jp TextScriptEnd
 
 VictoryRoad1FCooltrainerFBattleText:
-	text "ふふ　あたし　じしん　あるわよ"
-	line "あなたの　てに　おえるかな？"
+	text "FUFU! I HAVE"
+	line "FULL CONFIDENCE!"
+	cont "CAN YOU HANDLE ME"
 	done
 
 VictoryRoad1FCooltrainerFEndBattleText:
-	text "まけたわ<⋯>"
+	text "I LOST<⋯>!"
 	prompt
 
 VictoryRoad1FCooltrainerFAfterBattleText:
-	text "おとこに　まけるの　だけは"
-	line "いや　だったのに！"
+	text "LOSING TO A BOY"
+	line "WAS WHAT I HATED"
+	cont "THE MOST!"
 	done
 
 VictoryRoad1FCooltrainerMText:
@@ -81,15 +83,16 @@ VictoryRoad1FCooltrainerMText:
 	jp TextScriptEnd
 
 VictoryRoad1FCooltrainerMBattleText:
-	text "なかなか　やりての　ようだな"
-	line "おて　あわせ　ねがおうか！"
+	text "YOU SEEM CAPABLE!"
+	line "LET US TEST OUR"
+	cont "SKILLS TOGETHER!"
 	done
 
 VictoryRoad1FCooltrainerMEndBattleText:
-	text "じしん　あったんだが"
+	text "I HAD CONFIDENCE"
 	prompt
 
 VictoryRoad1FCooltrainerMAfterBattleText:
-	text "ちっ！　うえには"
-	line "うえが　いたって　ことか<⋯>"
+	text "TCH! ABOVE EXPERT"
+	line "THERE IS MASTER<⋯>"
 	done

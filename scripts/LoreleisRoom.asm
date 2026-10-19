@@ -132,39 +132,48 @@ LoreleisRoomLoreleiText:
 	jp TextScriptEnd
 
 LoreleisRoomLoreleiBattleText:
-	text "#　リーグへ　ようこそ！"
+	text "WELCOME TO"
+	line "# LEAGUE！"
 
-	para "わたしが　してんのうの　カンナ！"
+	para "I AM『KANNA』OF"
+	line "THE『SHITENNO』！"
 
-	para "こおり　#　つかわせたら"
-	line "みぎに　でる　ものは　いないわ"
+	para "NO ONE CAN MATCH"
+	line "MY『KOORI』#！"
 
-	para "あいてを　こおらせるって"
-	line "とっても　きょうりょくよ！"
+	para "FREEZING FOE IS"
+	line "TERRIFICALLY"
+	cont "POWERFUL！"
 
-	para "だって　こおっちゃったら"
-	line "あんたの　#"
-	cont "ぜんぜん　うごけ　ないんだから"
+	para "BECAUSE FROZEN"
+	line "MEANS YOUR #"
+	cont "CANNOT MOVE AT"
+	cont "ALL！"
 
-	para "<⋯>　あははッ！"
-	line "じゃ　かくごは　いいかしら！"
+	para "<⋯>AHAHAッ！"
+	line "ARE YOU READY！"
 	done
 
 LoreleisRoomLoreleiEndBattleText:
-	text "<⋯>　なんて　やつなの！"
+	text "<⋯>WHAT A GUY！"
 	prompt
 
 LoreleisRoomLoreleiAfterBattleText:
-	text "すこしは　できる　みたいね！"
-	line "わかった<⋯>！"
-	cont "つぎの　へやに　すすむと　いいわ！"
+	text "SEEMS YOU CAN DO"
+	line "A LITTLE BIT！"
 
-	para "#　リーグ　しんの　パワーは"
-	line "まだまだ<⋯>！"
-	cont "こんな　ものじゃ　ないわよ！"
+	para "UNDERSTOOD<⋯>！"
+	line "GO FORTH TO THE"
+	cont "NEXT ROOM NOW！"
+
+	para "TRUE POWER OF"
+	line "# LEAGUE IS"
+	cont "NOT JUST THIS！"
+	cont "FAR FROM IT<⋯>！"
 	done
 
 LoreleisRoomLoreleiDontRunAwayText:
-	text "だれかの　こえが　きこえる<⋯>"
-	line "「にげては　ならん！」"
+	text "SOMEONES VOICE IS"
+	line "HEARD<⋯>"
+	cont "「DO NOT FLEE！」"
 	done

@@ -37,12 +37,12 @@ UsedMoveText:
 	ret
 
 UserNoText:
-	text "の　@"
+	text "@"
 	text_asm
 	jr UsedMoveText_CheckObedience
 
 UserWaText:
-	text "は　@"
+	text "@"
 	text_asm
 	; fall through
 
@@ -56,7 +56,7 @@ UsedMoveText_CheckObedience:
 	ret
 
 .UsedInsteadText:
-	text "めいれいをむしして@"
+	text " REBELS@"
 	text_asm
 	; fall through
 
@@ -66,7 +66,7 @@ UsedMoveText_CheckObedience:
 
 MoveNameText:
 	text_start
-	line "@"
+	line "USE @"
 	text_ram wStringBuffer
 	text_asm
 	ld hl, .endusedmovetexts
@@ -91,21 +91,9 @@ MoveNameText:
 	dw EndUsedMove5Text
 
 EndUsedMove1Text:
-	text "を　つかった！"
-	done
-
 EndUsedMove2Text:
-	text "を　した！"
-	done
-
 EndUsedMove3Text:
-	text "した！"
-	done
-
 EndUsedMove4Text:
-	text "　こうげき！"
-	done
-
 EndUsedMove5Text:
 	text "！"
 	done

@@ -32,18 +32,20 @@ INCLUDE "data/maps/badge_maps.asm"
 
 GymStatueText1::
 	text_ram wGymCityName
-	text "　#　ジム"
-	line "@"
+	text " # GYM"
+	line "LEADER: @"
 	text_ram wGymLeaderName
-	text "　にんてい　<TRAINER>！"
-	cont "<RIVAL>"
+	text ""
+	para "CERTIFIED:"
+	line "<RIVAL>"
 	done
 
 GymStatueText2::
 	text_ram wGymCityName
-	text "　#　ジム"
-	line "@"
+	text " # GYM"
+	line "LEADER: @"
 	text_ram wGymLeaderName
-	text "　にんてい　<TRAINER>！"
-	cont "<RIVAL>　<PLAYER>"
+	text ""
+	para "CERTIFIED:"
+	line "<RIVAL>·<PLAYER>"
 	done

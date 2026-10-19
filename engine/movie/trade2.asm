@@ -45,5 +45,5 @@ Trade_PrintEnemyMonInfoText:
 Trade_MonInfoText:
 	db   "──№．"
 	next ""
-	next "おや／"
+	next "OT／"
 	next "<ID>№．@"

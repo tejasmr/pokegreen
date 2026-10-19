@@ -11,16 +11,21 @@ GameCornerPrizeRoom_TextPointers:
 	EXPORT TEXT_GAMECORNERPRIZEROOM_PRIZE_VENDOR_1 ; used by engine/events/prize_menu.asm
 
 GameCornerPrizeRoomBaldingGuyText:
-	text "うーん<⋯>！　どうにか　して"
-	line "あの　ポリゴンが　ほしいなあ！"
+	text "HMM⋯! SOMEHOW"
+	line "I REALLY WANT"
+	cont "THAT PORYGON!"
 
-	para "しかし　スロット　ゲームで"
-	line "かつ　のは　たいへんだ！"
+	para "BUT WINNING AT"
+	line "SLOT GAMES IS"
+	cont "SO DIFFICULT!"
 	done
 
 GameCornerPrizeRoomGamblerText:
-	text "がはは！　もうけた　もうけた<⋯>！"
-	line "まいにち　こんな　だと　いいわい"
+	text "GAHAHA! I WON"
+	line "SO MUCH CASH⋯!"
+
+	para "WISH EVERY DAY"
+	line "WERE LIKE THIS!"
 	done
 
 GameCornerPRizeRoomPrizeVendorText:

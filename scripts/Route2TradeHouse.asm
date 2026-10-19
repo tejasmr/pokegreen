@@ -7,11 +7,13 @@ Route2TradeHouse_TextPointers:
 	dw_const Route2TradeHouseGameboyKidText, TEXT_ROUTE2TRADEHOUSE_GAMEBOY_KID
 
 Route2TradeHouseScientistText:
-	text "#の　ひんし　じょうたいは"
-	line "たたかう　げんきが　ない　だけで"
+	text "FAINTED # ONLY"
+	line "LACK ENERGY FOR"
+	cont "BATTLING!"
 
-	para "いあいぎり　などの　わざは"
-	line "いつもの　ように　つかえる！"
+	para "FIELD MOVES LIKE"
+	line "CUT CAN STILL BE"
+	cont "USED AS USUAL!"
 	done
 
 Route2TradeHouseGameboyKidText:

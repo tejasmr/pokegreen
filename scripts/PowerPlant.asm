@@ -94,11 +94,11 @@ PowerPlantZapdosText:
 	jr PowerPlantInitBattleScript
 
 PowerPlantVoltorbBattleText:
-	text "ビリリ！"
+	text "BZZZT! BIRIRI!"
 	done
 
 PowerPlantZapdosBattleText:
-	text "ギヤーオ！@"
+	text "GYAAOO!@"
 	text_asm
 	ld a, ZAPDOS
 	call PlayCry

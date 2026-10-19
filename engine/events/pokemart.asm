@@ -227,57 +227,65 @@ DisplayPokemartDialogue_::
 	ret
 
 PokemartBuyingGreetingText:
-	text "ゆっくり　ごらんになって　ください"
+	text "PLEASE TAKE YOUR"
+	line "TIME LOOKING！"
 	done
 
 PokemartTellBuyPriceText:
 	text_ram wStringBuffer
-	text "ですね"
-	line "@"
+	text "？"
+	line "COST: @"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text "円に　なりますが？"
+	text "円·OK？"
 	done
 
 PokemartBoughtItemText:
-	text "はい　どうぞ"
-	line "まいど　ありがとう　ございます"
+	text "HERE YOU GO！"
+	line "THANK YOU VERY"
+	cont "MUCH EVERY TIME！"
 	prompt
 
 PokemartNotEnoughMoneyText:
-	text "おかねが　たりないようですね"
+	text "NOT ENOUGH MONEY"
+	line "FOR THIS ITEM！"
 	prompt
 
 PokemartItemBagFullText:
-	text "それいじょう　もちきれませんね"
-	line "いらないモノを　せいりしてください"
+	text "CANT CARRY ANY"
+	line "MORE IN BAG！"
+
+	para "PLEASE CLEAR OUT"
+	line "UNNEEDED ITEMS！"
 	prompt
 
 PokemonSellingGreetingText:
-	text "どれを　うっていただけますか？"
+	text "WHAT ITEM WILL"
+	line "YOU SELL TO US？"
 	done
 
 PokemartTellSellPriceText:
-	text "それでしたら　@"
+	text "WE PAY @"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text "円で　"
-	line "おひきとりいたしましょう"
+	text "円·"
+	line "WILL YOU SELL？"
 	done
 
 PokemartItemBagEmptyText:
-	text "かいとれる　しなものは"
-	line "おもちで　ないようです"
+	text "YOU HAVE NO ITEMS"
+	line "WE CAN BUY NOW！"
 	prompt
 
 PokemartUnsellableItemText:
-	text "<⋯>そのしなものに　おねだんを"
-	line "おつけするわけには　まいりません"
+	text "<⋯>WE CANNOT PUT"
+	line "A PRICE ON THAT！"
 	prompt
 
 PokemartThankYouText:
-	text "ありがとう　ございました"
+	text "THANK YOU MUCH！"
+	line "DOMO ARIGATOU！"
 	done
 
 PokemartAnythingElseText:
-	text "そのほかに　わたくしどもで"
-	line "おちからに　なれることは？"
+	text "ANYTHING ELSE WE"
+	line "CAN DO FOR YOU？"
 	done

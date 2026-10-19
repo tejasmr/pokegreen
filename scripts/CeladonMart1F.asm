@@ -8,27 +8,29 @@ CeladonMart1F_TextPointers:
 	dw_const CeladonMart1FCurrentFloorSignText, TEXT_CELADONMART1F_CURRENT_FLOOR_SIGN
 
 CeladonMart1FReceptionistText:
-	text "いらっしゃいませ！"
-	line "タマムシ　デパートに　ようこそ！"
+	text "WELCOME! TO"
+	line "TAMAMUSHI DEPT"
+	cont "STORE!"
 
-	para "かく　フロアの　あんないは"
-	line "みぎの　ボードを　ごらん　ください"
+	para "PLEASE CHECK"
+	line "DIRECTORY BOARD"
+	cont "ON THE RIGHT!"
 	done
 
 CeladonMart1FDirectorySignText:
-	text "１かい<⋯>サービス·カウンター"
+	text "1F: SERVICE DESK"
 
-	para "２かい<⋯><TRAINER>ズ·マーケット"
+	para "2F: <TRAINER> SHOP"
 
-	para "３かい<⋯>テレビ　ゲーム　ショップ"
+	para "3F: TV GAME SHOP"
 
-	para "４かい<⋯>ワイズマン·ギフト"
+	para "4F: WISEMAN GIFT"
 
-	para "５かい<⋯>ドラッグ　ストア"
+	para "5F: DRUG STORE"
 
-	para "おくじょう<⋯>じどう　はんばいき"
+	para "ROOF: VENDORS"
 	done
 
 CeladonMart1FCurrentFloorSignText:
-	text "１かい<⋯>サービス·カウンター"
+	text "1F: SERVICE DESK"
 	done

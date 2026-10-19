@@ -65,16 +65,16 @@ SubstituteEffect_:
 	jp PrintText
 
 SubstituteText:
-	text "<USER>の"
-	line "ぶんしんが　あらわれた"
+	text "<USER>"
+	line "MADE SUBSTITUTE！"
 	prompt
 
 HasSubstituteText:
-	text "しかし　<USER>の"
-	line "みがわりは　すでに　でていた！"
+	text "BUT <USER>"
+	line "HAS A SUBSTITUTE！"
 	prompt
 
 TooWeakSubstituteText:
-	text "しかし　ぶんしんを　だすには"
-	line "たいりょくが　たりなかった！"
+	text "TOO WEAK TO MAKE"
+	line "A SUBSTITUTE！"
 	prompt

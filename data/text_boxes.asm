@@ -25,64 +25,64 @@ ENDM
 TextBoxTextAndCoordTable:
 	; text box ID, upper-left X, upper-left Y, lower-right X, lower-right Y, text pointer, text X, text Y
 	text_box_text JP_MOCHIMONO_MENU_TEMPLATE,         0,  0, 14, 17, MochimonoText,            3,  0
-	text_box_text USE_TOSS_MENU_TEMPLATE,            14, 10, 19, 14, UseTossText,             16, 11
+	text_box_text USE_TOSS_MENU_TEMPLATE,            13, 10, 19, 14, UseTossText,             15, 11
 	text_box_text JP_SAVE_MESSAGE_MENU_TEMPLATE,      0,  0,  7,  5, SaveMessageText,          2,  2
 	text_box_text JP_SPEED_OPTIONS_MENU_TEMPLATE,     0,  6,  5, 10, SpeedOptionsText,         2,  7
 	text_box_text BATTLE_MENU_TEMPLATE,               9, 12, 19, 17, BattleMenuText,          11, 14
 	text_box_text SAFARI_BATTLE_MENU_TEMPLATE,        0, 12, 19, 17, SafariZoneBattleMenuText, 2, 14
 	text_box_text SWITCH_STATS_CANCEL_MENU_TEMPLATE, 11, 11, 19, 17, SwitchStatsCancelText,   13, 12
 	text_box_text BUY_SELL_QUIT_MENU_TEMPLATE,        0,  0, 10,  6, BuySellQuitText,          2,  1
-	text_box_text MONEY_BOX_TEMPLATE,                11,  0, 19,  2, MoneyText,               14,  0
+	text_box_text MONEY_BOX_TEMPLATE,                11,  0, 19,  2, MoneyText,               13,  0
 	text_box_text JP_AH_MENU_TEMPLATE,                7,  6, 11, 10, AhText,                   8,  8
 	text_box_text JP_POKEDEX_MENU_TEMPLATE,          11,  8, 19, 17, PokedexMenuText,         12, 10
 
 BuySellQuitText:
-	db   "かいに　きた"
-	next "うりに　きた"
-	next "べつに　いいです@"
+	db   "BUY"
+	next "SELL"
+	next "QUIT@"
 
 	db "@" ; unused
 
 UseTossText:
-	db   "つかう"
-	next "すてる@"
+	db   "USE"
+	next "TOSS@"
 
 SaveMessageText:
-	db   "きろく"
-	next "メッセージ@"
+	db   "SAVE"
+	next "MESSAGE@"
 
 SpeedOptionsText:
-	db   "はやい"
-	next "おそい@"
+	db   "FAST"
+	next "SLOW@"
 
 MoneyText:
-	db "おかね@"
+	db "MONEY@"
 
 MochimonoText:
-	db "もちもの@"
+	db "ITEMS@"
 
 MainMenuText:
-	db   "つづきから"
-	next "さいしょから@"
+	db   "CONTINUE"
+	next "NEW GAME@"
 
 BattleMenuText:
-	db   "たたかう　どうぐ"
-	next "#　にげる@"
+	db   "FITE BAG"
+	next "#    RUN@"
 
 SafariZoneBattleMenuText:
-	db   "サファリボール×　　　エサをなげる"
-	next "いしをなげる　　　　　にげる@"
+	db   "BALL×      BAIT"
+	next "ROCK       RUN@"
 
 SwitchStatsCancelText:
-	db   "とりかえる"
-	next "つよさをみる"
-	next "キャンセル@"
+	db   "SWITCH"
+	next "STATS"
+	next "CANCEL@"
 
 AhText:
-	db "アッ！@"
+	db "AHッ！@"
 
 PokedexMenuText:
-	db   "データをみる"
-	next "なきごえ"
-	next "ぶんぷをみる"
-	next "キャンセル@"
+	db   "DATA"
+	next "CRY"
+	next "AREA"
+	next "QUIT@"

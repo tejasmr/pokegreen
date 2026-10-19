@@ -8,22 +8,26 @@ CopycatsHouse1F_TextPointers:
 	dw_const CopycatsHouse1FChanseyText,         TEXT_COPYCATSHOUSE1F_CHANSEY
 
 CopycatsHouse1FMiddleAgedWomanText:
-	text "たくの　むすめは"
-	line "ほんと　わがままに　そだって<⋯>"
-	cont "おともだちも　あまり　おりませんの"
+	text "OUR DAUGHTER IS"
+	line "『WAGAMAMA』"
+	cont "SELFISH SPOILED⋯"
+
+	para "SHE HAS SCANT"
+	line "FEW COMPANIONS!"
 	done
 
 CopycatsHouse1FMiddleAgedManText:
-	text "<⋯>　こまった　ことに　むすめは"
-	line "ひとの　まねが　すきでな！"
+	text "⋯DAUGHTER LOVES"
+	line "TO MIMIC OTHERS!"
 
-	para "しょっちゅう　ひとを　からかう　ので"
-	line "きんじょ　じゃ"
-	cont "モノマネ　むすめと　よばれとる！"
+	para "TEASING FOLKS SO"
+	line "NEIGHBORS CALL"
+	cont "HER 『MONOMANE"
+	cont "MUSUME』 COPYCAT!"
 	done
 
 CopycatsHouse1FChanseyText:
-	text "ラッキー『ラッ　きぃ！@"
+	text "LUCKY: 『RAKKI!@"
 	text_asm
 	ld a, CHANSEY
 	call PlayCry

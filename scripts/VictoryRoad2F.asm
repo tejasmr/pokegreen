@@ -100,19 +100,20 @@ VictoryRoad2FHikerText:
 	jp TextScriptEnd
 
 VictoryRoad2FHikerBattleText:
-	text "ここがッ！"
-	line "<TRAINER>　さいごの　しれん！"
-	cont "チャンピオン　ロード　だあ！"
+	text "HERE IS THE FINAL"
+	line "<TRAINER> TRIAL!"
+	cont "VICTORY ROAD!"
 	done
 
 VictoryRoad2FHikerEndBattleText:
-	text "チェストー！"
+	text "CHEST-O!"
 	prompt
 
 VictoryRoad2FHikerAfterBattleText:
-	text "ここも　いたる　ところに"
-	line "しかけが　ある！　こまったときは"
-	cont "いわを　おして　みろ！"
+	text "PUZZLES EVERY-"
+	line "WHERE! WHEN IN"
+	cont "TROUBLE·TRY"
+	cont "PUSHING BOULDERS!"
 	done
 
 VictoryRoad2FSuperNerd1Text:
@@ -122,17 +123,20 @@ VictoryRoad2FSuperNerd1Text:
 	jp TextScriptEnd
 
 VictoryRoad2FSuperNerd1BattleText:
-	text "ここに　きた　から　には"
-	line "してんのうに　いどむ　つもりだな！"
+	text "SINCE YOU CAME"
+	line "HERE·YOU AIM TO"
+	cont "CHALLENGE THE"
+	cont "ELITE FOUR!"
 	done
 
 VictoryRoad2FSuperNerd1EndBattleText:
-	text "<⋯>　できるッ！"
+	text "<⋯>YOU CAN DO IT!"
 	prompt
 
 VictoryRoad2FSuperNerd1AfterBattleText:
-	text "そうだ！　<RIVAL>も"
-	line "ここを　ぬけてったぜ！"
+	text "YES! <RIVAL>"
+	line "PASSED THROUGH"
+	cont "HERE AS WELL!"
 	done
 
 VictoryRoad2FCooltrainerMText:
@@ -142,17 +146,18 @@ VictoryRoad2FCooltrainerMText:
 	jp TextScriptEnd
 
 VictoryRoad2FCooltrainerMBattleText:
-	text "ピシッ　ピシーッ！"
-	line "ムチが　しなるぜーッ！"
+	text "CRACK CRACK-T!"
+	line "MY WHIP CRACKS!"
 	done
 
 VictoryRoad2FCooltrainerMEndBattleText:
-	text "ひゅーッ！"
+	text "HYUU-T!"
 	prompt
 
 VictoryRoad2FCooltrainerMAfterBattleText:
-	text "さすが　チャンピオン　ロードに"
-	line "くる　だけの　ことは　あるな<⋯>！"
+	text "SASUGA! WORTHY"
+	line "OF WALKING ON"
+	cont "VICTORY ROAD<⋯>!"
 	done
 
 VictoryRoad2FSuperNerd2Text:
@@ -162,17 +167,19 @@ VictoryRoad2FSuperNerd2Text:
 	jp TextScriptEnd
 
 VictoryRoad2FSuperNerd2BattleText:
-	text "ここを　ぶじに　ぬければ"
-	line "してんのうに　あえるぞ！"
+	text "PASS SAFELY HERE"
+	line "AND YOU SHALL"
+	cont "MEET ELITE FOUR!"
 	done
 
 VictoryRoad2FSuperNerd2EndBattleText:
-	text "<⋯>　ありー！"
+	text "<⋯>ARII-T!"
 	prompt
 
 VictoryRoad2FSuperNerd2AfterBattleText:
-	text "#の　ちしき　だったら"
-	line "ぼくは　まけないと　おもうぞ！"
+	text "IN KNOWLEDGE OF"
+	line "#·I WONT LOSE"
+	cont "TO ANYONE!"
 	done
 
 VictoryRoad2FSuperNerd3Text:
@@ -182,17 +189,19 @@ VictoryRoad2FSuperNerd3Text:
 	jp TextScriptEnd
 
 VictoryRoad2FSuperNerd3BattleText:
-	text "どうだ！"
-	line "チャンピオン　ロードは　きついか？"
+	text "HOW IS IT?!"
+	line "IS VICTORY ROAD"
+	cont "TOUGH ENOUGH?!"
 	done
 
 VictoryRoad2FSuperNerd3EndBattleText:
-	text "よし　ごうかくだ！"
+	text "ALRIGHT! PASSED!"
 	prompt
 
 VictoryRoad2FSuperNerd3AfterBattleText:
-	text "ここで　へばって"
-	line "ひきかえす　やつも　おおいぜ！"
+	text "MANY TIRED OUT"
+	line "AND TURNED BACK"
+	cont "FROM HERE!"
 	done
 
 VictoryRoad2FMoltresText:
@@ -202,7 +211,7 @@ VictoryRoad2FMoltresText:
 	jp TextScriptEnd
 
 VictoryRoad2FMoltresBattleText:
-	text "ギヤーオ！@"
+	text "GYAAOO!@"
 	text_asm
 	ld a, MOLTRES
 	call PlayCry

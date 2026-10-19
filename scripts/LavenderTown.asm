@@ -28,58 +28,78 @@ LavenderTownLittleGirlText:
 	jp TextScriptEnd
 
 .DoYouBelieveInGhostsText:
-	text "あなた"
-	line "ゆうれいは　いると　おもう？"
+	text "YOU!"
+	line "DO YOU THINK"
+	cont "GHOSTS EXIST?"
+	cont "『YUUREI』·GHOST!"
 	done
 
 .SoThereAreBelieversText:
-	text "<⋯>ふーん"
-	line "しんじてる　ひとって　いるんだ"
+	text "<⋯>HMM!"
+	line "SO BELIEVER GUY"
+	cont "REALLY EXISTS!"
 	done
 
 .HaHaGuessNotText:
-	text "あはは　そうよね！"
+	text "HAHA OF COURSE!"
 
-	para "あなたの　みぎかたに"
-	line "しろい　てが　おかれてる　なんて"
-	cont "<⋯>あたしの　みまちがいよね"
+	para "THAT WHITE HAND"
+	line "PLACED ON YOUR"
+	cont "RIGHT SHOULDER<⋯>"
+
+	para "<⋯>MUST BE VISION"
+	line "MISTAKE OF MINE!"
 	done
 
 LavenderTownCooltrainerMText:
-	text "ここは　#の　おはかで"
-	line "ゆうめいな　タウンだ<⋯>"
+	text "THIS TOWN FAMOUS"
+	line "FOR # GRAVES!"
+	cont "『OHAKA』·TOMB!"
 
-	para "かっていた　#が　しんだとき"
-	line "#　タワーに　もっていって"
-	cont "めいふくを　いのるのさ<⋯>"
+	para "WHEN PET # DIES"
+	line "WE CARRY TO TOWER"
+	cont "AND PRAY FOR"
+	cont "『MEIFUKU』·PEACE<⋯>"
 	done
 
 LavenderTownSuperNerdText:
-	text "さいきん　#　タワーに"
-	line "ゆうれいが　でる　らしいんだ<⋯>"
+	text "LATELY IN #"
+	line "TOWER A GHOST"
+	cont "APPEARS IT SEEMS!"
 
-	para "どうも　<ROCKET>に　ころされた"
-	line "#の　ゆうれい　らしい<⋯>"
+	para "SEEMS LIKE GHOST"
+	line "OF # MURDERED"
+	cont "BY EVIL TEAM"
+	cont "<ROCKET> CRIMINALS<⋯>"
 	done
 
 LavenderTownSignText:
-	text "ここは　シオン　タウン"
-	line "シオンは　むらさき　とうとい　いろ"
+	text "LAVENDER TOWN"
+	line "JAPAN:『SHION』!"
+	cont "SHION IS PURPLE"
+	cont "NOBLE COLOR!"
 	done
 
 LavenderTownSilphScopeSignText:
-	text "みえない　#も　よくみえる？"
-	line "しん　せいひん！　シルフスコープ！"
+	text "CAN SEE UNSEEN"
+	line "# CLEARLY?"
+	cont "NEW PRODUCT!"
+	cont "『SHIN SEIHIN』!"
 
-	para "<⋯>　シルフ　カンパニー"
+	para "SILPH SCOPE!"
+	line "<⋯>SILPH COMPANY"
 	done
 
 LavenderTownPokemonHouseSignText:
-	text "ここは　あいの　ボランティア"
-	line "#　ハウス"
+	text "LOVE VOLUNTEER"
+	line "『AI NO BORANTIA』"
+	cont "# HOUSE!"
 	done
 
 LavenderTownPokemonTowerSignText:
-	text "ここは　#の　れいはい　とう"
-	line "#　タワー"
+	text "# MEMORIAL"
+	line "WORSHIP TOWER"
+	cont "『REIHAI TOU』!"
+	cont "# TOWER"
 	done
+

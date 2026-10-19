@@ -4,9 +4,10 @@ PrintMagazinesText:
 	ret
 
 MagazinesText::
-	text "#　ざっしが　ならんでる！"
+	text "# MAGAZINES"
+	line "ARE LINED UP！"
 
-	para "<⋯>#　てちょう"
+	para "<⋯># HANDBOOK"
 
-	para "<⋯>#　グラフ"
+	para "<⋯># GRAPH"
 	done

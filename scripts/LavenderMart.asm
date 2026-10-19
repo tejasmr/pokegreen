@@ -8,17 +8,20 @@ LavenderMart_TextPointers:
 	dw_const LavenderMartCooltrainerMText, TEXT_LAVENDERMART_COOLTRAINER_M
 
 LavenderMartBaldingGuyText:
-	text "おじさんが　さがしてる　のは<⋯>"
+	text "UNCLE IS HUNTING"
+	line "FOR ITEMS THAT<⋯>"
 
-	para "#が　たたかってる　とき"
-	line "のうりょくを　いちじ　てきに"
-	cont "あげる　どうぐ　なんだが<⋯>"
+	para "TEMPORARILY BOOST"
+	line "STAT POWER DURING"
+	cont "# BATTLE TIME!"
 
-	para "プラスパワー　ディフェンダー"
-	line "スピーダー　スペシャルアップ<⋯>"
+	para "PLUS POWER!"
+	line "DEFENDER!"
+	cont "SPEEDER!"
+	cont "SPECIAL UP<⋯>"
 
-	para "<⋯>という"
-	line "なまえ　なんだが　しらんかな？"
+	para "SUCH ARE NAMES"
+	line "YOU KNOW THEM?"
 	done
 
 LavenderMartCooltrainerMText:
@@ -35,15 +38,22 @@ LavenderMartCooltrainerMText:
 	jp TextScriptEnd
 
 .ReviveText
-	text "げんきのかけらは　かった？"
-	line "ひんしじょうたいの　#を"
-	cont "げんきに　する　べんりな　どうぐさ"
+	text "BOUGHT REVIVE?"
+	line "『GENKI NO KAKERA』"
+	cont "PIECE OF VIGOR!"
+
+	para "VERY HANDY ITEM"
+	line "TO MAKE FAINTED"
+	cont "『HINSHI』# WELL!"
 	done
 
 .NuggetText
-	text "この　あいだ　やまおくで"
-	line "きんのたまを　ひろい　ましてね！"
+	text "OTHER DAY IN DEEP"
+	line "MOUNTAIN I PICKED"
+	cont "UP A GOLD NUGGET"
+	cont "『KIN NO TAMA』!"
 
-	para "つかえない　しなもの　ですが"
-	line "うったら　なんと　５０００円でした"
+	para "CANNOT BE USED"
+	line "BUT SOLD FOR"
+	cont "WHOLE 5000 YEN!"
 	done

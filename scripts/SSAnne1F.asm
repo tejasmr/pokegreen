@@ -8,20 +8,25 @@ SSAnne1F_TextPointers:
 	dw_const SSAnne1FSailorText, TEXT_SSANNE1F_SAILOR
 
 SSAnne1FWaiterText:
-	text "ボン　ジュール！"
-	line "わたしは　このふねの　ボーイです"
+	text "BONJOUR!"
+	line "I AM CABIN WAITER"
+	cont "ON THIS SHIP!"
 
-	para "ごようを　なんなりと"
-	line "おもうしつけ　ください！"
+	para "ANY SERVICE YOU"
+	line "NEED· JUST ASK!"
 
-	para "<⋯>　<⋯>　<⋯>"
-	line "<⋯>　むくちな　かた　ですね"
+	para "<⋯> <⋯> <⋯>"
+	line "<⋯>YOU ARE VERY"
+	cont "『MUKUCHI』!"
+	cont "SO QUIET PERSON!"
 	done
 
 SSAnne1FSailorText:
-	text "この　ふねの　おきゃくは"
-	line "ながたびに　たいくつ　してる！"
+	text "PASSENGERS ARE"
+	line "SO BORED OF"
+	cont "THIS LONG TRIP!"
 
-	para "ひま　つぶしに　たたかいを"
-	line "いどんで　くる　ひとも　いるかも"
+	para "SOME MAY BATTLE"
+	line "YOU TO KILL"
+	cont "『HIMA』 TIME!"
 	done

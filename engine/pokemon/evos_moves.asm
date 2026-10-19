@@ -299,30 +299,30 @@ CancelledEvolution:
 	jp Evolution_PartyMonLoop
 
 EvolvedText:
-	text "おめでとう！　@"
+	text "OMEDETOU @"
 	text_ram wStringBuffer
-	text "は"
+	text_start
 	done
 
 IntoText:
 	text_start
-	line "@"
+	line "IS @"
 	text_ram wNameBuffer
-	text "に　しんかした"
+	text "！"
 	done
 
 StoppedEvolvingText:
-	text "あれ<⋯>？"
+	text "ARE<⋯>？"
 	line "@"
 	text_ram wStringBuffer
-	text "の　へんかが　とまった！"
+	text " STOPPED！"
 	prompt
 
 IsEvolvingText:
-	text "<⋯>　おや！？"
+	text "<⋯>OYA！？"
 	line "@"
 	text_ram wStringBuffer
-	text "の　ようすが<⋯>！"
+	text " EVOLVES！"
 	done
 
 Evolution_ReloadTilesetTilePatterns:

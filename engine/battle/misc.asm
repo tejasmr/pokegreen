@@ -35,7 +35,7 @@ FormatMovesString:
 	jr z, .done
 	jr .printMoveNameLoop
 .printDashLoop
-	ld a, 'ー'
+	ld a, '-'
 	ld [de], a
 	inc de
 	inc b

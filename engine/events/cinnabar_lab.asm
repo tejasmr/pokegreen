@@ -73,42 +73,49 @@ GiveFossilToCinnabarLab::
 	ret
 
 .ScientistSeesFossilText:
-	text "おお！"
-	line "それは　@"
+	text "OOOH！ THAT IS"
+	line "@"
 	text_ram wNameBuffer
 	text "！"
 
-	para "おお　むかしの　#"
+	para "ANCIENT #"
 	line "@"
 	text_ram wStringBuffer
-	text "　いう　カセキね！"
+	text_start
+	cont "FOSSIL KASEKI NE！"
 
-	para "わたしの　つくった"
-	line "カセキ　さいせい　マシンで"
+	para "WITH MY INVENTED"
+	line "KASEKI REVIVE"
+	cont "MACHINE···"
 
-	para "これ！"
-	line "いきかえらせて　みせるね！"
+	para "SHALL I REVIVE IT"
+	line "BACK TO LIFE NE？"
 	done
 
 .ScientistTakesFossilText:
-	text "はいー！　じゃ　それ"
-	line "はやく　こっちに　よこす　よろし！"
+	text "HAI-！ THEN GIVE"
+	line "TO ME QUICKLY"
+	cont "YOROSHI！"
 
-	para "<PLAYER>は　へんな　はかせに"
+	para "<PLAYER> HANDED"
 	line "@"
 	text_ram wNameBuffer
-	text "を　あずけた！"
+	text_start
+	cont "TO WEIRD HAKASE！"
 	prompt
 
 .GoForAWalkText:
-	text "ちょっと　じかん　かかるよ！"
+	text "TAKES A LITTLE"
+	line "TIME JIKAN YO！"
 
-	para "そこらへんを　すこし　"
-	line "ブラブラ　してくると　よろしー！"
+	para "GO WANDER AROUND"
+	line "BURA-BURA FOR A"
+	cont "BIT YOROSHI-！"
 	done
 
 .ComeAgainText:
-	text "じゃー！　また　くる　よろし！"
+	text "JAA-！ COME AGAIN"
+	line "MATA YOROSHI！"
 	done
 
 PrintFossilsInBag:

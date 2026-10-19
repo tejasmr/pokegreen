@@ -266,6 +266,11 @@ SECTION "Diploma", ROMX
 INCLUDE "engine/events/diploma.asm"
 
 
+SECTION "In-Game Trades", ROMX
+
+INCLUDE "engine/events/in_game_trades.asm"
+
+
 SECTION "Trainer Sight", ROMX
 
 INCLUDE "engine/overworld/trainer_sight.asm"
@@ -332,7 +337,6 @@ INCLUDE "engine/battle/ghost_marowak_anim.asm"
 INCLUDE "engine/battle/battle_transitions.asm"
 INCLUDE "engine/items/town_map.asm"
 INCLUDE "engine/gfx/mon_icons.asm"
-INCLUDE "engine/events/in_game_trades.asm"
 INCLUDE "engine/gfx/palettes.asm"
 INCLUDE "engine/menus/save.asm"
 
@@ -367,27 +371,6 @@ INCLUDE "engine/movie/evolution.asm"
 INCLUDE "engine/overworld/elevator.asm"
 INCLUDE "engine/items/tm_prices.asm"
 
-
-SECTION "Extra Font Graphics", ROMX
-
-LoadFontExtra2Tiles::
-	ldh a, [rLCDC]
-	bit B_LCDC_ENABLE, a
-	jr nz, .on
-; off
-	ld hl, FontExtra2Graphics
-	ld de, vChars2 tile $4b
-	ld bc, 13 tiles
-	jp CopyData
-
-.on
-	ld de, FontExtra2Graphics
-	ld hl, vChars2 tile $4b
-	lb bc, BANK(FontExtra2Graphics), 13
-	jp CopyVideoData
-
-FontExtra2Graphics:: INCBIN "gfx/font/font_extra2.2bpp"
-FontExtra2GraphicsEnd::
 
 
 SECTION "Item Names and Prices", ROMX

@@ -3,5 +3,6 @@ PrintNewBikeText:
 	tx_pre_jump NewBicycleText
 
 NewBicycleText::
-	text "ピッカピカの　じてんしゃだ！"
+	text "A SPARKLING SHINY"
+	line "NEW BICYCLE！"
 	done

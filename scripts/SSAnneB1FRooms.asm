@@ -43,18 +43,19 @@ SSAnneB1FRoomsSailor1Text:
 	jp TextScriptEnd
 
 SSAnneB1FRoomsSailor1BattleText:
-	text "ふなのりに"
-	line "ケンカは　つきものだ　やるか！"
+	text "SAILORS AND"
+	line "FIGHTS GO"
+	cont "TOGETHER! COME ON"
 	done
 
 SSAnneB1FRoomsSailor1EndBattleText:
-	text "おし！"
-	line "いい　しょうぶ　だった"
+	text "OOSH! THAT WAS A"
+	line "GOOD BATTLE!"
 	prompt
 
 SSAnneB1FRoomsSailor1AfterBattleText:
-	text "ははは！"
-	line "ぼうずも　ふなのりに　ならんか？"
+	text "HAHAHA! WANT TO"
+	line "BE A SAILOR TOO?"
 	done
 
 SSAnneB1FRoomsSailor2Text:
@@ -64,18 +65,21 @@ SSAnneB1FRoomsSailor2Text:
 	jp TextScriptEnd
 
 SSAnneB1FRoomsSailor2BattleText:
-	text "そら　こい！"
-	line "ふなのり　だましいに　かけて　かつ"
+	text "HERE I COME! ON"
+	line "MY SAILOR SOUL·"
+	cont "I SHALL WIN!"
 	done
 
 SSAnneB1FRoomsSailor2EndBattleText:
-	text "ふなのり　だましいも"
-	line "おまえには　まけた！"
+	text "MY SAILOR SOUL"
+	line "LOST TO YOU!"
 	prompt
 
 SSAnneB1FRoomsSailor2AfterBattleText:
-	text "クチバの　みなと　といえば"
-	line "つりおやじは　げんき　かなー？"
+	text "SPEAKING OF PORT"
+	line "KUCHIBA· IS THAT"
+	cont "『TSURI OYAJI』"
+	cont "GURU FISHING WELL"
 	done
 
 SSAnneB1FRoomsSailor3Text:
@@ -85,19 +89,20 @@ SSAnneB1FRoomsSailor3Text:
 	jp TextScriptEnd
 
 SSAnneB1FRoomsSailor3BattleText:
-	text "ふなのり　だって"
-	line "#　ぐらい　もってるぜ！"
+	text "EVEN SAILORS"
+	line "HAVE AT LEAST"
+	cont "SOME #!"
 	done
 
 SSAnneB1FRoomsSailor3EndBattleText:
-	text "なかなか"
-	line "やるじゃねーか"
+	text "YOU ARE QUITE"
+	line "GOOD AINT YA!"
 	prompt
 
 SSAnneB1FRoomsSailor3AfterBattleText:
-	text "おれたちの　#は"
-	line "うみに　でた　ときに"
-	cont "じぶんで　とった　もの　ばかり　だぜ"
+	text "ALL OUR # WERE"
+	line "CAUGHT BY US OUT"
+	cont "AT WILD SEA!"
 	done
 
 SSAnneB1FRoomsSailor4Text:
@@ -107,19 +112,19 @@ SSAnneB1FRoomsSailor4Text:
 	jp TextScriptEnd
 
 SSAnneB1FRoomsSailor4BattleText:
-	text "こういう　げんきな　こども"
-	line "おれは　すきだぜ！@"
+	text "LIVELY KIDS LIKE"
+	line "YOU· I LIKE EM!@"
 	text_end
 
 SSAnneB1FRoomsSailor4EndBattleText:
-	text "ええい！"
-	line "まけたぜ！"
+	text "ARRGH! I LOST!"
 	prompt
 
 SSAnneB1FRoomsSailor4AfterBattleText:
-	text "うみの　#は"
-	line "ふかい　ところに　いるから"
-	cont "つりざおで　つり　あげるんだ！"
+	text "SEA # LIVE WAY"
+	line "DOWN DEEP· SO WE"
+	cont "USE FISHING ROD"
+	cont "TO PULL THEM UP!"
 	done
 
 SSAnneB1FRoomsSailor5Text:
@@ -129,18 +134,20 @@ SSAnneB1FRoomsSailor5Text:
 	jp TextScriptEnd
 
 SSAnneB1FRoomsSailor5BattleText:
-	text "うっしゃー！"
-	line "まけたら　うみ　に　おとすぞー！"
+	text "YEAAH! IF YOU"
+	line "LOSE· OVERBOARD"
+	cont "INTO SEA YOU GO!"
 	done
 
 SSAnneB1FRoomsSailor5EndBattleText:
-	text "くー　やられた！"
+	text "KUH! BEATEN BAD!"
 	prompt
 
 SSAnneB1FRoomsSailor5AfterBattleText:
-	text "うみに　でてると"
-	line "たまーに　クラゲ　#が"
-	cont "ながれて　くるぜ"
+	text "OUT AT SEA· ONCE"
+	line "IN A WHILE A"
+	cont "JELLYFISH # WILL"
+	cont "FLOAT ON BY!"
 	done
 
 SSAnneB1FRoomsFisherText:
@@ -150,33 +157,40 @@ SSAnneB1FRoomsFisherText:
 	jp TextScriptEnd
 
 SSAnneB1FRoomsFisherBattleText:
-	text "うみのもの　とも　やまのもの　とも"
-	line "わからない　しんいり　さん！"
+	text "ROOKIE OF UNKNOWN"
+	line "ORIGIN! NEITHER"
+	cont "FISH NOR FOWL!"
 
-	para "わたしが　もってるのは"
-	line "うみのもの　ばかり　です！"
+	para "EVERYTHING I GOT"
+	line "IS FROM THE SEA!"
 	done
 
 SSAnneB1FRoomsFisherEndBattleText:
-	text "ちっ！"
-	line "つり　のがしたよ"
+	text "TCH! THE BIG ONE"
+	line "GOT AWAY!"
 	prompt
 
 SSAnneB1FRoomsFisherAfterBattleText:
-	text "あなた　まかしたら　つりびとの"
-	line "つきびとに　しようと　おもってた"
+	text "IF I WON· I WAS"
+	line "GOING TO MAKE"
+	cont "YOU MY FISHING"
+	cont "ASSISTANT!"
 	done
 
 SSAnneB1FRoomsSuperNerdText:
-	text "おれの　あいぼう　ゴーリキーは"
-	line "ごっつい　ちから　もち！"
+	text "MY PARTNER GORIKY"
+	line "HAS HEFTY POWER!"
 
-	para "すごく　おもい　いわ　だって"
-	line "かいりきで　うごかせるぜ！"
+	para "EVEN SUPER HEAVY"
+	line "BOULDERS CAN BE"
+	cont "MOVED WITH"
+	cont "『KAIRIKI』!"
+	cont "SUPER STRENGTH!"
 	done
 
 SSAnneB1FRoomsMachokeText:
-	text "ゴーリキー『ごおー　ごごごー@"
+	text "GORIKY: 『GOOO"
+	line "GOGOGO』!@"
 	text_asm
 	ld a, MACHOKE
 	call PlayCry

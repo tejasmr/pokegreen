@@ -42,16 +42,15 @@ StartSlotMachine:
 	ret
 
 GameCornerOutOfOrderText::
-	text "こしょう　ちゅう！"
-	line "<⋯>　ざんねん　だけど　こわれてる"
+	text "OUT OF ORDER！"
+	line "ITS BROKEN<⋯>"
 	done
 
 GameCornerOutToLunchText::
-	text "おしょくじ　ちゅう！"
-	line "<⋯>　の　フダが　かけてある！"
+	text "OUT TO LUNCH！"
 	done
 
 GameCornerSomeonesKeysText::
-	text "カギが　おいてある<⋯>"
-	line "きっと　これは　だれかの　だいだ！"
+	text "KEYS ARE LEFT<⋯>"
+	line "SOMEONES SEAT！"
 	done

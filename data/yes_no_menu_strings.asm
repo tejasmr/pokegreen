@@ -8,39 +8,39 @@ TwoOptionMenuStrings:
 	table_width 5
 	; width, height, blank line before first menu item?, text pointer
 	two_option_menu 4, 3, FALSE, .YesNoMenu
-	two_option_menu 4, 3, FALSE, .NorthWestMenu
-	two_option_menu 4, 3, FALSE, .SouthEastMenu
+	two_option_menu 6, 3, FALSE, .NorthWestMenu
+	two_option_menu 6, 3, FALSE, .SouthEastMenu
 	two_option_menu 6, 3, FALSE, .YesNoMenu
-	two_option_menu 4, 3, FALSE, .NorthEastMenu
-	two_option_menu 5, 3, FALSE, .TradeCancelMenu
+	two_option_menu 6, 3, FALSE, .NorthEastMenu
+	two_option_menu 7, 3, FALSE, .TradeCancelMenu
 	two_option_menu 5, 4, TRUE,  .HealCancelMenu
 	two_option_menu 4, 3, FALSE, .NoYesMenu
 	assert_table_length NUM_TWO_OPTION_MENUS
 
 .NoYesMenu:
-	db   "いいえ"
-	next "はい@"
+	db   "NO"
+	next "YES@"
 
 .YesNoMenu:
-	db   "はい"
-	next "いいえ@"
+	db   "YES"
+	next "NO@"
 
 .NorthWestMenu:
-	db   "きた"
-	next "にし@"
+	db   "NORTH"
+	next "WEST@"
 
 .SouthEastMenu:
-	db   "みなみ"
-	next "ひがし@"
+	db   "SOUTH"
+	next "EAST@"
 
 .NorthEastMenu:
-	db   "きた"
-	next "ひがし@"
+	db   "NORTH"
+	next "EAST@"
 
 .TradeCancelMenu:
-	db   "こうかん"
-	next "やめる@"
+	db   "TRADE"
+	next "CANCEL@"
 
 .HealCancelMenu:
-	db   "あずける"
-	next "やめる@"
+	db   "HEAL"
+	next "QUIT@"

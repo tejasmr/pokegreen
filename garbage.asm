@@ -35,180 +35,86 @@ ENDC
 
 
 SECTION "Garbage 3", ROMX
-IF DEF(_REV0)
-	INCBIN "garbage/rev_0/garbage_3.bin"
-ENDC
-IF DEF(_REV1)
-	INCBIN "garbage/rev_1/garbage_3.bin"
-ENDC
+; empty to allow Bank 3 expansions
 
 
 SECTION "Garbage 4", ROMX
-IF DEF(_REV0)
-	db $00, $0D, $35, $41, $00
-ENDC
-IF DEF(_REV1)
-	db $00, $EF, $00, $FF, $14
-ENDC
+; empty to allow Bank 4 expansions
 
 
 SECTION "Garbage 5", ROMX
-IF DEF(_REV0)
-	INCBIN "garbage/rev_0/garbage_5.bin"
-ENDC
-IF DEF(_REV1)
-	INCBIN "garbage/rev_1/garbage_5.bin"
-ENDC
+; empty to allow Bank 5 expansions
 
 
 SECTION "Garbage 6", ROMX
-IF DEF(_REV0)
-	INCBIN "garbage/rev_0/garbage_6.bin"
-ENDC
-IF DEF(_REV1)
-	INCBIN "garbage/rev_1/garbage_6.bin"
-ENDC
+; empty to allow Bank 6 expansions
 
 
 SECTION "Garbage 7", ROMX
-IF DEF(_REV0)
-	INCBIN "garbage/rev_0/garbage_7.bin"
-ENDC
-IF DEF(_REV1)
-	INCBIN "garbage/rev_1/garbage_7.bin"
-ENDC
+; empty to allow Bank 7 expansions
 
 
 SECTION "Garbage 9", ROMX
-IF DEF(_REV0)
-	INCBIN "garbage/rev_0/garbage_9.bin"
-ENDC
-IF DEF(_REV1)
-	INCBIN "garbage/rev_1/garbage_9.bin"
-ENDC
+; empty to allow Bank 9 expansions
 
 
 SECTION "Garbage 10", ROMX
-IF DEF(_REV0)
-	INCBIN "garbage/rev_0/garbage_10.bin"
-ENDC
-IF DEF(_REV1)
-	INCBIN "garbage/rev_1/garbage_10.bin"
-ENDC
+; empty to allow Bank 10 expansions
+
 
 
 SECTION "Garbage 11", ROMX
-IF DEF(_REV0)
-	db $79
-ENDC
-IF DEF(_REV1)
-	db $EF
-ENDC
+; empty to allow Bank 11 expansions
 
 
 SECTION "Garbage 12", ROMX
-IF DEF(_REV0)
-	INCBIN "garbage/rev_0/garbage_12.bin"
-ENDC
-IF DEF(_REV1)
-	INCBIN "garbage/rev_1/garbage_12.bin"
-ENDC
+; empty to allow Bank 12 expansions
 
 
 SECTION "Garbage 14", ROMX
-IF DEF(_REV0)
-	db $FD
-ENDC
-IF DEF(_REV1)
-	db $FF
-ENDC
+; empty to allow Bank 14 expansions
 
 
-IF DEF(_REV0)
-	SECTION "Garbage 15", ROMX, BANK[15]
-		db $DB, $E9, $E5, $35, $7F
-ENDC
+SECTION "Garbage 15", ROMX
+; empty to allow Bank 15 expansions
 
 
 SECTION "Garbage 16", ROMX
-IF DEF(_REV0)
-	INCBIN "garbage/rev_0/garbage_16.bin"
-ENDC
-IF DEF(_REV1)
-	INCBIN "garbage/rev_1/garbage_16.bin"
-ENDC
+; empty to allow Bank 10 expansions
 
 
 SECTION "Garbage 17", ROMX
-IF DEF(_REV0)
-	INCBIN "garbage/rev_0/garbage_17.bin"
-ENDC
-IF DEF(_REV1)
-	INCBIN "garbage/rev_1/garbage_17.bin"
-ENDC
+; empty to allow Bank 17 expansions
+
 
 
 SECTION "Garbage 18", ROMX
-IF DEF(_REV0)
-	INCBIN "garbage/rev_0/garbage_18.bin"
-ENDC
-IF DEF(_REV1)
-	INCBIN "garbage/rev_1/garbage_18.bin"
-ENDC
+; empty to allow Bank 18 expansions
 
 
 SECTION "Garbage 19", ROMX
-IF DEF(_REV0)
-	db $95, $E3
-ENDC
-IF DEF(_REV1)
-	db $10, $FF
-ENDC
+; empty to allow Bank 13 expansions
 
 
 SECTION "Garbage 20", ROMX
-IF DEF(_REV0)
-	INCBIN "garbage/rev_0/garbage_20.bin"
-ENDC
-IF DEF(_REV1)
-	INCBIN "garbage/rev_1/garbage_20.bin"
-ENDC
+; empty to allow Bank 14 expansions
 
 
 SECTION "Garbage 21", ROMX
-IF DEF(_REV0)
-	INCBIN "garbage/rev_0/garbage_21.bin"
-ENDC
-IF DEF(_REV1)
-	INCBIN "garbage/rev_1/garbage_21.bin"
-ENDC
+; empty to allow Bank 15 expansions
 
 
 SECTION "Garbage 22", ROMX
-IF DEF(_REV0)
-	INCBIN "garbage/rev_0/garbage_22.bin"
-ENDC
-IF DEF(_REV1)
-	INCBIN "garbage/rev_1/garbage_22.bin"
-ENDC
+; empty to allow Bank 16 expansions
+
 
 
 SECTION "Garbage 23", ROMX
-IF DEF(_REV0)
-	INCBIN "garbage/rev_0/garbage_23.bin"
-ENDC
-IF DEF(_REV1)
-	INCBIN "garbage/rev_1/garbage_23.bin"
-ENDC
+; empty to allow Bank 17 expansions
 
 
 SECTION "Garbage 24", ROMX
-IF DEF(_REV0)
-	INCBIN "garbage/rev_0/garbage_24.bin"
-ENDC
-IF DEF(_REV1)
-	INCBIN "garbage/rev_1/garbage_24.bin"
-ENDC
+; empty to allow Bank 18 expansions
 
 
 SECTION "Garbage 25", ROMX

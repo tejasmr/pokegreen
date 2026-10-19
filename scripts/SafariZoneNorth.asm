@@ -12,33 +12,38 @@ SafariZoneNorth_TextPointers:
 	dw_const SafariZoneNorthTrainerTips3Text,  TEXT_SAFARIZONENORTH_TRAINER_TIPS_3
 
 SafariZoneNorthRestHouseSignText:
-	text "きゅうけい　ハウス　<⋯>　いこい"
+	text "REST HOUSE <⋯>"
+	line "IKOI RELAXATION"
 	done
 
 SafariZoneNorthTrainerTips1Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "<⋯>TRAINER TIPS!"
 
-	para "トレジャー　ハウスは"
-	line "まだ　さきだ！　がんばろう！"
+	para "TREASURE HOUSE"
+	line "STILL AHEAD!"
+	cont "KEEP GOING!"
 	done
 
 SafariZoneNorthSignText:
-	text "ここは　だい２　エリア"
+	text "AREA 2 NORTH"
 	done
 
 SafariZoneNorthTrainerTips2Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "<⋯>TRAINER TIPS!"
 
-	para "#は　くさむらの　なかに"
-	line "このんで　かくれる！"
+	para "# LOVE TO"
+	line "HIDE IN TALL"
+	cont "GRASS KUSAMURA!"
 
-	para "なかなか　みつからない　ときは"
-	line "くさむらを　ジグザグに　あるこう！"
+	para "WALK ZIGZAG IF"
+	line "HARD TO FIND!"
 	done
 
 SafariZoneNorthTrainerTips3Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "<⋯>TRAINER TIPS!"
 
-	para "トレジャー　ハウスを　みつけると"
-	line "ひでんマシンが　もらえるぞ！"
+	para "FIND THE SECRET"
+	line "TREASURE HOUSE TO"
+	cont "GET A SECRET HM!"
 	done
+

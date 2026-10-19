@@ -354,7 +354,7 @@ IF DEF(_GREEN)
 ENDC
 
 DebugNewGamePlayerName:
-	db "やまぐち@"
+	db "GREEN@"
 
 DebugNewGameRivalName:
-	db "いしはら@"
+	db "RED@"

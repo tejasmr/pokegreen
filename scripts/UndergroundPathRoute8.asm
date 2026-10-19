@@ -8,7 +8,9 @@ UndergroundPathRoute8_TextPointers:
 	dw_const UndergroundPathRoute8GirlText, TEXT_UNDERGROUNDPATHROUTE8_GIRL
 
 UndergroundPathRoute8GirlText:
-	text "あなたは　よく　いくの？"
-	line "タマムシ　シティの　デパート"
-	cont "いろいろ　うってて　べんりよね"
+	text "DO YOU OFTEN GO"
+	line "TO TAMAMUSHI DEPT"
+	cont "STORE? VERY HANDY"
+	cont "WITH MANY GOODS!"
 	done
+

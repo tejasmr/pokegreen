@@ -102,17 +102,19 @@ VictoryRoad3FCooltrainerM1Text:
 	jp TextScriptEnd
 
 VictoryRoad3FCooltrainerM1BattleText:
-	text "やたらと　つよい　こどもが　いると"
-	line "ウワサは　きいて　いるよ"
+	text "I HEARD RUMORS"
+	line "OF A CRAZY STRONG"
+	cont "CHILD ROAMING!"
 	done
 
 VictoryRoad3FCooltrainerM1EndBattleText:
-	text "たいした　やつだ"
+	text "GREAT LAD INDEED!"
 	prompt
 
 VictoryRoad3FCooltrainerM1AfterBattleText:
-	text "ロケットだんの　サカキを"
-	line "たおしたのは　<⋯>　きみか！"
+	text "DEFEATED SAKAKI"
+	line "OF <ROCKET><⋯>SO"
+	cont "IT WAS YOU!"
 	done
 
 VictoryRoad3FCooltrainerF1Text:
@@ -122,17 +124,19 @@ VictoryRoad3FCooltrainerF1Text:
 	jp TextScriptEnd
 
 VictoryRoad3FCooltrainerF1BattleText:
-	text "うえには　うえが　いるって"
-	line "おしえて　あげます！"
+	text "I SHALL TEACH YOU"
+	line "THERE IS ALWAYS"
+	cont "SOMEONE HIGHER!"
 	done
 
 VictoryRoad3FCooltrainerF1EndBattleText:
-	text "<⋯>　くやしい！"
+	text "<⋯>KUYASHII!"
 	prompt
 
 VictoryRoad3FCooltrainerF1AfterBattleText:
-	text "あなた　わたしより　つよいわ！"
-	line "うえには　うえが　いるって　ことか"
+	text "YOU ARE STRONGER"
+	line "THAN ME! SOMEONE"
+	cont "HIGHER INDEED<⋯>"
 	done
 
 VictoryRoad3FCooltrainerM2Text:
@@ -142,18 +146,19 @@ VictoryRoad3FCooltrainerM2Text:
 	jp TextScriptEnd
 
 VictoryRoad3FCooltrainerM2BattleText:
-	text "えらばれた　もの　だけが"
-	line "ここを　ぬけられるのだ！"
+	text "ONLY THE CHOSEN"
+	line "FEW CAN PASS"
+	cont "THROUGH HERE!"
 	done
 
 VictoryRoad3FCooltrainerM2EndBattleText:
-	text "まさかの　はいぼくだ"
+	text "UNEXPECTED LOSS!"
 	prompt
 
 VictoryRoad3FCooltrainerM2AfterBattleText:
-	text "ここの　<TRAINER>も　みんな"
-	line "#　リーグを　めざしている"
-	cont "ゆだん　しない　ほうが　いいぜ！"
+	text "ALL <TRAINER>S HERE"
+	line "AIM FOR # LEAGUE"
+	cont "DONT LOWER GUARD!"
 	done
 
 VictoryRoad3FCooltrainerF2Text:
@@ -163,15 +168,17 @@ VictoryRoad3FCooltrainerF2Text:
 	jp TextScriptEnd
 
 VictoryRoad3FCooltrainerF2BattleText:
-	text "つよい　あいてを　もとめるのは"
-	line "<TRAINER>の　しゅくめいよ！"
+	text "SEEKING STRONG"
+	line "FOES IS A <TRAINER>"
+	cont "DESTINY!"
 	done
 
 VictoryRoad3FCooltrainerF2EndBattleText:
-	text "ああッ　つよい！"
+	text "AAH-T! SO STRONG!"
 	prompt
 
 VictoryRoad3FCooltrainerF2AfterBattleText:
-	text "きびしい　たたかいを　つづけて"
-	line "ほんとうの　つよさが　みに　つくわ"
+	text "THROUGH SEVERE"
+	line "BATTLES·TRUE"
+	cont "STRENGTH IS BORN!"
 	done

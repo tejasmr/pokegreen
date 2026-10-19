@@ -47,17 +47,19 @@ Route11Gambler1Text:
 	jp TextScriptEnd
 
 Route11Gambler1BattleText:
-	text "かつか　まけるか　しょうぶ！"
+	text "WIN OR LOSE·"
+	line "LET US GAMBLE!"
 	done
 
 Route11Gambler1EndBattleText:
-	text "ちッ！"
-	line "きょうは　ついて　ない"
+	text "TCH! NOT LUCKY"
+	line "TODAY AT ALL!"
 	prompt
 
 Route11Gambler1AfterBattleText:
-	text "#は　じんせい　だ！"
-	line "じんせいは　ギャンブル　だ！"
+	text "# IS LIFE!"
+	line "AND LIFE IS"
+	cont "A GAMBLE!"
 	done
 
 Route11Gambler2Text:
@@ -67,18 +69,20 @@ Route11Gambler2Text:
 	jp TextScriptEnd
 
 Route11Gambler2BattleText:
-	text "しょうぶ　ごとが　すきでよ！"
-	line "だから　あいては　えらばねえ！"
+	text "I LOVE BETTING!"
+	line "I DONT PICK MY"
+	cont "OPPONENTS!"
 	done
 
 Route11Gambler2EndBattleText:
-	text "くそッ！"
-	line "かてると　ふんだ　が　だめか！"
+	text "DAMN! I THOUGHT"
+	line "I COULD WIN!"
 	prompt
 
 Route11Gambler2AfterBattleText:
-	text "まけを　こわがって　たら"
-	line "#は　できねえ　もんな！"
+	text "IF AFRAID OF"
+	line "LOSING· YOU CANT"
+	cont "PLAY #!"
 	done
 
 Route11Youngster1Text:
@@ -88,18 +92,22 @@ Route11Youngster1Text:
 	jp TextScriptEnd
 
 Route11Youngster1BattleText:
-	text "#に　ずるは　なし　だよ！"
-	line "せいせい　どうどう　やろう！"
+	text "NO CHEATING IN"
+	line "# BATTLES!"
+	cont "FIGHT FAIR AND"
+	cont "SQUARE! 『SEISEI"
+	cont "DOUDOU』!"
 	done
 
 Route11Youngster1EndBattleText:
-	text "ありゃ？"
-	line "こんな　はずじゃ<⋯>"
+	text "HUH? SHOULD NOT"
+	line "BE LIKE THIS<⋯>"
 	prompt
 
 Route11Youngster1AfterBattleText:
-	text "せいせい　どうどう　やった！"
-	line "こうかいは　しないよ！"
+	text "I FOUGHT FAIR"
+	line "AND SQUARE! NO"
+	cont "REGRETS FOR ME!"
 	done
 
 Route11SuperNerd1Text:
@@ -109,18 +117,20 @@ Route11SuperNerd1Text:
 	jp TextScriptEnd
 
 Route11SuperNerd1BattleText:
-	text "こんちは！"
-	line "おたくの　でんき　あんぜん　ですか？"
+	text "HELLO! IS YOUR"
+	line "ELECTRICITY"
+	cont "SAFE AT HOME?"
 	done
 
 Route11SuperNerd1EndBattleText:
-	text "おじさんを"
-	line "まかす　なんて　すごいな！"
+	text "BEATING AN OLD"
+	line "MAN· AMAZING!"
 	prompt
 
 Route11SuperNerd1AfterBattleText:
-	text "ひとこと　いい　わすれてた！"
-	line "でんきは　たいせつに！"
+	text "I FORGOT TO SAY:"
+	line "USE ELECTRICITY"
+	cont "CAREFULLY!"
 	done
 
 Route11Youngster2Text:
@@ -130,19 +140,21 @@ Route11Youngster2Text:
 	jp TextScriptEnd
 
 Route11Youngster2BattleText:
-	text "ぼくは　#　<TRAINER>に"
-	line "なった　ばかり　だ！"
-	cont "でも　かつ　じしん　あるよ！"
+	text "I JUST BECAME"
+	line "A # <TRAINER>!"
+	cont "HAVE CONFIDENCE"
+	cont "TO WIN!"
 	done
 
 Route11Youngster2EndBattleText:
-	text "まける　なんて<⋯>　まだ"
-	line "#　そだって　ないのか　なあ"
+	text "TO LOSE<⋯> ARE MY"
+	line "# NOT RAISED"
+	cont "ENOUGH YET?"
 	prompt
 
 Route11Youngster2AfterBattleText:
-	text "なんだよー"
-	line "おまえなんか　あっちいけよー！"
+	text "WHAT THE HECK!"
+	line "GO AWAY FROM ME!"
 	done
 
 Route11Gambler3Text:
@@ -152,18 +164,21 @@ Route11Gambler3Text:
 	jp TextScriptEnd
 
 Route11Gambler3BattleText:
-	text "ははーは！　わたしは"
-	line "いままで　まけた　ことが　ないぞ！"
+	text "HAHAHA! I HAVE"
+	line "NEVER LOST A"
+	cont "MATCH UNTIL NOW!"
 	done
 
 Route11Gambler3EndBattleText:
-	text "はッ！"
-	line "はじめて　まけたーッ！"
+	text "HAH! MY FIRST"
+	line "LOSS EVER!"
 	prompt
 
 Route11Gambler3AfterBattleText:
-	text "しょうぶは　ときの　うん　だ！"
-	line "そう　おもわないと　おちこむよ"
+	text "LUCK OF DRAW IN"
+	line "BATTLE! MUST"
+	cont "THINK SO OR GET"
+	cont "DEPRESSED!"
 	done
 
 Route11Gambler4Text:
@@ -173,18 +188,21 @@ Route11Gambler4Text:
 	jp TextScriptEnd
 
 Route11Gambler4BattleText:
-	text "わたしは"
-	line "いままで　かった　ことが　ない<⋯>"
+	text "I HAVE NEVER"
+	line "WON A MATCH IN"
+	cont "MY LIFE<⋯>"
 	done
 
 Route11Gambler4EndBattleText:
-	text "<⋯>　がく！"
-	line "やっぱり　まけた！"
+	text "<⋯>GACK! AS I"
+	line "EXPECTED· LOST!"
 	prompt
 
 Route11Gambler4AfterBattleText:
-	text "しょうぶは　ときの　うん　だ<⋯>"
-	line "そう　おもわないと　おちこむよ"
+	text "LUCK OF DRAW IN"
+	line "BATTLE<⋯> MUST"
+	cont "THINK SO OR GET"
+	cont "DEPRESSED!"
 	done
 
 Route11Youngster3Text:
@@ -194,21 +212,24 @@ Route11Youngster3Text:
 	jp TextScriptEnd
 
 Route11Youngster3BattleText:
-	text "ぼくは　クラスで　いちばん　つよい！"
-	line "まいあさ　れんしゅうも　してるんだ！"
+	text "I AM STRONGEST"
+	line "IN MY CLASS!"
+	cont "TRAIN EVERY MORN!"
 	done
 
 Route11Youngster3EndBattleText:
-	text "あちゃー！　<⋯>　もっと"
-	line "つよい　#　でなきゃ　だめだ！"
+	text "ACHA<⋯>! NEED A"
+	line "STRONGER #!"
 	prompt
 
 Route11Youngster3AfterBattleText:
-	text "たまに　やまから　おりてくる"
-	line "ふとった　#<⋯>"
+	text "THAT FAT # COMING"
+	line "DOWN FROM THE"
+	cont "MOUNTAIN<⋯>"
 
-	para "あれ　つかまえたら"
-	line "つよいんじゃ　ないかな？"
+	para "IF I CAUGHT IT·"
+	line "WOULD IT BE VERY"
+	cont "STRONG?"
 	done
 
 Route11SuperNerd2Text:
@@ -218,18 +239,20 @@ Route11SuperNerd2Text:
 	jp TextScriptEnd
 
 Route11SuperNerd2BattleText:
-	text "オッース！"
-	line "でんきの　けしわすれ　して　ないか"
+	text "YO! DID YOU"
+	line "FORGET TO TURN"
+	cont "OFF THE LIGHTS?"
 	done
 
 Route11SuperNerd2EndBattleText:
-	text "まいった！"
-	line "さいきんの　こどもは　つよい！"
+	text "I GIVE UP! KIDS"
+	line "TODAY ARE TOUGH!"
 	prompt
 
 Route11SuperNerd2AfterBattleText:
-	text "さてと<⋯>"
-	line "でんきこうじに　いかなくちゃ"
+	text "WELL THEN<⋯> OFF"
+	line "TO DO ELECTRIC"
+	cont "REPAIR WORK!"
 	done
 
 Route11Youngster4Text:
@@ -239,20 +262,23 @@ Route11Youngster4Text:
 	jp TextScriptEnd
 
 Route11Youngster4BattleText:
-	text "だいじに　そだてた　#！"
-	line "そろそろ　たたかわせて　みよう！"
+	text "# RAISED WITH"
+	line "CARE! TIME TO"
+	cont "TEST IN BATTLE!"
 	done
 
 Route11Youngster4EndBattleText:
-	text "バイバイ<⋯>！"
-	line "ありがとう　さようなら！"
+	text "BYE BYE<⋯>! THANK"
+	line "YOU AND GOODBYE!"
 	prompt
 
 Route11Youngster4AfterBattleText:
-	text "ちえッ<⋯>！"
-	line "もっと　つよいの　さがして　こよう"
+	text "TCH<⋯>! I WILL GO"
+	line "FIND A STRONGER"
+	cont "ONE TO RAISE!"
 	done
 
 Route11DiglettsCaveSignText:
-	text "ディグダの　あな"
+	text "DIGDA CAVE"
+	line "『DIGDA NO ANA』"
 	done

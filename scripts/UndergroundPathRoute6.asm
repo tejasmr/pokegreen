@@ -8,6 +8,10 @@ UndergroundPathRoute6_TextPointers:
 	dw_const UndergroundPathRoute6GirlText, TEXT_UNDERGROUNDPATHROUTE6_GIRL
 
 UndergroundPathRoute6GirlText:
-	text "ちかつうろは　うすぐらいから"
-	line "おとしもの　おおいんですって"
+	text "UNDERGROUND PATH"
+	line "IS VERY DIM!"
+
+	para "PEOPLE DROP LOST"
+	line "GOODS OFTEN!"
 	done
+

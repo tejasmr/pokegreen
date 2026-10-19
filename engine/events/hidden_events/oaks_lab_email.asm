@@ -6,20 +6,23 @@ DisplayOakLabEmailText:
 	tx_pre_jump OakLabEmailText
 
 OakLabEmailText::
-	text "<PC>を　みると"
-	line "なんと　でんしメールが　きていた！"
+	text "LOOKING AT <PC>·"
+	line "AN E-MAIL HAS"
+	cont "ARRIVED INBOX！"
 
-	para "<⋯>　<⋯>　<⋯>"
+	para "<⋯><⋯><⋯>"
 
-	para "#を　つよく　そだてて"
-	line "たたかう　#　<TRAINER>！"
-	cont "ここに　さいきょうの"
-	cont "<TRAINER>が　あつまり　ました"
+	para "# TRAINERS WHO"
+	line "RAISE # STRONG"
+	cont "AND BATTLE！"
+	cont "HERE STRONGEST"
+	cont "TRAINERS GATHER！"
 
-	para "ばしょは　セキエイ　こうげんの"
-	line "#　リーグ　ほんぶ　です！"
-	cont "オーキドはかせも"
-	cont "いちど　ごらん　ください"
-	cont "<⋯>　#　リーグ　より"
-	cont "<⋯>　<⋯>　<⋯>"
+	para "LOCATION IS"
+	line "SEKIEI PLATEAU"
+	cont "# LEAGUE HQ！"
+	cont "DR. OOKIDO PLEASE"
+	cont "COME OBSERVE ONCE"
+	cont "<⋯>FROM # LEAGUE"
+	cont "<⋯><⋯><⋯>"
 	done

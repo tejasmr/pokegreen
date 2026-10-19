@@ -68,13 +68,13 @@ SleepEffect:
 	jp PrintDidntAffectText
 
 FellAsleepText:
-	text "<TARGET>は"
-	line "ねむってしまった！"
+	text "<TARGET>"
+	line "FELL ASLEEP！"
 	prompt
 
 AlreadyAsleepText:
-	text "<TARGET>は　すでに"
-	line "ねむっている"
+	text "<TARGET>"
+	line "ALREADY ASLEEP！"
 	prompt
 
 PoisonEffect:
@@ -164,12 +164,13 @@ PoisonEffect:
 	jp PrintDidntAffectText
 
 PoisonedText:
-	text "<TARGET>は　どくをあびた！"
+	text "<TARGET>"
+	line "WAS POISONED！"
 	prompt
 
 BadlyPoisonedText:
-	text "<TARGET>は"
-	line "もうどくをあびた！"
+	text "<TARGET>"
+	line "BADLY POISONED！"
 	prompt
 
 DrainHPEffect:
@@ -305,13 +306,13 @@ FreezeBurnParalyzeEffect:
 	jp PrintText
 
 BurnedText:
-	text "<TARGET>は"
-	line "やけどをおった！"
+	text "<TARGET>"
+	line "WAS BURNED！"
 	prompt
 
 FrozenText:
-	text "<TARGET>は"
-	line "こおりづけになった！"
+	text "<TARGET>"
+	line "FROZEN SOLID！"
 	prompt
 
 CheckDefrost:
@@ -350,8 +351,8 @@ CheckDefrost:
 	jp PrintText
 
 FireDefrostedText:
-	text "ほのおをあびて<TARGET>の"
-	line "こおりが　とけた！"
+	text "FIRE DEFROSTED"
+	line "<TARGET>！"
 	prompt
 
 StatModifierUpEffect:
@@ -520,10 +521,10 @@ PrintNoEffectText:
 	jp PrintText
 
 MonsStatsRoseText:
-	text "<USER>の"
+	text "<USER>"
 	line "@"
 	text_ram wStringBuffer
-	text "が@"
+	text "@"
 	text_asm
 	ld hl, GreatlyRoseText
 	ldh a, [hWhoseTurn]
@@ -539,10 +540,10 @@ MonsStatsRoseText:
 
 GreatlyRoseText:
 	text_pause
-	text "<SCROLL>ぐーんと@"
+	text "<SCROLL>SHARPLY@"
 ; fallthrough
 RoseText:
-	text "　あがった！"
+	text " ROSE！"
 	prompt
 
 StatModifierDownEffect:
@@ -725,10 +726,10 @@ MoveMissed:
 	jp ConditionalPrintButItFailed
 
 MonsStatsFellText:
-	text "<TARGET>の"
+	text "<TARGET>"
 	line "@"
 	text_ram wStringBuffer
-	text "が@"
+	text "@"
 	text_asm
 	ld hl, FellText
 	ldh a, [hWhoseTurn]
@@ -747,10 +748,10 @@ MonsStatsFellText:
 
 GreatlyFellText:
 	text_pause
-	text "<SCROLL>がくっと@"
+	text "<SCROLL>SHARPLY@"
 ; fallthrough
 FellText:
-	text "　さがった！"
+	text " FELL！"
 	prompt
 
 PrintStatText:
@@ -923,17 +924,18 @@ SwitchAndTeleportEffect:
 	jp PrintText
 
 RanFromBattleText:
-	text "<USER>は　せんとうから"
-	line "りだつした！"
+	text "<USER>"
+	line "FLED BATTLE！"
 	prompt
 
 RanAwayScaredText:
-	text "<TARGET>は　おじけずいて"
-	line "にげだした！"
+	text "<TARGET>"
+	line "FLED IN FEAR！"
 	prompt
 
 WasBlownAwayText:
-	text "<TARGET>は　ふきとばされた！"
+	text "<TARGET>"
+	line "WAS BLOWN AWAY！"
 	prompt
 
 TwoToFiveAttacksEffect:
@@ -1068,33 +1070,27 @@ ChargeMoveEffectText:
 	ret
 
 MadeWhirlwindText:
-	text "の　まわりで"
-	line "くうきが　うずを　まく！"
+	line "WHIRLWIND！"
 	prompt
 
 TookInSunlightText:
-	text "は"
-	line "ひかりを　きゅうしゅうした！"
+	line "TOOK SUNLIGHT！"
 	prompt
 
 LoweredItsHeadText:
-	text "は"
-	line "くびを　ひっこめた！"
+	line "LOWERED HEAD！"
 	prompt
 
 SkyAttackGlowingText:
-	text "を"
-	line "はげしい　ひかりが　つつむ！"
+	line "GLOWING BRIGHT！"
 	prompt
 
 FlewUpHighText:
-	text "は"
-	line "そらたかく　とびあがった！"
+	line "FLEW UP HIGH！"
 	prompt
 
 DugAHoleText:
-	text "は"
-	line "あなをほって　ちちゅうに　もぐった！"
+	line "DUG A HOLE！"
 	prompt
 
 TrappingEffect:
@@ -1172,8 +1168,8 @@ ConfusionSideEffectSuccess:
 	jp PrintText
 
 BecameConfusedText:
-	text "<TARGET>は"
-	line "こんらんした！"
+	text "<TARGET>"
+	line "BECAME CONFUSED！"
 	prompt
 
 ConfusionEffectFailed:
@@ -1294,10 +1290,10 @@ MimicEffect:
 	jp PrintButItFailedText_
 
 MimicLearnedMoveText:
-	text "<USER>は"
-	line "@"
+	text "<USER>"
+	line "GOT @"
 	text_ram wNameBuffer
-	text "を　おぼえた！"
+	text "！"
 	prompt
 
 LeechSeedEffect:
@@ -1391,10 +1387,10 @@ DisableEffect:
 	jp PrintButItFailedText_
 
 MoveWasDisabledText:
-	text "<TARGET>の"
-	line "@"
+	text "<TARGET>"
+	line "BAN @"
 	text_ram wNameBuffer
-	text "を　ふうじこめた！"
+	text "！"
 	prompt
 
 PayDayEffect:
@@ -1419,7 +1415,7 @@ ReflectLightScreenEffect:
 ; In Japanese, using Splash in battle prints a "NothingHappened" text, while trying
 ; to lower or raise stats past minimum/maximum prints a "NoEffect" text.
 NoEffectText:
-	text "しかし　こうかが　なかった！"
+	text "BUT NO EFFECT！"
 	prompt
 
 PrintNothingHappenedText:
@@ -1427,7 +1423,7 @@ PrintNothingHappenedText:
 	jp PrintText
 
 NothingHappenedText:
-	text "しかし　なにもおこらない"
+	text "NOTHING HAPPENED！"
 	prompt
 
 ConditionalPrintButItFailed:
@@ -1440,7 +1436,7 @@ PrintButItFailedText_:
 	jp PrintText
 
 ButItFailedText:
-	text "しかし　うまく　きまらなかった！"
+	text "BUT IT FAILED！"
 	prompt
 
 PrintDidntAffectText:
@@ -1448,13 +1444,13 @@ PrintDidntAffectText:
 	jp PrintText
 
 DidntAffectText:
-	text "しかし　<TARGET>には"
-	line "きかなかった！"
+	text "DID NOT AFFECT"
+	line "<TARGET>！"
 	prompt
 
 IsUnaffectedText:
-	text "<TARGET>は"
-	line "へいきな　かおを　している！"
+	text "<TARGET>"
+	line "UNAFFECTED！"
 	prompt
 
 PrintMayNotAttackText:
@@ -1462,8 +1458,8 @@ PrintMayNotAttackText:
 	jp PrintText
 
 ParalyzedMayNotAttackText:
-	text "<TARGET>は　まひして"
-	line "わざが　でにくくなった！"
+	text "<TARGET>"
+	line "PARALYZED MAHI！"
 	prompt
 
 CheckTargetSubstitute:

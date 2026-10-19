@@ -131,41 +131,45 @@ FightingDojoKarateMasterText:
 	jp TextScriptEnd
 
 .PreBattleText:
-	text "オスッ！"
+	text "OSU!"
 
-	para "わしが　かくとう　どうじょうの"
-	line "しはん　カラテ　だいおう　である！"
+	para "I AM KARATE KING"
+	line "MASTER OF THE"
+	cont "FIGHTING DOJO!"
 
-	para "おぬしは　どうじょう　やぶりか！"
-	line "ならば　ようしゃは　せんぞ！"
+	para "YOU CHALLENGE"
+	line "OUR DOJO?!"
+	cont "I SHOW NO MERCY!"
 
-	para "トオリャー！"
+	para "TOORYAAAH!"
 	done
 
 .DefeatedText:
-	text "ウオリャ！"
-	line "だー！　やられたあー！"
+	text "UORYA!"
+	line "DAAH! DEFEATED!"
 	prompt
 
 FightingDojoKarateMasterGivePokemonText:
-	text "わしは　たしかに　まけた！"
+	text "INDEED I LOST!"
 
-	para "しかし　どうじょうの　かんばん"
-	line "<⋯>　だけは！"
-	cont "もって　いかないで　くれい！"
+	para "BUT DOJO SIGN"
+	line "『KANBAN』 BOARD⋯"
+	cont "DO NOT TAKE AWAY!"
 
-	para "かわりに　わしの　だいじな"
-	line "かくとう　#を　わたす！"
+	para "IN RETURN I GIVE"
+	line "MY CHERISHED"
+	cont "FIGHTING PET!"
 
-	para "どうか！"
-	line "すきな　ほうを　えらんで　くれい！"
+	para "PLEASE CHOOSE"
+	line "ONE YOU PREFER!"
 	done
 
 FightingDojoKarateMasterTrainWithUsText:
-	text "オスッ！"
+	text "OSU!"
 
-	para "どうだ？　ついでに　ここで"
-	line "カラテ　れんしゅう　していくか！"
+	para "HOW ABOUT IT?"
+	line "STAY AND TRAIN"
+	cont "KARATE WITH US!"
 	done
 
 FightingDojoBlackbelt1Text:
@@ -175,20 +179,21 @@ FightingDojoBlackbelt1Text:
 	jp TextScriptEnd
 
 FightingDojoBlackbelt1BattleText:
-	text "ウオースッ！"
-	line "きさま！　どうじょう　やぶり　か！"
+	text "U-OSU! BASTARD!"
+	line "DOJO BREAKER?!"
 	done
 
 FightingDojoBlackbelt1EndBattleText:
-	text "ま　まいった！"
+	text "I SURRENDER!"
 	prompt
 
 FightingDojoBlackbelt1AfterBattleText:
-	text "あんしん　するのは"
-	line "しはんに　かって　からに　しろ！"
+	text "RELAX ONLY AFTER"
+	line "YOU BEAT MASTER!"
 
-	para "おれに　かっても"
-	line "たいした　こと　ないぜ！　オスッ！"
+	para "BEATING ME IS"
+	line "NOTHING SPECIAL!"
+	cont "OSU!"
 	done
 
 FightingDojoBlackbelt2Text:
@@ -198,17 +203,21 @@ FightingDojoBlackbelt2Text:
 	jp TextScriptEnd
 
 FightingDojoBlackbelt2BattleText:
-	text "オスッ！　うでが　たつ　らしいな！"
-	line "えんりょ　なく　いくぜ！"
+	text "OSU! YOU SEEM"
+	line "SKILLED! I GO"
+	cont "WITHOUT HESITATE!"
 	done
 
 FightingDojoBlackbelt2EndBattleText:
-	text "ウオッス！　わざあり！"
+	text "U-OSU! WAZA-ARI!"
+	line "CLEVER POINT!"
 	prompt
 
 FightingDojoBlackbelt2AfterBattleText:
-	text "しはんは　かくとうかの　かみさまだ！"
-	line "いどむと　いうなら　かくご　していけ"
+	text "MASTER IS GOD"
+	line "OF FIGHTERS!"
+	cont "PREPARE RESOLVE"
+	cont "IF YOU DARE!"
 	done
 
 FightingDojoBlackbelt3Text:
@@ -218,20 +227,23 @@ FightingDojoBlackbelt3Text:
 	jp TextScriptEnd
 
 FightingDojoBlackbelt3BattleText:
-	text "チェストー！"
-	line "かたい　もの　など　こわく　ない！"
+	text "CHESTOOO!"
+	line "HARD OBJECTS DO"
+	cont "NOT SCARE ME!"
 
-	para "まいにち　こぶしで"
-	line "いわを　わる　れんしゅう　してる！"
+	para "EVERY DAY I"
+	line "SMASH BOULDERS"
+	cont "WITH MY FISTS!"
 	done
 
 FightingDojoBlackbelt3EndBattleText:
-	text "あたっ！　オスッ！"
+	text "ATAA! OSU!"
 	prompt
 
 FightingDojoBlackbelt3AfterBattleText:
-	text "かくとうかが　こわい　もの　など"
-	line "ちょうのうりょく　ぐらいだ！オスッ！"
+	text "FIGHTERS ONLY"
+	line "FEAR PSYCHIC"
+	cont "POWERS! OSU!"
 	done
 
 FightingDojoBlackbelt4Text:
@@ -241,19 +253,21 @@ FightingDojoBlackbelt4Text:
 	jp TextScriptEnd
 
 FightingDojoBlackbelt4BattleText:
-	text "オスッ！"
+	text "OSU!"
 
-	para "ここを　かくとう　どうじょうと"
-	line "しっての　ぶれい　か！"
+	para "YOU KNOW THIS IS"
+	line "FIGHTING DOJO YET"
+	cont "ACT SO RUDE?!"
 	done
 
 FightingDojoBlackbelt4EndBattleText:
-	text "ぐッ！　まいった！"
+	text "GUH! BEATEN!"
 	prompt
 
 FightingDojoBlackbelt4AfterBattleText:
-	text "ここは　ぜんこくの　かくとうか　が"
-	line "あつまる　どうじょう　だ！　オスッ！"
+	text "FIGHTERS FROM"
+	line "WHOLE COUNTRY"
+	cont "GATHER HERE! OSU!"
 	done
 
 FightingDojoHitmonleePokeBallText:
@@ -287,8 +301,9 @@ FightingDojoHitmonleePokeBallText:
 	jp TextScriptEnd
 
 .Text:
-	text "ウスッ！　キック　わざのおに！"
-	line "サワムラーを　とるか？"
+	text "OSU! KICK FIEND!"
+	line "TAKE SAWAMULAR"
+	cont "HITMONLEE?"
 	done
 
 FightingDojoHitmonchanPokeBallText:
@@ -322,10 +337,12 @@ FightingDojoHitmonchanPokeBallText:
 	jp TextScriptEnd
 
 .Text:
-	text "ウスッ！　うなる　こぶし！"
-	line "エビワラーに　するか？"
+	text "OSU! ROARING FIST"
+	line "TAKE EBIWALAR"
+	cont "HITMONCHAN?"
 	done
 
 FightingDojoBetterNotGetGreedyText:
-	text "よくばるのは　よそう<⋯>"
+	text "BETTER NOT GET"
+	line "GREEDY⋯"
 	done

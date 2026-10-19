@@ -46,32 +46,39 @@ DisplayPokemonCenterDialogue_::
 	jp UpdateSprites
 
 PokemonCenterWelcomeText:
-	text "ようこそ！"
-	line "#センターへ"
+	text "WELCOME TO THE"
+	line "# CENTER！"
 
-	para "ここでは　#の"
-	line "たいりょく　かいふくを　いたします"
+	para "WE FULL RESTORE"
+	line "YOUR # HEALTH"
+	cont "ENERGY RECOVERY！"
 	prompt
 
 ShallWeHealYourPokemonText:
 	text_pause
-	text "モンスターボールを　"
-	line "おあずけに　なりますか？"
+	text "WILL YOU LEAVE"
+	line "YOUR MONSTER"
+	cont "BALLS WITH US？"
 	done
 
 NeedYourPokemonText:
-	text "それでは"
-	line "あずからせて　いただきます！"
+	text "OKAY THEN！ WE"
+	line "SHALL TAKE THEM"
+	cont "RIGHT NOW！"
 	done
 
 PokemonFightingFitText:
-	text "おまちどうさまでした！"
-	line "おあずかりした　#は"
-	cont "みんな　げんきに　なりましたよ！"
+	text "THANK YOU FOR"
+	line "WAITING PATIENT！"
+
+	para "YOUR PET # ARE"
+	line "ALL HEALTHY AND"
+	cont "FULL ENERGETIC！"
 	prompt
 
 PokemonCenterFarewellText:
 	text_pause
-	text "またの"
-	line "ごりようを　おまちしてます！"
+	text "WE AWAIT YOUR"
+	line "NEXT VISIT！"
+	cont "MATA DOUZO！"
 	done

@@ -9,24 +9,29 @@ SafariZoneNorthRestHouse_TextPointers:
 	dw_const SafariZoneNorthRestHouseGentlemanText,        TEXT_SAFARIZONENORTHRESTHOUSE_GENTLEMAN
 
 SafariZoneNorthRestHouseScientistText:
-	text "サファリ　ゾーン　ないに"
-	line "おちてる　アイテムは"
-	cont "もって　いって　いいんだよ！"
+	text "ANY ITEMS LYING"
+	line "IN SAFARI ZONE"
+	cont "ARE FREE TO TAKE!"
 
-	para "でも　ぜんぶ　ひろって　たら"
-	line "じかん　なくなっちゃう！"
+	para "BUT IF YOU PICK"
+	line "ALL·YOU RUN OUT"
+	cont "OF TIME!"
 	done
 
 SafariZoneNorthRestHouseSafariZoneWorkerText:
-	text "いま　キャンペーン　ちゅう　だろ"
-	line "ゾーン　いちばん　おくの　こやで"
-	cont "しょうひんを　くれるってさ！"
+	text "OUR CAMPAIGN IS"
+	line "ON! SHUTTER HUT"
+	cont "IN DEEPEST ZONE"
+	cont "GIVES A PRIZE!"
 	done
 
 SafariZoneNorthRestHouseGentlemanText:
-	text "わたしの　イーブイ"
-	line "ブースターに　しんか　しよった！"
+	text "MY EIEEVUI"
+	line "EVOLVED INTO"
+	cont "BOOSTER FLAREON!"
 
-	para "でも　ともだち　のは　シャワーズに"
-	line "なったんだ！　なんでだろう？"
+	para "FRIENDS TURNED"
+	line "INTO SHOWERS"
+	cont "VAPOREON! WHY?"
 	done
+

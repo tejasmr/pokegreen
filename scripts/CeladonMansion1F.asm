@@ -14,32 +14,34 @@ CeladonMansion1_PlayCryScript:
 	jp TextScriptEnd
 
 CeladonMansion1FMeowthText:
-	text "ニャース『にゃーご！@"
+	text "NYARTH:「NYAAGO!」@"
 	text_asm
 	ld a, MEOWTH
 	jp CeladonMansion1_PlayCryScript
 
 CeladonMansion1FGrannyText:
-	text "#に　かこまれてると"
-	line "ひとり　ぐらしも　さびしく　ないわ"
+	text "SURROUNDED BY #"
+	line "LIVING ALONE IS"
+	cont "NOT SO LONELY!"
 
-	para "うちの　ニャース　なんか"
-	line "たまに　おかね　ひろって　くるの"
+	para "MY NYARTH EVEN"
+	line "PICKS UP MONEY"
+	cont "SOMETIMES!"
 	done
 
 CeladonMansion1FClefairyText:
-	text "ピッピ『ぴ　ぴっぴ！@"
+	text "PIPPI:「PI PI!」@"
 	text_asm
 	ld a, CLEFAIRY
 	jp CeladonMansion1_PlayCryScript
 
 CeladonMansion1FNidoranFText:
-	text "ニドラン『きゃ　きゃう！@"
+	text "NIDORAN:「KYAU!」@"
 	text_asm
 	ld a, NIDORAN_F
 	jp CeladonMansion1_PlayCryScript
 
 CeladonMansion1FManagersSuiteSignText:
-	text "タマムシ　マンション"
-	line "<⋯>　かんりにん　しつ"
+	text "TAMAMUSHI MANSION"
+	line "⋯MANAGERS ROOM"
 	done

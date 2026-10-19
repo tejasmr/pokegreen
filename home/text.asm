@@ -96,81 +96,6 @@ PlaceNextChar::
 	dict '<TARGET>',  PlaceMoveTargetsName
 	dict '<USER>',    PlaceMoveUsersName
 
-; Japanese diacritic symbols. The code up to .KanaCharacter does not appear
-; to be used, since the naming screen characters are loaded as tile indexes,
-; and ROM/RAM text strings use control characters for diacritic kana.
-	cp '゜' ; handakuten
-	jr z, .PlaceDiacriticSymbol
-	cp '゛' ; dakuten
-	jr nz, .KanaCharacter
-
-.PlaceDiacriticSymbol
-	push hl
-	ld bc, -SCREEN_WIDTH ; one line above
-	add hl, bc
-	ld [hl], a
-	pop hl
-	jr NextChar
-
-.KanaCharacter
-	cp $1d
-	jr c, .notExtra1
-	cp $25 + 1
-	jr nc, .notExtra1
-	add $4b - $1d
-	jr .RegularKana
-.notExtra1
-	cp $35
-	jr c, .notExtra2
-	cp $38 + 1
-	jr nc, .notExtra2
-	add $54 - $35
-	jr .RegularKana
-.notExtra2
-	cp FIRST_REGULAR_TEXT_CHAR
-	jr nc, .RegularKana
-; dakuten or handakuten
-	cp 'パ'
-	jr nc, .Handakuten
-; dakuten
-	cp FIRST_HIRAGANA_DAKUTEN_CHAR
-	jr nc, .HiraganaDakuten
-
-; katakana dakuten
-	add 'カ' - 'ガ'
-	jr .PlaceDakuten
-
-.HiraganaDakuten
-	add 'か' - 'が'
-
-.PlaceDakuten
-	push af
-	ld a, '゛' ; dakuten
-	jr .placeDiacriticCommon
-
-.Handakuten
-	cp 'ぱ'
-	jr nc, .HiraganaHandakuten
-
-; katakana handakuten
-	add 'ハ' - 'パ'
-	jr .PlaceHandakuten
-
-.HiraganaHandakuten
-	add 'は' - 'ぱ'
-
-.PlaceHandakuten
-	push af
-	ld a, '゜' ; handakuten
-.placeDiacriticCommon
-	push hl
-	ld bc, -SCREEN_WIDTH ; one line above
-	add hl, bc
-	ld [hl], a
-	pop hl
-	pop af
-
-.RegularKana
 	ld [hli], a
 	call PrintLetterDelay
 
@@ -192,7 +117,7 @@ NullChar::
 
 TextIDErrorText:: ; "[hTextID] ERROR."
 	text_decimal hTextID, 1, 2
-	text "エラー"
+	text " ERR."
 	done
 
 MACRO print_name
@@ -243,13 +168,13 @@ PlaceCommandCharacter::
 	inc de
 	jp PlaceNextChar
 
-TMCharText::      db "わざマシン@"
-TrainerCharText:: db "トレーナー@"
-PCCharText::      db "パソコン@"
-RocketCharText::  db "ロケットだん@"
-PlacePOKeText::   db "ポケモン@"
+TMCharText::      db "TM@"
+TrainerCharText:: db "TRAINER@"
+PCCharText::      db "PC@"
+RocketCharText::  db "ROCKET@"
+PlacePOKeText::   db "PET@"
 SixDotsCharText:: db "⋯⋯@"
-EnemyText::       db "てきの　@"
+EnemyText::       db "ENEMY @"
 
 ContText::
 	push de

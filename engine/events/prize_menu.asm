@@ -43,17 +43,19 @@ CeladonPrizeMenu::
 	ret
 
 RequireCoinCaseText:
-	text "コインケースを　もっていない！@"
+	text "YOU DONT HAVE A"
+	line "COIN CASE！@"
 	text_waitbutton
 	text_end
 
 ExchangeCoinsForPrizesText:
-	text "コインを"
-	line "けいひんと　こうかんするよ"
+	text "WE EXCHANGE COINS"
+	line "FOR KEIHIN PRIZES"
 	prompt
 
 WhichPrizeText:
-	text "なにと　こうかんする？"
+	text "WHICH PRIZE DO"
+	line "YOU WANT TO SWAP？"
 	done
 
 GetPrizeMenuId:
@@ -159,10 +161,10 @@ PrintPrizePrice:
 	ret
 
 .CoinString:
-	db "コイン@"
+	db "COIN@"
 
 .CoinCounterString:
-	db "　　　　まい@"
+	db "      @"
 
 LoadCoinsToSubtract:
 	ld a, [wWhichPrize]
@@ -258,28 +260,33 @@ UnknownPrizeData:
 	db $00,$01,$00,$01,$00,$01,$00,$00,$01
 
 HereYouGoText: ; unreferenced
-	text "はい　どうぞ@"
+	text "HAI DOUZO！"
+	line "HERE YOU ARE！@"
 	text_waitbutton
 	text_end
 
 SoYouWantPrizeText:
+	text "SO YOU WANT"
+	line "@"
 	text_ram wNameBuffer
-	text "で"
-	line "いいんだね？"
+	text "？"
 	done
 
 SorryNeedMoreCoinsText:
-	text "おきゃくさん　コイン　たりないよ@"
+	text "HEY KYAKU-SAN·YOU"
+	line "NEED MORE COINS！@"
 	text_waitbutton
 	text_end
 
 PrizeRoomBagIsFullText:
-	text "おきゃくさん　もう　もてないよ@"
+	text "KYAKU-SAN·YOU"
+	line "CANT CARRY MORE！@"
 	text_waitbutton
 	text_end
 
 OhFineThenText:
-	text "あっ　そう@"
+	text "A·SOU？ OH WELL·"
+	line "FINE THEN！@"
 	text_waitbutton
 	text_end
 

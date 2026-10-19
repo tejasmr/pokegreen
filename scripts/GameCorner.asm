@@ -134,11 +134,12 @@ GameCorner_TextPointers:
 	dw_const GameCornerRocketAfterBattleText, TEXT_GAMECORNER_ROCKET_AFTER_BATTLE
 
 GameCornerBeauty1Text:
-	text "いらっしゃいませ！"
+	text "WELCOME!"
 
-	para "ゲームで　ためた　コインは"
-	line "そとの　こうかんじょで"
-	cont "すきな　けいひんと　かえてね！"
+	para "EXCHANGE COINS"
+	line "FROM GAMES FOR"
+	cont "PRIZES AT BOOTH"
+	cont "NEXT DOOR!"
 	done
 
 GameCornerClerk1Text:
@@ -207,50 +208,60 @@ GameCornerClerk1Text:
 	jp TextScriptEnd
 
 .DoYouNeedSomeGameCoins:
-	text "いらっしゃいませ！"
-	line "ロケット　ゲーム　コーナーです"
+	text "WELCOME! TO THE"
+	line "ROCKET GAME"
+	cont "CORNER!"
 
-	para "ゲームよう　コイン　ですか？"
+	para "NEED GAME COINS?"
+	line "1000 YEN BUYS"
+	cont "50 COINS!"
 
-	para "５０まい　１０００円に　なります！"
-	line "コインを　かいますか？"
+	para "BUY SOME COINS?"
 	done
 
 .ThanksHereAre50Coins:
-	text "はい！　まいど　あり！"
-	line "コイン　５０まい　どうぞ！"
+	text "YES! THANK YOU!"
+	line "HERE ARE 50"
+	cont "GAME COINS!"
 	done
 
 .PleaseComePlaySometime:
-	text "<⋯>　いりませんか！"
-	line "それでは　また　どうぞ！"
+	text "⋯NO COINS?"
+	line "PLEASE COME PLAY"
+	cont "ANOTHER TIME!"
 	done
 
 .CantAffordTheCoins:
-	text "おかね　たりないよ！"
+	text "YOU DONT HAVE"
+	line "ENOUGH MONEY!"
 	done
 
 .CoinCaseIsFull:
-	text "おっと<⋯>！"
-	line "コインケースが　まんたんだ！"
+	text "WHOA⋯! YOUR"
+	line "COIN CASE IS"
+	cont "ALREADY FULL!"
 	done
 
 .DontHaveCoinCase:
-	text "あれ？　コインを　いれる"
-	line "コインケースが　ないよ！"
+	text "HUH? YOU DONT"
+	line "HAVE A COIN CASE"
+	cont "TO HOLD THEM!"
 	done
 
 GameCornerMiddleAgedMan1Text:
-	text "<⋯>　ここだけの　はなし<⋯>"
+	text "⋯A SECRET TALK⋯"
 
-	para "この　ゲーム　じょうは"
-	line "<ROCKET>の　おみせ　らしい<⋯>"
-	cont "みんな　うわさ　しちょる<⋯>"
+	para "RUMOR HAS IT"
+	line "THIS GAME CORNER"
+	cont "IS RUN BY TEAM"
+	cont "ROCKET⋯ SHH⋯!"
 	done
 
 GameCornerBeauty2Text:
-	text "ばしょに　よって　よく　でる"
-	line "スロットが　あるようね"
+	text "SEEMS SOME SLOTS"
+	line "PAY OUT BETTER"
+	cont "DEPENDING ON"
+	cont "THE MACHINE!"
 	done
 
 GameCornerFishingGuruText:
@@ -291,28 +302,34 @@ GameCornerFishingGuruText:
 	jp TextScriptEnd
 
 .WantToPlayText:
-	text "<⋯>　ぼうず"
-	line "ゲーム　やりたいのか？"
+	text "⋯HEY KID! WANT"
+	line "TO PLAY GAMES?"
 	prompt
 
 .Received10CoinsText:
-	text "<PLAYER>は　おじさんから"
-	line "コイン　１０まい　もらった！@"
+	text "<PLAYER> GOT"
+	line "10 COINS FROM"
+	cont "THE MAN!@"
 	sound_get_item_1
 	text_end
 
 .DontNeedMyCoinsText:
-	text "やっぱり　やるの　やめた！"
+	text "GUESS YOU DONT"
+	line "NEED MY COINS!"
 	done
 
 .WinsComeAndGoText:
-	text "かつ　ときは　かつんだけど"
-	line "まける　ときは　まけちゃうんだな"
+	text "WHEN YOU WIN·"
+	line "YOU WIN! BUT"
+	cont "WHEN YOU LOSE·"
+	cont "YOU LOSE BIG!"
 	done
 
 GameCornerMiddleAgedWomanText:
-	text "スロット　ゲームは　たのしい！"
-	line "じかんが　たつのを　わすれるわ！"
+	text "SLOT GAMES ARE"
+	line "SO MUCH FUN!"
+	cont "I FORGET TIME"
+	cont "PASSING BY!"
 	done
 
 GameCornerGymGuideText:
@@ -326,33 +343,38 @@ GameCornerGymGuideText:
 	jp TextScriptEnd
 
 GameCornerGymGuideChampInMakingText:
-	text "おお<⋯>！"
+	text "OH MY⋯!"
 
-	para "こんな　ところで"
-	line "あぶら　うってて　いいのか！"
-	cont "みらいの　チャンピオン！"
+	para "SLACKING OFF"
+	line "IN SUCH A PLACE?"
+	cont "FUTURE CHAMPION!"
 
-	para "タマムシの　リーダー　エリカは"
-	line "しぜんと　こころを　かよわす"
-	cont "しょくぶつ　#の　つかいて！"
+	para "TAMAMUSHI LEADER"
+	line "ERIKA USES GRASS"
+	cont "# THAT COMMUNE"
+	cont "WITH NATURE!"
 
-	para "おはな　なんか　いけてる　から"
-	line "おとなしそうに　みえるが"
-	cont "てごわい　あいてに　なるぞ！"
+	para "SHE SEEMS QUIET"
+	line "ARRANGING FLOWERS"
+	cont "BUT SHE IS A"
+	cont "TOUGH OPPONENT!"
 	done
 
 GameCornerGymGuideTheyOfferRarePokemonText:
-	text "いい　#が　けいひんに"
-	line "あったからよー"
+	text "THEY HAVE RARE #"
+	line "FOR PRIZES!"
 
-	para "がんばってるんだが"
-	line "ぜんぜん　だめだ！"
+	para "I AM TRYING HARD"
+	line "BUT HAVING NO"
+	cont "LUCK AT ALL!"
 	done
 
 GameCornerGamblerText:
-	text "ひょー<⋯>　ゲームは　こわい！"
-	line "ちょっと　いきぬきの　つもりが"
-	cont "むちゅうに　なっちまう！"
+	text "WHEW⋯! GAMES ARE"
+	line "SO SCARY!"
+	cont "JUST A SHORT"
+	cont "BREAK BECOMES AN"
+	cont "ALL-NIGHTER!"
 	done
 
 GameCornerClerk2Text:
@@ -391,23 +413,27 @@ GameCornerClerk2Text:
 	jp TextScriptEnd
 
 .WantSomeCoinsText:
-	text "<⋯>　なんだよ？"
-	line "コイン　わけて　やろうか？"
+	text "⋯WHAT IS IT?"
+	line "WANT SOME OF MY"
+	cont "COINS PAL?"
 	prompt
 
 .Received20CoinsText:
-	text "<PLAYER>は　おにいさんから"
-	line "コイン　２０まい　もらった！@"
+	text "<PLAYER> GOT"
+	line "20 COINS FROM"
+	cont "THE GUY!@"
 	sound_get_item_1
 	text_end
 
 .YouHaveLotsOfCoinsText:
-	text "いっぱい　もってる　じゃん"
+	text "YOU HAVE PLENTY"
+	line "OF COINS ALREADY!"
 	done
 
 .INeedMoreCoinsText:
-	text "くそ　でないな！"
-	line "ほしい　けいひんが　あるのに"
+	text "DARN! NO LUCK!"
+	line "I REALLY WANT"
+	cont "THAT BIG PRIZE!"
 	done
 
 GameCornerGentlemanText:
@@ -446,25 +472,30 @@ GameCornerGentlemanText:
 	jp TextScriptEnd
 
 .ThrowingMeOffText:
-	text "わ　ちょっと！"
-	line "<⋯>　てもとが　くるう"
-	cont "コイン　あげるから"
-	cont "あっち　いってくれ"
+	text "WHOA! HEY!"
+	line "⋯YOU ARE THROWING"
+	cont "OFF MY TIMING!"
+
+	para "HERE ARE COINS·"
+	line "NOW SHOO AWAY!"
 	prompt
 
 .Received20CoinsText:
-	text "<PLAYER>は　おじさんから"
-	line "コイン　２０まい　もらった！@"
+	text "<PLAYER> GOT"
+	line "20 COINS FROM"
+	cont "THE GENTLEMAN!@"
 	sound_get_item_1
 	text_end
 
 .YouGotYourOwnCoinsText:
-	text "コイン　いっぱい　あるじゃん"
+	text "YOU HAVE GOT"
+	line "LOTS OF COINS!"
 	done
 
 .CloselyWatchTheReelsText:
-	text "スロットの　えがらを　よおく　みて"
-	line "ボタンを　おすのが　コツだよ"
+	text "WATCH REELS VERY"
+	line "CLOSELY BEFORE"
+	cont "PRESSING BUTTON!"
 	done
 
 GameCornerRocketText:
@@ -490,20 +521,24 @@ GameCornerRocketText:
 	jp TextScriptEnd
 
 .ImGuardingThisPosterText:
-	text "おれは"
-	line "この　ポスターを　みはってるのだ"
-	cont "じゃまを　すると"
-	cont "いたいめに　あわせるぞ！"
+	text "I AM GUARDING"
+	line "THIS POSTER HERE!"
+
+	para "INTERFERE AND YOU"
+	line "WILL TASTE PAIN!"
 	done
 
 .BattleEndText:
-	text "ち　ちくしょう！"
+	text "D-DAMN IT!"
 	prompt
 
 GameCornerRocketAfterBattleText:
-	text "このままでは　<ROCKET>"
-	line "アジトの　そんざいが　ばれちまう"
-	cont "ボスに　れんらく　しなくては！"
+	text "AT THIS RATE· OUR"
+	line "<ROCKET> HIDEOUT"
+	cont "WILL BE EXPOSED!"
+
+	para "I MUST INFORM"
+	line "THE BOSS AT ONCE!"
 	done
 
 GameCornerPosterText:
@@ -524,11 +559,14 @@ GameCornerPosterText:
 	jp TextScriptEnd
 
 .SwitchBehindPosterText:
-	text "あ！"
+	text "AH!"
 
-	para "ポスターの　うらに"
-	line "ひみつの　スイッチを　みつけた"
-	cont "おしてみよう！　<⋯>ポチッとな！@"
+	para "BEHIND POSTER·"
+	line "FOUND A SECRET"
+	cont "BUTTON SWITCH!"
+
+	para "LET US PRESS IT!"
+	line "⋯CLICK!@"
 	text_asm
 	ld a, SFX_SWITCH
 	call PlaySound
@@ -536,8 +574,8 @@ GameCornerPosterText:
 	jp TextScriptEnd
 
 GameCornerOopsForgotCoinCaseText:
-	text "しまった！"
-	line "コインケースを　もっていない！"
+	text "OOPS! I DONT"
+	line "HAVE A COIN CASE!"
 	done
 
 GameCornerDrawCoinBox:
@@ -577,16 +615,16 @@ GameCornerDrawCoinBox:
 	ret
 
 GameCornerMoneyText:
-	db "おこづかい@"
+	db "MONEY@"
 
 GameCornerCoinText:
-	db "コイン@"
+	db "COIN@"
 
 GameCornerYenText:
-	db "　　　　　　円@"
+	db "      円@"
 
 GameCornerCoinCounterText:
-	db "　　　　　まい@"
+	db "       @"
 
 Has9990Coins:
 	ld a, $99

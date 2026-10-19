@@ -8,9 +8,11 @@ DiglettsCaveRoute2_TextPointers:
 	dw_const DiglettsCaveRoute2FishingGuruText, TEXT_DIGLETTSCAVEROUTE2_FISHING_GURU
 
 DiglettsCaveRoute2FishingGuruText:
-	text "イワヤマトンネルに　いったけど"
-	line "まっくらで　こわいよ"
+	text "I WENT INSIDE"
+	line "ROCK TUNNEL BUT"
+	cont "PITCH DARK SCARY!"
 
-	para "#に　フラッシュで"
-	line "あかるく　させればなあ<⋯>"
+	para "IF ONLY A #"
+	line "COULD LIGHT IT"
+	cont "WITH FLASH<⋯>"
 	done

@@ -44,5 +44,6 @@ DisplayElevatorFloorMenu:
 	ret
 
 WhichFloorText:
-	text "なんかいへ　いきますか？"
+	text "WHICH FLOOR DO"
+	line "YOU GO TO？"
 	done

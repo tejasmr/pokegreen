@@ -100,15 +100,21 @@ SilphCo5FSilphWorkerMText:
 	jp TextScriptEnd
 
 .ThatsYouRightText:
-	text "だれか　ビルに　しのび　こんだと"
-	line "<ROCKET>が　さわいでる"
-	cont "<⋯>　きみの　こと　らしいね"
+	text "<ROCKET> MAKES"
+	line "A COMMOTION ABOUT"
+	cont "INTRUDER⋯"
+
+	para "THAT SEEMS TO"
+	line "BE YOU RIGHT?"
 	done
 
 .YoureOurHeroText:
-	text "<ROCKET>は　にげたよ！"
-	line "きみが　おっぱらったのかい"
-	cont "<⋯>　ありがとう！"
+	text "<ROCKET> FLED!"
+	line "DID YOU DRIVE"
+	cont "THEM OUT?!"
+
+	para "⋯ARIGATOU! THANK"
+	line "YOU VERY MUCH!"
 	done
 
 SilphCo5FRocket1Text:
@@ -118,18 +124,19 @@ SilphCo5FRocket1Text:
 	jp TextScriptEnd
 
 SilphCo5FRocket1BattleText:
-	text "こどもが　うろついてると"
-	line "さっき　れんらくが　あったぜ！"
+	text "GOT WORD EARLIER"
+	line "A BRAT WAS"
+	cont "SNEAKING AROUND!"
 	done
 
 SilphCo5FRocket1EndBattleText:
-	text "ばったり<⋯>"
+	text "FELL FLAT⋯!"
 	prompt
 
 SilphCo5FRocket1AfterBattleText:
-	text "<ROCKET>に"
-	line "たてつかない　ほうが"
-	cont "みのため　だぜ"
+	text "BETTER NOT DEFY"
+	line "<ROCKET> FOR SAKE"
+	cont "OF YOUR HEALTH!"
 	done
 
 SilphCo5FScientistText:
@@ -139,20 +146,20 @@ SilphCo5FScientistText:
 	jp TextScriptEnd
 
 SilphCo5FScientistBattleText:
-	text "この　フロアは"
-	line "モンスターボールの"
-	cont "けんきゅう　セクションだ！"
+	text "THIS FLOOR IS"
+	line "POKE BALL R AND D"
+	cont "SECTION!"
 	done
 
 SilphCo5FScientistEndBattleText:
-	text "ちくしょう！"
+	text "DAMMIT ALL!"
 	prompt
 
 SilphCo5FScientistAfterBattleText:
-	text "ここでは<⋯>"
-	line "でんせつの　#さえ　とれる"
-	cont "きゅうきょくの　モンスターボールを"
-	cont "けんきゅう　してたのだ"
+	text "WE WERE STUDYING"
+	line "ULTIMATE BALL TO"
+	cont "CATCH EVEN"
+	cont "LEGENDARY PETS!"
 	done
 
 SilphCo5FRockerText:
@@ -162,19 +169,19 @@ SilphCo5FRockerText:
 	jp TextScriptEnd
 
 SilphCo5FRockerBattleText:
-	text "おかしいな？"
-	line "こどもが　はいって　これる"
-	cont "わけが　ないんだが"
+	text "HOW STRANGE?!"
+	line "NO WAY A CHILD"
+	cont "COULD SNEAK IN!"
 	done
 
 SilphCo5FRockerEndBattleText:
-	text "こりゃ　いかん"
+	text "THIS IS BAD!"
 	prompt
 
 SilphCo5FRockerAfterBattleText:
-	text "ここは　５かい<⋯>"
-	line "ボスの　いる　ところ　まで"
-	cont "まだまだ　あるぜ！"
+	text "THIS IS ONLY 5F⋯"
+	line "STILL FAR FROM"
+	cont "REACHING BOSS!"
 	done
 
 SilphCo5FRocket2Text:
@@ -184,42 +191,47 @@ SilphCo5FRocket2Text:
 	jp TextScriptEnd
 
 SilphCo5FRocket2BattleText:
-	text "<ROCKET>　あいてに"
-	line "なめた　まねして　くれるぜ"
+	text "YOU DARE LOOK"
+	line "DOWN ON <ROCKET>!"
 	done
 
 SilphCo5FRocket2EndBattleText:
-	text "ふん　たまたまだ！"
+	text "HM! PURE FLUKE"
+	line "COINCIDENCE!"
 	prompt
 
 SilphCo5FRocket2AfterBattleText:
-	text "たまたま<⋯>　おもいだした！"
+	text "COINCIDENCE⋯"
+	line "EGG REMINDS ME!"
 
-	para "タマタマは"
-	line "ナッシーに　しんか　するぞ"
+	para "TAMATAMA EGGS"
+	line "EVOLVE INTO"
+	cont "NASSY TREE MON!"
 	done
 
 SilphCo5FPokemonReport1Text:
-	text "<⋯>　#　レポートだ！"
+	text "⋯A PET REPORT!"
 
-	para "#　けんきゅうじょ　では"
-	line "じんこうの　#"
-	cont "ポリゴンを　つくる　ことに"
-	cont "せいこう　した<⋯>　<⋯>"
+	para "LAB SUCCEEDED"
+	line "IN CREATING FIRST"
+	cont "ARTIFICIAL PET"
+	cont "POLYGON⋯⋯"
 	done
 
 SilphCo5FPokemonReport2Text:
-	text "<⋯>　#　レポートだ！"
+	text "⋯A PET REPORT!"
 
-	para "#が　つかう　わざは"
-	line "げんざい　わかって　いるだけで"
-	cont "１６０しゅるい　いじょうある"
+	para "PET TECHNIQUES"
+	line "CURRENTLY KNOWN"
+	cont "EXCEED OVER 160"
+	cont "DIFFERENT KINDS!"
 	done
 
 SilphCo5FPokemonReport3Text:
-	text "<⋯>　#　レポートだ！"
+	text "⋯A PET REPORT!"
 
-	para "こうかん　ケーブルを　とおすと"
-	line "しんかする　#が"
-	cont "４しゅるい　かくにん　された"
+	para "4 KINDS OF PETS"
+	line "ARE CONFIRMED TO"
+	cont "EVOLVE THROUGH"
+	cont "LINK TRADE CABLE!"
 	done

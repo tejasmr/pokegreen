@@ -61,18 +61,20 @@ SilphCo10FRocketText:
 	jp TextScriptEnd
 
 SilphCo10FRocketBattleText:
-	text "１０かいに　ようこそ！"
-	line "よく　ここまで　たどり　ついたな！"
+	text "WELCOME TO 10F!"
+	line "IMPRESSED YOU"
+	cont "REACHED SO FAR!"
 	done
 
 SilphCo10FRocketEndBattleText:
-	text "なんてこった"
+	text "WHAT A MESS!"
 	prompt
 
 SilphCo10FRocketAfterBattleText:
-	text "ここまで　きたのは　ほめるが"
-	line "しゃちょう　しつは"
-	cont "さらに　うえの　かい　だぜ"
+	text "I PRAISE YOUR"
+	line "EFFORT BUT THE"
+	cont "BOARDROOM IS ON"
+	cont "HIGHER FLOOR!"
 	done
 
 SilphCo10FScientistText:
@@ -82,17 +84,18 @@ SilphCo10FScientistText:
 	jp TextScriptEnd
 
 SilphCo10FScientistBattleText:
-	text "もう<⋯>"
-	line "あそびは　おわりに　しよう！"
+	text "ENOUGH⋯ TIME TO"
+	line "END THIS GAME!"
 	done
 
 SilphCo10FScientistEndBattleText:
-	text "あうーん"
+	text "AUUUUN!"
 	prompt
 
 SilphCo10FScientistAfterBattleText:
-	text "おれに　かって　まんぞくか"
-	line "じゃ　おうちに　かえんな"
+	text "SATISFIED WITH"
+	line "BEATING ME?"
+	cont "THEN GO HOME!"
 	done
 
 SilphCo10FSilphWorkerFText:
@@ -106,11 +109,12 @@ SilphCo10FSilphWorkerFText:
 	jp TextScriptEnd
 
 .ImScaredText:
-	text "うえーん！"
-	cont "こわいよー！"
+	text "UWAHHHN!"
+	line "SO SCARY! KOWAI!"
 	done
 
 .QuietAboutMyCryingText:
-	text "あたしが　ないてた　こと<⋯>"
-	cont "ないしょに　してね"
+	text "KEEP IT SECRET⋯"
+	line "THAT I CRIED!"
+	cont "PROMISE OK?"
 	done

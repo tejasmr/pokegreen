@@ -8,12 +8,15 @@ SafariZoneCenter_TextPointers:
 	dw_const SafariZoneCenterTrainerTipsSignText, TEXT_SAFARIZONECENTER_TRAINER_TIPS_SIGN
 
 SafariZoneCenterRestHouseSignText:
-	text "きゅうけい　ハウス　<⋯>　いこい"
+	text "REST HOUSE <⋯>"
+	line "IKOI RELAXATION"
 	done
 
 SafariZoneCenterTrainerTipsSignText:
-	text "<⋯>　おとくな　けいじばん！"
+	text "<⋯>TRAINER TIPS!"
 
-	para "スタート　ボタン　おして！"
-	line "のこり　じかんの　かくにん！"
+	para "PRESS START KEY!"
+	line "CHECK REMAINING"
+	cont "TIME AND STEPS!"
 	done
+

@@ -38,15 +38,18 @@ PokemonFanClubPikachuFanText:
 	jp TextScriptEnd
 
 .NormalText:
-	text "みてよ！　うちの　ピカチュウ"
-	line "なんて　かわいい　しっぽ！"
+	text "LOOK AT MY"
+	line "PIKACHU! SUCH A"
+	cont "『KAWAII』 TAIL!"
+	cont "CUTE BEYOND WORDS"
 	done
 
 .BetterText:
-	text "なにを！"
+	text "WHAT DID YOU SAY!"
 
-	para "うちの　ピカチュウの　ほうが"
-	line "その　ばいは　かわいい　わい！"
+	para "MY PIKACHU IS"
+	line "TWICE AS 『KAWAII』"
+	cont "AS THAT THING!"
 	done
 
 PokemonFanClubSeelFanText:
@@ -65,17 +68,20 @@ PokemonFanClubSeelFanText:
 	jp TextScriptEnd
 
 .NormalText:
-	text "あたしの　いとしい　パウワウ！"
+	text "MY BELOVED"
+	line "PAUWAU!"
 
-	para "だきしめると"
-	line "きゅー！　って　なくのよ！"
+	para "WHEN I HUG IT·"
+	line "IT CRIES 『KYUU』!"
+	cont "SO SWEET!"
 	done
 
 .BetterText:
-	text "おほほ！"
+	text "OHOHO!"
 
-	para "あたしの　パウワウの　ほうが"
-	line "その　ばいは　かわいいわよ！"
+	para "MY PAUWAU IS"
+	line "TWICE AS CUTE"
+	cont "AS YOURS!"
 	done
 
 PokemonFanClubPikachuText:
@@ -88,7 +94,8 @@ PokemonFanClubPikachuText:
 	jp TextScriptEnd
 
 .Text
-	text "ピカチュウ『ちゅー　ぴかちゅ"
+	text "PIKACHU: 『CHUU"
+	line "PIKACHUU』!"
 	done
 
 PokemonFanClubSeelText:
@@ -101,7 +108,7 @@ PokemonFanClubSeelText:
 	jp TextScriptEnd
 
 .Text:
-	text "パウワウ『きゅー"
+	text "PAUWAU: 『KYUU』!"
 	done
 
 PokemonFanClubChairmanText:
@@ -141,102 +148,114 @@ PokemonFanClubChairmanText:
 	jp TextScriptEnd
 
 .IntroText:
-	text "#　だいすき　クラブの"
-	line "かいちょうは　わし　じゃ！"
+	text "I AM 『KAICHOU』"
+	line "OF # FAN CLUB!"
+	cont "THAT IS CHAIRMAN!"
 
-	para "かってる　#は"
-	line "１００ぴきを　こえとる！"
+	para "I HAVE RAISED"
+	line "OVER 100 #!"
 
-	para "#に　かんしては"
-	line "ホント　うるさい！　ですぞ！"
+	para "ABOUT #· I AM"
+	line "VERY PARTICULAR!"
 
-	para "で<⋯>"
+	para "SO<⋯>"
 
-	para "きみは　わしの　#　じまんを"
-	line "ききに　きたの　かね？"
+	para "DID YOU COME"
+	line "TO HEAR MY"
+	cont "# 『JIMAN』?"
+	cont "THAT IS BOASTING!"
 	done
 
 .StoryText:
-	text "そうか！"
-	line "では　さっそく　はじめるか！"
+	text "GOOD! THEN LET US"
+	line "BEGIN RIGHT AWAY!"
 
-	para "あのな<⋯>　わしの　おきにいりの"
-	line "ギャロップがな<⋯>　<⋯>"
+	para "YOU SEE<⋯> MY"
+	line "FAVORITE GALLOP<⋯>"
 
-	para "<⋯>　でな<⋯>　が<⋯>"
-	cont "<⋯>　<⋯>　かわいくてな<⋯>"
-	cont "たまらん<⋯>　くう<⋯>"
-	cont "<⋯>　さらに<⋯>　もう<⋯>"
-	cont "すごすぎ<⋯>　<⋯>　で<⋯>"
-	cont "<⋯>　そう　おもうか<⋯>"
-	cont "どうして<⋯>　<⋯>　すき<⋯>"
-	cont "<⋯>　はー！"
+	para "<⋯>AND SO<⋯>"
+	cont "<⋯>SO 『KAWAII』<⋯>"
+	cont "CANT BEAR IT<⋯>"
+	cont "<⋯>MOREOVER<⋯>"
+	cont "TOO AMAZING<⋯>"
+	cont "<⋯>YOU AGREE<⋯>?"
+	cont "I LOVE IT SO<⋯>"
+	cont "<⋯>HAH!"
 
-	para "<⋯>　<⋯>　だきしめて<⋯>"
-	cont "ねるときも<⋯>"
-	cont "<⋯>　じゃろ<⋯>　<⋯>"
-	cont "<⋯>　<⋯>　すばらし<⋯>！"
-	cont "<⋯>　うつくし<⋯>"
-	cont "<⋯>　<⋯>　ありゃ！"
-	cont "もう　こんな　じかんか！"
-	cont "ちょっと　しゃべり　すぎたわい"
+	para "<⋯>HUGGING TIGHT"
+	cont "WHEN SLEEPING<⋯>"
+	cont "<⋯>ISNT IT SO<⋯>"
+	cont "<⋯>WONDERFUL<⋯>!"
+	cont "<⋯>BEAUTIFUL<⋯>"
+	cont "<⋯>OH MY GOODNESS"
+	cont "LOOK AT THE TIME!"
+	cont "I TALKED TOO MUCH"
 
-	para "わしの　#　じまんを"
-	line "おとなしく　きいてた　おれいに"
-	cont "<⋯>これは　きもち　じゃ！"
+	para "FOR HEARING MY"
+	line "# 『JIMAN』·"
+	cont "TAKE THIS TOKEN!"
 	prompt
 
 .BikeVoucherText:
-	text "<PLAYER>は　かいちょうから"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!"
 	sound_get_key_item
 	text_start
 
-	para "その　ひきかえけんで"
-	line "タダで　じてんしゃが　もらえる！"
+	para "WITH THAT TICKET"
+	line "YOU CAN GET A"
+	cont "BIKE FOR FREE!"
 
-	para "なに　わしには　おきにいりの"
-	line "とり#　オニドリルが　おる"
-	cont "いきたい　ところへ　ひとっとびじゃ"
+	para "I HAVE MY DEAR"
+	line "BIRD # ONIDRILL"
+	cont "CAN FLY ANYWHERE"
+	cont "IN A FLASH!"
 
-	para "だから　じてんしゃ　など　いらん！"
+	para "SO I DONT NEED"
+	line "ANY BICYCLE!"
 
-	para "じてんしゃは　きみが"
-	line "すきに　のったら　ええ！"
+	para "YOU GO RIDE IT"
+	line "HAPPILY MY BOY!"
 	done
 
 .NoStoryText:
-	text "なんじゃ<⋯>　つまらん"
-	line "きく　きに　なったら　きてくれい！"
+	text "WHAT<⋯> HOW DULL!"
+	line "COME BACK WHEN"
+	cont "YOU WANT TO HEAR!"
 	done
 
 .FinalText:
-	text "やー　やー　<PLAYER>くん！"
+	text "HELLO <PLAYER>!"
 
-	para "また　わしの　#　じまんを"
-	line "ききに　きたの　かね！"
+	para "DID YOU COME TO"
+	line "HEAR MY # BOAST"
+	cont "ONCE AGAIN?"
 
-	para "<⋯>　え　ちがう？"
-	line "なんじゃ<⋯>　つまらん"
+	para "<⋯>EH? NOT SO?"
+	line "HOW BORING<⋯>"
 	done
 
 .BagFullText:
-	text "にもつが　いっぱい　じゃ！"
+	text "YOUR PACK IS"
+	line "FULL OF STUFF!"
 	done
 
 PokemonFanClubReceptionistText:
-	text "うちの　かいちょうは"
-	line "ホント　#に　うるさいの！"
+	text "OUR 『KAICHOU』"
+	line "CHAIRMAN IS REAL"
+	cont "CRAZY ABOUT #!"
 	done
 
 PokemonFanClubSign1Text:
-	text "かいぬしの　じまん　ばなしには"
-	line "しずかに　みみを　かたむけよう！"
+	text "LISTEN QUIETLY"
+	line "TO AN OWNER"
+	cont "BOASTING STORY!"
 	done
 
 PokemonFanClubSign2Text:
-	text "ひとの　じまん　ばなしは"
-	line "１０ばい　にして　かえそう！"
+	text "RETURN SOMEONES"
+	line "BOASTING STORY"
+	cont "BY 10 TIMES MORE!"
 	done

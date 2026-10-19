@@ -8,21 +8,23 @@ VermilionMart_TextPointers:
 	dw_const VermilionMartCooltrainerFText, TEXT_VERMILIONMART_COOLTRAINER_F
 
 VermilionMartCooltrainerMText:
-	text "よのなか　には　#で"
-	line "わるだくみを　する　やつらも　いる"
+	text "SOME PEOPLE PLOT"
+	line "EVIL USING #!"
 
-	para "#を　たかく　うりさばいたり"
-	line "ときには　にんきがない　とか"
+	para "THEY SELL THEM"
+	line "DEAR· OR IF NOT"
+	cont "USEFUL OR POPULAR"
+	cont "THEY EVEN KILL!"
 
-	para "やくに　たたない　という　りゆうで"
-	line "ころして　しまったり"
-
-	para "そういう　わるい　こと　ばかりする"
-	line "あつまりが　ロケットだんさ"
+	para "THAT BAD GANG IS"
+	line "ROCKET-DAN!"
+	cont "『DAN』 MEANS"
+	cont "A GANG!"
 	done
 
 VermilionMartCooltrainerFText:
-	text "#は　つかう　ひとに　よって"
-	line "よくも　わるくも　なる"
-	cont "パートナーだと　おもうの"
+	text "I THINK # ARE"
+	line "GOOD OR BAD"
+	cont "DEPENDING ON"
+	cont "THEIR PARTNER!"
 	done

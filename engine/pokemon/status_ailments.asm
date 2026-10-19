@@ -1,26 +1,42 @@
 PrintStatusAilment::
 	ld a, [de]
+	ld de, .StatusAilmentStrings
 	bit PSN, a
-	jr nz, .psn
+	jr nz, .found
+	inc de
+	inc de
+	inc de
 	bit BRN, a
-	jr nz, .brn
+	jr nz, .found
+	inc de
+	inc de
+	inc de
 	bit FRZ, a
-	jr nz, .frz
+	jr nz, .found
+	inc de
+	inc de
+	inc de
 	bit PAR, a
-	jr nz, .par
+	jr nz, .found
+	inc de
+	inc de
+	inc de
 	and SLP_MASK
 	ret z
-	ld_hli_a_string "ねむり"
+.found
+	ld a, [de]
+	inc de
+	ld [hli], a
+	ld a, [de]
+	inc de
+	ld [hli], a
+	ld a, [de]
+	ld [hl], a
 	ret
-.psn
-	ld_hli_a_string "<do>く"
-	ret
-.brn
-	ld_hli_a_string "やけ<do>"
-	ret
-.frz
-	ld_hli_a_string "こおり"
-	ret
-.par
-	ld_hli_a_string "まひ"
-	ret
+
+.StatusAilmentStrings:
+	db "PSN"
+	db "BRN"
+	db "FRZ"
+	db "PAR"
+	db "SLP"

@@ -78,32 +78,39 @@ ViridianMart_TextPointers2:
 	dw_const ViridianMartCooltrainerMText, TEXT_VIRIDIANMART_COOLTRAINER_M
 
 ViridianMartClerkSayHiToOakText:
-	text "じゃ！"
-	line "オーキド　はかせに　よろしく！"
+	text "WELL THEN!"
+	line "GIVE REGARDS TO"
+	cont "DR. OOKIDO!"
 	done
 
 ViridianMartClerkYouCameFromPalletTownText:
-	text "お！　きみは"
-	line "マサラ　タウンから　きたんだね？"
+	text "OH! YOU CAME"
+	line "FROM MASARA TOWN"
+	cont "ARE YOU NOT?"
 	done
 
 ViridianMartClerkParcelQuestText:
-	text "オーキド　はかせを　しってるね？"
+	text "YOU KNOW DR."
+	line "OOKIDO· RIGHT?"
 
-	para "これ　たのまれてるんだけど"
-	line "わたして　くれるかい！"
+	para "HIS ORDER CAME!"
+	line "COULD YOU TAKE"
+	cont "IT TO HIM?"
 
-	para "<PLAYER>は　ショップから"
-	line "とどけものを　あずかった！@"
+	para "<PLAYER> GOT"
+	line "OAKS PARCEL"
+	cont "FROM THE SHOP!@"
 	sound_get_key_item
 	text_end
 
 ViridianMartYoungsterText:
-	text "ねえ　この　みせの　うれすじは"
-	line "どくけし　なんだって！"
+	text "HEY! BEST SELLER"
+	line "AT THIS SHOP IS"
+	cont "ANTIDOTE!"
 	done
 
 ViridianMartCooltrainerMText:
-	text "ないなー　キズぐすり<⋯>"
-	line "ここでは　うりきれてる　みたい"
+	text "NO POTION⋯"
+	line "SEEMS IT IS ALL"
+	cont "SOLD OUT HERE!"
 	done

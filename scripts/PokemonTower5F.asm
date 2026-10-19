@@ -67,10 +67,11 @@ PokemonTower5F_TextPointers:
 	db -1 ; end
 
 PokemonTower5FChanneler1Text:
-	text "さあ　こっちへ　きなさい！"
-	line "ここには　けっかいを　はってある"
+	text "COME OVER HERE！"
+	line "PURIFIED BARRIER"
+	cont "IS CAST HERE！"
 
-	para "やすんで　いくが　よい！"
+	para "REST A WHILE NE！"
 	done
 
 PokemonTower5FChanneler2Text:
@@ -80,17 +81,18 @@ PokemonTower5FChanneler2Text:
 	jp TextScriptEnd
 
 PokemonTower5FChanneler2BattleText:
-	text "<⋯>　タマ<⋯>　シ<⋯>　イ"
-	line "<⋯>　ヨ<⋯>　コセッ！"
+	text "GIVE<⋯> ME<⋯>"
+	line "YOUR<⋯> SOUL<⋯>！"
 	done
 
 PokemonTower5FChanneler2EndBattleText:
-	text "ハア　ハア<⋯>！"
+	text "HAA HAA<⋯>！"
 	prompt
 
 PokemonTower5FChanneler2AfterBattleText:
-	text "わたしは<⋯>"
-	line "とり　つかれて　おったか"
+	text "WAS I<⋯>"
+	line "POSSESSED BY"
+	cont "SPIRIT AFTER ALL？"
 	done
 
 PokemonTower5FChanneler3Text:
@@ -100,17 +102,19 @@ PokemonTower5FChanneler3Text:
 	jp TextScriptEnd
 
 PokemonTower5FChanneler3BattleText:
-	text "オ<⋯>　マ<⋯>　エモ<⋯>"
-	line "<⋯>　ナカ<⋯>マニッ！"
+	text "YOU<⋯> TOO<⋯>"
+	line "JOIN<⋯> US<⋯>！"
 	done
 
 PokemonTower5FChanneler3EndBattleText:
-	text "なんとした　ことじゃ"
+	text "WHAT TERRIBLE"
+	line "THING IS THIS！"
 	prompt
 
 PokemonTower5FChanneler3AfterBattleText:
-	text "とり　つかれるとは"
-	line "わしも　まだまだ<⋯>"
+	text "TO BE POSSESSED"
+	line "I STILL LACK"
+	cont "TRAINING<⋯>"
 	done
 
 PokemonTower5FChanneler4Text:
@@ -120,17 +124,17 @@ PokemonTower5FChanneler4Text:
 	jp TextScriptEnd
 
 PokemonTower5FChanneler4BattleText:
-	text "<⋯>　ぞ<⋯>　ゾゾ<⋯>"
-	line "<⋯>　ンビーッ<⋯>！"
+	text "<⋯>Z<⋯> ZOZO<⋯>"
+	line "<⋯>ZOMBIE-TSU<⋯>！"
 	done
 
 PokemonTower5FChanneler4EndBattleText:
-	text "<⋯>ゾ　ぞぞ？"
+	text "<⋯>ZO ZOZO？"
 	prompt
 
 PokemonTower5FChanneler4AfterBattleText:
-	text "うう"
-	line "しょうきに　もどった！"
+	text "UUH· RETURNED"
+	line "TO SANITY AGAIN！"
 	done
 
 PokemonTower5FChanneler5Text:
@@ -140,23 +144,26 @@ PokemonTower5FChanneler5Text:
 	jp TextScriptEnd
 
 PokemonTower5FChanneler5BattleText:
-	text "<⋯>　ド<⋯>　ギャ"
-	line "<⋯>　ギ<⋯>　ギャ<⋯>ーン！"
+	text "<⋯>DO<⋯> GYA"
+	line "<⋯>GYA<⋯>AAAN！"
 	done
 
 PokemonTower5FChanneler5EndBattleText:
-	text "ぶるぶる<⋯>"
+	text "SHIVER SHIVER<⋯>"
 	prompt
 
 PokemonTower5FChanneler5AfterBattleText:
-	text "やまおくで　しゅぎょう　したのに"
-	line "<⋯>　なさけない"
+	text "TRAINED DEEP IN"
+	line "MOUNTAINS YET<⋯>"
+	cont "HOW PATHETIC！"
 	done
 
 PokemonTower5FPurifiedZoneText:
-	text "せいなる　いのりに　まもられた"
-	line "けっかいへ　はいった！"
+	text "ENTERED BARRIER"
+	line "HOLY PURIFIED"
+	cont "WHITE ZONE！"
 
-	para "<PLAYER>と　#は"
-	line "ひと　やすみして　げんきに　なった！"
+	para "<PLAYER> AND #"
+	line "RESTED A WHILE"
+	cont "RECOVER HEALTH！"
 	done

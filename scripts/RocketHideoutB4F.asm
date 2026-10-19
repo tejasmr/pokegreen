@@ -121,38 +121,45 @@ RocketHideoutB4FGiovanniText:
 	jp TextScriptEnd
 
 .ImpressedYouGotHereText:
-	text "ほほうッ！"
-	line "こんな　ところ　まで　よくきた"
+	text "HOHO-T!"
+	line "SPLENDID TO GET"
+	cont "THIS FAR IN!"
 
-	para "せかい　じゅうの　#を"
-	line "わるだくみに　つかい　まくって"
-	cont "かねもうけ　する　<ROCKET>！"
+	para "USING # ACROSS"
+	line "THE WORLD FOR"
+	cont "EVIL SCHEMES TO"
+	cont "MAKE MONEY⋯"
+	cont "THAT IS <ROCKET>!"
 
-	para "わたしが"
-	line "その　リーダー　サカキだ！"
+	para "I AM ITS CHIEF·"
+	line "SAKAKI HIMSELF!"
 
-	para "わたしに　はむかう　なら"
-	line "いたい　めに　あって　もらう！"
+	para "DEFIANCE TO ME"
+	line "MEANS PAIN FOR"
+	cont "YOUR FLESH!"
 	done
 
 .WhatCannotBeText:
-	text "ぐ　ぐーッ！"
-	line "そんな　ばかなーッ！"
+	text "GU⋯ GUO-T!"
+	line "IMPOSSIBLE-T!"
 	prompt
 
 RocketHideoutB4FGiovanniHopeWeMeetAgainText:
-	text "<⋯>　きみは　とても　だいじに"
-	line "#を　そだてて　いるな"
+	text "⋯YOU RAISE #"
+	line "WITH GREAT CARE"
+	cont "I SEE!"
 
-	para "そんな　こどもに"
-	line "わたしの　かんがえは"
-	cont "とても　りかい　できないだろう"
+	para "SUCH A CHILD"
+	line "CAN NEVER GRASP"
+	cont "MY GRAND VISION!"
 
-	para "　<⋯>！"
-	line "ここは　いちど　みを　ひこう！"
+	para "⋯HMPH!"
+	line "I SHALL RETREAT"
+	cont "FOR THIS ONCE!"
 
-	para "きみとは　また　どこかで"
-	line "たたかいたい　ものだ<⋯>！"
+	para "I HOPE TO DUEL"
+	line "YOU AGAIN SOME"
+	cont "DAY⋯ FAREWELL!"
 	done
 
 RocketHideoutB4FRocket1Text:
@@ -162,18 +169,21 @@ RocketHideoutB4FRocket1Text:
 	jp TextScriptEnd
 
 RocketHideoutB4FRocket1BattleText:
-	text "あーッ　おまえ！"
-	line "オツキミやまで　カセキ　さがしの"
-	cont "じゃま　した　やつだ！"
+	text "AAH-T! YOU ARE"
+	line "THE ONE WHO"
+	cont "RUINED OUR FOSSIL"
+	cont "HUNT AT OTSUKIMI"
+	cont "MOUNTAIN!"
 	done
 
 RocketHideoutB4FRocket1EndBattleText:
-	text "くやしいが　やられた！"
+	text "CURSED DEFEAT!"
 	prompt
 
 RocketHideoutB4FRocket1AfterBattleText:
-	text "<ROCKET>の"
-	line "じゃま　ばかり　しやがって<⋯>！"
+	text "ALWAYS MEDDLING"
+	line "IN OUR <ROCKET>"
+	cont "AFFAIRS⋯!"
 	done
 
 RocketHideoutB4FRocket2Text:
@@ -183,17 +193,19 @@ RocketHideoutB4FRocket2Text:
 	jp TextScriptEnd
 
 RocketHideoutB4FRocket2BattleText:
-	text "<ROCKET>の　あくじの"
-	line "すばらしさが　わからん　こどもめ！"
+	text "BRAT WHO CANNOT"
+	line "APPRECIATE THE"
+	cont "SPLENDOR OF EVIL"
+	cont "<ROCKET> DEEDS!"
 	done
 
 RocketHideoutB4FRocket2EndBattleText:
-	text "あぎゃぎゃ！"
+	text "AGYAGYA!"
 	prompt
 
 RocketHideoutB4FRocket2AfterBattleText:
-	text "ボス<⋯>！"
-	line "ちから　および　ません　でした"
+	text "BOSS⋯! MY POWER"
+	line "WAS NOT ENOUGH!"
 	done
 
 RocketHideoutB4FRocket3Text:
@@ -203,13 +215,15 @@ RocketHideoutB4FRocket3Text:
 	jp TextScriptEnd
 
 RocketHideoutB4FRocket3BattleText:
-	text "はははーッ！"
-	line "エレベータが　つかえないって？"
-	cont "カギは　だれが　もってるのかなー？"
+	text "HAHAHA-T!"
+	line "ELEVATOR DOES"
+	cont "NOT WORK? WHO"
+	cont "COULD POSSIBLY"
+	cont "HAVE THE KEY?!"
 	done
 
 RocketHideoutB4FRocket3EndBattleText:
-	text "そんな<⋯>！"
+	text "NO WAY⋯!"
 	prompt
 
 RocketHideoutB4FRocket3AfterBattleText:
@@ -225,7 +239,8 @@ RocketHideoutB4FRocket3AfterBattleText:
 	jp TextScriptEnd
 
 .Text:
-	text "しまった<⋯>！"
-	line "せっかく　かくして　おいた"
-	cont "エレベータの　カギが<⋯>！"
+	text "CURSES⋯!"
+	line "MY PRECIOUS"
+	cont "HIDDEN ELEVATOR"
+	cont "LIFT KEY⋯!"
 	done

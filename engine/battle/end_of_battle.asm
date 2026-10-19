@@ -75,17 +75,17 @@ EndOfBattle:
 	ret
 
 YouWinText:
-	db "あなたの　かち@"
+	db "YOU WIN！@"
 
 YouLoseText:
-	db "あなたの　まけ@"
+	db "YOU LOSE！@"
 
 DrawText:
-	db "　　ひきわけ@"
+	db "  DRAW！@"
 
 PickUpPayDayMoneyText:
-	text "<PLAYER>は　@"
+	text "<PLAYER> PICKED"
+	line "UP @"
 	text_bcd wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text "円"
-	line "ひろった！"
+	text "円！"
 	prompt

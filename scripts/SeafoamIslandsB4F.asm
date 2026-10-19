@@ -156,7 +156,7 @@ SeafoamIslandsB4FArticunoText:
 	jp TextScriptEnd
 
 SeafoamIslandsB4FArticunoBattleText:
-	text "ギヤーオ！@"
+	text "GYAAOO!@"
 	text_asm
 	ld a, ARTICUNO
 	call PlayCry
@@ -164,11 +164,12 @@ SeafoamIslandsB4FArticunoBattleText:
 	jp TextScriptEnd
 
 SeafoamIslandsB4FBouldersSignText:
-	text "ヒント　いわで　ながれを"
-	line "せきとめられるかも<⋯>"
+	text "HINT: BOULDERS"
+	line "MIGHT DAM RAPIDS"
+	cont "<⋯>PERHAPS?"
 	done
 
 SeafoamIslandsB4FDangerSignText:
-	text "キケン！"
-	line "ながれが　はやい！"
+	text "KIKEN! DANGER!"
+	line "RAPID STREAM!"
 	done

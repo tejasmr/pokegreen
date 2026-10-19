@@ -397,48 +397,49 @@ Route22Rival1Text:
 	jp TextScriptEnd
 
 Route22RivalBeforeBattleText1:
-	text "<RIVAL>『あーッ！　<PLAYER>！"
+	text "<RIVAL>『AAH-T!"
+	line "<PLAYER>!』"
 
-	para "#　リーグに　いくのか？"
-	line "やめとけ！"
+	para "HEADING FOR"
+	line "# LEAGUE?"
+	cont "GIVE IT UP!"
 
-	para "おまえ　どうせ"
-	line "バッジ　もってねーだろ？"
+	para "YOU DONT HAVE"
+	line "BADGES ANYWAY!"
 
-	para "みはりの　おっさんが"
-	line "とおして　くれねーよ！"
+	para "THE GUARD GUY"
+	line "WONT LET YOU BY!"
 
-	para "<⋯>　それよりさあ！"
-	line "おまえの　#"
-	cont "すこしは　つよく　なったかよ？"
+	para "<⋯>BESIDES THAT!"
+	line "DID YOUR #"
+	cont "GET ANY STRONGER?"
 	done
 
 Route22RivalAfterBattleText1:
-	text "どうやら　#　リーグには"
-	line "つよくて　すごい　<TRAINER>が"
-	cont "ウジャウジャ　いるらしいぜ"
+	text "AT # LEAGUE"
+	line "MIGHTY <TRAINER>S"
+	cont "SWARM ALL OVER!"
 
-	para "どうにか"
-	line "あそこを　とおりぬける"
-	cont "ほうほうを　かんがえなきゃな！"
+	para "MUST CONCEIVE A"
+	line "WAY TO GET BY!"
 
-	para "おまえも　いつまでも"
-	line "ここらに　いないで"
-	cont "とっとと　さきに　すすめよ！"
+	para "DONT LINGER"
+	line "AROUND HERE AND"
+	cont "HURRY UP AHEAD!"
 	done
 
 Route22Rival1DefeatedText:
-	text "あーッ！"
-	line "こいつ　なめた　マネを！"
+	text "AAH-T! YOU DARED"
+	line "TO MOCK ME?!"
 	prompt
 
 Route22Rival1VictoryText:
-	text "<RIVAL>『なんだ？"
-	line "#　２ひきも"
-	cont "もってるの　なぜか　だって？"
+	text "<RIVAL>『WHAT?"
+	line "WHY DO I HAVE"
+	cont "2 # PETS?"
 
-	para "おまえも"
-	line "つかまえれば　いい　じゃん！"
+	para "YOU SHOULD CATCH"
+	line "MORE YOURSELF!』"
 	prompt
 
 Route22Rival2Text:
@@ -455,56 +456,61 @@ Route22Rival2Text:
 	jp TextScriptEnd
 
 Route22RivalBeforeBattleText2:
-	text "<RIVAL>『なんだ？　<PLAYER>！"
-	line "こんな　ところで　あうとは"
-	cont "またまた　ぐうぜんだ！"
+	text "<RIVAL>『WHAT?"
+	line "<PLAYER>! AGAIN!"
+	cont "COINCIDENCE!"
 
-	para "じゃあ<⋯>　おまえも"
-	line "#　リーグに　いく　わけ？"
+	para "SO<⋯>YOU GO TO"
+	line "# LEAGUE TOO?"
 
-	para "バッジも"
-	line "ぜんぶ　あつまったのか！"
-	cont "あ　そう<⋯>　やるじゃん！"
+	para "COLLECTED ALL"
+	line "BADGES ALREADY?"
+	cont "AH SO<⋯>NOT BAD!"
 
-	para "それじゃ　#　リーグ"
-	line "いくまえに　<PLAYER>で"
-	cont "ウォーミング　アップと　いくか！"
+	para "BEFORE LEAGUE·"
+	line "WARM UP WITH"
+	cont "<PLAYER>!』"
 
-	para "かかって　きな！"
+	para "BRING IT ON!"
 	done
 
 Route22RivalAfterBattleText2:
-	text "からだも　ほぐれたし<⋯>！"
-	line "いよいよ　#　リーグ"
-	cont "せいはに　むかうと　するか！"
+	text "BODY WARMED UP!"
+	line "TIME TO CONQUER"
+	cont "# LEAGUE!"
 
-	para "<PLAYER>は<⋯>"
-	line "もっと　れんしゅう　したほうが"
-	cont "いいんじゃないの！"
+	para "<PLAYER> NEEDS"
+	line "MORE PRACTICE!"
 
-	para "おっと！　おせっかい　だったか！"
-	line "とにかく<⋯>　おれは　さき　いくぜ"
-	cont "じゃあ！<⋯>　あーばよ！"
+	para "OPPS! NONE OF"
+	line "MY BUSINESS!"
+	cont "I GO AHEAD NOW!"
+	cont "JAA<⋯>ABAYO!"
 	done
 
 Route22Rival2DefeatedText:
-	text "あ　こら！"
+	text "A KORA!"
 
-	para "おれが　ちょっと"
-	line "ゆだん　した　すきに<⋯>　くそう！"
+	para "WHILE I LOWERED"
+	line "MY GUARD A BIT<⋯>"
+	cont "KUSOU! DANG IT!"
 	prompt
 
 Route22Rival2VictoryText:
-	text "<RIVAL>『ひゃははッ　<PLAYER>ー！"
-	line "それで　がんばってるのかよ！"
-	cont "おれの　さいのうに　くらべりゃ"
-	cont "<PLAYER>は　まだまだ　だな！"
+	text "<RIVAL>『HYAHAHA!"
+	line "<PLAYER>! IS THAT"
+	cont "ALL YOU GOT?!"
 
-	para "もっと　れんしゅう　こいよ！"
-	line "あははーッ！"
+	para "COMPARED TO MY"
+	line "GENIUS TALENT·"
+	cont "<PLAYER> IS"
+	cont "MADAMADA DANA!"
+
+	para "PRACTICE MORE!"
+	line "AHAHAHA-T!』"
 	prompt
 
 Route22PokemonLeagueSignText:
-	text "ここは　#　リーグ"
-	line "しょうめん　ゲート"
+	text "# LEAGUE"
+	line "FRONT GATE"
 	done

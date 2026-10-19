@@ -102,15 +102,18 @@ Route18Gate1FGuardText:
 	jp TextScriptEnd
 
 .YouNeedABicycleText:
-	text "サイクリング　ロード　には"
-	line "じてんしゃで　いって　ください！"
+	text "TO ENTER CYCLING"
+	line "ROAD·RIDE BICYCLE"
+	cont "KUDASAI!"
 	done
 
 .CyclingRoadUphillText:
-	text "サイクリング　ロード"
-	line "こちら　からは　のぼり　ざか　です"
+	text "CYCLING ROAD"
+	line "FROM HERE IS AN"
+	cont "UPHILL SLOPE!"
 	done
 
 Route18Gate1FGuardExcuseMeText:
-	text "<⋯>　ちょっと　すいません！"
+	text "<⋯>SUIMASEN!"
+	line "WAIT A MOMENT!"
 	done

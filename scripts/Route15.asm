@@ -94,166 +94,172 @@ Route15TalkToTrainer:
 	jp TextScriptEnd
 
 Route15CooltrainerF1BattleText:
-	text "ともだちと　こうかん　した"
-	line "おきにいりで　しょうぶ　するわ！"
+	text "WITH MY FAVORITE"
+	line "TRADED WITH A"
+	cont "PAL·LETS MATCH!"
 	done
 
 Route15CooltrainerF1EndBattleText:
-	text "だめだわ！"
+	text "DAME DAWA! NO!"
 	prompt
 
 Route15CooltrainerF1AfterBattleText:
-	text "ともだちと　こうかん　した"
-	line "#の　ニックネーム"
-	cont "たとえ　きに　いらなくても<⋯>"
-	cont "とった　ひとで　ないと"
-	cont "つけ　なおせない　のよね！"
+	text "A TRADED #S"
+	line "NICKNAME CANNOT"
+	cont "BE CHANGED BY"
+	cont "ANYONE EXCEPT"
+	cont "ORIGINAL OWNER!"
 	done
 
 Route15CooltrainerF2BattleText:
-	text "きみ　やさしそう　だから"
-	line "まける　きが　しない！"
-	cont "しょうぶ　してみるわ！"
+	text "YOU LOOK GENTLE·"
+	line "I FEEL NO LOSS!"
+	cont "LETS HAVE A BOUT!"
 	done
 
 Route15CooltrainerF2EndBattleText:
-	text "あれ？　まけたの？"
+	text "ARE? I LOST?!"
 	prompt
 
 Route15CooltrainerF2AfterBattleText:
-	text "ぼうそうぞく<⋯>"
-	line "よく　みかける　けど"
-	cont "こわそうで　いやだわ"
+	text "BIKERS GANG<⋯>"
+	line "SEEN OFTEN BUT"
+	cont "LOOK SO SCARY!"
 	done
 
 Route15CooltrainerM1BattleText:
-	text "ぼくが　くちぶえ　ふいたり　すると"
-	line "とり　#が"
-	cont "とんで　きたり　するんだぜ！"
+	text "WHEN I WHISTLE"
+	line "BIRD # COME"
+	cont "FLYING TO ME!"
 	done
 
 Route15CooltrainerM1EndBattleText:
-	text "ふッ　かなしいね！"
+	text "SO SAD INDEED!"
 	prompt
 
 Route15CooltrainerM1AfterBattleText:
-	text "ぼくの　ような　タイプは"
-	line "しょうぶ　ごと　には"
-	cont "むいて　ないのかなあ<⋯>"
+	text "PERHAPS MY TYPE"
+	line "IS NOT SUITED FOR"
+	cont "MATCHES<⋯>"
 	done
 
 Route15CooltrainerM2BattleText:
-	text "おや<⋯>？"
-	line "とりが　ふるえてる！"
-	cont "おまえ　もしかして<⋯>　つよいな？"
+	text "OYA<⋯>? BIRDS"
+	line "ARE TREMBLING!"
+	cont "ARE YOU<⋯>STRONG?"
 	done
 
 Route15CooltrainerM2EndBattleText:
-	text "おもった　とおりだ"
+	text "JUST AS I KNEW!"
 	prompt
 
 Route15CooltrainerM2AfterBattleText:
-	text "あったり　まえ　だけどさ<⋯>"
-	line "とり　#は"
-	cont "じしん　や　じわれ　には　つよいよ"
+	text "OBVIOUS THING<⋯>"
+	line "BIRD # LAUGHS"
+	cont "AT EARTHQUAKES"
+	cont "AND FISSURES!"
 	done
 
 Route15Beauty1BattleText:
-	text "あらーん！"
-	line "#　みたいに"
-	cont "かわいい　おとこのこ　ね！"
+	text "ARA-N! SUCH A"
+	line "CUTE BOY JUST"
+	cont "LIKE A #!"
 	done
 
 Route15Beauty1EndBattleText:
-	text "ゆだん　しちゃった"
+	text "I LET DOWN GUARD!"
 	prompt
 
 Route15Beauty1AfterBattleText:
-	text "くやしい　けど"
-	line "おねえさんは　おとな　だから"
-	cont "ゆるして　あげるわね"
+	text "MORTIFYING BUT"
+	line "ONEESAN IS ADULT·"
+	cont "I FORGIVE YOU!"
 	done
 
 Route15Beauty2BattleText:
-	text "あのね<⋯>！"
-	line "わたしは　ひとり　ぐらし　だから"
-	cont "#　かってる　わけ！"
+	text "LISTEN<⋯>! I LIVE"
+	line "ALONE·SO I KEEP"
+	cont "# PETS!"
 	done
 
 Route15Beauty2EndBattleText:
-	text "<⋯>　#は"
-	line "かち　まけ　じゃ　ないわ"
+	text "<⋯># IS NOT JUST"
+	line "WINNING OR LOSS!"
 	prompt
 
 Route15Beauty2AfterBattleText:
-	text "そう<⋯>！"
-	line "うちに　かえった　とき"
-	cont "#が　いると　ほっと　するの"
+	text "YES<⋯>RETURNING"
+	line "HOME TO A #"
+	cont "BRINGS DEEP"
+	cont "PEACE OF MIND!"
 	done
 
 Route15Biker1BattleText:
-	text "こら　ぼうず！　しょうぶだ！"
-	line "その　へんの　やつ　から"
-	cont "むりやり　とって　きたぜ！"
+	text "HEY KID! MATCH!"
+	line "I EXTORTED THESE"
+	cont "FROM SOME DUDE!"
 	done
 
 Route15Biker1EndBattleText:
-	text "なっとく　いかねえ"
+	text "NO WAY DUDES!"
 	prompt
 
 Route15Biker1AfterBattleText:
-	text "みじかい　じんせい<⋯>！"
-	line "ワルの　ほうが　かっこいいぜ！"
-	cont "<ROCKET>　みたいに　な！"
+	text "SHORT LIFE<⋯>!"
+	line "BEING A BAD GUY"
+	cont "IS MUCH COOLER!"
+	cont "JUST LIKE <ROCKET>!"
 	done
 
 Route15Biker2BattleText:
-	text "おうッ！"
-	line "まけたら　ありがね　ぜんぶ！"
-	cont "おいて　いって　もらおうか！"
+	text "OOH! IF YOU LOSE"
+	line "LEAVE ALL YOUR"
+	cont "COINS BEHIND!"
 	done
 
 Route15Biker2EndBattleText:
-	text "そりゃ　ねえだろ"
+	text "NO FAIR MAN!"
 	prompt
 
 Route15Biker2AfterBattleText:
-	text "ありがね　おいてく　なんて"
-	line "じょうだんに　きまってる　だろ！"
-	cont "かるい　じょうだんだ！"
+	text "LEAVING CASH WAS"
+	line "JUST A JOKE MAN!"
+	cont "LIGHT JOKE ONLY!"
 	done
 
 Route15CooltrainerF3BattleText:
-	text "さいきん　はやってる　こと<⋯>？"
-	line "そうねえ<⋯>！"
-	cont "#の　こうかん　かな！"
+	text "WHATS POPULAR<⋯>?"
+	line "WELL<⋯>TRADING"
+	cont "# OF COURSE!"
 	done
 
 Route15CooltrainerF3EndBattleText:
-	text "もうッ<⋯>！"
-	line "しょうぶ　じゃ　なくて　こうかんよ"
+	text "MOU<⋯>! TRADING"
+	line "NOT FIGHTING!"
 	prompt
 
 Route15CooltrainerF3AfterBattleText:
-	text "よく　わたしも　おともだちと"
-	line "#　こうかん　するわ！"
+	text "I OFTEN TRADE #"
+	line "WITH MY FRIENDS!"
 	done
 
 Route15CooltrainerF4BattleText:
-	text "しようよ　しようよ"
-	line "#　しようよーッ！"
+	text "LETS DO IT LETS!"
+	line "LETS PLAY #!"
 	done
 
 Route15CooltrainerF4EndBattleText:
-	text "しょうぶ　あせり　すぎたわ"
+	text "RUSHED THE MATCH"
+	line "TOO HARD!"
 	prompt
 
 Route15CooltrainerF4AfterBattleText:
-	text "もう　すこし　よわい　ひとと"
-	line "れんしゅう　して　くるよ@"
+	text "I WILL GO TRAIN"
+	line "WITH WEAKER FOE!@"
 	text_end
 
 Route15SignText:
-	text "ここは　１５ばん　どうろ"
-	line "にし　<⋯>　セキチク　シティ"
+	text "ROUTE 15"
+	line "WEST: FUCHSIA"
+	cont "CITY"
 	done

@@ -17,10 +17,10 @@ CeladonGym_Script:
 	jp LoadGymLeaderAndCityName
 
 .CityName:
-	db "タマムシ@"
+	db "TAMAMUSHI@"
 
 .LeaderName:
-	db "エリカ@"
+	db "ERIKA@"
 
 CeladonGymResetScripts:
 	xor a ; SCRIPT_CELADONGYM_DEFAULT
@@ -130,79 +130,90 @@ CeladonGymErikaText:
 	jp TextScriptEnd
 
 .PreBattleText:
-	text "はあーい<⋯>"
-	line "よい　おてんきね"
-	cont "きもち　いい<⋯>"
+	text "HELLO⋯ LOVELY"
+	line "WEATHER TODAY!"
+	cont "FEELS SO NICE⋯"
 
-	para "<⋯>　すー<⋯>　すー"
-	line "<⋯>　あら　いけない"
-	cont "ねて　しまったわ<⋯>　ようこそ"
+	para "⋯ZZZ⋯ ZZZ⋯"
+	line "⋯OH MY PARDON!"
+	cont "I DOZED OFF⋯"
+	cont "WELCOME HERE!"
 
-	para "わたくし　タマムシ　ジムの"
-	line "エリカと　もうします"
+	para "I AM ERIKA·"
+	line "LEADER OF"
+	cont "TAMAMUSHI GYM!"
 
-	para "おはなを　いけるのが　しゅみで"
-	line "#は　くさタイプ　ばかり"
+	para "FLOWER ARRANGING"
+	line "IS MY HOBBY·"
+	cont "MY # ARE ALL"
+	cont "GRASS TYPE!"
 
-	para "<⋯>　あら　やだ"
-	line "しあいの　もうしこみ　ですの？"
+	para "⋯OH DEAR ME·"
+	line "A CHALLENGE FOR"
+	cont "A MATCH?"
 
-	para "そんな<⋯>"
-	line "わたくし　まけませんわよ"
+	para "HOWEVER⋯ I WILL"
+	line "NOT LOSE EASILY!"
 	done
 
 .ReceivedRainbowBadgeText:
-	text "<⋯>！"
-	line "まいり　ましたわ"
+	text "⋯! I CONCEDE"
+	line "DEFEAT!"
 
-	para "さすが"
-	line "とのがたは　おつよい　ですわ"
+	para "AS EXPECTED·"
+	line "YOU ARE INDEED"
+	cont "VERY STRONG!"
 
-	para "この　レインボーバッジ"
-	line "さしあげ　なくては　なりませんね"
+	para "I MUST BESTOW"
+	line "THIS RAINBOW"
+	cont "BADGE TO YOU!"
 	prompt
 
 .PostBattleAdviceText:
-	text "あら　まあ<⋯>"
-	line "ずかんを　つくって　ますのね"
-	cont "ほんとに　えらいわ"
+	text "OH MY GOODNESS⋯"
+	line "COMPILING A #"
+	cont "BOOK ARE YOU?"
+	cont "MOST ADMIRABLE!"
 
-	para "わたし　でしたら"
-	line "きれいな　#しか"
-	cont "ほしく　なりません　もの"
+	para "AS FOR MYSELF·"
+	line "I ONLY WANT"
+	cont "PRETTY # IN"
+	cont "MY COLLECTION!"
 	done
 
 CeladonGymRainbowBadgeInfoText:
-	text "レインボー　バッジで"
-	line "レベル５０　までの　#が"
-	cont "おとなしく　いうこと　きき　ます"
+	text "RAINBOW BADGE"
+	line "LETS # UP TO"
+	cont "<LV>50 OBEY YOU!"
 
-	para "そして<⋯>　かいりきの　わざが"
-	line "たたかって　なくても　つかえます"
+	para "AND ALSO⋯ THE"
+	line "MOVE STRENGTH CAN"
+	cont "BE USED ANYTIME!"
 
-	para "それから<⋯>"
-	line "よろしかったら"
-	cont "これも　おつかいに　なって！"
+	para "PLEASE TAKE THIS"
+	line "MOVE AS WELL!"
 	done
 
 CeladonGymReceivedTM21Text:
-	text "<PLAYER>は　エリカ　から"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text " FROM ERIKA!@"
 	sound_get_item_1
 	text_start
 
-	para "<TM>２１の　なかは"
-	line "メガドレイン　です"
+	para "<TM>21 CONTAINS"
+	line "MEGA DRAIN!"
 
-	para "あたえた　ダメージの　はんぶんが"
-	line "#の　えいように　なる"
-	cont "すばらしい　わざ　です"
+	para "HALF OF DAMAGE"
+	line "DEALT RESTORES"
+	cont "# HP! WHAT A"
+	cont "SPLENDID MOVE!"
 	done
 
 CeladonGymTM21NoRoomText:
-	text "おにもつ　いっぱい"
+	text "YOUR PACK IS"
+	line "OUT OF ROOM!"
 	done
 
 CeladonGymCooltrainerF1Text:
@@ -212,20 +223,21 @@ CeladonGymCooltrainerF1Text:
 	jp TextScriptEnd
 
 CeladonGymCooltrainerF1BattleText:
-	text "あッ！　おとこ！"
+	text "AH! A BOY!"
 
-	para "ここは　ねー！　おんなのこ　しか"
-	line "はいっちゃ　いけないの！"
+	para "ONLY GIRLS ARE"
+	line "ALLOWED INSIDE"
+	cont "THIS GYM HERE!"
 	done
 
 CeladonGymCooltrainerF1EndBattleText:
-	text "らんぼう　なんだから"
+	text "HOW ROUGH!"
 	prompt
 
 CeladonGymCooltrainerF1AfterBattleText:
-	text "ベー！"
-	line "エリカさんに"
-	cont "やられ　ちゃえば　いいのよ"
+	text "BLEHHH!"
+	line "MISS ERIKA WILL"
+	cont "BEAT YOU DOWN!"
 	done
 
 CeladonGymBeauty1Text:
@@ -235,21 +247,23 @@ CeladonGymBeauty1Text:
 	jp TextScriptEnd
 
 CeladonGymBeauty1BattleText:
-	text "あら！"
-	line "おんな　ばっかりで"
-	cont "たいくつ　してたのよ！"
+	text "MY! I WAS TIRED"
+	line "OF ONLY GIRLS"
+	cont "BEING AROUND!"
 	done
 
 CeladonGymBeauty1EndBattleText:
-	text "やんなっちゃう"
+	text "OH DISGUSTING!"
 	prompt
 
 CeladonGymBeauty1AfterBattleText:
-	text "くさに　よわい　のは"
-	line "みず　タイプ　だけ　じゃ　ないわ"
+	text "NOT ONLY WATER"
+	line "TYPES ARE WEAK"
+	cont "TO GRASS!"
 
-	para "じめん　タイプ　と　いわ　タイプも"
-	line "わたし　たちの　えじきよ！"
+	para "GROUND AND ROCK"
+	line "ARE ALSO EASY"
+	cont "PREY FOR US!"
 	done
 
 CeladonGymCooltrainerF2Text:
@@ -259,18 +273,20 @@ CeladonGymCooltrainerF2Text:
 	jp TextScriptEnd
 
 CeladonGymCooltrainerF2BattleText:
-	text "あれー！　あんた　さっき"
-	line "ここ　のぞいてた　おとこ　じゃない？"
+	text "HEY! ARE YOU NOT"
+	line "THE BOY PEEKING"
+	cont "IN JUST NOW?!"
 	done
 
 CeladonGymCooltrainerF2EndBattleText:
-	text "おめめ　ぱちくり"
+	text "EYES BLINKING!"
 	prompt
 
 CeladonGymCooltrainerF2AfterBattleText:
-	text "あんた"
-	line "ほんとに　のぞき　じゃない？"
-	cont "さいきん　おおい　のよ"
+	text "ARE YOU TRULY"
+	line "NOT A PEEPER?"
+	cont "WE GET SO MANY"
+	cont "OF THEM LATELY!"
 	done
 
 CeladonGymBeauty2Text:
@@ -280,23 +296,26 @@ CeladonGymBeauty2Text:
 	jp TextScriptEnd
 
 CeladonGymBeauty2BattleText:
-	text "ねえ<⋯>　みて！"
-	line "これ　わたしの　#！"
+	text "HEY LOOK⋯!"
+	line "BEHOLD MY #!"
 
-	para "くさ　タイプは　そだてる　のが"
-	line "らくな　ところが　いいわ"
+	para "GRASS TYPES ARE"
+	line "SO EASY TO RAISE·"
+	cont "I LOVE THAT!"
 	done
 
 CeladonGymBeauty2EndBattleText:
-	text "やーん！"
+	text "NOOO WAY!"
 	prompt
 
 CeladonGymBeauty2AfterBattleText:
-	text "うちの　ジムは　つかう　#"
-	line "ぜーんぶ　くさ　タイプ！"
+	text "IN OUR GYM· ALL"
+	line "USED # ARE"
+	cont "GRASS TYPES!"
 
-	para "だって　#の　ほかに"
-	line "いけばな　きょうしつ　やってるから"
+	para "BECAUSE WE TEACH"
+	line "FLOWER ARRANGING"
+	cont "HERE AS WELL!"
 	done
 
 CeladonGymCooltrainerF3Text:
@@ -306,19 +325,22 @@ CeladonGymCooltrainerF3Text:
 	jp TextScriptEnd
 
 CeladonGymCooltrainerF3BattleText:
-	text "こら！　むし　#　とか"
-	line "ほのお　#　は　きらい　なの"
-	cont "ここに　もち　こまないでよ！"
+	text "HEY! I HATE BUG"
+	line "AND FIRE #!"
+	cont "DONT BRING THEM"
+	cont "INTO OUR GYM!"
 	done
 
 CeladonGymCooltrainerF3EndBattleText:
-	text "あ！　こいつう！"
+	text "AH! HOW DARE YOU!"
 	prompt
 
 CeladonGymCooltrainerF3AfterBattleText:
-	text "きみねー！　リーダーの　エリカさんは"
-	line "おしとやか　だけど　このへん　じゃ"
-	cont "ゆうめいな　<TRAINER>　なんだから！"
+	text "LISTEN KID!"
+	line "MISS ERIKA IS"
+	cont "GENTLE· BUT SHE"
+	cont "IS A RENOWNED"
+	cont "<TRAINER> HERE!"
 	done
 
 CeladonGymBeauty3Text:
@@ -328,19 +350,22 @@ CeladonGymBeauty3Text:
 	jp TextScriptEnd
 
 CeladonGymBeauty3BattleText:
-	text "あなた　ごしゅみは<⋯>？"
-	line "<⋯>　はい！"
-	cont "#を　しょうしょう"
+	text "YOUR HOBBY IS⋯?"
+	line "⋯YES! A SPOT"
+	cont "OF # DUELING!"
 	done
 
 CeladonGymBeauty3EndBattleText:
-	text "けっこうな　おてまえで"
+	text "FINE TECHNIQUE!"
 	prompt
 
 CeladonGymBeauty3AfterBattleText:
-	text "わたし　らいしゅう　おみあい　なの"
-	line "#　さそわれても　はしたない"
-	cont "たたかい　しない　ように　しなきゃ"
+	text "I HAVE A MATCH-"
+	line "MAKING MEET NEXT"
+	cont "WEEK! I MUST"
+	cont "NOT FIGHT ROUGH"
+	cont "IF INVITED TO #"
+	cont "BATTLES!"
 	done
 
 CeladonGymCooltrainerF4Text:
@@ -350,19 +375,24 @@ CeladonGymCooltrainerF4Text:
 	jp TextScriptEnd
 
 CeladonGymCooltrainerF4BattleText:
-	text "タマムシ　ジムに　ようこそ！"
+	text "WELCOME TO THE"
+	line "TAMAMUSHI GYM!"
 
-	para "おんなのこ　だからって"
-	line "ゆだん　しない　ほうが　いいわよ！"
+	para "DO NOT DROP YOUR"
+	line "GUARD JUST"
+	cont "BECAUSE WE ARE"
+	cont "GIRLS!"
 	done
 
 CeladonGymCooltrainerF4EndBattleText:
-	text "やる　じゃない！"
+	text "NOT HALF BAD!"
 	prompt
 
 CeladonGymCooltrainerF4AfterBattleText:
-	text "きょうは　つよい　#"
-	line "もって　こなかった　から<⋯>"
+	text "I DID NOT BRING"
+	line "MY STRONGEST #"
+	cont "TODAY⋯"
 
-	para "こんど　やる　ときは　まけないわ"
+	para "I WILL NOT LOSE"
+	line "NEXT TIME AT ALL!"
 	done

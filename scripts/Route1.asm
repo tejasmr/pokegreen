@@ -28,47 +28,55 @@ Route1Youngster1Text:
 	jp TextScriptEnd
 
 .MartSampleText:
-	text "わたし　フレンドリィ　ショップの"
-	line "てんいん　です"
+	text "WATASHI WA· I AM"
+	line "SHOP CLERK FROM"
+	cont "FRIENDLY SHOP！"
 
-	para "べんりな　どうぐや　ですから"
-	line "トキワ　シティで"
-	cont "ぜひ　よって　くださいね！"
+	para "CONVENIENT ITEM"
+	line "DOUGU SHOP· SO"
+	cont "VISIT TOKIWA CITY"
 
-	para "そうだ！"
-	line "みほんを　さしあげましょう"
-	cont "<⋯>　どうぞ！"
+	para "SOU DA！ THATS IT！"
+	line "HAVE A SAMPLE·"
+	cont "<⋯>DOUZO！ HERE！"
 	prompt
 
 .GotPotionText:
-	text "<PLAYER>は"
+	text "<PLAYER> GOT"
 	line "「@"
 	text_ram wStringBuffer
-	text "」を　もらった！@"
+	text "」！@"
 	sound_get_item_1
 	text_end
 
 .AlsoGotPokeballsText:
-	text "#を　つかまえる"
-	line "モンスターボール　かう　ときも"
-	cont "ショップへ　いらして　ください！"
+	text "WHEN YOU BUY"
+	line "MONSTER BALLS"
+	cont "TO CATCH #·"
+
+	para "PLEASE VISIT"
+	line "OUR SHOP AGAIN！"
 	done
 
 .NoRoomText:
-	text "にもつが　いっぱいだ！"
+	text "BAG IS FULL！"
+	line "NIMOTSU IPPAI！"
 	done
 
 Route1Youngster2Text:
-	text "みちに　だんさが　あるだろ！"
+	text "SEE LEDGES ON"
+	line "THE ROAD？ DANSA！"
 
-	para "とび　おりるのは"
-	line "ちょっと　こわいけど<⋯>"
+	para "JUMP DOWN IS A"
+	line "BIT SCARY<⋯> BUT"
 
-	para "マサラ　タウンに　かえる　ときは"
-	line "はやく　かえれて　いいよ"
+	para "GOING BACK TO"
+	line "MASARA TOWN IS"
+	cont "HAYAI· SO FAST！"
 	done
 
 Route1SignText:
-	text "ここは　１ばん　どうろ"
-	line "マサラ　タウン　<⋯>　トキワ　シティ"
+	text "ROUTE 1· DOURO"
+	line "MASARA TOWN<⋯>"
+	cont "TOKIWA CITY"
 	done

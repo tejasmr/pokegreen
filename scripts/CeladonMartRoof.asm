@@ -135,103 +135,104 @@ RemoveItemByIDBank12:
 	farjp RemoveItemByID
 
 CeladonMartRoofLittleGirlGiveHerWhichDrinkText:
-	text "どれを　あげますか？"
+	text "GIVE WHICH DRINK?"
 	done
 
 CeladonMartRoofLittleGirlYayFreshWaterText:
-	text "わーい！"
+	text "YAAAY!"
 
-	para "おいしいみず　くれるの？"
+	para "FRESH WATER FOR"
+	line "ME? THANK YOU!"
 
-	para "ごちそう　さま！"
-
-	para "おれいに　わたしの　たからもの"
-	line "これ　あげるね！@"
+	para "HERE IS MY"
+	line "TREASURE FOR YOU"
+	cont "IN RETURN!@"
 	text_waitbutton
 	text_end
 
 CeladonMartRoofLittleGirlReceivedTM13Text:
-	text "<PLAYER>は　おんなのこ　から"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!@"
 	sound_get_item_1
 	text_start
 
 	para "@"
 	text_ram wStringBuffer
-	text "の　なかは"
-	line "れいとうビーム　なの！"
+	text " CONTAINS"
+	line "ICE BEAM MOVE!"
 
-	para "たまに　あいてを"
-	line "こおらせる　ことが　あるわ@"
+	para "IT CAN FREEZE"
+	line "TARGET FOE@"
 	text_waitbutton
 	text_end
 
 CeladonMartRoofLittleGirlYaySodaPopText:
-	text "わーい！"
+	text "YAAAY!"
 
-	para "サイコソーダ　くれるの？"
+	para "SODA POP FOR ME?"
+	line "THANK YOU LOTS!"
 
-	para "ごちそうさま！"
-
-	para "おれいに　わたしの　たからもの"
-	line "これ　あげるね！@"
+	para "HERE IS MY"
+	line "TREASURE FOR YOU"
+	cont "IN RETURN!@"
 	text_waitbutton
 	text_end
 
 CeladonMartRoofLittleGirlReceivedTM48Text:
-	text "<PLAYER>は　おんなのこから"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!@"
 	sound_get_item_1
 	text_start
 
 	para "@"
 	text_ram wStringBuffer
-	text "の　なかは"
-	line "いわなだれ　なの！"
+	text " CONTAINS"
+	line "ROCK SLIDE MOVE!"
 
-	para "たまに　あいてを"
-	line "きぜつ　させる　ことが　あるわ@"
+	para "IT CAN CAUSE"
+	line "TARGET TO FLINCH@"
 	text_waitbutton
 	text_end
 
 CeladonMartRoofLittleGirlYayLemonadeText:
-	text "わーい！"
+	text "YAAAY!"
 
-	para "ミックスオレ　くれるの？"
+	para "LEMONADE FOR ME?"
+	line "THANK YOU LOTS!"
 
-	para "ごちそうさま！"
-
-	para "おれいに　わたしの　たからもの"
-	line "これ　あげるね！@"
+	para "HERE IS MY"
+	line "TREASURE FOR YOU"
+	cont "IN RETURN!@"
 	text_waitbutton
 	text_end
 
 CeladonMartRoofLittleGirlReceivedTM49Text:
-	text "<PLAYER>は　おんなのこから"
-	line "<TM>４９を　もらった！@"
+	text "<PLAYER> GOT"
+	line "<TM>49 FROM GIRL!@"
 	sound_get_item_1
 	text_start
 
-	para "<TM>４９の　なかは"
-	line "トライアタック　なの！"
+	para "<TM>49 CONTAINS"
+	line "TRI ATTACK MOVE!"
 
-	para "たまに　あいてを"
-	line "まひ　させる　ことが　あるわ@"
+	para "IT CAN CAUSE"
+	line "STATUS AILMENT@"
 	text_waitbutton
 	text_end
 
 CeladonMartRoofLittleGirlNoRoomText:
-	text "にもつ　いっぱいよ！@"
+	text "YOUR PACK IS"
+	line "FULL OF ITEMS!@"
 	text_waitbutton
 	text_end
 
 CeladonMartRoofLittleGirlImNotThirstyText:
-	text "うーん！"
-	line "やっぱり　がまん　する！@"
+	text "HMM! I WILL"
+	line "ENDURE THIRST!@"
 	text_waitbutton
 	text_end
 
@@ -267,11 +268,13 @@ CeladonMartRoof_TextPointers:
 	dw_const CeladonMartRoofCurrentFloorSignText, TEXT_CELADONMARTROOF_CURRENT_FLOOR_SIGN
 
 CeladonMartRoofSuperNerdText:
-	text "ウチの　いもうと　あれでも"
-	line "#　<TRAINER>の　はしくれ！"
+	text "MY LITTLE SISTER"
+	line "IS A <TRAINER> TOO"
+	cont "BELIEVE OR NOT!"
 
-	para "だけど<⋯>"
-	line "わがままで　イヤんなっちゃうよ"
+	para "BUT SHE IS SO"
+	line "SELFISH· IT IS"
+	cont "SO TIRESOME⋯"
 	done
 
 CeladonMartRoofLittleGirlText:
@@ -297,23 +300,26 @@ CeladonMartRoofLittleGirlText:
 	jp TextScriptEnd
 
 .ImThirstyText:
-	text "えーん<⋯>！"
-	line "おにいちゃん！"
-	cont "ジュース　のみたいよー！"
+	text "WAAAH⋯!"
+	line "BIG BROTHER!"
+	cont "I WANT TO DRINK"
+	cont "SOME JUICE NOW!"
 	done
 
 .GiveHerADrinkText:
-	text "えーん<⋯>！"
-	line "おにいちゃん！"
-	cont "ジュース　のみたいよー！"
+	text "WAAAH⋯!"
+	line "BIG BROTHER!"
+	cont "I WANT TO DRINK"
+	cont "SOME JUICE NOW!"
 
-	para "のみものを　あげますか？"
+	para "GIVE HER A"
+	line "DRINK TO SIP?"
 	done
 
 CeladonMartRoofVendingMachineText:
 	script_vending_machine
 
 CeladonMartRoofCurrentFloorSignText:
-	text "おくじょう　<⋯>　いこいの　ひろば"
-	line "　　　　　　<⋯>　じどう　はんばいき"
+	text "ROOFTOP SQUARE"
+	line "VENDING MACHINES"
 	done

@@ -142,15 +142,17 @@ SafariZoneGate_TextPointers:
 	dw_const SafariZoneGateSafariZoneWorker1GoodHaulComeAgainText,  TEXT_SAFARIZONEGATE_SAFARI_ZONE_WORKER1_GOOD_HAUL_COME_AGAIN
 
 SafariZoneGateSafariZoneWorker1Text:
-	text "サファリ　ゾーンに　ようこそ！"
+	text "WELCOME TO"
+	line "SAFARI ZONE!"
 	done
 
 SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText:
-	text "この　ひろい　サファリで"
-	line "いろんな　#　とりほうだいの"
-	cont "ゲームが　たった　５００円！"
+	text "ALL-YOU-CAN-CATCH"
+	line "# GAME FOR"
+	cont "JUST 500円!"
 
-	para "さっそく　やりますか？@"
+	para "WOULD YOU LIKE"
+	line "TO PLAY?@"
 	text_asm
 	ld a, MONEY_BOX
 	ld [wTextBoxID], a
@@ -213,34 +215,40 @@ SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText:
 	jp TextScriptEnd
 
 .MakePaymentText
-	text "それでは<⋯>！"
-	line "５００円　いただきまーす！"
+	text "ALRIGHT THEN<⋯>!"
+	line "THAT IS 500円!"
 
-	para "ここでは　サファリ　せんようの"
-	line "モンスターボールを　つかいます！"
-	cont "<⋯>　これです！"
+	para "USE OUR SPECIAL"
+	line "SAFARI BALLS!"
+	cont "HERE YOU GO!"
 
-	para "<PLAYER>は　うけつけ　から"
-	line "サファリボール　３０こ　もらった！@"
+	para "<PLAYER> RECEIVED"
+	line "30 SAFARI BALLS!@"
 	sound_get_item_1
 	text_start
 
-	para "のこり　じかんが　なくなるか！"
-	line "サファリボールが　なくなったら"
-	cont "メガホンで　しらせます！"
-	cont "では<⋯>！　ぐっど　らっく！"
+	para "WHEN TIME IS UP"
+	line "OR BALLS ARE GONE"
+	cont "DING-DONG! GAME"
+	cont "OVER ANNOUNCED!"
+
+	para "WELL THEN<⋯>!"
+	line "GOOD LUCK! GUDDO!"
 	done
 
 .PleaseComeAgainText
-	text "そうか<⋯>！　また　きて　ください"
+	text "I SEE<⋯>! PLEASE"
+	line "COME AGAIN!"
 	done
 
 .NotEnoughMoneyText
-	text "あッ　おかねが　たりない！"
+	text "AH! NOT ENOUGH"
+	line "MONEY! KANE NAI!"
 	done
 
+
 SafariZoneGateSafariZoneWorker1LeavingEarlyText:
-	text "もう　おわりに　する？@"
+	text "LEAVING EARLY?@"
 	text_asm
 	call YesNoChoice
 	ld a, [wCurrentMenuItem]
@@ -273,18 +281,20 @@ SafariZoneGateSafariZoneWorker1LeavingEarlyText:
 	jp TextScriptEnd
 
 .ReturnSafariBallsText
-	text "サファリボールの"
-	line "のこりは　ぜんぶ　ひきとります！"
+	text "PLEASE RETURN ALL"
+	line "REMAINING SAFARI"
+	cont "BALLS TO US!"
 	done
 
 .GoodLuckText
-	text "では　がんばって！"
+	text "GOOD LUCK THEN!"
+	line "GAMBATTE!"
 	done
 
 SafariZoneGateSafariZoneWorker1GoodHaulComeAgainText:
-	text "ごくろうさま！"
-	line "#　たくさん　とれたかな？"
-	cont "また　あそびに　きてね！"
+	text "THANK YOU! DID"
+	line "YOU CATCH MANY?"
+	cont "COME AGAIN!"
 	done
 
 SafariZoneGateSafariZoneWorker2Text:
@@ -302,25 +312,27 @@ SafariZoneGateSafariZoneWorker2Text:
 	jp TextScriptEnd
 
 .FirstTimeHereText
-	text "こんちわ！"
-	line "サファリ　ゲームは　はじめて？"
+	text "HELLO! IS THIS"
+	line "YOUR FIRST TIME"
+	cont "IN SAFARI GAME?"
 	done
 
 .SafariZoneExplanationText
-	text "サファリ　ゲームは"
-	line "４つの　ゾーンに　わかれてます！"
+	text "SAFARI GAME HAS"
+	line "4 BIG ZONES!"
 
-	para "それぞれに　めずらしい　#が"
-	line "せいそく　してますから"
-	cont "せんようの　サファリボールで"
-	cont "つかまえて　ください！"
+	para "EACH ZONE HAS"
+	line "RARE # LIVING!"
+	cont "CATCH THEM WITH"
+	cont "SAFARI BALLS!"
 
-	para "ただし　じかんが　なくなるか"
-	line "サファリボールを　ぜんぶ　なげたら"
-	cont "ゲームは　おわり　だよ！"
+	para "WHEN TIME IS UP"
+	line "OR OUT OF BALLS·"
+	cont "GAME IS OVER!"
 	done
 
 .YoureARegularHereText
-	text "おっと　しつれい！"
-	line "じょうれん　さん　だったね！"
+	text "OH EXCUSE ME!"
+	line "A REGULAR GUEST!"
 	done
+

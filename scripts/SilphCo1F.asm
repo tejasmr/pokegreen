@@ -13,8 +13,8 @@ SilphCo1F_TextPointers:
 	dw_const SilphCo1FLinkReceptionistText, TEXT_SILPHCO1F_LINK_RECEPTIONIST
 
 SilphCo1FLinkReceptionistText:
-	text "いらっしゃいませ！"
+	text "WELCOME!"
 
-	para "しゃちょう　でしたら　ただいま"
-	line "１１かい　やくいんしつで　ございます"
+	para "PRESIDENT IS IN"
+	line "BOARDROOM ON 11F!"
 	done

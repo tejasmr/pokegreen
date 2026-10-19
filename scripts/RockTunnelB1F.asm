@@ -42,19 +42,21 @@ RockTunnelB1FCooltrainerF1Text:
 	jp TextScriptEnd
 
 RockTunnelB1FCooltrainerF1BattleText:
-	text "ガールスカウトは　やまで"
-	line "まよわない　ように　めじるしの"
-	cont "こえだを　おいて　あるくの"
+	text "GIRL SCOUTS WALK"
+	line "DROPPING TWIGS"
+	cont "NOT TO GET LOST"
+	cont "IN MOUNTAINS!"
 	done
 
 RockTunnelB1FCooltrainerF1EndBattleText:
-	text "やーん<⋯>！"
-	line "がんばったのに"
+	text "YAAAN<⋯>! AND I"
+	line "TRIED SO HARD!"
 	prompt
 
 RockTunnelB1FCooltrainerF1AfterBattleText:
-	text "まけちゃったし"
-	line "きょうは　おうちに　かえろう"
+	text "I LOST SO I"
+	line "SHALL GO HOME"
+	cont "FOR TODAY!"
 	done
 
 RockTunnelB1FHiker1Text:
@@ -64,19 +66,20 @@ RockTunnelB1FHiker1Text:
 	jp TextScriptEnd
 
 RockTunnelB1FHiker1BattleText:
-	text "はははーッ！"
-	line "おれの　パワーに　かてるか！"
+	text "HAHAHA! CAN YOU"
+	line "BEAT MY POWER?!"
 	done
 
 RockTunnelB1FHiker1EndBattleText:
-	text "おっとっと！"
-	line "パワー　まけ　したか！"
+	text "WHOA-TTO-TTO!"
+	line "OUT-POWERED!"
 	prompt
 
 RockTunnelB1FHiker1AfterBattleText:
-	text "パワーに　こだわるのは"
-	line "かんがえながら　たたかうのが"
-	cont "にがて　だからだ！"
+	text "I OBSESS ON"
+	line "POWER CAUSE I"
+	cont "CANT THINK WHILE"
+	cont "FIGHTING!"
 	done
 
 RockTunnelB1FSuperNerd1Text:
@@ -86,18 +89,22 @@ RockTunnelB1FSuperNerd1Text:
 	jp TextScriptEnd
 
 RockTunnelB1FSuperNerd1BattleText:
-	text "#　ずかん　つくってる？"
-	line "くそう！　ぼくも　やりたい！"
+	text "MAKING A #"
+	line "『ZUKAN』 DEX?!"
+	cont "DAMN! I WANT TO"
+	cont "MAKE ONE TOO!"
 	done
 
 RockTunnelB1FSuperNerd1EndBattleText:
-	text "ああ　もう！　くやしい"
+	text "AHH GEEZ! SO"
+	line "FRUSTRATING!"
 	prompt
 
 RockTunnelB1FSuperNerd1AfterBattleText:
-	text "<⋯>　だからさ"
-	line "#　ずかん　かんせい　したら"
-	cont "ぼくに　くれない？"
+	text "<⋯>SO LISTEN· WHEN"
+	line "DEX IS FINISHED"
+	cont "WONT YOU GIVE"
+	cont "IT TO ME?"
 	done
 
 RockTunnelB1FSuperNerd2Text:
@@ -107,18 +114,20 @@ RockTunnelB1FSuperNerd2Text:
 	jp TextScriptEnd
 
 RockTunnelB1FSuperNerd2BattleText:
-	text "あの<⋯>"
-	line "#　コスプレ　しってます？"
+	text "UM<⋯> DO YOU KNOW"
+	line "# 『COSPLAY』?"
 	done
 
 RockTunnelB1FSuperNerd2EndBattleText:
-	text "しょうが　ない　ですね"
+	text "CANT BE HELPED"
+	line "I GUESS!"
 	prompt
 
 RockTunnelB1FSuperNerd2AfterBattleText:
-	text "コスプレって　いうのは"
-	line "ピッピの　きぐるみ　とか　つくって"
-	cont "#に　なりきるんです"
+	text "『COSPLAY』 MEANS"
+	line "MAKING A PIPPI"
+	cont "COSTUME SUIT TO"
+	cont "BECOME THE #!"
 	done
 
 RockTunnelB1FHiker2Text:
@@ -128,20 +137,21 @@ RockTunnelB1FHiker2Text:
 	jp TextScriptEnd
 
 RockTunnelB1FHiker2BattleText:
-	text "おれの"
-	line "#　テクニックで"
-	cont "ひーひー　いわせるぜ！"
+	text "MY # TECHNIQUE"
+	line "WILL MAKE YOU"
+	cont "CRY FOR MERCY!"
 	done
 
 RockTunnelB1FHiker2EndBattleText:
-	text "まいった！"
-	line "おまえの　ほうが　テクニシャンだ"
+	text "I GIVE UP! YOU"
+	line "ARE REAL PRO"
+	cont "TECHNICIAN!"
 	prompt
 
 RockTunnelB1FHiker2AfterBattleText:
-	text "そうだな<⋯>"
-	line "やまの　#　には"
-	cont "いわ　タイプが　おおいぞ"
+	text "YES INDEED<⋯> IN"
+	line "MOUNTAINS· ROCK"
+	cont "TYPES ARE MANY!"
 	done
 
 RockTunnelB1FCooltrainerF2Text:
@@ -151,18 +161,19 @@ RockTunnelB1FCooltrainerF2Text:
 	jp TextScriptEnd
 
 RockTunnelB1FCooltrainerF2BattleText:
-	text "たたかっても　いいけど<⋯>"
-	line "この　あたりには"
-	cont "あまり　きた　こと　ないの"
+	text "I CAN BATTLE· BUT"
+	line "<⋯>I RARELY COME"
+	cont "AROUND HERE!"
 	done
 
 RockTunnelB1FCooltrainerF2EndBattleText:
-	text "まけちゃった"
+	text "I WENT AND LOST!"
 	prompt
 
 RockTunnelB1FCooltrainerF2AfterBattleText:
-	text "ちっちゃい　#が　すき"
-	line "おっきいのは　こわい　から　いや"
+	text "I LIKE TINY #"
+	line "BIG ONES ARE"
+	cont "SCARY AND MEAN!"
 	done
 
 RockTunnelB1FHiker3Text:
@@ -172,18 +183,20 @@ RockTunnelB1FHiker3Text:
 	jp TextScriptEnd
 
 RockTunnelB1FHiker3BattleText:
-	text "おとこ　なら"
-	line "どーんと　ぶつかって　こい！"
+	text "IF YOU ARE A MAN"
+	line "HIT ME WITH"
+	cont "A BOOM 『DOON』!"
 	done
 
 RockTunnelB1FHiker3EndBattleText:
-	text "どーんと！"
-	line "こっちが　やられた！"
+	text "BOOM! 『DOON』!"
+	line "I GOT CLOBBERED!"
 	prompt
 
 RockTunnelB1FHiker3AfterBattleText:
-	text "おれも　ぼうずに　まけない"
-	line "#を　そだてて　おくぜ！"
+	text "I WILL RAISE #"
+	line "NOT TO LOSE TO"
+	cont "YOU NEXT TIME!"
 	done
 
 RockTunnelB1FSuperNerd3Text:
@@ -193,16 +206,19 @@ RockTunnelB1FSuperNerd3Text:
 	jp TextScriptEnd
 
 RockTunnelB1FSuperNerd3BattleText:
-	text "いえに　いる　ときは"
-	line "#の　イラスト　とか　かいてる"
+	text "WHEN AT HOME· I"
+	line "DRAW # ART AND"
+	cont "ILLUSTRATIONS!"
 	done
 
 RockTunnelB1FSuperNerd3EndBattleText:
-	text "ああ<⋯>"
-	line "ぼく　くたびれた"
+	text "AHH<⋯> I AM"
+	line "SO EXHAUSTED!"
 	prompt
 
 RockTunnelB1FSuperNerd3AfterBattleText:
-	text "ぼくは　たたかうの　むいて　ないな"
-	line "かえって　イラスト　でも　かいてよう"
+	text "I AM NOT CUT"
+	line "OUT FOR BATTLE·"
+	cont "I WILL GO HOME"
+	cont "AND DRAW ART!"
 	done

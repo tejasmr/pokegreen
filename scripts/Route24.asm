@@ -139,60 +139,64 @@ Route24CooltrainerM1Text:
 	jp TextScriptEnd
 
 .YouBeatOurContestText:
-	text "おみごとーッ！"
-	line "５にんぬき　おめでとう！@"
+	text "SPLENDID! BRAVO!"
+	line "BEAT 5 TRAINERS!"
+	cont "CONGRATULATIONS!@"
 	sound_get_item_1
 	text_start
 
-	para "しょうひんに"
-	line "これを　プレゼント　しよう！"
+	para "AS A PRIZE TAKE"
+	line "THIS PRESENT!"
 	prompt
 
 .ReceivedNuggetText:
-	text "<PLAYER>は　なぞの<TRAINER>から"
-	line "@"
+	text "<PLAYER> RECEIVED"
+	line "A @"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!@"
 	sound_get_item_1
 	text_promptbutton
 	text_end
 
 .NoRoomText:
-	text "もちものが　いっぱいだ"
+	text "BAG IS FULL!"
 	done
 
 .JoinTeamRocketText:
-	text "ところで<⋯>　ここだけの　はなし"
-	line "<ROCKET>に　はいらない？"
+	text "BY THE WAY<⋯>"
+	line "SECRET TALK:"
+	cont "JOIN TEAM ROCKET?"
 
-	para "おれたちは"
-	line "#を　わるいことに"
-	cont "つかおうっていう　グループだ！"
+	para "WE ARE A GANG"
+	line "THAT USES MONS"
+	cont "FOR EVIL CRIMES!"
 
-	para "はいりなよ"
+	para "『HAIRU』! JOIN UP!"
 
-	para "はいらないの？"
+	para "WONT YOU JOIN?"
 
-	para "はいってよ！"
+	para "PLEASE JOIN US!"
 
-	para "はいれよ！"
+	para "JUST JOIN NOW!"
 
-	para "<⋯>　ことわるって　かお　してんな"
+	para "<⋯>REFUSAL ON"
+	line "YOUR YOUNG FACE!"
 
-	para "それなら<⋯>！"
-	line "むりやり　いれて　やる！"
-	cont "うりゃーッ！"
+	para "THEN BY FORCE I"
+	line "WILL MAKE YOU!"
+	cont "『URYAA』! HIYAA!"
 	done
 
 .DefeatedText:
-	text "こぞう<⋯>！"
-	line "ホント　つええな！"
+	text "KID<⋯> YOU ARE"
+	line "REALLY STRONG!"
 	prompt
 
 .YouCouldBecomeATopLeaderText:
-	text "それだけの　うでが　あれば"
-	line "<ROCKET>　でも"
-	cont "えらく　なれるのに　もったいないぜ！"
+	text "WITH SUCH SKILL"
+	line "YOU COULD BECOME"
+	cont "A ROCKET LEADER!"
+	cont "WHAT A WASTE!"
 	done
 
 Route24CooltrainerM2Text:
@@ -202,17 +206,19 @@ Route24CooltrainerM2Text:
 	jp TextScriptEnd
 
 Route24CooltrainerM2BattleText:
-	text "ふふ<⋯>ッ！　くさむらから"
-	line "きみの　かつやくを　みてたよ"
+	text "HEH-HEH<⋯> FROM"
+	line "THE GRASS I SAW"
+	cont "YOUR FEATS!"
 	done
 
 Route24CooltrainerM2EndBattleText:
-	text "<⋯>　やっぱり　だめだ"
+	text "<⋯>NO GOOD AT ALL"
 	prompt
 
 Route24CooltrainerM2AfterBattleText:
-	text "<⋯>　はしを　わたるのが　こわくて"
-	line "ずっと　ここに　かくれてたんだ"
+	text "<⋯>AFRAID TO CROSS"
+	line "BRIDGE SO I HID"
+	cont "IN GRASS ALL DAY!"
 	done
 
 Route24CooltrainerM3Text:
@@ -222,17 +228,19 @@ Route24CooltrainerM3Text:
 	jp TextScriptEnd
 
 Route24CooltrainerM3BattleText:
-	text "きえーいッ！　５にんめ！"
-	line "おれが　あいてだあ！"
+	text "KIEEYAH! NO·5!"
+	line "I AM YOUR FINAL"
+	cont "OPPONENT HERE!"
 	done
 
 Route24CooltrainerM3EndBattleText:
-	text "たいした　もんだ！"
+	text "YOU ARE GREAT!"
 	prompt
 
 Route24CooltrainerM3AfterBattleText:
-	text "ベストを　つくしたんだ"
-	line "くいは　ない！"
+	text "DID MY BEST SO"
+	line "『KUI WA NAI』!"
+	cont "NO REGRETS LEFT!"
 	done
 
 Route24CooltrainerF1Text:
@@ -242,18 +250,19 @@ Route24CooltrainerF1Text:
 	jp TextScriptEnd
 
 Route24CooltrainerF1BattleText:
-	text "４にんめは　わたしよ！"
-	line "そろそろ　ばてて"
-	cont "きたんじゃない？"
+	text "NUMBER 4 IS ME!"
+	line "ARE YOU GETTING"
+	cont "TIRED OUT YET?"
 	done
 
 Route24CooltrainerF1EndBattleText:
-	text "わたしも　まけたのね"
+	text "I LOST TOO HUH"
 	prompt
 
 Route24CooltrainerF1AfterBattleText:
-	text "ベストを　つくしたんだから"
-	line "くいは　ないわ！"
+	text "I GAVE MY BEST!"
+	line "『KUI WA NAI』!"
+	cont "NO REGRETS LEFT!"
 	done
 
 Route24Youngster1Text:
@@ -263,17 +272,19 @@ Route24Youngster1Text:
 	jp TextScriptEnd
 
 Route24Youngster1BattleText:
-	text "３にんめ　とうじょう！"
-	line "そう　かんたんには　いかないぜ！"
+	text "NUMBER 3 ENTERS!"
+	line "IT WONT BE SO"
+	cont "EASY FOR YOU!"
 	done
 
 Route24Youngster1EndBattleText:
-	text "へろへろ　もう　ダメ"
+	text "ALL WOBBLY! DONE!"
 	prompt
 
 Route24Youngster1AfterBattleText:
-	text "ベストを　つくしたんだ"
-	line "くいは　ない！"
+	text "DID MY BEST SO"
+	line "『KUI WA NAI』!"
+	cont "NO REGRETS LEFT!"
 	done
 
 Route24CooltrainerF2Text:
@@ -283,17 +294,19 @@ Route24CooltrainerF2Text:
 	jp TextScriptEnd
 
 Route24CooltrainerF2BattleText:
-	text "ふたりめは　わたし！"
-	line "これからが　ほんばん　よ！"
+	text "NUMBER 2 IS ME!"
+	line "NOW THE REAL"
+	cont "TEST BEGINS!"
 	done
 
 Route24CooltrainerF2EndBattleText:
-	text "しんじらんなーい"
+	text "UNBELIEVABLE!"
 	prompt
 
 Route24CooltrainerF2AfterBattleText:
-	text "ベストを　つくしたんだから"
-	line "くいは　ないわ！"
+	text "I GAVE MY BEST!"
+	line "『KUI WA NAI』!"
+	cont "NO REGRETS LEFT!"
 	done
 
 Route24Youngster2Text:
@@ -303,21 +316,24 @@ Route24Youngster2Text:
 	jp TextScriptEnd
 
 Route24Youngster2BattleText:
-	text "この　はしは　ひと　よんで"
-	line "ゴールデンボール　ブリッジ！"
+	text "PEOPLE CALL THIS"
+	line "GOLDEN BALL"
+	cont "NUGGET BRIDGE!"
 
-	para "５にん　かちぬけば"
-	line "ごうかな　しょうひんが　もらえる！"
+	para "BEAT 5 TRAINERS"
+	line "TO WIN A BIG"
+	cont "FABULOUS PRIZE!"
 
-	para "さて！"
-	line "おまえに　ぬけられるかな？"
+	para "NOW! CAN YOU"
+	line "PASS THROUGH?"
 	done
 
 Route24Youngster2EndBattleText:
-	text "なかなか　やるじゃん"
+	text "PRETTY GOOD JOB!"
 	prompt
 
 Route24Youngster2AfterBattleText:
-	text "ベストを　つくしたんだ"
-	line "くいは　ない！"
+	text "DID MY BEST SO"
+	line "『KUI WA NAI』!"
+	cont "NO REGRETS LEFT!"
 	done

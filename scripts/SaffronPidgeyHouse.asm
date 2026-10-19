@@ -9,31 +9,38 @@ SaffronPidgeyHouse_TextPointers:
 	dw_const SaffronPidgeyHousePaperText,        TEXT_SAFFRONPIDGEYHOUSE_PAPER
 
 SaffronPidgeyHouseBrunetteGirlText:
-	text "<⋯>　おてがみ　ありがとう！"
-	line "はやく　あなたに　あいたいな<⋯>"
+	text "⋯THANKS FOR"
+	line "YOUR LETTER!"
+	cont "I WANT TO MEET"
+	cont "YOU SOON⋯"
 
-	para "いやーん！"
-	line "てがみ　かいてんだから　みないで！"
+	para "IYAAN! DONT PEEK"
+	line "WHILE I WRITE"
+	cont "SECRET LETTER!"
 	done
 
 SaffronPidgeyHousePidgeyText:
-	text "ポッポ『クルックー@"
+	text "POPPO: 『KURUKKU!@"
 	text_asm
 	ld a, PIDGEY
 	call PlayCry
 	jp TextScriptEnd
 
 SaffronPidgeyHouseYoungsterText:
-	text "ものまね　むすめって　かわいい！"
-	line "かのじょに　ピッピにんぎょう"
-	cont "プレゼント　するんだ！"
+	text "COPYCAT GIRL IS"
+	line "SO KAWAII! CUTE!"
+
+	para "I WILL PRESENT"
+	line "A PIPPI DOLL"
+	cont "TO HER!"
 	done
 
 SaffronPidgeyHousePaperText:
-	text "<⋯>　この　あいだ"
-	line "ポイント　アップ　もらったの"
+	text "⋯THE OTHER DAY"
+	line "I GOT PP UP!"
 
-	para "すごく　つよい　わざって"
-	line "パワー　ポイント　すくないけど"
-	cont "これで　ふやせば　いいのね<⋯>？"
+	para "VERY STRONG MOVE"
+	line "HAS LOW PP BUT"
+	cont "THIS BOOSTS IT"
+	cont "RIGHT⋯?"
 	done

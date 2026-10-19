@@ -20,7 +20,7 @@ SlidePlayerAndEnemySilhouettesOnScreen:
 	ld hl, vBGMap0
 	ld bc, TILEMAP_AREA
 .clearBackgroundLoop
-	ld a, '　'
+	ld a, ' '
 	ld [hli], a
 	dec bc
 	ld a, b
@@ -207,10 +207,9 @@ StartBattle:
 	jr EnemyRan ; if b was greater than the random value, the enemy runs
 
 .outOfSafariBallsText
-	text "アナウンス『ピンポーン！"
-
-	para "サファリ　ボールを"
-	line "ぜんぶ　なげました！"
+	text "PA: DING-DONG！"
+	para "OUT OF SAFARI"
+	line "BALLS！"
 	prompt
 
 .playerSendOutFirstMon
@@ -273,15 +272,15 @@ EnemyRan:
 	jpfar AnimationSlideEnemyMonOff
 
 WildRanText:
-	text "やせいの@"
+	text "WILD @"
 	text_ram wEnemyMonNick
-	text "は　にげだした！"
+	line "FLED AWAY！"
 	prompt
 
 EnemyRanText:
-	text "てきの@"
+	text "ENEMY @"
 	text_ram wEnemyMonNick
-	text "は　にげだした！"
+	line "FLED AWAY！"
 	prompt
 
 MainInBattleLoop:
@@ -564,18 +563,18 @@ HandlePoisonBurnLeechSeed:
 	ret
 
 HurtByPoisonText:
-	text "<USER>は"
-	line "どくの　ダメージを　うけている！"
+	text "<USER>"
+	line "HURT BY POISON！"
 	prompt
 
 HurtByBurnText:
-	text "<USER>は"
-	line "やけどの　ダメージを　うけている！"
+	text "<USER>"
+	line "HURT BY BURN！"
 	prompt
 
 HurtByLeechSeedText:
-	text "やどりぎが　<USER>の"
-	line "たいりょくを　うばう！"
+	text "LEECH SEED DRAIN"
+	line "<USER>！"
 	prompt
 
 ; decreases the mon's current HP by 1/16 of the Max HP (multiplied by number of toxic ticks if active)
@@ -893,9 +892,9 @@ FaintEnemyPokemon:
 	jpfar GainExperience
 
 EnemyMonFaintedText:
-	text "てきの　@"
+	text "ENEMY @"
 	text_ram wEnemyMonNick
-	text "は　たおれた！"
+	line "FAINTED！"
 	prompt
 
 EndLowHealthAlarm:
@@ -986,16 +985,15 @@ TrainerBattleVictory:
 	predef_jump AddBCDPredef
 
 MoneyForWinningText:
-	text "<PLAYER>は　しょうきんとして"
+	text "<PLAYER> WON"
 	line "@"
 	text_bcd wAmountMoneyWon, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text "円　てにいれた！"
+	text "円！"
 	prompt
 
 TrainerDefeatedText:
 	text_ram wTrainerName
-	text "との"
-	line "しょうぶに　かった！"
+	line "WAS DEFEATED！"
 	prompt
 
 PlayBattleVictoryMusic:
@@ -1087,7 +1085,7 @@ RemoveFaintedPlayerMon:
 
 PlayerMonFaintedText:
 	text_ram wBattleMonNick
-	text "は　たおれた！"
+	line "FAINTED！"
 	prompt
 
 ; asks if you want to use next mon
@@ -1121,7 +1119,7 @@ DoUseNextMonDialogue:
 	jp TryRunningFromBattle
 
 UseNextMonText:
-	text "つぎの　#をつかいますか？"
+	text "USE NEXT #？"
 	done
 
 ; choose next player mon to send out
@@ -1210,22 +1208,20 @@ HandlePlayerBlackOut:
 	ret
 
 Rival1WinText:
-	text "<RIVAL>『やりー！"
-	line "やっぱ　おれって　てんさい？"
+	text "<RIVAL>: YAY！"
+	line "I AM A GENIUS！"
 	prompt
 
 PlayerBlackedOutText2:
-	text "<PLAYER>の　てもとには"
-	line "たたかえる　#が　いない！"
-
-	para "<PLAYER>は"
-	line "めのまえが　まっくらに　なった！"
+	text "<PLAYER> HAS NO"
+	line "MORE #！"
+	para "<PLAYER> BLACKED"
+	line "OUT！"
 	prompt
 
 LinkBattleLostText:
 	text_ram wTrainerName
-	text "との"
-	line "しょうぶに　まけた！"
+	line "WON BATTLE！"
 	prompt
 
 ; slides pic of fainted mon downwards until it disappears
@@ -1277,7 +1273,7 @@ SlideDownFaintedMonPic:
 	ret
 
 SevenSpacesText:
-	ds PIC_WIDTH, '　'
+	ds PIC_WIDTH, ' '
 	db "@"
 
 ; slides the player or enemy trainer off screen
@@ -1493,21 +1489,18 @@ EnemySendOut:
 
 TrainerAboutToUseText:
 	text_ram wTrainerName
-	text "は　@"
+	text " WILL"
+	line "USE @"
 	text_ram wEnemyMonNick
-	text "を"
-	line "くりだそうと　しているようだ"
-
-	para "<PLAYER>も　#を"
-	line "とりかえますか？"
+	text "！"
+	para "CHANGE #？"
 	done
 
 TrainerSentOutText:
 	text_ram wTrainerName
-	text "は"
-	line "@"
+	line "SENT @"
 	text_ram wEnemyMonNick
-	text "を　くりだした！"
+	text "！"
 	done
 
 ; tests if the player has any pokemon that are not fainted
@@ -1548,7 +1541,7 @@ HasMonFainted:
 	ret
 
 NoWillText:
-	text "たたかう　きりょくが　ない！"
+	text "CANNOT BATTLE！"
 	prompt
 
 ; try to run from battle (hl = player speed, de = enemy speed)
@@ -1671,17 +1664,16 @@ TryRunningFromBattle:
 	ret
 
 CantEscapeText:
-	text "にげられない！"
+	text "CANT ESCAPE！"
 	prompt
 
 NoRunningText:
-	text "ダメだ！"
-	line "しょうぶの　さいちゅうに"
-	cont "あいてに　せなかは　みせられない！"
+	text "DAME！ CANT RUN"
+	line "FROM A BATTLE！"
 	prompt
 
 GotAwayText:
-	text "うまく　にげきれた！"
+	text "GOT AWAY SAFELY！"
 	prompt
 
 ; copies from party data to battle mon data when sending out a new player mon
@@ -2120,7 +2112,7 @@ DisplayBattleMenu::
 	ld [hl], '▶'
 	ld c, 80
 	call DelayFrames
-	ld [hl], '　'
+	ld [hl], ' '
 	hlcoord 15, 14
 	ld [hl], '▶'
 	ld c, 50
@@ -2129,7 +2121,7 @@ DisplayBattleMenu::
 	ld a, $2 ; select the "ITEM" menu
 	jp .upperLeftMenuItemWasNotSelected
 .oldManName
-	db "おじいさん@"
+	db "OLD MAN@"
 .handleBattleMenuInput
 	ld a, [wBattleAndStartSavedMenuItem]
 	ld [wCurrentMenuItem], a
@@ -2143,7 +2135,7 @@ DisplayBattleMenu::
 .leftColumn ; put cursor in left column of menu
 	ld a, [wBattleType]
 	cp BATTLE_TYPE_SAFARI
-	ld a, '　'
+	ld a, ' '
 	jr z, .safariLeftColumn
 ; put cursor in left column for normal battle menu (i.e. when it's not a Safari battle)
 	ldcoord_a 15, 14 ; clear upper cursor position in right column
@@ -2176,7 +2168,7 @@ DisplayBattleMenu::
 .rightColumn ; put cursor in right column of menu
 	ld a, [wBattleType]
 	cp BATTLE_TYPE_SAFARI
-	ld a, '　'
+	ld a, ' '
 	jr z, .safariRightColumn
 ; put cursor in right column for normal battle menu (i.e. when it's not a Safari battle)
 	ldcoord_a 10, 14 ; clear upper cursor position in left column
@@ -2360,8 +2352,8 @@ UseBagItem:
 	ret
 
 ItemsCantBeUsedHereText:
-	text "ここでは　どうぐを"
-	line "つかうことは　できません"
+	text "ITEMS CANT BE"
+	line "USED HERE！"
 	prompt
 
 PartyMenuOrRockOrRun:
@@ -2394,7 +2386,7 @@ PartyMenuOrRockOrRun:
 .partyMonDeselected
 	hlcoord 11, 11
 	ld bc, 6 * SCREEN_WIDTH + 9
-	ld a, '　'
+	ld a, ' '
 	call FillMemory
 	xor a ; NORMAL_PARTY_MENU
 	ld [wPartyMenuTypeOrMessageID], a
@@ -2509,7 +2501,7 @@ SwitchPlayerMon:
 
 AlreadyOutText:
 	text_ram wBattleMonNick
-	text "はもうでています"
+	line "IS ALREADY OUT！"
 	prompt
 
 BattleMenu_RunWasSelected:
@@ -2718,16 +2710,16 @@ SelectMenuItem:
 	jp MoveSelectionMenu
 
 MoveNoPPText:
-	text "わざの　のこりポイントが　ない！"
+	text "NO PP LEFT！"
 	prompt
 
 MoveDisabledText:
-	text "わざを　ふうじられている！"
+	text "MOVE IS BLOCKED！"
 	prompt
 
 WhichTechniqueString:
-	db   "どのわざを"
-	next "ものまねする？@"
+	db   "WHICH MOVE TO"
+	next "MIMIC？@"
 
 SelectMenuItem_CursorUp:
 	ld a, [wCurrentMenuItem]
@@ -2798,8 +2790,7 @@ AnyMoveToSelect:
 
 NoMovesLeftText:
 	text_ram wBattleMonNick
-	text "は　だすことの　できる"
-	line "わざが　ない！"
+	line "HAS NO MOVES！"
 	done
 
 SwapMovesInMenu:
@@ -2950,10 +2941,10 @@ PrintMenuItem:
 	jp Delay3
 
 DisabledText:
-	db "ふうじられている！@"
+	db "DISABLED！@"
 
 TypeText:
-	db "わざタイプ@"
+	db "TYPE/@"
 
 SelectEnemyMove:
 	ld a, [wLinkState]
@@ -3341,9 +3332,9 @@ MirrorMoveCheck:
 	jp ExecutePlayerMoveDone
 
 MultiHitText:
-	text "あいてに　@"
+	text "HIT @"
 	text_decimal wPlayerNumHits, 1, 1
-	text "かい　あたった！"
+	text " TIMES！"
 	prompt
 
 ExecutePlayerMoveDone:
@@ -3374,12 +3365,12 @@ PrintGhostText:
 
 ScaredText:
 	text_ram wBattleMonNick
-	text "は　こわがっている！"
-	line "わざを　だすことが　できない！"
+	line "IS TOO SCARED！"
 	prompt
 
 GetOutText:
-	text "ゆうれい『タチサレ<⋯>タチサレ<⋯>"
+	text "GHOST: BEGONE<⋯>"
+	line "TACHISARE<⋯>"
 	prompt
 
 ; sets Z flag if a wild battle occurs inside Pokemon Tower,
@@ -3672,74 +3663,78 @@ ENDC
 	ret
 
 FastAsleepText:
-	text "<USER>は"
-	line "ぐうぐう　ねむっている"
+	text "<USER>"
+	line "FAST ASLEEP！"
 	prompt
 
 WokeUpText:
-	text "<USER>は　めをさました！"
+	text "<USER>"
+	line "WOKE UP！"
 	prompt
 
 IsFrozenText:
-	text "<USER>は"
-	line "こおって　しまって　うごかない！"
+	text "<USER>"
+	line "FROZEN SOLID！"
 	prompt
 
 FullyParalyzedText:
-	text "<USER>は"
-	line "からだが　しびれて　うごけない"
+	text "<USER>"
+	line "FULLY PARALYZED！"
 	prompt
 
 FlinchedText:
-	text "<USER>は　ひるんだ！"
+	text "<USER>"
+	line "FLINCHED！"
 	prompt
 
 MustRechargeText:
-	text "こうげきの　はんどうで"
-	line "<USER>は　うごけない！"
+	text "<USER>"
+	line "MUST RECHARGE！"
 	prompt
 
 DisabledNoMoreText:
-	text "<USER>の"
-	line "かなしばりが　とけた！"
+	text "<USER>"
+	line "IS UNBLOCKED！"
 	prompt
 
 IsConfusedText:
-	text "<USER>は"
-	line "こんらんしている！"
+	text "<USER>"
+	line "IS CONFUSED！"
 	prompt
 
 HurtItselfText:
-	text "わけも　わからず"
-	line "じぶんを　こうげきした！"
+	text "IT HURT ITSELF IN"
+	line "CONFUSION！"
 	prompt
 
 ConfusedNoMoreText:
-	text "<USER>の"
-	line "こんらんが　とけた！"
+	text "<USER>"
+	line "CONFUSED NO MORE！"
 	prompt
 
 SavingEnergyText: ; unreferenced
-	text "<USER>は　がまんしている"
+	text "<USER>"
+	line "SAVING ENERGY！"
 	prompt
 
 UnleashedEnergyText:
-	text "<USER>の"
-	line "がまんが　とかれた！"
+	text "<USER>"
+	line "UNLEASHED BIDE！"
 	prompt
 
 ThrashingAboutText:
-	text "<USER>は　あばれている"
+	text "<USER>"
+	line "THRASHING ABOUT！"
 	done
 
 AttackContinuesText:
-	text "<USER>の　こうげきは"
-	line "まだ　つづいている"
+	text "<USER>"
+	line "KEEPS ATTACKING！"
 	done
 
 CantMoveText:
-	text "<USER>は"
-	line "みうごきが　とれない！"
+	text "<USER>"
+	line "CANNOT MOVE！"
 	prompt
 
 PrintMoveIsDisabledText:
@@ -3761,10 +3756,8 @@ PrintMoveIsDisabledText:
 	jp PrintText
 
 MoveIsDisabledText:
-	text "<USER>は　かなしばりで"
-	line "@"
 	text_ram wNameBuffer
-	text "がだせない！"
+	line "IS DISABLED！"
 	prompt
 
 HandleSelfConfusionDamage:
@@ -3871,19 +3864,18 @@ PrintMoveFailureText:
 	jp ApplyDamageToEnemyPokemon
 
 AttackMissedText:
-	text "しかし　<USER>の"
-	line "こうげきは　はずれた！"
+	text "<USER>"
+	line "ATTACK MISSED！"
 	prompt
 
 KeptGoingAndCrashedText:
-	text "いきおい　あまって"
-	line "<USER>は"
-	cont "じめんに　ぶつかった！"
+	text "<USER>"
+	line "CRASHED DOWN！"
 	prompt
 
 UnaffectedText:
-	text "<TARGET>には"
-	line "ぜんぜんきいてない！"
+	text "<TARGET>"
+	line "UNAFFECTED！"
 	prompt
 
 PrintDoesntAffectText:
@@ -3891,8 +3883,8 @@ PrintDoesntAffectText:
 	jp PrintText
 
 DoesntAffectMonText:
-	text "<TARGET>には"
-	line "こうかが　ない　みたいだ<⋯>"
+	text "<TARGET>"
+	line "HAD NO EFFECT！"
 	prompt
 
 ; if there was a critical hit or an OHKO was successful, print the corresponding text
@@ -3921,11 +3913,11 @@ CriticalOHKOTextPointers:
 	dw OHKOText
 
 CriticalHitText:
-	text "きゅうしょに　あたった！"
+	text "CRITICAL HIT！"
 	prompt
 
 OHKOText:
-	text "いちげき　ひっさつ！"
+	text "ONE-HIT KO！"
 	prompt
 
 ; checks if a traded mon will disobey due to lack of badges
@@ -4100,27 +4092,27 @@ CheckForDisobedience:
 
 LoafingAroundText:
 	text_ram wBattleMonNick
-	text "は　なまけている"
+	line "IS LOAFING！"
 	prompt
 
 BeganToNapText:
 	text_ram wBattleMonNick
-	text "は　ひるねをはじめた！"
+	line "BEGAN TO NAP！"
 	prompt
 
 WontObeyText:
 	text_ram wBattleMonNick
-	text "は　いうことを　きかない"
+	line "WONT OBEY！"
 	prompt
 
 TurnedAwayText:
 	text_ram wBattleMonNick
-	text "は　そっぽを　むいた"
+	line "TURNED AWAY！"
 	prompt
 
 IgnoredOrdersText:
 	text_ram wBattleMonNick
-	text "は　しらんぷりをした"
+	line "IGNORED ORDERS！"
 	prompt
 
 ; sets b, c, d, and e for the CalculateDamage routine in the case of an attack by the player mon
@@ -4999,13 +4991,13 @@ AttackSubstitute:
 	jp DrawHUDsAndHPBars
 
 SubstituteTookDamageText:
-	text "<TARGET>に　かわって"
-	line "ぶんしんが　こうげきを　うけた！"
+	text "<TARGET>"
+	line "SUBSTITUTE HIT！"
 	prompt
 
 SubstituteBrokeText:
-	text "<TARGET>の　ぶんしんは"
-	line "きえてしまった<⋯>"
+	text "<TARGET>"
+	line "SUBSTITUTE GONE！"
 	prompt
 
 ; this function raises the attack modifier of a pokemon using Rage when that pokemon is attacked
@@ -5052,8 +5044,8 @@ HandleBuildingRage:
 	ret
 
 BuildingRageText:
-	text "<USER>の　いかりの"
-	line "ボルテージが　あがっていく！"
+	text "<USER>"
+	line "RAGE IS RISING！"
 	prompt
 
 ; copy last move for Mirror Move
@@ -5089,8 +5081,8 @@ MirrorMoveCopyMove:
 	ret
 
 MirrorMoveFailedText:
-	text "しかし　オウムがえしは"
-	next "しっぱいにおわった！"
+	text "MIRROR MOVE"
+	line "FAILED！"
 	prompt
 
 ; function used to reload move data for moves like Mirror Move and Metronome
@@ -5768,8 +5760,9 @@ EnemyCheckIfMirrorMoveEffect:
 	jr ExecuteEnemyMoveDone
 
 HitXTimesText:
+	text "HIT @"
 	text_decimal wEnemyNumHits, 1, 1
-	text "かい　ダメージをうけた！"
+	text " TIMES！"
 	prompt
 
 ExecuteEnemyMoveDone:
@@ -6824,8 +6817,8 @@ InitWildBattle:
 	ld a, c
 	ld [hli], a   ; write front sprite pointer
 	ld [hl], b
-	ld hl, wEnemyMonNick  ; set name to "ゆうれい"
-	ld_hli_a_string "ゆうれい@"
+	ld hl, wEnemyMonNick  ; set name to "GHOST"
+	ld_hli_a_string "GHOST@"
 	ld a, [wCurPartySpecies]
 	push af
 	ld a, MON_GHOST

@@ -8,7 +8,7 @@ PewterNidoranHouse_TextPointers:
 	dw_const PewterNidoranHouseMiddleAgedManText, TEXT_PEWTERNIDORANHOUSE_MIDDLE_AGED_MAN
 
 PewterNidoranHouseNidoranText:
-	text "ニドラン『バウバウ！@"
+	text "NIDORAN『BAUBAU！@"
 	text_asm
 IF DEF(_RED)
 	ld a, NIDORAN_M
@@ -21,19 +21,22 @@ ENDC
 	jp TextScriptEnd
 
 PewterNidoranHouseLittleBoyText:
-	text "ニドラン　おすわり！"
+	text "NIDORAN· SIT！"
 	done
 
 PewterNidoranHouseMiddleAgedManText:
-	text "うちの　#　よそもの"
-	line "だから　き　むずかしいよ"
+	text "OUR # IS AN"
+	line "OUTSIDER MON·"
+	cont "VERY TEMPER NE！"
 
-	para "よそもの　ってのは　ひとと"
-	line "こうかん　した　#だよ"
+	para "OUTSIDER MEANS"
+	line "TRADED FROM"
+	cont "ANOTHER PERSON！"
 
-	para "そだつのは　はやいが"
-	line "ちからのない　<TRAINER>の"
-	cont "いうことは　きかん！"
+	para "GROWS VERY FAST"
+	line "WILL NOT OBEY"
+	cont "WEAK <TRAINER>！"
 
-	para "バッジさえ　あれば<⋯>"
+	para "IF ONLY WE HAD"
+	line "A BADGE<⋯>"
 	done

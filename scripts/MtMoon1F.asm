@@ -47,19 +47,21 @@ MtMoon1FHikerText:
 	jp TextScriptEnd
 
 MtMoon1FHikerBattleText:
-	text "うわーッ！"
-	line "びっくり　した！"
-	cont "<⋯>　なんだ　こどもか"
+	text "UWAH! WHAT A"
+	line "BIG 『BIKKURI』!"
+	cont "STARTLED ME SO!"
+	cont "<⋯>JUST A KID?"
 	done
 
 MtMoon1FHikerEndBattleText:
-	text "おどろいた！"
+	text "『ODOROITA』!"
+	line "ASTONISHING!"
 	prompt
 
 MtMoon1FHikerAfterBattleText:
-	text "こどもが"
-	line "こんな　くらい　ところを"
-	cont "ウロウロ　しちゃ　いかん　なあ"
+	text "KIDS SHOULD NOT"
+	line "ROAM 『URO-URO』"
+	cont "IN DARK CAVES!"
 	done
 
 MtMoon1FYoungster1Text:
@@ -69,19 +71,21 @@ MtMoon1FYoungster1Text:
 	jp TextScriptEnd
 
 MtMoon1FYoungster1BattleText:
-	text "きみも"
-	line "どうくつ　たんけんに　きたのかい"
+	text "YOU TOO CAME FOR"
+	line "CAVE 『TANKEN』?"
+	cont "CAVE EXPLORING?"
 	done
 
 MtMoon1FYoungster1EndBattleText:
-	text "<⋯>　まける　なんて"
-	line "カッコ　わるい"
+	text "<⋯>LOSING IS SO"
+	line "『KAKKO-WARUI』!"
+	cont "NOT COOL AT ALL!"
 	prompt
 
 MtMoon1FYoungster1AfterBattleText:
-	text "おんなのこに"
-	line "イイ　とこ　みせようと"
-	cont "こんな　とこ　まで　きちゃった"
+	text "I CAME THIS FAR"
+	line "TO SHOW OFF TO"
+	cont "A CUTE GIRL<⋯>"
 	done
 
 MtMoon1FCooltrainerF1Text:
@@ -91,18 +95,19 @@ MtMoon1FCooltrainerF1Text:
 	jp TextScriptEnd
 
 MtMoon1FCooltrainerF1BattleText:
-	text "わあーッ！"
-	line "どうくつの　なかって"
-	cont "いがいと　ひろいのねー！"
+	text "WOW! INSIDE THE"
+	line "CAVE IS SO VERY"
+	cont "『HIROI』! WIDE!"
 	done
 
 MtMoon1FCooltrainerF1EndBattleText:
-	text "あ<⋯>　まけてる！"
+	text "AH<⋯> I LOST!"
 	prompt
 
 MtMoon1FCooltrainerF1AfterBattleText:
-	text "こんなに　ひろいと"
-	line "どっちが　でぐちか　まよっちゃう"
+	text "IT IS SO BIG I"
+	line "LOST TRACK OF"
+	cont "THE EXIT WAY!"
 	done
 
 MtMoon1FSuperNerdText:
@@ -112,18 +117,20 @@ MtMoon1FSuperNerdText:
 	jp TextScriptEnd
 
 MtMoon1FSuperNerdBattleText:
-	text "うわッ！　なんだ？"
-	line "きゅうに　こえを　かけるな！"
+	text "UWAH! DONT YELL"
+	line "AT ME SO VERY"
+	cont "『KYUU NI』 SUDDEN!"
 	done
 
 MtMoon1FSuperNerdEndBattleText:
-	text "<⋯>"
-	line "こんな　#　では　ダメか"
+	text "<⋯>THESE # ARE"
+	line "『DAME』! NO GOOD!"
 	prompt
 
 MtMoon1FSuperNerdAfterBattleText:
-	text "えーと<⋯>！　どこかに"
-	line "つよい　#　いないか<⋯>　な"
+	text "WELL<⋯> WONDER"
+	line "WHERE STRONGER"
+	cont "# MONS ARE<⋯>"
 	done
 
 MtMoon1FCooltrainerF2Text:
@@ -133,19 +140,19 @@ MtMoon1FCooltrainerF2Text:
 	jp TextScriptEnd
 
 MtMoon1FCooltrainerF2BattleText:
-	text "なによー！"
-	line "どうくつで　はぐれた　ともだちを"
-	cont "ここで　まってるのよ"
+	text "WHAT! WAITING FOR"
+	line "A FRIEND WHO GOT"
+	cont "LOST IN CAVE!"
 	done
 
 MtMoon1FCooltrainerF2EndBattleText:
-	text "わたし　まけたの？"
+	text "DID I LOSE?"
 	prompt
 
 MtMoon1FCooltrainerF2AfterBattleText:
-	text "この　どうくつに"
-	line "すごい　カセキが"
-	cont "あるって　きいて　きたの"
+	text "HEARD THERE ARE"
+	line "GREAT 『KASEKI』"
+	cont "FOSSILS INSIDE!"
 	done
 
 MtMoon1FYoungster2Text:
@@ -155,19 +162,20 @@ MtMoon1FYoungster2Text:
 	jp TextScriptEnd
 
 MtMoon1FYoungster2BattleText:
-	text "あやしい　おとこが"
-	line "どうくつを　うろついてるんだ"
-	cont "きみは<⋯>？"
+	text "SUSPICIOUS MAN"
+	line "LURKS IN CAVE!"
+	cont "WHO ARE YOU<⋯>?"
 	done
 
 MtMoon1FYoungster2EndBattleText:
-	text "やられた！"
+	text "I GOT DONE IN!"
 	prompt
 
 MtMoon1FYoungster2AfterBattleText:
-	text "ぼくが　みた　やつ！"
-	line "まちがい　ない！"
-	cont "あいつ　<ROCKET>　だぜ！"
+	text "THAT GUY I SAW!"
+	line "NO MISTAKE!"
+	cont "HE IS OF"
+	cont "TEAM ROCKET!"
 	done
 
 MtMoon1FYoungster3Text:
@@ -177,22 +185,23 @@ MtMoon1FYoungster3Text:
 	jp TextScriptEnd
 
 MtMoon1FYoungster3BattleText:
-	text "ハナダ　シティに　いくには"
-	line "どうくつを"
-	cont "ぬけないと　だめだよ！"
+	text "TO REACH HANADA"
+	line "YOU MUST CROSS"
+	cont "THROUGH THE CAVE!"
 	done
 
 MtMoon1FYoungster3EndBattleText:
-	text "ぼくの　まけだ"
+	text "MY TOTAL LOSS!"
 	prompt
 
 MtMoon1FYoungster3AfterBattleText:
-	text "ズバットは　てごわい！"
-	line "でも　つかまえられれば"
-	cont "たよりに　なる　#だよ"
+	text "ZUBAT IS TOUGH!"
+	line "BUT CAUGHT ONES"
+	cont "ARE RELIABLE #!"
 	done
 
 MtMoon1FBewareZubatSign:
-	text "ズバットの"
-	line "きゅうけつ　こうげきに　ちゅうい！"
+	text "BEWARE OF ZUBAT"
+	line "『KYUUKETSU』 DRAIN"
+	cont "BLOOD ATTACK!"
 	done

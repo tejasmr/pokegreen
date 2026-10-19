@@ -30,7 +30,7 @@ CeruleanCaveB1FMewtwoText:
 	jp TextScriptEnd
 
 CeruleanCaveB1FMewtwoBattleText:
-	text "ミュー@"
+	text "MYUU!@"
 	text_asm
 	ld a, MEWTWO
 	call PlayCry

@@ -798,10 +798,10 @@ PrintTradeWentToText:
 
 TradeWentToText:
 	text_ram wStringBuffer
-	text "は　ぶじ"
-	line "@"
+	text " WENT"
+	line "TO @"
 	text_ram wLinkEnemyTrainerName
-	text "に　ひきとられました"
+	text " SAFELY！"
 	done
 
 PrintTradeForSendsText:
@@ -813,18 +813,18 @@ PrintTradeForSendsText:
 	jp Trade_Delay80
 
 TradeForText:
-	text "<PLAYER>が"
+	text "<PLAYER> SENDS"
 	line "@"
 	text_ram wStringBuffer
-	text "を　おくったかわりに"
+	text "·"
 	done
 
 TradeSendsText:
 	text_ram wLinkEnemyTrainerName
-	text "は"
+	text " SENDS"
 	line "@"
 	text_ram wNameBuffer
-	text "を　くれます"
+	text "！"
 	done
 
 PrintTradeFarewellText:
@@ -838,14 +838,15 @@ PrintTradeFarewellText:
 
 TradeWavesFarewellText:
 	text_ram wLinkEnemyTrainerName
-	text "が"
-	line "なごりを　おしみながら"
+	text_start
+	line "BIDS FAREWELL·"
 	done
 
 TradeTransferredText:
+	text "SENDING OVER"
+	line "@"
 	text_ram wNameBuffer
-	text "を"
-	line "おくってきます"
+	text "！"
 	done
 
 PrintTradeTakeCareText:
@@ -854,9 +855,10 @@ PrintTradeTakeCareText:
 	jp Trade_Delay80
 
 TradeTakeCareText:
+	text "TAKE CARE OF"
+	line "@"
 	text_ram wNameBuffer
-	text "を"
-	line "かわいがってやってください"
+	text "！"
 	done
 
 PrintTradeWillTradeText:
@@ -868,19 +870,19 @@ PrintTradeWillTradeText:
 	jp Trade_Delay80
 
 TradeWillTradeText:
-	text "これから"
-	line "@"
-	text_ram wLinkEnemyTrainerName
-	text "の@"
+	text "TRADING @"
 	text_ram wNameBuffer
-	text "と"
+	text_start
+	line "FROM @"
+	text_ram wLinkEnemyTrainerName
+	text "·"
 	done
 
 TradeforText:
-	text "<PLAYER>の@"
+	text "FOR <PLAYER>S"
+	line "@"
 	text_ram wStringBuffer
-	text "を"
-	line "こうかんします！"
+	text "！"
 	done
 
 Trade_ShowAnimation:

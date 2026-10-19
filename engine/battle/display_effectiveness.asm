@@ -10,9 +10,9 @@ DisplayEffectiveness:
 	jp PrintText
 
 SuperEffectiveText:
-	text "こうかは　ばつぐんだ！"
+	text "SUPER EFFECTIVE！"
 	prompt
 
 NotVeryEffectiveText:
-	text "こうかは　いまひとつの　ようだ"
+	text "NOT EFFECTIVE！"
 	prompt

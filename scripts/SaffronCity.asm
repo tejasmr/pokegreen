@@ -30,139 +30,156 @@ SaffronCity_TextPointers:
 	dw_const SaffronCitySilphCoLatestProductSignText, TEXT_SAFFRONCITY_SILPH_CO_LATEST_PRODUCT_SIGN
 
 SaffronCityRocket1Text:
-	text "なんだァ！"
-	line "ぼうず！　あっち　いけ！"
+	text "WHAT THE HECK?!"
+	line "KID! GET LOST!"
 	done
 
 SaffronCityRocket2Text:
-	text "ボスは　この　まちを"
-	line "<ROCKET>の　ものに　するってよォ"
+	text "BOSS WILL MAKE"
+	line "THIS ENTIRE TOWN"
+	cont "BELONG TO <ROCKET>!"
 	done
 
 SaffronCityRocket3Text:
-	text "こらァ　おれたちに　さからうと"
-	line "いたい　めに　あうぞ！"
+	text "HEY! OPPOSE US"
+	line "AND TASTE PAIN!"
 	done
 
 SaffronCityRocket4Text:
-	text "ヤマブキ　シティ　ごと"
-	line "<ROCKET>が　のっとったぜ！"
+	text "WHOLE YAMABUKI"
+	line "CITY IS TAKEN"
+	cont "OVER BY <ROCKET>!"
 	done
 
 SaffronCityRocket5Text:
-	text "わるい　こと　やりまくると"
-	line "スカッと　するぜ！"
+	text "DOING BAD THINGS"
+	line "FEELS SO NICE"
+	cont "AND REFRESHING!"
 	done
 
 SaffronCityRocket6Text:
-	text "いてッ！　この　やろ！"
-	line "どこ　みて　あるいてんだよ！"
+	text "OUCH! YOU FOOL!"
+	line "WATCH WHERE YOU"
+	cont "ARE WALKING!"
 	done
 
 SaffronCityRocket7Text:
-	text "シルフ　カンパニー　のっとったら"
-	line "せかい　じゅうに　#　うって"
-	cont "ガバガバ　おお　もうけ　だぜ！"
+	text "TAKE OVER SILPH"
+	line "THEN SELL PETS"
+	cont "WORLDWIDE FOR"
+	cont "HUGE PROFIT!"
 	done
 
 SaffronCityScientistText:
-	text "<ROCKET>　やっつけたの"
-	line "たった　ひとり　だって<⋯>　すごいな"
+	text "ONLY ONE PERSON"
+	line "SMASHED <ROCKET>⋯"
+	cont "THAT IS SUGOI!"
 	done
 
 SaffronCitySilphWorkerMText:
-	text "ばんざーい！"
-	line "<ROCKET>が　いなくなった！"
-	cont "ビビらないで　そと　あるけるんだ！"
+	text "BANZAI! HURRAH!"
+	line "<ROCKET> IS GONE!"
+	cont "NOW WE CAN WALK"
+	cont "WITHOUT FEAR!"
 	done
 
 SaffronCitySilphWorkerFText:
-	text "ヤマブキ　シティも　いちじは"
-	line "ひとが　にげて　へっちゃった　けど"
-	cont "にぎやかな　まちに　もどるわ！"
+	text "PEOPLE FLED BUT"
+	line "YAMABUKI WILL BE"
+	cont "LIVELY ONCE MORE!"
 	done
 
 SaffronCityGentlemanText:
-	text "<ROCKET>が　シルフ　おそって"
-	line "だいじけんって　きいて！"
-	cont "ピジョットで　とんで　きたッス"
+	text "HEARD <ROCKET> HIT"
+	line "SILPH! FLEW HERE"
+	cont "ON PIDGEOT!"
 
-	para "かいけつ　した<⋯>？"
-	line "すんません！"
-	cont "ねっからの　ヤジウマ　で！"
+	para "SOLVED ALREADY⋯?"
+	line "SORRY! I AM JUST"
+	cont "A CURIOUS CROWD"
+	cont "『YAJIUMA』 GAWKER!"
 	done
 
 SaffronCityPidgeotText:
-	text "ピジョット『ビビーッ！@"
+	text "PIDGEOT: 『BII!@"
 	sound_cry_pidgeot
 	text_end
 
 SaffronCityRockerText:
-	text "おれ　みたぜ！　シルフの　ビル　から"
-	line "ロケットの　ボスが　にげて　いくの！"
+	text "I SAW IT! BOSS OF"
+	line "<ROCKET> RAN FROM"
+	cont "SILPH BUILDING!"
 	done
 
 SaffronCityRocket8Text:
-	text "わたしは　けいびいんだが"
-	line "あやしい　こどもは"
-
-	para "とおせんぼ　することに　してるのだ"
+	text "I AM SECURITY"
+	line "GUARD! SUSPICIOUS"
+	cont "KIDS GET BLOCKED!"
 	done
 
 SaffronCityRocket9Text:
-	text "<⋯>　<⋯>　<⋯>"
-	line "<⋯>こっくり　こっくり"
+	text "⋯⋯⋯"
+	line "⋯NOD⋯ NOD⋯"
 
-	para "しめしめ！　いねむり　しているぞ"
+	para "HEHEHE! HE IS"
+	line "FAST ASLEEP!"
 	done
 
 SaffronCitySignText:
-	text "ここは　ヤマブキ　シティ"
-	line "ヤマブキ　きんいろ　かがやきのいろ"
+	text "YAMABUKI CITY"
+	line "GOLDEN SHINING"
+	cont "GLOW OF SAFFRON"
 	done
 
 SaffronCityFightingDojoSignText:
-	text "かくとう　どうじょう！"
+	text "FIGHTING DOJO!"
 	done
 
 SaffronCityGymSignText:
-	text "ヤマブキ　シティ　#　ジム"
-	line "リーダー　ナツメ"
-	cont "エスパー　しょうじょ！"
+	text "YAMABUKI CITY"
+	line "PET GYM LEADER:"
+	cont "NATSUME SABRINA!"
+	cont "PSYCHIC GIRL!"
 	done
 
 SaffronCityTrainerTips1Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "⋯TRAINER TIPS!"
 
-	para "なんでも　なおしは"
-	line "ねむり　どく　やけど　こおり<⋯>"
-	cont "なんでも　なおします！"
+	para "FULL HEAL CURES"
+	line "SLEEP· POISON·"
+	cont "BURN· FREEZE⋯"
+	cont "ANY AILMENT!"
 
-	para "すこし　たかい　けど"
-	line "ねむけざまし　どくけし　などを"
-	cont "バラバラに　かうより　らくちん！"
+	para "PRICEY BUT EASIER"
+	line "THAN BUYING"
+	cont "EACH SEPARATE!"
 	done
 
 SaffronCityTrainerTips2Text:
-	text "<⋯>　おとくな　けいじばん！"
+	text "⋯TRAINER TIPS!"
 
-	para "しんせいひん　スーパーボールは"
-	line "モンスターボール　より　かくじつに"
-	cont "#を　つかまえます！"
+	para "NEW GREAT BALL"
+	line "CATCHES PETS"
+	cont "MORE SURELY THAN"
+	cont "POKE BALL!"
 
-	para "なかなか　つかまえ　られない"
-	line "#には　こちらを　ためそう！"
+	para "TRY THIS ON PETS"
+	line "HARD TO CATCH!"
 	done
 
 SaffronCitySilphCoSignText:
-	text "シルフ　カンパニー　ほんしゃ　ビル"
+	text "SILPH COMPANY"
+	line "HEAD OFFICE"
 	done
 
 SaffronCityMrPsychicsHouseSignText:
-	text "エスパー　おやじの　いえ"
+	text "MR. PSYCHIC"
+	line "ESP HOUSE"
 	done
 
 SaffronCitySilphCoLatestProductSignText:
-	text "シルフ　うわさの　しんせいひん！"
-	line "<⋯>　はつばいび　みてい"
+	text "SILPH HOT RUMORED"
+	line "NEW PRODUCT!"
+	cont "⋯RELEASE DATE"
+	cont "UNDECIDED"
 	done

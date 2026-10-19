@@ -34,18 +34,18 @@ Route18CooltrainerM1Text:
 	jp TextScriptEnd
 
 Route18CooltrainerM1BattleText:
-	text "こういう　くさむらを　みつけては"
-	line "あたらしい　#　いないか"
-	cont "さがしてるのさ！"
+	text "IN SUCH GRASS"
+	line "I SEARCH FOR NEW"
+	cont "# PETS!"
 	done
 
 Route18CooltrainerM1EndBattleText:
-	text "あう<⋯>！"
+	text "AUU<⋯>!"
 	prompt
 
 Route18CooltrainerM1AfterBattleText:
-	text "じてんしゃ　もって　いたら"
-	line "ぼくも　サイクリング　したい"
+	text "IF I HAD A BIKE"
+	line "I WOULD CYCLE TOO"
 	done
 
 Route18CooltrainerM2Text:
@@ -55,19 +55,22 @@ Route18CooltrainerM2Text:
 	jp TextScriptEnd
 
 Route18CooltrainerM2BattleText:
-	text "クルック<⋯>ッ！"
-	line "どう？　ぼくの　ゆびぶえ！"
+	text "KURUKKU<⋯>-T!"
+	line "HOW IS MY FINGER"
+	cont "WHISTLE TUNE?!"
 	done
 
 Route18CooltrainerM2EndBattleText:
-	text "きじも　なかずば"
-	line "うたれまいに　って　ことか"
+	text "THE PHEASANT WHO"
+	line "CALLS GETS SHOT·"
+	cont "LESSON LEARNED!"
 	prompt
 
 Route18CooltrainerM2AfterBattleText:
-	text "うみが　ちかい　から"
-	line "しゅうまつは　うみどり　#"
-	cont "つかまえに　くるよ"
+	text "SEA IS CLOSE·SO"
+	line "ON WEEKENDS I GO"
+	cont "CATCH SEA BIRD"
+	cont "# PETS!"
 	done
 
 Route18CooltrainerM3Text:
@@ -77,27 +80,28 @@ Route18CooltrainerM3Text:
 	jp TextScriptEnd
 
 Route18CooltrainerM3BattleText:
-	text "この　あたりは"
-	line "ぼくらの　なわばりだ！"
-	cont "ちかよらないで　ほしいな！"
+	text "THIS AREA IS OUR"
+	line "TERRITORY!"
+	cont "STAY AWAY PLEASE!"
 	done
 
 Route18CooltrainerM3EndBattleText:
-	text "<⋯>　ふう！"
+	text "<⋯>PHEW!"
 	prompt
 
 Route18CooltrainerM3AfterBattleText:
-	text "だれでも　おきにいりの"
-	line "#を　とりに　いく"
-	cont "ばしょが　あるだろ！"
+	text "EVERYONE HAS A"
+	line "FAVORITE SPOT TO"
+	cont "HUNT THEIR #!"
 	done
 
 Route18SignText:
-	text "ここは　１８ばん　どうろ"
-	line "タマムシ　<⋯>　セキチク"
+	text "ROUTE 18"
+	line "CELADON<⋯>FUCHSIA"
 	done
 
 Route18CyclingRoadSignText:
-	text "ここは　サイクリング　ロード"
-	line "あるいての　つうこう　きんし"
+	text "CYCLING ROAD"
+	line "NO PEDESTRIANS"
+	cont "ALLOWED!"
 	done

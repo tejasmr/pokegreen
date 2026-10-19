@@ -325,10 +325,9 @@ SwitchEnemyMon:
 
 AIBattleWithdrawText:
 	text_ram wTrainerName
-	text "は"
-	line "@"
+	line "TOOK @"
 	text_ram wEnemyMonNick
-	text "をひっこめた！"
+	text "！"
 	prompt
 
 AIUseFullHeal:
@@ -454,10 +453,7 @@ AIPrintItemUse_:
 
 AIBattleUseItemText:
 	text_ram wTrainerName
-	text "は　@"
-	text_ram wEnemyMonNick
-	text "に"
-	line "@"
+	line "USED @"
 	text_ram wNameBuffer
-	text "を　つかった"
+	text "！"
 	prompt

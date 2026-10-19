@@ -21,10 +21,10 @@ HiddenItems:
 INCLUDE "data/events/hidden_item_coords.asm"
 
 FoundHiddenItemText::
-	text "<PLAYER>は"
+	text "<PLAYER> FOUND"
 	line "@"
 	text_ram wNameBuffer
-	text "を　みつけた！@"
+	text "！@"
 	text_asm
 	ld a, [wHiddenEventFunctionArgument] ; item ID
 	ld b, a
@@ -49,8 +49,8 @@ FoundHiddenItemText::
 	jp TextScriptEnd
 
 HiddenItemBagFullText::
-	text "しかし　<PLAYER>は"
-	line "どうぐを　もう　もてない！"
+	text "BUT <PLAYER> CANT"
+	line "CARRY MORE ITEMS！"
 	done
 
 HiddenCoins:
@@ -125,23 +125,24 @@ HiddenCoins:
 INCLUDE "data/events/hidden_coins.asm"
 
 FoundHiddenCoinsText::
-	text "<PLAYER>は"
-	line "コインを　@"
+	text "<PLAYER> FOUND"
+	line "@"
 	text_bcd hCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text "まい　みつけた！@"
+	text " COINS！@"
 	sound_get_item_2
 	text_end
 
 DroppedHiddenCoinsText::
-	text "<PLAYER>は"
-	line "コイン　を@"
+	text "<PLAYER> FOUND"
+	line "@"
 	text_bcd hCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text "まい　みつけた！@"
+	text " COINS！@"
 	sound_get_item_2
 	text_start
 
-	para "しかし　<PLAYER>は"
-	line "なんまいか　おとしてしまった！"
+	para "BUT COIN CASE"
+	line "WAS SO FULL·SOME"
+	cont "DROPPED OUT！"
 	done
 
 FindHiddenItemOrCoinsIndex:

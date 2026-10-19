@@ -8,15 +8,19 @@ FuchsiaMart_TextPointers:
 	dw_const FuchsiaMartCooltrainerFText,  TEXT_FUCHSIAMART_COOLTRAINER_F
 
 FuchsiaMartMiddleAgedManText:
-	text "サファリゾーン！　と　かかれた"
-	line "ペナントは　ないのかね？"
+	text "DONT YOU HAVE A"
+	line "SAFARI PENNANT?"
 
-	para "ちょうちんは？"
-	line "カレンダーも　ないのか！"
+	para "HOW ABOUT A"
+	line "LANTERN OR"
+	cont "CALENDAR? NONE?!"
 	done
 
 FuchsiaMartCooltrainerFText:
-	text "スピーダーは　かって　みた？"
-	line "たたかう　#の　すばやさを"
-	cont "いちじてきに　あげるの"
+	text "DID YOU TRY"
+	line "SPEEDER X-SPEED?"
+
+	para "IT BOOSTS SPEED"
+	line "OF MON IN BATTLE!"
 	done
+

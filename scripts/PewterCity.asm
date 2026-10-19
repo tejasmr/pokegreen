@@ -195,22 +195,23 @@ PewterCity_TextPointers:
 	dw_const PewterCityYoungsterGoTakeOnBrockText, TEXT_PEWTERCITY_YOUNGSTER_GO_TAKE_ON_BROCK
 
 PewterCityCooltrainerFText:
-	text "ピッピって　つきから　きたって"
-	line "ウワサ　しってる？"
+	text "DID YOU HEAR THE"
+	line "RUMOR？ PIPPI·"
+	cont "CAME FROM MOON！"
 
-	para "オツキミやまに"
-	line "つきのいしが　おちてから"
-	cont "みかける　ように　なったの"
+	para "SINCE MOON STONE"
+	line "FELL ON OTSUKIMI"
+	cont "YAMA· THEY APPEAR"
 	done
 
 PewterCityCooltrainerMText:
-	text "ニビ　シティは"
-	line "むしとり　しょうねん　みたいに"
-	cont "ただの　しゅみで　#"
-	cont "やってる　やつ　ばかり！"
+	text "IN NIBI CITY·"
+	line "ALL DO # AS A"
+	cont "SHUMI HOBBY！"
 
-	para "しかし　ニビ　#　ジムの"
-	line "タケシは　ちがうぜ"
+	para "BUT TAKESHI OF"
+	line "NIBI # GYM IS"
+	cont "VERY DIFFERENT！"
 	done
 
 PewterCitySuperNerd1Text:
@@ -233,7 +234,7 @@ PewterCitySuperNerd1Text:
 	ld [wNPCMovementScriptFunctionNum], a
 	ld a, $2
 	ld [wNPCMovementScriptPointerTableNum], a
-	ldh a, [hLoadedROMBank]
+	ld a, BANK(PewterMuseumGuyMovementScriptPointerTable)
 	ld [wNPCMovementScriptBank], a
 	ld a, PEWTERCITY_SUPER_NERD1
 	ld [wSpriteIndex], a
@@ -244,27 +245,28 @@ PewterCitySuperNerd1Text:
 	jp TextScriptEnd
 
 .DidYouCheckOutMuseumText:
-	text "きみは　もう"
-	line "はくぶつかん　けんがくした？"
+	text "DID YOU VISIT"
+	line "THE MUSEUM YET？"
+	cont "HAKUBUTSUKAN！"
 	done
 
 .WerentThoseFossilsAmazingText:
-	text "オツキミやま　で　みつかった"
-	line "カセキの　てんじ　すごかった！"
+	text "KASEKI FOSSILS"
+	line "FOUND ON OTSUKIMI"
+	cont "YAMA WERE SUGOI！"
 	done
 
 .YouHaveToGoText:
-	text "え<⋯>！"
-	line "そりゃ　ぜったい"
-	cont "いった　ほうが　いい！"
+	text "EH<⋯>！ YOU MUST"
+	line "DEFINITELY GO！"
+	cont "ZETTAI IKU BEKI！"
 	done
 
 PewterCitySuperNerd1ItsRightHereText:
-	text "ここだよ！"
-	line "けんがくには"
-	cont "にゅうじょうりょうが　いるけど"
-	cont "じゃ<⋯>！"
-	cont "ぼくは　ここで！"
+	text "RIGHT HERE KOKO！"
+	line "NEEDS ENTRY FEE·"
+	para "WELL THEN<⋯>！"
+	line "I LEAVE HERE！"
 	done
 
 PewterCitySuperNerd2Text:
@@ -285,20 +287,22 @@ PewterCitySuperNerd2Text:
 	jp TextScriptEnd
 
 .DoYouKnowWhatImDoingText:
-	text "シュー<⋯>！"
-	line "ぼくが"
-	cont "なに　やってるか　わかる？"
+	text "SHHH<⋯>！ DO YOU"
+	line "KNOW WHAT I AM"
+	cont "DOING HERE？"
 	done
 
 .ThatsRightText:
-	text "そう<⋯>　それ！"
-	line "けっこう　ほねが　おれるよ"
+	text "SOU<⋯> THATS IT！"
+	line "QUITE HARD WORK！"
+	cont "HONE GA ORERU YO"
 	done
 
 .ImSprayingRepelText:
-	text "かだんに　やせいの　#が"
-	line "はいらない　ように"
-	cont "むしよけスプレー　まいてるのさ"
+	text "SPRAYING REPEL·"
+	line "MUSHIYOKE SPRAY·"
+	para "KEEPING WILD #"
+	line "OUT OF FLOWERS！"
 	done
 
 PewterCityYoungsterText:
@@ -310,7 +314,7 @@ PewterCityYoungsterText:
 	ld [wNPCMovementScriptFunctionNum], a
 	ld a, $3
 	ld [wNPCMovementScriptPointerTableNum], a
-	ldh a, [hLoadedROMBank]
+	ld a, BANK(PewterGymGuyMovementScriptPointerTable)
 	ld [wNPCMovementScriptBank], a
 	ld a, PEWTERCITY_YOUNGSTER
 	ld [wSpriteIndex], a
@@ -320,48 +324,54 @@ PewterCityYoungsterText:
 	jp TextScriptEnd
 
 .YoureATrainerFollowMeText:
-	text "おまえ<⋯>！"
-	line "#　<TRAINER>　だろ？"
-	cont "タケシが　あいてを　さがしてる"
-	cont "<⋯>　こっちに　こい！"
+	text "YOU<⋯>！ YOU ARE"
+	line "# <TRAINER> NE？"
+	cont "TAKESHI LOOKS FOR"
+	cont "AN OPPONENT！"
+	para "<⋯>COME THIS WAY！"
+	line "KOCCHI NI KOI！"
 	done
 
 PewterCityYoungsterGoTakeOnBrockText:
-	text "かてる　じしんが　あるなら"
-	line "タケシと　たたかって　みなよ！"
+	text "IF YOU HAVE"
+	line "CONFIDENCE JISHIN"
+	para "FIGHT TAKESHI"
+	line "AND TEST POWER！"
 	done
 
 PewterCityTrainerTipsText:
-	text "<⋯>　おとくな　けいじばん！"
+	text "<⋯>USEFUL TIPS！"
 
-	para "しょうぶの　とき"
-	line "ちょっとだけ　でも"
-	cont "かおを　だした　#は"
-	cont "けいけんちが　もらえる！"
+	para "ANY # ENTERING"
+	line "MATCH EVEN A BIT·"
+	cont "GETS EXP POINTS！"
 	done
 
 PewterCityPoliceNoticeSignText:
-	text "<⋯>　チラシが　はって　ある！"
+	text "<⋯>POLICE NOTICE！"
 
-	para "さいきん　オツキミやまで"
-	line "きちょうな　#の"
-	cont "カセキを　ぬすみ　まくる"
-	cont "あくとうが　います！"
-	cont "あやしい　ひとを　みたら<⋯>！"
-	cont "<⋯>　ニビ　けいさつ　まで"
+	para "THIEVES ARE NOW"
+	line "STEALING #"
+	cont "FOSSILS AT MOUNT"
+	cont "OTSUKIMI-YAMA！"
+	para "REPORT SUSPICIOUS"
+	line "PERSONS TO NIBI"
+	cont "POLICE KEISATSU！"
 	done
 
 PewterCityMuseumSignText:
-	text "ニビ　かがく　はくぶつかん"
+	text "NIBI SCIENCE"
+	line "MUSEUM HAKUBUTSU"
 	done
 
 PewterCityGymSignText:
-	text "ニビシティ　#　ジム"
-	line "リーダー　タケシ"
-	cont "つよくて　かたい　いしの　おとこ"
+	text "NIBI CITY # GYM"
+	line "LEADER: TAKESHI"
+	cont "THE ROCK HARD MAN"
 	done
 
 PewterCitySignText:
-	text "ここは　ニビシティ"
-	line "ニビは　はいいろ　いしの　いろ"
+	text "NIBI PEWTER CITY"
+	line "NIBI IS GRAY·"
+	cont "COLOR OF STONE！"
 	done

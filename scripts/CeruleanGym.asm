@@ -17,10 +17,10 @@ CeruleanGym_Script:
 	jp LoadGymLeaderAndCityName
 
 .CityName:
-	db "ハナダ@"
+	db "HANADA@"
 
 .LeaderName:
-	db "カスミ@"
+	db "KASUMI@"
 
 CeruleanGymResetScripts:
 	xor a ; SCRIPT_CERULEANGYM_DEFAULT
@@ -122,66 +122,70 @@ CeruleanGymMistyText:
 	jp TextScriptEnd
 
 .PreBattleText:
-	text "あのね　きみ！"
+	text "LISTEN TO ME!"
 
-	para "#　そだてる　にも"
-	line "ポリシーが　ある　やつ　だけが"
-	cont "プロに　なれるの！"
+	para "ONLY THOSE WITH"
+	line "A 『POLICY』 CAN"
+	cont "BECOME PROS!"
 
-	para "あなたは　#　つかまえて"
-	line "そだてる　とき"
-	cont "なにを　かんがえてる？"
+	para "WHAT DO YOU THINK"
+	line "ABOUT WHEN YOU"
+	cont "TRAIN YOUR MONS?"
 
-	para "わたしの　ポリシーはね<⋯>"
+	para "MY 『POLICY』 IS<⋯>"
 
-	para "みず　タイプ　#で　せめて"
-	line "せめて　<⋯>せめまくる　ことよ！"
+	para "WITH 『MIZU』 WATER"
+	line "TYPE MONS TO"
+	cont "ATTACK ATTACK AND"
+	cont "KEEP ATTACKING!"
 	done
 
 .TM11ExplanationText:
-	text "<TM>１１は　バブルこうせんを"
-	line "#に　おしえるの"
+	text "TM11 TEACHES"
+	line "BUBBLEBEAM!"
 
-	para "みずに　すむ　#に"
-	line "つかって　あげて！"
+	para "USE IT ON A MON"
+	line "THAT LIVES IN"
+	cont "WATER 『MIZU』!"
 	done
 
 CeruleanGymMistyCascadeBadgeInfoText:
-	text "ブルー　バッジが　あれば"
-	line "レベル３０までの　#は"
-	cont "おとなしく　いうこと　きくわ！"
+	text "WITH BLUE BADGE"
+	line "MONS UP TO LV30"
+	cont "WILL OBEY QUIET!"
 
-	para "それが　たとえ"
-	line "ひとから　もらった　#でもね"
+	para "EVEN TRADED ONES"
+	line "FROM OTHERS TOO!"
 
-	para "それと　たたかって　なくても"
-	line "いあいぎりが　つかえるわ"
+	para "YOU CAN ALSO USE"
+	line "『IAIGIRI』 CUT"
+	cont "OUTSIDE BATTLES!"
 
-	para "ほそい　きを　きりたおして"
-	line "とおれる　ように　なるの"
+	para "CUT DOWN SLENDER"
+	line "TREES TO PASS!"
 
-	para "<⋯>　あと　これは　わたしの"
-	line "じまんの　<TM>よ！"
+	para "<⋯>AND TAKE MY"
+	line "FAVORITE <TM>!"
 	done
 
 CeruleanGymMistyReceivedTM11Text:
-	text "<PLAYER>は　カスミから"
-	line "<TM>１１を　もらった！@"
+	text "<PLAYER> RECEIVED"
+	line "TM11 FROM KASUMI@"
 	sound_get_item_1
 	text_end
 
 CeruleanGymMistyTM11NoRoomText:
-	text "にもつ　いっぱいね"
+	text "BAG IS FULL!"
 	done
 
 CeruleanGymMistyReceivedCascadeBadgeText:
-	text "うーん<⋯>！"
-	line "わたしの　まけね"
+	text "UNN<⋯>! MY LOSS!"
 
-	para "しょうが　ない！"
+	para "『SHOUGANAI』!"
+	line "CANT BE HELPED!"
 
-	para "わたしに　かった　しょうこに"
-	line "ブルー　バッジを　あげる！@"
+	para "TAKE BLUE BADGE"
+	line "FOR BEATING ME!@"
 	sound_get_key_item ; actually plays the second channel of SFX_BALL_POOF due to the wrong music bank being loaded
 	text_promptbutton
 	text_end
@@ -193,20 +197,21 @@ CeruleanGymCooltrainerFText:
 	jp TextScriptEnd
 
 CeruleanGymCooltrainerFBattleText:
-	text "きみ　なんて"
-	line "あたしで　じゅうぶん！"
+	text "FOR THE LIKES OF"
+	line "YOU I AM ENOUGH!"
 
-	para "カスミが　でる　まく　じゃないわ"
+	para "NO NEED TO CALL"
+	line "LEADER KASUMI!"
 	done
 
 CeruleanGymCooltrainerFEndBattleText:
-	text "まいったわ！"
+	text "I SURRENDER!"
 	prompt
 
 CeruleanGymCooltrainerFAfterBattleText:
-	text "いろんな　#　<TRAINER>と"
-	line "たたかって　みないと"
-	cont "じぶんの　つよさ　わからない　ものね"
+	text "MUST BATTLE MANY"
+	line "# <TRAINER>S TO"
+	cont "KNOW YOUR POWER!"
 	done
 
 CeruleanGymSwimmerText:
@@ -216,22 +221,23 @@ CeruleanGymSwimmerText:
 	jp TextScriptEnd
 
 CeruleanGymSwimmerBattleText:
-	text "おわっぷ！"
+	text "SPLASH! OWAPPU!"
 
-	para "まずは　おれが　あいてだ！"
-	line "かかって　こい！"
+	para "I AM YOUR FIRST"
+	line "OPPONENT! BRING"
+	cont "IT ON RIGHT NOW!"
 	done
 
 CeruleanGymSwimmerEndBattleText:
-	text "こんな　はずは　ない"
+	text "CANT BE TRUE!"
 	prompt
 
 CeruleanGymSwimmerAfterBattleText:
-	text "カスミは　これから　まだまだ"
-	line "つよくなる　<TRAINER>だ！"
+	text "KASUMI WILL KEEP"
+	line "GETTING STRONGER!"
 
-	para "おまえ　なんかにゃ"
-	line "まけたり　しないよ"
+	para "SHE WONT LOSE TO"
+	line "SOMEONE LIKE YOU!"
 	done
 
 CeruleanGymGymGuideText:
@@ -248,26 +254,26 @@ CeruleanGymGymGuideText:
 	jp TextScriptEnd
 
 .ChampInMakingText:
-	text "おーす！"
-	line "みらいの　チャンピオン！"
+	text "『OSU』! FUTURE"
+	line "CHAMPION!"
 
-	para "アドバイス　しよう！"
+	para "LEADER KASUMI IS"
+	line "A PROFESSIONAL"
+	cont "OF WATER MONS!"
 
-	para "ここの　リーダー　カスミは"
-	line "みずに　すむ　#を　つかう"
-	cont "プロフェッショナルだ！"
+	para "USE 『SHOKUBUTSU』"
+	line "PLANT TYPES TO"
+	cont "ABSORB WATER!"
 
-	para "こんな　ときは　しょくぶつ　タイプで"
-	line "みずを　すいとる　さくせんだ"
-
-	para "<⋯>　それか　でんき　タイプで"
-	line "しびれ　させるのも　いいぜ"
+	para "<⋯>OR USE 『DENKI』"
+	line "ELECTRIC TYPES"
+	cont "TO SHOCK THEM!"
 	done
 
 .BeatMistyText:
-	text "カスミに　かったな！"
-	line "おれの　いった　とおり　だったろ？"
+	text "YOU BEAT KASUMI!"
+	line "JUST AS I SAID!"
 
-	para "おまえも　すごいが"
-	line "おれも　すごいだろ？"
+	para "YOU ARE GREAT"
+	line "BUT SO AM I!"
 	done

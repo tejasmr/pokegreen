@@ -15,19 +15,20 @@ OpenOaksPC:
 	jp LoadScreenTilesFromBuffer2
 
 GetDexRatedText:
-	text "げんざいの　#ずかんを"
-	line "ひょうか　して　もらい　ますか？"
+	text "GET CURRENT #DEX"
+	line "EVALUATED OK？"
 	done
 
 ClosedOaksPCText:
-	text "<⋯>　オーキドの　<PC>との"
-	line "せつぞくを　おわった！@"
+	text "<⋯>CLOSED LINK TO"
+	line "PROF OAK <PC>！@"
 	text_waitbutton
 	text_end
 
 AccessedOaksPCText:
-	text "オーキドの　<PC>と　つないだ！"
+	text "LINKED TO"
+	line "PROF OAK <PC>！"
 
-	para "#　ずかん"
-	line "ひょうか　システムを　よびだした！"
+	para "#DEX RATING"
+	line "SYSTEM ACCESSED！"
 	prompt

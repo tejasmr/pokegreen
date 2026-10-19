@@ -13,16 +13,16 @@ SaffronPokecenterNurseText:
 	script_pokecenter_nurse
 
 SaffronPokecenterBeautyText:
-	text "#は　しゅるいに　よって"
-	line "せいちょうする　テンポが"
-	cont "ちがう　らしいわ"
+	text "PETS GROW AT"
+	line "DIFFERENT TEMPO"
+	cont "BY EACH KIND!"
 	done
 
 SaffronPokecenterGentlemanText:
-	text "だれもが　みんな　しってる"
-	line "シルフ　カンパニー　だが"
-	cont "ゆうめい　だと　それだけ"
-	cont "ねらわれる　きけんも　あるのだ"
+	text "ALL MEN KNOW"
+	line "SILPH COMPANY!"
+	cont "BUT BEING FAMOUS"
+	cont "INVITES DANGER!"
 	done
 
 SaffronPokecenterLinkReceptionistText:

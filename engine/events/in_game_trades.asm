@@ -277,129 +277,150 @@ TradeTextPointers3:
 	assert_table_length NUM_TRADE_TEXTS
 
 ConnectCableText:
-	text "じゃあ"
-	line "ケーブルを　つないで<⋯>と"
+	text "OK！ LETS HOOK UP"
+	line "THE LINK CABLE<⋯>"
 	prompt
 
 TradedForText:
-	text "<PLAYER>は　@"
-	text_ram wInGameTradeGiveMonName
-	text "と"
+	text "<PLAYER> TRADED"
 	line "@"
+	text_ram wInGameTradeGiveMonName
+	text " FOR"
+	cont "@"
 	text_ram wInGameTradeReceiveMonName
-	text "を　こうかんした！@"
+	text "！@"
 	sound_get_key_item
 	text_pause
 	text_end
 
 WannaTrade1Text:
-	text "おれ　@"
+	text "I AM SEARCHING"
+	line "FOR @"
 	text_ram wInGameTradeGiveMonName
-	text "　さがしてるんだ！"
+	text "！"
 
-	para "きみ　もってたら　@"
+	para "HAVE ONE？ LETS"
+	line "KOUKAN TRADE FOR"
+	cont "MY @"
 	text_ram wInGameTradeReceiveMonName
-	text "と"
-	line "こうかんしようぜ？"
+	text "！"
 	done
 
 NoTrade1Text:
-	text "そんなー"
-	line "<⋯>まっ　いっか"
+	text "AW NO WAY···"
+	line "<⋯>MAA·WHATEVER！"
 	done
 
 WrongMon1Text:
-	text "<⋯>なんだ"
-	line "@"
+	text "<⋯>NANDA？ WHAT？"
+	line "THAT IS NOT"
+	cont "@"
 	text_ram wInGameTradeGiveMonName
-	text "じゃ　ないじゃん"
+	text "！"
 
-	para "もし　つかまえたら"
-	line "まっさきに　ここへ　こいよ！"
+	para "IF YOU CATCH ONE·"
+	line "COME RIGHT HERE！"
 	done
 
 Thanks1Text:
-	text "サンキュー"
+	text "SANKYUU！"
+	line "THANKS A LOT！"
 	done
 
 AfterTrade1Text:
-	text "おれの　やった"
-	line "@"
+	text "HOW IS THE @"
 	text_ram wInGameTradeReceiveMonName
-	text "　イイだろ？"
+	text_start
+	line "I TRADED TO YOU？"
+	cont "SUPER II DARO？"
 	done
 
 WannaTrade2Text:
-	text "これこれ"
-	line "きみ　@"
+	text "KORE KORE·HELLO！"
+	line "DO YOU HAVE"
+	cont "@"
 	text_ram wInGameTradeGiveMonName
-	text "　もっとる？"
+	text "？"
 
-	para "わしの　@"
+	para "WONT YOU KOUKAN"
+	line "TRADE FOR MY"
+	cont "@"
 	text_ram wInGameTradeReceiveMonName
-	text "と"
-	line "こうかん　しないか？"
+	text "？"
 	done
 
 NoTrade2Text:
-	text "まー　ムリに　とは　いわんが<⋯>"
+	text "MAA·I WONT FORCE"
+	line "MURI ON YOU<⋯>"
 	done
 
 WrongMon2Text:
-	text "<⋯>む？"
-	line "@"
+	text "<⋯>MU？ HMM？"
+	line "THAT IS NOT"
+	cont "@"
 	text_ram wInGameTradeGiveMonName
-	text "では　ないじゃないか"
+	text "！"
 
-	para "てに　いれた　ときは"
-	line "よろしく　たのむよ"
+	para "WHEN YOU GET ONE·"
+	line "YOROSHIKU PLEASE"
+	cont "BRING IT HERE！"
 	done
 
 Thanks2Text:
-	text "ありがとよ"
+	text "ARIGATO YO！"
+	line "THANK YOU KINDLY！"
 	done
 
 AfterTrade2Text:
-	text "こうかんした　@"
+	text "HAS THE TRADED"
+	line "@"
 	text_ram wInGameTradeReceiveMonName
-	text_start
-	line "つよくなったかい？"
+	text " GROWN"
+	cont "STRONGER TSUYOI？"
 	done
 
 WannaTrade3Text:
-	text "ねー　きみ"
-	line "@"
+	text "HEY YOU！ DO YOU"
+	line "HAVE @"
 	text_ram wInGameTradeGiveMonName
-	text "　もってる？"
+	text "？"
 
-	para "わたしの　@"
+	para "WONT YOU TORIKAE"
+	line "SWAP FOR MY"
+	cont "@"
 	text_ram wInGameTradeReceiveMonName
-	text "と"
-	line "とりかえて　くれない？"
+	text "？"
 	done
 
 NoTrade3Text:
-	text "イヤなら　しょーがないな"
+	text "IF IYA NO·CANT BE"
+	line "HELPED SHOUGANAI！"
 	done
 
 WrongMon3Text:
-	text "<⋯>　これ"
+	text "<⋯>THIS IS NOT"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text "じゃ　ないわー"
+	text " AT ALL！"
 
-	para "てに　いれたら"
-	line "ぜったい　とりかえてよねっ！"
+	para "WHEN YOU GET ONE·"
+	line "ZETTAI MUST SWAP"
+	cont "WITH ME OK？"
 	done
 
 Thanks3Text:
-	text "ありがとね"
+	text "ARIGATO NE！"
+	line "THANKS SO MUCH！"
 	done
 
 AfterTrade3Text:
+	text "IS @"
 	text_ram wInGameTradeReceiveMonName
-	text "　げんき？"
-	line "わたしの　@"
+	text " GENKI"
+	line "DOING WELL？"
+
+	para "MY @"
 	text_ram wInGameTradeGiveMonName
-	text "は　げんきよ"
+	text " IS"
+	line "GENKI VERY WELL！"
 	done

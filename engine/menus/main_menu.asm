@@ -439,9 +439,9 @@ PrintPlayTime:
 
 SaveScreenInfoText:
 	db   "PLAYER"
-	next "BADGES　　　　　　こ"
-	next "#CAUGHT　ひき"
-	next "PLAYED@"
+	next "BADGES"
+	next "#CAUGHT"
+	next "TIME@"
 
 DisplayOptionMenu:
 	hlcoord 0, 0

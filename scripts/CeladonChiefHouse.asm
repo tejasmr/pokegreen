@@ -9,23 +9,28 @@ CeladonChiefHouse_TextPointers:
 	dw_const CeladonChiefHouseSailorText, TEXT_CELADONCHIEFHOUSE_SAILOR
 
 CeladonChiefHouseChiefText:
-	text "けへへ<⋯>！"
-	line "スロットは　だい　はんじょう！"
-	cont "もうかって　しかたないわ！"
+	text "KEHEHE⋯!"
+	line "SLOTS ARE BOOMING"
+	cont "WITH BUSINESS!"
+
+	para "MAKING TONS OF"
+	line "MONEY NONSTOP!"
 	done
 
 CeladonChiefHouseRocketText:
-	text "チーフ！"
+	text "CHIEF!"
 
-	para "きょうも　スロットの　うりあげで"
-	line "しいれた　#　２０００ひき"
-	cont "しゅっか　しやした！"
+	para "WITH TODAYS SLOT"
+	line "PROFITS· WE JUST"
+	cont "SHIPPED OUT 2000"
+	cont "CAUGHT # BOSS!"
 	done
 
 CeladonChiefHouseSailorText:
-	text "ゲーム　コーナーに　はって　ある"
-	line "ポスターには　さわんな！"
+	text "DONT TOUCH POSTER"
+	line "IN GAME CORNER!"
 
-	para "うらに　スイッチが　かくして　ある"
-	line "なんて　こと　ないから！"
+	para "NOT LIKE THERE IS"
+	line "A SECRET SWITCH"
+	cont "BEHIND IT AT ALL!"
 	done

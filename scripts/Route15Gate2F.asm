@@ -32,15 +32,15 @@ Route15Gate2FOaksAideText:
 	jp TextScriptEnd
 
 .ExpAllText:
-	text "がくしゅうそうちは"
-	line "たたかわない　#も"
-	cont "けいけんちが　もらえます"
+	text "EXP.ALL GAKUSHUU"
+	line "GIVES EXP TO"
+	cont "ALL # IN PARTY·"
+	cont "EVEN RESTING ONES"
 
-	para "でも　１ぴき　あたりの"
-	line "わけまえが　すくなく　なるので"
-	cont "つかいたくない　ときは"
-	cont "<PC>に　あずけて　ください"
-	cont "そうちは　どうさ　しません"
+	para "BUT EXP IS SPLIT"
+	line "AMONG ALL MONS·"
+	cont "DEPOSIT IN <PC> IF"
+	cont "YOU DONT WANT IT!"
 	done
 
 Route15Gate2FBinocularsText:
@@ -49,8 +49,11 @@ Route15Gate2FBinocularsText:
 	jp GateUpstairsScript_PrintIfFacingUp
 
 .Text:
-	text "ぼうえんきょうを　のぞいた！"
+	text "LOOKED INTO"
+	line "BINOCULARS!"
 
-	para "うみの　むこうに<⋯>"
-	line "ちいさな　しまが　みえる！"
+	para "ACROSS THE SEA<⋯>"
+	line "A SMALL ISLAND"
+	cont "CAN BE SEEN!"
 	done
+

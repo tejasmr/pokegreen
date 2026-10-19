@@ -104,17 +104,17 @@ PokemonMansion3FSuperNerdText:
 	jp TextScriptEnd
 
 PokemonMansion3FSuperNerdBattleText:
-	text "それに　しても"
-	line "でっけー　やしき　だねえ！"
+	text "MAN·WHAT A HUGE"
+	line "MANSION THIS IS!"
 	done
 
 PokemonMansion3FSuperNerdEndBattleText:
-	text "どろどろ　ぼーん！"
+	text "DORO-DORO BOOM!"
 	prompt
 
 PokemonMansion3FSuperNerdAfterBattleText:
-	text "<⋯>　あいぼうが　いたんだ"
-	line "どこ　いったんだろ？"
+	text "<⋯>I HAD A BUDDY"
+	line "WHERE DID HE GO?"
 	done
 
 PokemonMansion3FScientistText:
@@ -124,24 +124,28 @@ PokemonMansion3FScientistText:
 	jp TextScriptEnd
 
 PokemonMansion3FScientistBattleText:
-	text "ここは　かつて"
-	line "わたしの　せんせいが　すんでいた"
+	text "MY MENTOR SENSEI"
+	line "ONCE LIVED HERE!"
 	done
 
 PokemonMansion3FScientistEndBattleText:
-	text "なんと　つよい"
+	text "SO VERY STRONG!"
 	prompt
 
 PokemonMansion3FScientistAfterBattleText:
-	text "いきたい　ばしょに　いけなくて"
-	line "こまってるのか<⋯>　そこから"
-	cont "おもいきって　とびおりて　みろ！"
+	text "CANT REACH WHERE"
+	line "YOU WANT TO GO?"
+
+	para "TRY BRAVELY"
+	line "JUMPING DOWN"
+	cont "THE HOLE!"
 	done
 
 PokemonMansion3FDiaryText:
-	text "にっき　２がつ６か"
-	line "ミュウが　こどもを　うむ"
+	text "DIARY: FEB. 6"
+	line "MEW GAVE BIRTH!"
 
-	para "うまれた　ばかりの　ジュニアを"
-	line "ミュウツーと　よぶことに<⋯>"
+	para "NAMED THE NEWBORN"
+	line "JUNIOR: MEWTWO<⋯>"
 	done
+

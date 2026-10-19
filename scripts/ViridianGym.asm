@@ -11,10 +11,10 @@ ViridianGym_Script:
 	ret
 
 .CityName:
-	db "トキワ@"
+	db "TOKIWA@"
 
 .LeaderName:
-	db "サカキ@"
+	db "SAKAKI@"
 
 ViridianGymResetScripts:
 	xor a
@@ -238,84 +238,93 @@ ViridianGymGiovanniText:
 	jp TextScriptEnd
 
 .PreBattleText:
-	text "ははははーッ！"
-	line "ここは　おれの　かくれが　だ！"
+	text "FUAHAHAHA-T!"
+	line "THIS IS MY"
+	cont "SECRET HIDEOUT!"
 
-	para "<ROCKET>　ふっかつの　ひ　まで"
-	line "この　ジムで"
-	cont "たいせいを　たてなおすのだ！"
+	para "UNTIL REVIVAL"
+	line "OF TEAM ROCKET·"
+	cont "I REBUILD FORCES"
+	cont "IN THIS GYM!"
 
-	para "しかし<⋯>　きみに"
-	line "みつかって　しまっては"
-	cont "しょうがない！"
-	cont "こんどは　てかげん　なしだ！"
-	cont "では<⋯>"
+	para "HOWEVER⋯ FOUND"
+	line "OUT BY YOU NOW"
+	cont "CANNOT BE HELPED!"
+	cont "NO MERCY TODAY!"
+	cont "NOW THEN⋯"
 
-	para "いま　いちど！"
-	line "さいきょうの　<TRAINER>"
-	cont "サカキの　うでまえを　みよ！"
+	para "ONCE AGAIN!"
+	line "BEHOLD SAKAKI·"
+	cont "THE STRONGEST"
+	cont "<TRAINER> IN POWER!"
 	done
 
 .ReceivedEarthBadgeText:
-	text "はー　はーッ！"
-	line "はげしい　たたかい　だった！"
-	cont "きみの　かちだ！"
-	cont "いま<⋯>"
-	cont "その　あかしに"
-	cont "グリーン　バッジを　わたそう！@"
+	text "HA⋯ HA-T!"
+	line "A FIERCE BATTLE!"
+	cont "YOU WON!"
+	cont "AS PROOF⋯ TAKE"
+	cont "GREEN BADGE!@"
 	sound_level_up ; probably supposed to play SFX_GET_ITEM_1 but the wrong music bank is loaded
 	text_end
 
 .PostBattleAdviceText:
-	text "このような　まけかたを　しては"
-	line "ぶかたちに　しめしが　つかない！"
-	cont "<ROCKET>は<⋯>"
-	cont "ほんじつを　もって　かいさんする！"
+	text "LOSING LIKE THIS·"
+	line "CANNOT SHOW FACE"
+	cont "TO MY MEN!"
+	cont "TEAM ROCKET⋯"
+	cont "DISBAND AS OF"
+	cont "THIS VERY DAY!"
 
-	para "わたしは"
-	line "#の　しゅぎょうを"
-	cont "いちから　しなおす　つもりだ！"
+	para "AS FOR MYSELF·"
+	line "TRAINING # FROM"
+	cont "SQUARE ONE AGAIN!"
 
-	para "いつの　ひか<⋯>"
-	line "また　あおう！"
-	cont "<⋯>　さらばだ！@"
+	para "SOMEDAY⋯"
+	line "LET US MEET!"
+	cont "⋯FAREWELL!@"
 	text_waitbutton
 	text_end
 
 ViridianGymGiovanniEarthBadgeInfoText:
-	text "グリーンバッジさえ　あれば"
-	line "どんなに　レベルの　たかい"
-	cont "#も　いうことを　きく！"
+	text "WITH GREEN BADGE·"
+	line "ANY HIGH <LV> #"
+	cont "OBEYS ALL ORDERS!"
 
-	para "きみが　いちにんまえの"
-	line "<TRAINER>に　なった　あかしだ！"
+	para "PROOF YOU BECAME"
+	line "A FULL-FLEDGED"
+	cont "<TRAINER> AT LAST!"
 
-	para "これで　#リーグに"
-	line "いどむ　ことが　できるだろう"
+	para "NOW YOU CAN GO"
+	line "CHALLENGE THE"
+	cont "# LEAGUE!"
 
-	para "この　<TM>は<⋯>！"
-	line "#リーグへ　いどむ"
-	cont "きみへ　せんべつだ！"
+	para "THIS <TM> IS⋯!"
+	line "A PARTING GIFT"
+	cont "FOR YOUR QUEST"
+	cont "TO # LEAGUE!"
 	done
 
 ViridianGymGiovanniReceivedTM27Text:
-	text "<PLAYER>は　サカキから"
-	line "<TM>２７を　もらった！@"
+	text "<PLAYER> GOT"
+	line "<TM>27 SAKAKI GAVE!@"
 	sound_get_item_1
 	text_start
 
-	para "<TM>２７は　じわれ　だ！"
-	line "じわれに　さそいこまれた　てきは"
-	cont "いちげきで　ダウン　する！"
-	cont "さいきょうの　わざだ！"
+	para "<TM>27 IS JIGOKU"
+	line "FISSURE! FOES"
+	cont "FALLING INSIDE"
+	cont "GO DOWN IN 1 HIT!"
+	cont "STRONGEST MOVE!"
 
-	para "おれが　むかし<⋯>　ここで"
-	line "#　ジムを　やってる　とき"
-	cont "つくった　ものだ<⋯>"
+	para "LONG AGO⋯ WHEN"
+	line "I RAN THIS GYM·"
+	cont "I INVENTED IT⋯"
 	done
 
 ViridianGymGiovanniTM27NoRoomText:
-	text "にもつが　いっぱいだ！"
+	text "YOUR PACK IS"
+	line "FULL OF ITEMS!"
 	done
 
 ViridianGymCooltrainerM1Text:
@@ -325,18 +334,19 @@ ViridianGymCooltrainerM1Text:
 	jp TextScriptEnd
 
 ViridianGymCooltrainerM1BattleText:
-	text "<⋯>　さて！"
-	line "そろそろ<⋯>"
-	cont "バテて　きたんじゃないか"
+	text "⋯WELL NOW!"
+	line "ARE YOU GETTING"
+	cont "TIRED OUT YET?"
 	done
 
 ViridianGymCooltrainerM1EndBattleText:
-	text "<⋯>　ちから　つきた"
+	text "⋯POWER OUT!"
 	prompt
 
 ViridianGymCooltrainerM1AfterBattleText:
-	text "たいりょくが　ないと"
-	line "とても　リーダーには　かてないぜ！"
+	text "WITHOUT STAMINA·"
+	line "NO CHANCE AGAINST"
+	cont "OUR GYM LEADER!"
 	done
 
 ViridianGymHiker1Text:
@@ -346,18 +356,19 @@ ViridianGymHiker1Text:
 	jp TextScriptEnd
 
 ViridianGymHiker1BattleText:
-	text "うおーッ！"
-	line "おれの　イカリは"
-	cont "さいこうちょう　だあッ！"
+	text "UOO-T!"
+	line "MY WRATH HAS"
+	cont "REACHED PEAK-T!"
 	done
 
 ViridianGymHiker1EndBattleText:
-	text "ぬうおーッ！"
+	text "NUOO-T!"
 	prompt
 
 ViridianGymHiker1AfterBattleText:
-	text "ウオースッ！"
-	line "まだまだ　れんしゅう　たりないッス"
+	text "UOO-SSU!"
+	line "STILL NOT ENOUGH"
+	cont "PRACTICE-SSU!"
 	done
 
 ViridianGymRocker1Text:
@@ -367,19 +378,20 @@ ViridianGymRocker1Text:
 	jp TextScriptEnd
 
 ViridianGymRocker1BattleText:
-	text "おれと　#の"
-	line "コンビネーション！"
-	cont "バツグン　だぜ！"
+	text "ME AND MY #"
+	line "COMBINATION IS"
+	cont "PREEMINENT!"
 	done
 
 ViridianGymRocker1EndBattleText:
-	text "<⋯>　おまえと"
-	line "#も　いきが　あってるな"
+	text "⋯YOU AND YOUR"
+	line "# ARE IN SYNC!"
 	prompt
 
 ViridianGymRocker1AfterBattleText:
-	text "おまえは　ここの　リーダーが"
-	line "だれか　しって　いるのか<⋯>？"
+	text "DO YOU EVEN KNOW"
+	line "WHO OUR LEADER"
+	cont "REALLY IS⋯?"
 	done
 
 ViridianGymHiker2Text:
@@ -389,18 +401,20 @@ ViridianGymHiker2Text:
 	jp TextScriptEnd
 
 ViridianGymHiker2BattleText:
-	text "カラテ　こそ！"
-	line "せかい　さいきょうの　かくとうぎ！"
+	text "KARATE IS INDEED"
+	line "WORLDS STRONGEST"
+	cont "FIGHTING ART!"
 	done
 
 ViridianGymHiker2EndBattleText:
-	text "チェーストー！"
+	text "CHEEESTO-!"
 	prompt
 
 ViridianGymHiker2AfterBattleText:
-	text "ウィオッス！"
-	line "#が　おれ　くらい"
-	cont "カラテ　できれば　いいんだが<⋯>"
+	text "WIIOSSU!"
+	line "IF ONLY # COULD"
+	cont "DO KARATE LIKE"
+	cont "ME⋯"
 	done
 
 ViridianGymCooltrainerM2Text:
@@ -410,17 +424,19 @@ ViridianGymCooltrainerM2Text:
 	jp TextScriptEnd
 
 ViridianGymCooltrainerM2BattleText:
-	text "しんに　つよい　<TRAINER>は"
-	line "かちかたも　うつくしい　ものだ！"
+	text "TRULY STRONG"
+	line "<TRAINER> WINS"
+	cont "BEAUTIFULLY!"
 	done
 
 ViridianGymCooltrainerM2EndBattleText:
-	text "てが　すべった<⋯>！"
+	text "MY HAND SLIPPED⋯!"
 	prompt
 
 ViridianGymCooltrainerM2AfterBattleText:
-	text "こんな　まけかた　したら<⋯>"
-	line "<⋯>　リーダーに　おこられる！"
+	text "LOSING LIKE THIS⋯"
+	line "LEADER WILL BE"
+	cont "ENRAGED AT ME!"
 	done
 
 ViridianGymHiker3Text:
@@ -430,19 +446,20 @@ ViridianGymHiker3Text:
 	jp TextScriptEnd
 
 ViridianGymHiker3BattleText:
-	text "キング　オブ　カラテ！"
-	cont "ここから　さきへは"
-	cont "いかせないぜ！"
+	text "KING OF KARATE!"
+	line "NO PASSING PAST"
+	cont "THIS POINT!"
 	done
 
 ViridianGymHiker3EndBattleText:
-	text "ドッセーッ！"
+	text "DOSSEE-T!"
 	prompt
 
 ViridianGymHiker3AfterBattleText:
-	text "ウィース！"
-	line "#　リーグ　めざしてるのか！"
-	cont "ませた　こどもだ！"
+	text "WIISU!"
+	line "AIMING FOR THE"
+	cont "# LEAGUE?"
+	cont "PRECOCIOUS KID!"
 	done
 
 ViridianGymRocker2Text:
@@ -452,18 +469,19 @@ ViridianGymRocker2Text:
 	jp TextScriptEnd
 
 ViridianGymRocker2BattleText:
-	text "ピシ　ピシッ！"
-	line "ほら！"
-	cont "ビビってるんじゃないよ！"
+	text "CRACK! SNAP!"
+	line "COME ON! DONT"
+	cont "COWER IN FEAR!"
 	done
 
 ViridianGymRocker2EndBattleText:
-	text "<⋯>　い　いてて！"
+	text "⋯OUCH OUCH OUCH!"
 	prompt
 
 ViridianGymRocker2AfterBattleText:
-	text "まあ　まて！"
-	line "ゆだん　した　だけだ！"
+	text "HOLD ON! I JUST"
+	line "LET MY GUARD"
+	cont "DOWN A MOMENT!"
 	done
 
 ViridianGymCooltrainerM3Text:
@@ -473,20 +491,21 @@ ViridianGymCooltrainerM3Text:
 	jp TextScriptEnd
 
 ViridianGymCooltrainerM3BattleText:
-	text "トキワ　ジムは"
-	line "ずっと　へいさ　していたが"
-	cont "リーダーが　かえってきて"
-	cont "きょうから　ふっかつだ！"
+	text "TOKIWA GYM WAS"
+	line "CLOSED LONG TIME·"
+	cont "BUT LEADER IS"
+	cont "BACK TODAY!"
 	done
 
 ViridianGymCooltrainerM3EndBattleText:
-	text "<⋯>　さすがだ！"
+	text "⋯SPLENDID!"
 	prompt
 
 ViridianGymCooltrainerM3AfterBattleText:
-	text "きみが<⋯>"
-	line "トキワ　リーダーに　かてれば"
-	cont "#リーグに　すすめる　だろう"
+	text "IF YOU CAN BEAT"
+	line "TOKIWA LEADER·"
+	cont "YOU ADVANCE TO"
+	cont "# LEAGUE!"
 	done
 
 ViridianGymGymGuideText:
@@ -503,24 +522,25 @@ ViridianGymGymGuideText:
 	jp TextScriptEnd
 
 ViridianGymGuidePreBattleText:
-	text "おーす！"
-	line "みらいの　チャンピオン！"
+	text "YO! FUTURE"
+	line "CHAMPION!"
 
-	para "トキワ　リーダーの　しょうたいは"
-	line "おれにも　わからん！"
+	para "EVEN I DO NOT"
+	line "KNOW IDENTITY OF"
+	cont "TOKIWA LEADER!"
 
-	para "たしかなのは"
-	line "いままでの　リーダーの"
-	cont "だれよりも　つよいって　ことだ！"
+	para "FOR CERTAIN· HE"
+	line "IS STRONGER THAN"
+	cont "ANY LEADER YET!"
 
-	para "それと<⋯>"
-	line "どうも　この　ジムには"
-	cont "じめん　タイプ　#の"
-	cont "つかいてが　あつまってる　らしいぜ"
+	para "AND ALSO⋯"
+	line "SEEMS USERS OF"
+	cont "GROUND TYPE #"
+	cont "GATHER IN GYM!"
 	done
 
 ViridianGymGuidePostBattleText:
-	text "たまげたぜ！"
-	line "トキワの　リーダーが"
-	cont "サカキ　だったとは！"
+	text "BLOWN AWAY!"
+	line "TOKIWA LEADER WAS"
+	cont "SAKAKI HIMSELF!"
 	done

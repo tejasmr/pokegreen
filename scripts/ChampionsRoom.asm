@@ -259,81 +259,96 @@ ChampionsRoomRivalText:
 	jp TextScriptEnd
 
 .IntroText:
-	text "<RIVAL>『よおーッ！　<PLAYER>！"
-	line "<PLAYER>も　きたか！"
-	cont "<⋯>　はッはッ　うれしいぜ！"
+	text "<RIVAL>『YO-ッ！"
+	line "YOU CAME TOO·"
+	cont "<PLAYER>！"
+	cont "<⋯>HA-HA·GLAD！"
 
-	para "ライバルの　おまえが　よわいと"
-	line "はりあい　ないからな！"
+	para "IF MY RIVAL IS"
+	line "WEAK·NO RIVALRY"
+	cont "THRILL AT ALL！"
 
-	para "おれは　ずかん　あつめ　ながら"
-	line "かんぺきな　#を　さがした！"
+	para "WHILE GATHERING"
+	line "『# ZUKAN』·I"
+	cont "SOUGHT PERFECT"
+	cont "# TEAMMATES！"
 
-	para "いろんな　タイプの　#に"
-	line "かち　まくる　ような"
-	cont "コンビネーションを　さがした！"
+	para "I SOUGHT COMBOS"
+	line "THAT OVERWHELM"
+	cont "ANY TYPE OF #！"
 
-	para "<⋯>　そして　いま！"
+	para "<⋯>AND RIGHT NOW！"
 
-	para "おれは　#　リーグの"
-	line "ちょうてんに　いる！"
+	para "I STAND AT THE"
+	line "PEAK APEX OF"
+	cont "# LEAGUE！"
 
 	para "<PLAYER>！"
-	line "この　いみが　わかるか？"
+	line "DO YOU KNOW WHAT"
+	cont "THIS MEANS？"
 
-	para "<⋯>　<⋯>　<⋯>"
-	line "<⋯>　わかった！　おしえてやる！"
+	para "<⋯><⋯><⋯>"
+	line "<⋯>FINE！ I WILL"
+	cont "TEACH IT TO YOU！"
 
-	para "この　おれさまが！"
-	line "せかいで　いちばん！"
-	cont "つよいって　こと　なんだよ！"
+	para "IT MEANS THIS"
+	line "GREAT ME IS THE"
+	cont "STRONGEST IN THE"
+	cont "WHOLE WORLD！"
 	done
 
 RivalDefeatedText:
-	text "<⋯>　ばかな！"
-	line "ほんとに　おわったのか！"
-	cont "ぜんりょくを　かけたのに　まけた！"
+	text "<⋯>IMPOSSIBLE！"
+	line "IS IT REALLY"
+	cont "OVER NOW？！"
+	cont "I PUT ALL MY"
+	cont "MIGHT YET LOST！"
 
-	para "せっかく　#　リーグの"
-	line "ちょうてんに　たったのに　よう！"
+	para "I FINALLY REACHED"
+	line "THE APEX OF THE"
+	cont "# LEAGUE！"
 
-	para "もう<⋯>！"
-	line "おれさまの　てんかは　おわりかよ！"
-	cont "<⋯>　そりゃ　ないぜ！"
+	para "ALREADY<⋯>！"
+	line "MY REIGN UNDER"
+	cont "HEAVEN IS OVER？！"
+	cont "<⋯>NO WAY MAN！"
 	prompt
 
 RivalVictoryText:
-	text "はーはッ！"
-	line "かった！　かった！　かった！"
+	text "HAA-HAッ！"
+	line "I WON！ WON！ WON！"
 
-	para "<PLAYER>に　まける　ような"
-	line "おれさま　では　なーい！"
+	para "<PLAYER> CAN NEVER"
+	line "DEFEAT GREAT ME！"
 
-	para "ま！　#の"
-	line "てんさい　<RIVAL>さま　あいてに"
-	cont "ここまで　よく　がんばった！"
+	para "WELL！ AGAINST"
+	line "GENIUS <RIVAL>·"
+	cont "YOU FOUGHT WELL"
+	cont "TO REACH HERE！"
 
-	para "ほめて　つかわす！"
-	line "はーッ！　はーはッはッ！"
+	para "I PRAISE THEE！"
+	line "HAAッ！ HA-HA-HAッ！"
 	prompt
 
 ChampionsRoomRivalAfterBattleText:
-	text "なぜ<⋯>"
-	line "なぜ　まけてしまったんだ<⋯>"
+	text "WHY<⋯>"
+	line "WHY DID I LOSE<⋯>"
 
-	para "おれの　そだてかた<⋯>"
-	line "まちがってなんか　いないはずなのに"
+	para "MY METHOD OF"
+	line "RAISING #<⋯>"
+	cont "WAS NOT WRONG<⋯>"
 
-	para "しょうが　ないぜ<⋯>"
-	line "おまえが　#　リーグ"
-	cont "しん　チャンピオンだ<⋯>！"
+	para "CANT BE HELPED<⋯>"
+	line "YOU ARE NEW #"
+	cont "LEAGUE CHAMP<⋯>！"
 
-	para "<⋯>　<⋯>　<⋯>"
-	line "<⋯>　みとめたく　ねーけど"
+	para "<⋯><⋯><⋯>"
+	line "<⋯>HATE TO ADMIT"
+	cont "IT THOUGH<⋯>"
 	done
 
 ChampionsRoomOakText:
-	text "オーキド『<PLAYER>！"
+	text "OOKIDO『<PLAYER>！"
 	done
 
 ChampionsRoomOakCongratulatesPlayerText:
@@ -346,54 +361,73 @@ ChampionsRoomOakCongratulatesPlayerText:
 	jp TextScriptEnd
 
 .Text:
-	text "オーキド『とうとう　かったな！"
-	line "#　リーグ　せいは！"
-	cont "こころ　から　おめでとう！"
+	text "OOKIDO『YOU WON"
+	line "AT LONG LAST！"
 
-	para "はじめて　@"
+	para "# LEAGUE WIN！"
+	line "CONGRATULATIONS"
+	cont "FROM MY HEART！"
+
+	para "SINCE RECEIVING"
+	line "@"
 	text_ram wNameBuffer
-	text "を　もらって"
-	line "#　ずかん　あつめに"
-	cont "でかけた　ころと　くらべると"
-	cont "たくましく　なったな！"
+	text ""
 
-	para "<⋯>　いやいや！"
-	line "<PLAYER>は　おとなに　なった！"
+	para "AND DEPARTING FOR"
+	line "『# ZUKAN』·YOU"
+	cont "GREW SO ROBUST！"
+
+	para "<⋯>NO·TRULY！"
+	line "<PLAYER> HAS GROWN"
+	cont "INTO AN ADULT！"
 	done
 
 ChampionsRoomOakDisappointedWithRivalText:
-	text "オーキド『<RIVAL><⋯>！"
-	line "<⋯>　ざんねんだ！"
+	text "OOKIDO『<RIVAL><⋯>！"
+	line "<⋯>DISAPPOINTING！"
 
-	para "おまえが　してんのうに　かったと"
-	line "きいて　ここに　とんで　きたのに"
+	para "HEARING YOU WON"
+	line "OVER『SHITENNO』·"
+	cont "I FLEW OVER HERE！"
 
-	para "#　リーグに　ついて　みたら"
-	line "おまえは　まけとった！"
+	para "YET ARRIVING AT"
+	line "# LEAGUE·YOU"
+	cont "WERE DEFEATED！"
 
-	para "<RIVAL>よ<⋯>！"
-	line "なぜ　まけたのか　わかるか？"
-	cont "<⋯>　<⋯>　<⋯>"
+	para "<RIVAL><⋯>！"
+	line "DO YOU KNOW WHY"
+	cont "YOU LOST THIS？"
 
-	para "おまえが　#　たちへの"
-	line "しんらいと　あいじょうを"
-	cont "わすれとる　からだ！"
+	para "<⋯><⋯><⋯>"
 
-	para "それでは　どんなに　がんばっても"
-	line "トップ　には　たてんぞ！"
+	para "BECAUSE YOU HAVE"
+	line "FORGOTTEN TRUST"
+	cont "AND AFFECTION"
+	cont "TOWARD YOUR #！"
+
+	para "LIKE THAT·NO"
+	line "MATTER HOW HARD"
+	cont "YOU TRY·YOU CANT"
+	cont "STAND AT TOP！"
 	done
 
 ChampionsRoomOakComeWithMeText:
-	text "オーキド『<PLAYER>！"
+	text "OOKIDO『<PLAYER>！"
 
-	para "#　リーグを　せいは　したのは"
-	line "ひとりの　ちから　では　ないことを"
-	cont "<⋯>　おまえは　わかっとるな！"
+	para "CONQUERING THE"
+	line "# LEAGUE WAS"
+	cont "NOT POWER OF ONE"
+	cont "PERSON ALONE<⋯>"
 
-	para "<PLAYER>と　#の"
-	line "ぜつみょうな　コンビネーション！"
-	cont "みごと　だったぞ！"
+	para "YOU UNDERSTAND"
+	line "THIS WELL！"
 
-	para "それでは<⋯>　<PLAYER>！"
-	line "わたしに　ついて　きなさい！"
+	para "<PLAYER> AND #"
+	line "SUPERB COMBOS！"
+	cont "MAGNIFICENT WORK！"
+
+	para "NOW THEN<⋯>"
+	line "<PLAYER>！"
+
+	para "COME FOLLOW ME！"
 	done

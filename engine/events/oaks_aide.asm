@@ -46,81 +46,79 @@ OaksAideScript:
 	ret
 
 OaksAideHiText:
-	text "ぼく　おぼえてます？"
-	line "ほら<⋯>！"
-	cont "オーキド　はかせの　じょしゅ　です"
+	text "REMEMBER ME？"
+	line "I AM PROF.OAK"
+	cont "JOSHU AIDE！"
 
-	para "#ずかんが　@"
+	para "IF YOUR #DEX HAS"
+	line "@"
 	text_decimal hOaksAideRequirement, 1, 3
-	text "しゅるい"
-	line "あつまってる　ようなら"
+	text " MON SPECIES·"
+	cont "HAKASE SAID TO"
+	cont "GIVE YOU THIS·"
 	cont "@"
 	text_ram wOaksAideRewardItemName
-	text "を　わたす　よう"
-	cont "はかせに　いわれ　ました"
+	text "！"
 
-	para "<⋯>　それでは　さっそく"
-	line "<PLAYER>くん！"
-	cont "つかまえた　#は"
+	para "SO THEN <PLAYER>！"
+	line "DID YOU CATCH"
 	cont "@"
 	text_decimal hOaksAideRequirement, 1, 3
-	text "しゅるい　より　おおい　かな？"
+	text " MON SPECIES？"
 	done
 
 OaksAideUhOhText:
-	text "<⋯>　<⋯>　えーと！"
-	line "つかまえた　#は<⋯>"
-	cont "あれれー？"
-	cont "まだ　@"
+	text "<⋯>LET ME SEE！"
+	line "CAUGHT # IS<⋯>"
+	cont "ARERE-？ HUH？"
+	cont "YOU ONLY HAVE"
+	cont "@"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
-	text "しゅるい　ですよ！"
+	text " SPECIES！"
 
-	para "@"
+	para "IF NOT @"
 	text_decimal hOaksAideRequirement, 1, 3
-	text "しゅるいに　たりない　なら"
-	line "@"
-	text_ram wOaksAideRewardItemName
-	text "は"
-	cont "また　こんど　ですね"
+	text " MONS·"
+	line "THIS ITEM IS FOR"
+	cont "MATA KONDO LATER！"
 	done
 
 OaksAideComeBackText:
-	text "<⋯>　<⋯>　そう　ですか"
+	text "<⋯>SOU DESU KA·"
+	line "I SEE HOW IT IS<⋯>"
 
-	para "@"
+	para "IF NOT @"
 	text_decimal hOaksAideRequirement, 1, 3
-	text "しゅるいに　たりない　なら"
-	line "@"
-	text_ram wOaksAideRewardItemName
-	text "は"
-	cont "また　こんど　ですね"
+	text " MONS·"
+	line "THIS ITEM IS FOR"
+	cont "MATA KONDO LATER！"
 	done
 
 OaksAideHereYouGoText:
-	text "<⋯>　<⋯>　なるほど！"
-	line "つかまえた　#は<⋯>"
+	text "<⋯>NARUHODO！"
+	line "CAUGHT # IS<⋯>"
 	cont "@"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
-	text "しゅるい　ですね！"
-	cont "おめでとう！"
+	text " SPECIES！"
+	cont "OMEDETOU GREAT！"
 
-	para "それでは"
-	line "これを　おわたし　します！"
+	para "SO THEN I HAND"
+	line "THIS OVER TO YOU！"
 	prompt
 
 OaksAideGotItemText:
-	text "<PLAYER>は　じょしゅ　から"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wOaksAideRewardItemName
-	text "を　もらった！@"
+	text_start
+	cont "FROM JOSHU AIDE！@"
 	sound_get_item_1
 	text_end
 
 OaksAideNoRoomText:
-	text "<⋯>　<⋯>　と　おもった　けど"
-	line "にもつが　いっぱい　だから"
-	cont "@"
-	text_ram wOaksAideRewardItemName
-	text "は"
-	cont "また　こんど　ですね"
+	text "<⋯>BUT YOUR BAG"
+	line "IS FULL OF ITEMS·"
+
+	para "SO THIS ITEM IS"
+	line "MATA KONDO LATER！"
 	done

@@ -57,76 +57,76 @@ WardensHouseWardenText:
 	jp TextScriptEnd
 
 .Gibberish1Text:
-	text "えんちょう『ふぁいへんひゃ"
-	line "ふへほ　はんひ"
+	text "WARDEN『HIF HEF"
+	line "HOU! HEH HOH!"
 
-	para "ひへは　ほはへへ　ひほうはッ！"
-	line "はッ　はふへへ　ふへ！"
+	para "HAH HAFUHE HUH!"
+	line "HEH HEH HOU HAH!"
 	done
 
 .Gibberish2Text:
-	text "よほひふ　はほひまふは！"
-	line "はふは　はふぁりほーんひゃ！"
+	text "HOH HAFARI HONE!"
+	line "HAH HOFU HAH!"
 	done
 
 .Gibberish3Text:
-	text "はひ？"
-	line "ほは　ほうは<⋯>"
-	cont "ひひ　ほはへには　はのはんはッ！"
+	text "HAH? HOH HOU<⋯>"
+	line "HEH HO HAH HOU!"
 	done
 
 .GaveTheGoldTeethText:
-	text "えんちょうは　<PLAYER>から"
-	line "きんのいればを　もらった！@"
+	text "<PLAYER> GAVE"
+	line "GOLD TEETH TO"
+	cont "WARDEN!@"
 	sound_get_item_1
 	text_start
 
-	para "もらった　いればを"
-	line "いそいで　くちに　はめた！"
+	para "WARDEN POPPED"
+	line "IN HIS TEETH!"
 	prompt
 
 .ThanksText:
-	text "えんちょう『すんまへん！"
-	cont "ほんま　たすかったわあ！"
-	cont "だれに　なに　いうても"
-	cont "ぜんぜん　つうじへんし"
+	text "WARDEN『THANKS!"
+	line "HONMA TASUKATTA!"
 
-	para "はずかしゅうて　じむしょも"
-	line "かお　だせへん　かったんや"
-	cont "そや　ぼうず！"
-	cont "あんがとな"
-	cont "おれいに　ええもん　やるわ！"
+	para "NO ONE COULD"
+	line "UNDERSTAND ME!"
+
+	para "COULD NOT EVEN"
+	line "SHOW MY FACE AT"
+	cont "THE OFFICE!"
+
+	para "HERE LAD! TAKE"
+	line "THIS AS THANKS!"
 	prompt
 
 .ReceivedHM04Text:
-	text "<PLAYER>は　えんちょうから"
+	text "<PLAYER> RECEIVED"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!@"
 	sound_get_item_1
 	text_end
 
 .HM04ExplanationText:
-	text "えんちょう『ひでんマシン０４の"
-	line "なかみは　かいりき　やで！"
+	text "WARDEN『HM04 IS"
+	line "KAIRIKI STRENGTH!"
 
-	para "#が"
-	line "ちから　もちに　なってな"
-	cont "たたかわん　ときは"
-	cont "いわを　おすように　なるで！"
+	para "MONS BECOME"
+	line "STRONG ENOUGH TO"
+	cont "PUSH BOULDERS!"
 
-	para "そや<⋯>　それから！"
-	line "サファリ　ゾーンで"
-	cont "トレジャー　ハウスは　みつけたか？"
-	cont "ひでんマシンが　もらえるで！"
+	para "DID YOU FIND THE"
+	line "SECRET HOUSE IN"
+	cont "SAFARI ZONE?"
 
-	para "めったに　てに　はいらん"
-	line "なみのり　なんやで！"
+	para "THEY GIVE HM03"
+	line "SURF! NAMINORI!"
 	done
 
 .HM04NoRoomText:
-	text "なんや　にもつ"
-	line "いっぱいやんけ！"
+	text "YOUR PACK IS"
+	line "FULL OF STUFF!"
 	done
 
 WardensHouseDisplayText:
@@ -141,11 +141,12 @@ WardensHouseDisplayText:
 	jp TextScriptEnd
 
 .PhotosAndFossilsText:
-	text "#の　カセキやら"
-	line "しゃしんが　かざって　ある！"
+	text "# FOSSILS AND"
+	line "PHOTOS DISPLAYED!"
 	done
 
 .MerchandiseText:
-	text "ふるい　#　グッズが"
-	line "かざって　ある！"
+	text "OLD # GOODS"
+	line "ARE DISPLAYED!"
 	done
+

@@ -130,36 +130,43 @@ BrunosRoomBrunoText:
 	jp TextScriptEnd
 
 BrunosRoomBrunoBattleText:
-	text "おれは　してんのうの　シバ！"
+	text "I AM『SHIBA』OF"
+	line "THE『SHITENNO』！"
 
-	para "ひとも　#も"
-	line "たたかい　きたえれば"
-	cont "どこまでも　つよくなる！"
+	para "BOTH HUMAN AND"
+	line "#·BY TRAINING"
+	cont "IN BATTLE GROW"
+	cont "LIMITLESS STRONG！"
 
-	para "おれは　そんな　きたえ　ぬかれた"
-	line "#と　ともに　いきてきた！"
-	cont "そして　これからもな！"
+	para "I HAVE LIVED WITH"
+	line "SUCH RIGOROUS"
+	cont "TRAINED #！"
+	cont "AND WILL FOREVER！"
 
-	para "<PLAYER>と　いったな！"
+	para "<PLAYER> HUH！"
 
-	para "おれたちの　スーパー　パワーを"
-	line "うけて　みるが　いい！"
+	para "TASTE OUR SUPER"
+	line "STRENGTH POWER！"
 
-	para "ウー！　ハーッ！"
+	para "OOO！ HAAッ！"
 	done
 
 BrunosRoomBrunoEndBattleText:
-	text "どうした　ことだ！"
-	line "<⋯>　おれが　まけるとは！"
+	text "HOW COULD THIS"
+	line "BE HAPPENING！"
+	para "<⋯>THAT I WOULD"
+	line "BE DEFEATED<⋯>！"
 	prompt
 
 BrunosRoomBrunoAfterBattleText:
-	text "まけちまったら"
-	line "おれの　でばんは　おわりだ！"
-	cont "くそッ！　つぎに　いって　くれ！"
+	text "HAVING LOST·MY"
+	line "TURN HAS ENDED！"
+	cont "DAMN IT！ GO TO"
+	cont "NEXT ROOM NOW！"
 	done
 
 BrunosRoomBrunoDontRunAwayText:
-	text "だれかの　こえが　きこえる<⋯>"
-	line "「にげては　ならん！」"
+	text "SOMEONES VOICE IS"
+	line "HEARD<⋯>"
+	cont "「DO NOT FLEE！」"
 	done

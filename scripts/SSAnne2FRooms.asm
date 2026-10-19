@@ -46,18 +46,19 @@ SSAnne2FRoomsGentleman1Text:
 	jp TextScriptEnd
 
 SSAnne2FRoomsGentleman1BattleText:
-	text "わかもの　との　しょうぶ　こそ"
-	line "じんせいの　たのしみ！"
+	text "COMPETING WITH"
+	line "YOUTH IS LIFE"
+	cont "GREATEST JOY!"
 	done
 
 SSAnne2FRoomsGentleman1EndBattleText:
-	text "いい　しょうぶ！"
-	line "わかがえる　ようだ"
+	text "GOOD MATCH! I"
+	line "FEEL YOUNG AGAIN!"
 	prompt
 
 SSAnne2FRoomsGentleman1AfterBattleText:
-	text "１５ねん　まえ　なら"
-	line "わたしが　かって　いた　だろう！"
+	text "15 YEARS AGO· I"
+	line "WOULD HAVE WON!"
 	done
 
 SSAnne2FRoomsFisherText:
@@ -67,19 +68,19 @@ SSAnne2FRoomsFisherText:
 	jp TextScriptEnd
 
 SSAnne2FRoomsFisherBattleText:
-	text "おれが　つった"
-	line "じまんの　さかなを　みろ！"
+	text "LOOK AT THE FISH"
+	line "I CAUGHT WITH"
+	cont "GREAT PRIDE!"
 	done
 
 SSAnne2FRoomsFisherEndBattleText:
-	text "もう　からっぽ！"
+	text "ALL GONE EMPTY!"
 	prompt
 
 SSAnne2FRoomsFisherAfterBattleText:
-	text "<⋯>　パーティ？"
-
-	para "せんじょう　パーティは"
-	line "もう　おわった　ころ　じゃないかな"
+	text "<⋯>PARTY? ON DECK"
+	line "PARTY IS ALREADY"
+	cont "OVER BY NOW!"
 	done
 
 SSAnne2FRoomsGentleman2Text:
@@ -89,18 +90,19 @@ SSAnne2FRoomsGentleman2Text:
 	jp TextScriptEnd
 
 SSAnne2FRoomsGentleman2BattleText:
-	text "きみは<⋯>　つよい　#と"
-	line "めずらしい　#"
-	cont "どっちに　かちを　かんじるかね？"
+	text "DO YOU VALUE"
+	line "STRONG # OR"
+	cont "RARE # MORE?"
 	done
 
 SSAnne2FRoomsGentleman2EndBattleText:
-	text "やる　ものだね！"
+	text "NOT BAD AT ALL!"
 	prompt
 
 SSAnne2FRoomsGentleman2AfterBattleText:
-	text "わたしは<⋯>　めずらしくて"
-	line "つよい　#が　ほしいねえ"
+	text "I WANT A # THAT"
+	line "IS BOTH RARE AND"
+	cont "VERY STRONG!"
 	done
 
 SSAnne2FRoomsCooltrainerFText:
@@ -110,17 +112,19 @@ SSAnne2FRoomsCooltrainerFText:
 	jp TextScriptEnd
 
 SSAnne2FRoomsCooltrainerFBattleText:
-	text "あら　せんじょう　パーティでは"
-	line "みかけ　なかった　けど<⋯>？"
+	text "OH? I DID NOT"
+	line "SEE YOU AT SHIP"
+	cont "PARTY<⋯>?"
 	done
 
 SSAnne2FRoomsCooltrainerFEndBattleText:
-	text "てかげん　してよ"
+	text "GO EASY ON ME!"
 	prompt
 
 SSAnne2FRoomsCooltrainerFAfterBattleText:
-	text "いいな　つよい　#！"
-	line "いいな<⋯>　いいな<⋯>！"
+	text "HOW NICE· STRONG"
+	line "#! I WANT TOO<⋯>"
+	cont "I AM SO JEALOUS!"
 	done
 
 SSAnne2FRoomsGentleman3Text:
@@ -134,12 +138,13 @@ SSAnne2FRoomsGentleman3Text:
 	jp TextScriptEnd
 
 .Text:
-	text "せかい　じゅうを　たび　してきたが"
-	line "ねむって　ばかりの　あいつを"
-	cont "みつけたときは　ほんとに　あきれた"
+	text "TRAVELED ENTIRE"
+	line "WORLD BUT SHOCKED"
+	cont "WHEN I FOUND THAT"
+	cont "SLEEPING GUY!"
 
-	para "たしか<⋯>！"
-	line "こんな　#　だった"
+	para "YES<⋯>! IT WAS"
+	line "THIS VERY #!"
 	prompt
 
 SSAnne2FRoomsGentleman4Text:
@@ -149,9 +154,10 @@ SSAnne2FRoomsGentleman4Text:
 	jp TextScriptEnd
 
 .Text:
-	text "にんげんを　のせて"
-	line "みずの　うえ　はしる　#"
-	cont "みたこと　ある　アルよ！"
+	text "I HAVE SEEN #"
+	line "CARRY HUMANS AND"
+	cont "SURF ON WATER·"
+	cont "YES I DID!"
 	done
 
 SSAnne2FRoomsGrampsText:
@@ -161,8 +167,10 @@ SSAnne2FRoomsGrampsText:
 	jp TextScriptEnd
 
 .Text:
-	text "ほそい　き　なら　#の"
-	line "いあいぎりで　きりたおせる　じゃろ"
+	text "SLENDER TREE CAN"
+	line "BE CUT DOWN BY"
+	cont "# 『IAIGIRI』!"
+	cont "THAT IS CUT!"
 	done
 
 SSAnne2FRoomsGentleman5Text:
@@ -172,11 +180,12 @@ SSAnne2FRoomsGentleman5Text:
 	jp TextScriptEnd
 
 .Text:
-	text "セキチク　シティ　サファリ　ゾーン"
-	line "いった　こと　あるかね？"
+	text "HAVE YOU BEEN TO"
+	line "SAFARI ZONE IN"
+	cont "SEKICHIKU CITY?"
 
-	para "あそこは　めずらしい　#が"
-	line "たくさん　いた！"
+	para "SO MANY RARE #"
+	line "LIVE OVER THERE!"
 	done
 
 SSAnne2FRoomsLittleBoyText:
@@ -186,9 +195,10 @@ SSAnne2FRoomsLittleBoyText:
 	jp TextScriptEnd
 
 .Text:
-	text "パパも　ぼくも"
-	line "サファリ　ゾーン　だいすき！"
-	cont "また　あそびに　いきたいな！"
+	text "PAPA AND ME BOTH"
+	line "LOVE SAFARI ZONE!"
+	cont "I WANT TO GO"
+	cont "PLAY AGAIN!"
 	done
 
 SSAnne2FRoomsBrunetteGirlText:
@@ -198,9 +208,10 @@ SSAnne2FRoomsBrunetteGirlText:
 	jp TextScriptEnd
 
 .Text:
-	text "せんちょうさん　みたんだけど"
-	line "ぐあい　わるいって"
-	cont "まっさおな　かお　してたよ！"
+	text "I SAW CAPTAIN·"
+	line "HE SAID HE WAS"
+	cont "SICK WITH A"
+	cont "PALE BLUE FACE!"
 	done
 
 SSAnne2FRoomsBeautyText:
@@ -210,6 +221,7 @@ SSAnne2FRoomsBeautyText:
 	jp TextScriptEnd
 
 .Text:
-	text "けっこう　おおい　らしいわ！"
-	line "ふなよい　する　ひと！"
+	text "THEY SAY MANY"
+	line "PEOPLE SUFFER"
+	cont "FROM SEASICKNESS!"
 	done

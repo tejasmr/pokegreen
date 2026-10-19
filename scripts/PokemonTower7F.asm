@@ -207,16 +207,18 @@ PokemonTower7FRocket1Text:
 	jp TextScriptEnd
 
 PokemonTower7FRocket1BattleText:
-	text "む！　なんだ　おまえは？"
-	line "なにしに　ここへ　きた？"
+	text "MU！ WHO ARE YOU？"
+	line "WHY HAVE YOU"
+	cont "COME HERE NE？"
 	done
 
 PokemonTower7FRocket1EndBattleText:
-	text "ま　まいった！"
+	text "I· I SURRENDER！"
 	prompt
 
 PokemonTower7FRocket1AfterBattleText:
-	text "お！　おぼえて　やがれ！"
+	text "YOU· REMEMBER"
+	line "THIS FACE！"
 	done
 
 PokemonTower7FRocket2Text:
@@ -226,26 +228,30 @@ PokemonTower7FRocket2Text:
 	jp TextScriptEnd
 
 PokemonTower7FRocket2BattleText:
-	text "この　じいさん"
-	line "<ROCKET>　アジトに　くるなり"
+	text "THIS OLD MAN"
+	line "BURST INTO"
+	cont "<ROCKET> BASE！"
 
-	para "#を　いじめたり"
-	line "ころしたり　するなって　うるさくて"
+	para "SHOUTING NO"
+	line "CRUELTY TO #！"
+	cont "NO KILLING！"
 
-	para "ここで　おとなの　はなし　あいを"
-	line "してた　ところだ！"
+	para "SO WE ARE HAVING"
+	line "ADULT DISCUSSION"
+	cont "RIGHT HERE NE！"
 	done
 
 PokemonTower7FRocket2EndBattleText:
-	text "かんべん　してくれ<⋯>"
+	text "SPARE ME NOW<⋯>"
 	prompt
 
 PokemonTower7FRocket2AfterBattleText:
-	text "#なんて"
-	line "しょうばい　どうぐに　すぎない！"
+	text "# ARE MERELY"
+	line "TOOLS TO EARN"
+	cont "CASH FOR US！"
 
-	para "おれたちの"
-	line "じゃま　するんじゃ　ないぜ！"
+	para "DO NOT GET IN"
+	line "OUR WAY BOY！"
 	done
 
 PokemonTower7FRocket3Text:
@@ -255,18 +261,20 @@ PokemonTower7FRocket3Text:
 	jp TextScriptEnd
 
 PokemonTower7FRocket3BattleText:
-	text "おれたちを　たおさなきゃ"
-	line "じいさんは　たすけられないぜ！"
+	text "CANNOT RESCUE"
+	line "OLD MAN WITHOUT"
+	cont "BEATING US ALL！"
 	done
 
 PokemonTower7FRocket3EndBattleText:
-	text "<ROCKET>に"
-	line "はむかう　とはな！"
+	text "DEFIANCE TO"
+	line "<ROCKET>？！"
 	prompt
 
 PokemonTower7FRocket3AfterBattleText:
-	text "くそー<⋯>！"
-	line "このままで　すむと　おもうなよ！"
+	text "DAMN IT<⋯>！"
+	line "DONT THINK THIS"
+	cont "IS THE END！"
 	done
 
 PokemonTower7FMrFujiText:
@@ -290,25 +298,30 @@ PokemonTower7FMrFujiText:
 	jp TextScriptEnd
 
 .RescueText:
-	text "フジ『え<⋯>　わたしを"
-	line "たすけに　きたんですか？"
+	text "FUJI『EH<⋯> YOU"
+	line "CAME TO RESCUE"
+	cont "THIS OLD MAN？"
 
-	para "<⋯>　どうも　ありがとう"
-	line "でも<⋯>　わたしは<⋯>"
+	para "<⋯>THANK YOU MUCH"
+	line "BUT<⋯> I CAME"
+	cont "BY MY OWN WILL<⋯>"
 
-	para "カラカラの　おかあさん　ガラガラの"
-	line "たましいを　なぐさめる　ために"
-	cont "すすんで　ここまで　きたのです"
+	para "TO CONSOLE SOUL"
+	line "OF MOTHER"
+	cont "GARAGARA！"
 
-	para "<⋯>ああ　どうやら　ガラガラも"
-	line "てんごくへ　むかった　ようですね"
+	para "<⋯>AAH· IT SEEMS"
+	line "GARAGARA HAS"
+	cont "GONE TO HEAVEN！"
 
-	para "せっかく　ここまで　きてくれた"
-	line "きみにも　おれいを　しなきゃね！"
+	para "YOU CAME SO FAR"
+	line "I MUST REWARD"
+	cont "YOUR KIND DEED！"
 
-	para "では　これから"
-	line "いっしょに　うちへ　いきましょう"
+	para "LET US GO TO"
+	line "MY HOUSE NOW"
 
-	para "#ハウスは"
-	line "この　タワーの　ふもとです！"
+	para "# HOUSE IS"
+	line "AT FOOT OF"
+	cont "THIS VERY TOWER！"
 	done

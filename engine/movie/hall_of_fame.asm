@@ -92,7 +92,7 @@ AnimateHallOfFame:
 	ret
 
 HallOfFameText:
-	db "でんどう　いり　おめでとう！@"
+	db "HALL OF FAME！@"
 
 HoFShowMonOrPlayer:
 	call ClearScreen
@@ -178,9 +178,9 @@ HoFDisplayMonInfo:
 	jp PlayCry
 
 HoFMonInfoText:
-	db   "　レベル／"
-	next "タイプ１／"
-	next "タイプ２／@"
+	db   " LV /"
+	next "TYP1/"
+	next "TYP2/@"
 
 HoFLoadPlayerPics:
 	ld de, RedPicFront
@@ -249,33 +249,24 @@ HoFDisplayPlayerStats:
 HoFPrintTextAndDelay:
 	call PrintText
 	ld c, 120
-	call DelayFrames ; BUG: it should be jp
-; On return from DelayFrames, falls through and starts reading HoFPlayTimeText
-; as code. The resulting sequence is 8 bytes long:
-;		ld b, d
-;		and a
-;		add c
-;		inc l
-;		or [hl]
-;		sbc $50
-;		ret
+	jp DelayFrames
 
 HoFPlayTimeText:
-	db "プレイじかん@"
+	db "PLAY TIME@"
 
 HoFMoneyText:
-	db "のこった　おこづかい@"
+	db "MONEY@"
 
 DexSeenOwnedText:
-	text "#ずかん:みつけたかず@"
+	text "#DEX SEEN:@"
 	text_decimal wDexRatingNumMonsSeen, 1, 3
 	text_start
-	line "　　　　　　　つかまえたかず@"
+	line "     OWNED:@"
 	text_decimal wDexRatingNumMonsOwned, 1, 3
 	text_end
 
 DexRatingText:
-	text "#ずかん　ひょうか:"
+	text "#DEX RATING:"
 	done
 
 HoFRecordMonInfo:

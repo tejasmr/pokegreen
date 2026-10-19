@@ -192,8 +192,8 @@ StartMenu_Pokemon::
 	call GBPalWhiteOutWithDelay3
 	jp .goBackToMap
 .flashLightsAreaText
-	text "まばゆい　ひかりが"
-	line "あたりを　あかるく　てらす<⋯>"
+	text "LIGHT SHINES"
+	line "ALL AROUND<⋯>！"
 	prompt
 .dig
 	ld a, ESCAPE_ROPE
@@ -228,20 +228,16 @@ StartMenu_Pokemon::
 	call GBPalWhiteOutWithDelay3
 	jp .goBackToMap
 .warpToLastPokemonCenterText
-	text "さいごに　やすんだ"
-	line "#センターへ　とびます！"
+	text "WARP TO LAST"
+	line "# CENTER！"
 	done
 .cannotUseTeleportNowText
-	text "ここでは　@"
 	text_ram wNameBuffer
-	text "で"
-	line "テレポートすることは　できません！"
+	line "CANT WARP HERE！"
 	prompt
 .cannotFlyHereText
-	text "ここでは　@"
 	text_ram wNameBuffer
-	text "で"
-	line "そらを　とぶことは　できません！"
+	line "CANT FLY HERE！"
 	prompt
 .softboiled
 	ld hl, wPartyMon1MaxHP
@@ -280,7 +276,7 @@ StartMenu_Pokemon::
 	call PrintText
 	jp .loop
 .notHealthyEnoughText
-	text "たいりょくが　たりません！"
+	text "NOT ENOUGH HP！"
 	prompt
 .goBackToMap
 	call RestoreScreenTilesAndReloadTilePatterns
@@ -290,8 +286,8 @@ StartMenu_Pokemon::
 	call PrintText
 	jp .loop
 .newBadgeRequiredText
-	text "あたらしい　バッジを　てにするまで"
-	line "まだ　つかえません！"
+	text "CANT USE UNTIL A"
+	line "NEW BADGE WON！"
 	prompt
 
 ; writes a blank tile to all possible menu cursor positions on the party menu
@@ -358,7 +354,7 @@ StartMenu_Item::
 	ld hl, wTopMenuItemY
 	ld a, 11
 	ld [hli], a ; top menu item Y
-	ld a, 15
+	ld a, 14
 	ld [hli], a ; top menu item X
 	xor a
 	ld [hli], a ; current menu item ID
@@ -450,12 +446,12 @@ StartMenu_Item::
 	jp ItemMenuLoop
 
 CannotUseItemsHereText:
-	text "ここでは　どうぐを"
-	line "つかうことは　できません"
+	text "CANT USE ITEMS"
+	line "HERE NOW！"
 	prompt
 
 CannotGetOffHereText:
-	text "おりることが　できない！"
+	text "CANT GET OFF！"
 	prompt
 
 INCLUDE "data/items/use_party.asm"
@@ -582,13 +578,13 @@ TrainerInfo_FarCopyData:
 	jp FarCopyData2
 
 TrainerInfo_NameMoneyTimeText:
-	db   "なまえ／"
-	next "おこづかい／"
-	next "プレイじかん／@"
+	db   "NAME"
+	next "MONEY"
+	next "TIME@"
 
 ; $76 is a circle tile
 TrainerInfo_BadgesText:
-	db $76, $70, $71, $72, $73, $74, $75, $76, "@" ; small font °ポケモン　バッヅ°
+	db $76, $70, $71, $72, $73, $74, $75, $76, "@" ; BADGES
 
 ; draws a text box on the trainer info screen
 ; height is always 6

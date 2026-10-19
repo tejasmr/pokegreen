@@ -208,36 +208,40 @@ MtMoonB2FSuperNerdText:
 	jp TextScriptEnd
 
 MtMoonB2FSuperNerdTheyreBothMineText:
-	text "こら　まてよ！"
+	text "HOLD ON! WAIT!"
 
-	para "この　カセキは"
-	line "ぼくが　みつけたんだ"
-	cont "ふたつ　とも　ぼくのだ！"
+	para "THESE 『KASEKI』"
+	line "FOSSILS ARE MINE!"
+	cont "I FOUND BOTH SO"
+	cont "BOTH ARE FOR ME!"
 	done
 
 MtMoonB2FSuperNerdOkIllShareText:
-	text "わかった！"
-	line "おまえにも　わけて　やるよ"
+	text "ALL RIGHT! FINE!"
+	line "I WILL SHARE"
+	cont "ONE WITH YOU!"
 	prompt
 
 MtMoonB2fSuperNerdEachTakeOneText:
-	text "ぼくと　おまえで"
-	line "カセキを　１こ　ずつ　だ！"
-	cont "ひとり　じめは　ダメだぞ！"
+	text "WE EACH TAKE ONE"
+	line "『KASEKI』 FOSSIL!"
+	cont "NO 『HITORIJIME』!"
+	cont "NO MONOPOLY HOG!"
 	done
 
 MtMoonB2FSuperNerdTheresAPokemonLabText:
-	text "ここから　すごく　とおいけど"
-	line "グレン　タウンに"
-	cont "#　けんきゅうじょが　ある"
+	text "FAR FROM HERE IN"
+	line "GUREN TOWN IS A"
+	cont "# LAB RESEARCH!"
 
-	para "カセキを　よみがえらせる"
-	line "けんきゅうも　してる　らしいぜ"
+	para "THEY STUDY HOW"
+	line "TO REVIVE ANCIENT"
+	cont "FOSSILS TO LIFE!"
 	done
 
 MtMoonB2FSuperNerdThenThisIsMineText:
-	text "それじゃ"
-	line "これは　ぼくの　ものだ！@"
+	text "THEN THIS ONE IS"
+	line "MINE TO KEEP!@"
 	sound_get_key_item
 	text_end
 
@@ -248,20 +252,21 @@ MtMoonB2FRocket1Text:
 	jp TextScriptEnd
 
 MtMoonB2FRocket1BattleText:
-	text "カセキは"
-	line "<ROCKET>が　みつけるのだ！"
-	cont "ふっかつ　させれば"
-	cont "いい　かねもうけに　なる！"
+	text "FOSSILS BELONG"
+	line "TO TEAM ROCKET!"
+	cont "REVIVING THEM IS"
+	cont "GREAT BIG MONEY!"
 	done
 
 MtMoonB2FRocket1EndBattleText:
-	text "うー　おこったぞ！"
+	text "URGH! SO ANGRY!"
 	prompt
 
 MtMoonB2FRocket1AfterBattleText:
-	text "おれを　おこらせた"
-	line "おまえは　<ROCKET>の"
-	cont "ブラック　リストに　のるぜ"
+	text "YOU ANGERED ME!"
+	line "NOW YOU GO ON"
+	cont "TEAM ROCKET"
+	cont "BLACK LIST!"
 	done
 
 MtMoonB2FRocket2Text:
@@ -271,18 +276,19 @@ MtMoonB2FRocket2Text:
 	jp TextScriptEnd
 
 MtMoonB2FRocket2BattleText:
-	text "#　マフィア"
-	line "<ROCKET>は"
-	cont "こわくて　つよい　のだ！"
+	text "# MAFIA MOB!"
+	line "TEAM ROCKET IS"
+	cont "SCARY AND STRONG!"
 	done
 
 MtMoonB2FRocket2EndBattleText:
-	text "しくじったか！"
+	text "I MESSED UP!"
 	prompt
 
 MtMoonB2FRocket2AfterBattleText:
-	text "くそ！"
-	line "なかまが　だまっちゃ　いねえぞ"
+	text "DAMN! MY COMRADES"
+	line "WONT STAY SILENT"
+	cont "ABOUT THIS!"
 	done
 
 MtMoonB2FRocket3Text:
@@ -292,19 +298,21 @@ MtMoonB2FRocket3Text:
 	jp TextScriptEnd
 
 MtMoonB2FRocket3BattleText:
-	text "おれたちは"
-	line "だいじな　しごとを　してるんだ！"
-	cont "こどもは　おうちへ　かえりな"
+	text "WE DO VERY BIG"
+	line "IMPORTANT WORK!"
+	cont "LITTLE BRAT GO"
+	cont "BACK HOME NOW!"
 	done
 
 MtMoonB2FRocket3EndBattleText:
-	text "なかなか　やるな"
+	text "YOU ARE GOOD!"
 	prompt
 
 MtMoonB2FRocket3AfterBattleText:
-	text "カセキを　みつけたら"
-	line "ばしょだけ　おしえて"
-	cont "さっさと　かえるんだな！"
+	text "IF YOU FIND ANY"
+	line "FOSSIL TELL US"
+	cont "THE SPOT AND RUN"
+	cont "ON HOME QUICK!"
 	done
 
 MtMoonB2FRocket4Text:
@@ -314,19 +322,19 @@ MtMoonB2FRocket4Text:
 	jp TextScriptEnd
 
 MtMoonB2FRocket4BattleText:
-	text "おうっ！"
-	line "おとなの　せかいに"
-	cont "くびを　つっこむと　あぶないぜ！"
+	text "YO! MEDDLING IN"
+	line "ADULT BUSINESS"
+	cont "IS DANGEROUS!"
 	done
 
 MtMoonB2FRocket4EndBattleText:
-	text "あたま　くるぜ"
+	text "MAKES ME SICK!"
 	prompt
 
 MtMoonB2FRocket4AfterBattleText:
-	text "にんげんが　うまれる　まえから"
-	line "この　あたりには"
-	cont "#が　すんでた　らしいぜ"
+	text "LONG BEFORE MAN"
+	line "WAS BORN MONS"
+	cont "LIVED IN CAVES!"
 	done
 
 MtMoonB2FDomeFossilText:
@@ -354,7 +362,8 @@ MtMoonB2FDomeFossilText:
 	jp TextScriptEnd
 
 .YouWantText:
-	text "こうらの　カセキに　する？"
+	text "CHOOSE THE"
+	line "DOME FOSSIL?"
 	done
 
 MtMoonB2FHelixFossilText:
@@ -382,7 +391,8 @@ MtMoonB2FHelixFossilText:
 	jp TextScriptEnd
 
 .YouWantText:
-	text "かいの　カセキに　する？"
+	text "CHOOSE THE"
+	line "HELIX FOSSIL?"
 	done
 
 MtMoonB2FReceivedFossilText:
@@ -390,10 +400,10 @@ MtMoonB2FReceivedFossilText:
 	jp PrintText
 
 .Text:
-	text "<PLAYER>は"
+	text "<PLAYER> GOT"
 	line "@"
 	text_ram wStringBuffer
-	text "を　てにいれた！@"
+	text "!@"
 	sound_get_key_item
 	text_waitbutton
 	text_end
@@ -404,6 +414,7 @@ MtMoonB2FYouHaveNoRoomText:
 	jp TextScriptEnd
 
 .Text:
-	text "なーんだ　もう　もてないじゃん@"
+	text "NO ROOM TO HOLD"
+	line "ANY MORE ITEMS!@"
 	text_waitbutton
 	text_end

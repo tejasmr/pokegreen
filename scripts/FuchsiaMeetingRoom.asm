@@ -9,24 +9,26 @@ FuchsiaMeetingRoom_TextPointers:
 	dw_const FuchsiaMeetingRoomSafariZoneWorker3, TEXT_FUCHSIAMEETINGROOM_SAFARI_ZONE_WORKER3
 
 FuchsiaMeetingRoomSafariZoneWorker1:
-	text "ウチの　えんちょう"
-	line "あだな　ヤドンって　いうんです"
+	text "WARDENS NICKNAME"
+	line "IS YADON SLOWPOKE"
 
-	para "ほら！　#の　ヤドンって"
-	line "とぼけた　かんじ　でしょ！"
+	para "SEE! SLOWPOKE #·"
+	line "SO GOOFY LOOKING!"
 	done
 
 FuchsiaMeetingRoomSafariZoneWorker2:
-	text "ヤドンさんって"
-	line "すごい　#　くわしいんだ！"
+	text "MR. YADON KNOWS"
+	line "SO MUCH ABOUT #"
 
-	para "みた　ことも　ない"
-	line "#の　カセキとか　もってるし"
+	para "HE HAS UNSEEN #"
+	line "FOSSILS AND MORE!"
 	done
 
 FuchsiaMeetingRoomSafariZoneWorker3:
-	text "ウチの　ヤドン　なにやら"
-	line "ふにゃふにゃ　いってたな<⋯>"
+	text "OUR WARDEN WAS"
+	line "MUMBLING STRANGE"
+	cont "WORDS LATELY<⋯>"
 
-	para "ボケた　のか？"
+	para "IS HE SENILE?"
 	done
+

@@ -36,56 +36,58 @@ Route12SuperRodHouseFishingGuruText:
 	jp TextScriptEnd
 
 .DoYouLikeToFishText:
-	text "わしは"
-	line "つりおやじの　おとうと　じゃ！"
+	text "I AM FISHING"
+	line "GURU YOUNGER BRO!"
 
-	para "もう　たまらん　ほど"
-	line "つりが　すき　なんだが"
+	para "I LOVE FISHING"
+	line "BEYOND WORDS!"
 
-	para "きみは　つり　すき　かな？"
+	para "DO YOU LIKE"
+	line "FISHING TOO?"
 	done
 
 .ReceivedSuperRodText:
-	text "そうか！"
-	line "きみとは　きが　あいそうだ！"
+	text "SUGOI! I KNEW"
+	line "WE WOULD AGREE!"
 
-	para "これ　あげるから"
-	line "きみも　つり　まくりなさいよ！"
+	para "TAKE THIS ROD"
+	line "AND FISH A LOT!"
 
-	para "<PLAYER>は　つりおやじから"
+	para "<PLAYER> RECEIVED"
 	line "@"
 	text_ram wStringBuffer
-	text "を　もらった！@"
+	text "!@"
 	sound_get_item_1
 	text_start
 
-	para "つり　こそ"
-	line "おとこの　ロマン　だ！"
+	para "FISHING IS"
+	line "A MANS ROMANCE!"
 
-	para "うみでも　かわでも！"
+	para "IN SEA OR RIVER!"
 
-	para "えんりょ　なく"
-	line "つりざおを　つかって　くれい！"
+	para "DONT HESITATE TO"
+	line "DROP YOUR HOOK!"
 	done
 
 .ThatsDisappointingText:
-	text "なんじゃ<⋯>　がっかりだ"
+	text "WHAT<⋯> HOW VERY"
+	line "DISAPPOINTING!"
 	done
 
 .TryFishingText:
-	text "やー　<PLAYER>くん！"
+	text "HELLO <PLAYER>!"
 
-	para "すごいつりざおは"
-	line "ばしょを　かえると"
-	cont "つれる　#も　かわる！"
+	para "SUPER ROD CATCHES"
+	line "DIFFERENT # IN"
+	cont "DIFFERENT WATERS!"
 
-	para "あっちこっちで"
-	line "つり　まくって　くれい！"
+	para "GO FISH ALL OVER"
+	line "THE WORLD!"
 	done
 
 .NoRoomText:
-	text "ありゃー！"
-
-	para "いいもの　あげようと　したのに"
-	line "にもつが　いっぱいじゃ！"
+	text "OH NO! WANTED TO"
+	line "GIVE GOOD ITEM·"
+	cont "BUT PACK FULL!"
 	done
+

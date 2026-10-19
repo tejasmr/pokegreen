@@ -43,17 +43,19 @@ Route11Gate2FOaksAideText:
 	jr Route11Gate2FScriptEnd
 
 .ItemfinderDescriptionText:
-	text "めに　みえて　なくても"
-	line "べんりな　どうぐが"
-	cont "あちこちに　おちて　います！"
+	text "EVEN IF UNSEEN·"
+	line "USEFUL ITEMS"
+	cont "ARE DROPPED"
+	cont "EVERYWHERE!"
 
-	para "ダウジング　マシンで"
-	line "ちかくに　なにか　おちてるか"
-	cont "どうかが　わかります！"
+	para "DOWSING MACHINE"
+	line "TELLS IF AN ITEM"
+	cont "IS DROPPED NEARBY"
 
-	para "くわしい　ばしょは"
-	line "マシンでも　わかりません！"
-	cont "ちかくを　さがして　みて　ください"
+	para "EXACT SPOT IS"
+	line "NOT SHOWN BY IT!"
+	cont "SEARCH NEARBY"
+	cont "YOURSELF!"
 	done
 
 Route11Gate2FLeftBinocularsText:
@@ -70,15 +72,19 @@ Route11Gate2FLeftBinocularsText:
 	jp TextScriptEnd
 
 .SnorlaxText:
-	text "ぼうえんきょうを　のぞいた！"
+	text "LOOKED INTO THE"
+	line "BINOCULARS!"
 
-	para "どうろに　#が　ねてる！"
+	para "A BIG # IS"
+	line "SLEEPING ON ROAD!"
 	done
 
 .NoSnorlaxText:
-	text "ぼうえんきょうを　のぞいた！"
+	text "LOOKED INTO THE"
+	line "BINOCULARS!"
 
-	para "すばらしい　けしきだ！"
+	para "A WONDERFUL"
+	line "VIEW OUT THERE!"
 	done
 
 Route11Gate2FRightBinocularsText:
@@ -87,9 +93,13 @@ Route11Gate2FRightBinocularsText:
 	jp GateUpstairsScript_PrintIfFacingUp
 
 .Text:
-	text "ぼうえんきょうを　のぞいた！"
+	text "LOOKED INTO THE"
+	line "BINOCULARS!"
 
-	para "シオン　タウンに　いく　には<⋯>"
-	line "ハナダ　シティ　から"
-	cont "イワヤマを　ぬければ　よさそう<⋯>"
+	para "TO GO TO SHION"
+	line "TOWN<⋯> PASSING"
+	cont "THROUGH ROCK"
+	cont "MOUNTAIN FROM"
+	cont "HANADA SEEMS"
+	cont "GOOD<⋯>"
 	done

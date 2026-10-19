@@ -8,14 +8,15 @@ SaffronMart_TextPointers:
 	dw_const SaffronMartCooltrainerFText, TEXT_SAFFRONMART_COOLTRAINER_F
 
 SaffronMartSuperNerdText:
-	text "ゴールドスプレーは"
-	line "よわい　#を　よせ　つけない"
-	cont "シルバースプレー　より"
-	cont "ながもち　するって"
+	text "MAX REPEL KEEPS"
+	line "WEAK PETS AWAY!"
+	cont "LASTS LONGER"
+	cont "THAN SUPER ONE!"
 	done
 
 SaffronMartCooltrainerFText:
-	text "げんきのかけら　たかい　けど"
-	line "せんとうふのうの　#が"
-	cont "げんきに　なるの　すごいわ！"
+	text "REVIVE IS PRICEY"
+	line "『TAKAI』! BUT PET"
+	cont "RECOVERS FAINT!"
+	cont "SUGOI! SO GREAT!"
 	done

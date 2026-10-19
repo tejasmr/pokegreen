@@ -83,17 +83,18 @@ PokemonMansionB1FBurglarText:
 	jp TextScriptEnd
 
 PokemonMansionB1FBurglarBattleText:
-	text "<⋯>　ありゃ　こまった"
-	line "みちに　まよったぞ"
+	text "<⋯>OH TROUBLE!"
+	line "I LOST MY WAY!"
 	done
 
 PokemonMansionB1FBurglarEndBattleText:
-	text "ひゅー　どろどろ"
+	text "HYU-DORODORO!"
 	prompt
 
 PokemonMansionB1FBurglarAfterBattleText:
-	text "まえに　すんでた　ひとの"
-	line "どうぐが　けっこう　おちてるぜ"
+	text "ITEMS DROPPED BY"
+	line "PAST RESIDENTS"
+	cont "ARE ALL OVER!"
 	done
 
 PokemonMansionB1FScientistText:
@@ -103,24 +104,29 @@ PokemonMansionB1FScientistText:
 	jp TextScriptEnd
 
 PokemonMansionB1FScientistBattleText:
-	text "ここは　ひろくて"
-	line "けんきゅうするには　いい　ばしょだ"
+	text "THIS PLACE IS BIG"
+	line "AND GREAT FOR MY"
+	cont "RESEARCH LAB!"
 	done
 
 PokemonMansionB1FScientistEndBattleText:
-	text "なにを　するのかね"
+	text "WHAT ARE YOU"
+	line "DOING HERE?"
 	prompt
 
 PokemonMansionB1FScientistAfterBattleText:
-	text "きに　いったよ！"
-	line "ここに　すめば"
-	cont "けんきゅうも　はかどるな<⋯>"
+	text "I LIKE IT HERE!"
+	line "MY RESEARCH WILL"
+	cont "PROGRES GREATLY<⋯>"
 	done
 
 PokemonMansionB1FDiaryText:
-	text "にっき　９がつ１にち"
-	line "#　ミュウツーは　つよすぎる"
+	text "DIARY: SEPT. 1"
+	line "# MEWTWO IS"
+	cont "FAR TOO STRONG!"
 
-	para "ダメだ<⋯>"
-	line "わたしの　てには　おえない！"
+	para "NO GOOD<⋯> IT IS"
+	line "BEYOND MY POWER"
+	cont "TO CONTROL!"
 	done
+

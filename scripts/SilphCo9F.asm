@@ -157,16 +157,18 @@ SilphCo9FNurseText:
 	jp TextScriptEnd
 
 .YouLookTiredText:
-	text "つかれてる　みたいよ！"
-	line "かみんしつで　やすんで　いったら？"
+	text "YOU LOOK TIRED!"
+	line "REST IN NAP ROOM!"
 	prompt
 
 .DontGiveUpText:
-	text "がんばって！"
+	text "GANBATTE! DO"
+	line "YOUR BEST!"
 	done
 
 .ThankYouText:
-	text "たすかったわ　ありがと"
+	text "WE ARE SAVED!"
+	line "ARIGATOU! THANKS!"
 	done
 
 SilphCo9FRocket1Text:
@@ -176,17 +178,19 @@ SilphCo9FRocket1Text:
 	jp TextScriptEnd
 
 SilphCo9FRocket1BattleText:
-	text "こどもの　くせに　おまえの"
-	line "#　ずいぶん　なついているな"
+	text "FOR A BRAT· YOUR"
+	line "PETS ARE VERY"
+	cont "ATTACHED TO YOU!"
 	done
 
 SilphCo9FRocket1EndBattleText:
-	text "ぐうーッ！"
+	text "GUUUH!"
 	prompt
 
 SilphCo9FRocket1AfterBattleText:
-	text "おまえ　くらいの　としから"
-	line "#　やってれば　おれも<⋯>"
+	text "IF I TRAINED"
+	line "PETS FROM YOUR"
+	cont "AGE· THEN I⋯"
 	done
 
 SilphCo9FScientistText:
@@ -196,20 +200,21 @@ SilphCo9FScientistText:
 	jp TextScriptEnd
 
 SilphCo9FScientistBattleText:
-	text "きみの　#　には"
-	line "<⋯>　じゃくてんが　ある！"
-	cont "そこを　せめれば　おれ　かてるよ！"
+	text "YOUR PETS HAVE"
+	line "⋯WEAK POINTS!"
+	cont "ATTACKING THEM"
+	cont "BRINGS VICTORY!"
 	done
 
 SilphCo9FScientistEndBattleText:
-	text "じゃくてんを<⋯>"
-	line "つくまえに　やられたあ"
+	text "STRUCK DOWN"
+	line "BEFORE WEAK SPOT!"
 	prompt
 
 SilphCo9FScientistAfterBattleText:
-	text "じゃくてんを"
-	line "せめると　いいのは　じじつだ！"
-	cont "タイプの　あいしょう　とか<⋯>"
+	text "EXPLOITING WEAK"
+	line "SPOTS IS FACT!"
+	cont "TYPE MATCHUPS⋯"
 	done
 
 SilphCo9FRocket2Text:
@@ -219,16 +224,17 @@ SilphCo9FRocket2Text:
 	jp TextScriptEnd
 
 SilphCo9FRocket2BattleText:
-	text "おれこそは"
-	line "ロケット　４きょうだいの　ひとりだ！"
+	text "I AM ONE OF THE"
+	line "<ROCKET> 4 BROTHERS!"
 	done
 
 SilphCo9FRocket2EndBattleText:
-	text "うー！"
-	line "まけた　おとうとよ！"
+	text "UUH! I LOST"
+	line "LITTLE BROTHER!"
 	prompt
 
 SilphCo9FRocket2AfterBattleText:
-	text "まあ　いい"
-	line "おとうとが　かたきを　とってくれる"
+	text "NO MATTER! MY"
+	line "LITTLE BROTHER"
+	cont "WILL AVENGE ME!"
 	done

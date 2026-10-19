@@ -6,5 +6,6 @@ CeladonMansionRoof_TextPointers:
 	dw_const CeladonMansionRoofHouseSignText, TEXT_CELADONMANSIONROOF_HOUSE_SIGN
 
 CeladonMansionRoofHouseSignText:
-	text "わしは　なんでも　おみとおし！"
+	text "I KNOW AND SEE"
+	line "ALL THINGS WELL!"
 	done

@@ -62,17 +62,19 @@ RocketHideoutB1FRocket1Text:
 	jp TextScriptEnd
 
 RocketHideoutB1FRocket1BattleText:
-	text "<⋯>　おまえは　だれだ？"
-	line "どうやって　ここに　はいった"
+	text "⋯WHO ARE YOU?!"
+	line "HOW DID YOU GET"
+	cont "INTO HERE?!"
 	done
 
 RocketHideoutB1FRocket1EndBattleText:
-	text "あう！　やられた"
+	text "OUCH! BEATEN!"
 	prompt
 
 RocketHideoutB1FRocket1AfterBattleText:
-	text "くそう<⋯>　おまえ"
-	line "<ROCKET>を　なめてるな！"
+	text "DAMN IT⋯! YOU"
+	line "LOOK DOWN UPON"
+	cont "<ROCKET> POWER!"
 	done
 
 RocketHideoutB1FRocket2Text:
@@ -82,17 +84,19 @@ RocketHideoutB1FRocket2Text:
 	jp TextScriptEnd
 
 RocketHideoutB1FRocket2BattleText:
-	text "<ROCKET>に"
-	line "しのび　こむ　とは　なんて　やつ"
+	text "SNEAKING INTO"
+	line "<ROCKET> BASE?!"
+	cont "WHAT NERVE!"
 	done
 
 RocketHideoutB1FRocket2EndBattleText:
-	text "ばったり<⋯>！"
+	text "FLOORED⋯!"
 	prompt
 
 RocketHideoutB1FRocket2AfterBattleText:
-	text "くそう！　このまま　らくに"
-	line "すすめると　おもうな！"
+	text "CURSES! DONT"
+	line "THINK YOU CAN GET"
+	cont "THROUGH EASILY!"
 	done
 
 RocketHideoutB1FRocket3Text:
@@ -102,17 +106,19 @@ RocketHideoutB1FRocket3Text:
 	jp TextScriptEnd
 
 RocketHideoutB1FRocket3BattleText:
-	text "しんにゅうしゃを　はっけん！"
+	text "INTRUDER ALERT!"
+	line "SPOTTED YOU!"
 	done
 
 RocketHideoutB1FRocket3EndBattleText:
-	text "ああ！　だめか"
+	text "AAH! NO GOOD!"
 	prompt
 
 RocketHideoutB1FRocket3AfterBattleText:
-	text "ふん<⋯>！"
-	line "シルフスコープを　さがしてる？"
-	cont "<⋯>　おれは　しらねえよ"
+	text "HMPH⋯!"
+	line "SEARCHING FOR"
+	cont "SILPH SCOPE?"
+	cont "⋯I KNOW NOTHING!"
 	done
 
 RocketHideoutB1FRocket4Text:
@@ -122,17 +128,19 @@ RocketHideoutB1FRocket4Text:
 	jp TextScriptEnd
 
 RocketHideoutB1FRocket4BattleText:
-	text "ここに　きた　ねらいは　なんだ？"
+	text "WHY DID YOU COME"
+	line "HERE? TELL ME!"
 	done
 
 RocketHideoutB1FRocket4EndBattleText:
-	text "こりゃ　イカン"
+	text "THIS IS BAD!"
 	prompt
 
 RocketHideoutB1FRocket4AfterBattleText:
-	text "わかった　いう<⋯>"
-	line "ボスに　あいたい　なら"
-	cont "エレベータに　のるんだな"
+	text "OKAY I TALK⋯"
+	line "IF YOU WANT TO"
+	cont "SEE THE BOSS·"
+	cont "TAKE ELEVATOR!"
 	done
 
 RocketHideoutB1FRocket5Text:
@@ -142,12 +150,12 @@ RocketHideoutB1FRocket5Text:
 	jp TextScriptEnd
 
 RocketHideoutB1FRocket5BattleText:
-	text "まいごの　まいごの<⋯>"
-	line "ぼうや　かな？"
+	text "ARE YOU A LOST"
+	line "LITTLE BOY⋯?"
 	done
 
 RocketHideoutB1FRocket5EndBattleText:
-	text "なんで　じゃ@"
+	text "WHY ME?!@"
 	text_asm
 	SetEvent EVENT_BEAT_ROCKET_HIDEOUT_1_TRAINER_4
 	ld hl, .prompt_end
@@ -158,6 +166,8 @@ RocketHideoutB1FRocket5EndBattleText:
 	text_end
 
 RocketHideoutB1FRocket5AfterBattleText:
-	text "あれ？　いまの　さわぎで"
-	line "とびらが　あいた　しまった"
+	text "HUH? FROM THE"
+	line "COMMOTION JUST"
+	cont "NOW· THE DOOR"
+	cont "OPENED UP!"
 	done

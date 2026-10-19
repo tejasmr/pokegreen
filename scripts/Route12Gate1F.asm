@@ -6,6 +6,8 @@ Route12Gate1F_TextPointers:
 	dw_const Route12Gate1FGuardText, TEXT_ROUTE12GATE1F_GUARD
 
 Route12Gate1FGuardText:
-	text "２かいは　みはらしの　よい"
-	line "てんぼうだいに　なってます"
+	text "2F IS LOOKOUT"
+	line "DECK WITH GREAT"
+	cont "VIEW! TENBOUDAI!"
 	done
+

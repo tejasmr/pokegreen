@@ -29,30 +29,33 @@ FuchsiaCity_TextPointers:
 	dw_const FuchsiaCityFossilSignText,      TEXT_FUCHSIACITY_FOSSIL_SIGN
 
 FuchsiaCityYoungster1Text:
-	text "サファリ　ゲーム　もう　やった？"
-	line "あそこでしか　とれない"
-	cont "めずらしい　#も　いるよ！"
+	text "DID YOU TRY"
+	line "SAFARI GAME YET?"
+	cont "RARE MONS ONLY"
+	cont "FOUND THERE LIVE!"
 	done
 
 FuchsiaCityGamblerText:
-	text "サファリ　ゾーンは"
-	line "いりぐち　ふきんは　どうぶつえんで"
+	text "FRONT OF SAFARI"
+	line "ZONE IS A ZOO!"
 
-	para "おくに　いくと　#が"
-	line "とりほうだいの　サファリ　ゲームじゃ"
+	para "DEEP INSIDE IS"
+	line "CATCH-ALL SAFARI!"
 	done
 
 FuchsiaCityErikText:
-	text "コージ『おかしいな？　アツコと"
-	line "#とりで　まちあわせって<⋯>"
-	cont "とり#が　みつからない！"
+	text "KOUJI『STRANGE<⋯>"
+	line "MEETING ATSUKO TO"
+	cont "CATCH BIRDS BUT"
+	cont "NO BIRDS IN SIGHT"
 	done
 
 FuchsiaCityYoungster2Text:
-	text "あの　アイテム　ボール"
-	line "ほしいって　おもった？"
-	cont "<⋯>　<⋯>　<⋯>　ぼくもさ！"
-	cont "<⋯>　え　あれ　いきものなの？"
+	text "YOU WANTED THAT"
+	line "ITEM BALL TOO?"
+	cont "<⋯><⋯><⋯>ME TOO!"
+	cont "<⋯>EH? THAT IS A"
+	cont "LIVING CREATURE?!"
 	done
 
 FuchsiaCityPokemonText:
@@ -60,29 +63,34 @@ FuchsiaCityPokemonText:
 	done
 
 FuchsiaCitySignText:
-	text "ここは　セキチク　シティ"
-	line "セキチクは　ピンク　はなやかな　いろ"
+	text "SEKICHIKU CITY"
+	line "PINK·THE COLOR OF"
+	cont "GORGEOUS BLOOM!"
 	done
 
 FuchsiaCitySafariGameSignText:
-	text "めいぶつ！　サファリ　ゲーム！"
-	line "<⋯>　<⋯>　#　とりほうだい！"
+	text "FAMOUS SAFARI!"
+	line "<⋯><⋯>CATCH ALL"
+	cont "THE # YOU WANT!"
 	done
 
 FuchsiaCityWardensHomeSignText:
-	text "サファリ　ゾーン"
-	line "えんちょうの　いえ"
+	text "SAFARI ZONE"
+	line "WARDENS HOME"
 	done
 
 FuchsiaCitySafariZoneSignText:
-	text "いろんな　#　いっぱい！"
-	line "サファリ　ゾーンに　ようこそ！"
+	text "MANY VARIED #!"
+	line "WELCOME TO"
+	cont "SAFARI ZONE!"
 	done
 
 FuchsiaCityGymSignText:
-	text "セキチク　シティ　#　ジム"
-	line "リーダー　キョウ"
-	cont "どくの　ことなら　なんでも　ござれ"
+	text "SEKICHIKU CITY"
+	line "# GYM LEADER:"
+	cont "KYOU KOGA!"
+	cont "POISON EXPERT"
+	cont "MASTER OF DOKU!"
 	done
 
 FuchsiaCityChanseySignText:
@@ -94,8 +102,9 @@ FuchsiaCityChanseySignText:
 	jp TextScriptEnd
 
 .Text:
-	text "なまえ　ラッキー"
-	line "つかまえたら　スーパー　ラッキー！"
+	text "NAME: LUCKY"
+	line "SUPER LUCKY IF"
+	cont "YOU CATCH IT!"
 	prompt
 
 FuchsiaCityVoltorbSignText:
@@ -107,8 +116,9 @@ FuchsiaCityVoltorbSignText:
 	jp TextScriptEnd
 
 .Text:
-	text "なまえ　ビリリダマ"
-	line "モンスター　ボールに　そっくり！"
+	text "NAME: BIRIRIDAMA"
+	line "VOLTORB LOOKS"
+	cont "JUST LIKE A BALL!"
 	prompt
 
 FuchsiaCityKangaskhanSignText:
@@ -120,11 +130,12 @@ FuchsiaCityKangaskhanSignText:
 	jp TextScriptEnd
 
 .Text:
-	text "なまえ　ガルーラ"
-	line "なかの　よい　おやこ　#！"
+	text "NAME: GARURA"
+	line "FRIENDLY PARENT"
+	cont "AND CHILD #!"
 
-	para "おなかに　こどもを　いれて"
-	line "そだてて　います！"
+	para "RAISES BABY IN"
+	line "POUCH ON BELLY!"
 	prompt
 
 FuchsiaCitySlowpokeSignText:
@@ -136,9 +147,9 @@ FuchsiaCitySlowpokeSignText:
 	jp TextScriptEnd
 
 .Text:
-	text "なまえ　ヤドン"
-	line "ひとなつこい　せいかくが　にんき！"
-	cont "うごきが　のろい　#！"
+	text "NAME: YADON"
+	line "FRIENDLY POPULAR"
+	cont "SLOWPOKE #!"
 	prompt
 
 FuchsiaCityLaprasSignText:
@@ -150,9 +161,9 @@ FuchsiaCityLaprasSignText:
 	jp TextScriptEnd
 
 .Text:
-	text "なまえ　ラプラス"
-	line "シー　ドラゴン　とも　よばれる"
-	cont "うみの　おうじゃ　です！"
+	text "NAME: LAPLACE"
+	line "KING OF THE SEAS·"
+	cont "THE SEA DRAGON!"
 	prompt
 
 FuchsiaCityFossilSignText:
@@ -179,17 +190,18 @@ FuchsiaCityFossilSignText:
 	jp TextScriptEnd
 
 .OmanyteText:
-	text "なまえ　オムナイト"
-	line "カセキ　から　いき　かえった"
-	cont "めずらしい　#！"
+	text "NAME: OMNITE"
+	line "REVIVED FROM AN"
+	cont "ANCIENT FOSSIL!"
 	prompt
 
 .KabutoText:
-	text "なまえ　カブト"
-	line "カセキ　から　いき　かえった"
-	cont "めずらしい　#！"
+	text "NAME: KABUTO"
+	line "REVIVED FROM AN"
+	cont "ANCIENT FOSSIL!"
 	prompt
 
 .UndeterminedText:
 	text "<⋯>"
 	done
+

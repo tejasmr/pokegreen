@@ -39,18 +39,21 @@ Route6CooltrainerM1Text:
 	jp TextScriptEnd
 
 Route6CooltrainerM1BattleText:
-	text "だれだ！"
-	line "ぼくらの　ひそひそ　ばなしを"
-	cont "ぬすみ　ぎき　してる　やつは！"
+	text "WHO IS THAT!"
+	line "EAVESDROPPING ON"
+	cont "OUR SECRET TALK"
+	cont "『HISOHISO』?!"
 	done
 
 Route6CooltrainerM1EndBattleText:
-	text "なぜか　かてないんだ"
+	text "FOR SOME REASON"
+	line "I CANT WIN!"
 	prompt
 
 Route6CooltrainerM1AfterBattleText: ; used by both COOLTRAINER_M1 and COOLTRAINER_F1
 Route6CooltrainerF1AfterBattleText:
-	text "<⋯>　<⋯>　ひそ　ひそ<⋯>"
+	text "<⋯> <⋯>WHISPER"
+	line "『HISOHISO』<⋯>"
 	done
 
 Route6CooltrainerF1Text:
@@ -60,14 +63,14 @@ Route6CooltrainerF1Text:
 	jp TextScriptEnd
 
 Route6CooltrainerF1BattleText:
-	text "ちょっと　そこの　きみ！"
-	line "ひとの　たち　ばなしを"
-	cont "ぬすみ　ぎき　するもんじゃないわ"
+	text "HEY YOU OVER"
+	line "THERE! DONT SPY"
+	cont "ON PEOPLES TALK!"
 	done
 
 Route6CooltrainerF1EndBattleText:
-	text "やん！"
-	line "やられる　なんて　なさけないわ"
+	text "EEK! TO LOSE IS"
+	line "SO PATHETIC!"
 	prompt
 
 Route6Youngster1Text:
@@ -77,18 +80,20 @@ Route6Youngster1Text:
 	jp TextScriptEnd
 
 Route6Youngster1BattleText:
-	text "この　へんまで　くると"
-	line "あんまり　むしも　いないんだ"
+	text "COMING THIS FAR·"
+	line "THERE AINT MANY"
+	cont "BUGS AROUND!"
 	done
 
 Route6Youngster1EndBattleText:
-	text "そんな　バカなあー"
+	text "NO WAY! HOW"
+	line "RIDICULOUS!"
 	prompt
 
 Route6Youngster1AfterBattleText:
-	text "ぼく　やっぱり"
-	line "むし　#　すきだし"
-	cont "トキワの　もりに　かえろうかな"
+	text "I LOVE BUG #·"
+	line "MAYBE I RETURN"
+	cont "TO TOKIWA FOREST"
 	done
 
 Route6CooltrainerM2Text:
@@ -98,19 +103,21 @@ Route6CooltrainerM2Text:
 	jp TextScriptEnd
 
 Route6CooltrainerM2BattleText:
-	text "なんだい"
-	line "おれに　なんか　よう？"
+	text "WHAT? DO YOU"
+	line "HAVE BUSINESS"
+	cont "WITH ME?"
 	done
 
 Route6CooltrainerM2EndBattleText:
-	text "なさけない"
-	line "うられた　ケンカに　まけた"
+	text "SO SHAMEFUL!"
+	line "I LOST A FIGHT"
+	cont "I WAS SOLD!"
 	prompt
 
 Route6CooltrainerM2AfterBattleText:
-	text "もっと　たくさん"
-	line "#　もって　あるいてた"
-	cont "ほうが　あんしんだな"
+	text "WALKING WITH"
+	line "MORE # WOULD"
+	cont "BE SAFER FOR ME!"
 	done
 
 Route6CooltrainerF2Text:
@@ -120,19 +127,22 @@ Route6CooltrainerF2Text:
 	jp TextScriptEnd
 
 Route6CooltrainerF2BattleText:
-	text "わたし？"
-	line "<⋯>　<⋯>　<⋯>　うーん"
-	cont "つきあっても　いいかな"
+	text "ME? <⋯> <⋯> <⋯>"
+	line "WELL· I GUESS"
+	cont "I CAN ENTERTAIN"
+	cont "A MATCH WITH YOU"
 	done
 
 Route6CooltrainerF2EndBattleText:
-	text "<⋯>　どうも"
-	line "うまく　いかないわ"
+	text "<⋯>THINGS DONT"
+	line "GO WELL FOR ME!"
 	prompt
 
 Route6CooltrainerF2AfterBattleText:
-	text "あたしも　つよく　なりたいの"
-	line "コツを　おしえて　くれない　かしら"
+	text "I WANT TO GET"
+	line "STRONGER TOO!"
+	cont "WONT YOU TEACH"
+	cont "ME THE SECRET?"
 	done
 
 Route6Youngster2Text:
@@ -142,21 +152,26 @@ Route6Youngster2Text:
 	jp TextScriptEnd
 
 Route6Youngster2BattleText:
-	text "おや？　みかけない　かお　だ！"
-	line "つよいのかな？"
+	text "OH? AN UNSEEN"
+	line "FACE AROUND!"
+	cont "ARE YOU STRONG?"
 	done
 
 Route6Youngster2EndBattleText:
-	text "そりゃ　ないよ"
+	text "COME ON NOW!"
+	line "THATS TOO MUCH!"
 	prompt
 
 Route6Youngster2AfterBattleText:
-	text "#が　よわいのか"
-	line "ぼくの　うでが　わるいのか<⋯>"
-	cont "どっちだと　おもう？"
+	text "IS MY # WEAK·"
+	line "OR IS MY SKILL"
+	cont "LACKING<⋯>?"
+	cont "WHAT DO YOU"
+	cont "THINK?"
 	done
 
 Route6UndergroundPathSignText:
-	text "ここから　ちかつうろ"
-	line "ハナダ　シティ　<⋯>　クチバ　シティ"
+	text "UNDERGROUND PATH"
+	line "HANADA CITY <⋯>"
+	cont "KUCHIBA CITY"
 	done

@@ -16,15 +16,21 @@ CeladonPokecenterNurseText:
 	script_pokecenter_nurse
 
 CeladonPokecenterGentlemanText:
-	text "#のふえで　ねてる　#が"
-	line "とび　おきるのは"
+	text "SLEEPING # JUMP"
+	line "AWAKE AT SOUND"
+	cont "OF # FLUTE"
 
-	para "ひとには　きこえない"
-	line "とくべつな　おとも　でてる　からだよ"
+	para "BECAUSE IT PLAYS"
+	line "A SPECIAL TONE"
+	cont "INAUDIBLE TO"
+	cont "HUMAN EARS!"
 	done
 
 CeladonPokecenterBeautyText:
-	text "セキチク　シティから　きたんだけど"
-	line "サイクリング　ロード"
-	cont "のぼりざか　だから　つかれちゃった！"
+	text "CAME UP FROM"
+	line "SEKICHIKU CITY!"
+
+	para "CYCLING ROAD IS"
+	line "ALL UPHILL SO"
+	cont "I AM EXHAUSTED!"
 	done
